@@ -1,0 +1,26 @@
+name: Prose style
+
+# The AI tics in STYLE.md's "Don't" list were removed by hand once. Nothing but a
+# check keeps them out of the next writing pass, which is what this is.
+#
+# Deliberately a separate workflow rather than a step in pages.yml: a false
+# positive here should turn a commit red, not stop the site from updating. If the
+# harder gate is wanted later, move the run step into pages.yml ahead of the build.
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  style:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node build/style.js

@@ -29,7 +29,7 @@ Only protects what it covers, so gaps are exploited. Cage armor adds weight, res
 Cage and slat armor improvised and then standardized on Russian and Ukrainian vehicles, the extensive netted supply corridors in Ukraine, netting over trenches and command posts, and the reintroduction of harbour booms and barriers against uncrewed surface vessels.
 
 ## Economic profile
-This is the cheapest counter-drone measure by a very wide margin and the one with the best cost exchange, which is why it has been adopted universally by forces facing drone attack regardless of what else they field. There is no real industry — it is netting, steel bar, and labor. Its prominence is a useful corrective to a field dominated by expensive systems: the most widely used counter to FPV drones is currently a net.
+This is the cheapest counter-drone measure by a very wide margin and the one with the best cost exchange, which is why it has been adopted universally by forces facing drone attack regardless of what else they field. There is no real industry behind it. The bill of materials is netting, steel bar, and labor. Its prominence is a useful corrective to a field dominated by expensive systems: the most widely used counter to FPV drones is currently a net.
 
 ## Videos
 
