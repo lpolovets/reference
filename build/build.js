@@ -4,12 +4,14 @@
 //   node build/build.js                     -> site/<slug>/ for every sheet + site/index.html
 //   node build/build.js --artifact <slug>   -> dist/<slug>.artifact.html (fragment, ASCII-escaped,
 //                                              for claude.ai Artifact republish)
+//   node build/build.js --check             -> parse and validate every sheet, write nothing
 'use strict';
 const fs = require('fs');
 const path = require('path');
 
 const ROOT = path.join(__dirname, '..');
 const SHARED = path.join(ROOT, 'shared');
+const CHECK_ONLY = process.argv.includes('--check');
 const ai = process.argv.indexOf('--artifact');
 const ARTIFACT_SLUG = ai !== -1 ? process.argv[ai + 1] : null;
 if (ai !== -1 && !ARTIFACT_SLUG) {
@@ -235,7 +237,12 @@ const sheetsDir = path.join(ROOT, 'sheets');
 const slugs = fs.readdirSync(sheetsDir).filter(d => fs.existsSync(path.join(sheetsDir, d, 'sheet.json'))).sort();
 const all = slugs.map(slug => loadSheet(path.join(sheetsDir, slug)));
 
-if (ARTIFACT_SLUG) {
+if (CHECK_ONLY) {
+  // Validation pass for parallel editors: loadSheet() above already ran every
+  // frontmatter, video-line, and groupBlurbs check, so reaching here means clean.
+  const n = all.reduce((t, s) => t + s.entries.length, 0);
+  console.log('ok: ' + all.length + ' sheets, ' + n + ' entries');
+} else if (ARTIFACT_SLUG) {
   // Fragment for the Artifact tool (it supplies doctype/head/body). ASCII-escape
   // everything because the artifact host serves no charset declaration.
   const sheetData = all.find(s => s.sheet.slug === ARTIFACT_SLUG);
@@ -263,8 +270,12 @@ if (ARTIFACT_SLUG) {
     const out = path.join(ROOT, 'site', sheet.slug);
     fs.mkdirSync(out, { recursive: true });
     fs.writeFileSync(path.join(out, 'index.html'), html);
+    // Images only: the directory also holds prompts.json, which is a build input.
     const idir = path.join(sheetsDir, sheet.slug, 'images');
-    if (fs.existsSync(idir)) fs.cpSync(idir, path.join(out, 'images'), { recursive: true });
+    if (fs.existsSync(idir)) fs.cpSync(idir, path.join(out, 'images'), {
+      recursive: true,
+      filter: src => fs.statSync(src).isDirectory() || /\.(jpg|png|webp)$/i.test(src),
+    });
     fs.writeFileSync(path.join(out, 'data.json'), JSON.stringify({ sheet: { ...sheet, guide: undefined }, entries }, null, 1));
     console.log('site/' + sheet.slug + '/index.html:', entries.length, 'entries,', html.length, 'bytes (+ data.json)');
   }
