@@ -30,8 +30,8 @@ Prototype aluminum parts, aerospace castings, tooling components.
 
 ## Videos
 
-- https://www.youtube.com/watch?v=QlPqsukn6Bc — Rubber plaster mold casting for aluminum (Armstrong Mold, 2 minutes, 100k+ views)
-- https://www.youtube.com/watch?v=GMIysbl9Smc — Aluminum casting with a plaster mold, start to finish (Peter Rohrbacher, 6 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=QlPqsukn6Bc — RPM-Rubber Plaster Mold Casting Process for Aluminum (ArmstrongMold, 2 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=GMIysbl9Smc — Aluminum casting, from start to finish using a plaster mold (Peter Rohrbacher, 6 minutes, 10k+ views)
 
 ## Further reading
 

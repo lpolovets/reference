@@ -30,9 +30,9 @@ Transmission housings, electronics enclosures, appliance components, structural 
 
 ## Videos
 
-- https://www.youtube.com/watch?v=iSyBsdJkQu8 — The high-pressure die casting process (RCM Industries, 2 minutes, 100k+ views)
-- https://www.youtube.com/watch?v=xbynUVj3hAE — How die casting aluminum works: How It's Made (Factories, 5 minutes, 100k+ views)
-- https://www.youtube.com/watch?v=EAbH168XGkM — High-pressure die casting production line (GF Casting Solutions, 4 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=iSyBsdJkQu8 — What is the Die Casting Process? The High Pressure Die Casting Process (RCM Industries, Inc., 2 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=xbynUVj3hAE — How Die Casting Aluminum Works - How It's Made (Factories, 5 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=EAbH168XGkM — High-Pressure Die-Casting at GF Casting Solutions (GF Casting Solutions, 4 minutes, 10k+ views)
 
 ## Further reading
 

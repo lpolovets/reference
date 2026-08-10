@@ -30,8 +30,8 @@ Wheels, suspension components, cylinder heads, pressure housings.
 
 ## Videos
 
-- https://www.youtube.com/watch?v=n4FUBQfLDW4 — Low-pressure die casting animation (ForceBeyond, 1 minute, 10k+ views)
-- https://www.youtube.com/watch?v=O8ztvykvDh4 — Casting alloy wheels by low pressure (GMP Italia, 3 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=n4FUBQfLDW4 — Permanent Mold Low Pressure Die Casting Animation (ForceBeyond , 1 minute, 10k+ views)
+- https://www.youtube.com/watch?v=O8ztvykvDh4 — Alloy Wheel Making #1 - Low Pressure - GMP Italia (G.M.P. Group S.r.l., 3 minutes, 10k+ views)
 
 ## Further reading
 

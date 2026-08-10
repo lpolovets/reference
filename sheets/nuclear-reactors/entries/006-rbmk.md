@@ -9,7 +9,7 @@ regulatory: proven
 ---
 
 ## Description
-The RBMK is the Soviet graphite-moderated, water-cooled channel reactor, and it's Chernobyl's design. It was built for cheap plutonium-compatible scale using pressure tubes and no containment. Two design choices caused the 1986 accident: a positive void coefficient (boiling coolant *increased* reactivity) and control rods whose graphite tips briefly added reactivity on insertion. Together they turned a test into the worst reactor accident in history. Post-Chernobyl modifications removed the worst characteristics.
+The RBMK is the Soviet graphite-moderated, water-cooled channel reactor, and it's Chernobyl's design. It was built for cheap plutonium-compatible scale using pressure tubes and no containment. Two design choices caused the 1986 accident: a positive void coefficient (boiling coolant raised reactivity instead of suppressing it) and control rods whose graphite tips briefly added reactivity on insertion. Together they turned a test into the worst reactor accident in history. Post-Chernobyl modifications removed the worst characteristics.
 
 ## Strengths and weaknesses
 The RBMK offered on-power refueling, no enrichment-heavy fuel demands, and no giant pressure vessel, so it was cheap and scalable, which is why 17 were built. Weaknesses: the void coefficient and scram behavior made it unusually unforgiving; graphite fires spread contamination in a way water reactors can't; there's no containment; and the design can't be licensed anywhere outside its legacy fleet. It's the textbook case of physics choices setting up an institutional catastrophe.

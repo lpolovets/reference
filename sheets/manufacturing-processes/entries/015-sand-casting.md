@@ -34,9 +34,9 @@ Tooling costs are low to moderate, which makes it a good fit from prototypes thr
 
 ## Videos
 
-- https://www.youtube.com/watch?v=pwaXCko_Tkw — Sand casting process explained (SHArP Edge Global, 3 minutes, 500k+ views)
-- https://www.youtube.com/watch?v=PJ84dG-1Vzc — Aluminum sand casting at home (Heinrichs Made, 9 minutes, 10k+ views)
-- https://www.youtube.com/watch?v=XkJHMEulEds — Inside a foundry: sand, gravity die, and high-pressure casting (Engineered DAILY TV, 4 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=pwaXCko_Tkw — [ Sand Casting ] - Learn More about Sand Casting Process (SHArPEdgeGlobal, 3 minutes, 500k+ views)
+- https://www.youtube.com/watch?v=PJ84dG-1Vzc — Aluminum Sand Casting Process : How to do casting at home (Heinrichs Made, 9 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=XkJHMEulEds — Aluminium casting: Gravity die, sand and high pressure CASTING: Inside the FOUNDRY (Engineered DAILY TV, 4 minutes, 10k+ views)
 
 ## Further reading
 

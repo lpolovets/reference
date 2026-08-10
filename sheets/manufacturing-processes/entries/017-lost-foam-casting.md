@@ -30,9 +30,9 @@ Engine blocks, cylinder heads, manifolds, pump housings.
 
 ## Videos
 
-- https://www.youtube.com/watch?v=KRW_DniO68M — Automated lost-foam casting line (FATA Aluminum, 16 minutes, 100k+ views)
-- https://www.youtube.com/watch?v=Bv1uV2MHMKk — Lost foam casting: foam preparation (VogMan, 11 minutes, 10k+ views)
-- https://www.youtube.com/watch?v=8j1bFuvFVe4 — Turning foam into metal: DIY lost foam casting (Heinrichs Made, 11 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=KRW_DniO68M — FATA Aluminum: Lost Foam Casting System (FATA Aluminum, 16 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=Bv1uV2MHMKk — Lost Foam Casting: Foam Preparation - by VOGMAN (VogMan, 11 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=8j1bFuvFVe4 — EASY! Lost Foam Casting Process - Casting Foam - Turning foam into METAL (Heinrichs Made, 11 minutes, 10k+ views)
 
 ## Further reading
 

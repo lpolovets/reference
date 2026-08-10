@@ -9,7 +9,7 @@ regulatory: pre
 ---
 
 ## Description
-Thorium is a fuel strategy rather than a reactor design. Th-232 is fertile, breeding fissile U-233 under neutron irradiation. It is 3–4× more abundant than uranium, it breeds in a *thermal* spectrum (which is unique), and its waste chain is shorter-lived. The canonical embodiment is the Liquid Fluoride Thorium Reactor (LFTR), a two-fluid molten-salt breeder that continuously separates protactinium. India holds vast thorium and little uranium, and has pursued a three-stage program toward thorium for seventy years.
+Thorium is a fuel strategy rather than a reactor design. Th-232 is fertile, breeding fissile U-233 under neutron irradiation. It is 3–4× more abundant than uranium, it is the only fertile material that breeds in a thermal spectrum rather than a fast one, and its waste chain is shorter-lived. The canonical embodiment is the Liquid Fluoride Thorium Reactor (LFTR), a two-fluid molten-salt breeder that continuously separates protactinium. India holds vast thorium and little uranium, and has pursued a three-stage program toward thorium for seventy years.
 
 ## Strengths and weaknesses
 The fuel is abundant, breeding works in a thermal spectrum, and transuranic waste is reduced. U-233 also comes contaminated with U-232, whose decay chain emits strong gammas, and that makes weapons diversion genuinely harder. Weaknesses: thorium needs a fissile starter (enriched uranium or plutonium), so it solves no startup problem. The same U-232 gammas that deter proliferation also make fuel handling difficult. Continuous protactinium separation is unbuilt chemical engineering. And the economic case is weak while uranium stays cheap, which has been thorium's perennial problem since the 1960s.

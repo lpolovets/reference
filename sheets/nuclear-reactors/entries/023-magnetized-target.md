@@ -24,7 +24,7 @@ Compression runs roughly a thousand times slower than laser ICF, which is what l
 General Fusion (Vancouver, 20+ years, Bezos-backed; its LM26 machine demonstrated plasma compression milestones in 2025 amid deep funding difficulties), Helion arguably borrows MTF physics in pulsed form, historic LANL FRX-L and Soviet MAGO programs.
 
 ## Economic profile
-On paper this is the cheapest path to a fusion *plant* rather than a fusion *experiment*, because everything expensive about tokamaks and lasers is replaced by pistons and pumps. In practice the category's fortunes track one company's balance sheet. For diligence, price the plasma-compression physics as the whole risk, because the engineering story, uniquely in fusion, is already plausible.
+On paper this is the cheapest path to a plant that sells power rather than another experiment, because everything expensive about tokamaks and lasers is replaced by pistons and pumps. In practice the category's fortunes track one company's balance sheet. For diligence, price the plasma-compression physics as the whole risk, because the engineering story, uniquely in fusion, is already plausible.
 
 ## Videos
 
