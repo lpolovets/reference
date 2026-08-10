@@ -21,13 +21,29 @@ function makeRenderer(SHEET, EMBED_OK) {
   // measured on the 212-entry manufacturing sheet, per-term regexes cost 7.4 ms
   // per re-render against 0.7 ms combined, and the client re-renders on every
   // filter, sort and search keystroke.
+  // Longest form first, because alternation takes the first branch that matches
+  // at a given position rather than the longest. Declared order would mark
+  // "redox" inside "redox flow" and "prussian blue" inside "prussian blue
+  // analog", both of which are separate glossary rows in the battery sheet.
   const TERMS = SHEET.terms || null;
-  const TERM_RE = TERMS && TERMS.length
-    ? new RegExp("\\b(?:" + TERMS.map(t => t.m).join("|") + ")\\b", "gi") : null;
+  const TERM_FORMS = TERMS ? TERMS.reduce((a, t) => a.concat(t.m.split("|")), []).sort((a, b) => b.length - a.length) : null;
+  const TERM_RE = TERM_FORMS && TERM_FORMS.length
+    ? new RegExp("\\b(?:" + TERM_FORMS.join("|") + ")\\b", "gi") : null;
   // Which alternative matched is not something the regex tells us, so map every
   // declared form back to its term key once, up front.
+  //
+  // A form written in all caps carries its own casing as `cs` and only marks an
+  // exact-case hit. Matching is case-insensitive because prose capitalizes at
+  // the start of a sentence, but an acronym is a different word from the
+  // ordinary one that shares its letters: LEO is low Earth orbit and "Amazon
+  // Leo" is a product, FOG is a fiber-optic gyro and fog is weather, INS is an
+  // inertial unit and "design-ins" are sales. Deriving the rule from the
+  // declared casing keeps it automatic — no row has to opt in — and leaves
+  // mixed-case forms like Ra, mAh and CubeSat matching either way.
   const TERM_BY_WORD = {};
-  if (TERMS) for (const t of TERMS) for (const w of t.m.split("|")) TERM_BY_WORD[w.toLowerCase()] = t.k;
+  if (TERMS) for (const t of TERMS) for (const w of t.m.split("|")) {
+    TERM_BY_WORD[w.toLowerCase()] = { k: t.k, cs: /[A-Z]/.test(w) && !/[a-z]/.test(w) ? w : null };
+  }
 
   // Marks the first occurrence of each term, per card. seen is the card's set, so
   // a term that appears in Description and again in Examples is marked once.
@@ -35,10 +51,13 @@ function makeRenderer(SHEET, EMBED_OK) {
     if (!TERM_RE || !seen) return html;
     TERM_RE.lastIndex = 0;
     return html.replace(TERM_RE, word => {
-      const k = TERM_BY_WORD[word.toLowerCase()];
-      if (!k || seen.has(k)) return word;
-      seen.add(k);
-      return '<span class="gt" data-g="' + k + '" tabindex="0">' + word + "</span>";
+      const e = TERM_BY_WORD[word.toLowerCase()];
+      if (!e || seen.has(e.k)) return word;
+      // Wrong casing for an acronym: leave it plain, but do not consume the
+      // term, so a properly capitalized use later in the card still marks.
+      if (e.cs && word !== e.cs) return word;
+      seen.add(e.k);
+      return '<span class="gt" data-g="' + e.k + '" tabindex="0">' + word + "</span>";
     });
   }
 

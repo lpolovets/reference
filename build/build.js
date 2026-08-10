@@ -141,6 +141,37 @@ function parseEntry(sheet, file, src) {
   return entry;
 }
 
+// A data-match form has to survive two steps to actually mark anything: the
+// combined alternation has to match it, and render.js then has to find the word
+// it matched in a map keyed by the literal forms. A regex-y form like
+// `carburiz\w+` passes the first and silently fails the second — it matches
+// "carburizing", looks up "carburizing", finds nothing, and leaves the word
+// plain. Nothing about that is visible in the output, so drive both steps here
+// and fail the build instead of shipping a pattern that does nothing.
+function checkGlossaryTerms(terms, slug) {
+  if (!terms.length) return;
+  // Same longest-first ordering render.js uses, or this would clear forms the
+  // shipped page actually mangles.
+  const forms = terms.reduce((a, t) => a.concat(t.m.split('|')), []).sort((a, b) => b.length - a.length);
+  const re = new RegExp('\\b(?:' + forms.join('|') + ')\\b', 'gi');
+  const byWord = {};
+  for (const t of terms) for (const w of t.m.split('|')) byWord[w.toLowerCase()] = t.k;
+  const bad = [];
+  for (const t of terms) {
+    for (const form of t.m.split('|')) {
+      re.lastIndex = 0;
+      const m = re.exec(form);
+      if (!m || m[0] !== form) { bad.push([t.t, form, m ? 'matches as "' + m[0] + '"' : 'never matches']); continue; }
+      if (byWord[form.toLowerCase()] !== t.k) bad.push([t.t, form, 'claimed by "' + byWord[form.toLowerCase()] + '"']);
+    }
+  }
+  if (bad.length) {
+    throw new Error(slug + '/glossary.html: ' + bad.length + ' data-match form(s) cannot mark anything:\n' +
+      bad.map(([t, f, why]) => '  ' + t + ' -> "' + f + '" (' + why + ')').join('\n') +
+      '\nForms must be literal words: no regex metacharacters, and they must start and end on a word character.');
+  }
+}
+
 function loadSheet(dir) {
   const sheet = JSON.parse(fs.readFileSync(path.join(dir, 'sheet.json'), 'utf8'));
   const edir = path.join(dir, 'entries');
@@ -210,6 +241,7 @@ function loadSheet(dir) {
         m: m[1],
       });
     }
+    checkGlossaryTerms(sheet.glossaryTerms, path.basename(dir));
   }
   return { sheet, entries, incomplete, partial };
 }
