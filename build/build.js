@@ -8,6 +8,7 @@
 'use strict';
 const fs = require('fs');
 const path = require('path');
+const { writeIcons } = require('./icons.js');
 
 const ROOT = path.join(__dirname, '..');
 const SHARED = path.join(ROOT, 'shared');
@@ -192,6 +193,40 @@ const YEAR = String(new Date().getFullYear());
 const PREPAINT = '<script>(function(){var t;try{t=localStorage.getItem("theme")}catch(e){}' +
   'document.documentElement.setAttribute("data-theme",t||"dark");})();</' + 'script>\n';
 
+// ---- document head ----
+// Where the site actually lives, needed absolute for canonical and og:url.
+const SITE = 'https://humbaventures.com/reference/';
+const SITE_NAME = 'Humba Ventures Reference Sheets';
+const escAttr = s => esc(s).replace(/"/g, '&quot;');
+// path is the page's location under SITE ('' for the landing page); up is the
+// prefix back to the site root, since sheet and about pages sit one level below
+// it and Pages serves the whole thing from /reference/, not from the domain root.
+// No og:image: a useful card would have to render the sheet's title as text, and
+// nothing in this repo can rasterize a font. A titled, described unfurl without
+// a picture beats a generic picture on all 18 sheets.
+function head({ title, description, path: p, up }) {
+  const t = escAttr(title), d = escAttr(description), url = SITE + p;
+  return '<meta charset="utf-8">\n' + PREPAINT +
+    '<meta name="viewport" content="width=device-width, initial-scale=1">\n' +
+    '<title>' + esc(title) + '</title>\n' +
+    '<meta name="description" content="' + d + '">\n' +
+    '<link rel="canonical" href="' + url + '">\n' +
+    // The .ico actually carries 16, 32 and 48; declaring only 32x32 is deliberate,
+    // because an unqualified .ico outranks the SVG in Chrome and the SVG is the
+    // one that stays sharp on a high-DPI tab. The .ico is the fallback.
+    '<link rel="icon" href="' + up + 'favicon.ico" sizes="32x32">\n' +
+    '<link rel="icon" href="' + up + 'favicon.svg" type="image/svg+xml">\n' +
+    '<link rel="apple-touch-icon" href="' + up + 'apple-touch-icon.png">\n' +
+    '<meta property="og:type" content="website">\n' +
+    '<meta property="og:site_name" content="' + SITE_NAME + '">\n' +
+    '<meta property="og:title" content="' + t + '">\n' +
+    '<meta property="og:description" content="' + d + '">\n' +
+    '<meta property="og:url" content="' + url + '">\n' +
+    '<meta name="twitter:card" content="summary">\n' +
+    '<meta name="twitter:title" content="' + t + '">\n' +
+    '<meta name="twitter:description" content="' + d + '">\n';
+}
+
 function composeBody(sheetData, artifact) {
   const { sheet, entries } = sheetData;
   const groups = new Set(entries.map(x => x.p + '|' + x.g));
@@ -314,11 +349,12 @@ if (ARTIFACT_SLUG) {
 } else {
   // The repo is named "reference", so Pages mounts at /reference/; each sheet
   // builds into its own subdirectory and the root page indexes them all.
+  writeIcons(path.join(ROOT, 'site'));
   for (const sheetData of all) {
     const { sheet, entries } = sheetData;
-    const html = '<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n' + PREPAINT +
-      '<meta name="viewport" content="width=device-width, initial-scale=1">\n' +
-      '<title>' + sheet.docTitle + '</title>\n</head>\n<body>\n' + composeBody(sheetData, false) +
+    const html = '<!doctype html>\n<html lang="en">\n<head>\n' +
+      head({ title: sheet.docTitle, description: sheet.blurb, path: sheet.slug + '/', up: '../' }) +
+      '</head>\n<body>\n' + composeBody(sheetData, false) +
       '</body>\n</html>\n';
     const out = path.join(ROOT, 'site', sheet.slug);
     fs.mkdirSync(out, { recursive: true });
@@ -367,12 +403,24 @@ if (ARTIFACT_SLUG) {
     '<svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="7" cy="7" r="5" stroke="currentColor" stroke-width="1.6"/><path d="M11 11l3.6 3.6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>' +
     '<input id="gq" type="search" placeholder="Search all ' + totalEntries + ' entries across ' + all.length + ' sheets…" aria-label="Search all sheets"></label>' +
     '<span class="rescount" id="gcount"></span></div></div>\n<div id="ghits" class="ghits" hidden></div>';
-  const landing = '<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n' + PREPAINT +
-    '<meta name="viewport" content="width=device-width, initial-scale=1">\n' +
-    '<title>Reference Sheets</title>\n<style>\n' + THEME + '</style>\n</head>\n<body>\n' +
+  // The counts are appended at build time rather than written into the string, so
+  // the description a shared link unfurls with cannot drift as sheets are added.
+  const LANDING_LEDE = 'Practical, searchable references for deep-tech diligence and engineering decisions.';
+  const landing = '<!doctype html>\n<html lang="en">\n<head>\n' +
+    head({
+      title: 'Reference Sheets',
+      description: LANDING_LEDE + ' ' + totalEntries + ' entries across ' + all.length +
+        // Serial comma, because category names contain "and" themselves and
+        // "defense and aerospace and bioprocessing" reads as one thing.
+        ' sheets, covering ' + catOrder.map(c => c.toLowerCase())
+          .reduce((s, c, i, a) => s + (i === 0 ? '' : i < a.length - 1 ? ', '
+            : a.length === 2 ? ' and ' : ', and ') + c, '') + '.',
+      path: '', up: './',
+    }) +
+    '<style>\n' + THEME + '</style>\n</head>\n<body>\n' +
     '<div class="wrap">\n<header class="site">\n<div class="hdr-top">\n' + logoFor('landing') + '</div>\n' +
     '<h1>Reference Sheets</h1>\n' +
-    '<p class="lede">Practical, searchable references for deep-tech diligence and engineering decisions.</p>\n' +
+    '<p class="lede">' + LANDING_LEDE + '</p>\n' +
     '</header>\n' + gsearch + '\n' + sections + '\n' +
     '<footer class="site">&copy; ' + YEAR + ' HUMBA VENTURES &middot; <a href="about/">How these sheets are made</a></footer>\n</div>\n' +
     '<script>\nconst LSHEETS = ' + JSON.stringify(lsheets) + ';\n' + LANDING_JS + '</script>\n</body>\n</html>\n';
@@ -390,12 +438,13 @@ if (ARTIFACT_SLUG) {
     .replace(/{{N_VIDEOS}}/g, num(all.reduce((n, s) =>
       n + s.entries.reduce((m, e) => m + (e.vid ? e.vid.length : 0), 0), 0)))
     .replace(/{{YEAR}}/g, YEAR);
-  const aboutPage = '<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n' + PREPAINT +
-    '<meta name="viewport" content="width=device-width, initial-scale=1">\n' +
-    '<title>How these sheets are made</title>\n<style>\n' + THEME + '</style>\n</head>\n<body>\n' +
+  const ABOUT_LEDE = 'What is in the reference sheets, where the numbers come from, and how the links and videos get checked.';
+  const aboutPage = '<!doctype html>\n<html lang="en">\n<head>\n' +
+    head({ title: 'How these sheets are made', description: ABOUT_LEDE, path: 'about/', up: '../' }) +
+    '<style>\n' + THEME + '</style>\n</head>\n<body>\n' +
     '<div class="wrap">\n<header class="site">\n<div class="hdr-top">\n' + logoFor('sheet') + '</div>\n' +
     '<h1>How these sheets are made</h1>\n' +
-    '<p class="lede">What is in the reference sheets, where the numbers come from, and how the links and videos get checked.</p>\n' +
+    '<p class="lede">' + ABOUT_LEDE + '</p>\n' +
     '</header>\n<section class="guide active">\n' + about + '\n</section>\n' +
     '<footer class="site">&copy; ' + YEAR + ' HUMBA VENTURES &middot; <a href="../">All reference sheets</a></footer>\n' +
     '</div>\n</body>\n</html>\n';
