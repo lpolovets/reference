@@ -43,6 +43,30 @@ function parseFrontmatter(block, file) {
   return out;
 }
 
+// Video lines read "Title (Channel, N minutes, band+ views)", and both the title
+// and the channel may contain their own parentheses — "JoVE (Journal of Visualized
+// Experiments)", "Sumitomo (SHI) Demag", "Tesla 4680 Teardown (Part 2)". Matching
+// on " (" is ambiguous in both directions: greedy splits the Sumitomo case wrong,
+// lazy splits the Part 2 case wrong. Scan back from the end for the balanced group
+// that closes the line instead, which is unambiguous. Returns the title alone when
+// there is no metadata to split off, so an unadorned line still renders.
+function splitVideoMeta(s) {
+  if (s.endsWith(')')) {
+    let depth = 0, open = -1;
+    for (let i = s.length - 1; i >= 0; i--) {
+      if (s[i] === ')') depth++;
+      else if (s[i] === '(') { depth--; if (depth === 0) { open = i; break; } }
+    }
+    if (open > 0 && s[open - 1] === ' ') {
+      const m = s.slice(open + 1, -1).match(/^(.*), (\d+ minutes?), ((?:under 1k|[\d.]+[km]?\+) views)$/);
+      // dur is stored already shortened; it renders as a badge over the thumbnail
+      // where "19 minutes" does not fit.
+      if (m) return { t: s.slice(0, open - 1), c: m[1], dur: m[2].replace(' minutes', ' min').replace(' minute', ' min'), vw: m[3] };
+    }
+  }
+  return { t: s };
+}
+
 function parseEntry(sheet, file, src) {
   const m = src.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
   if (!m) throw new Error(file + ': missing frontmatter (--- ... ---)');
@@ -97,7 +121,7 @@ function parseEntry(sheet, file, src) {
       const idm = lm[1].match(/(?:youtube\.com\/watch\?v=|youtu\.be\/)([\w-]{11})/);
       if (!idm) fail('Videos line is not a YouTube watch URL: ' + line);
       const v = { id: idm[1] };
-      if (lm[2]) v.t = lm[2].trim();
+      if (lm[2]) Object.assign(v, splitVideoMeta(lm[2].trim()));
       return v;
     });
     if (entry.vid.length > 3) fail('at most 3 videos per entry');

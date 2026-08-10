@@ -45,18 +45,37 @@ function makeRenderer(SHEET, EMBED_OK) {
     return rows;
   }
 
+  // Channel and view count sit under the title; runtime goes on the thumbnail,
+  // where a reader expects it. All three were curated by hand into the markdown
+  // and used to be crammed into the title as a trailing parenthetical.
+  const videoMeta = v => [v.c, v.vw].filter(Boolean).join(" · ");
+
   function videosHTML(vid) {
     let h = '<span class="lab">Videos</span>';
     if (EMBED_OK) {
-      h += '<div class="vids">' + vid.map(v =>
-        '<div class="vid"><button class="vplay" data-vid="' + v.id + '" aria-label="Play video' + (v.t ? ': ' + esc(v.t) : '') + '">' +
-        '<img src="https://i.ytimg.com/vi/' + v.id + '/hqdefault.jpg" alt="" loading="lazy">' +
-        '<span class="vbtn" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 18 18"><path d="M5.5 3.5v11l9-5.5z" fill="currentColor"/></svg></span>' +
-        '</button>' + (v.t ? '<span class="vt">' + esc(v.t) + '</span>' : '') + '</div>').join('') + '</div>';
+      h += '<div class="vids">' + vid.map(v => {
+        const meta = videoMeta(v);
+        // The label carries the runtime too, since the badge is aria-hidden and a
+        // screen-reader user picking a video wants to know how long it is.
+        const label = 'Play video' + (v.t ? ': ' + esc(v.t) : '') +
+          (v.dur ? ', ' + esc(v.dur) : '') + (v.c ? ', from ' + esc(v.c) : '');
+        return '<div class="vid"><button class="vplay" data-vid="' + v.id + '" aria-label="' + label + '">' +
+          '<img src="https://i.ytimg.com/vi/' + v.id + '/hqdefault.jpg" alt="" loading="lazy">' +
+          '<span class="vbtn" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 18 18"><path d="M5.5 3.5v11l9-5.5z" fill="currentColor"/></svg></span>' +
+          (v.dur ? '<span class="vdur" aria-hidden="true">' + esc(v.dur) + '</span>' : '') +
+          '</button>' + (v.t ? '<span class="vt">' + esc(v.t) + '</span>' : '') +
+          (meta ? '<span class="vmeta">' + esc(meta) + '</span>' : '') + '</div>';
+      }).join('') + '</div>';
     } else {
-      h += '<p class="ex" style="margin-top:2px">' + vid.map(v =>
-        '<a href="https://www.youtube.com/watch?v=' + v.id + '" target="_blank" rel="noopener">&#9656; ' +
-        (v.t ? esc(v.t) : 'Watch on YouTube') + '</a>').join(' &nbsp;&middot;&nbsp; ') + '</p>';
+      // One per line rather than separated by a middot, now that each carries a
+      // middot-joined caption of its own — run together they read as one string.
+      // Duration joins the caption here because there is no thumbnail to badge.
+      h += '<p class="ex" style="margin-top:2px">' + vid.map(v => {
+        const meta = [v.c, v.dur, v.vw].filter(Boolean).join(" · ");
+        return '<a href="https://www.youtube.com/watch?v=' + v.id + '" target="_blank" rel="noopener">&#9656; ' +
+          (v.t ? esc(v.t) : 'Watch on YouTube') + '</a>' +
+          (meta ? ' <span class="vmeta">' + esc(meta) + '</span>' : '');
+      }).join('<br>') + '</p>';
     }
     return h;
   }
