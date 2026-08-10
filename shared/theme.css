@@ -154,6 +154,18 @@ nav.tabs button:hover{color:var(--ink)}
 :root[data-theme="dark"] .cimg{opacity:.92}
 :root[data-theme="dark"] .cimglink:hover .cimg{opacity:1}
 
+/* ---------- glossary terms in prose ---------- */
+/* A faint dotted underline, not a link colour: it should be findable when looked
+   for and invisible when reading. text-decoration rather than a border so it
+   follows the text across line breaks. */
+.gt{text-decoration:underline dotted var(--ink3);text-underline-offset:3px;text-decoration-thickness:1px;cursor:help}
+.gt:hover,.gt:focus-visible{text-decoration-color:var(--accent);color:var(--ink)}
+/* One tooltip element for the whole page, moved and filled on hover. A tooltip
+   per occurrence would put thousands of hidden nodes in the DOM. */
+#gtip{position:fixed;z-index:65;max-width:min(340px,80vw);background:var(--surface2);border:1px solid var(--line2);border-radius:6px;box-shadow:var(--shadow);padding:9px 11px;font-size:12px;line-height:1.5;color:var(--ink2);pointer-events:none;opacity:0;visibility:hidden;transition:opacity .12s}
+#gtip.show{opacity:1;visibility:visible}
+#gtip b{display:block;color:var(--ink);font-size:11px;font-family:var(--mono);letter-spacing:.04em;text-transform:uppercase;margin-bottom:4px}
+
 /* ---------- illustration lightbox ---------- */
 /* Above the shortcuts panel, since it can be opened from behind nothing else. */
 .lightbox{position:fixed;inset:0;z-index:70;display:flex;align-items:center;justify-content:center;padding:24px;background:rgba(8,10,13,.86);cursor:zoom-out}

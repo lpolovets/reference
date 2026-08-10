@@ -192,6 +192,25 @@ function loadSheet(dir) {
   // Optional, like h2h: no file, no tab.
   const glosPath = path.join(dir, 'glossary.html');
   sheet.glossary = fs.existsSync(glosPath) ? fs.readFileSync(glosPath, 'utf8') : null;
+  // Rows may declare the word forms they should be recognised by in entry prose:
+  //   <tr data-match="sinter|sinters|sintered|sintering">
+  // Opt-in on purpose. Plenty of glossary terms are ordinary words in another
+  // sense — die, green, draft, flash, blank — and inferring matches would
+  // underline half the page wrongly. No data-match, no underline.
+  sheet.glossaryTerms = [];
+  if (sheet.glossary) {
+    for (const m of sheet.glossary.matchAll(/<tr(?:\s+data-match="([^"]*)")?><td>([^<]+)<\/td><td>([\s\S]*?)<\/td><\/tr>/g)) {
+      if (!m[1]) continue;
+      const key = m[2].toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+      sheet.glossaryTerms.push({
+        k: key,
+        t: m[2],
+        // Definitions carry markup (nothing but text so far); strip it for the tooltip.
+        d: m[3].replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim(),
+        m: m[1],
+      });
+    }
+  }
   return { sheet, entries, incomplete, partial };
 }
 
@@ -289,6 +308,9 @@ function composeBody(sheetData, artifact) {
     clientSheet.videosAfter = sheet.videosAfter;
     clientSheet.extraOrder = (sheet.extraSections || []).map(e => e[1]);
   }
+  // Only sheets whose glossary rows opted in carry this, so every other sheet's
+  // output is byte-for-byte what it was.
+  if (sheet.glossaryTerms && sheet.glossaryTerms.length) clientSheet.terms = sheet.glossaryTerms;
 
   // Prerender the whole list into the page so a reader without JavaScript, and
   // any crawler that does not run it, gets the entries rather than an empty div.

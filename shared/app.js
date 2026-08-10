@@ -375,6 +375,56 @@ function openTabFromHash(){
   return true;
 }
 
+// ----- glossary term tooltips -----
+// One tooltip element, moved and filled on demand, with the definitions coming
+// from the same SHEET.terms the renderer used to mark the words. Delegated off
+// #list so it keeps working after a filter rebuilds every card.
+const GTERMS = {};
+(SHEET.terms || []).forEach(t => { GTERMS[t.k] = t; });
+const gtip = $("gtip");
+let gtipFor = null;
+function showTip(el){
+  const t = GTERMS[el.dataset.g];
+  if(!t) return;
+  gtipFor = el;
+  gtip.innerHTML = '<b>'+R.esc(t.t)+'</b>'+R.esc(t.d);
+  gtip.classList.add("show");
+  gtip.setAttribute("aria-hidden","false");
+  // Measure after filling, then keep it on screen: prefer below the word, flip
+  // above when it would run off the bottom, and clamp horizontally.
+  const r = el.getBoundingClientRect(), b = gtip.getBoundingClientRect();
+  const left = Math.max(8, Math.min(r.left, innerWidth - b.width - 8));
+  const below = r.bottom + 8, above = r.top - b.height - 8;
+  gtip.style.left = left+"px";
+  gtip.style.top = (below + b.height > innerHeight - 8 && above > 8 ? above : below)+"px";
+}
+function hideTip(){
+  gtipFor = null;
+  gtip.classList.remove("show");
+  gtip.setAttribute("aria-hidden","true");
+}
+if(SHEET.terms){
+  $("list").addEventListener("mouseover", e=>{
+    const el = e.target.closest(".gt");
+    if(el && el !== gtipFor) showTip(el);
+  });
+  $("list").addEventListener("mouseout", e=>{
+    if(e.target.closest(".gt") && !e.relatedTarget?.closest?.(".gt")) hideTip();
+  });
+  $("list").addEventListener("focusin", e=>{
+    const el = e.target.closest(".gt");
+    if(el) showTip(el); else if(gtipFor) hideTip();
+  });
+  $("list").addEventListener("focusout", e=>{ if(e.target.closest(".gt")) hideTip(); });
+  // Touch has no hover, so a tap opens it and the next tap anywhere closes it.
+  $("list").addEventListener("click", e=>{
+    const el = e.target.closest(".gt");
+    if(el){ e.preventDefault(); el === gtipFor ? hideTip() : showTip(el); }
+    else if(gtipFor) hideTip();
+  });
+  addEventListener("scroll", ()=>{ if(gtipFor) hideTip(); }, {passive:true});
+}
+
 // ----- illustration lightbox -----
 const lightbox = $("lightbox");
 let lbReturn = null;
@@ -439,6 +489,7 @@ document.addEventListener("keydown", e=>{
   if(e.key==="Escape"){
     // Topmost first: the lightbox sits above the shortcuts panel.
     if(!lightbox.hidden){ e.preventDefault(); closeLightbox(); }
+    else if(gtipFor){ e.preventDefault(); hideTip(); }
     else if(!kbdModal.hidden){ e.preventDefault(); showHelp(false); }
     else if(document.activeElement===$("q")){
       e.preventDefault();

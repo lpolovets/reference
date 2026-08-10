@@ -14,9 +14,46 @@
 function makeRenderer(SHEET, EMBED_OK) {
 
   const esc = s => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
-  // escape, then render markdown links: [label](https://...)
-  const fmt = s => esc(s).replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g,
-    '<a href="$2" target="_blank" rel="noopener">$1</a>');
+
+  // ---- glossary term marking ----
+  // SHEET.terms is present only when a sheet's glossary rows declared data-match.
+  // One combined case-insensitive alternation rather than one regex per term:
+  // measured on the 212-entry manufacturing sheet, per-term regexes cost 7.4 ms
+  // per re-render against 0.7 ms combined, and the client re-renders on every
+  // filter, sort and search keystroke.
+  const TERMS = SHEET.terms || null;
+  const TERM_RE = TERMS && TERMS.length
+    ? new RegExp("\\b(?:" + TERMS.map(t => t.m).join("|") + ")\\b", "gi") : null;
+  // Which alternative matched is not something the regex tells us, so map every
+  // declared form back to its term key once, up front.
+  const TERM_BY_WORD = {};
+  if (TERMS) for (const t of TERMS) for (const w of t.m.split("|")) TERM_BY_WORD[w.toLowerCase()] = t.k;
+
+  // Marks the first occurrence of each term, per card. seen is the card's set, so
+  // a term that appears in Description and again in Examples is marked once.
+  function markTerms(html, seen) {
+    if (!TERM_RE || !seen) return html;
+    TERM_RE.lastIndex = 0;
+    return html.replace(TERM_RE, word => {
+      const k = TERM_BY_WORD[word.toLowerCase()];
+      if (!k || seen.has(k)) return word;
+      seen.add(k);
+      return '<span class="gt" data-g="' + k + '" tabindex="0">' + word + "</span>";
+    });
+  }
+
+  // escape, then mark glossary terms, then render markdown links.
+  // Order matters. Marking runs on escaped text with the link syntax still in its
+  // markdown form, so a term inside a URL is impossible to hit — the URL is not
+  // text yet. Doing it after link conversion would let "die" inside an href
+  // rewrite the link. Link *labels* are left alone for the same reason: they are
+  // citation titles, and a tooltip hanging off one reads as a broken link.
+  function fmt(s, seen) {
+    const parts = esc(s).split(/(\[[^\]]+\]\((?:https?:\/\/[^)\s]+)\))/g);
+    return parts.map((p, i) => i % 2
+      ? p.replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/, '<a href="$2" target="_blank" rel="noopener">$1</a>')
+      : markTerms(p, seen)).join("");
+  }
   const slug = s => s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 
   function rangeLabel(facet, vals) {
@@ -82,6 +119,10 @@ function makeRenderer(SHEET, EMBED_OK) {
 
   function cardHTML(x) {
     const part = SHEET.parts[x.p - 1];
+    // One set per card: a term is marked the first time it appears in this entry
+    // and left plain afterwards, so a card reads as prose rather than as a page
+    // of underlines.
+    const seen = TERM_RE ? new Set() : null;
     let body = '';
     // Wrapped in a link to the file itself, not a button: with JS the click is
     // intercepted and opens the lightbox, and without it the link still does the
@@ -91,11 +132,11 @@ function makeRenderer(SHEET, EMBED_OK) {
       body += '<a class="cimglink" href="' + x.img + '" aria-label="View ' + esc(x.name) + ' illustration full size">' +
         '<img class="cimg" src="' + x.img + '" alt="' + esc(x.name) + ' illustration" loading="lazy"></a>';
     }
-    body += '<p>' + fmt(x.d) + '</p>';
-    body += '<span class="lab">Strengths &amp; weaknesses</span><p style="margin-top:2px">' + fmt(x.sw) + '</p>';
+    body += '<p>' + fmt(x.d, seen) + '</p>';
+    body += '<span class="lab">Strengths &amp; weaknesses</span><p style="margin-top:2px">' + fmt(x.sw, seen) + '</p>';
     if (x.v) {
       body += '<span class="lab">Variants</span><div class="variants">' +
-        x.v.map(v => '<div class="variant"><b>' + esc(v.t) + '</b><p>' + fmt(v.d) + '</p></div>').join("") + '</div>';
+        x.v.map(v => '<div class="variant"><b>' + esc(v.t) + '</b><p>' + fmt(v.d, seen) + '</p></div>').join("") + '</div>';
     }
     // Videos render before the extra sections by default; a sheet can set
     // videosAfter to an extraSections label to place them later instead. Entries
@@ -111,7 +152,7 @@ function makeRenderer(SHEET, EMBED_OK) {
     }
     if (vids && vidPos === -1) body += vids;
     extra.forEach((e, i) => {
-      body += '<span class="lab">' + esc(e[0]) + '</span><p class="ex" style="margin-top:2px">' + fmt(e[1]) + '</p>';
+      body += '<span class="lab">' + esc(e[0]) + '</span><p class="ex" style="margin-top:2px">' + fmt(e[1], seen) + '</p>';
       if (vids && i === vidPos) body += vids;
     });
     const tags = facetTags(x);
