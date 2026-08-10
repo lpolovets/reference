@@ -83,7 +83,14 @@ function makeRenderer(SHEET, EMBED_OK) {
   function cardHTML(x) {
     const part = SHEET.parts[x.p - 1];
     let body = '';
-    if (x.img && EMBED_OK) body += '<img class="cimg" src="' + x.img + '" alt="' + esc(x.name) + ' illustration" loading="lazy">';
+    // Wrapped in a link to the file itself, not a button: with JS the click is
+    // intercepted and opens the lightbox, and without it the link still does the
+    // useful thing and shows the full-size image. A button would be dead there,
+    // and a bare img is not reachable by keyboard at all.
+    if (x.img && EMBED_OK) {
+      body += '<a class="cimglink" href="' + x.img + '" aria-label="View ' + esc(x.name) + ' illustration full size">' +
+        '<img class="cimg" src="' + x.img + '" alt="' + esc(x.name) + ' illustration" loading="lazy"></a>';
+    }
     body += '<p>' + fmt(x.d) + '</p>';
     body += '<span class="lab">Strengths &amp; weaknesses</span><p style="margin-top:2px">' + fmt(x.sw) + '</p>';
     if (x.v) {

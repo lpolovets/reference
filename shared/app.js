@@ -286,6 +286,14 @@ window.addEventListener("message", e=>{
 
 // ----- expand / collapse -----
 $("list").addEventListener("click", e=>{
+  const shot = e.target.closest(".cimglink");
+  if(shot){
+    // The link points at the image file, which is what happens without JS.
+    // With JS, show it in place instead of navigating away from the card.
+    e.preventDefault();
+    openLightbox(shot.getAttribute("href"), shot.querySelector("img").getAttribute("alt"), shot);
+    return;
+  }
   const play = e.target.closest(".vplay");
   if(play){
     const id = play.dataset.vid;
@@ -365,6 +373,29 @@ function openTabFromHash(){
   return true;
 }
 
+// ----- illustration lightbox -----
+const lightbox = $("lightbox");
+let lbReturn = null;
+function openLightbox(src, alt, from){
+  $("lbImg").src = src;
+  $("lbImg").alt = alt || "";
+  $("lbCap").textContent = (alt || "").replace(/ illustration$/, "");
+  lbReturn = from || document.activeElement;
+  lightbox.hidden = false;
+  $("lbClose").focus();
+}
+function closeLightbox(){
+  if(lightbox.hidden) return;
+  lightbox.hidden = true;
+  // Drop the source so a big image is not held decoded behind a hidden element.
+  $("lbImg").removeAttribute("src");
+  if(lbReturn && lbReturn.focus) lbReturn.focus();
+  lbReturn = null;
+}
+$("lbClose").addEventListener("click", closeLightbox);
+// Anywhere outside the image closes, which is what the zoom-out cursor promises.
+lightbox.addEventListener("click", e=>{ if(!e.target.closest(".lbinner") || e.target === $("lbClose")) closeLightbox(); });
+
 // ----- keyboard shortcuts -----
 // The card headers are already buttons, so Tab, Enter and Space work without any
 // help. What this adds is a list cursor: j/k step between headers from anywhere,
@@ -404,7 +435,9 @@ const editing = el => !!el && (/^(INPUT|TEXTAREA|SELECT)$/.test(el.tagName) || e
 document.addEventListener("keydown", e=>{
   if(e.metaKey || e.ctrlKey || e.altKey) return;
   if(e.key==="Escape"){
-    if(!kbdModal.hidden){ e.preventDefault(); showHelp(false); }
+    // Topmost first: the lightbox sits above the shortcuts panel.
+    if(!lightbox.hidden){ e.preventDefault(); closeLightbox(); }
+    else if(!kbdModal.hidden){ e.preventDefault(); showHelp(false); }
     else if(document.activeElement===$("q")){
       e.preventDefault();
       if($("q").value){ $("q").value=""; state.q=""; render(); }
@@ -412,7 +445,9 @@ document.addEventListener("keydown", e=>{
     }
     return;
   }
-  if(!kbdModal.hidden || editing(e.target)) return;
+  // Either overlay swallows the shortcuts: / and j/k would act on a list the
+  // reader cannot see.
+  if(!kbdModal.hidden || !lightbox.hidden || editing(e.target)) return;
   if(e.key==="/"){ e.preventDefault(); showTab("tab-explorer", true); $("q").focus(); $("q").select(); return; }
   if(e.key==="?"){ e.preventDefault(); showHelp(true); return; }
   const onHead = e.target.closest && e.target.closest(".chead");
