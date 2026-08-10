@@ -56,10 +56,23 @@ async function api(endpoint, body) {
 
 // Existence + embeddability + canonical title/channel. Returns null when YouTube
 // refuses the id, which covers deleted, private, and embed-disabled videos alike.
+// null means the video is really unavailable: deleted, private, or with embedding
+// switched off, which are the states worth reporting. Anything else — a rate
+// limit, a 5xx, a socket error — throws, so a caller can tell "gone" apart from
+// "YouTube would not talk to us just now". That distinction is the difference
+// between a useful monthly report and one claiming every video died at once,
+// which is what a datacenter IP invites.
 async function oembed(id) {
-  const res = await fetch('https://www.youtube.com/oembed?format=json&url=' +
-    encodeURIComponent('https://www.youtube.com/watch?v=' + id), { headers: { 'User-Agent': UA } });
-  return res.ok ? res.json() : null;
+  let res;
+  try {
+    res = await fetch('https://www.youtube.com/oembed?format=json&url=' +
+      encodeURIComponent('https://www.youtube.com/watch?v=' + id), { headers: { 'User-Agent': UA } });
+  } catch (e) {
+    throw Object.assign(new Error('network: ' + (e && e.message || e)), { transient: true });
+  }
+  if (res.ok) return res.json();
+  if (res.status === 400 || res.status === 401 || res.status === 403 || res.status === 404) return null;
+  throw Object.assign(new Error('oEmbed HTTP ' + res.status), { transient: true });
 }
 
 function walk(node, out) {
@@ -154,12 +167,20 @@ async function audit(only) {
   }
   console.log('checking ' + jobs.length + ' videos...');
   const bad = [];
+  const unchecked = [];
   const queue = jobs.slice();
   await Promise.all(Array.from({ length: 8 }, async () => {
     while (queue.length) {
       const j = queue.shift();
-      let oe = null;
-      try { oe = await oembed(j.id); } catch (e) { /* transient; treated as gone below */ }
+      let oe = null, err = null;
+      // One retry after a pause, then give up and say so. A video that is really
+      // gone answers the same way twice; a rate limit usually does not.
+      for (let attempt = 0; attempt < 2; attempt++) {
+        err = null;
+        try { oe = await oembed(j.id); break; }
+        catch (e) { err = e; if (attempt === 0) await new Promise(s => setTimeout(s, 4000)); }
+      }
+      if (err) { unchecked.push('UNCHECKED ' + j.where + '  ' + j.id + '  (' + err.message + ')'); continue; }
       if (!oe) { bad.push('GONE      ' + j.where + '  ' + j.id + '  "' + j.title + '"'); continue; }
       // Stored titles are truncated at MAX_TITLE, so compare only the kept prefix.
       // Collapse whitespace on BOTH sides: publishers put double spaces in titles,
@@ -172,7 +193,17 @@ async function audit(only) {
   }));
   bad.sort();
   bad.forEach(b => console.log(b));
-  console.log(bad.length ? '\n' + bad.length + ' of ' + jobs.length + ' need attention' : 'all ' + jobs.length + ' videos OK');
+  if (unchecked.length) {
+    // Listed but not failed: YouTube declining to answer says nothing about the
+    // video, and treating it as rot would make the report worthless.
+    unchecked.sort();
+    console.log('\n' + unchecked.length + ' could not be checked (YouTube did not answer, not evidence of rot):');
+    unchecked.forEach(u => console.log('  ' + u));
+  }
+  console.log('\n' + (jobs.length - bad.length - unchecked.length) + ' OK, ' +
+    bad.filter(b => b.startsWith('GONE')).length + ' gone, ' +
+    bad.filter(b => b.startsWith('RETITLED')).length + ' retitled, ' +
+    unchecked.length + ' unchecked, of ' + jobs.length);
   if (bad.some(b => b.startsWith('GONE'))) process.exitCode = 1;
 }
 

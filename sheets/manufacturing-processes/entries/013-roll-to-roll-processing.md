@@ -36,4 +36,4 @@ Battery electrodes, flexible electronics, packaging films, solar films, adhesive
 
 ## Further reading
 
-[Web Handling Basics: Processes and Applications (Maxcess)](https://www.maxcessintl.com/blog/web-handling-basics/) · [Roll-to-Roll Processing Research (Oak Ridge National Laboratory)](https://www.ornl.gov/facility/mdf/research-areas/roll-to-roll)
+[Web Handling Basics: Processes and Applications (Maxcess)](https://www.maxcessintl.com/blog/web-handling-basics/) · [Economic Analysis of Technology Infrastructure Needs for Advanced Manufacturing: Roll-to-Roll Manufacturing (NIST)](https://nvlpubs.nist.gov/nistpubs/gcr/2016/NIST.GCR.16-008.pdf)
