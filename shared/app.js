@@ -29,17 +29,37 @@ function rangeLabel(facet, vals){
   return first===last ? first : first+"–"+last;
 }
 
-function matches(x){
+// How options inside one facet combine is decided by the facet's type, because
+// the data decides it: a multi facet is a set of independent tags an entry can
+// carry several of, so picking two means "carries both" and each pick narrows.
+// A single facet holds one scalar and a range facet holds one span, so there
+// picking two can only ever mean "either", and each pick widens.
+// skip drops a facet from the test, which the chip counts need for the widening
+// kind — see updateChipCounts.
+function matchesExcept(x, skip){
   if(state.parts.size && !state.parts.has(x.p)) return false;
   for(const facet of SHEET.facets){
+    if(facet.id===skip) continue;
     const set = state.f[facet.id];
     if(!set.size) continue;
     const val = x.f[facet.id];
     if(facet.type==="single"){ if(!(val && set.has(val))) return false; }
+    else if(facet.type==="multi"){
+      for(const k of set) if(!(val && val.indexOf(k)>-1)) return false;
+    }
     else if(!(val && val.some(v=>set.has(v)))) return false;
   }
   if(state.q && !x._hay.includes(state.q)) return false;
   return true;
+}
+const narrows = facet => facet.type==="multi";
+const matches = x => matchesExcept(x, null);
+// Sort is deliberately excluded: "Reset filters" keeps it, so it isn't a filter.
+const filtered = () => !!state.q || state.parts.size > 0 ||
+  SHEET.facets.some(f=>state.f[f.id].size > 0);
+function hasOption(x, facet, k){
+  const val = x.f[facet.id];
+  return facet.type==="single" ? val===k : !!(val && val.indexOf(k)>-1);
 }
 
 function facetTags(x){
@@ -166,6 +186,27 @@ function sorted(hits){
   });
 }
 
+// Every chip carries the number of entries it would leave visible, so narrowing a
+// long sheet stops being trial and error. Cheap enough to redo on every render:
+// one pass over the entries per facet, and no sheet is near a size where that shows.
+//
+// The base set depends on how the facet combines. A narrowing facet keeps its own
+// selection applied, because each further pick is another constraint and the count
+// is then literally "click me and you will have N left". A widening facet has to
+// drop its own selection, or picking one band would read every unselected sibling
+// as zero when in fact they would each add entries back.
+function updateChipCounts(){
+  SHEET.facets.forEach(facet=>{
+    const base = P.filter(x=>matchesExcept(x, narrows(facet) ? null : facet.id));
+    document.querySelectorAll("#facet-"+facet.id+" .fchip").forEach(chip=>{
+      const n = base.reduce((a,x)=>a+(hasOption(x, facet, chip.dataset.k)?1:0), 0);
+      chip.querySelector(".fn").textContent = n;
+      chip.classList.toggle("zero", n===0);
+      chip.setAttribute("aria-label", chip._label+", "+n+" matching");
+    });
+  });
+}
+
 function render(){
   let hits = P.filter(matches);
   if(state.sort) hits = sorted(hits);
@@ -187,7 +228,9 @@ function render(){
   });
   listEl.innerHTML = html;
   $("empty").hidden = hits.length>0;
-  $("resCount").textContent = hits.length+" / "+P.length;
+  $("resCount").textContent = $("rbCount").textContent = hits.length+" / "+P.length;
+  $("rbReset").hidden = !filtered();
+  updateChipCounts();
   syncURL();
   // part tile counts + pressed state
   SHEET.parts.forEach(part=>{
@@ -220,7 +263,11 @@ SHEET.facets.forEach(facet=>{
   const labels = facet.chipLabels || facet.options;
   const set = state.f[facet.id];
   el.innerHTML = keys.map(k=>
-    '<button class="fchip" data-k="'+k+'" aria-pressed="'+(set.has(k)?"true":"false")+'">'+labels[k]+'</button>').join(" ");
+    '<button class="fchip" data-k="'+k+'" aria-pressed="'+(set.has(k)?"true":"false")+'">'+labels[k]+
+    '<span class="fn" aria-hidden="true"></span></button>').join(" ");
+  // Stash the plain label so the count can be folded into an aria-label later
+  // without re-reading the chip's markup.
+  el.querySelectorAll(".fchip").forEach(c=>{ c._label = labels[c.dataset.k]; });
   el.addEventListener("click", e=>{
     const c = e.target.closest(".fchip"); if(!c) return;
     const k = c.dataset.k;
@@ -230,12 +277,39 @@ SHEET.facets.forEach(facet=>{
   });
 });
 
+// ----- facet tooltips: open upward when there is no room below -----
+// The longest tips run past 300px, and the filter panel sits low enough on a
+// laptop that the bottom rows would otherwise open off the screen. CSS cannot
+// ask whether a box fits, so measure on the way in — display is toggled rather
+// than read, because the hover rule may not have applied yet.
+document.querySelectorAll(".tipwrap").forEach(w=>{
+  const place = ()=>{
+    const body = w.querySelector(".tipbody");
+    w.classList.remove("up");
+    const prev = body.style.display;
+    body.style.display = "block";
+    const h = body.offsetHeight;
+    body.style.display = prev;
+    const r = w.getBoundingClientRect();
+    // Only flip when there is actually room above; overflowing the bottom of a
+    // scrollable page beats overflowing the top of it.
+    if(h > innerHeight - r.bottom - 16 && r.top > h + 16) w.classList.add("up");
+  };
+  w.addEventListener("mouseenter", place);
+  w.addEventListener("focusin", place);
+});
+
 // ----- search -----
 $("q").value = state.q;
 let qt;
 $("q").addEventListener("input", e=>{
   clearTimeout(qt);
   qt = setTimeout(()=>{ state.q = e.target.value.trim().toLowerCase(); render(); }, 120);
+});
+// The box is a plain div rather than a label, because the "/" badge is a button
+// and a label would swallow its clicks. Clicking the padding still focuses.
+document.querySelector(".search").addEventListener("click", e=>{
+  if(!e.target.closest("#kbdHint")) $("q").focus();
 });
 
 // ----- sort control -----
@@ -251,13 +325,33 @@ sortSel.addEventListener("change", ()=>{ state.sort = sortSel.value; state.dir =
 sortDir.addEventListener("click", ()=>{ state.dir *= -1; updDir(); render(); });
 
 // ----- clear -----
-$("clearAll").addEventListener("click", ()=>{
+function clearFilters(){
   state.q=""; $("q").value="";
   state.parts.clear();
   Object.values(state.f).forEach(s=>s.clear());
   document.querySelectorAll(".fchip[aria-pressed='true']").forEach(c=>c.setAttribute("aria-pressed","false"));
   render();
-});
+}
+$("clearAll").addEventListener("click", clearFilters);
+
+// ----- sticky results bar -----
+// Once the filter panel is off the top of the screen the count and the reset go
+// with it, which is exactly when a reader 150 entries down wants them.
+const resBar = $("resBar"), filterPanel = document.querySelector(".filters");
+function updBar(){
+  const show = $("view-explorer").classList.contains("active") &&
+    filterPanel.getBoundingClientRect().bottom < 4;
+  resBar.classList.toggle("show", show);
+  resBar.setAttribute("aria-hidden", show ? "false" : "true");
+}
+let barPending = 0;
+addEventListener("scroll", ()=>{
+  if(barPending) return;
+  barPending = requestAnimationFrame(()=>{ barPending = 0; updBar(); });
+}, {passive:true});
+addEventListener("resize", updBar);
+$("rbReset").addEventListener("click", clearFilters);
+$("rbTop").addEventListener("click", ()=>window.scrollTo({top:0, behavior:"smooth"}));
 
 // ----- single-player policy: pause every other video when one plays -----
 function pauseOtherVideos(except){
@@ -343,6 +437,7 @@ function showTab(tid, setHash){
     try{ history.replaceState(null,"",location.pathname+location.search+"#"+tab[2]); }catch(e){}
   }
   window.scrollTo({top:0});
+  updBar();
 }
 tabs.forEach(([tid])=>{
   $(tid).addEventListener("click", ()=>showTab(tid, true));
@@ -357,7 +452,63 @@ function openTabFromHash(){
   return true;
 }
 
+// ----- keyboard shortcuts -----
+// The card headers are already buttons, so Tab, Enter and Space work without any
+// help. What this adds is a list cursor: j/k step between headers from anywhere,
+// and the arrow keys join in only once a header holds focus, so they keep
+// scrolling the page the rest of the time.
+const kbdModal = $("kbdModal");
+let kbdReturn = null;
+function showHelp(on){
+  if(on){
+    kbdReturn = document.activeElement;
+    kbdModal.hidden = false;
+    $("kbdClose").focus();
+  } else {
+    kbdModal.hidden = true;
+    if(kbdReturn && kbdReturn.focus) kbdReturn.focus();
+    kbdReturn = null;
+  }
+}
+$("kbdHint").addEventListener("click", ()=>showHelp(true));
+$("kbdClose").addEventListener("click", ()=>showHelp(false));
+kbdModal.addEventListener("click", e=>{ if(e.target===kbdModal) showHelp(false); });
+
+function moveCard(step){
+  if(!$("view-explorer").classList.contains("active")) return;
+  const heads = [].slice.call(document.querySelectorAll("#list .card > .chead"));
+  if(!heads.length) return;
+  const cur = document.activeElement && document.activeElement.closest
+    ? document.activeElement.closest(".chead") : null;
+  const at = cur ? heads.indexOf(cur) : -1;
+  const i = at < 0 ? (step > 0 ? 0 : heads.length-1)
+    : Math.min(heads.length-1, Math.max(0, at+step));
+  heads[i].focus({preventScroll:true});
+  heads[i].parentElement.scrollIntoView({block:"nearest"});
+}
+
+const editing = el => !!el && (/^(INPUT|TEXTAREA|SELECT)$/.test(el.tagName) || el.isContentEditable);
+document.addEventListener("keydown", e=>{
+  if(e.metaKey || e.ctrlKey || e.altKey) return;
+  if(e.key==="Escape"){
+    if(!kbdModal.hidden){ e.preventDefault(); showHelp(false); }
+    else if(document.activeElement===$("q")){
+      e.preventDefault();
+      if($("q").value){ $("q").value=""; state.q=""; render(); }
+      else $("q").blur();
+    }
+    return;
+  }
+  if(!kbdModal.hidden || editing(e.target)) return;
+  if(e.key==="/"){ e.preventDefault(); showTab("tab-explorer", true); $("q").focus(); $("q").select(); return; }
+  if(e.key==="?"){ e.preventDefault(); showHelp(true); return; }
+  const onHead = e.target.closest && e.target.closest(".chead");
+  if(e.key==="j" || (e.key==="ArrowDown" && onHead)){ e.preventDefault(); moveCard(1); }
+  else if(e.key==="k" || (e.key==="ArrowUp" && onHead)){ e.preventDefault(); moveCard(-1); }
+});
+
 render();
+updBar();
 
 // ----- deep links: open the entry named in the URL hash -----
 try{

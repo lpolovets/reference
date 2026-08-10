@@ -25,10 +25,11 @@
 
     <div class="filters">
       <div class="frow">
-        <label class="search">
+        <div class="search">
           <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="7" cy="7" r="5" stroke="currentColor" stroke-width="1.6"/><path d="M11 11l3.6 3.6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
           <input id="q" type="search" placeholder="{{SEARCH_PLACEHOLDER}}" aria-label="Search">
-        </label>
+          <button class="kbdhint" id="kbdHint" type="button" aria-label="Keyboard shortcuts" title="Keyboard shortcuts">/</button>
+        </div>
         <span class="rescount" id="resCount"></span>
         <button class="clearbtn" id="clearAll">Reset filters</button>
       </div>
@@ -48,6 +49,14 @@
       <p>No {{UNIT_PLURAL}} match the current filters.</p>
       <p class="mono">Try clearing a facet or broadening the search.</p>
     </div>
+
+    <!-- Floating controls for readers who are deep in a long list. It lives inside
+         the explorer section so switching tabs hides it without any extra state. -->
+    <div class="resbar" id="resBar" aria-hidden="true">
+      <span class="rb-count" id="rbCount"></span>
+      <button id="rbReset" hidden>Reset</button>
+      <button id="rbTop">Top</button>
+    </div>
   </section>
 
   <section id="view-guide" class="guide" role="tabpanel" aria-labelledby="tab-guide">
@@ -55,4 +64,20 @@
   </section>
   {{H2H_VIEW}}
   <footer class="site">&copy; {{YEAR}} HUMBA VENTURES</footer>
+</div>
+
+<div class="kbdmodal" id="kbdModal" hidden>
+  <div class="kbdcard" role="dialog" aria-modal="true" aria-labelledby="kbdTitle">
+    <button class="kbdclose" id="kbdClose" type="button" aria-label="Close">&times;</button>
+    <h2 id="kbdTitle">Keyboard shortcuts</h2>
+    <dl>
+      <dt><kbd>/</kbd></dt><dd>Focus the search box</dd>
+      <dt><kbd>j</kbd><kbd>&darr;</kbd></dt><dd>Next entry</dd>
+      <dt><kbd>k</kbd><kbd>&uarr;</kbd></dt><dd>Previous entry</dd>
+      <dt><kbd>Enter</kbd></dt><dd>Expand or collapse the current entry</dd>
+      <dt><kbd>Esc</kbd></dt><dd>Clear the search box, or close this panel</dd>
+      <dt><kbd>?</kbd></dt><dd>Show this panel</dd>
+    </dl>
+    <p class="kbdnote">j and k work from anywhere on the page. The arrow keys move between entries once one is selected, so they still scroll normally the rest of the time.</p>
+  </div>
 </div>

@@ -177,6 +177,15 @@ const LOGO = fs.readFileSync(path.join(SHARED, 'logo.html'), 'utf8');
 const logoFor = ctx => LOGO.replace(/\n$/, '')
   .replace('{{HOME_HREF}}', ctx === 'artifact' ? 'https://humbaventures.com/reference/' : ctx === 'sheet' ? '../' : './')
   .replace('{{HOME_EXTRA}}', ctx === 'artifact' ? ' target="_blank" rel="noopener"' : '');
+// How picking more than one tag in a row behaves, appended to every facet's
+// tooltip so the reader never has to infer it. It follows from the data rather
+// than being a choice: a multi facet is a set of independent tags, while single
+// and range facets hold one value and one span, where "all of them" is empty.
+const COMBINE_NOTE = {
+  multi: 'Pick several tags and an entry has to carry all of them, so each one narrows the results.',
+  single: 'Each entry sits in exactly one band, so picking several widens the results.',
+  range: 'Each entry covers a span of bands, and picking several widens the results.',
+};
 const APP = fs.readFileSync(path.join(SHARED, 'app.js'), 'utf8');
 const PAGE = fs.readFileSync(path.join(SHARED, 'page.html'), 'utf8');
 const YEAR = String(new Date().getFullYear());
@@ -191,9 +200,10 @@ function composeBody(sheetData, artifact) {
   const stats = sheet.stats.map(s =>
     '      <div><b>' + counts[s.count] + '</b>' + s.label + '</div>').join('\n');
   const facetRows = sheet.facets.map(f => {
+    const combine = '<span class="tipcomb">' + esc(COMBINE_NOTE[f.type]) + '</span>';
     const tip = f.tip
       ? '<span class="tipwrap"><button type="button" class="tip" aria-label="About these tags">i</button>' +
-        '<span class="tipbody" role="tooltip">' + esc(f.tip) + '</span></span>'
+        '<span class="tipbody" role="tooltip">' + esc(f.tip) + combine + '</span></span>'
       : '';
     return '        <div class="facet" style="--fcol:var(' + f.color + ')">' +
       '<span class="flabel">' + esc(f.label) + tip + '</span>' +
