@@ -29,7 +29,7 @@ Low-frequency and passive radar detect low-observable aircraft at useful ranges,
 Northrop Grumman X-47B (the carrier demonstrations), Boeing X-45, Dassault nEUROn, BAE Taranis, the Russian S-70 Okhotnik, and the Chinese GJ-11 Sharp Sword. The US Navy's UCLASS program was restructured into the MQ-25 tanker, which is the clearest signal of how the cost argument resolved.
 
 ## Economic profile
-Every major stealth UCAV program has been cancelled, restructured, or slowed. The pattern is consistent: the aircraft ends up costing as much as a crewed fighter, which removes the cost argument for uncrewed operation, while the autonomy and command-and-control questions remain hard. That history is why the current generation of programs has pivoted to cheaper collaborative aircraft designed to be lost, rather than exquisite penetrating platforms designed to survive.
+Every major stealth UCAV program has been canceled, restructured, or slowed. The pattern is consistent: the aircraft ends up costing as much as a crewed fighter, which removes the cost argument for uncrewed operation, while the autonomy and command-and-control questions remain hard. That history is why the current generation of programs has pivoted to cheaper collaborative aircraft designed to be lost, rather than exquisite penetrating platforms designed to survive.
 
 ## Videos
 

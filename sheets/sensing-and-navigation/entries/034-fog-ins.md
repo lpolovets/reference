@@ -9,7 +9,7 @@ cost: med
 ---
 
 ## Description
-A fiber-optic gyro uses the same Sagnac effect as a ring laser gyro, but instead of a laser cavity it winds several hundred to several thousand meters of optical fiber into a coil and measures the phase shift between light travelling both ways around it. Sensitivity scales with the total fiber length times the enclosed area, so performance is bought with fiber rather than with precision optical machining. There is no lock-in problem and therefore no dither mechanism, which makes FOGs quieter and mechanically simpler than RLGs.
+A fiber-optic gyro uses the same Sagnac effect as a ring laser gyro, but instead of a laser cavity it winds several hundred to several thousand meters of optical fiber into a coil and measures the phase shift between light traveling both ways around it. Sensitivity scales with the total fiber length times the enclosed area, so performance is bought with fiber rather than with precision optical machining. There is no lock-in problem and therefore no dither mechanism, which makes FOGs quieter and mechanically simpler than RLGs.
 
 ## Strengths and weaknesses
 FOGs cover an unusually wide performance range — from tactical grade at a few degrees per hour up to navigation grade at 0.001 degrees per hour — by changing coil length, so one technology serves many price points. They have no moving parts, tolerate shock well, and cost less than RLGs at comparable performance. The weaknesses are size at the high end, since a navigation-grade coil is physically large, and temperature sensitivity: thermal gradients across the coil produce a spurious phase shift known as the Shupe effect, which requires careful winding patterns and thermal design to suppress.

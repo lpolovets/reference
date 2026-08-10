@@ -22,7 +22,7 @@ Pick concrete printing where formwork dominates cost or geometry: curved and non
 
 ## Key numbers
 
-Bead widths 25–60 mm laid in 10–30 mm layers · nozzle travel roughly 50–250 mm/s · printable mortar compressive strength typically 30–60 MPa · a single-storey wall shell in 24–48 hours of printing · gantry and boom printers from roughly $200k to over $1m.
+Bead widths 25–60 mm laid in 10–30 mm layers · nozzle travel roughly 50–250 mm/s · printable mortar compressive strength typically 30–60 MPa · a single-story wall shell in 24–48 hours of printing · gantry and boom printers from roughly $200k to over $1m.
 
 ## Examples
 

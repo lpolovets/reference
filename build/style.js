@@ -73,6 +73,13 @@ const RULES = [
     say: 'cliché. Say what dominates and why.' },
   { id: 'serves-as', re: /\b(?:stands|serves) as (?:a|the)\b/gi,
     say: 'padding. "is" is the verb.' },
+
+  // US spellings throughout. Lower case only, because the capitalised forms are
+  // nearly always proper nouns that keep their own spelling — Emirates Global
+  // Aluminium, the UK Ministry of Defence, the Guiana Space Centre — and citation
+  // titles are skipped wholesale anyway.
+  { id: 'british-spelling', re: /\b(?:aluminium|fibres?|metres?|millimetres?|centimetres?|kilometres?|micrometres?|litres?|centres?|centred|sulph(?:ur|ide|ate|uric)|defence|offence|licence|analyse[ds]?|catalogue|programme|grey|moulds?|moulding|moulded|draught|tyres?|ageing|judgement|modell(?:ing|ed)|labell(?:ing|ed)|travelling|fuelled|signalling|cancelled|manoeuvr(?:e|es|ing)|armour|vapour|colour|behaviour|favour|honour|organis(?:e|ed|ation)|optimis(?:e|ed)|utilise|minimise|maximise|recognise|specialise|standardis(?:e|ed)|stabilis(?:e|ed)|storey|kerb)\b/g,
+    say: 'British spelling. Use the US form.' },
 ];
 
 // ---- collect prose, with line numbers so a hit can be opened ----
@@ -101,7 +108,7 @@ function units(only) {
     }
     // guide and h2h are HTML; lint the text, not the markup, but keep the line
     // number so the hit points at something openable.
-    for (const f of ['guide.html', 'h2h.html']) {
+    for (const f of ['glossary.html', 'guide.html', 'h2h.html']) {
       const p = path.join(sheetDir, f);
       if (!fs.existsSync(p)) continue;
       fs.readFileSync(p, 'utf8').split('\n').forEach((line, i) => {

@@ -83,7 +83,7 @@
       "type": "single",
       "color": "--fc",
       "required": true,
-      "tip": "Risk to everything that is not the target: falling debris, rounds that keep travelling, interference with friendly GNSS and radios, and effects on civil aviation and infrastructure. This is usually what decides whether a system can be used in a populated area at all.",
+      "tip": "Risk to everything that is not the target: falling debris, rounds that keep traveling, interference with friendly GNSS and radios, and effects on civil aviation and infrastructure. This is usually what decides whether a system can be used in a populated area at all.",
       "order": ["none", "low", "med", "high"],
       "options": { "none": "Minimal", "low": "Low", "med": "Moderate", "high": "High" }
     },

@@ -26,7 +26,7 @@ Effective range a few hundred meters to a few kilometers · one pulse affects ev
 Range is short compared with other effectors. Effects are inconsistent across target designs, and a well-shielded drone may be unaffected by a pulse that destroys another. Kill assessment is hard because a damaged drone may keep flying briefly. Friendly and civil electronics in the beam are at risk, including vehicles and communications. Prime power and pulsed-power components are bulky, which limits platform options.
 
 ## Examples
-Epirus Leonidas, adopted by the US Army for the IFPC-HPM programme, the Air Force Research Laboratory's THOR and Mjölnir systems tested for base defense, the UK's RFDEW demonstrator, and the Tactical High Power Operational Responder deployed for overseas base trials.
+Epirus Leonidas, adopted by the US Army for the IFPC-HPM program, the Air Force Research Laboratory's THOR and Mjölnir systems tested for base defense, the UK's RFDEW demonstrator, and the Tactical High Power Operational Responder deployed for overseas base trials.
 
 ## Economic profile
 Solid-state gallium nitride amplifier arrays are what made these systems practical, replacing bulky vacuum-tube sources with modular electronically steered arrays. That ties the cost curve to the same RF semiconductor progress that drives AESA radar. Systems cost $10–30M and the argument for them rests entirely on swarm defense, where nothing else has an acceptable cost exchange. Whether swarms materialize as expected is therefore the central commercial risk in the segment.

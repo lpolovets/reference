@@ -20,7 +20,7 @@ Cost and passivity are the advantages, and they enable something the expensive s
 Use acoustic sensing as a distributed early-warning layer where cost per node allows dense coverage, and as a close-in detection layer against small drones that radar and RF miss. It works particularly well for cueing: an acoustic alert tells an operator where to point a camera. If the requirement is precise tracking for a fire-control solution, acoustics will not provide it. In quiet rural environments it performs far better than in cities, and coverage planning should assume the worst-case noise floor rather than the average.
 
 ## Key numbers
-Detection range 300–1,000 m against a small quadcopter in quiet conditions · node cost a few hundred to a few thousand dollars · several thousand nodes in Ukraine's Sky Fortress network · three or more nodes hearing the same aircraft to get a position rather than a bearing · zero emissions and no spectrum licence.
+Detection range 300–1,000 m against a small quadcopter in quiet conditions · node cost a few hundred to a few thousand dollars · several thousand nodes in Ukraine's Sky Fortress network · three or more nodes hearing the same aircraft to get a position rather than a bearing · zero emissions and no spectrum license.
 
 ## Limits and failure modes
 Ambient noise from wind, traffic, machinery, and gunfire masks detections. Range is short enough that a sparse network has large gaps. Altitude reduces signal strength quickly. Fixed-wing drones and jet-powered types have different signatures that may not be in the classifier's training set. Bearing accuracy from a single node is coarse, and localization requires several nodes hearing the same aircraft.

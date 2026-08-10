@@ -11,13 +11,13 @@ cost: low
 ---
 
 ## Description
-A nano quadcopter weighs between 30 and 500 grams, fits in a pocket, and carries a small electro-optical and thermal camera. It exists to let one soldier look around a corner, into a building, or over a wall without exposing anyone. Endurance is 15–30 minutes, range is a kilometre or two, and the whole system — aircraft, controller, spares, and case — packs into a pouch. Control is manual with stabilization assistance, though newer models add obstacle avoidance and simple return-to-home autonomy.
+A nano quadcopter weighs between 30 and 500 grams, fits in a pocket, and carries a small electro-optical and thermal camera. It exists to let one soldier look around a corner, into a building, or over a wall without exposing anyone. Endurance is 15–30 minutes, range is a kilometer or two, and the whole system — aircraft, controller, spares, and case — packs into a pouch. Control is manual with stabilization assistance, though newer models add obstacle avoidance and simple return-to-home autonomy.
 
 ## Strengths and weaknesses
 It is the only aerial system that a dismounted soldier carries and uses without asking anyone's permission, and that immediacy is worth more than its specifications suggest. It flies indoors, hovers to inspect, and is quiet enough at 20–30 m to be hard to notice. The weaknesses are wind, endurance, and range: a 200 g aircraft is unusable above about 25 knots, 25 minutes goes quickly, and the video link is short-ranged and easily jammed. Payload of 50–150 g limits the camera to a small sensor with modest resolution.
 
 ## When to use
-Use nano quadcopters for immediate close-in reconnaissance by small units, building clearance, and inspection tasks where a human would otherwise be exposed. If you need to look further than a kilometre or stay up for more than half an hour, a small fixed-wing aircraft is the right tool. If the environment is jammed, expect the video link to be the first thing lost, and prefer models that can complete a preprogrammed route and return without a link. Treat these as consumable — the loss rate in use is high and that is acceptable at this price.
+Use nano quadcopters for immediate close-in reconnaissance by small units, building clearance, and inspection tasks where a human would otherwise be exposed. If you need to look further than a kilometer or stay up for more than half an hour, a small fixed-wing aircraft is the right tool. If the environment is jammed, expect the video link to be the first thing lost, and prefer models that can complete a preprogrammed route and return without a link. Treat these as consumable — the loss rate in use is high and that is acceptable at this price.
 
 ## Key numbers
 Gross weight 30–500 g · endurance 15–30 minutes · range 1–2 km · payload 50–150 g · wind limit around 25 knots · unit cost a few thousand dollars to roughly $50k.

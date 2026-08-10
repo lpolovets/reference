@@ -23,7 +23,7 @@ Pick a hybrid when the mission needs both long endurance and either hover capabi
 Series conversion losses 10–15% engine-to-propeller · engine downsizing 30–50% versus a takeoff-sized engine · generator and motor power density 5–10 kW/kg at aviation grade · typical hybrid VTOL drone endurance 4–12 hours against 30–60 minutes on batteries alone · battery sized for minutes of peak, not hours of cruise.
 
 ## Examples
-Hybrid VTOL drones from Quantum Systems, Skyfront, and Harris Aerial, the Ampaire Eco Caravan and Electric EEL, VoltAero's Cassio, Rolls-Royce and Siemens' E-Fan X program (cancelled 2020), and turbogenerator products from Turbotech and PBS.
+Hybrid VTOL drones from Quantum Systems, Skyfront, and Harris Aerial, the Ampaire Eco Caravan and Electric EEL, VoltAero's Cassio, Rolls-Royce and Siemens' E-Fan X program (canceled 2020), and turbogenerator products from Turbotech and PBS.
 
 ## Economic profile
 Hybrid powertrains are the pragmatic middle of electrified aviation and the segment where products are actually shipping, mostly in drones. The business is assembly-oriented: engines, generators, inverters, and batteries all come from existing supply chains, and the value is in integration and control software. That keeps barriers to entry low and margins thin. For military buyers the appeal is concrete — endurance of a combustion aircraft with an electric-only quiet mode over the target — and that requirement is driving most of the current procurement.

@@ -29,7 +29,7 @@ SAR is coherent, which makes it vulnerable to repeater jamming that injects fals
 Sentinel-1 (open data, the workhorse of civil SAR), Capella Space and ICEYE small satellite constellations, the US Lacrosse/Onyx satellites, the AN/APG-81's SAR modes on the F-35, Global Hawk's ASARS-2 and the Joint STARS radar's combined SAR and moving-target modes.
 
 ## Economic profile
-SAR was the technology that most clearly changed with smallsats. ICEYE and Capella built sub-metre-capable satellites at a small fraction of traditional cost, and commercial SAR imagery is now bought routinely by defense and insurance customers alike. Prices per image have fallen by an order of magnitude in a decade. The remaining moats are the constellation size that determines revisit rate, and the analytic layer that turns a hard-to-read image into an answer.
+SAR was the technology that most clearly changed with smallsats. ICEYE and Capella built sub-meter-capable satellites at a small fraction of traditional cost, and commercial SAR imagery is now bought routinely by defense and insurance customers alike. Prices per image have fallen by an order of magnitude in a decade. The remaining moats are the constellation size that determines revisit rate, and the analytic layer that turns a hard-to-read image into an answer.
 
 ## Videos
 

@@ -29,7 +29,7 @@ Anti-tank weapons destroy them as readily as crewed vehicles. Control links in b
 The US Army's RCV program with Textron and McQ, Milrem Type-X, Rheinmetall Mission Master SP in armed configurations, the Russian Uran-9 which performed poorly in Syria, and various Chinese and Israeli armed ground robot programs.
 
 ## Economic profile
-Programs in this class have repeatedly been restructured or cancelled, most recently the US Army's RCV program, which was curtailed in favor of cheaper approaches. The pattern matches the stealth UCAV story: the uncrewed version ends up costing about as much as the crewed one, which removes the economic argument while leaving the technical and policy problems in place. The cheaper alternatives — small drones and light logistics robots — have delivered more operational value per dollar so far.
+Programs in this class have repeatedly been restructured or canceled, most recently the US Army's RCV program, which was curtailed in favor of cheaper approaches. The pattern matches the stealth UCAV story: the uncrewed version ends up costing about as much as the crewed one, which removes the economic argument while leaving the technical and policy problems in place. The cheaper alternatives — small drones and light logistics robots — have delivered more operational value per dollar so far.
 
 ## Videos
 
