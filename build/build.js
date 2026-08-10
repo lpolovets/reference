@@ -189,6 +189,9 @@ function loadSheet(dir) {
   sheet.guide = fs.readFileSync(path.join(dir, 'guide.html'), 'utf8');
   const h2hPath = path.join(dir, 'h2h.html');
   sheet.h2h = fs.existsSync(h2hPath) ? fs.readFileSync(h2hPath, 'utf8') : null;
+  // Optional, like h2h: no file, no tab.
+  const glosPath = path.join(dir, 'glossary.html');
+  sheet.glossary = fs.existsSync(glosPath) ? fs.readFileSync(glosPath, 'utf8') : null;
   return { sheet, entries, incomplete, partial };
 }
 
@@ -314,6 +317,12 @@ function composeBody(sheetData, artifact) {
     .replace('{{FACETS}}', () => facetRows)
     .replace('{{UNIT_PLURAL}}', () => esc(sheet.unit[1]))
     .replace('{{GUIDE}}', () => sheet.guide)
+    .replace('{{GLOSSARY_TAB_BTN}}', () => sheet.glossary
+      ? '<button role="tab" id="tab-glossary" aria-selected="false" aria-controls="view-glossary">' + esc(sheet.glossaryTab || 'Glossary') + '</button>'
+      : '')
+    .replace('{{GLOSSARY_VIEW}}', () => sheet.glossary
+      ? '<section id="view-glossary" class="guide" role="tabpanel" aria-labelledby="tab-glossary">\n' + sheet.glossary + '\n  </section>'
+      : '')
     .replace('{{H2H_TAB_BTN}}', () => sheet.h2h
       ? '<button role="tab" id="tab-h2h" aria-selected="false" aria-controls="view-h2h">' + esc(sheet.h2hTab || 'Head-to-head') + '</button>'
       : '')

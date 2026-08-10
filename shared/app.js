@@ -345,7 +345,9 @@ if(EMBED_OK){
 // Each tab is bookmarkable as #tab-<slugified label>, e.g. #tab-process-explorer.
 // The "tab-" prefix keeps these out of the way of card anchors, which are bare
 // name slugs (#sand-casting) and could otherwise collide with a tab label.
-const tabs = [["tab-explorer","view-explorer"],["tab-guide","view-guide"],["tab-h2h","view-h2h"]]
+// Order matches the tab bar: explore, look a term up, then the two comparison views.
+const tabs = [["tab-explorer","view-explorer"],["tab-glossary","view-glossary"],
+  ["tab-guide","view-guide"],["tab-h2h","view-h2h"]]
   .filter(([tid])=>$(tid))
   .map(([tid,vid])=>[tid,vid,"tab-"+slug($(tid).textContent)]);
 function showTab(tid, setHash){
