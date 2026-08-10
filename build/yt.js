@@ -162,8 +162,11 @@ async function audit(only) {
       try { oe = await oembed(j.id); } catch (e) { /* transient; treated as gone below */ }
       if (!oe) { bad.push('GONE      ' + j.where + '  ' + j.id + '  "' + j.title + '"'); continue; }
       // Stored titles are truncated at MAX_TITLE, so compare only the kept prefix.
+      // Collapse whitespace on BOTH sides: publishers put double spaces in titles,
+      // and comparing a normalized live title against a raw stored one reports a
+      // rename that never happened.
       const live = String(oe.title).replace(/\s+/g, ' ').trim();
-      const stored = j.title.replace(/…$/, '');
+      const stored = j.title.replace(/…$/, '').replace(/\s+/g, ' ').trim();
       if (!live.startsWith(stored)) bad.push('RETITLED  ' + j.where + '  ' + j.id + '\n    stored: ' + j.title + '\n    now:    ' + live);
     }
   }));

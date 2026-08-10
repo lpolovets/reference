@@ -12,6 +12,7 @@ const path = require('path');
 const ROOT = path.join(__dirname, '..');
 const SHARED = path.join(ROOT, 'shared');
 const CHECK_ONLY = process.argv.includes('--check');
+const ALLOW_INCOMPLETE = process.argv.includes('--allow-incomplete');
 const ai = process.argv.indexOf('--artifact');
 const ARTIFACT_SLUG = ai !== -1 ? process.argv[ai + 1] : null;
 if (ai !== -1 && !ARTIFACT_SLUG) {
@@ -118,7 +119,7 @@ function parseEntry(sheet, file, src) {
 function loadSheet(dir) {
   const sheet = JSON.parse(fs.readFileSync(path.join(dir, 'sheet.json'), 'utf8'));
   const edir = path.join(dir, 'entries');
-  const files = fs.readdirSync(edir).filter(f => f.endsWith('.md') && !f.startsWith('_'));
+  const files = (fs.existsSync(edir) ? fs.readdirSync(edir) : []).filter(f => f.endsWith('.md') && !f.startsWith('_'));
   const rel = path.relative(ROOT, edir);
   const entries = files.map(f => parseEntry(sheet, rel + '/' + f, fs.readFileSync(path.join(edir, f), 'utf8')));
   // optional per-entry illustration: sheets/<slug>/images/<zero-padded number>.<ext>
@@ -137,10 +138,21 @@ function loadSheet(dir) {
     if (seen.has(x.n)) throw new Error(sheet.slug + ': duplicate entry number: ' + x.n);
     seen.add(x.n);
   }
-  if (sheet.groupBlurbs) {
+  // A sheet whose entries are still being written fails every cross-check below.
+  // Flag it instead: --check reports it as pending, a real build refuses to ship it.
+  const incomplete = entries.length === 0;
+  const partial = [];
+  if (sheet.groupBlurbs && !incomplete) {
     const groups = new Set(entries.map(x => x.g));
-    for (const g of Object.keys(sheet.groupBlurbs))
-      if (!groups.has(g)) throw new Error(sheet.slug + ': groupBlurbs names unknown group "' + g + '"');
+    for (const g of Object.keys(sheet.groupBlurbs)) {
+      if (groups.has(g)) continue;
+      // Mid-write this just means the entries for that group aren't there yet, so
+      // --check reports it rather than failing and burying everyone else's status.
+      if (!CHECK_ONLY && !ALLOW_INCOMPLETE) throw new Error(sheet.slug + ': groupBlurbs names unknown group "' + g + '"');
+      partial.push(g);
+    }
+    // The other direction is always an authoring error: an entry named a group
+    // that has no blurb, which the writer can fix without waiting for anyone.
     for (const g of groups)
       if (!sheet.groupBlurbs[g]) throw new Error(sheet.slug + ': groupBlurbs missing group "' + g + '"');
   }
@@ -152,7 +164,7 @@ function loadSheet(dir) {
   sheet.guide = fs.readFileSync(path.join(dir, 'guide.html'), 'utf8');
   const h2hPath = path.join(dir, 'h2h.html');
   sheet.h2h = fs.existsSync(h2hPath) ? fs.readFileSync(h2hPath, 'utf8') : null;
-  return { sheet, entries };
+  return { sheet, entries, incomplete, partial };
 }
 
 // ---- page composition ----
@@ -235,14 +247,45 @@ function composeBody(sheetData, artifact) {
 // ---- load all sheets ----
 const sheetsDir = path.join(ROOT, 'sheets');
 const slugs = fs.readdirSync(sheetsDir).filter(d => fs.existsSync(path.join(sheetsDir, d, 'sheet.json'))).sort();
-const all = slugs.map(slug => loadSheet(path.join(sheetsDir, slug)));
 
 if (CHECK_ONLY) {
-  // Validation pass for parallel editors: loadSheet() above already ran every
-  // frontmatter, video-line, and groupBlurbs check, so reaching here means clean.
-  const n = all.reduce((t, s) => t + s.entries.length, 0);
-  console.log('ok: ' + all.length + ' sheets, ' + n + ' entries');
-} else if (ARTIFACT_SLUG) {
+  // Validation pass for parallel editors. Each sheet is isolated so one agent's
+  // broken file doesn't mask everyone else's status, and sheets with no entries
+  // yet report as pending rather than failing.
+  let bad = 0, ok = 0, pending = 0, n = 0;
+  for (const slug of slugs) {
+    try {
+      const s = loadSheet(path.join(sheetsDir, slug));
+      if (s.incomplete) { pending++; console.log('pending  ' + slug + ' (no entries yet)'); }
+      else if (s.partial.length) {
+        pending++; n += s.entries.length;
+        console.log('partial  ' + slug + ' (' + s.entries.length + ' entries; no entries yet for: ' + s.partial.join(', ') + ')');
+      } else { ok++; n += s.entries.length; console.log('ok       ' + slug + ' (' + s.entries.length + ')'); }
+    } catch (e) {
+      bad++;
+      console.log('FAIL     ' + slug + ': ' + e.message);
+    }
+  }
+  console.log(ok + ' sheets ok, ' + n + ' entries' +
+    (pending ? ', ' + pending + ' pending' : '') + (bad ? ', ' + bad + ' FAILING' : ''));
+  if (bad) process.exit(1);
+  return;
+}
+
+// A sheet with no entries would publish as an empty page, so a real build refuses
+// to ship one. --allow-incomplete drops it from the build instead, which is how to
+// preview the site while a new sheet is still being written.
+const all = slugs.map(slug => loadSheet(path.join(sheetsDir, slug))).filter(s => {
+  if (!s.incomplete && !s.partial.length) return true;
+  if (!ALLOW_INCOMPLETE)
+    throw new Error(s.sheet.slug + ' is still being written, refusing to build. Use --check to' +
+      ' validate while it is, or --allow-incomplete to preview without it.');
+  console.log('SKIPPING ' + s.sheet.slug + (s.incomplete ? ' (no entries yet)'
+    : ' (' + s.entries.length + ' entries so far, groups still empty: ' + s.partial.join(', ') + ')'));
+  return false;
+});
+
+if (ARTIFACT_SLUG) {
   // Fragment for the Artifact tool (it supplies doctype/head/body). ASCII-escape
   // everything because the artifact host serves no charset declaration.
   const sheetData = all.find(s => s.sheet.slug === ARTIFACT_SLUG);
@@ -286,8 +329,11 @@ if (CHECK_ONLY) {
     (sheet.question ? '<span class="sq" style="display:block">' + esc(sheet.question) + '</span>' : '') +
     '<span class="sd" style="display:block">' + esc(sheet.blurb || '') + '</span>' +
     '<span class="sc" style="display:block">' + entries.length + ' ' + esc(sheet.unit[1]) + '</span></a>';
-  // Sheets group into high-level categories (sheet.json "category"); categories
-  // appear in order of first appearance across the alphabetized sheet list.
+  // Sheets group into high-level categories (sheet.json "category"). CATEGORIES
+  // fixes the running order, biggest and most-linked first; anything not listed
+  // falls in after them in order of first appearance.
+  const CATEGORIES = ['Energy', 'Robotics and Manufacturing', 'Materials',
+    'Semiconductors', 'Defense and Aerospace', 'Bioprocessing'];
   const catOrder = [];
   const byCat = new Map();
   for (const s of all) {
@@ -295,6 +341,11 @@ if (CHECK_ONLY) {
     if (!byCat.has(cat)) { byCat.set(cat, []); catOrder.push(cat); }
     byCat.get(cat).push(s);
   }
+  // Rank unlisted categories by where they first appeared, captured before the
+  // sort — reading indexOf() on the array being sorted would shift underfoot.
+  const seenAt = new Map(catOrder.map((c, i) => [c, i]));
+  const rank = c => CATEGORIES.includes(c) ? CATEGORIES.indexOf(c) : CATEGORIES.length + seenAt.get(c);
+  catOrder.sort((a, b) => rank(a) - rank(b));
   const sections = catOrder.map(cat =>
     '<h2 class="cathdr">' + esc(cat) + '</h2>\n<div class="sheets">\n' +
     byCat.get(cat).map(card).join('\n') + '\n</div>').join('\n');
@@ -313,8 +364,32 @@ if (CHECK_ONLY) {
     '<h1>Reference Sheets</h1>\n' +
     '<p class="lede">Practical, searchable references for deep-tech diligence and engineering decisions.</p>\n' +
     '</header>\n' + gsearch + '\n' + sections + '\n' +
-    '<footer class="site">&copy; ' + YEAR + ' HUMBA VENTURES</footer>\n</div>\n' +
+    '<footer class="site">&copy; ' + YEAR + ' HUMBA VENTURES &middot; <a href="about/">How these sheets are made</a></footer>\n</div>\n' +
     '<script>\nconst LSHEETS = ' + JSON.stringify(lsheets) + ';\n' + LANDING_JS + '</script>\n</body>\n</html>\n';
   fs.writeFileSync(path.join(ROOT, 'site', 'index.html'), landing);
-  console.log('site/index.html: landing page,', slugs.length, 'sheets');
+  console.log('site/index.html: landing page,', all.length, 'sheets');
+
+  // Methodology page. Shares the landing shell and the .guide typography, so it
+  // gets the same tables and callouts the selection guides use. The counts are
+  // computed here rather than written into the prose, which would go stale.
+  // Reader-facing prose, so the counts get thousands separators.
+  const num = n => n.toLocaleString('en-US');
+  const about = fs.readFileSync(path.join(SHARED, 'about.html'), 'utf8')
+    .replace(/{{N_ENTRIES}}/g, num(totalEntries))
+    .replace(/{{N_SHEETS}}/g, num(all.length))
+    .replace(/{{N_VIDEOS}}/g, num(all.reduce((n, s) =>
+      n + s.entries.reduce((m, e) => m + (e.vid ? e.vid.length : 0), 0), 0)))
+    .replace(/{{YEAR}}/g, YEAR);
+  const aboutPage = '<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n' + PREPAINT +
+    '<meta name="viewport" content="width=device-width, initial-scale=1">\n' +
+    '<title>How these sheets are made</title>\n<style>\n' + THEME + '</style>\n</head>\n<body>\n' +
+    '<div class="wrap">\n<header class="site">\n<div class="hdr-top">\n' + logoFor('sheet') + '</div>\n' +
+    '<h1>How these sheets are made</h1>\n' +
+    '<p class="lede">What is in the reference sheets, where the numbers come from, and how the links and videos get checked.</p>\n' +
+    '</header>\n<section class="guide active">\n' + about + '\n</section>\n' +
+    '<footer class="site">&copy; ' + YEAR + ' HUMBA VENTURES &middot; <a href="../">All reference sheets</a></footer>\n' +
+    '</div>\n</body>\n</html>\n';
+  fs.mkdirSync(path.join(ROOT, 'site', 'about'), { recursive: true });
+  fs.writeFileSync(path.join(ROOT, 'site', 'about', 'index.html'), aboutPage);
+  console.log('site/about/index.html: methodology page');
 }
