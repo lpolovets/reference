@@ -188,6 +188,8 @@ const COMBINE_NOTE = {
   range: 'Each entry covers a span of bands, and picking several widens the results.',
 };
 const APP = fs.readFileSync(path.join(SHARED, 'app.js'), 'utf8');
+const RENDER = fs.readFileSync(path.join(SHARED, 'render.js'), 'utf8');
+const { makeRenderer } = require(path.join(SHARED, 'render.js'));
 const PAGE = fs.readFileSync(path.join(SHARED, 'page.html'), 'utf8');
 const YEAR = String(new Date().getFullYear());
 const PREPAINT = '<script>(function(){var t;try{t=localStorage.getItem("theme")}catch(e){}' +
@@ -245,26 +247,6 @@ function composeBody(sheetData, artifact) {
       '<span class="fchips" id="facet-' + f.id + '"></span></div>';
   }).join('\n');
 
-  const page = PAGE
-    .replace('{{STYLE}}', THEME)
-    .replace('{{LOGO}}', logoFor(artifact ? 'artifact' : 'sheet'))
-    .replace('{{TITLE}}', esc(sheet.title))
-    .replace('{{LEDE}}', esc(sheet.lede).replace('{{N_ENTRIES}}', String(counts.entries)))
-    .replace('{{STATS}}', stats)
-    .replace('{{EXPLORER_TAB}}', esc(sheet.explorerTab))
-    .replace('{{GUIDE_TAB}}', esc(sheet.guideTab))
-    .replace('{{SEARCH_PLACEHOLDER}}', esc(sheet.searchPlaceholder))
-    .replace('{{FACETS}}', facetRows)
-    .replace('{{UNIT_PLURAL}}', esc(sheet.unit[1]))
-    .replace('{{GUIDE}}', sheet.guide)
-    .replace('{{H2H_TAB_BTN}}', sheet.h2h
-      ? '<button role="tab" id="tab-h2h" aria-selected="false" aria-controls="view-h2h">' + esc(sheet.h2hTab || 'Head-to-head') + '</button>'
-      : '')
-    .replace('{{H2H_VIEW}}', sheet.h2h
-      ? '<section id="view-h2h" class="guide" role="tabpanel" aria-labelledby="tab-h2h">\n' + sheet.h2h + '\n  </section>'
-      : '')
-    .replace('{{YEAR}}', YEAR);
-
   const clientSheet = {
     unit: sheet.unit, groupLabel: sheet.groupLabel, parts: sheet.parts,
     groupBlurbs: sheet.groupBlurbs,
@@ -280,13 +262,51 @@ function composeBody(sheetData, artifact) {
     clientSheet.videosAfter = sheet.videosAfter;
     clientSheet.extraOrder = (sheet.extraSections || []).map(e => e[1]);
   }
+
+  // Prerender the whole list into the page so a reader without JavaScript, and
+  // any crawler that does not run it, gets the entries rather than an empty div.
+  // Not done for the artifact: it always runs JS, nothing crawls it, and the
+  // entries are already in the page once as JSON — prerendering doubles the file
+  // for no reader who benefits. The client is told which it got, because a page
+  // built without it must render on load or the list stays empty.
+  const listHTML = artifact ? '' : makeRenderer(clientSheet, !artifact).listHTML(entries, true);
+
+  // Every value goes in through a function replacer. String.prototype.replace
+  // substitutes $$, $& and $' even when the search pattern is a plain string, so
+  // a price like "$$" or a stray $' in authored prose would silently mangle the
+  // page. A function replacer is exempt from that rewriting. Nothing trips it
+  // today; {{LIST}} alone now injects ~900KB of entry text, so it is a matter of
+  // time rather than a hypothetical.
+  const page = PAGE
+    .replace('{{STYLE}}', () => THEME)
+    .replace('{{LIST}}', () => listHTML)
+    .replace('{{LOGO}}', () => logoFor(artifact ? 'artifact' : 'sheet'))
+    .replace('{{TITLE}}', () => esc(sheet.title))
+    .replace('{{LEDE}}', () => esc(sheet.lede).replace('{{N_ENTRIES}}', String(counts.entries)))
+    .replace('{{STATS}}', () => stats)
+    .replace('{{EXPLORER_TAB}}', () => esc(sheet.explorerTab))
+    .replace('{{GUIDE_TAB}}', () => esc(sheet.guideTab))
+    .replace('{{SEARCH_PLACEHOLDER}}', () => esc(sheet.searchPlaceholder))
+    .replace('{{FACETS}}', () => facetRows)
+    .replace('{{UNIT_PLURAL}}', () => esc(sheet.unit[1]))
+    .replace('{{GUIDE}}', () => sheet.guide)
+    .replace('{{H2H_TAB_BTN}}', () => sheet.h2h
+      ? '<button role="tab" id="tab-h2h" aria-selected="false" aria-controls="view-h2h">' + esc(sheet.h2hTab || 'Head-to-head') + '</button>'
+      : '')
+    .replace('{{H2H_VIEW}}', () => sheet.h2h
+      ? '<section id="view-h2h" class="guide" role="tabpanel" aria-labelledby="tab-h2h">\n' + sheet.h2h + '\n  </section>'
+      : '')
+    .replace('{{YEAR}}', () => YEAR);
+
   const dataJs = [
     'const EMBED_OK = ' + String(!artifact) + ';',
+    'const PRERENDERED = ' + String(!artifact) + ';',
     'const SHEET = ' + JSON.stringify(clientSheet) + ';',
     'const P = ' + JSON.stringify(entries) + ';',
   ].join('\n');
 
-  return page + '<script>\n' + dataJs + '\n' + APP + '</script>\n';
+  // RENDER before APP: app.js calls makeRenderer at the top level.
+  return page + '<script>\n' + dataJs + '\n' + RENDER + '\n' + APP + '</script>\n';
 }
 
 // ---- load all sheets ----

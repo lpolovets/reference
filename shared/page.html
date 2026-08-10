@@ -2,6 +2,15 @@
 {{STYLE}}
 </style>
 
+<!-- Cards ship collapsed and only JS opens them, so without it the prerendered
+     entries would be present but unreadable. Open everything instead, and drop
+     the controls that cannot do anything. -->
+<noscript><style>
+  .cbody{display:block}
+  .caret,.listtools,.filters,.parts,.resbar{display:none}
+  .card>button.chead{cursor:default}
+</style></noscript>
+
 <div class="wrap">
   <header class="site">
     <div class="hdr-top">
@@ -44,7 +53,7 @@
       <button id="expandAll">Expand all</button>
       <button id="collapseAll">Collapse all</button>
     </div>
-    <div id="list"></div>
+    <div id="list">{{LIST}}</div>
     <div class="empty" id="empty" hidden>
       <p>No {{UNIT_PLURAL}} match the current filters.</p>
       <p class="mono">Try clearing a facet or broadening the search.</p>
