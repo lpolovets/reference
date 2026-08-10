@@ -18,11 +18,20 @@ It runs at atmospheric pressure, uses a qualified fuel form, has a much simpler 
 ## When to use
 Choose the FHR path if you want advanced-reactor heat on the nearest credible timeline and you weight execution evidence over fuel-cycle ambition. Permits granted, concrete poured, and hyperscaler offtake signed make it the de-risked entry in the salt family. It fits data-center campuses and TVA-style utilities that want 600 °C-class output without liquid-fuel licensing novelty. Skip it if the prize you're after is breeding or waste burning, which this design deliberately forfeits; that's sodium or chloride-salt territory. Check lithium-7, beryllium, and HALEU supply before underwriting fleet scale-up.
 
+## Key numbers
+Hermes demo is 35 MWt, with commercial KP-FHR units targeting roughly 140 MWe · FLiBe coolant at near-atmospheric pressure, 650 °C outlet · solid TRISO pebbles carrying HALEU just under 20% enrichment · lithium-7 enrichment above 99.99% to hold down neutron absorption and tritium · the Google offtake covers 500 MW of fleet output · overnight capex projected in the $3–7k/kW band.
+
 ## Examples
 Kairos Power: Hermes (35 MWt) under construction at Oak Ridge — the first non-water US power-reactor construction permit in 50 years — with Hermes 2 approved, a Google power-purchase agreement for 500 MW of fleet output, and TVA partnership; ORNL's decades of FLiBe research underneath.
 
 ## Economic profile
 On execution evidence this is the most credible near-term advanced-reactor program in the US: permits in hand, concrete poured, hyperscaler offtake signed. The bet is that manufacturing iteration (Kairos casts its own vessels) plus a boring licensing story beats more ambitious physics. Lithium-7 and beryllium supply plus HALEU are the scaling dependencies to watch.
+
+## Videos
+
+- https://www.youtube.com/watch?v=KN5F_lwzoAc — Understanding the Hermes Low Powered Demonstration Reactor (Oct 2022) (Kairos Power, 5 minutes, 5k+ views)
+- https://www.youtube.com/watch?v=BRt-Z_XhQEQ — Building the Engineering Test Unit (Kairos Power, 4 minutes, 1k+ views)
+- https://www.youtube.com/watch?v=42tXk7vTFV0 — Delivering a Molten Salt Milestone (Kairos Power, 3 minutes, 1k+ views)
 
 ## Further reading
 

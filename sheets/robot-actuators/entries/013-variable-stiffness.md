@@ -19,6 +19,9 @@ The compliance is physical, so it still works when control fails, which is a saf
 ## When to use
 Specify a full VSA only when physically guaranteed, control-independent compliance is a hard requirement. That usually means a safety case where software impedance on a failed controller isn't an acceptable answer, or research studying stiffness modulation itself. If you only need one tunable axis (gait-dependent stiffness in a prosthetic ankle, or a clutch that disengages on impact), use the single-motor, selective versions of the idea instead of two motors per joint. Otherwise avoid it. The second actuator's mass and roughly 2× joint cost buy a property a QDD joint approximates in software for free, and two decades of prototypes with no volume adoption is a base rate worth taking seriously.
 
+## Key numbers
+Two motors per joint, one setting position and one setting spring preload · stiffness adjustable over one to two orders of magnitude, wider in some research designs · stiffness transition time typically a few hundred milliseconds · joint mass and cost roughly 2× a single-motor actuator of the same output torque.
+
 ## Examples
 DLR's Hand Arm System and FSJ joints (the field's flagship), IIT's AwAS and CompAct series, qbrobotics' commercial VSA modules (the rare productization), MACCEPA-based prosthetics research.
 
@@ -27,6 +30,11 @@ The category is scientifically rich but commercially stalled, because the extra 
 
 ## Suppliers
 [qbrobotics](https://qbrobotics.com/) — commercial variable-stiffness actuators and soft hands
+
+## Videos
+
+- https://www.youtube.com/watch?v=EE9h0NnausU — neoDavid - A humanoid robot with variable stiffness actuation and dexterous manipulation skills (DLR RM, 4 minutes, 5k+ views)
+- https://www.youtube.com/watch?v=gi4jAH0_WEA — Variable Stiffness in Robotic Arms Lab Demo (MIT CSAIL Alliances, 2 minutes, 1k+ views)
 
 ## Further reading
 

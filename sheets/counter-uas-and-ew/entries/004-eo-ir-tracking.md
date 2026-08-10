@@ -19,6 +19,9 @@ Visual confirmation is what allows an engagement decision, and in most rules of 
 ## When to use
 Fit an EO/IR tracker in every counter-UAS system as the confirmation and terminal tracking sensor, cued by radar or RF. Do not expect it to serve as the primary search sensor except over a narrow approach corridor. For handheld and mobile systems it may be the only sensor, in which case accept that detection depends on someone looking in the right direction. In poor weather, plan for the whole optical chain to be unavailable and ensure the radar and effector can complete an engagement without it.
 
+## Key numbers
+Identification range 1–5 km with a long focal length · thermal channels commonly 640 × 512 pixels · video at 30–60 Hz · angular accuracy better than radar's, so it usually supplies the final fire-control solution · tracker cost $50k–500k.
+
 ## Limits and failure modes
 Weather and darkness limit the visible channel; thermal helps but has less range and resolution. Small drones against a cluttered urban background defeat automatic detection frequently. Sun in the field of view saturates the sensor. Slew rate limits tracking of close, fast-crossing targets. Because the field of view is narrow, an uncued search is slow and usually unproductive.
 
@@ -27,6 +30,12 @@ Teledyne FLIR and Wescam trackers integrated into counter-UAS systems, Chess Dyn
 
 ## Economic profile
 Sensor cost has fallen sharply with commercial thermal and visible imaging, so a capable tracker now costs $50k–500k rather than millions. Value has moved into the tracking and classification software, particularly automatic detection that reduces operator workload. The counter-UAS market has been a significant driver for compact trackers, and the same units serve force protection and border surveillance, which broadens the supplier base.
+
+## Videos
+
+- https://www.youtube.com/watch?v=epeRX0DJqDc — Optical AI Drone Detection - AeroEye (Drone Defence, 2 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=dgQMw4406PI — How Do Thermal Cameras Work? | FLIR Systems (Teledyne FLIR, 1 minute, 50k+ views)
+- https://www.youtube.com/watch?v=tUvisgRbRL0 — How do thermal IR cameras even work without liquid nitrogen? (Matthias random stuff, 9 minutes, 50k+ views)
 
 ## Further reading
 

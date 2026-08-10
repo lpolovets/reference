@@ -18,6 +18,9 @@ Unit size is financeable at ~$2–5B rather than $15–35B, decay-heat removal i
 ## When to use
 Choose a light-water SMR when your binding constraint is financing size or grid size rather than $/MWh. That covers utilities that can't carry a $15–35B single-asset risk, 300 MW-class grids, coal-site conversions with transmission already in place, and data-center offtakers paying a premium for firm power on a date. Prefer designs with concentrated order books (BWRX-300 today), because the whole thesis rests on the manufacturing learning curve, and an orphan design gives you small-reactor costs without the volume that pays for them. If you can finance a full-size PWR from a serial builder, do that instead; it beats any FOAK SMR on cost per kW.
 
+## Key numbers
+Electric output 50–470 MWe per module · light water as coolant and moderator · outlet around 300 °C · UO2 fuel below 5% enrichment · refueling every 18–24 months · $2–5B per unit instead of $15–35B for a full-size plant · overnight capex $4–6k/kW claimed at NOAK, $8–15k/kW realistic for first-of-a-kind.
+
 ## Variants
 ### BWRX-300 (GE Hitachi)
 Boiling-water simplicity at 300 MW. It's under construction at Darlington (Ontario), which makes it the West's SMR frontrunner, with TVA and Poland following.
@@ -33,6 +36,12 @@ Darlington's four-unit BWRX-300 program (first concrete 2025), Linglong One near
 
 ## Economic profile
 Vendors pitch $4–6k/kW at NOAK; realistic FOAK expectations are $8–15k. The math only works if one design wins enough repeat orders to move down a manufacturing learning curve, so order-book concentration (Ontario + TVA + Poland on BWRX-300) matters more than design elegance. Data-center power purchase agreements at premium prices are the demand shock that may finally fund the first fleet.
+
+## Videos
+
+- https://www.youtube.com/watch?v=nDF7Nln5e-0 — SMRs Explained | Why Small Modular Reactors Are Changing Nuclear Deployment (World Nuclear Association, 8 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=vU-IlqiP4sU — Normal System Operation (NuScale Power, 2 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=ldEy6UU8o4A — Energy 101: Small Modular Reactors (U.S. Department of Energy, 2 minutes, 10k+ views)
 
 ## Further reading
 

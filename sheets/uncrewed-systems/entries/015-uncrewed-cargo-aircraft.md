@@ -19,6 +19,9 @@ Removing the crew removes crew cost, crew rest limits, and crew risk, which is w
 ## When to use
 Use uncrewed cargo aircraft where the route is genuinely dangerous, where crew availability is the constraint, or where the mission profile is too long or dull for a crew — aerial refuelling being the clearest military case. For routine resupply where roads exist, compare honestly against ground transport, which is usually cheaper per tonne-kilometre by a wide margin. For contested resupply, weigh a small number of large aircraft against many small ones, since dispersal usually survives better than concentration.
 
+## Key numbers
+Payload a few hundred kilograms on purpose-built designs to several tonnes on converted light transports · endurance several hours to about a day · cruise typically 150–200 knots on turboprop conversions · MQ-25 requirement 15,000 lb of fuel delivered at 500 nautical miles.
+
 ## How it is countered
 Cargo aircraft are large, slow, and non-stealthy, so any air defense engages them. Their routes are predictable because cargo goes to known places. Electronic attack on control links matters for approach and landing phases in particular. The practical constraint in most theatres is that a cargo aircraft flying to a forward position advertises that position, which is a planning problem more than a technical one.
 
@@ -27,6 +30,12 @@ Boeing MQ-25 Stingray (carrier-based uncrewed tanker), Reliable Robotics and Xwi
 
 ## Economic profile
 Commercial progress has been slower than forecast, largely because certification for uncrewed operation in civil airspace is a long process and because the crew-cost savings are smaller than the pitch decks assumed. The military side has done better: the MQ-25 addresses a specific problem — extending carrier air wing range without spending fighters on tanking — where the value is clear. Expect military and contested-logistics applications to lead, with civil freight following certification rather than the other way round.
+
+## Videos
+
+- https://www.youtube.com/watch?v=m7yt6uMb3nY — Testing MQ-25 Aboard an Aircraft Carrier (Boeing, 2 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=w2O4hgNCMd4 — Reliable Robotics remotely operates a large cargo aircraft with no one on board (Reliable Robotics, 2 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=ayFUDRnI3sc — Xwing - Unveiling the World's First Autonomous Regional Cargo Aircraft (Modified Cessna 208B). (Xwing, 4 minutes, 5k+ views)
 
 ## Further reading
 

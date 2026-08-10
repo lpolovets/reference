@@ -19,11 +19,20 @@ They are gentle by construction, because the inflation pressure limits the force
 ## When to use
 Pick soft fingers for delicate, shape-variable products under hygiene rules (produce, bakery, proteins, anything washdown-regulated), where gentleness has to be guaranteed by construction rather than by control and moderate line rates are acceptable. Fin-ray fingertips are also a cheap upgrade for pose-tolerant grasping on an ordinary gripper. If placement precision, payload, or cycle rate dominates, vacuum and rigid jaws are faster and stiffer. Verify elastomer compatibility with your cleaning chemicals and oils before committing, because fingers are consumables and the wrong material shortens an already finite life.
 
+## Key numbers
+Payload usually 0.1–5 kg · actuation pressure 0.3–3 bar, well under a pneumatic jaw's 6 bar · grip force roughly 5–50 N per finger · cycle time 0.3–1 s, limited by inflation dynamics · one actuated degree of freedom per finger, and none on passive fin-ray designs · unit cost $500–5k, with replacement fingers tens of dollars each.
+
 ## Examples
 Soft Robotics Inc's mGrip food lines (the category's commercial proof, since acquired into Schmalz's orbit), Festo's adaptive fin-ray fingers, Rochu and other Chinese soft-gripper vendors, bakery/produce/protein picking cells, fin-ray fingertips printed by countless integrators.
 
 ## Economic profile
 Food automation is what made soft gripping a real business. Hygiene rules and labor scarcity in proteins and produce pay the premium, and fingers-as-consumables provide recurring revenue. Outside food, soft fingers compete with vacuum and usually lose on speed. The IP moat is thin, since fin-rays print anywhere. The durable positions are food-grade certification, materials know-how, and line integration.
+
+## Videos
+
+- https://www.youtube.com/watch?v=lmvocUm7TSU — Making a Soft Robotic Gripper (Tazer Technical, 18 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=_D4-hCSQ51Y — ADAPTIVE GRIPPER - DESIGN & ASSEMBLY INSTRUCTIONS -FIN RAY EFFECT- MY TAKE ON THIS DESIGN-3D Printed (LAD Robotics, 6 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=czNY4pTjYuM — Soft Robotics Food & Beverage Grippers at House of Design Robotics (House of Design Robotics, 2 minutes, 10k+ views)
 
 ## Further reading
 

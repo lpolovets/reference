@@ -2,7 +2,7 @@
 number: 39
 name: Zinc-Halide Static (Grid)
 part: 5
-group: Rechargeable zinc & metal-air
+group: Metal-air & rechargeable zinc
 applications: [grid]
 energy: vlow
 cycles: high
@@ -19,11 +19,19 @@ The aqueous electrolyte doesn't burn, which makes permitting much easier than li
 ## When to use
 Consider static zinc-halide for 3–12 hour stationary storage on sites where fire codes or community opposition make lithium siting painful, where full depth-of-discharge tolerance simplifies operation, or where non-Chinese supply is a procurement requirement. Price in ~75% round-trip efficiency against lithium's 90%+ before you commit. Avoid it for short-duration or efficiency-critical projects, and anywhere bankability decides the financing. LFP containers remain the default, and the crossover duration moves further out every year LFP gets cheaper.
 
+## Key numbers
+Duration 3–12 hours · round-trip efficiency roughly 75% or below, against 90%+ for lithium · full 100% depth of discharge tolerated · vendor-claimed cycle life around 5,000 cycles across a 20-year life · specific energy well under 50 Wh/kg, so footprints run large.
+
 ## Examples
 Eos Znyth/Z3 cube deployments in US utility projects (backed by a DOE loan guarantee); e-Zinc and Salient Energy pursuing adjacent zinc architectures.
 
 ## Economic profile
 It competes on levelized cost at longer durations, where lower capex per kWh offsets lithium's efficiency advantage, and on siting where fire codes bind. The core risk is the one every challenger faces: each year of LFP price decline pushes the crossover duration further out. US manufacturing and non-Chinese supply chains are central to the equity story.
+
+## Videos
+
+- https://www.youtube.com/watch?v=5EICgebR_9I — The Eos Z3 Battery // Can It Undercut Lithium Ion For Grid Storage? (The Limiting Factor, 24 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=lWd6I2og-e0 — How Zinc Batteries Are Defying Limits (Undecided with Matt Ferrell, 12 minutes, 500k+ views)
 
 ## Further reading
 

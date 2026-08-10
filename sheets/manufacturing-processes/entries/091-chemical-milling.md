@@ -18,7 +18,11 @@ Removes material uniformly from broad, thin surfaces without mechanical stress. 
 
 ## When to use
 
-Use chemical milling to thin large, already-formed skins and shells, such as pocketing aircraft panels for weight after stretch forming. That's the case where no cutter could fixture the floppy contoured sheet without distorting it. Depth control is modest (roughly plus or minus 0.05-0.1 mm), and the etchant undercuts the mask about one-to-one with depth, so keep pockets shallow and generous. If the part is rigid enough to hold in a machine, use high-speed CNC pocketing, which has displaced most of this work and gives better tolerances with no chemical waste stream. For fine flat detail in thin sheet, photochemical machining is the right variant.
+Use chemical milling to thin large, already-formed skins and shells, such as pocketing aircraft panels for weight after stretch forming. That's the case where no cutter could fixture the floppy contoured sheet without distorting it. Depth control is modest (roughly ±0.05–0.1 mm), and the etchant undercuts the mask about one-to-one with depth, so keep pockets shallow and generous. If the part is rigid enough to hold in a machine, use high-speed CNC pocketing, which has displaced most of this work and gives better tolerances with no chemical waste stream. For fine flat detail in thin sheet, photochemical machining is the right variant.
+
+## Key numbers
+
+Etch depth control roughly ±0.05–0.1 mm · undercut roughly 1:1 with etch depth · etch rates around 0.02–0.03 mm per minute on aluminum · pocket depths usually under 12 mm · surface finish Ra roughly 1–5 µm · maskant and scribe tooling in the low thousands of dollars, ready in days.
 
 ## Examples
 

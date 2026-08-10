@@ -28,6 +28,12 @@ Aerojet MR-501 and MR-510 arcjets on Lockheed Martin A2100 and other GEO buses, 
 ## Economic profile
 Electrothermal propulsion is old, cheap, and quietly persistent. GEO arcjets were largely displaced by Hall and ion thrusters once power budgets grew, but the water resistojet has found a genuinely new market in smallsats, where the ability to launch a propulsion system full of tap water as a secondary payload removes a large regulatory and handling cost. That is a good illustration of a recurring pattern: an old technology becomes relevant again when a new constraint, in this case rideshare safety rules, changes what matters.
 
+## Videos
+
+- https://www.youtube.com/watch?v=4TDCrVwm1W0 — Lightning In a Bottle? The Science Of Electro-Thermal Rocket Engines (Scott Manley, 19 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=pIwPjs5zBq8 — Spacecraft Propulsion: ElectroThermal Engine Systems (Terran Space Academy, 13 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=eYoEMOArLX8 — Arc Jet Thruster | Electric Propulsion | Basics of Arcjet Thrusters | Vyadh Aerospace (Vyadh Aerospace, 2 minutes, 1k+ views)
+
 ## Further reading
 
 [Benefits of Low-Power Electrothermal Propulsion (NASA Technical Reports Server)](https://ntrs.nasa.gov/citations/19970010126) · [In-Space Propulsion: State of the Art of Small Spacecraft Technology (NASA)](https://www.nasa.gov/smallsat-institute/sst-soa/in-space-propulsion/)

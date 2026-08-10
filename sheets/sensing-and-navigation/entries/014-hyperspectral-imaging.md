@@ -19,6 +19,9 @@ Material identification is the unique capability. Hyperspectral data separates r
 ## When to use
 Pick hyperspectral imaging when the question is what something is made of: camouflage detection, chemical and effluent detection, mineral exploration, crop and environmental monitoring, and detecting disturbed earth. If the question is where something is or what shape it has, ordinary imagery is far cheaper and easier. The realistic operational pattern is tip-and-cue — a wide-area imager finds candidates, hyperspectral confirms material, and a high-resolution optical sensor gets the picture a human can act on.
 
+## Key numbers
+100–400 contiguous bands from roughly 400 to 2,500 nm, against 4–15 broad bands for multispectral · spectral sampling of about 5–10 nm · spatial resolution around 30 m from current civil satellites and 1–5 m from airborne instruments · data volume of gigabytes per scene · civil hyperspectral satellite missions costing roughly $100M–400M.
+
 ## How it is defeated
 Spectrally matched camouflage materials are the direct counter, and they exist, though matching across 200 bands is much harder than matching visible color. Cloud blocks it entirely. Coarse spatial resolution means small objects are subpixel, and their signature gets mixed with the background, which is the practical limit for most tactical uses. Poor atmospheric correction produces false identifications, so the analytic chain is as much a vulnerability as the sensor.
 
@@ -27,6 +30,12 @@ NASA's AVIRIS airborne instrument and the EMIT instrument on the ISS, the Italia
 
 ## Economic profile
 Commercial hyperspectral constellations are being built now by several small companies, betting that methane monitoring, agriculture, and mineral exploration will fund the capability that defense also wants. Methane detection in particular has become a real revenue driver because of emissions regulation. Sensor cost is high and data handling is harder than imaging, so the value has migrated to analytics — very few customers want a data cube, they want an answer about a specific material at a specific place.
+
+## Videos
+
+- https://www.youtube.com/watch?v=3iaFzafWJQE — Mapping the Invisible: Introduction to Spectral Remote Sensing (NEON Science, 6 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=ayp7hP0Xr8Q — What is hyperspectral imaging - Tutorial (SpecimSpectral, 3 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=EWv78Lw-pb8 — Hyperspectral and Multispectral Imaging - TRENDING IN OPTICS (Edmund Optics, 3 minutes, 10k+ views)
 
 ## Further reading
 

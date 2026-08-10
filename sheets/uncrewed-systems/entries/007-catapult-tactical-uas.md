@@ -19,6 +19,9 @@ Endurance per dollar is the strength. Twenty-plus hours on station from a 20 kg 
 ## When to use
 Pick this class for persistent maritime and land surveillance where 12–24 hours on station matters and there is no runway: ship-based ISR, border and maritime patrol, and brigade-level overwatch. If you have a runway, a conventional Group 3 aircraft carries more payload for the same money. If you need vertical launch and recovery from a very small deck, a rotary or VTOL system is easier to operate at the cost of endurance. Budget for the launcher and recovery system as part of the buy — they often cost as much as the aircraft.
 
+## Key numbers
+Gross weight 20–80 kg · endurance 12–24 hours · operating altitude 5,000–15,000 ft · aircraft cost $200k–1M · full system with launcher and recovery gear $5–20M.
+
 ## How it is countered
 These aircraft operate at 5,000–15,000 ft and are within reach of most short-range air defense and man-portable systems. Their datalinks are detectable and jammable, though they complete routes autonomously. Because they loiter predictably over an area for many hours, they are relatively easy to detect and to plan against. Losses in contested airspace have been high in recent conflicts, which is the main reason this class is increasingly treated as attritable rather than as an asset to protect.
 
@@ -27,6 +30,12 @@ Insitu ScanEagle and Integrator (RQ-21 Blackjack), Elbit Skylark 3, Aeronautics 
 
 ## Economic profile
 Aircraft cost $200k–1M and full systems with launchers, recovery equipment, and ground stations run $5–20M. The business model has historically included contractor-operated services sold by the flight hour, which is a substantial revenue stream. Competitive pressure now comes from cheaper fixed-wing systems from Ukraine, Turkey, and China that deliver 60–70% of the capability at a fifth of the price, and from VTOL designs that eliminate the launch and recovery equipment entirely.
+
+## Videos
+
+- https://www.youtube.com/watch?v=U6OloUUhMeg — Insitu ScanEagle Launch And Capture (AIRBOYD, 3 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=J4uJ4yShEDA — Landing Drone Aircraft With No Runway: Unique 'SkyHook' Recovery System (AiirSource Military, 2 minutes, 500k+ views)
+- https://www.youtube.com/watch?v=0r5gG6cngyg — ScanEagle UAV Launch & Recovery (AiirSource Military, 4 minutes, 10k+ views)
 
 ## Further reading
 

@@ -19,6 +19,9 @@ You get micron-scale contact geometry plus rich shear and slip signals, using co
 ## When to use
 Pick GelSight-class sensing for dexterity work where fine contact geometry pays: in-hand pose estimation, cable and fastener manipulation, texture and defect inspection by touch, and any learned manipulation stack. Since the output is an image, it plugs straight into vision tooling, and $300–500 modules put it within reach of any lab. Hold off in long-duty industrial cells until gel-tip life matches your maintenance intervals, because tips are consumables and sharp or abrasive parts wear them quickly. If you're closing a tight kilohertz force loop, the frame-rate latency will destabilize control, so use a conventional F/T sensor or taxel array there instead.
 
+## Key numbers
+Sensing area roughly 15 × 20 mm per fingertip · spatial resolution in the tens of microns, fine enough to read surface texture · frame rate 25–60 fps, well below a dedicated force sensor's kilohertz · fingertip depth 25–40 mm, set by the camera standoff · unit cost $300–500 per module, plus replacement gel pads.
+
 ## Failure modes
 The gel wears and tears on sharp or abrasive parts, so fleet operators stock replacement tips. Scratches in the coating read as permanent phantom features. Aging illumination LEDs shift the calibration. Condensation or oil films alter the optics. Latency destabilizes tight force loops. Models trained on one gel batch degrade on the next, so manufacturing variance is itself a failure mode.
 
@@ -27,6 +30,12 @@ GelSight Inc (Mini as the commercial standard), Meta AI's Digit (open-hardware, 
 
 ## Economic profile
 The $300–500 module price point made rich touch sensing affordable for any lab, and consumable gel tips give vendors a razor-and-blades revenue line. The open question is whether it's ready for industry: research labs use it heavily, but factories need tip life measured in months. If durability improves, vision-based touch could become the fingertip standard for the same reason it took over research, which is that its output is images, the same format the rest of the learned stack already uses.
+
+## Videos
+
+- https://www.youtube.com/watch?v=w1EBdbe4Nes — GelSight sensor gives robots touch (Massachusetts Institute of Technology (MIT), 2 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=eyUZX-lCj4M — Advancing robotics and touch perception | AI Research from Meta FAIR (AI at Meta, 3 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=F73kkqiHGwE — DIGIT - a Low-Cost Compact High-Resolution Tactile Sensor (Roberto Calandra, 9 minutes, 5k+ views)
 
 ## Further reading
 

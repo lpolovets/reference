@@ -7,7 +7,7 @@ applications: [prec, arm]
 density: low
 backdrive: poor
 precision: fine
-cost: vlow
+cost: low
 ---
 
 ## Description
@@ -19,6 +19,9 @@ Steppers are very cheap, simple to control, hold full torque at standstill, and 
 ## When to use
 Pick a stepper when the load is light and predictable, speeds stay in the low hundreds of RPM, and the whole axis has to land under roughly $30. That covers instrument stages, syringe pumps, tool positioners, and printer-class motion where full holding torque at standstill is useful. If a missed step would matter but the budget still can't reach a servo, use a closed-loop variant with an encoder. Avoid steppers wherever the load can vary or collide, because lost steps fail silently, and wherever watts or heat matter, because the motor draws full current doing nothing. Above that line, use a BLDC servo axis. For powered limbs, a stepper was never a candidate.
 
+## Key numbers
+200 full steps per revolution (1.8° step angle), microstepped to 1/16 or finer · holding torque around 0.4 Nm for a NEMA 17, several Nm for a NEMA 34 · usable speed in the low hundreds of rpm before torque falls off · positioning accuracy roughly ±5% of a step, non-cumulative · motor $5–20 plus about $2 for the driver.
+
 ## Examples
 Every FDM 3D printer axis (NEMA 17 as a de facto standard), syringe pumps and lab robots, pick-and-place machines, telescope mounts; hybrid closed-loop steppers (ClearPath, cheap Chinese servo-steppers) taking share from the low-end servo market.
 
@@ -27,6 +30,12 @@ Steppers are the cheapest precision positioning per axis available, at $5–20 f
 
 ## Suppliers
 [STEPPERONLINE](https://www.omc-stepperonline.com/) — commodity NEMA steppers at volume · [Teknic](https://teknic.com/) — ClearPath closed-loop servo-steppers
+
+## Videos
+
+- https://www.youtube.com/watch?v=09Mpkjcr0bo — How Stepper Motors Work - Electric motor (The Engineering Mindset, 14 minutes, 1m+ views)
+- https://www.youtube.com/watch?v=Dgq3wdpx-So — Stepper Motors Explained | Full Step, Half Step and Microstepping (Engineering Technology Simulation Learning Videos, 6 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=OPgbm81q8Uk — Closed loop stepper motors -- very impressive (Matthias random stuff, 11 minutes, 100k+ views)
 
 ## Further reading
 

@@ -20,6 +20,10 @@ Quenching and tempering produce high strength and hardness with adjustable tough
 
 Choose quench and temper when a medium-carbon or alloy steel part needs through-thickness strength and hardness (roughly 30 to 60 HRC, dialed in by tempering temperature), as in shafts, fasteners above class 8.8, tools, and gears. Match hardenability to section size: plain carbon steels only harden thin sections in aggressive quenches, while alloy grades harden deep sections in oil with less distortion risk. Leave grinding stock and plan for straightening on slender or asymmetric parts. If distortion budgets are tight, switch to a milder quench, austempering, or a pre-hardened steel. If only the surface needs hardness over a tough core, use induction hardening or carburizing instead of hardening the whole part.
 
+## Key numbers
+
+Austenitizing at roughly 800–900 °C, then quenching in water, oil, polymer, or gas · as-quenched martensite of about 55–65 HRC depending on carbon content · tempering at 150–650 °C, giving 30–60 HRC · plain carbon grades through-hardening only to roughly 15–25 mm of section, alloy grades to 50–100 mm in oil · 0.2–0.5 mm of grinding stock left for quench distortion.
+
 ## Examples
 
 Gears, tools, shafts, armor, fasteners.

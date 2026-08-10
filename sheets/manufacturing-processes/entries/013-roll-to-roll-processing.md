@@ -20,6 +20,10 @@ Throughput is very high and unit cost is low for flexible products. The difficul
 
 Choose roll-to-roll when your product is thin, flexible, and needed in very large areas (coated films, battery electrodes, tapes, flexible electronics). Once a line is dialed in, nothing matches its area throughput and unit cost. It does require volume and a mature process, because a defect propagates down the whole web. If you have low volumes, a rigid substrate, or a process still in development, use sheet-fed or batch coating instead to keep scrap and capital contained.
 
+## Key numbers
+
+Web width typically 0.3–3 m · line speed 10–300 m/min for coating, higher for printing · coated layer 0.1–500 µm at ±1–3% uniformity · registration accuracy roughly ±10–100 µm on patterned webs · tension control within a few percent · line capex about $1M for a narrow coater, $20M and up for a wide multi-station line.
+
 ## Examples
 
 Battery electrodes, flexible electronics, packaging films, solar films, adhesive tape.

@@ -19,11 +19,20 @@ NiMH is robust against overcharge and over-discharge, has benign failure modes a
 ## When to use
 Pick NiMH where a safe aqueous chemistry with benign failure modes and proven 15-year life matters more than energy density: shallow-cycle hybrid duty in cost-focused trims, backup power that must never burn, and AA-format devices where low-self-discharge cells (Eneloop-class) replace disposables. Avoid it for anything driven by weight, volume, or range, since Li-ion holds twice the energy at falling cost. Don't design new platforms around it either, because the supply base is in managed decline and follows the installed base rather than new demand.
 
+## Key numbers
+Specific energy 60–110 Wh/kg · energy density roughly 250–300 Wh/L · nominal cell voltage 1.2 V · 500–1,000 full cycles in consumer cells, and 15 years of shallow cycling in hybrid packs · self-discharge 15–20% per month in standard cells, while low-self-discharge cells hold about 70% after 10 years on the shelf.
+
 ## Examples
 Toyota hybrids (tens of millions of vehicles; NiMH persists in cost-focused trims), Panasonic Eneloop AAs, medical devices, train and aircraft backup batteries (Saft).
 
 ## Economic profile
 NiMH is a mature chemistry in managed decline. Hybrids are migrating to Li-ion, which leaves consumer cells and industrial backup. Manufacturing is concentrated in Japan and China. The history is worth noting: patent control (Ovonics/ECD) and one anchor application (Prius) built the market, and then flat costs against Li-ion's learning curve took it apart again.
+
+## Videos
+
+- https://www.youtube.com/watch?v=BkBuDbfuhxM — How Nickel Metal Hydride battery works | Working principle (Owl WiS, 4 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=5B1sX7p5xXI — Are AA NiMH Batteries obsolete? Here is everything you need to know about them! (GreatScott!, 12 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=tBg4ximDrsk — What's inside Eneloop and LIDL NiMh cells (fire, apparently) (bigclivedotcom, 20 minutes, 1m+ views)
 
 ## Further reading
 

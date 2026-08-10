@@ -20,6 +20,10 @@ Supports many glass and crystal materials and can reach excellent figure and fin
 
 This is the default route for spherical lenses, flats, prisms, and windows in any glass or crystal from prototype through medium volume: tooling is modest, nearly every optical material is workable, and lambda/10 figure with angstrom-level roughness is routine in a competent shop. Choose it whenever material choice matters more than geometry, since CNC generation plus pitch or pad polishing handles the vast majority of catalog optics. It gets expensive for aspheres and freeforms, where sub-aperture CNC polishing helps but deterministic MRF finishing is usually the final step. It also cannot compete at consumer volumes, where precision glass molding or polymer injection molding make optics for cents. For infrared crystals and metal mirrors, single-point diamond turning is often faster to a finished asphere.
 
+## Key numbers
+
+Figure accuracy lambda/4 commercial, lambda/10 precision, lambda/20 or better on high-end work at 633 nm · surface roughness a few nm RMS commercial, under 1 nm on precision work and 0.3 nm superpolished · scratch-dig 80-50 commercial down to 10-5 on laser optics · radius tolerance ±0.5% commercial and ±0.1% precision · diameters from a few millimeters to several meters · hours to days per surface, so lot sizes of one to a few thousand.
+
 ## Examples
 
 Lenses, telescope mirrors, prisms, windows.

@@ -18,7 +18,11 @@ Creates anisotropic, high-resolution features with near-vertical walls. Equipmen
 
 ## When to use
 
-Choose plasma etching whenever pattern fidelity matters: submicron features, vertical sidewalls, and tight critical-dimension control that wet chemistry's undercut makes impossible. It is required for transistor-scale patterning and is the default for MEMS and photonic features below a few microns, with RIE and ICP chemistries tunable per material stack. In exchange you get single-wafer processing on tools costing hundreds of thousands to millions, plus development time to balance selectivity against the mask and underlying layers and to manage plasma-induced damage on sensitive devices. If features are tens of microns, sidewall profile does not matter, or you are stripping blanket films, wet etching does the same job at a fraction of the cost. For silicon structures deeper than ~20 um at high aspect ratio, use DRIE.
+Choose plasma etching whenever pattern fidelity matters: submicron features, vertical sidewalls, and tight critical-dimension control that wet chemistry's undercut makes impossible. It is required for transistor-scale patterning and is the default for MEMS and photonic features below a few microns, with RIE and ICP chemistries tunable per material stack. In exchange you get single-wafer processing on tools costing hundreds of thousands to millions, plus development time to balance selectivity against the mask and underlying layers and to manage plasma-induced damage on sensitive devices. If features are tens of microns, sidewall profile does not matter, or you are stripping blanket films, wet etching does the same job at a fraction of the cost. For silicon structures deeper than ~20 µm at high aspect ratio, use DRIE.
+
+## Key numbers
+
+Features from sub-10 nm at leading-edge nodes up to tens of microns · etch rate 0.1–1 µm/min, higher with ICP sources · sidewall angles 88–90 degrees · selectivity to photoresist usually 3:1 to 10:1 · chamber pressure 1–100 mTorr · single-wafer tools $300k to several million dollars.
 
 ## Examples
 

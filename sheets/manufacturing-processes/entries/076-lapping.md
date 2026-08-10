@@ -18,7 +18,11 @@ Achieves exceptional flatness, contact, and surface finish. Slow and unsuitable 
 
 ## When to use
 
-Pick lapping when flatness or fit has to reach the light-band level: mechanical seal faces, gauge blocks, valve seats, optics, and wafers. It reaches finishes down to 0.01-0.05 micrometers Ra, which grinding cannot deliver. It removes only micrometers to a few hundredths of a millimeter, so parts have to arrive already ground to size. It is slow and messy, so skip it wherever ground tolerances suffice. For bores use honing, and for contoured surfaces use polishing.
+Pick lapping when flatness or fit has to reach the light-band level: mechanical seal faces, gauge blocks, valve seats, optics, and wafers. It reaches finishes down to 0.01–0.05 micrometers Ra, which grinding cannot deliver. It removes only micrometers to a few hundredths of a millimeter, so parts have to arrive already ground to size. It is slow and messy, so skip it wherever ground tolerances suffice. For bores use honing, and for contoured surfaces use polishing.
+
+## Key numbers
+
+Flatness to one helium light band, about 0.3 µm, and below 0.1 µm on optical work · surface finish 0.01–0.05 µm Ra · abrasive grit 3–30 µm · removal rate roughly 1–10 µm per minute · total stock removed from a few micrometers to a few hundredths of a millimeter · cycle time minutes to about an hour per load.
 
 ## Examples
 

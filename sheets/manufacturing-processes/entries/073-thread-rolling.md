@@ -18,7 +18,11 @@ Fast, chipless, and creates strong fatigue-resistant threads. Requires ductile m
 
 ## When to use
 
-Pick thread rolling for external threads on ductile metals (typically below about 40 HRC) at high volumes. It runs at parts per minute, makes no chips, and gives fatigue life several times that of cut threads. On critical bolts, roll after heat treatment so the compressive layer survives. Blank diameter must be held to roughly plus or minus 0.02-0.05 mm, because the material is displaced rather than removed. Avoid it for internal threads, brittle or fully hardened materials, thin-walled parts that collapse under die force, and short runs that cannot pay for dies. In those cases, use tapping or single-point threading.
+Pick thread rolling for external threads on ductile metals (typically below about 40 HRC) at high volumes. It runs at parts per minute, makes no chips, and gives fatigue life several times that of cut threads. On critical bolts, roll after heat treatment so the compressive layer survives. Blank diameter must be held to roughly ±0.02–0.05 mm, because the material is displaced rather than removed. Avoid it for internal threads, brittle or fully hardened materials, thin-walled parts that collapse under die force, and short runs that cannot pay for dies. In those cases, use tapping or single-point threading.
+
+## Key numbers
+
+Works on ductile material below roughly 40 HRC · blank diameter held to ±0.02–0.05 mm · production rates from tens to a few hundred parts per minute · fatigue life typically 2–5× that of cut threads · die sets cost $500–3,000 and run 100,000 parts and up between regrinds · no chips, so material use drops roughly 15–20% against cutting.
 
 ## Examples
 

@@ -18,6 +18,9 @@ The measurement leaves out drivetrain error (backlash, screw pitch error, therma
 ## When to use
 Pick a linear scale when a linear axis has to hit tolerances the drivetrain can't guarantee: gantries, stages, and machine axes chasing tens of microns or better, where backlash, screw error, and thermal growth would otherwise show up in the part. Use glass scales for precision work, cut-to-length magnetic tape for long or dirty axes, and interferential scales for nanometer stages. If a motor-side encoder plus a stiff, well-mapped drivetrain already meets spec, stay with that, because installation, alignment, and full-travel protection are the real cost. And keep in mind that none of this applies to rotary-joint arms, which is most robots.
 
+## Key numbers
+Resolution 1–5 µm on magnetic tape down to nanometers on interferential glass · accuracy roughly ±10 µm per meter on tape and ±1 to ±5 µm per meter on glass · travel from a few hundred millimeters to tens of meters with cut-to-length tape · traverse speed up to a few meters per second on sealed scales · unit cost in the hundreds of dollars for tape and $1,000–5,000 for a sealed glass scale, rising with length.
+
 ## Failure modes
 Contamination scratches or obscures the gratings, and sealed scales trade protection for friction. Mounting stress and thermal mismatch between the scale and the machine bend accuracy. The read-head gap drifts from wear or after a crash. Strong fields or physical dings corrupt magnetic scales. Incremental types lose their reference mark after a power cycle. Cable carriers fatigue on fast axes.
 
@@ -26,6 +29,12 @@ Heidenhain glass scales on every serious CNC and CMM, Renishaw tape systems on g
 
 ## Economic profile
 The market is close to a duopoly (Heidenhain, Renishaw), with instrument margins at the top and commodity magnetic tape at the bottom. Robotics exposure is indirect but real, since every gantry-based logistics system, quality 3D printer, and semiconductor handler carries them. The strategic point is that as robots chase machine-tool accuracy for machining and assembly, direct measurement gets popular again.
+
+## Videos
+
+- https://www.youtube.com/watch?v=YdkyzwTYzOo — Linear Encoders for Machine Tools | HEIDENHAIN (HEIDENHAIN, 4 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=nnk0DV5kgMk — What is an ENCODER - Linear and Rotary encoder - Incremental and Absolute encoder (JAES Company , 8 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=7rg40Ba-WMc — M-DRO Guide to the Operation of Optical Linear Encoders, also known as Glass Scale Digital Readouts (MachineDRO, 2 minutes, 10k+ views)
 
 ## Further reading
 

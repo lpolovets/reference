@@ -20,6 +20,10 @@ Provides low thermal damage and low oxidation. Geometry is line-of-sight constra
 
 Pick cold spray when material must go onto a part that cannot tolerate heat: dimensional restoration of worn or corroded aerospace and defense components, repairs on magnesium and aluminum housings where welding would distort or crack, and thick copper or oxidation-sensitive deposits laid down without melting. Deposition rates of kilograms per hour make large-area buildup practical, and machining to final dimension is assumed. Avoid it for geometry off the line of sight of the nozzle, for fine internal features, and for freestanding complex parts, where powder-bed fusion or DED is the better additive route. If you need simple hardfacing and heat is acceptable, conventional thermal spray or weld overlay is cheaper.
 
+## Key numbers
+
+Particle velocities 500–1,200 m/s · gas preheat 300–1,100 °C, below the powder's melting point · deposition rates roughly 1–10 kg/hr on high-pressure systems · deposit porosity typically under 1–2% · deposits from 0.1 mm to tens of millimeters thick · as-sprayed Ra roughly 10–30 µm.
+
 ## Examples
 
 Corrosion repair, copper deposition, dimensional restoration, aerospace repair.

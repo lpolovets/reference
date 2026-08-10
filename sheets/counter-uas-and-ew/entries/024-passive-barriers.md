@@ -19,6 +19,9 @@ Reliability is the great advantage: a net does not need to detect anything, does
 ## When to use
 Use passive protection everywhere it fits, because it is the only counter-drone measure that works with no operator and no failure mode. Cage armor on vehicles and nets over fixed positions and supply routes should be the baseline, with active systems layered on top for what passive measures cannot cover. The mistake to avoid is treating active systems as a substitute: they cover a fraction of the time and space, and passive measures cover the rest. Judge configurations against the actual warheads in use, since standoff requirements vary.
 
+## Key numbers
+Standoff of a few hundred millimeters from cage or slat armor · netted supply corridors running tens of kilometers in Ukraine · zero power, operators, or spectrum required · cost orders of magnitude below any active system · added vehicle weight and bulk that obstructs hatches, sensors, and weapons.
+
 ## Limits and failure modes
 Only protects what it covers, so gaps are exploited. Cage armor adds weight, restricts crew access, and can obstruct sensors and weapons. Larger or tandem warheads defeat inadequate standoff. Nets over roads restrict traffic and are a maintenance burden. Drones that attack from directly above or that carry larger charges may penetrate anyway, and configurations that worked against last year's warheads may not work against this year's.
 
@@ -27,6 +30,11 @@ Cage and slat armor improvised and then standardized on Russian and Ukrainian ve
 
 ## Economic profile
 This is the cheapest counter-drone measure by a very wide margin and the one with the best cost exchange, which is why it has been adopted universally by forces facing drone attack regardless of what else they field. There is no real industry — it is netting, steel bar, and labor. Its prominence is a useful corrective to a field dominated by expensive systems: the most widely used counter to FPV drones is currently a net.
+
+## Videos
+
+- https://www.youtube.com/watch?v=XlU_DRRKbpI — How Effective Is Stand-Off Armour Actually? (Numbers) (Cat36, 6 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=C4NmOss83XI — Why Protecting Tanks is Getting Much More Difficult (Not What You Think, 13 minutes, 5m+ views)
 
 ## Further reading
 

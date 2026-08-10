@@ -18,6 +18,9 @@ Low-temperature, high-rate performance is outstanding, shelf life is long, and t
 ## When to use
 Pick Li-SO2 for military field equipment that must deliver full-rate power at -40 °C after a decade in storage (radios, sonobuoys, munitions electronics, arctic instrumentation), where BA-5590-class logistics and qualification already exist. It is effectively a defense-only chemistry, since consumer use is prohibited and disposal is regulated. If you need longer unattended life at low drain, choose Li-SOCl2 instead, and where battlefield recharging doctrine applies, rechargeable BB-2590 Li-ion packs are the direction of travel.
 
+## Key numbers
+Nominal 3 V per cell · specific energy roughly 250–330 Wh/kg and 350–450 Wh/L · operating range -40 to +71 °C, with full-rate discharge at the cold end · shelf life about 10 years · spiral-wound cells supporting continuous currents of several amps.
+
 ## Examples
 BA-5590 and family (Saft America, EaglePicher, Ultralife) powering military radios, jammers, and missiles; sonobuoys; arctic and high-altitude instrumentation.
 

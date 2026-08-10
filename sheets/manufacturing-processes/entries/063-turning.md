@@ -18,7 +18,11 @@ It's accurate and efficient for rotational geometry. It wastes material, and it'
 
 ## When to use
 
-Pick turning as the default for anything rotationally symmetric (shafts, bushings, fittings) from one-off prototypes through mid volumes. Tolerances to plus or minus 0.01 mm are routine, and live tooling covers incidental flats and cross-holes. Swiss-type and multi-spindle lathes extend it economically to high-volume small parts. Avoid it when the part is fundamentally prismatic, and mill it instead. If volumes get high enough that a net-shape process like cold heading or powder metallurgy is cheaper per part, turning stops being competitive because of the chips and the cycle time.
+Pick turning as the default for anything rotationally symmetric (shafts, bushings, fittings) from one-off prototypes through mid volumes. Tolerances to ±0.01 mm are routine, and live tooling covers incidental flats and cross-holes. Swiss-type and multi-spindle lathes extend it economically to high-volume small parts. Avoid it when the part is fundamentally prismatic, and mill it instead. If volumes get high enough that a net-shape process like cold heading or powder metallurgy is cheaper per part, turning stops being competitive because of the chips and the cycle time.
+
+## Key numbers
+
+Tolerances ±0.01 mm routine and ±0.005 mm with a good machine and a finishing pass · surface finish 0.4–3.2 µm Ra · no dedicated tooling, so lot size 1 is economic · setup 15 minutes to a few hours · cycle time seconds to minutes per part · US shop rates roughly $60–120 per hour for CNC turning.
 
 ## Examples
 

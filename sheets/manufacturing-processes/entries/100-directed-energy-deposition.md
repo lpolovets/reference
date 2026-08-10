@@ -20,6 +20,10 @@ Repairs high-value parts, adds features, and builds large structures. Accuracy a
 
 Pick DED to repair and remanufacture high-value metal parts (turbine blade tips, worn shafts, damaged molds) and to add bosses, flanges, or cladding to existing forgings and castings, since depositing onto an existing substrate is exactly what the process does. Wire-arc variants build meter-scale near-net structures at kilograms per hour, which is attractive when a forging has a year of lead time. Treat every build as near-net: plan finish machining of all functional surfaces and manage distortion. Avoid it for small intricate new parts with internal features, where powder-bed fusion holds far finer detail, and for anything a standard forging or casting can supply on acceptable lead time.
 
+## Key numbers
+
+Deposition rates 0.5–2 kg/hr for laser powder DED and 1–10 kg/hr for wire-arc · near-net tolerance roughly ±0.5–1 mm, with 1–3 mm of machining stock per surface · as-deposited Ra 20–50 µm · powder capture 40–90% for blown powder, near 100% for wire · working envelopes to several meters on gantry and robot cells.
+
 ## Examples
 
 Turbine repair, large aerospace structures, mold repair, added bosses and flanges.

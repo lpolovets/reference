@@ -19,6 +19,9 @@ You get zero backlash, very high single-stage ratios, a thin coaxial form factor
 ## When to use
 Choose strain-wave when you need 50–160:1 with zero backlash in minimum mass and axial depth. That means arm wrists and distal joints, cobots, positioning duty where trajectories are controlled and impacts are rare, and anywhere a cable pass-through hole is worth having. Design around its limits: derate for shock, since a single hard impact can ratchet the flexspline, and plan for force control through its wind-up and load-dependent friction to be a real controls project. Avoid it for impact-exposed proximal joints, where a cycloidal handles the hits better, and for contact-rich tasks that need backdrivability, where a QDD joint is the modern answer. If you're buying cheap Chinese units, qualify them on fatigue-life data rather than catalog torque.
 
+## Key numbers
+Ratio 50–160:1 in a single stage · backlash under 1 arcminute, effectively zero · repeatability typically within a few tens of arcseconds · efficiency 60–85%, worse at low load and low temperature · wave generator life 7,000–10,000 hours L10 at catalog torque and 2,000 rpm input, 35,000–50,000 hours L50 average · unit cost $500–2,000 from incumbents, roughly a third of that from Chinese suppliers.
+
 ## Examples
 Harmonic Drive Systems (the namesake, ~half the world market), every UR cobot joint, most industrial-robot wrists, space mechanisms from lunar rovers to JWST; Chinese challengers (Leaderdrive, Zhongdadi) scaling with the humanoid boom; Tesla Optimus uses strain-wave stages in high-torque joints.
 
@@ -27,6 +30,12 @@ This is a textbook precision-manufacturing moat. The know-how in flexspline toot
 
 ## Suppliers
 [Harmonic Drive](https://www.harmonicdrive.net/) — the strain-wave originator · [Leaderdrive](https://www.leaderdrive.com/) — Chinese strain-wave supplier scaling with humanoid demand
+
+## Videos
+
+- https://www.youtube.com/watch?v=xlnNj9F37MA — What is Strain Wave Gear a.k.a. Harmonic Drive? A Perfect Gear Set For Robotics Applications!? (How To Mechatronics, 16 minutes, 500k+ views)
+- https://www.youtube.com/watch?v=479Xay-Ulrs — Harmonic Drive® Strain Wave Gear: Functional Principle | The Original (Harmonic Drive SE, 2 minutes, 500k+ views)
+- https://www.youtube.com/watch?v=LplZE0e3r3w — Why Harmonic Drives Are Awesome. (Jeremy Fielding, 19 minutes, 100k+ views)
 
 ## Further reading
 

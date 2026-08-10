@@ -7,7 +7,7 @@ functions: [term, id]
 range: [short, med]
 stealth: good
 jamming: good
-cost: high
+cost: med
 ---
 
 ## Description
@@ -19,6 +19,9 @@ Countermeasure resistance and aimpoint selection are the advantages, and they ar
 ## When to use
 Pick an imaging infrared seeker where countermeasure resistance or precise aimpoint selection justifies the cost: top-attack anti-armor missiles, modern air-to-air missiles, and precision strike weapons against distinct targets. If the target is a large emitter in clear weather and cost matters, a simpler seeker will do. If weather is the dominant risk, pair imaging infrared with millimeter-wave radar in a dual-mode seeker — the radar finds the target through obscurants and the imager confirms the aimpoint, which is now the standard architecture for high-end anti-armor weapons.
 
+## Key numbers
+Focal plane array 256×256 to 640×512 · 3–5 µm or 8–12 µm band · detector cooled to roughly 77 K by a Stirling cooler · dual-mode versions pair it with a 94 GHz millimeter-wave radar · several times the cost of a reticle seeker, dominated by the array and its cooler.
+
 ## How it is defeated
 Multispectral smoke and obscurants block it. Thermal signature management reduces contrast, and decoys designed to present a plausible thermal shape rather than just a hot spot are effective if well made. High-power directed infrared countermeasures can still dazzle or damage the array. Automatic target recognition can be defeated by presenting targets in configurations outside its training set, which is the practical version of an adversarial attack and is much easier than the academic literature makes it sound.
 
@@ -27,6 +30,11 @@ Javelin's imaging seeker, the AIM-9X and IRIS-T, the Spike family, Brimstone's d
 
 ## Economic profile
 Imaging seeker cost is dominated by the cooled focal plane array and its cooler, which are the same components as high-end thermal imaging and share that concentrated supply base. Prices have fallen as detector production has matured, which has moved imaging seekers from exquisite weapons into much broader use, including relatively inexpensive loitering munitions. Export control remains strict, and the seeker is often the item that gates a weapon transfer.
+
+## Videos
+
+- https://www.youtube.com/watch?v=SUdHzKRiBX8 — The Insane Engineering of the Javelin (Real Engineering, 15 minutes, 5m+ views)
+- https://www.youtube.com/watch?v=E5C20L0yvY0 — Javelin Missile | How a Javelin Missile works (AiTelly, 6 minutes, 1m+ views)
 
 ## Further reading
 

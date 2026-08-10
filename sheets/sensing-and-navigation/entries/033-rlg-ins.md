@@ -17,6 +17,9 @@ Navigation-grade performance is the point: bias stability around 0.001–0.01 de
 ## When to use
 Pick an RLG inertial unit for aircraft, ships, and vehicles that need to navigate accurately for hours without external references. Below that requirement, a fiber-optic gyro unit is cheaper and quieter, and a MEMS unit is cheaper again by two orders of magnitude with correspondingly worse drift. The design rule is to work backwards from allowed position error at the end of the GNSS-denied period: one nautical mile per hour means a four-hour denied flight ends four miles off, which may be fine for an aircraft and useless for a weapon.
 
+## Key numbers
+Gyro bias stability 0.001–0.01 °/hr · free-inertial position drift roughly 1 nautical mile per hour · navigation-grade unit about the size of a shoebox · $50k–200k per unit · service life in the tens of thousands of hours · export-controlled under Wassenaar and ITAR.
+
 ## How it is defeated
 There is no remote attack on an inertial unit — it senses only its own motion, which is why it anchors every jam-resistant navigation architecture. The vulnerability is intrinsic: drift accumulates without bound, so a long enough denied period defeats it regardless of quality. Temperature changes and vibration degrade bias stability from the specification values. And an inertial unit initialized with a spoofed GNSS position starts from the wrong place and stays wrong, which is why initialization integrity matters as much as gyro quality.
 
@@ -25,6 +28,12 @@ Honeywell's HG9900 and the LN-100 family from Northrop Grumman, the inertial ref
 
 ## Economic profile
 The market is mature and concentrated among Honeywell, Northrop Grumman, Safran, and a few others, with high barriers from both manufacturing precision and export control. Prices have not fallen much, because the technology is at its practical limit and volumes are modest. The competitive pressure comes from below: fiber-optic gyros have taken the mid-range, and MEMS units keep improving. RLGs remain dominant where the highest performance in a rugged package is required and cost is secondary.
+
+## Videos
+
+- https://www.youtube.com/watch?v=kAc8qiZ2v0Q — How does a Ring Laser Gyroscope function? | What is SAGNAC Effect? | Inertial Guidance System (JxJ AVIATION, 5 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=6gxSdmKPBvI — How Optical Gyroscopes Work? (Sagnac Effect) (Engineering Educator Academy, 14 minutes, 5k+ views)
+- https://www.youtube.com/watch?v=mUWlrlRcb0Q — Inertial Reference System Rising Laser Gyroscope And IRS Of Aircraft | Video 38 (Airplane Tech Talk, 11 minutes, 50k+ views)
 
 ## Further reading
 

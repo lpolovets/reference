@@ -20,6 +20,10 @@ It produces complex seamless structures and can cut part count. The equipment an
 
 Pick tube hydroforming when one seamless hollow member can replace a welded assembly of stampings and stiffness per kilogram justifies the press investment. The usual case is automotive frames and exhausts at tens of thousands of units per year, in ductile aluminum or in mild and stainless steel. Sheet hydroforming makes sense at lower volumes, because using a single rigid die half cuts tooling cost roughly in half versus matched dies. Avoid it for prototypes and short runs (fabricate and weld instead), for simple open sections that stamping or roll forming handles better, and for low-elongation alloys that split under internal pressure.
 
+## Key numbers
+
+Forming pressure 30–100 MPa for sheet and 100–400 MPa for tube · press capacity 1,000–10,000 tons · tube circumference expansion up to 20–50% in steel, less in aluminum · cycle 20–60 s per part · dimensional tolerance ±0.5–1 mm · tooling $50,000–500,000, 12–24 weeks lead time · economic lot size tens of thousands a year.
+
 ## Examples
 
 Automotive subframes, exhaust components, bicycle frames, aerospace ducts.

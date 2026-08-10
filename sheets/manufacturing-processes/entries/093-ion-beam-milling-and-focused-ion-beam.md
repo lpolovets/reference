@@ -20,6 +20,10 @@ Provides exceptional precision across many materials. Extremely slow, expensive,
 
 Pick FIB when the feature is measured in nanometers to a few micrometers and nothing else can address it: semiconductor circuit edit and failure analysis, TEM lamella preparation, nanoscale prototyping, and trimming thin-film devices. Broad ion-beam milling suits gentle large-area material removal such as cross-section polishing. Removal rates are cubic micrometers per second, so treat this as laboratory and one-off work and never plan it as a production removal step. If the feature is visible to the naked eye, use laser micromachining, lithography-plus-etch, or conventional precision machining instead.
 
+## Key numbers
+
+Feature sizes from about 10 nm to a few micrometers · gallium beams at 5–30 keV and 1 pA to 65 nA · removal rates on the order of cubic micrometers per second · milled areas typically under 100 µm across · dual-beam FIB-SEM systems roughly $500k to $2m.
+
 ## Examples
 
 Semiconductor repair, microscopy sample preparation, thin-film devices, nanoscale prototypes.

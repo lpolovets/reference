@@ -18,11 +18,20 @@ Factory series production is finally plausible at this size, the passive safety 
 ## When to use
 Buy a microreactor only where the true competitor is diesel logistics: remote mines, Arctic communities, forward bases, and island grids paying $0.30–1/kWh landed. In those places a sealed multi-year core clears its $15–30k/kW price. Defense procurement is the anchor customer, so treat data-center colocation as upside rather than base case. Don't buy one on grid-scale economics, because a 300 MW-class SMR beats it by an order of magnitude on $/kW. And diligence vendor runway hard, since fuel qualification burns cash for years before first revenue.
 
+## Key numbers
+Output 100 kWe to 20 MWe, so a unit moves by truck or in standard containers · TRISO or metal fuel at HALEU enrichment just under 20% · sealed cores run 5–10 years, and several designs never refuel on site at all · overnight capex $15–30k/kW or higher, the worst in the industry · that price only clears where diesel lands at $0.30–1/kWh · site setup measured in weeks rather than years.
+
 ## Examples
 Westinghouse eVinci (heat-pipe, 5 MWe, test unit at INL planned), Oklo's Aurora (liquid-metal, INL site, NRC application famously denied once and refiled; Sam Altman-backed IPO), Radiant Kaleidos (1 MWe, helium; first fueled test slated for the DOME facility at INL), BWXT's Project Pele (DoD transportable prototype), Last Energy's containerized PWR.
 
 ## Economic profile
 Unit economics look more like aerospace than utilities: high margin, low volume, logistics-driven willingness to pay. Defense demand (Pele, installation resilience) is the anchor tenant, and data-center colocation is the volume dream. The honest comparison in every deal is a diesel genset fleet plus fuel convoys. If a sealed 8-year core beats that, the price premium clears.
+
+## Videos
+
+- https://www.youtube.com/watch?v=7gtog_gOaGQ — Modular Micro-Reactors – The Future of Nuclear Energy? (Illinois EnergyProf, 21 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=9cc1j-MbVVA — Introducing Kaleidos, a Portable Microreactor from Radiant (Radiant Nuclear, 5 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=mr0b2ICd1wE — How the Westinghouse eVinci™ Microreactor Can Help Remote Communities, Mining Camps (WestinghouseNuclear, 2 minutes, 10k+ views)
 
 ## Further reading
 

@@ -20,6 +20,10 @@ Handles large parts, complex shapes, and many alloys with relatively inexpensive
 
 Default to sand casting for metal parts from one-offs to a few thousand per year, especially large or heavy parts (kilograms to many tons), cored internal passages, and iron or steel that die casting can't handle. Expect machining allowances on functional surfaces, walls no thinner than roughly 4 mm, and general tolerances of a millimeter or worse. Move to investment casting when fine detail and finish matter, or to permanent-mold and die casting when aluminum volumes climb into the tens of thousands.
 
+## Key numbers
+
+Part weight from under 1 kg to several hundred tons · minimum wall about 4 mm · linear tolerance roughly ±1 mm on small features and ±1–3% on large castings · as-cast surface Ra 6.3–25 µm · patterns and coreboxes $500–20,000 at 2–6 week lead time · automatic green-sand lines run 100–400 molds per hour · economical from one-offs to a few thousand parts a year.
+
 ## Examples
 
 Engine blocks, pump housings, machine bases, valves, manifolds.

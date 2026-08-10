@@ -18,11 +18,19 @@ Reliability and predictability are extraordinary. End of life is forecastable mo
 ## When to use
 Pick Li-I2 for implanted devices drawing continuous microamps, where reliability and a forecastable end of life are worth almost any price. Pacemakers define the application, and the impedance-based replacement warning is a clinical requirement. Outside that envelope it has no use. Anything above microamp drain needs a different implant chemistry (Li-SVO for defibrillator pulse loads, Li-CFx for neurostimulators), and non-implanted low-power devices are better served by cheap Li-MnO2 coin cells.
 
+## Key numbers
+Nominal 2.8 V · specific energy roughly 200–270 Wh/kg and close to 1,000 Wh/L · cell capacity 0.8–2.5 Ah · continuous draw of 10–100 µA, giving 5–15 years per implant · self-discharge under 1% per year · internal resistance climbs from about 100 Ω when new to tens of kilohms at end of life.
+
 ## Examples
 Cardiac pacemakers since 1972 (Greatbatch/Integer, EaglePicher Medical); adjacent implant chemistries — lithium silver vanadium oxide for defibrillators, lithium carbon monofluoride for neurostimulators — share the market.
 
 ## Economic profile
 Unit volumes are small, margins are extreme, and qualification barriers are very high. Medical-implant power is a two-or-three-supplier oligopoly where a design win lasts a product generation and reliability data is the moat. It is a good example of value concentrating in the least commoditizable corner of an industry.
+
+## Videos
+
+- https://www.youtube.com/watch?v=NBNUE-aNqjE — Chemistry Behind the Pacemaker Battery: A Beginner's Guide (IBHRE-CCDS, CEPS & RCEP) (Medfoxes , 6 minutes, under 1k views)
+- https://www.youtube.com/watch?v=pFhwZrg-a0I — Pacemaker Battery Technology (Medfoxes , 14 minutes, under 1k views)
 
 ## Further reading
 

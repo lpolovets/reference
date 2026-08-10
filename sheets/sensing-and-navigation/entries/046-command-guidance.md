@@ -19,6 +19,9 @@ The missile is cheap because the expensive sensing and processing stay on the la
 ## When to use
 Use command guidance where cost per round matters, where a human decision is needed late in the engagement, or where jam resistance through a physical link is worth the range limit. Fiber-optic guided drones and missiles have become prominent in current conflicts precisely because they defeat the electronic warfare that stops radio-controlled drones. If you need fire-and-forget or high engagement rates, a homing seeker is necessary. For air defense, command guidance from a capable ground radar remains an economical way to field large numbers of cheap interceptors.
 
+## Key numbers
+Fiber-optic spool range typically 10–25 km · wire-guided TOW range about 3.75–4.5 km · spools cost tens to hundreds of dollars · one operator per missile in flight, which caps the engagement rate · missile carries only a receiver and actuators, so unit cost sits at the low end of guided weapons · fiber links cannot be jammed at all.
+
 ## How it is defeated
 Radio command links are jammable, and this is the standard counter. Fiber-optic links cannot be jammed but the fiber can break, snag, or be cut, and the range is set by the spool length, typically 10–25 km. Killing or suppressing the operator ends the engagement. Command systems that must track both missile and target need line of sight to both, so terrain masking works. Engagement rate limits mean saturation attacks overwhelm the system.
 
@@ -27,6 +30,12 @@ The TOW's wire-guided command link, the fiber-optic Spike NLOS and the Russian a
 
 ## Economic profile
 Command guidance is the cheap end of guided weapons and it has become newly important because fiber-optic control is the most effective available answer to drone jamming. Spools cost tens to hundreds of dollars, and the resulting drone is immune to the electronic warfare that has otherwise dominated the small-drone fight. That has produced rapid adoption on both sides in Ukraine and a corresponding scramble to develop counters, which currently amount to physical interception rather than electronic attack.
+
+## Videos
+
+- https://www.youtube.com/watch?v=u2_8DeFOzjU — BGM-71 TOW Anti-tank missile | WIRE GUIDED WONDER (Matsimus, 15 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=EyU1A-pAdMU — Rapier Air Defense Missile System (Matsimus, 18 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=6u0dqJ0EovM — What are Fiber Optic FPV Drones, and Why are They so Deadly? - Feat. @DefenseTechforUkraine (North Wind Aerial, 14 minutes, 5k+ views)
 
 ## Further reading
 

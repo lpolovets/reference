@@ -20,6 +20,10 @@ It can produce complex one-piece lightweight structures. Cycles are slow, the li
 
 Pick superplastic forming for deep, complex thin-wall shells in fine-grain titanium or aluminum at aerospace volumes (tens to low thousands per year). It's especially useful combined with diffusion bonding, which turns a multi-part stiffened structure into one piece. Expect cycle times of 20 minutes to several hours, and plan for thinning gradients in deep sections. Avoid it for cost-driven or high-volume work and for alloys that don't come in superplastic grades. Conventional stamping or hydroforming covers those, and hot stamping handles high-strength steels.
 
+## Key numbers
+
+Grain size below about 10 µm · forming at roughly 900 °C for Ti-6Al-4V and 450–520 °C for aluminum · strain rates of 10⁻⁴ to 10⁻² per second, giving elongations of 200–1,000% · argon forming pressure 0.3–3 MPa · cycle time 20 minutes to several hours · wall thinning commonly 30–50% in the deepest sections.
+
 ## Examples
 
 Titanium aerospace panels, ducts, lightweight shells.

@@ -19,6 +19,9 @@ UWB gives absolute indoor position with bounded error and no drift, works throug
 ## When to use
 Pick UWB when you control the facility and 10–30 cm absolute indoor position with zero drift is worth an anchor install: multi-robot coordination, forklift and asset tracking, indoor drone work. It also works as a deliberate bridge, where you ship reliable autonomy with anchors now and remove them as SLAM matures. Tags are $5-class, so the survey and anchor maintenance are the real cost. Skip it in metal-dense environments, where multipath bias eats the accuracy advantage, and in third-party spaces where you can't install infrastructure. If your SLAM already meets the accuracy bar, use that instead and save the install.
 
+## Key numbers
+Position accuracy 10–30 cm · anchor-to-tag range roughly 10–50 m indoors · update rate 1–100 Hz, trading against how many tags share the airtime · band 3.1–10.6 GHz · tag cost around $5, anchors in the low hundreds of dollars each plus survey and install.
+
 ## Failure modes
 Non-line-of-sight paths cause bias: signals through bodies and through shelving arrive late, producing position errors of decimeters that still look statistically healthy. Anchor geometry degrades accuracy in corridors through dilution of precision. If an anchor drifts or gets moved, it corrupts the map without any obvious symptom. The UWB bands are getting crowded, so interference is a growing problem. Day to day, most of the trouble is dead tag batteries and anchor moves nobody surveyed.
 
@@ -27,6 +30,12 @@ Qorvo/Decawave DW3000 modules (the standard), Apple AirTag's finding network, wa
 
 ## Economic profile
 Phone and car-key volume made the chips a $5 part, so the business is systems and installation, which caps margins and scale. Strategically, UWB is a pragmatic bridge: teams ship reliable autonomy with anchors now, then remove them as SLAM matures. That sequencing is worth taking seriously in any warehouse-robotics diligence.
+
+## Videos
+
+- https://www.youtube.com/watch?v=5KN4dJdkHUk — How UWB Ranging Works: TOF, TDOA, and Angle of Arrival Explained (NXP Developer Zone, 3 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=6Y8rgUD7DL4 — What Is Ultra-Wideband (UWB)? | Accurate, Secure Wireless Positioning Explained (NXP Developer Zone, 2 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=dZe9X4rCevs — Your iPhone’s New 6th Sense – U1 & UWB Explained (Techquickie, 5 minutes, 100k+ views)
 
 ## Further reading
 

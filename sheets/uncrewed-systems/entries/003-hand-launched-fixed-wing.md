@@ -19,6 +19,9 @@ Endurance and area coverage are the advantages, and they are large: a 4 kg fixed
 ## When to use
 Pick hand-launched fixed-wing aircraft for battalion and company-level ISR over routes and areas, for artillery observation at range, and for communications relay. If the task requires hovering over a specific point or operating inside a building, use a multirotor. If the requirement is more than four hours or a heavier sensor, a Group 3 catapult-launched system is the next step up in both capability and cost. A hybrid VTOL fixed-wing splits the difference at the cost of complexity and about 20% of the endurance.
 
+## Key numbers
+Gross weight 2–20 kg · endurance 1–4 hours · cruise 30–60 knots · control range 15–50 km · typical operating altitude 300–500 m · unit cost $20k–100k.
+
 ## How it is countered
 Control links are jammable, though these aircraft usually complete their route autonomously if the link drops. GNSS jamming is more significant, and models without terrain or visual navigation will fail to return. They are small and quiet enough that visual and acoustic detection at altitude is hard, but RF detection of the datalink works. Small arms fire is largely ineffective at typical operating altitudes of 300–500 m.
 
@@ -27,6 +30,12 @@ AeroVironment RQ-11 Raven and RQ-20 Puma, Elbit Skylark, the Ukrainian Leleka-10
 
 ## Economic profile
 This class costs $20k–100k per aircraft and has a broad international supplier base with low barriers to entry, since the airframe is composite and the electronics are commercial. Attrition in active use is high — measured in weeks of operational life in contested areas — which has shifted buying patterns from small numbers of expensive systems toward larger numbers of cheaper ones. The systems that hold their value do so through autonomy in GNSS-denied conditions rather than through airframe quality.
+
+## Videos
+
+- https://www.youtube.com/watch?v=8RMB9WMdG6g — RQ-11 Raven UAV Drone - Hand Thrown Launch & Break-apart Landing. (AiirSource Military, 6 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=u_UzPQZnCxI — RQ-11B Raven - Soldiers assembling and launching UAV (MilitaryNotes, 2 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=ADJOajOuG7Q — RQ-20 Puma Unmanned Air Vehicle (UAV) launching in Forward Operating Base | AiirSource (AiirSource Military, 2 minutes, 10k+ views)
 
 ## Further reading
 

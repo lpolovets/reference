@@ -19,6 +19,9 @@ Operational simplicity is the advantage. No catapult, no net, no runway, no reco
 ## When to use
 Pick VTOL fixed-wing when the operating site has no room or time for launch and recovery equipment and you still need multi-hour endurance: maritime operations from small vessels, mountainous or forested terrain, and units that move frequently. If you have space for a catapult and a net, a conventional fixed-wing aircraft gives more endurance per dollar. If the mission is under an hour, a multirotor is simpler and cheaper. The recovery problem is usually what decides this, and it is worth checking how the system behaves when it has to land in wind on a moving deck.
 
+## Key numbers
+Gross weight 5–25 kg · endurance 2–6 hours electric and 8–12 hours hybrid · endurance penalty 15–25% against a pure fixed-wing of the same weight · unit cost roughly 1.5–2× a comparable fixed-wing system.
+
 ## How it is countered
 The same counters as other small UAS apply: link jamming, GNSS denial, and detection by RF and acoustic means. The transition phase is the most vulnerable point mechanically, and systems that lose a lift motor during transition are usually lost. Because these aircraft are more expensive than hand-launched ones, attrition matters more, and units tend to fly them more conservatively than the mission would ideally allow.
 
@@ -27,6 +30,12 @@ Quantum Systems Vector and Trinity, Threod Systems and Delair platforms, Wingtra
 
 ## Economic profile
 VTOL fixed-wing designs cost roughly 1.5–2× a comparable pure fixed-wing system, and the market has grown quickly because the operational savings from eliminating launch and recovery equipment usually exceed that premium. Component costs are commercial, so barriers to entry are low and the field is crowded. Differentiation comes from transition reliability, wind tolerance, and GNSS-denied navigation rather than from airframe design, which has largely converged.
+
+## Videos
+
+- https://www.youtube.com/watch?v=3KScHBSxnew — How does a VTOL UAV work? (AiTelly, 11 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=o1yooAqnMvs — How do Autonomous VTOL Drones Work? QuadPlanes Explained (Pathfinder George, 14 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=Y2kcyw99V2E — ALTi Transition VTOL fixed-wing drone flies for 6 hours (Drone & Sundry, 5 minutes, 100k+ views)
 
 ## Further reading
 

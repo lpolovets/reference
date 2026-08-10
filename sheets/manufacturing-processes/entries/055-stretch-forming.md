@@ -18,7 +18,11 @@ It produces large smooth curves with little wrinkling. It's inefficient for smal
 
 ## When to use
 
-Pick stretch forming for large, gently contoured panels (meter-scale skins with shallow compound curvature) at tens to a few thousand pieces. At those volumes a single form die plus a wrinkle-free class-A surface costs less than matched stamping dies. Budget for the gripped edge trim, often 50-150 mm per side, and check that thinning stays within skin gauge allowances. Avoid it for sharp features, deep draws, or small parts. Stamping handles those at volume, and incremental sheet forming covers die-less one-offs.
+Pick stretch forming for large, gently contoured panels (meter-scale skins with shallow compound curvature) at tens to a few thousand pieces. At those volumes a single form die plus a wrinkle-free class-A surface costs less than matched stamping dies. Budget for the gripped edge trim, often 50–150 mm per side, and check that thinning stays within skin gauge allowances. Avoid it for sharp features, deep draws, or small parts. Stamping handles those at volume, and incremental sheet forming covers die-less one-offs.
+
+## Key numbers
+
+Sheet stretched 2–5% past yield, thinning it 3–10% · contour tolerance ±0.5–1.5 mm · gripped edge trim 50–150 mm per side · form dies in steel, kirksite, or epoxy at $5,000–50,000 · presses pulling 100–2,000 tons on tables to about 15 m · cycle 1–5 minutes per part · economic lot size tens to a few thousand pieces.
 
 ## Examples
 

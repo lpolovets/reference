@@ -20,6 +20,10 @@ Pultrusion gives you high throughput and very good longitudinal properties. The 
 
 Use pultrusion when the part is a constant cross-section produced by the kilometer, such as structural profiles, ladder rails, composite rebar, and cable tray. At that scale the die amortizes and the line runs continuously, which makes it the cheapest continuous-fiber process per kilogram. Any varying cross-section rules it out, and transverse strength stays weak unless you add mats or fabrics to the roving stack. If you need hoop-loaded tubes, use filament winding. If you need discrete parts, use molding.
 
+## Key numbers
+
+Line speeds 0.3–3 m/min · fiber volume fraction 60–70% · longitudinal tensile strength typically 400–1,000 MPa against 30–70 MPa transverse · heated dies run 120–200 °C · dies $10k–$50k with 4–12 week lead times · profiles up to about 1 m wide, produced by the kilometer.
+
 ## Examples
 
 Beams, ladder rails, rods, cable trays, window frames.

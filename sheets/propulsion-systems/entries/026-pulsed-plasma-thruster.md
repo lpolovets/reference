@@ -28,6 +28,12 @@ LES-6 and LES-8/9 (1968 onward), NASA's EO-1 mission, the Air Force's TechSat 21
 ## Economic profile
 PPTs are cheap and largely commoditized, with no significant commercial supply base because demand is small. Their real value now is historical and pedagogical — they were the first electric propulsion in orbit and they demonstrate that low efficiency can be acceptable when system simplicity is worth more. Expect continued niche use rather than growth, since the smallsat propulsion market has consolidated around electrospray and miniature Hall thrusters.
 
+## Videos
+
+- https://www.youtube.com/watch?v=6HUOumDJeAQ — Thrusters That Eat Teflon! | Pulsed Plasma Thrusters (SciShow Space, 6 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=1rj2hEmC83Y — How not to make a Pulsed Plasma Thruster (Fuzzy Droid, 20 minutes, 5k+ views)
+- https://www.youtube.com/watch?v=EbXbT_IBBmo — Micro Pulsed Plasma Thruster 8-Channel (Paul Kocyla, 2 minutes, 1k+ views)
+
 ## Further reading
 
 [Overview of NASA's Pulsed Plasma Thruster Development Program (NASA Technical Reports Server)](https://ntrs.nasa.gov/citations/20040139545) · [In-Space Propulsion: State of the Art of Small Spacecraft Technology (NASA)](https://www.nasa.gov/smallsat-institute/sst-soa/in-space-propulsion/)

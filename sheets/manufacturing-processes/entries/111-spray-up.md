@@ -20,6 +20,10 @@ Spray-up is faster than hand layup for large simple parts. Fiber control and mec
 
 Use spray-up for large, simple, gelcoat-finished glass parts at hundreds to a few thousand a year, such as tubs, shower stalls, and hull liners. On the same cheap open molds it cuts labor well below hand layup. Treat the result as non-structural. Chopped fiber at low volume fraction rules it out for load-bearing parts, carbon fiber, or anything with property specs, and open-mold styrene emissions increasingly rule it out under air-quality regulation. In those cases, step up to infusion or closed molding.
 
+## Key numbers
+
+Fiber volume fraction 15–25% from 25–50 mm chopped strands · deposition rates 10–30 kg/hr, several times hand layup · laminate thickness typically 2–6 mm · tensile strength roughly 60–100 MPa, well below woven laminates · single-sided tooling a few hundred to a few thousand dollars · hundreds to a few thousand parts a year.
+
 ## Examples
 
 Bathtubs, boat hulls, shower stalls, RV panels.

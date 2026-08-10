@@ -16,13 +16,21 @@ Button cells with a silver oxide cathode and a zinc anode in alkaline electrolyt
 The flat, predictable voltage suits timing circuits, energy per unit volume is high, leakage resistance and shelf life are excellent, and the chemistry is benign at button scale. The weaknesses: silver makes it the most expensive common button cell per unit of energy, sizes stay limited to small formats because silver cost rules out large cells, and capacity is modest against lithium coin cells for higher-drain electronics.
 
 ## When to use
-Pick silver-oxide when a small device's circuit depends on voltage stability (watches, calipers, glucose meters, precision timing), because the flat 1.55 V curve from first use to exhaustion is the feature you're paying for. Avoid it for higher-drain or larger devices, where silver pricing makes it uneconomic. If the electronics can regulate voltage, a 3 V Li-MnO2 coin cell delivers more capacity per dollar. If the device breathes air and draws a continuous microamp load, like a hearing aid, use zinc-air instead.
+Pick silver-oxide when a small device's circuit depends on voltage stability (watches, calipers, glucose meters, precision timing), because the flat 1.55 V curve from first use to exhaustion is the feature you're paying for. Avoid it for higher-drain or larger devices, where silver pricing makes it uneconomic. If the electronics can regulate voltage, a 3 V Li-MnO2 coin cell delivers more capacity per dollar. If the device breathes air and draws a steady milliamp or two, like a hearing aid, use zinc-air instead.
+
+## Key numbers
+Nominal 1.55 V with a flat discharge curve · specific energy roughly 120–130 Wh/kg and about 500 Wh/L · capacity 5–200 mAh depending on button size · shelf life typically 2–3 years at under 10% annual self-discharge · operating range about -10 to +60 °C · continuous drain from microamps to a few milliamps.
 
 ## Examples
 Watch batteries (SR-series from Murata, Renata, Energizer), hearing-aid-adjacent instruments, calipers and precision gauges, glucose meters and small medical sensors.
 
 ## Economic profile
 This is a stable, high-margin micro-market. Prices track silver, and a few Japanese and Swiss producers dominate it. Larger silver-zinc cells share the electrochemistry but live in aerospace (see the Silver-Zinc entry). There's no growth story here, just steady revenue from the installed base of small devices that need stable voltage.
+
+## Videos
+
+- https://www.youtube.com/watch?v=MsJBDUaXFDM — Silver Oxide Button Cell Battery Teardown (Zero Amps, 7 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=HGMJeKEsEMA — Silver oxide battery | Working Animation | Anode(Zn) Cathode Ag2O | Electrochemistry | Chemistryask (Chemistry ask, 4 minutes, 5k+ views)
 
 ## Further reading
 

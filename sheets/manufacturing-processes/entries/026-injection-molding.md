@@ -20,6 +20,10 @@ Produces complex parts rapidly with excellent repeatability and very low unit co
 
 Injection molding is the default for thermoplastic parts once lifetime volume clears roughly 5,000–10,000 units and the design follows the molding rules (uniform walls, draft, manageable undercuts). At that point you get ±0.05–0.1 mm repeatability at cents per part. Below that volume the mold cost dominates, so use machining, 3D printing, or vacuum casting instead. For very large parts, look at RIM, thermoforming, or rotomolding. Freeze the design before you cut steel, because mold changes are expensive.
 
+## Key numbers
+
+Wall thickness typically 1–3 mm · dimensional repeatability ±0.05–0.1 mm · cycle time 10–60 s · injection pressure 50–150 MPa at clamp forces of 20–4,000 tons · mold shrinkage 0.3–2.5% by resin · steel molds $20,000–200,000 at 6–12 week lead time and 500,000 to over a million shots of life · breakeven against machining or printing usually around 5,000–10,000 parts.
+
 ## Examples
 
 Electronics housings, bottle caps, medical disposables, toys, clips, appliance parts.

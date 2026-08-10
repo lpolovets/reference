@@ -20,6 +20,10 @@ Produces lightweight, insulating, impact-absorbing structures. Surface finish, s
 
 Choose foam molding when you need lightness, thermal insulation, or controlled energy absorption (helmet liners, protective packaging, automotive absorbers) at medium volumes and up. EPS or EPP steam-chest molding is the standard route. Structural-foam variants stiffen large parts while cutting weight and clamp tonnage. Avoid foam molding when you need fine cosmetic surfaces, tight tolerances, or easy recyclability; use solid injection molding instead.
 
+## Key numbers
+
+Molded density 15–100 kg/m³ for EPS and 20–120 kg/m³ for EPP · dimensional tolerance roughly ±1% · steam-chest cycle 1–3 minutes plus drying · aluminum tooling $5,000–40,000, 4–10 weeks lead time · structural foam variants cut part weight 10–30% and run at well under half the clamp tonnage of solid injection · economic lot size tens of thousands and up.
+
 ## Examples
 
 Helmets, protective packaging, insulation, automotive energy absorbers.

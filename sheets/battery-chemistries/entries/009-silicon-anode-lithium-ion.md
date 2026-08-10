@@ -19,11 +19,20 @@ Silicon is the most direct route to higher energy density that keeps the rest of
 ## When to use
 Small silicon-oxide blends (3–8%) are already the default in high-energy cells and need no special justification. Specify silicon-dominant anodes when the product pays a real premium for Wh/kg or sub-15-minute charging (drones, defense, HAPS, premium consumer, halo EV trims) and mission life fits within a few hundred to ~1,000 cycles. Avoid silicon-dominant designs where 10-year calendar life or lowest $/kWh is the requirement. Until calendar-aging data matures, graphite-anode NMC or LFP is the conservative call.
 
+## Key numbers
+Silicon holds about 3,600 mAh/g against graphite's 372 · mainstream cells blend 3–8% silicon oxide into the graphite · silicon-dominant cells reach 300–400 Wh/kg · volume expansion up to 300% on full lithiation · fast charge to 80% in 10–15 minutes · cycle life a few hundred to about 1,000 in silicon-dominant designs · anode material at tens of dollars per kg against $5–10 for graphite.
+
 ## Examples
 Sila (Mercedes G-Class program), Group14 (SK, Porsche programs), Amprius high-density drone/HAPS cells, Enovix structured consumer cells; nearly every 4680-class EV cell uses some silicon blend.
 
 ## Economic profile
 Anode materials command large premiums today (tens of dollars per kg versus ~$5–10 for graphite), so the economics work first in drones, defense, and premium consumer devices. The bet is that silicon-carbon gets cheaper with scale while avoiding China's graphite dominance, and anode supply chain diversification is part of the pitch.
+
+## Videos
+
+- https://www.youtube.com/watch?v=vj0siYi4h0o — How Silicon Anode Batteries Will Bring Better Range To EVs (CNBC, 13 minutes, 500k+ views)
+- https://www.youtube.com/watch?v=cwJpkfWWcsc — Silicon Carbon Batteries EXPLAINED (YugaTech, 11 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=wfmP0o48MSU — Tesla's New Battery Anode (in-depth) // "Tesla Silicon" (Electrified, 11 minutes, 10k+ views)
 
 ## Further reading
 

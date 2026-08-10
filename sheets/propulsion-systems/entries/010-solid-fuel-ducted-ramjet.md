@@ -5,7 +5,7 @@ part: 2
 group: Ram compression
 regimes: [super]
 thrust: [small, med]
-isp: vhigh
+isp: high
 maturity: common
 cost: low
 ---
@@ -27,6 +27,12 @@ MBDA Meteor (the reference Western design), the Russian 9M317M and the ramjet-su
 
 ## Economic profile
 Only a handful of organizations have fielded a working throttleable ducted ramjet, and the barrier is the hot-gas valve and the fuel chemistry rather than the aerodynamics. Meteor took roughly 20 years and six nations to field, which is a fair estimate of the difficulty. Unit costs run several times a conventional air-to-air missile — Meteor is usually quoted around $2M per round — so procurement quantities stay small and the missiles are reserved for high-value engagements.
+
+## Videos
+
+- https://www.youtube.com/watch?v=5gk9ZE-7PUE — NAVAIR Air Talks: Solid Fuel Ramjet (NAVAIRSYSCOM, 5 minutes, 1k+ views)
+- https://www.youtube.com/watch?v=ZxQkUqYzOpk — Ramjet missile propulsion - the biggest invention since the introduction of the jet engine (Nammo Media, 4 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=0vIPNElDkns — How ramjets may change the role of artillery on the battlefield (Nammo Media, 5 minutes, 1m+ views)
 
 ## Further reading
 

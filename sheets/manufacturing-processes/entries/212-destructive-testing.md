@@ -20,6 +20,10 @@ Provides direct evidence of strength, toughness, fatigue, bond integrity, micros
 
 Use destructive testing wherever a property cannot be measured any other way: qualifying a new process, material lot, supplier, or welder; validating heat-treat response with tensile and hardness coupons; establishing fatigue and burst margins during design; and periodic lot-release sampling in safety-critical production. Witness coupons built alongside additive parts are the standard pattern. It is also the ground truth against which every NDT method and in-process monitor must be calibrated. Because it consumes product and only ever samples, it cannot screen individual production parts. Use it to prove the process, define the statistical sampling plan deliberately, and rely on nondestructive inspection and SPC to catch part-to-part variation. If a one-off failed part must keep its evidence intact, scan it by CT before any sectioning.
 
+## Key numbers
+
+ASTM E8 tensile coupons use a 12.5 mm diameter gauge section, run 1–5 minutes each, and cost $50–300 at a commercial lab · fatigue testing needs 10^6–10^7 cycles at 10–100 Hz, so hours to weeks per specimen, and 10–30 specimens for one S-N curve · metallographic sections $150–500 per mount · lot-release sampling typically 1–3 coupons per heat, lot, or build plate · universal testing machines $20–150k, fatigue rigs $100–500k.
+
 ## Examples
 
 Tensile testing, fatigue testing, burst testing, metallography, peel testing.

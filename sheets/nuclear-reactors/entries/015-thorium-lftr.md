@@ -17,11 +17,20 @@ The fuel is abundant, breeding works in a thermal spectrum, and transuranic wast
 ## When to use
 Commit to thorium only when your resource endowment forces it. India's uranium-poor, thorium-rich position is the one honest national case. Otherwise treat it as a far-horizon option layered onto an already-funded molten-salt or reprocessing program. It is never the reason to start a program: every thorium route still needs fissile startup material and unbuilt separation chemistry, and the economics don't close while uranium stays cheap. If you're an investor, the only meaningful signals to track are China's TMSR thorium operation and India's AHWR commitment. For everyone else, the default is the conventional LEU cycle.
 
+## Key numbers
+Th-232 is 3–4× more abundant in the crust than uranium · the fertile chain runs Th-232 to Pa-233 (27-day half-life) to U-233 · thermal-spectrum breeding ratios come out near 1.05, so the margin is thin · U-233 carries parts-per-million U-232, whose Tl-208 daughter emits a 2.6 MeV gamma · LFTR designs target roughly 700 °C outlet at atmospheric pressure · China's TMSR-LF1, the only operating thorium-in-salt reactor, is 2 MWt.
+
 ## Examples
 India's program: KAMINI (U-233 fueled research reactor), thorium blankets in its PHWR fleet, the planned Advanced Heavy Water Reactor; China's TMSR-LF1 running thorium in salt (2023 — the first molten-salt thorium operation since Oak Ridge); historic Shippingport light-water thorium breeding demonstration (1977–82, quietly successful).
 
 ## Economic profile
 Thorium's advantages are real but modest, and they are chronically oversold. It is a second-order improvement that gets marketed as a revolution. No thorium route avoids first mastering either molten salt technology or reprocessing chemistry, and each of those is a decade-scale program. The investable signal to watch is China's TMSR scale-up and Indian AHWR commitment, not the level of enthusiasm online.
+
+## Videos
+
+- https://www.youtube.com/watch?v=cTkAMLLvmro — Thorium Nuclear Reactors Visualized & Explained (Higgsino physics, 18 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=Mv5Evoo8nq4 — Thorium Fuel Cycle Introduction (Flibe Energy, 6 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=F92L6F0INYk — What You Need to Know: Thorium Nuclear Power (Illinois EnergyProf, 17 minutes, 100k+ views)
 
 ## Further reading
 

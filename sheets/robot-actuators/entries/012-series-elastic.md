@@ -19,6 +19,9 @@ Force fidelity is very good and requires only cheap sensing. Impacts get absorbe
 ## When to use
 Choose an SEA when the spring pays for its mass twice over: cyclic joints with real energy exchange (ankles, hips, exoskeleton and prosthetic drives), and human-contact applications where compliance has to survive a controller fault rather than being simulated by the controller. It also makes cheap high-ratio gearboxes usable, since the spring supplies the force sensing and shock protection the gearbox lacks, which helps when the BOM can't afford QDD-class motors. Avoid it when force bandwidth matters, since fast force changes wait on the spring and closed-loop force response typically lands well below what a QDD joint's current loop delivers, and avoid it when position precision is the spec. For general contact-rich joints with no energy-storage story, QDD is the modern default and the design you have to beat.
 
+## Key numbers
+Force-control bandwidth typically 10–50 Hz, set by spring stiffness and load inertia · spring deflection usually a few degrees at rated torque · gear ratio behind the spring commonly 50–200:1 · peak joint torque 50–150 Nm on legged and exoskeleton designs.
+
 ## Examples
 Baxter and Sawyer (Rethink Robotics, which built its safety case on SEAs), NASA's Valkyrie, Agility Robotics' Cassie/Digit lineage (leaf-spring elements), rehabilitation exoskeletons (Lokomat-class) where compliant interaction matters most, ANYmal's early ANYdrive joints.
 
@@ -27,6 +30,12 @@ SEA lost the mainstream legged-robot argument to QDD, which gets its compliance 
 
 ## Suppliers
 [HEBI Robotics](https://www.hebirobotics.com/) — X-series series-elastic smart actuators
+
+## Videos
+
+- https://www.youtube.com/watch?v=gZLO2Am0Zk8 — Series Elastic Actuators (ReNeu Robotics Lab, 3 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=YVWUoXnCgNc — DIY Series Elastic Actuator for legged and humanoid robots: force control! (HOX robotics, 12 minutes, 5k+ views)
+- https://www.youtube.com/watch?v=iAsrOBm8uTI — Elastic actuators for a prosthetic ankle joint for walking and running (Lauflabor, 8 minutes, 10k+ views)
 
 ## Further reading
 

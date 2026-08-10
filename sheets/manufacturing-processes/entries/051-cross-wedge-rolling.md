@@ -20,6 +20,10 @@ Produces stepped shafts quickly with low waste and favorable grain flow. Tooling
 
 Cross-wedge rolling suits stepped shafts and forging preforms at automotive volumes, typically 100,000-plus per year. The cycle takes seconds, material loss is minimal, and the grain flow is better than what you get turning from bar. Tooling is specialized, and internal Mannesmann-effect cracking has to be engineered out during development. Below tooling-payback volume, CNC turning or roll forging covers the same parts. For the largest shafts, use open- or closed-die forging.
 
+## Key numbers
+
+Cycle 3–15 s per shaft · billet 20–100 mm diameter, lengths to roughly 800 mm · area reduction 30–75% at the rolled steps · material utilization 90–95%, against 50–70% turning the same shaft from bar · diameter tolerance ±0.5–1 mm, so 1–3 mm of machining stock · wedge die sets $30,000–100,000, 10–20 weeks lead time · economic lot size 100,000 pieces a year and up.
+
 ## Examples
 
 Axles, transmission shafts, stepped pins, connecting-rod preforms.

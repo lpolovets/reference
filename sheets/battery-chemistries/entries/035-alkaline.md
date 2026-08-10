@@ -18,11 +18,20 @@ Alkaline gives excellent capacity for the price, long shelf life, wide temperatu
 ## When to use
 Alkaline is the right default for low-to-moderate-drain replaceable-battery devices (remotes, toys, flashlights, smoke detectors) where a decade of shelf life and universal availability matter more than per-cycle economics. There are two reasons to move off it. If the duty is high-drain or sub-zero (cameras, GPS, outdoor sensors), use Li-FeS2. If the device is drained more than every month or two, use low-self-discharge NiMH, where rechargeables pay back within the year. And don't leave alkaline cells in seldom-used devices for years, because end-of-life leakage still kills electronics.
 
+## Key numbers
+Nominal cell voltage 1.5 V, sagging to a 0.9 V cutoff · an AA holds 2,000–3,000 mAh at low drain · specific energy roughly 100–140 Wh/kg and 300–400 Wh/L · shelf life around 10 years · works from about -18 °C to 55 °C · roughly $0.25–0.50 per AA in bulk.
+
 ## Examples
 Duracell and Energizer AA/AAA lines; the default cell for remotes, toys, flashlights, and smoke detectors worldwide.
 
 ## Economic profile
 Alkaline is a brand-and-distribution business sitting on a fully commoditized chemistry, so marketing sets margins rather than electrochemistry. Volume erodes slowly as devices go rechargeable or lithium, but consumers expect AA-shaped batteries, and that expectation will take decades to change. Manufacturing scale and materials (zinc, EMD) are geographically diverse and unconstrained.
+
+## Videos
+
+- https://www.youtube.com/watch?v=MNT8uUQbitk — How It`s Made Duracell Batteries (How Its Made, 5 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=zuCJZiDKMwA — Inside A Duracell Factory | Over 3,500 Batteries Each Minute! (How Things Are Made, 13 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=PPp3E8rFiMU — What’s INSIDE an “AA alkaline battery” (how it works) zinc manganese dioxide potassium hydroxide (Live Free, 1 minute, 50k+ views)
 
 ## Further reading
 

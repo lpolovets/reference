@@ -18,7 +18,11 @@ Improves corrosion resistance, wear, paint adhesion, insulation, and appearance.
 
 ## When to use
 
-Anodizing is the default finish for machined and extruded aluminum exposed to handling or weather: Type II sulfuric for corrosion protection and dyed cosmetics, Type III hardcoat at 25-75 um for wear surfaces, and chromic or thin-film types for fatigue-sensitive aerospace parts. Account for growth of roughly half the coating thickness on toleranced features, and mask threads and bearing bores. Avoid anodizing where electrical grounding or EMI bonding is needed, since the oxide is an insulator; use a chromate conversion coating there instead. Derate fatigue-critical parts or specify a thin coating, because hardcoat in particular reduces fatigue strength. Highly loaded 2xxx alloys and castings with high silicon anodize poorly and look blotchy when dyed.
+Anodizing is the default finish for machined and extruded aluminum exposed to handling or weather: Type II sulfuric for corrosion protection and dyed cosmetics, Type III hardcoat at 25–75 µm for wear surfaces, and chromic or thin-film types for fatigue-sensitive aerospace parts. Account for growth of roughly half the coating thickness on toleranced features, and mask threads and bearing bores. Avoid anodizing where electrical grounding or EMI bonding is needed, since the oxide is an insulator; use a chromate conversion coating there instead. Derate fatigue-critical parts or specify a thin coating, because hardcoat in particular reduces fatigue strength. Highly loaded 2xxx alloys and castings with high silicon anodize poorly and look blotchy when dyed.
+
+## Key numbers
+
+Type II coatings 5–25 µm thick, Type III hardcoat 25–75 µm · dimensional growth of about half the coating thickness per surface · sulfuric baths at 15–20% acid, near 20 °C for Type II and 0–5 °C for hardcoat, at 1–4 A/dm² for 20–60 minutes · hardcoat surface hardness of roughly 400–600 HV · dielectric strength around 500–2,000 V · fatigue strength penalty of roughly 10–60% on thick hardcoat.
 
 ## Examples
 

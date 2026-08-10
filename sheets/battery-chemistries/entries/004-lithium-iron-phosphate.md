@@ -19,6 +19,9 @@ LFP has the cheapest cathode materials of any major Li-ion chemistry, excellent 
 ## When to use
 Pick LFP whenever the pack cycles daily and cost, safety, or longevity is the binding constraint (grid storage, standard-range EVs, fleets, forklifts, telecom backup) and cell-to-pack formats can absorb the density penalty. For stationary storage it should be your default. Avoid LFP where gravimetric energy decides the product (long-range EVs, aviation, premium portables), where precise voltage-based state-of-charge matters, or in sustained sub-zero duty without pack heating. If you need the energy density, use nickel-rich NMC or NCA; if you need cold operation plus fast charge, use LTO.
 
+## Key numbers
+Specific energy 150–200 Wh/kg, reaching 190–205 Wh/kg on high-compaction grades · volumetric energy 300–400 Wh/L · nominal 3.2 V · cycle life 2,000–5,000 to 80% capacity · 1C standard charge, 4C on fast-charge cells · operating range -20 to 60 °C on discharge, with charging restricted below 0 °C · cell cost under $100/kWh.
+
 ## Variants
 ### Blade / cell-to-pack formats
 Long prismatic cells structurally integrated into the pack, recovering most of the density gap at vehicle level (BYD Blade, CATL CTP).
@@ -31,6 +34,12 @@ BYD's entire lineup; Tesla standard-range vehicles; nearly all utility-scale sto
 
 ## Economic profile
 LFP sets the cost floor of lithium-ion: the cathode inputs are iron and phosphate, and lithium is the only expensive ingredient. Chinese producers hold overwhelming share and patent-era know-how, and Western LFP plants are just ramping. Margins are thin and depend on scale, so LFP is the part of Li-ion that behaves most like a commodity industry.
+
+## Videos
+
+- https://www.youtube.com/watch?v=w1zKfIQUQ-s — How To Ruin Your Electric Car's Battery - LFP Edition! (Engineering Explained, 18 minutes, 1m+ views)
+- https://www.youtube.com/watch?v=PpK0jCsLra8 — What is an LFP Battery? | EV Basics (EV Pulse, 11 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=Eqm8OVCwMrg — Understanding Lithium iron phosphate battery (LFP battery) (Owl WiS, 3 minutes, 10k+ views)
 
 ## Further reading
 

@@ -19,6 +19,9 @@ Illuminator power gives long range at a much lower missile cost than an active s
 ## When to use
 Semi-active homing still makes sense for ground-based air defense where a powerful illuminator already exists and missile cost matters, and for legacy fleets. For new air-to-air designs it has been superseded almost everywhere by active homing, because the tactical penalty of holding a lock is severe. If you are assessing a system that uses it, the questions worth asking are how many illumination channels it has and how quickly the illuminator can displace after firing, because both determine how it performs against a real attack rather than a single target.
 
+## Key numbers
+Receiver only in the missile, transmitter on the launching platform · illumination held continuously from launch to impact · rear reference antenna for the Doppler comparison against the direct signal · engagement ranges typically 20–70 km on fielded types · simultaneous engagements capped by the number of illumination channels, usually a handful · missile cost well below an equivalent active-seeker round.
+
 ## How it is defeated
 Jamming the reflected signal or the illuminator is effective, and noise jamming against a continuous-wave illuminator is comparatively easy. Notching to fall inside the Doppler clutter filter works. Chaff decoys the seeker. Most importantly, forcing the illuminator off the air with anti-radiation weapons or the threat of them breaks every missile in flight simultaneously, which is a systemic vulnerability that active seekers do not share.
 
@@ -27,6 +30,11 @@ The AIM-7 Sparrow and its Sea Sparrow derivatives, the R-27R, the Hawk and early
 
 ## Economic profile
 This is a legacy architecture in slow decline, sustained by large fielded inventories and by the low missile cost that makes it attractive for high-volume ground-based air defense. Modernization programs generally replace it with active seekers as module costs fall. Its continued presence in export inventories means that suppression tactics developed against it remain operationally relevant for a long time yet.
+
+## Videos
+
+- https://www.youtube.com/watch?v=bBeY_gPIP6o — Sparrow, Skyflash, Aspide: the Age of Semi Active Radar Homing (Millennium 7 * HistoryTech, 17 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=2eMl93Oo65c — From failure to redemption | The AIM-7 Sparrow (Australian Military Aviation History, 14 minutes, 100k+ views)
 
 ## Further reading
 

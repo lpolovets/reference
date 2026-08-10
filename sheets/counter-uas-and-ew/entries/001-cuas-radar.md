@@ -19,6 +19,9 @@ Radar is the only sensor that gives range, bearing, and elevation continuously i
 ## When to use
 Use radar as the backbone sensor for any fixed-site or vehicle-mounted counter-UAS system, cued and confirmed by an electro-optical sensor before engaging. If the site is in a city with heavy clutter and spectrum restrictions, passive RF detection may be easier to deploy and is worth pairing. For very small drones at close range, acoustic sensing fills a genuine gap. The number to interrogate in any procurement is the false alarm rate in the intended environment across a full day, not the maximum detection range in a clear test.
 
+## Key numbers
+Detection range 3–8 km against a small quadcopter and 15–30 km against a Group 3 aircraft · target radar cross-section around 0.01 m² · target speeds down to 15 m/s · X-band or Ku-band electronically scanned arrays with 360° coverage · unit cost $500k–5M.
+
 ## Limits and failure modes
 Bird traffic drives false alarms, and operators quickly learn to ignore an alarm-heavy display, which is a failure mode in its own right. Ground clutter and buildings create shadows where drones fly deliberately. Very low and slow flight profiles hug terrain to exploit exactly this. Spectrum licensing for a transmitting radar is a genuine obstacle for civil deployments near airports, which is where the need is often greatest.
 
@@ -27,6 +30,12 @@ SRC AN/TPQ-50 and LSTAR, Robin Radar Elvira and Iris designed specifically for b
 
 ## Economic profile
 Radar is usually the most expensive single sensor in a counter-UAS system, at $500k–5M per unit, and it is where most integrators buy rather than build. Automotive and commercial radar silicon has cut component costs, and compact electronically scanned arrays from newer entrants have brought prices down substantially. The recurring economic problem is that fixed-site coverage requires many radars for terrain and clutter reasons, so the cost of protecting an area scales worse than a single system's price suggests.
+
+## Videos
+
+- https://www.youtube.com/watch?v=igrN_wd_g74 — Build Your Own Drone Tracking Radar: Part 1 (Jon Kraft, 20 minutes, 500k+ views)
+- https://www.youtube.com/watch?v=xnaaD9Um3K8 — Drone Tracking Radar: Part 6 Range Doppler (Jon Kraft, 12 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=dmGJxDVBTQc — Using passive radars to detect drones (NATO Science & Technology Organization, 5 minutes, 5k+ views)
 
 ## Further reading
 

@@ -20,6 +20,10 @@ Produces curved glass without cutting and reassembly. Cycle times are long, opti
 
 Use slumping and bending to curve flat float glass (architectural panels, curved glazing, lighting shades) at one-off to medium volumes. Molds are cheap and the feedstock is commodity sheet. Expect long kiln cycles, gentle curvature only, and some optical distortion on demanding contours. If you need a deep or complex three-dimensional shape, use pressing or blowing instead.
 
+## Key numbers
+
+Slumping at roughly 620–700 °C for soda-lime float, below the 780–820 °C full-fuse range · kiln cycle 6–24 hours including the anneal · glass thickness 3–19 mm · minimum bend radius usually a few hundred millimeters, growing with thickness · steel, ceramic-fiber, or refractory-board molds $500–10,000 · economic lot size one-off to a few thousand panels.
+
 ## Examples
 
 Architectural panels, automotive glazing, lighting components.

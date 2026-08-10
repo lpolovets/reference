@@ -20,6 +20,10 @@ Winding produces strong, lightweight pressure-containing structures and places f
 
 Choose filament winding for pressure-containing or torsion-loaded bodies of revolution: CNG and hydrogen tanks, rocket motor cases, pipes, and drive shafts. Controlling the winding angle puts fiber exactly along the hoop and axial load paths, and buying tow keeps material cost low. The process needs an extractable, collapsible, or sacrificial mandrel and mostly convex geometry. If your part is flat, concave, or highly contoured, use AFP; for general shapes, use layup or RTM. If you need a torsion-dominated tube with good damage tolerance, consider braiding instead.
 
+## Key numbers
+
+Fiber volume fraction 60–70% · winding angles from about 10° to 90° off the axis · deposition rates 1–10 kg/hr at tow speeds of 1–3 m/s · large-tow carbon $15–30/kg, the cheapest form of the fiber · hydrogen tanks wound for 700 bar service with a 2.25× burst margin · convex bodies of revolution from millimeters to several meters.
+
 ## Examples
 
 Pressure vessels, rocket cases, hydrogen tanks, pipes, shafts.

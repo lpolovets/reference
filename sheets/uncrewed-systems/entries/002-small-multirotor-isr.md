@@ -19,6 +19,9 @@ Hovering is the capability that matters. A multirotor can hold a position over a
 ## When to use
 Use small multirotors for short-duration overwatch, artillery observation, inspection, and the wide range of tasks where hovering and immediate launch matter more than endurance. If the mission is persistent surveillance of a wide area, a fixed-wing aircraft gives four to ten times the endurance for the same weight. If the requirement is precision strike, a purpose-built loitering munition costs less per effect than modifying an ISR quadcopter. Assume the aircraft will be lost and buy in quantity rather than buying one expensive one.
 
+## Key numbers
+Gross weight 1–25 kg · endurance 25–60 minutes · payload 1–5 kg · wind limit 25–30 knots · detectable within about 1 km · unit cost $2k–50k.
+
 ## How it is countered
 RF jamming of control and video links is the standard counter and works well against most models. GNSS jamming degrades navigation unless the aircraft carries visual odometry, which the better ones now do. Small arms and shotguns are effective inside 200 m. Detection by acoustic sensors, RF direction finding, and small radar is well developed for this class, and it is the threat that the entire counter-UAS industry was built around.
 
@@ -27,6 +30,12 @@ Skydio X10, Teledyne FLIR SkyRaider, Parrot ANAFI USA, Autel and DJI Mavic and M
 
 ## Economic profile
 This is the most commoditized category in military aviation, with prices from $2k for a modified consumer aircraft to $50k for a hardened Western model. The cost gap has driven a persistent argument about whether supply-chain assurance is worth a 10× price premium, and the practical answer in operational units has often been no. Western manufacturers have gained ground on the back of NDAA compliance requirements, autonomy in GNSS-denied conditions, and cyber assurance, none of which the cheap alternatives match.
+
+## Videos
+
+- https://www.youtube.com/watch?v=GRdM-BxlBQg — Skydio Delivers a Breakthrough for Enterprise Drones with the Launch of Skydio X10 (Skydio, 3 minutes, 500k+ views)
+- https://www.youtube.com/watch?v=jWDpqo-18xA — Skydio X10 Hands On First Look - A Huge Upgrade (Billy Kyle, 13 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=BP-G6OXk-KE — Parrot Anafi USA First Flight and Impressions - Small But Mighty (Billy Kyle, 18 minutes, 10k+ views)
 
 ## Further reading
 

@@ -19,6 +19,9 @@ Cycle life is the best among sodium cathodes (6,000+ cycles demonstrated), therm
 ## When to use
 Pick NFPP-class polyanion cells for daily-cycled grid storage where $/kWh-cycle is the metric and 6,000+ cycles with iron-phosphate-grade thermal safety pay out over the project life. In practice that mostly means projects where sodium supply chains are mandated or strategically preferred. Avoid it if energy density matters at all (this is the lowest of the sodium families) or if the tender goes to the lowest upfront $/kWh, since LFP still wins that bid. If you want sodium but need more energy, use layered-oxide sodium instead.
 
+## Key numbers
+Specific energy roughly 100–130 Wh/kg, the lowest of the sodium families · nominal cell voltage about 3.0–3.2 V · 6,000+ cycles demonstrated · operating range roughly -30 °C to 60 °C · iron and phosphate only in the NFPP version, with no nickel, cobalt, or vanadium.
+
 ## Examples
 Chinese grid-storage demonstration projects (Datang's 100 MWh-class sodium BESS uses NFPP-family cells); HiNa and Great Power polyanion lines; BYD's sodium roadmap includes polyanion variants.
 

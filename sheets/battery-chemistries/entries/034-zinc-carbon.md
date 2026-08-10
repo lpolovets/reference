@@ -18,11 +18,20 @@ Cost is as low as batteries get, manufacturing is simple enough to set up almost
 ## When to use
 Specify zinc-carbon only when the absolute lowest unit price is the requirement and the load is a trickle: clocks, remotes, bundled "batteries included" packaging, and price-sensitive developing markets. Avoid it for anything with meaningful drain, cold exposure, long deployment, or a device worth protecting from leakage. Alkaline fixes every one of those weaknesses for pennies more, so it should be the default anywhere the price gap doesn't decide the sale.
 
+## Key numbers
+Nominal cell voltage 1.5 V · specific energy roughly 55–75 Wh/kg · an AA holds 400–1,000 mAh at low drain, against 2,000–3,000 mAh for alkaline · shelf life 1–2 years, against 5–10 for alkaline · capacity falls off sharply above roughly 100 mA of draw and below 0 °C.
+
 ## Examples
 Bargain AA/AAA/D cells and lantern batteries (Panasonic, Toshiba, and countless regional brands); devices bundled with "batteries included."
 
 ## Economic profile
 Zinc-carbon is a pure commodity. It's in long-term decline in rich markets but persists in developing ones, where its low absolute price wins. Margins are thin and brand-driven, and manufacturing has consolidated toward low-cost Asian producers. It matters strategically mostly as an example of how a good-enough product (alkaline) caps the market for a worse one.
+
+## Videos
+
+- https://www.youtube.com/watch?v=LIfClpnLchQ — Voltaic pile/cell / Leclanché cell (zinc-carbon battery) - How it works! (Thomas Schwenke, 4 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=WQpbkSfqeas — Zinc Carbon Batteries: How Do They Work? (Electrical4U, 3 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=LtM8-ULBUr0 — How a Zinc Carbon Battery is Made (BatteryGuy, 4 minutes, 5k+ views)
 
 ## Further reading
 

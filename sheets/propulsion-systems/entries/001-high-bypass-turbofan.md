@@ -17,7 +17,7 @@ A high-bypass turbofan puts a large fan in front of a small gas-turbine core and
 It is the most fuel-efficient practical way to fly a subsonic aircraft, and 60 years of fleet experience have pushed reliability to roughly one in-flight shutdown per 200,000 engine-hours. Thrust-specific fuel consumption has fallen about 40% since the 1970s. The weaknesses are physical and commercial. Big fans mean big nacelles, and ground clearance under a low-wing airliner is now a real design constraint. The engine loses thrust and efficiency fast above Mach 0.9, so it is useless for supersonic flight. Development runs $1–3B and a decade, the hot section needs single-crystal castings and thermal-barrier coatings that only a handful of suppliers can make, and overhaul costs dominate the engine's life-cycle economics.
 
 ## When to use
-Pick a high-bypass turbofan for anything that flies subsonic for hours: airliners, freighters, tankers, maritime patrol, transports, and large HALE drones. If cruise is above roughly Mach 0.85, look at lower bypass ratios; if it is below Mach 0.5, a turboprop burns 20–30% less fuel. Avoid it where the airframe cannot fit the nacelle or where the mission is short enough that acquisition cost outweighs fuel burn — a cheap turbojet is better for a one-way vehicle. In defense programs the practical question is usually not which cycle but whether a commercial engine can be adapted, since a derivative of a certified civil engine skips most of the development cost and risk.
+Pick a high-bypass turbofan for anything that flies subsonic for hours: airliners, freighters, tankers, maritime patrol, transports, and large HALE drones. If cruise is above roughly Mach 0.85, look at lower bypass ratios; if it is below Mach 0.5, a turboprop burns 20–40% less fuel. Avoid it where the airframe cannot fit the nacelle or where the mission is short enough that acquisition cost outweighs fuel burn — a cheap turbojet is better for a one-way vehicle. In defense programs the practical question is usually not which cycle but whether a commercial engine can be adapted, since a derivative of a certified civil engine skips most of the development cost and risk.
 
 ## Key numbers
 Bypass ratio 5:1–12:1 · thrust 100 kN to 500 kN per engine · TSFC roughly 0.5–0.55 lb/lbf/hr at cruise, equivalent to an Isp of about 6,500–7,000 s · thrust-to-weight around 5–6:1 · overhaul interval 15,000–25,000 hours on mature types.
@@ -27,6 +27,12 @@ CFM LEAP-1A/1B (A320neo, 737 MAX), Pratt & Whitney PW1100G geared turbofan, GE9X
 
 ## Economic profile
 Large turbofans are a duopoly-plus business: GE, Pratt & Whitney, Rolls-Royce, and CFM as a GE-Safran joint venture. Engines are frequently sold near or below cost and the money is made on spare parts and long-term service agreements over a 25-year life, so the installed base is the asset. That makes entry very hard — a new entrant needs certification, a global service network, and airline confidence, not just a good cycle. For defense buyers the same structure means sustainment, not acquisition, dominates the budget line.
+
+## Videos
+
+- https://www.youtube.com/watch?v=xADjIAqJigI — How a High Bypass Turbofan Works (Dfan 315, 5 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=7v-lyKce7U8 — How Does a Turbofan Engine Work? (MTU Aero Engines, 3 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=L24Wf0VlTE0 — How Jet Engines Work (Animagraffs, 5 minutes, 5m+ views)
 
 ## Further reading
 

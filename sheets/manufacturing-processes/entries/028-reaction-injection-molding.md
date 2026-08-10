@@ -20,6 +20,10 @@ Accommodates large parts, thick sections, and lower-cost tooling because mold pr
 
 Choose RIM for large, lightweight polyurethane parts (machine covers, fascias, panels at sizes where thermoplastic molds get too expensive) at hundreds to roughly 10,000 units per year. Cavity pressure is low, so the tooling can be inexpensive aluminum or even composite. Avoid RIM for small parts, tight tolerances, or six-figure volumes; thermoplastic injection molding is faster and cheaper per part there. Plan on painting the parts, because the as-molded surface isn't very good.
 
+## Key numbers
+
+Cavity pressure 0.3–1 MPa, against 50–150 MPa for thermoplastic injection molding · cycle time 2–10 minutes · wall thickness 3–12 mm, and it can vary widely across one part · part size up to 3–4 m and 0.5–50 kg · molded density 200–1,100 kg/m³ by foam level · aluminum or composite tooling $5,000–50,000 at 4–8 week lead time · economical from a few hundred to about 10,000 parts a year.
+
 ## Examples
 
 Automotive fascias, machine covers, medical-device housings, polyurethane panels.

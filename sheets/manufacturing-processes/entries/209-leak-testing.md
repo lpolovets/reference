@@ -20,6 +20,10 @@ Directly tests functional sealing performance. Fixture leakage, temperature stab
 
 Leak test any product whose function depends on containment, and pick the method by the acceptable leak rate. Pressure decay is the cheap production default down to roughly 10^-3 mbar·l/s, tracer-gas sniffing reaches 10^-5 to 10^-6, and helium mass-spectrometer vacuum testing covers the 10^-7 and tighter rates demanded of refrigeration circuits, battery cells, implants, and vacuum hardware. Specify the numeric leak-rate limit from physics (allowable pressure or fluid loss over service life) rather than defaulting to "bubble tight". Pressure decay gets unreliable on large-volume or flexible parts, because temperature drift and creep produce signals bigger than the leak, so move those to tracer gas. These are pass/fail global tests. If a failed part has to be repaired, add a localization step like sniffing or bubble immersion. Leak testing also says nothing about structural integrity, so pair it with proof or burst testing where rupture matters.
 
+## Key numbers
+
+Pressure decay resolves to about 10^-3 mbar·l/s, tracer-gas sniffing 10^-5 to 10^-6, helium mass spectrometry to 10^-12 under vacuum · cycle time 10–120 seconds per part including fill and stabilization · test pressures typically 0.5–10 bar · tracer mixes from 5% helium in nitrogen up to pure helium · $5–20k for a pressure-decay instrument, $25–80k for a helium leak detector.
+
 ## Examples
 
 Vacuum systems, batteries, fuel systems, refrigeration, medical devices.

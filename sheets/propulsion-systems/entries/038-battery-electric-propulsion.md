@@ -27,6 +27,12 @@ Nearly all quadcopters and small fixed-wing drones, Pipistrel Velis Electro (the
 ## Economic profile
 Electric aircraft propulsion rides the automotive battery and motor supply chain, which is the single most important fact about its economics: aviation is a rounding error in cell demand, so it inherits cost curves it does not drive. Cells have fallen roughly 90% in price since 2010. That means the technology gets cheaper regardless of aviation adoption, but it also means aviation-specific requirements — cycle life at high discharge, certification, thermal runaway containment — carry a cost premium that the automotive curve does not remove.
 
+## Videos
+
+- https://www.youtube.com/watch?v=VNvzZfsC13o — Are Electric Planes Possible? (Real Engineering, 10 minutes, 1m+ views)
+- https://www.youtube.com/watch?v=WiADDbeFanU — Flying Pipistrel's Electric Airplane (AVweb, 7 minutes, 500k+ views)
+- https://www.youtube.com/watch?v=yiD5nCfmbV0 — Brushless Motor - How they work BLDC ESC PWM (The Engineering Mindset, 16 minutes, 5m+ views)
+
 ## Further reading
 
 [Electrified Aircraft Propulsion (NASA Glenn Research Center)](https://www1.grc.nasa.gov/aeronautics/eap/) · [X-57 Maxwell (NASA)](https://www.nasa.gov/aeronautics/x-57-maxwell/)

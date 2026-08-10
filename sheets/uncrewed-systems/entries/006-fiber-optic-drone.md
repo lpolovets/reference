@@ -19,6 +19,9 @@ Immunity to jamming is decisive in an environment where radio-controlled drones 
 ## When to use
 Use fiber-optic control where electronic warfare has made radio links unreliable, where the operator must not be located by direction finding, and where the route allows a fiber to pay out without snagging — open terrain, roads, and urban approaches from a stable direction. If the target is beyond 25 km, or the route is heavily wooded, use a radio-controlled or autonomous system instead. The broader lesson is that a physical link is currently the most effective answer to jamming, and defenders have had to shift from electronic counters to physical interception.
 
+## Key numbers
+Fiber spool 10–25 km · spool weight a few hundred grams · practical range limit about 25 km · spool cost $150–500 · airframe a few hundred dollars before the spool.
+
 ## How it is countered
 The fiber can be cut, and deliberate wire-cutting measures have appeared. Snagging on vegetation and structures ends missions without any enemy action. The spool limits range absolutely. Because there is no RF to detect, defenders have moved to acoustic and optical detection plus interceptor drones and small-arms fire, which is a harder and more expensive problem than jamming was. Spent fiber on the ground also reveals attack routes and operator positions to observant defenders.
 
@@ -27,6 +30,12 @@ Russian Knyaz Vandal Novgorodsky and Prince Vandal series, Ukrainian fiber-optic
 
 ## Economic profile
 A fiber spool adds $150–500 to a drone that otherwise costs a few hundred dollars, so the total remains far below any guided munition. Supply is the interesting constraint: the specific fiber and dispenser designs come overwhelmingly from a small number of Chinese producers, which makes this a concentrated dependency for both sides in the current conflict. Expect Western programs to treat spool production as a supply-chain priority if this approach persists.
+
+## Videos
+
+- https://www.youtube.com/watch?v=3l6rNFzmv-o — Fiber Optic FPV Drones? What Does Bardwell Think? - FPV Questions (Joshua Bardwell Livestream Clips, 7 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=6u0dqJ0EovM — What are Fiber Optic FPV Drones, and Why are They so Deadly? - Feat. @DefenseTechforUkraine (North Wind Aerial, 14 minutes, 5k+ views)
+- https://www.youtube.com/watch?v=f13KKwJGQHA — How to connect the FPV drone with fiber optic canister to the air and ground unit (Jackie zhou, 2 minutes, 5k+ views)
 
 ## Further reading
 

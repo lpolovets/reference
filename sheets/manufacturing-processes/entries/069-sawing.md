@@ -18,7 +18,11 @@ Versatile and inexpensive for material preparation. Accuracy and finish are gene
 
 ## When to use
 
-Pick sawing for cutoff and stock preparation (billets, bar, tube, structural sections, lumber) at any volume. Cost per cut is lower than any other separation method and kerf loss is small. Treat sawn length as roughly plus or minus 0.5-1 mm, and leave facing stock when the end matters. Don't rely on it for finished surfaces or profiles. If you need accurate sheet and plate contours, use laser, waterjet, or plasma. If you need precise faces, follow the saw with machining.
+Pick sawing for cutoff and stock preparation (billets, bar, tube, structural sections, lumber) at any volume. Cost per cut is lower than any other separation method and kerf loss is small. Treat sawn length as roughly ±0.5–1 mm, and leave facing stock when the end matters. Don't rely on it for finished surfaces or profiles. If you need accurate sheet and plate contours, use laser, waterjet, or plasma. If you need precise faces, follow the saw with machining.
+
+## Key numbers
+
+Length tolerance roughly ±0.5–1 mm · kerf 1–3 mm depending on blade type · cut rate roughly 10–100 cm² per minute in steel · sawn face 3.2–12.5 µm Ra · band saw blades cost $30–300 · capacity from small bar up to sections around 1 m on large machines.
 
 ## Examples
 

@@ -17,11 +17,20 @@ The hardware is very simple and cheap: capacitor banks and electrodes rather tha
 ## When to use
 Back pulsed-magnetic approaches if you want fusion's cheapest iteration loop. Capacitor banks and electrodes ride commodity power-electronics cost curves, so each experiment (and each eventual unit) costs a fraction of superconducting magnets or megajoule optics. The risk profile is the tokamak's inverse: nearly all of it is whether instability suppression and electrode survival hold at gain conditions, and almost none of it is capital cost. That makes this the natural high-variance satellite position in a fusion portfolio. If you need demonstrated confinement scaling or a near-term gain catalyst, hold tokamaks or laser ICF instead.
 
+## Key numbers
+Sandia's Z machine delivers about 26 MA in roughly 100 ns, the largest pulsed-power drive anywhere · MagLIF preheats the fuel with a laser inside a 10 T axial field, then crushes a centimeter-scale liner with about 20 MA · Zap's sheared-flow Z-pinch runs at a few hundred kA in a column tens of centimeters long, with no external confinement coils · driver hardware costs roughly a tenth of an equivalent laser · electrodes sit close to the plasma and would have to survive millions of pulses in a plant.
+
 ## Examples
 Zap Energy (Seattle, sheared-flow Z-pinch, FuZE-Q targeting scientific breakeven-relevant conditions), Pacific Fusion ($900M raised at founding, pulser-driven inertial fusion with NIF-ignition alumni), Sandia's MagLIF program and Z machine (the world's largest pulsed-power facility), UK's First Light Fusion (projectile-driven inertial, a related approach; pivoted to supplying targets and amplifiers).
 
 ## Economic profile
 This is the capital-efficiency wing of fusion. If confinement physics cooperates, the driver hardware is commodity power electronics riding its own cost curve. Pacific Fusion's founding raise signals investor appetite for "NIF physics with affordable drivers." The risk concentration is inverted from tokamaks: the machine is cheap and the physics uncertainty is expensive, which makes this the highest-variance, lowest-capex corner of the field.
+
+## Videos
+
+- https://www.youtube.com/watch?v=UMDLa3tl90g — How It Works: Sheared-Flow Stabilization (Zap Energy, 1 minute, 5k+ views)
+- https://www.youtube.com/watch?v=VZNBup-ifC4 — Just A Little Z-Pinch: Zap Energy's Game-Changing Approach to Fusion Power (ARPA-E, 4 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=TVaIvAPMd_g — Fusion: Pulsed Power Research at Sandia National Laboratories (Sandia National Labs, 8 minutes, 50k+ views)
 
 ## Further reading
 

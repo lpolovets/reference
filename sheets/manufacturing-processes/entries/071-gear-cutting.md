@@ -20,6 +20,10 @@ Mature, accurate, and productive for external and internal gears. Each variant t
 
 Pick hobbing as the default for external spur and helical gears at production volumes. Use shaping where a hob cannot run (internal gears, teeth close to a shoulder), and skiving when you need internal gears at scale and have rigid modern machines. Cut gears typically reach AGMA 8-10 as-machined, so if the drawing calls for better, plan on gear grinding or honing after hardening. Avoid dedicated gear cutting for low-load or low-precision gears at very high volume, where powder metallurgy, cold forming, or plastic molding produces the tooth form without cutting. For one-off prototypes, five-axis milling of the flanks is now practical.
 
+## Key numbers
+
+As-cut quality AGMA 8-10, so anything better needs grinding or honing · module typically 0.5–25 mm · tooth flank finish 0.8–3.2 µm Ra as cut · hobbing cycle roughly 1–10 minutes per gear · hobs cost $500–5,000 · economic from a few hundred gears a year upward.
+
 ## Variants
 
 ### Hobbing

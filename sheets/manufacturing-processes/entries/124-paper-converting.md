@@ -20,6 +20,10 @@ Inexpensive, fast, and highly scalable. Moisture, strength, and durability are l
 
 Paper converting is the default for high-volume, low-cost packaging (cartons, corrugated shippers, labels, cups). Steel-rule cutting dies cost little, changeover is fast, and unit costs fall to fractions of a cent at line speeds of hundreds of meters a minute. Avoid it wherever the product must bear sustained load, stay wet, or survive repeated use. Coatings and laminations extend moisture life only modestly before molded pulp or plastics take over.
 
+## Key numbers
+
+Line speeds 200–400 m/min on corrugators and faster still on folder-gluers · paperboard 200–600 g/m², corrugated flutes 1.6 mm (E) to 4.8 mm (A) · cut and crease tolerance around ±0.5 mm · steel-rule dies $500–5k, rotary dies higher · unit cost from fractions of a cent to a few cents · economical from tens of thousands of units upward.
+
 ## Examples
 
 Cartons, corrugated boxes, labels, cups.

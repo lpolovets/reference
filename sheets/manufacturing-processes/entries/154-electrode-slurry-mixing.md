@@ -20,6 +20,10 @@ Determines dispersion, rheology, coating quality, and electrochemical performanc
 
 Slurry mixing is the mandatory first step of any slurry-cast electrode line, so the decisions are equipment and solvent. Batch planetary mixers suit pilot lines and multi-product plants, while continuous twin-screw mixing is better at GWh scale on footprint, consistency, and cost. Water-based processing is standard for graphite anodes, but most cathodes still require NMP and its recovery loop. If solvent handling and drying dominate your economics, dry-electrode processing is the emerging alternative that skips this step entirely.
 
+## Key numbers
+
+Formulation roughly 90–97% active material, 1–5% binder, 1–3% conductive carbon · solids loading about 65–75% by weight for NMP cathode slurries and 45–55% for water-based anode slurries · slurry viscosity roughly 2,000–10,000 cP at coating shear rates · batch planetary cycles of 1–4 hours in 500–2,000 L vessels · continuous twin-screw residence time of seconds to a few minutes.
+
 ## Examples
 
 Anode and cathode slurries for lithium-ion cells.

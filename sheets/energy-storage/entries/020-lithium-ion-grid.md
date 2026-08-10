@@ -19,11 +19,20 @@ Li-ion offers 88–92% round-trip efficiency, millisecond response, bankable per
 ## When to use
 Default to Li-ion for everything up to ~8 hours (arbitrage, ancillary services, capacity, hybrid solar) whenever deployment speed, bankability, and 88–92% round-trip efficiency matter. Assume the viable duration ceiling moves right every year, and stress-test any competitor against next year's LFP price, not today's. Plan augmentation spend into the pro forma from day one. Look elsewhere if duration runs past 10 hours or multi-day (flow, iron-air, CAES, and thermal systems decouple energy from power), if fire codes block dense urban or indoor siting (zinc and sodium chemistries), or if the asset must serve 40+ years without repowering (mechanical systems).
 
+## Key numbers
+Round-trip efficiency 88–92% · durations 1–8 hours in current projects · response in milliseconds · cycle life 6,000–10,000 on grid LFP cells, calendar life around 20 years · system prices below $150/kWh in 2024–25, with Chinese turnkey bids under $100/kWh · deployment in months rather than years.
+
 ## Examples
 Tesla Megapack fleets (Moss Landing 3 GWh, Hornsdale), CATL EnerOne/TENER, Fluence, Sungrow — global installs passed ~350 GWh cumulative with China deploying the majority.
 
 ## Economic profile
 System prices fell below $150/kWh in 2024–25 (China turnkey bids under $100), which resets the bar for every challenger annually. The correct planning assumption is that Li-ion owns everything up to the crossover duration and that the crossover keeps moving right. If an LDES business case doesn't model continued Li-ion price declines, it's not a credible business case.
+
+## Videos
+
+- https://www.youtube.com/watch?v=zXV1Vy_XECY — Battery Energy Storage Systems (BESS) (The Power Hub, 7 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=GNmL-gBPe3g — Battery Energy Storage System | BESS | All Components Explained (Gaurav J - TheElectricalGuy, 20 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=JURks5pVJTg — Innovation: Inside a MASSIVE Battery Storage Construction Project with Tesla Megapack (Mortenson, 5 minutes, 5k+ views)
 
 ## Further reading
 

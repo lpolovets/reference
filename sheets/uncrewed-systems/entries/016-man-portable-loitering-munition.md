@@ -17,7 +17,10 @@ A man-portable loitering munition is a tube-launched drone carrying a small warh
 It gives a small unit precision fires without calling for artillery or aircraft, and the man-in-the-loop lets the operator confirm the target and abort if something changes, which matters under restrictive rules of engagement. Weight is low enough to carry on foot. The weaknesses are cost per shot relative to an FPV drone doing a similar job, small warhead, short range, and vulnerability to jamming of the video and command links. Wind limits use, and the operator is occupied for the whole flight.
 
 ## When to use
-Use man-portable loitering munitions where a small unit needs precision effect against a specific target beyond the range of direct fire and cannot wait for supporting arms. If the target is inside a few kilometres and cost matters, an FPV drone does the same job for a tenth of the price, which is exactly why FPVs have displaced these weapons in some roles. If the target is armor, a larger anti-armor loitering munition or an anti-tank guided missile is the right choice — a 1 kg warhead will not defeat a main battle tank frontally.
+Use man-portable loitering munitions where a small unit needs precision effect against a specific target beyond the range of direct fire and cannot wait for supporting arms. If the target is inside a few kilometers and cost matters, an FPV drone does the same job for a tenth of the price, which is exactly why FPVs have displaced these weapons in some roles. If the target is armor, a larger anti-armor loitering munition or an anti-tank guided missile is the right choice — a 1 kg warhead will not defeat a main battle tank frontally.
+
+## Key numbers
+System weight 3–10 kg including launcher · endurance 15–40 minutes · range 10–20 km · warhead 0.3–1.5 kg · unit cost $20k–80k.
 
 ## How it is countered
 Jamming the command and video link is the standard counter and is effective against most models. GNSS denial degrades navigation on models without visual terminal guidance. Small arms and shotguns work at short range. Because the operator must maintain the link, direction finding on that link can locate the launch position, which is a significant risk in a well-equipped opponent's area.
@@ -27,6 +30,12 @@ AeroVironment Switchblade 300, UVision Hero-30, WB Group Warmate, Rheinmetall an
 
 ## Economic profile
 Unit costs run $20k–80k, which is far above an FPV drone and far below a guided missile. That middle position is under pressure from both directions: FPVs undercut them on cost for short-range work, and cheap fixed-wing one-way attack drones undercut them on range. The segment's durable advantage is packaging and reliability — a sealed tube that works when a soldier pulls it out of a rucksack after a month in the field, which improvised systems do not reliably deliver.
+
+## Videos
+
+- https://www.youtube.com/watch?v=9RyFQy-Kfso — Ukraine Using Switchblade 300 'Kamikaze Drones' / Loitering Munitions (The Armourer's Bench, 8 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=66DwSwHH71k — AeroVironment Introduces Switchblade 300 Block 20 Rapidly Deployable Loitering Missile System (Global Update, 2 minutes, 5k+ views)
+- https://www.youtube.com/watch?v=6U_4Tf3Z2EA — Hero-30 Loitering munition system - Full mission (UVision Air Ltd, 2 minutes, 10k+ views)
 
 ## Further reading
 

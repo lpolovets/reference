@@ -18,7 +18,11 @@ Offers improved surface quality and detail. Mold production is slower, molds are
 
 ## When to use
 
-Use plaster or ceramic mold casting for prototype and short-run aluminum, zinc, or magnesium parts that need die-cast-like finish and detail before production tooling exists. Typical runs are ones to hundreds of pieces, and it's the usual bridge to die casting. The molds are single-use and slow to make, so the process doesn't scale to higher volumes. Mold temperature limits also rule out ferrous alloys, which should go to investment or sand casting.
+Use plaster or ceramic mold casting for prototype and short-run aluminum, zinc, or magnesium parts that need die-cast-like finish and detail before production tooling exists. Typical runs are ones to hundreds of pieces, and it's the usual bridge to die casting. The molds are single-use and slow to make, so the process doesn't scale to higher volumes. Plaster molds can't take the temperature of ferrous alloys, so iron and steel go to ceramic molds (the Shaw process handles tool steel routinely), investment casting, or sand casting.
+
+## Key numbers
+
+Linear tolerance roughly ±0.13 mm on the first 25 mm · surface Ra 1.6–3.2 µm, close to a die-cast finish · minimum wall about 1.5 mm · plaster molds need 12–24 hours of drying and are used once · a silicone master pattern costs $2,000–15,000 and yields dozens to a hundred molds · lead time 2–4 weeks · typical runs of one to a few hundred parts.
 
 ## Examples
 

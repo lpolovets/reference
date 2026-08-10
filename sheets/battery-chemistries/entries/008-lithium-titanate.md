@@ -19,11 +19,20 @@ LTO delivers tens of thousands of cycles, intrinsic resistance to lithium platin
 ## When to use
 Pick LTO when the duty cycle is demanding enough to justify 2–3× LFP pricing: multiple full cycles per day for a decade, sub-10-minute charging, or hard operation at -30 °C. Typical fits are transit buses on opportunity charging, port and rail equipment, frequency regulation, and downhole tools. Judge it on $/kWh-cycle, not $/kWh. Avoid LTO wherever energy density or upfront cost matters and the pack cycles once a day or less, since LFP covers ordinary daily cycling at a fraction of the price.
 
+## Key numbers
+Specific energy 60–110 Wh/kg · nominal 2.4 V, with the anode sitting at 1.55 V versus lithium · cycle life 10,000–20,000 to 80% capacity · 6–10C charge, so a full charge in under 10 minutes · full-power operation down to -30 °C · cell cost $200–400/kWh, two to three times LFP.
+
 ## Examples
 Toshiba SCiB cells in Mitsubishi i-MiEV, hybrid buses, and rail/port equipment; Microvast fast-charge fleets; frequency-regulation storage; oil-and-gas downhole tools.
 
 ## Economic profile
 LTO costs two to three times LFP per kWh, so it only wins where cycle count, charge speed, or temperature extremes dominate the levelized cost (heavy-duty duty cycles, transit, and industrial equipment that cycles many times daily). It's a durable niche rather than a volume product.
+
+## Videos
+
+- https://www.youtube.com/watch?v=CRjK1jtoElg — Lithium Titanate Cells - an Introduction (Julian Ilett, 13 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=-1I5au9SHjY — LTO Battery - What is it? (Latuta EV, 4 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=iOBSxEqXUQc — I was wrong about Lithium Titanate batteries. But should you use them for solar? 2020 Update (DIY Solar Power with Will Prowse, 11 minutes, 100k+ views)
 
 ## Further reading
 

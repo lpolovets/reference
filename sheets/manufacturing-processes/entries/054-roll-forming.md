@@ -20,6 +20,10 @@ It's very efficient for long, high-volume components. Tooling is expensive, and 
 
 Pick roll forming for constant-cross-section profiles produced from coil at high annual volumes (tens of thousands of linear meters per year or more). It's especially good for lengths beyond press-brake capacity and for parts that need in-line punching and cutoff. It also handles high-strength and pre-painted stock gently, because the bending is distributed over many stands. Avoid it below the volume needed to amortize a roll set (often tens of thousands of dollars per profile), for cross-sections that vary along the length, or for short discrete parts. In those cases, press-brake forming or stamping is the default.
 
+## Key numbers
+
+Line speed 10–100 m/min through 6–20 forming stands · strip thickness 0.3–6 mm, profile widths to about 600 mm · cross-section tolerance ±0.2–0.5 mm, cut length within about ±1 mm · roll sets $15,000–100,000 per profile, 8–16 weeks lead time · economic lot size tens of thousands of linear meters a year and up.
+
 ## Examples
 
 Roofing, door tracks, automotive rails, shelving uprights, gutters.

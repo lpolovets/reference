@@ -19,6 +19,9 @@ You get hydraulic force density with electric-drive controllability and 60–80%
 ## When to use
 Consider an EHA when sustained joint force outgrows what a BLDC plus a roller screw can package (multi-kilonewton loads with shock exposure) and a central hydraulic plant isn't acceptable: aerospace surfaces, heavy exoskeletons, high-payload humanoid legs. You get hydraulic density with motor-side force control, 60–80% efficiency, sealed fluid, and only wires running to the joint. Avoid it while your requirements still fit electromechanics. Every joint carries its own precision pump, nothing is off the shelf at robot scale, and prices are aerospace-adjacent, so adopting one is a program decision rather than a catalog purchase. If you need the bandwidth or force of valve-controlled hydraulics, classic servo-hydraulics is still the better answer.
 
+## Key numbers
+Force 1–10 kN at robot scale, tens of kN on aerospace control surfaces · internal pressure 200–350 bar · efficiency 60–80%, roughly double a throttled servo-hydraulic system · positioning typically 0.1–1 mm · $10k+ per axis, and most robot-scale units are semi-custom.
+
 ## Examples
 F-35 flight-control actuators (the flagship deployment), Moog and Parker aerospace lines, Apptronik's early EHA work and various humanoid knee prototypes, KNR and Kawasaki hydraulic-robot research, heavy-payload exoskeletons.
 
@@ -27,6 +30,11 @@ On paper EHAs are the right endpoint for high-force robot joints. What holds the
 
 ## Suppliers
 [Domin](https://domin.com/) — additively-manufactured direct-drive servo valves and compact EHA systems · [Parker](https://www.parker.com/) — aerospace and industrial EHA lines
+
+## Videos
+
+- https://www.youtube.com/watch?v=xzrongzRrgo — EAS-EPU Electrohydrostatic Actuation System (Moog, 3 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=pADOxwX2tzk — Electro Hydraulic Actuator (EHA) by Bosch Rexroth (Bosch Rexroth US, 3 minutes, 1k+ views)
 
 ## Further reading
 

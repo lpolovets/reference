@@ -18,7 +18,11 @@ Fast, precise, and highly automated for sheet material. Reflective metals, thick
 
 ## When to use
 
-Laser cutting is the default for 2D profiles in sheet metal from roughly 0.5 to 20 mm. It needs no tooling, holds plus or minus 0.1 mm, and stays economical from a single prototype through high-volume nested production, which is why job shops quote it first. Fiber lasers handle reflective aluminum, brass, and copper reasonably well now. Above about 25 mm of steel, laser speed and edge quality drop off, so use plasma or oxy-fuel. For composites, heat-sensitive alloys, and glass, use waterjet. If the part is stable and runs more than tens of thousands of pieces per year, switch to stamping, because die amortization beats per-meter cutting cost at that point.
+Laser cutting is the default for 2D profiles in sheet metal from roughly 0.5 to 20 mm. It needs no tooling, holds ±0.1 mm, and stays economical from a single prototype through high-volume nested production, which is why job shops quote it first. Fiber lasers handle reflective aluminum, brass, and copper reasonably well now. Above about 25 mm of steel, laser speed and edge quality drop off, so use plasma or oxy-fuel. For composites, heat-sensitive alloys, and glass, use waterjet. If the part is stable and runs more than tens of thousands of pieces per year, switch to stamping, because die amortization beats per-meter cutting cost at that point.
+
+## Key numbers
+
+Fiber lasers of 1–20 kW, with 3–6 kW covering most sheet work · kerf 0.1–0.5 mm · tolerance about ±0.1 mm · thickness 0.5–20 mm in steel, falling off past 25 mm · above 20 m/min in 1 mm mild steel and 1–2 m/min at 10 mm · heat-affected zone 0.05–0.5 mm · machines cost roughly $200,000 to over $1 million.
 
 ## Examples
 

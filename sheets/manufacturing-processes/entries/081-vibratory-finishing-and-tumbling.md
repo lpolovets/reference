@@ -20,6 +20,10 @@ Economical for batches of small parts. Offers limited control over specific surf
 
 Use vibratory finishing or tumbling for bulk deburring, edge radiusing, cleaning, and pre-plate smoothing of batches of small robust parts (stampings, machined fittings, castings, fasteners). Cost per piece drops to cents because no operator touches individual parts, and the cycle time, measured in hours, matters less than that near-zero labor. Avoid it for delicate thin walls, for threads and sharp edges that have to survive, and for parts that nest or dent each other. If one specific surface needs selective treatment, use hand deburring, brush deburring, or abrasive-flow machining instead.
 
+## Key numbers
+
+Cycle times from about 15 minutes for deburring to 24 hours for a polish · edge radii of 0.05–0.5 mm · removes 0.01–0.05 mm from surfaces · bowls and tubs of 30–1,000 L, holding hundreds to thousands of parts per load · media vibrates at 900–3,000 cycles per minute with 2–6 mm amplitude · cost per part in cents once the batch is loaded.
+
 ## Examples
 
 Fasteners, jewelry, cast fittings, stamped brackets.

@@ -18,7 +18,11 @@ It's flexible and cheap for low-to-medium volume fabrication. It's also slower t
 
 ## When to use
 
-Use a press brake for bent sheet-metal parts (enclosures, brackets, chassis) from one-off prototypes up to a few tens of thousands per year. Standard tooling means near-zero tooling cost and same-day turnaround from any fab shop. Design for tool access and bend order, and expect roughly plus or minus 0.25 mm and a degree on bends. If annual volume climbs into the high tens of thousands and the design is stable, dedicated stamping dies will beat a press brake on unit cost.
+Use a press brake for bent sheet-metal parts (enclosures, brackets, chassis) from one-off prototypes up to a few tens of thousands per year. Standard tooling means near-zero tooling cost and same-day turnaround from any fab shop. Design for tool access and bend order, and expect roughly ±0.25 mm and a degree on bends. If annual volume climbs into the high tens of thousands and the design is stable, dedicated stamping dies will beat a press brake on unit cost.
+
+## Key numbers
+
+Sheet thickness 0.5–12 mm, bend lengths to 3–4 m on a standard machine · bend angle within about ±1° and flange dimensions within ±0.25 mm · inside bend radius roughly equal to material thickness in mild steel · minimum flange length about 4 times thickness · cycle 5–20 s per bend · standard tooling, so near-zero tooling cost and same-day turnaround · economic lot size one piece to a few tens of thousands a year.
 
 ## Examples
 

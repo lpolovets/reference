@@ -19,6 +19,9 @@ Force density and inherent compliance are both excellent, the muscle is naturall
 ## When to use
 Use McKibben muscles when compliance and force-per-gram dominate, precision doesn't, and compressed air is already on site or a tether is acceptable: compliant tensioning and special machines on factory air, wearable and rehabilitation prototypes, bio-inspired research where muscle-like springiness is the point. Design in antagonistic pairs and treat bladder fatigue as a scheduled consumable. Avoid them on untethered robots, where the compressor, valves, and hoses are the real system and cancel the mass advantage. Avoid them for anything needing repeatable position or force, too, since hysteresis and air compressibility get in the way. In that case use electric QDD joints or plain cylinders running to stops.
 
+## Key numbers
+Contraction up to about 25% of length · operating pressure 4–6 bar on plant air · peak pull roughly 600 N at 10 mm muscle diameter to 6 kN at 40 mm · force falls toward zero as contraction approaches its limit · the muscle costs a few dollars, and the compressor and valves are the real system cost.
+
 ## Examples
 Festo's Fluidic Muscle (the industrial productization) and its Airic's-arm demos, Shadow Robot's original air-muscle hand, countless bio-inspired legged and wearable prototypes, exosuit research (Harvard's soft exosuit lineage uses related pneumatics), Bridgestone's 1980s "rubbertuators."
 
@@ -27,6 +30,12 @@ The muscle itself is nearly free. The pneumatic infrastructure is the entire cos
 
 ## Suppliers
 [Festo](https://www.festo.com/) — the Fluidic Muscle, the industrial McKibben productization
+
+## Videos
+
+- https://www.youtube.com/watch?v=oBkdKeTJ5NY — McKibben Artificial Muscle - opensoftmachines (Open Soft Machines, 2 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=sAHNJdxF6Cw — How to Build a McKibben Air Muscle (XYZAidan, 3 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=PYSqkEhVe6k — Active Textile made of Thin McKibben Muscles (Suzumori Endo Robotics Laboratory, 2 minutes, 10k+ views)
 
 ## Further reading
 

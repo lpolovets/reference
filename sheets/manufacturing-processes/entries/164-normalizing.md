@@ -20,6 +20,10 @@ Normalizing improves uniformity and toughness. Property control is less precise 
 
 Normalize carbon and low-alloy steel forgings, castings, and hot-worked stock when you want a uniform, refined grain structure and a predictable response to later machining or hardening. It is faster and cheaper than full annealing because parts air-cool outside the furnace. It is also the right call for structural components where moderate strength and good toughness are enough and a quench would risk distortion or cracking in heavy or complex sections. If the application needs a specific hardness or strength class, or fatigue performance beyond what a pearlitic structure delivers, use quenching and tempering. If you want maximum softness for machining, use full annealing.
 
+## Key numbers
+
+Austenitizing at roughly 830–950 °C, about 30–60 °C above the Ac3 temperature · soak about 1 hour per 25 mm of section · still-air cooling, so cycles of a few hours against the 8–24 hours a full anneal takes · normalized carbon steel typically 150–250 HB · tensile strength around 550–700 MPa on normalized medium-carbon grades.
+
 ## Examples
 
 Forgings, castings, structural components.

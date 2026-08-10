@@ -20,6 +20,10 @@ Throughput is very high, consistency is good, and cost per ton is low. The downs
 
 This is a feedstock decision, not a part-making one. If you are buying commodity-scale stock that will later be rolled, extruded, forged, or machined, specify continuously cast billet, bloom, slab, or rod. Operating a caster yourself only makes sense at integrated-mill scale, meaning hundreds of thousands of tons per year and near-continuous utilization. If you need discrete shaped parts, or short runs of special alloys, look at shape casting or conventional ingot casting instead.
 
+## Key numbers
+
+Slab sections roughly 200–300 mm thick and 0.8–2.5 m wide, billets 100–200 mm square · casting speed 0.8–2.5 m/min on slabs and 4–6 m/min on small billets · line output typically 1–4 million tons per year · yield from liquid metal about 95–98%, against 85–90% on the ingot route · caster capex in the hundreds of millions of dollars.
+
 ## Examples
 
 Steel slabs, aluminum billets, copper rod, steel blooms.

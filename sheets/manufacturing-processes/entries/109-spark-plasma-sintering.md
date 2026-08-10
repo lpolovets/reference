@@ -20,6 +20,10 @@ SPS densifies powder quickly and keeps microstructures fine. Size, tooling geome
 
 Reserve SPS for research and pilot quantities of materials that conventional sintering degrades or cannot densify, such as nanostructured and transparent ceramics, thermoelectrics, and ultra-hard composites. It works because minutes at temperature preserve fine grains that hours in a furnace would coarsen. Expect part geometry limited to graphite-die pucks, disks, and simple cylinders up to a few hundred millimeters. If you need production volumes or complex shapes, switch to conventional press-and-sinter, hot pressing, or HIP.
 
+## Key numbers
+
+Heating rates 100–1,000 °C per minute · sintering to about 2,000 °C at 20–100 MPa through the graphite die · hold times 5–20 minutes inside cycles under an hour · relative density above 99% with grain size near the starting powder · disc diameters typically 20–100 mm, up to roughly 300 mm on the largest presses · machines $200k to over $1m.
+
 ## Examples
 
 Advanced ceramics, thermoelectrics, hard metals, research alloys.

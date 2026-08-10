@@ -20,6 +20,10 @@ Detects cracks, lack of fusion, delamination, and wall loss without radiation. G
 
 Make UT the first choice for volumetric inspection of thick sections (forgings, plate, pressure-vessel welds, composite laminates), especially where single-side access rules out radiography and where the concern is planar defects like cracks and lack of fusion, which X-rays often miss. Phased-array systems produce recordable, code-accepted weld inspections without radiation permits, and thickness gauging of corroded pipe and tanks is a one-sided, in-service job that nothing else does as well. Avoid it on coarse-grained austenitic and cast structures that scatter sound, on very thin sections below a couple of millimeters, and on complex geometry where beam paths are hard to interpret; radiography handles those better. Results depend heavily on operator skill and couplant, so certified technicians and reference blocks are part of the real cost.
 
+## Key numbers
+
+Frequency 0.5–25 MHz, with 2–10 MHz standard for weld inspection · measurable wall thickness from about 1 mm with a delay-line probe up to several meters of fine-grain steel forging at low frequency · smallest reliably detected flaw about half a wavelength, so 0.5–1 mm at 5 MHz in steel · thickness gauging to ±0.1 mm, and ±0.01 mm with precision gauges · phased-array probes carry 16–128 elements · instruments $5k for a thickness gauge to $80k for a phased-array system.
+
 ## Examples
 
 Welds, forgings, composites, pressure vessels, rails.

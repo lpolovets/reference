@@ -18,11 +18,19 @@ Dormant shelf life runs decades, and activation is instant in all conditions (-5
 ## When to use
 Specify thermal batteries when you need 20+ years of maintenance-free dormancy followed by guaranteed, instant burst power for minutes under extreme environments: munitions, ejection seats, safing systems, anything fired from a gun. They are single-shot by design, so don't spec them where sustained runtime, reuse, or testing-without-consuming matters. If a long-dormancy application needs hours rather than minutes of output, look at reserve-activated Li-SOCl2 or Li-SO2 primaries instead.
 
+## Key numbers
+Cell voltage about 2 V for lithium-silicon/iron-disulfide couples · activation in under one second · active life of minutes up to roughly an hour · specific energy 10–30 Wh/kg, but power density in the kW/kg range · internal operating temperature 400–550 °C once the salt melts · dormant storage 20+ years at -55 to +75 °C.
+
 ## Examples
 Missile and guided-munition power (EaglePicher, ASB/Aerospatiale Batteries, Eurenco), ejection-seat and emergency aircraft systems, nuclear-weapon safing systems, some downhole tools.
 
 ## Economic profile
 This is a pure defense market sized by munitions production, and it is currently expanding with global rearmament and deep magazines of precision weapons. Two or three qualified Western suppliers hold the franchise. Qualification physics (proving 20-year dormancy) is an unusually literal barrier to entry.
+
+## Videos
+
+- https://www.youtube.com/watch?v=AifTHIu2YYU — Take a virtual tour of RAFAEL's state-of-the-art thermal batteries production facility (RAFAEL Advanced Defense Systems Ltd., 2 minutes, 5k+ views)
+- https://www.youtube.com/watch?v=2r2KPf67SiQ — Missiles Use Batteries That Literally Destroy Themselves to Work (FIRM., 14 minutes, under 1k views)
 
 ## Further reading
 

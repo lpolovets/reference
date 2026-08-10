@@ -27,6 +27,12 @@ JAXA's IKAROS (2010, the first successful interplanetary solar sail), The Planet
 ## Economic profile
 Sails are cheap to build and expensive to prove, since the risk is concentrated in a deployment event that is hard to test in 1 g. Costs run in the low millions for a demonstration mission. The near-term commercial application is passive deorbit, driven by tightening space-debris regulations, which is a real and growing market with a clear regulatory driver. Beamed-propulsion concepts like Breakthrough Starshot use the same physics with a laser instead of the Sun and are at a much earlier stage.
 
+## Videos
+
+- https://www.youtube.com/watch?v=j8umNI8gtlA — How to Sail on Starlight (Real Engineering, 12 minutes, 500k+ views)
+- https://www.youtube.com/watch?v=ORQNgKnKVvM — How do solar sails work? Bill Nye explains. (The Planetary Society, 3 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=rfYLnbw7iu8 — NASA's Next-Generation Solar Sail Mission (NASA's Ames Research Center, 2 minutes, 100k+ views)
+
 ## Further reading
 
 [Advanced Composite Solar Sail System (NASA)](https://www.nasa.gov/mission/acs3/) · [Solar Sail Propulsion for Interplanetary Small Spacecraft (NASA Technical Reports Server)](https://ntrs.nasa.gov/citations/20180003091)

@@ -28,6 +28,12 @@ Argus As 014 on the V-1, the SNECMA Escopette on early French target drones, Loc
 ## Economic profile
 There is no industry, only a technology that keeps reappearing whenever someone needs propulsion at the absolute bottom of the cost curve. The relevant modern question is whether a cost-per-effect calculation ever favors a pulsejet over a cheap turbojet in mass-produced strike drones. So far the answer has generally been no, because range and payload matter and noise makes the vehicle easy to detect, but the calculation is worth redoing whenever turbojet prices move.
 
+## Videos
+
+- https://www.youtube.com/watch?v=6mDn_23AOa4 — Pulsejet Engine Working Explained (Mechanical Engineering Concepts, 3 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=bWvv8Y4qhOA — And I Can Prove It! Because Valveless Pulsejets Are Engines With Zero Moving Parts (driving 4 answers, 23 minutes, 500k+ views)
+- https://www.youtube.com/watch?v=dSlDsup-aLI — Pulse Jet engine from a V1 Flying Bomb. (Tony Stolz, 2 minutes, 1m+ views)
+
 ## Further reading
 
 [Ejector Enhanced Pulsejet Based Pressure Gain Combustors (NASA Technical Reports Server)](https://ntrs.nasa.gov/citations/20050216392) · [The Effect of a Low-Loss Air Valve on Performance of a 22-Inch-Diameter Pulse-Jet Engine (NASA Technical Reports Server)](https://ntrs.nasa.gov/citations/19930093535)

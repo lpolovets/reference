@@ -20,6 +20,10 @@ Consolidates assembly and creates integrated threaded, electrical, or structural
 
 Specify insert molding when a threaded, conductive, or load-bearing metal feature has to be captured in plastic at medium-to-high volume (connectors, sensor bodies, fastener bosses). It removes assembly steps and performs better than a glued or pressed joint. You need enough volume to justify insert-loading automation or the added cycle labor. At low volumes, mold plain bosses and install heat-set or ultrasonic inserts afterward, which keeps tooling simple and the design flexible.
 
+## Key numbers
+
+Dimensional tolerance ±0.05–0.15 mm on molded features, insert position within about ±0.1 mm · cycle 20–60 s, roughly 10–30 s longer than the same part molded without inserts · tooling $10,000–80,000, plus insert-loading automation · metal-to-polymer thermal expansion mismatch of 3–6x at the interface · economic lot size tens of thousands and up.
+
 ## Examples
 
 Threaded housings, electrical connectors, sensor bodies, surgical handles.

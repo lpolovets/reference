@@ -18,7 +18,11 @@ Provides high strength in thin or complex glass with relatively little optical d
 
 ## When to use
 
-Chemically strengthen when the glass is too thin to temper (anything under about 3 mm, including the 0.4-1 mm covers on phones and wearables), or when optical quality and complex 2.5D or curved shapes rule out a tempering quench. The process needs ion-exchangeable aluminosilicate or similar compositions plus hours in a hot salt bath, so cost per part is much higher than tempering. The compression layer is only tens of microns deep, so design the part to avoid scratches and expect deep gouges to penetrate past it. If you have flat soda-lime glazing 3 mm and up where cost dominates and code-compliant fragmentation is required, thermal tempering is still the default; chemical strengthening does not produce safety-glass dicing.
+Chemically strengthen when the glass is too thin to temper (anything under about 3 mm, including the 0.4–1 mm covers on phones and wearables), or when optical quality and complex 2.5D or curved shapes rule out a tempering quench. The process needs ion-exchangeable aluminosilicate or similar compositions plus hours in a hot salt bath, so cost per part is much higher than tempering. The compression layer is only tens of microns deep, so design the part to avoid scratches and expect deep gouges to penetrate past it. If you have flat soda-lime glazing 3 mm and up where cost dominates and code-compliant fragmentation is required, thermal tempering is still the default; chemical strengthening does not produce safety-glass dicing.
+
+## Key numbers
+
+Glass thickness 0.3–3 mm, below the 3 mm floor for tempering · molten potassium nitrate bath at 380–450 °C for 4–16 hours · surface compression 500–1,000 MPa, several times what thermal tempering reaches · compression depth 20–50 µm in one step, up to about 100 µm with two-step exchange · cost per part several times thermal tempering at the same size.
 
 ## Examples
 

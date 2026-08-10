@@ -19,11 +19,19 @@ Programmable force and stroke cover a whole part family without retooling. Self-
 ## When to use
 Make it your first candidate for discrete rigid parts when part families vary, when grip force has to be controlled, or when the cell can't use compressed air (labs, electronics, cobot cells, machine tending with SKU churn). Programmable stroke and force cover the variety without finger changeovers, and current-based grip detection comes free. If you're running high-cycle single-part duty, a pneumatic gripper costs a tenth as much, cycles faster, and outlasts it. For wide flat panels, limp goods, and soft produce, use suction or soft fingers instead.
 
+## Key numbers
+Payload 0.5–10 kg · grip force 20–500 N, set in software · stroke 5–150 mm · close time 0.2–1 s, slower than a pneumatic jaw · repeatability roughly ±0.02–0.05 mm · unit cost $500–5k.
+
 ## Examples
 Schunk EGP/EGU lines, Robotiq 2F-85/140 (the cobot-era standard), OnRobot RG series, Zimmer electric ranges; Chinese entrants (DH Robotics, Hitbot) compressing prices; nearly every cobot demo ever filmed.
 
 ## Economic profile
 These are $500–5k products, and they sit at the heart of the cobot accessory boom. Distribution runs through plug-and-play ecosystem certification (UR+), which is the main moat. Chinese vendors have halved street prices in five years. The strategic position is default-choice status: integrators reach for a parallel-jaw gripper first and have to justify anything else, so a vendor's ecosystem position is worth more than its specs.
+
+## Videos
+
+- https://www.youtube.com/watch?v=icKOTuqWLrI — EGP: Powerful Electric Gripper for Fast, Precise Small-Parts Handling (SCHUNK, 2 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=dpz93170dAk — Robotiq 2-finger 85 Adaptive Robot Gripper - Control features (Robotiq, 1 minute, 10k+ views)
 
 ## Further reading
 

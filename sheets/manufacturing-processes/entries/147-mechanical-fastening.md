@@ -20,6 +20,10 @@ Broadly applicable, often reversible and inspectable. Adds weight or hardware, r
 
 Fasten mechanically when joints must come apart for service, when you are joining dissimilar or heat-intolerant materials, or when assembly happens in the field without process control. It is also the default whenever inspectability and repairability matter more than weight. Within the family, choose rivets for thin sheet and airframes, snap fits for high-volume plastics, and press or shrink fits for concentric hubs. Avoid mechanical fastening where sealing, weight, or fatigue at hole stress concentrations dominates, since welding or adhesive bonding eliminates both the holes and the hardware.
 
+## Key numbers
+
+Bolt preload usually 65–75% of proof load, scattered ±25% or worse by plain torque control · roughly 50% of applied torque goes to head friction and 40% to thread friction, leaving 10% as preload · property class 8.8 bolts at 800 MPa tensile and 12.9 at 1,200 MPa · rivet pitch 4–6 diameters at about 2 diameters edge distance · stress concentration around 3 at an open hole · fasteners $0.05–5 commercial and $1–20 each in aerospace grades.
+
 ## Variants
 
 ### Bolts and screws

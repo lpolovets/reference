@@ -20,6 +20,10 @@ Rolling is extremely productive and cheap for sheet, plate, rail, and structural
 
 Choose rolling for flat products and long structural sections that get consumed by the ton (sheet, plate, strip, foil, rail, and beams). Nothing else comes close on cost per kilogram. Rolling in-house is a mill-scale decision, so unless you have commodity volume and dedicated high-utilization lines, buy rolled stock instead. If you need a complex constant cross-section in aluminum, extrusion is usually better. If you need discrete shaped parts, look at forging or casting.
 
+## Key numbers
+
+Hot rolling of steel at 1,100–1,250 °C · reduction 20–50% per pass hot and 20–40% cold · hot strip mills exit at up to about 20 m/s · cold-rolled thickness tolerance around ±1%, with foil down to roughly 6 µm · cold-rolled surface Ra 0.2–1.5 µm · mill output measured in millions of tons per year.
+
 ## Examples
 
 Steel sheet, aluminum foil, rails, I-beams, plate, automotive body stock.

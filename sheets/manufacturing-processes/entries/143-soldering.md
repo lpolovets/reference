@@ -18,7 +18,11 @@ Inexpensive, electrically conductive, and suitable for delicate components. Stru
 
 ## When to use
 
-Solder wherever you need an electrical connection made at low process temperature (it is the interconnect default for all electronics), and for leak-tight copper plumbing. Keep it away from structural loads and from sustained service much above roughly 150°C, where creep and softening set in. Brazing is the same capillary process with far higher strength and temperature capability, so use it instead when the parts can take the heat.
+Solder wherever you need an electrical connection made at low process temperature (it is the interconnect default for all electronics), and for leak-tight copper plumbing. Keep it away from structural loads and from sustained service much above roughly 150 °C, where creep and softening set in. Brazing is the same capillary process with far higher strength and temperature capability, so use it instead when the parts can take the heat.
+
+## Key numbers
+
+Eutectic tin-lead melts at 183 °C and SAC305 lead-free at 217–220 °C · iron tips run 320–370 °C for lead-free work · joint shear strength roughly 20–50 MPa · service temperature limited to about 150 °C before creep matters · 2–5 seconds per hand-soldered joint · equipment from a $20 iron to a $500 temperature-controlled station.
 
 ## Examples
 

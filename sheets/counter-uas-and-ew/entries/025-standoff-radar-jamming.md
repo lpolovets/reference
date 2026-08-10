@@ -19,6 +19,9 @@ One jamming aircraft protects a whole package, and the effect covers many radars
 ## When to use
 Use standoff jamming to support strike operations against a defended area, understanding that against modern integrated air defense it degrades rather than defeats. Combine it with stand-in jammers, decoys, and anti-radiation weapons, since no single technique works against a capable network. If the opponent's radars are modern AESA systems with good sidelobe control, budget for stand-in effects and expect standoff jamming to contribute at the margins rather than to open a corridor.
 
+## Key numbers
+Radar echo falls off as the fourth power of range while jammer signal falls off as the square, which is where the power advantage comes from · aircraft cost $70–100M, with pods adding tens of millions · Next Generation Jammer development in the billions of dollars · one jamming aircraft covers a whole strike package · degradation rather than denial against modern AESA radars.
+
 ## Limits and failure modes
 Range geometry favors the radar as the strike package closes. Modern radars use frequency agility, sidelobe cancellation, and home-on-jam modes that turn the jammer into a target. Jamming also announces the operation's presence and timing. Friendly radar and communications in the affected bands suffer. And a jamming aircraft is a large, high-value target that must be escorted.
 
@@ -27,6 +30,12 @@ EA-18G Growler with the Next Generation Jammer, the retired EA-6B Prowler, the E
 
 ## Economic profile
 Electronic attack aircraft cost $70–100M plus pods costing tens of millions, and only a few countries field them. The Next Generation Jammer program has been a multi-billion-dollar effort. The economic trend runs toward distributing the function onto cheaper expendable and collaborative platforms, because a small number of very expensive jamming aircraft cannot be everywhere and cannot go where the geometry demands.
+
+## Videos
+
+- https://www.youtube.com/watch?v=NTLaMrJFMGo — How Radar Jamming Actually Works. (Second Order Science, 13 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=0d3PiGfYnnk — Electronic Warfare in the EA-6B Prowler | Behind the Wings (Wings Over the Rockies Air & Space Museum, 16 minutes, 500k+ views)
+- https://www.youtube.com/watch?v=nmNcS1Jp-as — The Navy's nastiest fighter nobody ever talks about (Sandboxx, 6 minutes, 100k+ views)
 
 ## Further reading
 

@@ -20,6 +20,10 @@ Produces strong, fatigue-resistant parts with directional grain flow. Dies are e
 
 Specify closed-die forging for fatigue- and impact-critical parts (connecting rods, crankshafts, landing gear, hand tools) once volumes reach roughly 10,000 pieces, which is about where die cost is amortized. The directional grain flow gives properties castings cannot match. Design around draft, flash, and the absence of internal cavities, and expect to finish machine the critical surfaces. Below tooling-payback volume, machine from bar or use open-die forging. If the loads permit it, casting is cheaper.
 
+## Key numbers
+
+Part weight typically 0.1–50 kg · dimensional tolerance ±0.25–1.5 mm depending on size, with 3–7° draft on hot-forged surfaces · die sets $10,000–100,000, 6–16 weeks lead time, roughly 10,000–50,000 parts before resink · cycle 5–30 s per piece · flash and scale take 10–30% of the input material · economic lot size around 10,000 pieces and up.
+
 ## Examples
 
 Connecting rods, crankshafts, landing-gear components, hand tools.

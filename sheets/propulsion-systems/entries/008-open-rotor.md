@@ -28,6 +28,12 @@ GE36 UDF demonstrator (flown on a 727 and an MD-80 in 1986–88), Progress D-27 
 ## Economic profile
 Open rotors have been about ten years away since 1985. Fuel price collapses killed the 1980s programs, and the current revival is driven by decarbonization targets rather than fuel cost alone. The technology risk is now mostly certification and installation, which means the deciding factor is whether an airframer commits to a clean-sheet single-aisle around it. For investors, that makes it a bet on airframe program timing more than on propulsion technology.
 
+## Videos
+
+- https://www.youtube.com/watch?v=_zdZBArq5gA — EP5: Open Rotor, discover a revolutionary concept engine 🇬🇧 | Safran (Safran, 4 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=L6Fe6O8w61Y — GE36 Unducted Fan (Matthew G. Saroff, 7 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=nHBYcIvHHZM — CFM RISE program Tech tour (CFM International, 2 minutes, 10k+ views)
+
 ## Further reading
 
 [Acoustic Shielding for a Model Scale Counter-Rotation Open Rotor (NASA Technical Reports Server)](https://ntrs.nasa.gov/citations/20120002629) · [Open Rotor Development (NASA Technical Reports Server)](https://ntrs.nasa.gov/citations/20160014870)

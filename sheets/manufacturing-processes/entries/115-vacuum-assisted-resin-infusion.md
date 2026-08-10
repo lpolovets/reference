@@ -20,6 +20,10 @@ Infusion produces very large composite parts at lower tooling cost than closed m
 
 Default to vacuum infusion for very large composite parts at low-to-mid volume, such as hulls, wind blades, and one-piece decks. A single-sided tool and room-temperature cure keep tooling cost an order of magnitude below closed molds, and you still beat hand layup on fiber fraction and emissions. If both surfaces must be finished, or if cycle time matters, use RTM instead. Treat every new part as a flow-design exercise, because a leak or dry spot on a hull-sized infusion scraps an expensive stack of material in one shot.
 
+## Key numbers
+
+Fiber volume fraction 50–60% with void content 1–2% · consolidation capped at one atmosphere, roughly 0.9–1 bar · single-sided tooling about an order of magnitude cheaper than matched molds · infusion in minutes to a couple of hours, then a room-temperature cure overnight · parts up to 100 m long on wind blades · one-offs to a few thousand a year.
+
 ## Examples
 
 Wind-turbine blades, boat hulls, large aerospace panels.

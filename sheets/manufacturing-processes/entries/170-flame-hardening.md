@@ -18,7 +18,11 @@ Equipment is simple and useful for large parts. Uniformity and control are weake
 
 ## When to use
 
-Pick flame hardening for large or one-off medium-carbon steel parts where an induction coil is impractical or unjustifiable (machine-tool ways, big ring gears, rolls, sprockets repaired in a maintenance shop). Tooling is little more than a torch, so it works well at low volumes and on parts too big for a furnace or coil, and case depths of 1-6 mm are achievable. Accept looser control of case depth and hardness uniformity, and keep it away from thin sections that overheat easily. If volumes climb or the case-depth tolerance tightens, use induction hardening instead. If you need to harden after finish machining with minimal distortion, nitriding is the better route.
+Pick flame hardening for large or one-off medium-carbon steel parts where an induction coil is impractical or unjustifiable (machine-tool ways, big ring gears, rolls, sprockets repaired in a maintenance shop). Tooling is little more than a torch, so it works well at low volumes and on parts too big for a furnace or coil, and case depths of 1–6 mm are achievable. Accept looser control of case depth and hardness uniformity, and keep it away from thin sections that overheat easily. If volumes climb or the case-depth tolerance tightens, use induction hardening instead. If you need to harden after finish machining with minimal distortion, nitriding is the better route.
+
+## Key numbers
+
+Case depth typically 1–6 mm · surface hardness roughly 50–60 HRC on 0.4–0.6% carbon steels · oxy-acetylene flame at about 3,100 °C · progressive traverse speeds of roughly 50–300 mm/min · torch equipment at a few thousand dollars against six figures for an induction cell · no practical upper limit on part size.
 
 ## Examples
 

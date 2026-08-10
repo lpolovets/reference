@@ -19,6 +19,9 @@ It works in any weather and any lighting, gives velocity directly for each detec
 ## When to use
 Pick radar whenever operation must continue through rain, fog, dust, or darkness, when direct velocity simplifies tracking, or when the BOM allows tens of dollars for long-range sensing. Use it as the redundancy layer beside cameras or LiDAR in safety cases, mounted invisibly behind plastic. It is the cheapest way to know something is closing at 3 m/s at 40 m. Avoid it as a sole perception sensor wherever classification or shape matters, because it cannot tell a pedestrian from a pole. Never ship the default static-return filtering unaudited. Pair it with a camera for semantics, and check whether imaging-radar resolution has caught up to your use case since you last looked.
 
+## Key numbers
+Frequency 60–77 GHz · range up to 200–300 m on long-range units · range resolution roughly 4–40 cm depending on bandwidth · angular resolution 10–15° on classic units, near 1° on 4D imaging radar · velocity resolution around 0.1 m/s · update rate 10–20 Hz · unit cost $10–40 per chip.
+
 ## Failure modes
 Multipath reflections create ghost objects under bridges and in tunnels. Guardrails and manhole covers get reported as obstacles. Radar-to-radar interference grows with fleet density. Bumper paint and ice attenuate the signal. Angular ambiguity smears adjacent objects into one. Over-filtering static returns deletes real stopped obstacles, which is the failure behind several accident reports.
 
@@ -27,6 +30,12 @@ Every AEB/ACC-equipped car (Bosch, Continental, Denso corner radars), TI IWR/AWR
 
 ## Economic profile
 Radar is the cheapest long-range sensing per dollar in existence, on the back of TI/NXP/Infineon silicon economics: a single-chip radar is now a $10–40 part. Robotics adoption lags its merits mostly for software reasons (the data is sparse and unusual, and open-source tooling is thin). Imaging radar is the segment to watch. If resolution keeps climbing at radar prices, it will take over LiDAR's mid-range use cases from below.
+
+## Videos
+
+- https://www.youtube.com/watch?v=-N7A5CIi0sg — FMCW Radar for Autonomous Vehicles | Understanding Radar Principles (MATLAB, 18 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=XJ6JhB8wOPU — What is mmWave sensing ? | Mouser Electronics | Texas Instruments (Mouser, 2 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=G_tmNtP0gw8 — How do automotive (FMCW) RADARs measure velocity? (Marshall Bruner, 17 minutes, 50k+ views)
 
 ## Further reading
 

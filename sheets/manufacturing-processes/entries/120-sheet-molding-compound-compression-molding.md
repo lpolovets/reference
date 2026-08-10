@@ -20,6 +20,10 @@ Supports medium-to-high-volume structural composite parts. Fiber orientation is 
 
 SMC is the usual composite choice at automotive volumes. Pick it for roughly 10,000–100,000+ parts a year when 1–3 minute cures in matched steel dies, molded-in ribs and bosses, and paintable class-A-capable surfaces matter more than peak properties (body panels, battery enclosures, electrical boxes). Below a few thousand parts a year the die cost is hard to justify, so use RTM or infusion instead. If you genuinely need continuous-fiber stiffness or strength, use prepreg or RTM laminates.
 
+## Key numbers
+
+Glass content 25–50% by weight · molded at 5–15 MPa and 140–160 °C, curing in 1–3 minutes · presses of 500–3,000 tons · matched steel dies $100k to $500k with 12–20 week lead times · tolerance roughly ±0.1–0.5 mm on molded features · economical from about 10,000 to over 100,000 parts a year.
+
 ## Examples
 
 Automotive panels, battery enclosures, electrical housings.

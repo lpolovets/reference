@@ -20,6 +20,10 @@ Faster than fiber placement for broad simple surfaces. Less capable on highly cu
 
 Choose ATL over AFP when the surface is flat or gently curved (wing skins, tail planes, spar caps, large panels). Tape 150–300 mm wide lays down material several times faster than narrow tows, so throughput on big laminates justifies the aerospace-scale machine cost. The wide tape cannot steer or conform to tight double curvature. If the contour is complex, use AFP instead; if the part is small or a one-off, use manual prepreg layup.
 
+## Key numbers
+
+Tape 150–300 mm wide against 3–13 mm tows on AFP · plies about 0.13–0.25 mm thick · lay-down rates several times AFP's, commonly above 30 kg/hr · gap and overlap control around ±0.5 mm · machines in the millions of dollars · parts measured in square meters over multi-year programs.
+
 ## Examples
 
 Wing skins, tail structures, large panels.

@@ -19,6 +19,9 @@ Force multiplication is very large, ground ball screws position to microns, lead
 ## When to use
 Pick a screw when the joint is fundamentally a linear force problem: humanoid knees and ankles, presses, clamps, and lifts. You get kilonewtons from a modest BLDC, micron repeatability from ground ball screws, and power-off self-locking for free if you use a lead screw. If the same envelope has to carry 3–10× the load and shock, step up to a planetary-roller screw. Avoid screws where the motion is naturally rotary, where speed matters (whip caps travel rates), or where the joint needs to feel contact, since backdrivability runs from poor to none. If you need transparent linear force, use a linear motor or a cable drive. If you need a backdrivable rotary joint, use QDD.
 
+## Key numbers
+Ball screw efficiency 90% and up; lead screw 30–50% · lead typically 2–25 mm per revolution · positioning accuracy about ±8 µm over 300 mm on C3-grade ground ball screws · axial load from a few hundred N to tens of kN, and 3–10× that from a planetary roller screw in the same envelope · lead screws self-lock below roughly 5° helix angle, holding load with no power.
+
 ## Examples
 Every CNC machine axis and injection-molding press; THK, NSK, Hiwin as the incumbent industry; electric vehicle brake and steering actuators; Tesla Optimus and Figure's linear knee/ankle actuators, reflecting the fact that leg joints are largely linear force problems; aircraft flap actuators.
 
@@ -27,6 +30,12 @@ Standard grades are a mature bearing-industry commodity, while precision ground 
 
 ## Suppliers
 [THK](https://www.thk.com/) — ball screws and linear motion at global scale · [Rollvis](https://www.rollvis.com/) — planetary roller screws for humanoid-class linear joints
+
+## Videos
+
+- https://www.youtube.com/watch?v=1P6nbs1-4dQ — Lead Screw, Ball Screw, and Roller Screw Cylinders: What's the Difference? (NEFF Automation Experts, 6 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=WoPPwGxgWEY — Chasing Micrometres with the best Ball Screws (Marco Reps, 10 minutes, 1m+ views)
+- https://www.youtube.com/watch?v=9kVaWtUgpNA — Advantages of Roller Screws | Planetary vs Ball Screw Actuator Technology (Tolomatic, 5 minutes, 50k+ views)
 
 ## Further reading
 

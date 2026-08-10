@@ -18,7 +18,11 @@ It's simple and available everywhere. Deep, small, high-aspect-ratio, or very pr
 
 ## When to use
 
-Drilling is the default for round holes in any machinable material at any volume, and it's worth questioning only in unusual cases. A good rule of thumb is to treat a drilled hole as roughly plus or minus 0.1 mm on position and IT11-12 on diameter. If size, finish, or location matter more than that, plan a reaming or boring pass after it. Beyond about 10:1 depth-to-diameter, move to gun drilling or fast-hole EDM. For very small, hard, or oddly angled holes, use EDM or laser drilling.
+Drilling is the default for round holes in any machinable material at any volume, and it's worth questioning only in unusual cases. A good rule of thumb is to treat a drilled hole as roughly ±0.1 mm on position and IT11-12 on diameter. If size, finish, or location matter more than that, plan a reaming or boring pass after it. Beyond about 10:1 depth-to-diameter, move to gun drilling or fast-hole EDM. For very small, hard, or oddly angled holes, use EDM or laser drilling.
+
+## Key numbers
+
+Position roughly ±0.1 mm and diameter IT11-12, about 0.09–0.15 mm of spread on a 10 mm hole · hole finish 1.6–6.3 µm Ra · standard twist drills from 0.5 mm to 50 mm · depth-to-diameter up to about 10:1 conventionally and past 100:1 with gun drilling · a few seconds per hole · drills cost a few dollars to a few tens of dollars.
 
 ## Examples
 

@@ -20,6 +20,10 @@ Extremely fast, clean, and requires no filler. Thermoplastic welding requires co
 
 Ultrasonic welding is the default for mass-produced thermoplastic assemblies. Cycles run under a second, there are no consumables, and the process is clean enough for medical disposables, provided the joint is designed with an energy director, sits near-field under the horn, and joins compatible materials. In metals it is the standard for battery tab and foil-stack joints and wire splices, where laser and resistance welding struggle with thin dissimilar stacks. If the plastic parts are large, use vibration or hot-plate welding instead, and if the metal is thicker than foils and wires, look elsewhere.
 
+## Key numbers
+
+Frequency 20–40 kHz at 20–60 µm horn amplitude · weld time 0.1–1 second, full cycle under 2 seconds · stack power 1–5 kW · energy-director ribs 0.3–0.6 mm on thermoplastic joints · metal joints limited to foils, tabs, and wires under roughly 0.5 mm · horns and fixtures $2k–10k per part.
+
 ## Examples
 
 Plastic medical disposables, electronics housings, wire harnesses, battery tabs, foil stacks, semiconductor wire bonds.

@@ -18,7 +18,11 @@ Improves diameter, alignment, straightness, and concentricity. Cannot initiate a
 
 ## When to use
 
-Pick boring when an existing hole needs its location corrected or its diameter brought to IT6-7 accuracy: bearing seats, cylinder bores, and any diameter too large or too non-standard for a reamer. A single-point boring bar cuts a hole concentric to the spindle axis, so unlike reaming it can fix a drilled hole that wandered. Avoid it for long slender bores where bar overhang exceeds roughly 4-6 diameters, unless you have damped bars. If a drilled-and-reamed hole already meets spec, that is usually the cheaper route. If you need a finer surface than boring leaves, honing is the next step.
+Pick boring when an existing hole needs its location corrected or its diameter brought to IT6-7 accuracy: bearing seats, cylinder bores, and any diameter too large or too non-standard for a reamer. A single-point boring bar cuts a hole concentric to the spindle axis, so unlike reaming it can fix a drilled hole that wandered. Avoid it for long slender bores where bar overhang exceeds roughly 4–6 diameters, unless you have damped bars. If a drilled-and-reamed hole already meets spec, that is usually the cheaper route. If you need a finer surface than boring leaves, honing is the next step.
+
+## Key numbers
+
+Diameter accuracy IT6-7, roughly 0.015–0.025 mm on a 50 mm bore · roundness and concentricity within a few micrometers · surface finish 0.8–3.2 µm Ra · finish passes remove 0.1–0.5 mm on diameter · bar overhang up to 4–6 bore diameters, more with damped bars · bore diameters from about 6 mm to over 1 m on a horizontal boring mill.
 
 ## Examples
 

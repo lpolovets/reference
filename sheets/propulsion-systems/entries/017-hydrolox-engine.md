@@ -28,6 +28,12 @@ Aerojet Rocketdyne RS-25 (Shuttle, SLS), RL10 (Centaur, DCSS — flying since 19
 ## Economic profile
 Hydrolox engines are the most expensive class in production. RS-25 units cost roughly $100M each on SLS even after a restart program aimed at cutting price, and RL10s have historically run $10–25M. Hydrogen itself is not the cost driver; qualification, low production rates, and ground infrastructure are. Green hydrogen investment may reduce propellant costs but does nothing about the engine economics. Where reuse is the goal, the industry has voted with its designs and moved to methane.
 
+## Videos
+
+- https://www.youtube.com/watch?v=PgT9-oMXgCU — How The Space Shuttle Started Its Engines And Launched (Scott Manley, 12 minutes, 1m+ views)
+- https://www.youtube.com/watch?v=q3-tVOH4nYk — RL-10 Rocket Engine (NASA Glenn Research and Technology, 8 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=26uvERfTn-0 — Vulcain® 2.1 and Vinci® Engines (ArianeGroup, 2 minutes, 5k+ views)
+
 ## Further reading
 
 [Experimental Performance of Liquid Hydrogen and Liquid Fluorine in Regeneratively Cooled Rocket Engines (NASA Technical Reports Server)](https://ntrs.nasa.gov/citations/19660024052) · [Liquid-Hydrogen Rocket Engine Development at Aerojet, 1944–1950 (NASA Technical Reports Server)](https://ntrs.nasa.gov/citations/19770026120)

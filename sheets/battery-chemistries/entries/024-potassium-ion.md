@@ -19,11 +19,18 @@ It uses standard graphite anodes, potassium is abundant everywhere, higher cell 
 ## When to use
 There's no product reason to specify potassium-ion today, since no commercial cells exist. Treat it as a research and investment allocation, and put that allocation at the materials layer (Prussian white cathodes, electrolyte salts) rather than into full-stack cell companies. If you actually need something cheaper than lithium, use sodium-ion, which is a decade ahead on the same pitch. Potassium only gets interesting if both lithium and sodium hit supply or performance limits.
 
+## Key numbers
+Potassium intercalates graphite as KC8 at 279 mAh/g, against 372 mAh/g for lithium's LiC6 · lab full cells run about 3.5–3.7 V, above sodium-ion's ~3.1 V · projected specific energy roughly 100–150 Wh/kg · demonstrated cycle life mostly in the hundreds to low thousands.
+
 ## Examples
 Academic programs worldwide; Group1's potassium Prussian white cathode development; no commercial cells of consequence yet.
 
 ## Economic profile
 Potassium-ion only becomes relevant if both lithium and sodium hit constraints, so it's a hedge against a hedge. Investment interest centers on specific material innovations (Prussian white cathodes, electrolyte salts) rather than full-stack cell companies.
+
+## Videos
+
+- https://www.youtube.com/watch?v=keUvAY-Dpag — Potassium-Ion Batteries - Dr. Fabian Jeschull (The Battery Researcher, 4 minutes, 1k+ views)
 
 ## Further reading
 

@@ -20,6 +20,10 @@ Portable, inexpensive, and can cut extremely thick steel. Slow, thermally aggres
 
 Use oxy-fuel for carbon and low-alloy steel from about 25 mm up to 300 mm and beyond (thicknesses plasma can't reach), and for field work, demolition, and shops where a torch set costing a few hundred dollars is the entire capital outlay. Multiple-torch machines still bevel and strip heavy plate economically. It only works where the oxidation chemistry works, so stainless, aluminum, and copper alloys are out. Below roughly 25 mm, plasma cuts faster with less distortion, and on thin sheet laser is better still.
 
+## Key numbers
+
+Carbon and low-alloy steel only, and above roughly 0.3% carbon the plate needs preheat · cuts from a few millimeters to 300 mm, and past 900 mm with special torches · economical against plasma above about 25 mm · cut speed 300–700 mm/min in 25 mm plate · kerf 1.5–5 mm with a 1–5 mm heat-affected zone · tolerance roughly ±1–3 mm · a complete torch set costs a few hundred dollars.
+
 ## Examples
 
 Structural fabrication, demolition, shipbuilding, heavy plate.

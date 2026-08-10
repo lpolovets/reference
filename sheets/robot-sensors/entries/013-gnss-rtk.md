@@ -19,6 +19,9 @@ This is the only sensor that gives drift-free absolute position, and RTK gets th
 ## When to use
 Default to GNSS on any outdoor robot with sky view. Meter-grade receivers cost a few dollars, and $200 F9P-class RTK delivers 1–2 cm for mowers, tractors, survey drones, and construction robots wherever a correction link and a base or network exist. Always fuse with an IMU and wheel or visual odometry so outages degrade gracefully. Don't depend on it in urban canyons, under canopy, indoors, or anywhere jamming and spoofing are plausible. Design the denial case first, with LiDAR or visual localization carrying the robot through, because GNSS usually fails by handing you a confidently wrong fix rather than no fix at all.
 
+## Key numbers
+Standalone accuracy 1–3 m, RTK 1–2 cm · update rate 1–20 Hz · RTK convergence and re-acquisition in seconds · usable baseline to a base station roughly 10–30 km · receiver power draw 0.1–0.5 W · unit cost a few dollars for meter-grade and about $200 for F9P-class RTK, plus a correction subscription.
+
 ## Failure modes
 Multipath off buildings yields confidently wrong fixes, which is the worst kind. RTK integer-ambiguity slips jump position by decimeters. Correction-link dropout degrades accuracy from centimeters to meters mid-task, with no warning. Jamming denies service and spoofing deceives the receiver, and both are increasingly common near conflict zones, ports, and VIPs. Solar storms and constellation faults are rare, but they hit an entire fleet at once. Leap-second and firmware edge cases have bricked receiver fleets before.
 
@@ -27,6 +30,12 @@ u-blox F9P/X20 (the robotics default), Trimble and NovAtel in agriculture and su
 
 ## Economic profile
 Receiver silicon is a commodity, so the business moved to corrections-as-a-service (subscription networks) and tight GNSS-INS integration. For robotics diligence, the thing to look at is denial-tolerance. Everyone assumes the sensor is there, so any outdoor autonomy plan gets judged by what happens when GNSS gives a bad fix or disappears.
+
+## Videos
+
+- https://www.youtube.com/watch?v=ieearzWTCZw — How RTK works | Real-Time Kinematic for Precise GNSS Positioning (Emlid, 5 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=ldusExdni0A — How GPS Works | How GNSS Receivers Determine Your Location Using Satellite Signals (Emlid, 4 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=6m0xGwkYYy0 — Adventures in Science: How GPS Works (SparkFun Electronics, 13 minutes, 50k+ views)
 
 ## Further reading
 

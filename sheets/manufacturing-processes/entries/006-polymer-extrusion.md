@@ -20,6 +20,10 @@ Extrusion is one of the highest-throughput and lowest-cost polymer processes. Ge
 
 Make extrusion your default for any thermoplastic product that is long and constant in section (pipe, profile, sheet, tubing, wire insulation) at medium volumes and above. Nothing else matches its cost per meter. Startup scrap and die tuning make short runs expensive, so if you have a small lot or a discrete three-dimensional part, use injection molding instead. If the cross-section has to change along the length, extrusion is out entirely.
 
+## Key numbers
+
+Melt temperature 180–250 °C for commodity thermoplastics · single-screw output 50–1,000 kg/h at 24:1–32:1 L/D · line speed 1–20 m/min on pipe and profile, far higher on wire coating · wall tolerance roughly ±5% and sheet gauge ±2–5% · profile dies $2,000–20,000 at 2–6 week lead time · tens to hundreds of kilograms of startup scrap per changeover.
+
 ## Examples
 
 Pipe, medical tubing, window profiles, wire insulation, plastic sheet, packaging film, weather seals, resin pellets.

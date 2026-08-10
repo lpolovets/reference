@@ -14,10 +14,13 @@ cost: high
 A close-in weapon system is a self-contained radar-directed rotary cannon designed as the last layer of defense against anti-ship missiles, firing 20–30 mm rounds at 3,000–4,500 per minute. The system tracks both the target and its own outgoing rounds, correcting fire in real time until the two converge. Land-based derivatives, generally called C-RAM, use self-destructing ammunition so that rounds that miss break up in the air instead of falling on friendly territory, which is what makes the system usable over a base.
 
 ## Strengths and weaknesses
-Very high rate of fire and closed-loop spotting give a high probability of kill inside 1.5–2 km, and the system is fully automatic, which matters when reaction time is a few seconds. The magazine is deep by air-defense standards. The weaknesses are range and volume of fire. Two kilometres is very short, so a hit on the target may still put debris on the protected site, and a burst consumes hundreds of rounds. Land use requires self-destructing ammunition, which costs more, and the system's own radar is an emitter that can be targeted.
+Very high rate of fire and closed-loop spotting give a high probability of kill inside 1.5–2 km, and the system is fully automatic, which matters when reaction time is a few seconds. The magazine is deep by air-defense standards. The weaknesses are range and volume of fire. Two kilometers is very short, so a hit on the target may still put debris on the protected site, and a burst consumes hundreds of rounds. Land use requires self-destructing ammunition, which costs more, and the system's own radar is an emitter that can be targeted.
 
 ## When to use
 Use close-in weapon systems as the terminal layer protecting ships and high-value fixed sites, beneath longer-range missile defenses. They are the last chance, not the primary defense, and planning should reflect that. Against slow drones a programmable airburst cannon is more economical per engagement and has longer reach. Against supersonic missiles the close-in system remains necessary because nothing else reacts fast enough at that range.
+
+## Key numbers
+Effective range 1.5–2 km · 20–30 mm rounds at 3,000–4,500 per minute · reaction time of a few seconds · hundreds of rounds per burst · system cost $15–30M · self-destructing ammunition required for land installations.
 
 ## Limits and failure modes
 Engagement range of under 2 km means debris from a successful intercept can still reach the protected asset. High rate of fire empties the magazine quickly, and reloading takes time. Multiple simultaneous targets exceed the system's ability to service them. Rounds that miss must self-destruct or they become a hazard, and this is a real constraint for land installations near civilian areas.
@@ -27,6 +30,12 @@ The Phalanx CIWS and its land-based C-RAM variant which protected bases in Iraq 
 
 ## Economic profile
 Systems cost $15–30M and ammunition is expensive, particularly self-destructing rounds, so cost per engagement is higher than a purpose-built counter-drone gun. Their continued relevance rests on being the only thing fast enough at very short range. The counter-drone mission has driven upgrades to fire-control software and ammunition rather than new systems, since the existing installed base is large and the modification path is cheaper than replacement.
+
+## Videos
+
+- https://www.youtube.com/watch?v=CSrwLizPMFQ — The Phalanx CIWS - The US Navy's deadly R2D2 (Simple History, 9 minutes, 500k+ views)
+- https://www.youtube.com/watch?v=fIa2jpy9J6Y — C-RAM Centurian Air Defense Is So Hot Right Now (Task & Purpose, 11 minutes, 500k+ views)
+- https://www.youtube.com/watch?v=Zsf38NYzo5Q — Phalanx CIWS Close-in Weapon System In Action - US Navy's Deadly Autocannon (AiirSource Military, 3 minutes, 5m+ views)
 
 ## Further reading
 

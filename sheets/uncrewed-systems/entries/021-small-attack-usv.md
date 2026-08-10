@@ -19,6 +19,9 @@ The cost exchange is extraordinary and it works: a $250k boat that damages or si
 ## When to use
 Use small attack USVs against high-value naval targets and port infrastructure when you lack anti-ship missiles or want to complicate a defender's problem by attacking from the surface as well as the air. If the target is at sea and defended with layered air and surface defenses, expect to need salvos and to combine them with aerial attack. For a defender, the relevant conclusion is that harbours and anchorages are no longer safe from a technically unsophisticated opponent, and physical barriers plus persistent surveillance matter more than they did.
 
+## Key numbers
+Hull length 5–8 m · warhead several hundred kilograms · speed 40–80 km/h · range 400–800 km · usable up to about sea state 3–4 · unit cost $200k–500k.
+
 ## How it is countered
 Helicopter-mounted guns and small arms are effective when the boats are detected in time, which is the hard part. Close-in weapon systems engage them but were designed for aircraft and missiles rather than small surface targets. Jamming the control link, including satellite terminals, degrades terminal guidance. Physical barriers — booms, nets, and blockships — at harbour entrances are the most reliable defense and have been widely reinstated.
 
@@ -27,6 +30,12 @@ Ukrainian Magura V5 and Sea Baby, which between them have damaged or destroyed a
 
 ## Economic profile
 This is the clearest recent case of an asymmetric capability built from commercial components: hulls, outboard or inboard marine engines, satellite terminals, and cameras, integrated by small teams for a few hundred thousand dollars. The strategic effect has been out of all proportion to the investment. Every navy is now reassessing harbour defense and close-in surface engagement, which is a much larger expenditure than the boats that prompted it.
+
+## Videos
+
+- https://www.youtube.com/watch?v=LoazJkEBxNc — Ukraine's kamikaze drone Magura V5 in details (Naval News, 4 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=YFhADRYXi_8 — Naval Kamikaze Sea Drone How it works using Starlink Satellite (AiTelly, 8 minutes, 1m+ views)
+- https://www.youtube.com/watch?v=XNbaD6oxir0 — UKRAINE’S MAGURA NAVAL DRONES: BLACK SEA EQUALIZERS (U.S. Naval Institute, 4 minutes, 5k+ views)
 
 ## Further reading
 

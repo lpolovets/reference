@@ -7,7 +7,7 @@ roles: [strike, isr, ew]
 endurance: [day]
 payload: [heavy]
 autonomy: sup
-cost: vhigh
+cost: high
 ---
 
 ## Description
@@ -19,6 +19,9 @@ Removing the crew from the most exposed position in a formation is the argument,
 ## When to use
 The case is strongest for reconnaissance and screening ahead of a crewed formation, and for carrying electronic warfare payloads that would otherwise attract fire onto a crewed vehicle. If the vehicle costs as much as a crewed one, the concept loses its rationale, so unit cost is the requirement to hold. For most armies the more affordable version of this idea has turned out to be small drones for reconnaissance and cheap ground robots for logistics, rather than armed armored vehicles.
 
+## Key numbers
+Vehicle mass 5–30 tonnes · road speed roughly 40–80 km/h · endurance about a day of operations · control range from the crewed vehicle typically 1–2 km · unit cost in the millions per vehicle, comparable to a crewed vehicle.
+
 ## How it is countered
 Anti-tank weapons destroy them as readily as crewed vehicles. Control links in broken terrain are unreliable even without jamming, and jamming makes it worse. Terrain limits autonomous mobility. Because the vehicle is expensive and unarmored relative to a tank, the cost exchange against a cheap anti-tank weapon or an FPV drone is unfavorable, which is the same problem the crewed vehicles have but without the crew's judgment to mitigate it.
 
@@ -27,6 +30,12 @@ The US Army's RCV program with Textron and McQ, Milrem Type-X, Rheinmetall Missi
 
 ## Economic profile
 Programs in this class have repeatedly been restructured or cancelled, most recently the US Army's RCV program, which was curtailed in favor of cheaper approaches. The pattern matches the stealth UCAV story: the uncrewed version ends up costing about as much as the crewed one, which removes the economic argument while leaving the technical and policy problems in place. The cheaper alternatives — small drones and light logistics robots — have delivered more operational value per dollar so far.
+
+## Videos
+
+- https://www.youtube.com/watch?v=skxdkFqnMwE — The Superiority of Milrem's Type X Robotic Combat Vehicle (Military TV, 9 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=3hMm3frzoNU — M-RCV - Medium Robotic Combat Vehicle with 30 mm turret - BL || Elbit Systems and DDR&D - IMOD (Israel Defense, 2 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=0MiiUOjmqLo — Russian Uran-9 unmanned combat vehicle tested in Syria (Binkov's Battlegrounds, 4 minutes, 50k+ views)
 
 ## Further reading
 

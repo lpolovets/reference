@@ -20,6 +20,10 @@ Throughput is high, but the process is sensitive to burrs, dust, edge cracks, an
 
 Slitting and notching are mandatory between coating and cell assembly, so the real decision is which cutting technology to use. Mechanical slitting is cheapest and is the standard choice for plain strip at fixed widths, but blades wear and burrs grow as they wear. If tab geometries change often or the formats are complex, use laser notching instead: you get tool-free flexibility, and in exchange you accept heat-affected edges and the need for fume extraction. Either way, burr height and particle cleanliness are the specs that matter, because edge defects become internal shorts.
 
+## Key numbers
+
+Slitting line speeds roughly 50–150 m/min · laser notching at roughly 60–120 m/min with no tooling change between formats · strip width tolerance about ±0.1–0.3 mm · burr height usually specified under 10 µm, against a separator only 12–25 µm thick · heat-affected zone of tens of um on laser-cut edges.
+
 ## Examples
 
 Cell-width electrode strips, tabbed electrodes.

@@ -17,6 +17,9 @@ Tokamaks have fifty years of accumulated physics, the best confinement performan
 ## When to use
 Back tokamaks if you want fusion exposure with the least plasma-physics risk and the most independent validation. This is where the confinement data, the supply chain, and the capital sit, and SPARC is the field's nearest scheduled Q>1 test. A national program buying one decadal magnetic-fusion effort should default here for the same reason. Diversify elsewhere if you judge the binding risks to be the engineering ones tokamaks carry structurally (disruptions, current drive, tritium breeding), which is the stellarator's case for the endgame plant. If you want higher-variance, higher-ceiling exposure, the FRC and pulsed camps are the complement.
 
+## Key numbers
+Plasma runs at roughly 150 million °C · REBCO high-temperature superconductors reach 20 T, against ITER's 11.8 T peak field on niobium-tin · JET's record D-T shot released 69 MJ · ITER targets Q=10, meaning 500 MW of fusion power from 50 MW of heating, and SPARC targets Q>1 around 2026–27 · EAST has held H-mode plasma past 1,000 s · a self-sufficient plant needs a tritium breeding ratio above roughly 1.05, and no blanket has shown it at scale.
+
 ## Variants
 ### Conventional aspect ratio
 ITER (first plasma slipping toward mid-2030s), CFS SPARC (Q>1 targeted ~2026–27) and ARC (grid power, early 2030s claim, Virginia site with Dominion).
@@ -29,6 +32,12 @@ JET (retired 2024 after record D-T runs), KSTAR and EAST long-pulse records, CFS
 
 ## Economic profile
 Tokamaks attract most of fusion's capital. CFS alone holds a large share of all private fusion funding, plus a signed 200 MW Google offtake. The bet decomposes into three things that all have to work in sequence: SPARC's Q>1, tritium self-sufficiency, and an availability-and-maintenance story competitive with anything on the grid. Even bulls should model first commercial electricity no earlier than the early-to-mid 2030s and fleet relevance in the 2040s.
+
+## Videos
+
+- https://www.youtube.com/watch?v=6Tvyu91cE50 — Construction and Working Principle of Tokamaks (Energy Encyclopedia, 10 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=xu7aY5xCGvc — What is a tokamak? And is a spherical tokamak different? (Tokamak Energy, 3 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=4PItOlY6_xE — Our first completed magnet for SPARC could lift an aircraft carrier (Commonwealth Fusion Systems, 5 minutes, 100k+ views)
 
 ## Further reading
 

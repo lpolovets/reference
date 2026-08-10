@@ -11,13 +11,16 @@ cost: med
 ---
 
 ## Description
-A programmable airburst cannon fires 30–40 mm rounds that are fuzed in the barrel to detonate at a computed distance, spraying tungsten sub-projectiles into the target's path. Because the round does not need to hit directly, hit probability against a small drone rises dramatically compared with solid shot. The gun is slaved to a radar and electro-optical fire-control system that measures range precisely enough to set the fuze, typically to within a few metres. A burst of a few rounds costs a few thousand dollars and reliably destroys a small drone.
+A programmable airburst cannon fires 30–40 mm rounds that are fuzed in the barrel to detonate at a computed distance, spraying tungsten sub-projectiles into the target's path. Because the round does not need to hit directly, hit probability against a small drone rises dramatically compared with solid shot. The gun is slaved to a radar and electro-optical fire-control system that measures range precisely enough to set the fuze, typically to within a few meters. A burst of a few rounds costs a few thousand dollars and reliably destroys a small drone.
 
 ## Strengths and weaknesses
 Cost per kill in the low thousands against targets costing tens of thousands is a strongly favorable exchange, and the magazine holds hundreds of rounds rather than the handful an interceptor system carries. It engages multiple targets in quick succession, which matters against salvos. The weaknesses are range and debris. Effective range is 2–4 km, so the engagement is close, and both the drone's wreckage and the tungsten sub-projectiles fall somewhere, which restricts use over populated areas. Fire control must be accurate, since a mis-set fuze wastes the round.
 
 ## When to use
-Pick programmable airburst cannon for point and area defense of bases, ships, and mobile formations against small drones and rockets, where several kilometres of engagement range is sufficient and falling debris is tolerable. Against long-range one-way attack drones arriving in numbers, this is one of the few systems with an acceptable cost exchange. If the site is in a city, the debris footprint may rule it out. Pair it with an accurate radar, because the whole approach depends on range measurement good enough to fuze the round.
+Pick programmable airburst cannon for point and area defense of bases, ships, and mobile formations against small drones and rockets, where several kilometers of engagement range is sufficient and falling debris is tolerable. Against long-range one-way attack drones arriving in numbers, this is one of the few systems with an acceptable cost exchange. If the site is in a city, the debris footprint may rule it out. Pair it with an accurate radar, because the whole approach depends on range measurement good enough to fuze the round.
+
+## Key numbers
+Effective range 2–4 km · 30–40 mm rounds · fuze set from a range measurement good to within a few meters · magazine of several hundred rounds · $1k–3k per round, a few thousand dollars per killing burst · debris and tungsten sub-projectiles fall across the full engagement area.
 
 ## Limits and failure modes
 Range of 2–4 km means the engagement is inside the drone's attack envelope for many threats. Tungsten sub-projectiles and drone debris fall over an area that must be cleared. Fire-control errors waste ammunition, and against a maneuvering target the computed intercept point may be wrong. Ammunition is more expensive than ordinary rounds, and programmable fuzes have their own supply-chain constraints.
@@ -27,6 +30,12 @@ Rheinmetall Skyranger 30 and 35 with AHEAD ammunition, the Gepard self-propelled
 
 ## Economic profile
 The Gepard's performance in Ukraine — a 1970s gun system destroying modern attack drones at a few thousand dollars per engagement — did more than any program to revive interest in guns for air defense, and Rheinmetall's Skyranger orders have followed. The economics are compelling: a magazine of several hundred rounds at $1k–3k each is a far deeper and cheaper magazine than any missile system. Ammunition production capacity is the practical constraint.
+
+## Videos
+
+- https://www.youtube.com/watch?v=s_lH2l857-o — Ahead (ABM) Programmable Fuze System (Rheinmetall) (Special Engineer, 2 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=bdwjcayPuag — Rheinmetall Air Defence: Ahead - Highly effective, programmable ammunition (Rheinmetall – Der integrierte Technologiekonzern , 1 minute, 5m+ views)
+- https://www.youtube.com/watch?v=SH-FehlT3_4 — Oerlikon Ahead Air Burst Munition (Dark Tech, 9 minutes, 500k+ views)
 
 ## Further reading
 

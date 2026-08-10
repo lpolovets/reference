@@ -18,11 +18,20 @@ The metal anodes are abundant, cheap, and dendrite-resistant, and theoretical vo
 ## When to use
 Treat multivalent chemistry as a research allocation rather than a design choice. Engage with it through materials-discovery programs and diligence, and ask any pitch to name its working cathode and electrolyte pair before it discusses the anode's theoretical numbers. No system approaches commercial cell metrics, so if you have an actual product need for something cheap, abundant, and safe, sodium-ion is the deployable answer today, and lithium variants cover everything performance-driven.
 
+## Key numbers
+Two electrons per ion for Mg and Ca, three for Al · theoretical volumetric capacity 3,833 mAh/cm³ for magnesium metal and 8,046 mAh/cm³ for aluminum, against 2,062 mAh/cm³ for lithium metal · demonstrated cell voltages of about 1–2 V · the best magnesium prototypes deliver well under 100 Wh/kg · crustal abundance 2.3% Mg, 4.1% Ca, 8.2% Al, against 0.002% for lithium.
+
 ## Examples
 Toyota Research and academic magnesium programs (a field launched by the 2000 Aurbach prototype); Stanford/Dalian aluminum-graphite cells; EU-funded calcium-battery consortia.
 
 ## Economic profile
 This is long-horizon science, and venture activity sits mostly at the materials-discovery layer. For diligence, insist that every multivalent pitch name its working cathode and electrolyte pair, because the anode was never the hard part.
+
+## Videos
+
+- https://www.youtube.com/watch?v=1yiYHKeLLdk — New magnesium battery materials (Partnerships at Oak Ridge National Laboratory, 12 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=7cqIAvUtXZA — How a Battery Works - Magnesium Battery - Photorealistic | POLiS (The Battery Researcher, 3 minutes, 1k+ views)
+- https://www.youtube.com/watch?v=TKn29XotbUY — Toyota Scientists Make Breakthrough on Magnesium Batteries (The Wheel Network, 4 minutes, 5k+ views)
 
 ## Further reading
 

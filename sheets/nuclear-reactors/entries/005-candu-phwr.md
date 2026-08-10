@@ -18,11 +18,20 @@ There's no enrichment dependency (energy sovereignty was the point), on-power re
 ## When to use
 Choose a PHWR if enrichment independence is a strategic requirement, since the design runs on natural uranium from any supplier. It also makes sense wherever the CANDU industrial base already exists (Canada, India, Romania, Argentina), where refurbishments and India's 700 MWe builds are proven, competitively priced work. It's the practical route to burning recycled uranium or thorium blends without new reactor physics. If you don't have a sovereignty argument or a heavy-water supply chain, default to the PWR and its larger vendor ecosystem. And whatever you do, make any PHWR business case carry mid-life retubing as a second capital project.
 
+## Key numbers
+Electric output 220–900 MWe per unit · heavy water as both coolant and moderator, roughly 100 bar inside the pressure tubes · outlet around 310 °C · natural uranium UO2 bundles at 0.71%, discharge burnup roughly 7 GWd/t · on-power refueling, so no refueling outage · overnight capex $2–3k/kW on India's 700 MWe builds, plus mid-life retubing as a second capital project.
+
 ## Examples
 Ontario's Bruce, Darlington, and Pickering fleets (mid-refurbishment through the 2030s); India's 22-unit PHWR fleet and its 700 MWe standardized builds; Qinshan (China), Cernavodă (Romania, units 3–4 revival), Embalse (Argentina).
 
 ## Economic profile
 India builds 700 MWe PHWRs at roughly $2–3k/kW, which is among the cheapest credible nuclear anywhere. Canadian refurbishments have lately run on time and on budget, which is rare for Western nuclear execution. New CANDU sales stalled for decades, but AtkinsRéalis's MONARK 1,000 MWe pitch and Ontario's momentum give the lineage its first real revival window since the 1990s.
+
+## Videos
+
+- https://www.youtube.com/watch?v=koKGnG5YTYg — How CANDU reactors work (Bruce Power, 2 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=-YhHNjjFqb0 — Candu Reactor Refueling (Steve Packard, 7 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=wVgtipHDK_8 — Nuclear Physicist Explains - What are CANDU Reactors? (Elina Charatsidou, 14 minutes, 100k+ views)
 
 ## Further reading
 

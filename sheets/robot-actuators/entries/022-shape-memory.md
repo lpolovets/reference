@@ -19,6 +19,9 @@ Force per mass is extraordinary, motion is silent and vibration-free, the wire i
 ## When to use
 Use SMA where the stroke is sub-millimeter, the duty is light, and silence, low mass, or mechanism-free simplicity is what matters: camera modules, micro-valves, deployables and latches that fire rarely, medical mechanisms where a motor won't fit. If you keep strain low (well under the 4–5% maximum) and cycles gentle, the wire lasts millions of actuations for pennies. Avoid SMA for anything continuous, fast, or efficient. 1–3% efficiency, cooling-limited bandwidth of a hertz or so, and having to heat the wire just to hold position make it wrong for limbs and wrong for sustained duty. In those cases a voice coil or micro gearmotor is the honest answer. Be skeptical of any pitch promising limb-scale SMA muscle, because it's working against thermodynamics.
 
+## Key numbers
+Contraction 4–5% at maximum, and well under that for long life · a 0.1–0.15 mm nitinol wire pulls roughly 1.5–3 N · actuation temperature typically 70–90 °C · efficiency 1–3%, because it is a thermal engine · bandwidth around 1 Hz, set by cooling · millions of cycles at low strain, far fewer near the strain limit · wire costs pennies at consumer volume.
+
 ## Examples
 Smartphone camera OIS/autofocus (Cambridge Mechatronics, SMA's one high-volume application, billions of units), medical stents and guidewires (superelastic cousins), aerospace deployables and louvers (Boeing's morphing chevrons), micro-grippers, animatronic and soft-robot research.
 
@@ -27,6 +30,12 @@ Where strokes are sub-millimeter and duty is light, SMA has already won at consu
 
 ## Suppliers
 [Cambridge Mechatronics](https://www.cambridgemechatronics.com/) — SMA actuators at smartphone volume · [Memetis](https://www.memetis.com/) — SMA micro-valves and miniature actuators
+
+## Videos
+
+- https://www.youtube.com/watch?v=wI-qAxKJoSU — Nitinol: The Shape Memory Effect and Superelasticity (engineerguy, 10 minutes, 500k+ views)
+- https://www.youtube.com/watch?v=yR-6_lS9vts — Magical metals, how shape memory alloys work - Ainissa Ramirez (TED-Ed, 5 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=4Yi4epJ83EE — Nitinol Wire/Shape Memory Alloy - How to Use it (RimstarOrg, 3 minutes, 100k+ views)
 
 ## Further reading
 

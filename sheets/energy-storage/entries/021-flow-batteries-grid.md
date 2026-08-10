@@ -19,11 +19,20 @@ The strengths: duration scales with tank size, cycle life runs past 15,000 cycle
 ## When to use
 Choose flow for 8–12 hour duty cycled deeply every day: solar-heavy grids with evening ramps, microgrids, and fire-sensitive or indoor sites. In those cases, 15,000+ cycles without fade or augmentation and a 20+ year electrolyte life beat lithium's repowering math. Lease the vanadium to neutralize price swings. Insist on fleet operating data (increasingly available from China's GWh-scale projects) before banking stack O&M assumptions. Avoid it below ~6 hours, where LFP wins outright, on footprint-constrained sites, and for multi-day firming, where iron-air's $20/kWh energy capacity is the better fit.
 
+## Key numbers
+Round-trip efficiency 65–80% after pumping losses · duration set by tank size, typically 4–12 hours · cycle life past 15,000 full-depth cycles with no fade, electrolyte life 20+ years · response in seconds · vanadium price swings can move system cost 30% · crossover against lithium around 8–10 hours.
+
 ## Examples
 Dalian 100 MW/400 MWh VRFB and China's multi-GWh pipeline (Rongke, state grid tenders), Invinity, CellCube, ESS Inc (iron), Sumitomo Electric fleets in Japan.
 
 ## Economic profile
 Flow is the crossover argument in miniature: it loses to lithium below ~6 hours and wins on paper above ~8–10 hours, because tank costs dominate at long durations. That win depends on stack costs and O&M behaving as modeled. Vanadium price volatility can swing system cost 30%; electrolyte leasing is the standard way to manage that risk. Bankability is arriving via Chinese fleet data rather than Western projects.
+
+## Videos
+
+- https://www.youtube.com/watch?v=TSsqCazP1V0 — How a Vanadium Redox Flow Battery Works | Sumitomo Electric (Sumitomo Electric Group, 9 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=fPtaDqLsbnM — Vanadium Flow Batteries (Reactions, 9 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=t9zwgL7UpDA — What are redox flow batteries and why are they important? (Billy Wu, 15 minutes, 10k+ views)
 
 ## Further reading
 

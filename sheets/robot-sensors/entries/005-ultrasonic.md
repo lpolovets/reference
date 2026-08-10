@@ -19,6 +19,9 @@ It detects glass, mirrors, and transparent obstacles that defeat every optical s
 ## When to use
 Pick ultrasonic for last-centimeter work and transparent obstacles: docking, parking, and any indoor robot operating near glass walls, partitions, or mirrors that optical sensors read as open space. It costs a few dollars per unit, needs no compute, and doesn't depend on lighting. It earns a slot as the cheap safety net even on sensor-rich platforms. Avoid it wherever you need range past a few meters, precise bearing, fast update rates, or detection of foam, cloth, and other sound absorbers; for those, short-range ToF or radar does the job. Tesla's removal-and-regret arc shows what happens when cameras are asked to cover the last centimeter alone.
 
+## Key numbers
+Frequency 40–200 kHz · range roughly 2 cm to 5 m · accuracy about ±1 cm · beam width 30–60°, so bearing is coarse · update rate 10–40 Hz, capped by the round-trip time of sound · power draw well under 1 W · unit cost $1–20.
+
 ## Failure modes
 Specular surfaces at oblique angles bounce echoes away, so a smooth wall at 45° reads as empty space. Sound-absorbent obstacles such as clothing and foam return nothing. Ultrasonic cleaners, air nozzles, and other robots' pingers inject phantom echoes. Rain and wind noise degrade outdoor use. Contamination on the transducer face, like mud or ice, kills sensitivity without any warning.
 
@@ -27,6 +30,12 @@ Automotive park-assist rings (billions of units — Bosch, Murata), HC-SR04 modu
 
 ## Economic profile
 Ultrasonic is a solved, commoditized technology at $1–20 per unit, and its niche looks permanent, because the glass-detection and last-centimeter problems don't yield to cameras. Tesla's removal and partial walk-back of parking performance illustrates the trade. In robot BOMs it persists as the cheap safety net nobody brags about, which is the right role for it.
+
+## Videos
+
+- https://www.youtube.com/watch?v=2ojWO1QNprw — How Do Ultrasonic Distance Sensors Work? - The Learning Circuit (element14 presents, 9 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=sYLMW7QhAJQ — The Basics of Ultrasonic Sensors (Same Sky, 5 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=i2NRS3fvEEI — How Do Parking Sensors Detect Obstacles? (History of Simple Things, 8 minutes, 10k+ views)
 
 ## Further reading
 

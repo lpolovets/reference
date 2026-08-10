@@ -19,11 +19,19 @@ Sulfides have the highest conductivity of any solid electrolyte class, and they 
 ## When to use
 Choose sulfides if you are placing a solid-state bet for automotive programs landing around 2027–2030 and can fund ultra-dry processing end to end. This is the only solid electrolyte class with liquid-like conductivity and press-to-densify processing, which is why most of the industry's money sits here. Avoid it for anything shipping in the next few years, and avoid it if your factory can't guarantee moisture exclusion (H2S risk). If you need product today, high-nickel Li-ion or semi-solid designs cover it, and air-stable oxide electrolytes suit smaller-format premium applications.
 
+## Key numbers
+Ionic conductivity 1–25 mS/cm at room temperature, matching or beating liquid electrolyte · target cell energy 350–500 Wh/kg · stack pressure of a few MPa held during operation · electrochemical stability window roughly 1.7–2.3 V, so cathode particles need coatings · cycle life around 1,000 in pilot cells · pilot cell cost above $1,000/kWh · automotive demonstrations aimed at 2027–2030.
+
 ## Examples
 Toyota-Idemitsu pilot production, Samsung SDI pilot line cells, Solid Power (BMW, Ford programs), CATL and Chinese national programs targeting ~2027 demonstrations.
 
 ## Economic profile
 The electrolyte precursor Li2S currently costs orders of magnitude more per kg than liquid electrolyte, and moisture-free factories add capex, so the roadmap depends on scaling Li2S synthesis. If the energy density and safety claims hold at automotive scale, the first market is the premium EV segment. Every year of delay is also a year of further Li-ion cost decline to compete against.
+
+## Videos
+
+- https://www.youtube.com/watch?v=ZTDDFX-nKgU — [Making Every Possibility] Advancing Sulfide-Based Solid-State Battery Innovation (LG Energy Solution Global, 4 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=Db-VVJCQ5u4 — Battery 4.0: The Solid State Battery Revolution (Dr Ben Miles, 15 minutes, 100k+ views)
 
 ## Further reading
 

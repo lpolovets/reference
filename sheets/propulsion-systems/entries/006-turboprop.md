@@ -28,6 +28,12 @@ Pratt & Whitney Canada PT6 (the most-produced turboprop family, over 60,000 buil
 ## Economic profile
 The turboprop market is more concentrated than the turbofan market: P&W Canada dominates the small and mid classes and has for 60 years, with GE's Catalyst as the first serious new entrant in decades. Because turboprop airframes are long-lived and low-volume, the aftermarket is even more dominant than in commercial jets. For defense buyers the relevant fact is that armed ISR aircraft built around a $1–2M turboprop can put ordnance on target for a few thousand dollars per flight hour, roughly a tenth of what a fast jet costs.
 
+## Videos
+
+- https://www.youtube.com/watch?v=QA3Eqhi4bHA — How TURBOPROP ENGINES Work (in 5 minutes) (Linus3d, 5 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=B_p3_9si5D4 — The BEST TURBOPROP explanation video! By Captain Joe and PRATT & WHITNEY (Captain Joe, 13 minutes, 1m+ views)
+- https://www.youtube.com/watch?v=HIPNDxI9s_k — PW100 turboprop engine 3D animation (mzo, 3 minutes, 50k+ views)
+
 ## Further reading
 
 [Turboprop Engine (NASA Glenn Beginner's Guide to Propulsion)](https://www.grc.nasa.gov/www/k-12/airplane/aturbp.html) · [Advanced Turboprop Technology Development (NASA Technical Reports Server)](https://ntrs.nasa.gov/citations/19770024211)

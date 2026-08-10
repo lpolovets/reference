@@ -28,6 +28,12 @@ The SR-71's J58 is the closest thing to an operational example, since it bypasse
 ## Economic profile
 TBCC has consumed a lot of money over 60 years and produced one operational aircraft. The economics only close if the vehicle flies often, because reusability is the entire justification, and no market for frequent hypersonic flights currently exists outside of test. That circularity — no vehicle without demand, no demand without a vehicle — has killed most programs. The current crop of startups is attacking it by fielding a Mach 4–5 aircraft first, where a modified turbojet suffices, and treating full TBCC as a later step.
 
+## Videos
+
+- https://www.youtube.com/watch?v=4YLg8X0BAL0 — How Britain's Air Breathing Rocket Engine Would Have Worked... If The Builder Hadn't Gone Bankrupt. (Scott Manley, 17 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=-dykzl9Kaf4 — Hypersonic Engine Test Milestone (Hermeus, 3 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=00Z1c2UpFiU — Compressor Development for Exoskeletal Turbine-Based Combined Cycle (TBCC) Engine (Learn With NASA, 4 minutes, 1k+ views)
+
 ## Further reading
 
 [Overview of the Turbine Based Combined Cycle Discipline (NASA Technical Reports Server)](https://ntrs.nasa.gov/citations/20110012002) · [Hypersonics research (NASA Glenn Research Center)](https://www1.grc.nasa.gov/research-and-engineering/hypersonics/)

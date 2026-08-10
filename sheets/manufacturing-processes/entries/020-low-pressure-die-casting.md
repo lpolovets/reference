@@ -20,6 +20,10 @@ Creates calmer filling and generally lower porosity than high-pressure die casti
 
 Pick LPDC for structural aluminum parts that need better metallurgical integrity than HPDC and full heat-treatability (wheels, suspension components, cylinder heads), at volumes in the tens of thousands where a cycle time measured in minutes is acceptable. Avoid it for very thin walls, or when cycle time is the main cost driver, since HPDC is better on both. For short runs the die cost is hard to justify, so go back to permanent-mold gravity or sand casting.
 
+## Key numbers
+
+Fill pressure 0.2–1 bar · cycle time 3–10 minutes per mold · minimum wall about 3 mm · linear tolerance roughly ±0.4 mm with as-cast Ra 3.2–6.3 µm · metal yield above 90%, against 50–60% for gravity pouring · die life 50,000–100,000 shots · tooling $150,000–800,000.
+
 ## Examples
 
 Wheels, suspension components, cylinder heads, pressure housings.

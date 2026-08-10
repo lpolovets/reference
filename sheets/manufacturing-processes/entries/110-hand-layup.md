@@ -20,6 +20,10 @@ Tooling is inexpensive and very large parts are possible. Labor, voids, repeatab
 
 Choose hand layup for one-offs through a few hundred parts a year, especially large ones like hulls, tanks, and architectural shapes. It makes sense when a mold costing a few thousand dollars matters more to you than laminate quality, and when 30–40% fiber content is acceptable. If void content, repeatability, or styrene exposure are controlled requirements, use vacuum infusion instead; it gives a better laminate from the same single-sided tool. Once volumes reach the thousands, RTM or SMC take over.
 
+## Key numbers
+
+Fiber volume fraction 30–40% · void content typically 2–5% · thickness tolerance around ±10–20%, with one finished side · single-sided tooling from a few hundred to a few thousand dollars · room-temperature cure in about 24 hours · one-offs to a few hundred parts a year, at sizes up to tens of meters.
+
 ## Examples
 
 Boat hulls, covers, tanks, prototype panels.

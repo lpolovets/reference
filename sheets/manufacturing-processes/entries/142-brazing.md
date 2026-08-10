@@ -10,7 +10,7 @@ tooling: low
 
 ## Description
 
-Filler metal melts above roughly 450°C and flows into a close-fitting joint while the base materials remain solid.
+Filler metal melts above roughly 450 °C and flows into a close-fitting joint while the base materials remain solid.
 
 ## Strengths and weaknesses
 
@@ -19,6 +19,10 @@ Joins dissimilar materials, thin parts, and complex assemblies with limited dist
 ## When to use
 
 Braze when an assembly has many joints to make in one heat, thin sections, or dissimilar pairs that fusion welding would damage: plate-fin and tube heat exchangers, carbide inserts on steel bodies, honeycomb panels. Use furnace brazing at volume, and torch or induction brazing for job work. Design the joints for capillary gaps of a few hundredths to a tenth of a millimeter, since gap control is what determines whether the joint holds. If service temperature approaches the filler's melting range, or you need full parent-metal strength, weld instead. If temperatures and loads are lower still, solder.
+
+## Key numbers
+
+Filler melts above 450 °C: 590–620 °C for aluminum brazing, 620–800 °C for silver fillers, 1,000–1,200 °C for nickel fillers · capillary joint gaps 0.02–0.10 mm · lap length roughly 3 times the thinner member's thickness · furnace cycles 1–4 hours per load, with hundreds of joints made in one heat · joint shear strength 100–300 MPa on silver-brazed steel · fixtures and furnace tooling $5k–50k.
 
 ## Examples
 

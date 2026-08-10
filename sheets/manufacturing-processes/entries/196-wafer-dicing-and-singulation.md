@@ -18,7 +18,11 @@ Mechanical sawing is mature and inexpensive; laser and plasma methods support th
 
 ## When to use
 
-Default to blade sawing. For standard-thickness silicon with streets of 50 um or more it is the cheapest, best-understood option. Switch to stealth (laser-internal) dicing for thin wafers below roughly 100 um, for memory and stacked-die products where edge chipping costs too much yield, and for dry processes where cooling water would damage MEMS. Use ablation lasers for hard or brittle materials like SiC and glass, where blades wear fast. Plasma dicing is worth its cost when die are tiny and numerous, because narrow streets and simultaneous singulation of the whole wafer reclaim several percent of area and improve die strength. Avoid blade sawing on cantilevered or released MEMS structures and on wafers where microcracks would propagate in service. Choose the singulation method before street width is frozen in layout.
+Default to blade sawing. For standard-thickness silicon with streets of 50 µm or more it is the cheapest, best-understood option. Switch to stealth (laser-internal) dicing for thin wafers below roughly 100 µm, for memory and stacked-die products where edge chipping costs too much yield, and for dry processes where cooling water would damage MEMS. Use ablation lasers for hard or brittle materials like SiC and glass, where blades wear fast. Plasma dicing is worth its cost when die are tiny and numerous, because narrow streets and simultaneous singulation of the whole wafer reclaim several percent of area and improve die strength. Avoid blade sawing on cantilevered or released MEMS structures and on wafers where microcracks would propagate in service. Choose the singulation method before street width is frozen in layout.
+
+## Key numbers
+
+Blade kerf 20–50 µm, needing streets of at least 50 µm, while stealth and plasma dicing work with 5–20 µm streets · blade feed 20–100 mm/s, while plasma singulates a whole wafer in 10–30 minutes regardless of die count · wafer thickness above 100 µm for blades and 20–100 µm for stealth dicing · front-side chipping under 20 µm on a well-set blade, near zero with stealth or plasma · die break strength roughly 300–500 MPa after sawing versus 700–1,000 MPa after plasma dicing.
 
 ## Examples
 

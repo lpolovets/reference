@@ -20,6 +20,10 @@ Tooling is relatively inexpensive and large parts can be formed quickly. Geometr
 
 Thermoforming suits shell-like one-sided parts made from sheet (trays, liners, panels, enclosures), from prototypes on cheap wood or epoxy molds up to very high-volume thin-gauge packaging on dedicated lines. Tooling costs a fraction of an injection mold, so thermoforming also covers the large-part and mid-volume range that injection molding can't serve economically. Avoid it when you need two-sided features, uniform wall thickness, or tight tolerances, and budget for trim scrap. Injection molding covers those needs.
 
+## Key numbers
+
+Sheet thickness 0.2–1.5 mm thin gauge, 1.5–12 mm heavy gauge · dimensional tolerance about ±0.5 mm thin gauge and ±1–1.5 mm heavy gauge · corners thin to 30–50% of starting gauge · tooling from a few hundred dollars in wood or epoxy to $20,000 in cast aluminum, 2–6 weeks lead time · cycle a few seconds per part on roll-fed thin-gauge lines, 1–6 minutes on heavy gauge · economic lot size from single prototypes to millions.
+
 ## Examples
 
 Packaging trays, refrigerator liners, aircraft interior panels, signs, shower enclosures.

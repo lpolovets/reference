@@ -18,7 +18,11 @@ Inexpensive, high-throughput, and chemically selective. Isotropic etchants cause
 
 ## When to use
 
-Use wet etching when features are larger than a few microns and undercut of roughly the etch depth is tolerable (blanket film stripping, PCB and metal patterning, oxide removal). It is cheap because batch immersion processes dozens of wafers or panels at once for the cost of chemicals, and selectivity between materials can be effectively infinite. KOH or TMAH bulk micromachining is the cheap route to deep cavities, membranes, and V-grooves when the 54.7-degree sidewalls of (100) silicon are acceptable or even wanted. If the design needs vertical sidewalls, sub-3 um features, tight CD control, or geometry independent of crystal orientation, move to dry plasma etching, and to DRIE for deep high-aspect-ratio silicon.
+Use wet etching when features are larger than a few microns and undercut of roughly the etch depth is tolerable (blanket film stripping, PCB and metal patterning, oxide removal). It is cheap because batch immersion processes dozens of wafers or panels at once for the cost of chemicals, and selectivity between materials can be effectively infinite. KOH or TMAH bulk micromachining is the cheap route to deep cavities, membranes, and V-grooves when the 54.7-degree sidewalls of (100) silicon are acceptable or even wanted. If the design needs vertical sidewalls, sub-3 µm features, tight CD control, or geometry independent of crystal orientation, move to dry plasma etching, and to DRIE for deep high-aspect-ratio silicon.
+
+## Key numbers
+
+Practical feature floor around 3 µm · isotropic undercut roughly equal to the etch depth · KOH etches (100) silicon at 1–1.4 µm/min at 80 °C, TMAH at about half that · KOH (100):(111) selectivity 100–400:1, which is what produces the 54.7-degree sidewall · buffered oxide etch removes thermal SiO2 at roughly 100 nm/min · batch immersion runs 25–50 wafers at once, with chemicals the main cost.
 
 ## Examples
 

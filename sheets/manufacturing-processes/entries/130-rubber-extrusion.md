@@ -20,6 +20,10 @@ Efficiently creates long constant-cross-section products. Die swell, temperature
 
 Extrude any elastomer product that is a constant cross-section sold by the meter (seals, tubing, hose bodies, tread stock). Dies cost hundreds rather than tens of thousands of dollars, and continuous cure lines (salt bath, microwave, hot air) sustain high throughput. If the part is a discrete three-dimensional shape, or its tolerances are tighter than die swell allows, use compression, transfer, or injection molding instead.
 
+## Key numbers
+
+Dies cost a few hundred to a couple of thousand dollars · tolerance about ±0.25 mm on small sections at RMA class E1 and ±0.5 mm or looser at commercial class · die swell 10–40% · line speeds 5–60 m/min at 100–1,000 kg/hr · continuous cure lines at 200–250 °C · economical from a few hundred meters per run.
+
 ## Examples
 
 Weather seals, hose, tubing, tire tread, gaskets.

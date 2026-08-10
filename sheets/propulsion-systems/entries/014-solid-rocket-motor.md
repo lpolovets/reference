@@ -28,6 +28,12 @@ Space Shuttle and SLS boosters, Ariane 6 P120C, Minuteman III and Trident II sta
 ## Economic profile
 Solid propulsion is a concentrated defense-industrial business. In the US, Northrop Grumman and L3Harris (through Aerojet Rocketdyne) are the two primary sources, and the Pentagon has repeatedly flagged single-source risk on specific motor classes. Ammonium perchlorate has essentially one US producer. Costs per motor range from a few thousand dollars for small tactical units to tens of millions for large boosters. Since 2022, capacity expansion rather than technology has been the dominant topic, with multi-year procurement contracts used explicitly to justify supplier investment.
 
+## Videos
+
+- https://www.youtube.com/watch?v=Eis3A2Ll9_E — The Amazing Engineering Behind Solid Rocket Boosters (Scott Manley, 16 minutes, 1m+ views)
+- https://www.youtube.com/watch?v=U6HRpcg57PI — GEM Solid Rocket Motor Manufacturing (Northrop Grumman, 4 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=eVvIZ3f2tSU — How To Design A Solid Rocket Motor - Simplex Ep 1 (BPS.space, 21 minutes, 100k+ views)
+
 ## Further reading
 
 [Solid Rocket Engine (NASA Glenn Beginner's Guide to Aeronautics)](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/solid-rocket-engine/) · [Status of the 260-Inch Diameter Solid Rocket Motor Program (NASA Technical Reports Server)](https://ntrs.nasa.gov/citations/19670012064)

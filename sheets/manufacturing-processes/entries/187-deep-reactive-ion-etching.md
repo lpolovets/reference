@@ -18,7 +18,11 @@ Enables deep, nearly vertical silicon features. Sidewall scalloping, cost, proce
 
 ## When to use
 
-Use DRIE when silicon has to be etched tens to hundreds of microns deep with near-vertical walls and aspect ratios of 10:1 to 30:1 or beyond (through-silicon vias, MEMS proof masses, comb drives, microphone diaphragms, and through-wafer release etches). No other process combines that depth with lithographic lateral precision and orientation independence. Budget for slow, single-wafer processing on expensive ICP tools. If surfaces matter optically or fluidically, you also have to manage the Bosch process's periodic sidewall scallops (typically 100-500 nm), and across mixed feature sizes you have to watch aspect-ratio-dependent etch lag. For shallow features under ~20 um use standard RIE. If angled sidewalls and crystal-plane geometry are acceptable and cost dominates, KOH or TMAH wet etching is far cheaper. DRIE is essentially a silicon process; glass and compound semiconductors need other chemistries.
+Use DRIE when silicon has to be etched tens to hundreds of microns deep with near-vertical walls and aspect ratios of 10:1 to 30:1 or beyond (through-silicon vias, MEMS proof masses, comb drives, microphone diaphragms, and through-wafer release etches). No other process combines that depth with lithographic lateral precision and orientation independence. Budget for slow, single-wafer processing on expensive ICP tools. If surfaces matter optically or fluidically, you also have to manage the Bosch process's periodic sidewall scallops (typically 100–500 nm), and across mixed feature sizes you have to watch aspect-ratio-dependent etch lag. For shallow features under ~20 µm use standard RIE. If angled sidewalls and crystal-plane geometry are acceptable and cost dominates, KOH or TMAH wet etching is far cheaper. DRIE is essentially a silicon process; glass and compound semiconductors need other chemistries.
+
+## Key numbers
+
+Etch depth from tens of microns to through-wafer at 500–775 µm · aspect ratios 10:1 to 30:1 routinely, past 50:1 with tuned recipes · etch rate 2–10 µm/min, dropping in narrow trenches · Bosch sidewall scallops 100–500 nm · selectivity 50–100:1 to photoresist and 100–200:1 to oxide masks · single-wafer ICP tools roughly $500k to $2M.
 
 ## Examples
 

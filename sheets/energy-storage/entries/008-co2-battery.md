@@ -19,11 +19,20 @@ The claimed round-trip efficiency is ~75% (better than LAES or CAES), it needs n
 ## When to use
 Consider the CO2 battery for 8–10 hour daily cycling on sites with cheap land but no cavern geology. Its claimed ~75% round trip and commodity turbomachinery beat LAES's efficiency and CAES's siting constraints, and a 20–30 year life without augmentation spend improves on lithium's economics at that duration. Demand operating data from Ottana-class plants before underwriting the efficiency claim. Avoid it on land-constrained sites (the dome is hectare-scale), at durations lithium already serves cheaply (≤6 hours), and for multi-day duty, where cavern systems or iron-air carry the energy capacity far cheaper.
 
+## Key numbers
+Round trip roughly 75% claimed · duration 8–10 hours · asset life 20–30 years with no augmentation spend · capex in the mid-hundreds $/kWh FOAK, targeting $100–200/kWh at scale · first commercial plant 20 MW / 200 MWh at Ottana · gas dome footprint at hectare scale.
+
 ## Examples
 Energy Dome: Sardinia 2.5 MW pilot, the 20 MW/200 MWh Ottana commercial plant, an Alliant Energy (Wisconsin) project, and a strategic partnership with Google (2025) for global deployment.
 
 ## Economic profile
 The CO2 battery sits between Li-ion and cavern systems on cost: mid-hundreds $/kWh FOAK, falling toward $100–200 at scale, aimed at 8–10 hour daily cycling where lithium augmentation costs add up. The commodity-equipment supply chain is the strongest part of the story. The open question is whether a thermodynamics startup can out-execute battery container economics before lithium reaches 10 hours.
+
+## Videos
+
+- https://www.youtube.com/watch?v=LXSSH6ZuOWk — CO2 Battery | Energy Dome (EnergyDome, 2 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=GSzh8D8Of0k — How the CO2 battery could be the future of energy storage? (Undecided with Matt Ferrell, 14 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=tPHkCbeQNxI — The GENIUS Of the Carbon Dioxide Battery (Two Bit da Vinci, 14 minutes, 500k+ views)
 
 ## Further reading
 

@@ -19,6 +19,9 @@ Persistence and cost per hull are the strengths. A vessel that stays out for 60 
 ## When to use
 Use medium USVs to extend a fleet's sensor picture over wide ocean areas, for persistent presence in contested waters, and for anti-submarine trailing where a cheap platform can follow a submarine that a destroyer cannot afford to shadow. If the mission needs weapons employment decisions or boarding, a crewed vessel is required. If the area is small and near shore, smaller uncrewed craft or aircraft are cheaper. Treat reliability engineering as the program's central challenge — the record of these programs is dominated by maintenance failures rather than by autonomy failures.
 
+## Key numbers
+Length 12–50 m · displacement 100–500 tonnes · endurance 30–60 days unattended · cruise speed roughly 10–12 knots · unit cost $20–50M per hull.
+
 ## How it is countered
 An undefended 200-tonne ship is easily attacked by anything from a missile to a boarding party, and several navies have noted that an uncrewed vessel with no crew aboard is also an attractive target for capture. Jamming satellite links limits supervision, though the vessels are designed to continue autonomously. The most common defeat has been mechanical: propulsion and generator failures ending deployments early.
 
@@ -27,6 +30,12 @@ DARPA and US Navy Sea Hunter and Seahawk, the Overlord USV program vessels Nomad
 
 ## Economic profile
 US Navy programs in this class have had a difficult history, with repeated restructuring driven by reliability shortfalls and by uncertainty about what the vessels should actually do. Cost per hull of $20–50M is far below a crewed combatant but far above the small craft that have proven effective. The most commercially successful vessels in the category have been the commercial ocean-data platforms, where the business model is selling data rather than selling ships.
+
+## Videos
+
+- https://www.youtube.com/watch?v=sHpGFbv_06E — ACTUV Construction Timelapse and Walkthrough (DARPAtv, 3 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=wlE4s9bi5-o — U.S. NAVY’S SEA HUNTER UNMANNED SURFACE VESSEL - FULL ANALYSIS (Defense Updates, 6 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=jEwSPuzrvEQ — US Navy Unmanned Surface Vessel Division One (Naval News, 9 minutes, 50k+ views)
 
 ## Further reading
 

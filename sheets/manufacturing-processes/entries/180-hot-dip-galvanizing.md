@@ -18,7 +18,11 @@ Provides robust long-term corrosion protection. Coatings are thick, appearance m
 
 ## When to use
 
-Galvanize structural steel destined for decades of outdoor exposure with no maintenance (guardrail, transmission towers, fence posts, embedded anchors). The 50-100+ um zinc layer and its sacrificial protection outlast any paint system at similar cost per square meter. Design for the process: drainage and vent holes, parts that fit the kettle, and clearance on threads, which typically need retapping or oversize taps. Avoid it on precision or tight-tolerance parts, thin sheet that warps at the 450 C bath temperature, and cosmetic surfaces where the spangled, uneven finish is unacceptable. Small fasteners at moderate exposure use zinc electroplating, sheet products use continuous mill galvanizing, and appearance-critical work gets duplex paint-over-galvanizing or powder coat instead.
+Galvanize structural steel destined for decades of outdoor exposure with no maintenance (guardrail, transmission towers, fence posts, embedded anchors). The 50–100+ um zinc layer and its sacrificial protection outlast any paint system at similar cost per square meter. Design for the process: drainage and vent holes, parts that fit the kettle, and clearance on threads, which typically need retapping or oversize taps. Avoid it on precision or tight-tolerance parts, thin sheet that warps at the 450 °C bath temperature, and cosmetic surfaces where the spangled, uneven finish is unacceptable. Small fasteners at moderate exposure use zinc electroplating, sheet products use continuous mill galvanizing, and appearance-critical work gets duplex paint-over-galvanizing or powder coat instead.
+
+## Key numbers
+
+Coating thickness of 50–100 µm and above, or 610 g/m² for ASTM A123 grade 100 · bath at about 445–455 °C with 3–10 minutes of immersion · zinc corroding at roughly 1–2 µm per year in rural air and 4–8 µm per year in industrial or marine air, so 30 to 70+ years to first maintenance · vent and drain holes sized at 25–30% of tube diameter · kettles up to roughly 15–20 m long setting the maximum single-dip part size.
 
 ## Examples
 

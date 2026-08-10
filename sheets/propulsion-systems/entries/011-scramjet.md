@@ -28,6 +28,12 @@ NASA X-43A (2004), Boeing X-51A Waverider (2010–13), the US–Australia HIFiRE
 ## Economic profile
 Scramjets are almost entirely government-funded, with US, Chinese, Russian, Indian, and Australian programs all active. Costs sit in flight test — a single test article and range campaign can run tens of millions of dollars — and in materials qualification for hot structures. Cost per flight has been the binding constraint on progress, which is why several startups are selling hypersonic flight test as a service to lower the price of an experiment. Whether a fielded scramjet weapon beats a cheaper boost-glide vehicle on cost per target remains genuinely unsettled.
 
+## Videos
+
+- https://www.youtube.com/watch?v=TFIBGVYL8Yw — Scramjets - The Fastest Jet Engines (Scott Manley, 19 minutes, 500k+ views)
+- https://www.youtube.com/watch?v=xpOa3B03gYg — Ramjets and Scramjets Explained - Mach 14 (Edwin Henry Blachford, 10 minutes, 1m+ views)
+- https://www.youtube.com/watch?v=3QR_HhwfAc4 — Pratt & Whitney Rocketdyne - X-51A Mission Animation & Scramjet Engine Operation [480p] (arronlee33, 2 minutes, 50k+ views)
+
 ## Further reading
 
 [Alleviation of Facility/Engine Interactions in an Open-Jet Scramjet Test Facility (NASA Technical Reports Server)](https://ntrs.nasa.gov/citations/20010061808) · [Hypersonic Weapons: Background and Issues for Congress (Congressional Research Service)](https://www.everycrsreport.com/reports/R45811.html)

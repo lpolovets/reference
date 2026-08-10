@@ -19,6 +19,9 @@ Magazine depth at lower cost per cell is the argument, and fleet missile capacit
 ## When to use
 The case for large USVs is strongest where fleet magazine depth is the binding constraint and where the vessels can operate under the protection of crewed combatants. If the requirement is sensing rather than magazine capacity, a medium USV or an aircraft is far cheaper. If survivability in a contested environment matters, an escorted uncrewed barge may not be cheaper than another crewed combatant once escort costs are counted. Programs in this class should be judged on demonstrated unattended reliability more than on cost per missile cell.
 
+## Key numbers
+Length 60–90 m · displacement 1,000–2,000 tonnes · 16–32 vertical launch cells in the US Navy requirement · endurance targeted at about 60 days unattended · unit cost roughly $250–500M.
+
 ## How it is countered
 An uncrewed vessel with no self-defense is engageable by anti-ship missiles, submarines, and small craft. Capture is a real concern, since a vessel with no crew cannot resist boarding and carries valuable weapons and equipment. Disrupting the command link between the controlling warship and the launcher degrades or prevents weapons employment, which is a specific vulnerability of the distributed magazine concept.
 
@@ -27,6 +30,11 @@ The US Navy's Large Unmanned Surface Vessel program and its predecessor Overlord
 
 ## Economic profile
 The LUSV program has been repeatedly delayed and restructured by Congress and the Navy, with concerns about reliability, requirements, and whether the concept is sound. Costs of roughly $250–500M per vessel have been discussed, which is well below a destroyer but high enough that losing one matters. The unresolved question is whether the fleet wants many cheap magazines or fewer capable ships, and that is a doctrinal argument rather than a technical one.
+
+## Videos
+
+- https://www.youtube.com/watch?v=Ay_on3rJoQU — U.S NAVY GHOST FLEET WILL BE HAVE LARGE UNMANNED SURFACE VESSELS (LUSV) !! (Defense Updates, 12 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=yl1IXqVfKI8 — Ghost Fleet Overlord (Dark Tech, 9 minutes, 100k+ views)
 
 ## Further reading
 

@@ -18,7 +18,11 @@ Nitriding provides wear and fatigue resistance with relatively low distortion an
 
 ## When to use
 
-Nitride when the part has to be hardened after finish machining. The process runs around 500-550 C with no quench, so precision gears, crankshafts, and mold cavities come out essentially at size. It requires steels with nitride-forming alloying (Cr-Mo grades, Nitralloy, tool steels, some stainless), and it delivers very high surface hardness with excellent fatigue and scuffing resistance. The diffusion case is shallow, though, typically under 0.5 mm even after long cycles. If heavy Hertzian contact or impact needs a deep supporting case, carburize instead. Plain low-carbon steels respond poorly, and long furnace times make nitriding expensive for deep cases.
+Nitride when the part has to be hardened after finish machining. The process runs around 500–550 °C with no quench, so precision gears, crankshafts, and mold cavities come out essentially at size. It requires steels with nitride-forming alloying (Cr-Mo grades, Nitralloy, tool steels, some stainless), and it delivers very high surface hardness with excellent fatigue and scuffing resistance. The diffusion case is shallow, though, typically under 0.5 mm even after long cycles. If heavy Hertzian contact or impact needs a deep supporting case, carburize instead. Plain low-carbon steels respond poorly, and long furnace times make nitriding expensive for deep cases.
+
+## Key numbers
+
+Process temperature 500–550 °C with no quench · case depth typically 0.1–0.5 mm · surface hardness roughly 700–1,200 HV depending on the alloy's nitride formers · compound (white) layer 5–20 µm thick, often lapped or ground off · furnace cycles of 10–100 hours, with case growth following the square root of time · dimensional growth of only a few um.
 
 ## Examples
 

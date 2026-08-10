@@ -19,14 +19,22 @@ Cost and availability are the argument: the components are already in inventory 
 ## When to use
 Use guided-rocket interceptors where an existing designator and rocket inventory make them the fastest capability to field, and where weather permits laser designation: aircraft engaging drones and cruise missiles, and ground vehicles defending fixed sites. Against targets in cloud, an interceptor with an autonomous seeker is necessary. The category's real value is speed of fielding — turning an existing air-to-ground weapon into an air-defense weapon required software and integration rather than a new missile program.
 
+## Key numbers
+70 mm rockets fitted with a laser guidance kit · engagement range from a few kilometers out to about 10 km · $25k–35k per shot against $20k–50k drones · motors, warheads, and guidance kits already stockpiled in six-figure quantities · no capability at all through cloud.
+
 ## Limits and failure modes
-Laser designation must be maintained through the flight, which is difficult against a maneuvering target and impossible through cloud. The seeker is designed for ground targets, so performance against small aerial targets required specific development. Range is a few kilometres to about 10 km depending on launch conditions. Debris falls as with any kinetic intercept.
+Laser designation must be maintained through the flight, which is difficult against a maneuvering target and impossible through cloud. The seeker is designed for ground targets, so performance against small aerial targets required specific development. Range is a few kilometers to about 10 km depending on launch conditions. Debris falls as with any kinetic intercept.
 
 ## Examples
 APKWS used by US Air Force F-16s against Houthi drones and by Navy aircraft in the Red Sea, the FALCO ground-launched variant for counter-UAS, and Ukraine's use of laser-guided rockets in the air-defense role. Several countries are now fielding ground-launched versions specifically for drone defense.
 
 ## Economic profile
 This is the clearest recent case of adapting existing inventory to a new problem at low marginal cost, and it worked because the guidance kit, motor, and warhead already existed at scale. At $25k–35k per shot against $20k–50k drones the exchange is close to even and far better than a missile. Production of guidance kits has expanded substantially on the back of this demand, which is a rare example of a counter-drone answer that could be scaled in months rather than years.
+
+## Videos
+
+- https://www.youtube.com/watch?v=gWtX4FgwS44 — America's newest air-to-air missile is a drone's worst nightmare (Sandboxx, 18 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=P6X8fT5IfFM — Ground-launched precision with the APKWS® laser-guided rocket l BAE Systems (BAE Systems, Inc., 1 minute, 100k+ views)
 
 ## Further reading
 

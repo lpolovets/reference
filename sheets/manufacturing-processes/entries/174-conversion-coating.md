@@ -20,6 +20,10 @@ Improves corrosion resistance and paint adhesion at low cost. Protection may be 
 
 Use conversion coating as the standard pretreatment under paint, powder coat, or e-coat (zinc phosphate or zirconium on steel bodies and panels, chromate or trivalent chem film on aluminum). As a standalone finish, use it only for mild indoor exposure or where electrical conductivity must be preserved, as with chem-filmed aluminum electronics chassis. It is cheap, adds no meaningful thickness, and runs at high volume in dip or spray lines. Do not rely on it alone in outdoor or marine service; bare conversion coatings fail salt-spray tests that anodize or galvanizing pass easily, so specify a topcoat or switch processes. Check REACH and customer restrictions before specifying hexavalent chromate.
 
+## Key numbers
+
+Coating weights of roughly 1.5–4 g/m² for zinc phosphate, 0.3–0.8 g/m² for iron phosphate, and 20–100 mg/m² for zirconium pretreatments · film thickness typically under 1 µm, with no meaningful dimensional change · zinc phosphate baths at 45–60 °C with 1–3 minute dwell, zirconium systems at ambient · MIL-DTL-5541 chem film on aluminum passing 168 hours of neutral salt spray bare · Class 3 chem film holding contact resistance under 5,000 microhms per square inch.
+
 ## Examples
 
 Automotive bodies, fasteners, appliance panels.

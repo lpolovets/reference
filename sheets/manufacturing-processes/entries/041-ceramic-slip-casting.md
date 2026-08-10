@@ -20,6 +20,10 @@ Produces complex hollow ceramics with inexpensive tooling. Slow and subject to d
 
 Slip casting is the usual pick for hollow or complex ceramic shapes (sanitary ware, tubes, artware), from single pieces to thousands, because plaster molds cost almost nothing. Budget generous tolerances for drying and firing shrinkage, and expect cast cycles that run for hours. If the shape is simple and solid and the volume is high, pressing is far faster. For small intricate technical ceramics at scale, use ceramic injection molding.
 
+## Key numbers
+
+Cast wall builds a few millimeters per hour, thickness rising with the square root of dwell time · total drying and firing shrinkage 10–15% linear · dimensional tolerance about ±1–2% of the dimension · plaster molds $100–1,000, good for 50–150 casts · firing 1,100–1,400 °C depending on the body · economic lot size one piece to a few thousand.
+
 ## Examples
 
 Sanitary ware, pottery, ceramic tubes, shell forms.

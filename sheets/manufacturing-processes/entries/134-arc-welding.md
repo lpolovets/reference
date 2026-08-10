@@ -20,6 +20,10 @@ Broadly applicable, from portable field repair to automated production. Speed, q
 
 Arc welding is the default for structural steel and general fabrication, from one-off field repair through mid-volume production. Pick stick for portability and outdoor work, MIG for shop throughput and robotic automation, TIG for thin sections and critical or exotic-alloy joints, and flux-cored or submerged arc for heavy plate deposition. If you are joining high-volume thin sheet, resistance or laser welding is faster and distorts less. If distortion matters on aluminum seams, friction-stir welding is often the better answer.
 
+## Key numbers
+
+Deposition rate roughly 1–3 kg/hr for stick, 3–8 kg/hr for MIG and 10–45 kg/hr for submerged arc · welding current 50–400 A on most shop work and over 1,000 A submerged arc · heat input 0.5–3 kJ/mm with a 1–5 mm heat-affected zone · travel speed 100–500 mm/min · weldment tolerance ±1–3 mm before machining · power sources $500–5k, a robotic cell $100k and up.
+
 ## Variants
 
 ### Shielded metal arc (stick)

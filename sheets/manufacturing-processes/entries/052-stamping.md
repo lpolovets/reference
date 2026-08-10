@@ -18,7 +18,11 @@ Provides extremely high production rates and low unit cost at volume. Presses an
 
 ## When to use
 
-Stamping is the default for sheet-metal parts at high volume, meaning tens of thousands per year and up. Progressive dies cost tens to hundreds of thousands of dollars, and they pay back through cents-per-part pricing at dozens of strokes per minute. Lock the design early around springback, tearing, and die constraints, because changes after die tryout are expensive. Below roughly 10,000 parts per year, laser cutting plus press-brake forming is almost always cheaper.
+Stamping is the default for sheet-metal parts at high volume, meaning tens of thousands per year and up. Progressive dies cost tens to hundreds of thousands of dollars, and they pay back through cents-per-part pricing at dozens of strokes per minute. Lock the design early around springback, tearing, and die constraints, because changes after die tryout are expensive. Until annual volume reaches tens of thousands, laser cutting plus press-brake forming is almost always cheaper.
+
+## Key numbers
+
+Sheet thickness usually 0.2–6 mm · dimensional tolerance ±0.05–0.25 mm, down to ±0.025 mm with fine blanking · punch-to-die clearance 5–10% of stock thickness per side · progressive dies $20,000–300,000, 8–20 weeks lead time, 1–10 million hits of die life · press rate 20–100 strokes per minute, into the hundreds on small high-speed work · economic lot size tens of thousands a year and up, at piece prices in cents.
 
 ## Variants
 

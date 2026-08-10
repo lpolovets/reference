@@ -19,6 +19,9 @@ Strain is muscle-like (10–30%+) at tens to hundreds of hertz, efficiency is hi
 ## When to use
 Consider HASEL/DEA when the application needs silent, muscle-like motion at modest force with built-in self-sensing, and can absorb a 5–10 kV drive stage: haptic surfaces, small valves and pumps, adaptive optics, soft-robot research. Those are jobs where tens of hertz and 10–30% strain in a film-thin package beat any motor. Design around stacks and arrays from the start, since single units push newtons, not tens of newtons. Avoid these for load-bearing joints and for any product that needs demonstrated lifetime today, because breakdown and electrode fatigue data are still thin and nothing has shipped at volume. If the muscle-like form factor isn't itself the requirement, use conventional electromagnetic actuation.
 
+## Key numbers
+Strain 10–30%+, close to biological muscle · bandwidth tens to hundreds of hertz · drive voltage 5–10 kV, and miniaturizing that supply is half the product · force of order newtons per unit, so stacks and arrays are the norm · built-in capacitive self-sensing · roughly $100–1k per axis at today's low volumes.
+
 ## Examples
 Artimus Robotics (HASEL commercialization), Toyota Research and academic humanoid-muscle demos, historical SRI DEA work (the field's origin), haptic-display startups using DEA films, adaptive-optics and valve prototypes.
 
@@ -27,6 +30,12 @@ Venture capital keeps circling this category, because the materials are cheap, m
 
 ## Suppliers
 [Artimus Robotics](https://www.artimusrobotics.com/) — HASEL actuator commercialization · [ESTAT Actuation](https://www.estat.tech/) — electroadhesive clutches built on the same electrostatic principle
+
+## Videos
+
+- https://www.youtube.com/watch?v=M4qcvTeN8k0 — HASEL actuators with muscle-like performance (Robotic Materials Department at MPI-IS, 2 minutes, 1m+ views)
+- https://www.youtube.com/watch?v=usvoiGBAflY — Technical Deep Dive: Expanding (E-Series) HASEL Actuators (Artimus Robotics, 4 minutes, 5k+ views)
+- https://www.youtube.com/watch?v=eUdcBjo19oU — Dielectric Elastomer Actuator - opensoftmachines (Open Soft Machines, 2 minutes, 10k+ views)
 
 ## Further reading
 

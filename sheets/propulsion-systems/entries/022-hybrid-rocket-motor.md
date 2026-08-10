@@ -28,6 +28,12 @@ SpaceShipOne and SpaceShipTwo (HTPB and later nylon with N₂O), Gilmour Space's
 ## Economic profile
 Hybrids are the cheapest route to a working rocket for a small team, which is why they dominate the student and startup end of the market and keep reappearing in commercial launch attempts. They have never displaced solids or liquids at scale because the performance gap costs payload, and payload is what customers pay for. The realistic commercial niche is suborbital and small-launch applications where handling cost and range approval dominate the business model.
 
+## Videos
+
+- https://www.youtube.com/watch?v=d0_B26kD0S0 — HYBRID ROCKET ENGINE/hybrid propellant rocket engine /3D animation/LEARN FROM THE BASE (Learn from the base, 3 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=K4iIIxSS6Ww — What is a Hybrid Rocket Engine and How Do They Work (Canadian Student Space Initiative, 13 minutes, 5k+ views)
+- https://www.youtube.com/watch?v=UQHVRSCvDXU — Hot Fire Testing one of the biggest student hybrid rockets in the world! (ASTRA Bremen, 19 minutes, 10k+ views)
+
 ## Further reading
 
 [Hybrid Rocket Propulsion for Sounding Rocket Applications (NASA Technical Reports Server)](https://ntrs.nasa.gov/citations/19920013360) · [Stanford Plasma Physics Laboratory (Stanford University)](https://web.stanford.edu/group/pdl/)

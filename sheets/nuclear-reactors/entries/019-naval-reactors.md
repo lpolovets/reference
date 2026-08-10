@@ -17,11 +17,20 @@ These reactors have extreme power density, shock tolerance, decades-long cores, 
 ## When to use
 There is only one procurement scenario here. You are a navy (or an icebreaker fleet) for which power density, endurance, and stealth justify defense-budget pricing, and no civilian buyer faces that menu. For civilians the value is evidence and lineage: proof that small PWRs can be serial-built to immaculate quality, the workforce behind Rolls-Royce's SMR credibility, and Russia's RITM-derived floating and land units, which are the one direct naval-to-civilian product line. Draw cost lessons carefully, because nothing in these programs was ever optimized for $/MWh.
 
+## Key numbers
+The US fleet has logged 5,700+ reactor-years with zero radiological accidents · US cores run HEU above 90% enrichment in cermet fuel and last 30+ years, so the boat is never refueled · France runs LEU under 10% and refuels roughly every 10 years · thermal output is commonly quoted around 150 MWt for an attack submarine and several hundred MWt per unit on a carrier · pressurized-water design with natural circulation at low power for quiet running · the whole Western industrial base is two US yards, one UK, and one French.
+
 ## Examples
 US Virginia- and Columbia-class (life-of-ship cores), UK Astute/Dreadnought (Rolls-Royce PWR3), France's Suffren class (LEU K15 lineage), China's expanding fleet, Russia's icebreakers (the civilian cousin — RITM-200 reactors now spun into floating and land SMR offerings).
 
 ## Economic profile
 Naval reactors are militarily invaluable and commercially instructive. They prove small reactors can be serial-built with immaculate quality, though only at defense budgets. The civilian spillover is real but indirect: Rolls-Royce's SMR credibility, Russia's RITM-based SMRs, and the trained workforce. AUKUS-driven HEU expansion versus LEU conversion research (a US congressional perennial) is the fuel-policy tension to watch.
+
+## Videos
+
+- https://www.youtube.com/watch?v=J0lb46Zi5-s — Submarine Nuclear Power | Engineering behind it Nuclear Reactor How it Works (AiTelly, 14 minutes, 1m+ views)
+- https://www.youtube.com/watch?v=Yuz2XWgUT4I — How Aircraft Carrier Works? US Nuclear Power Ship Nimitz Class #ship (AiTelly, 14 minutes, 1m+ views)
+- https://www.youtube.com/watch?v=myNLd3YU8cM — The Naval Nuclear Propulsion Program: An Overview (Naval Nuclear Laboratory, 3 minutes, 1k+ views)
 
 ## Further reading
 

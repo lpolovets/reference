@@ -19,11 +19,20 @@ Theoretical energy density is higher than anything else, and the concept is simp
 ## When to use
 Don't design a product around Li-air, and fund it only as long-horizon research. Tens of cycles, 60–70% round-trip efficiency, and the air-purity requirements mean there's no application it currently serves. Its practical use is as a diligence benchmark: if a pitch invokes lithium-air-class density, ask about Li-S or lithium-metal cells instead, since those deliver a usable fraction of the promise today.
 
+## Key numbers
+Theoretical specific energy around 3,500 Wh/kg for the cell, against roughly 12,000 Wh/kg for gasoline · practical cells well under 500 Wh/kg once air handling is counted · equilibrium voltage 2.96 V, discharging near 2.7 V and charging above 4 V · round-trip efficiency 60–70% at best · cycle life measured in tens.
+
 ## Examples
 Academic and national-lab programs (Argonne, IBM's discontinued Battery 500 project); occasional solid-state Li-air lab demonstrations claiming improved efficiency.
 
 ## Economic profile
 Purely a research option. Its role in analysis is as a ceiling reference: any pitch citing "lithium-air-class" density should be tested against the unresolved efficiency, lifetime, and air-purity physics that have stalled the field.
+
+## Videos
+
+- https://www.youtube.com/watch?v=XHpXsft3y00 — Lithium-Air Battery: Promise and Challenges (American Chemical Society, 6 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=8pMFLpiqPAc — IBM Battery 500: A look inside a lithium-air battery (IBM Research, 1 minute, 100k+ views)
+- https://www.youtube.com/watch?v=AGy3BddUvC8 — Batteries of the Future - Lithium-Air (Evans Electric, 5 minutes, 100k+ views)
 
 ## Further reading
 

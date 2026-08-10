@@ -18,7 +18,11 @@ Produces high-quality dielectric interfaces and uniform films. Consumes silicon,
 
 ## When to use
 
-Grow thermal oxide whenever the electrical quality of the Si-SiO2 interface matters (gate and tunnel oxides, high-quality passivation, and any dielectric where defect density must be minimal), and for cheap, uniform hard masks on bare silicon early in a flow. Dry oxidation gives dense, slow-growing films for thin critical oxides; wet oxidation grows thick field and masking oxides up to a couple of microns in reasonable furnace time. It runs at 900-1200 C and consumes the substrate, so it is only usable on exposed silicon before metallization or any dopant profile that cannot tolerate the thermal budget. If either constraint applies, deposit oxide by CVD instead, or use ALD for thin conformal dielectrics on arbitrary materials.
+Grow thermal oxide whenever the electrical quality of the Si-SiO2 interface matters (gate and tunnel oxides, high-quality passivation, and any dielectric where defect density must be minimal), and for cheap, uniform hard masks on bare silicon early in a flow. Dry oxidation gives dense, slow-growing films for thin critical oxides; wet oxidation grows thick field and masking oxides up to a couple of microns in reasonable furnace time. It runs at 900–1200 °C and consumes the substrate, so it is only usable on exposed silicon before metallization or any dopant profile that cannot tolerate the thermal budget. If either constraint applies, deposit oxide by CVD instead, or use ALD for thin conformal dielectrics on arbitrary materials.
+
+## Key numbers
+
+Furnace temperature 900–1,200 °C · dry oxidation grows 1–100 nm films at tens of nm per hour · wet oxidation reaches 0.3–2 µm at a few hundred nm per hour · silicon consumed equals about 0.44 of the oxide thickness grown · interface trap density around 10^10 cm^-2 eV^-1, the lowest of any oxide route · batch furnaces hold 50–200 wafers.
 
 ## Examples
 

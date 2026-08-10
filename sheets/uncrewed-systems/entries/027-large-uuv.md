@@ -19,6 +19,9 @@ Persistence in denied areas without risking a crew is the argument, and it is a 
 ## When to use
 Use large UUVs for persistent undersea intelligence, seabed mapping and infrastructure survey in sensitive areas, and as deployable sensor carriers. If the mission needs speed or weapons employment, a crewed submarine or a torpedo is the answer. If it needs only a survey of a defined block, a medium UUV launched from a ship is cheaper. The pacing question for any program here is demonstrated unattended reliability over the full mission duration, which is where nearly all schedule slip has occurred.
 
+## Key numbers
+Length 8–15 m · displacement several tonnes · endurance 30–70 days on batteries or fuel cells · transit speed a few knots · cost per day at sea roughly 1% of a crewed submarine's.
+
 ## How it is countered
 Detection is difficult, which is the vehicle's main protection. Practical vulnerabilities are the launch platform, the surfacing events needed for communication and navigation fixes, and mechanical failure. As with all uncrewed vehicles, one that is found can be recovered by an opponent, and the intelligence loss from a captured vehicle with its mission data can exceed the value of the vehicle itself.
 
@@ -27,6 +30,11 @@ Boeing Orca XLUUV in its smaller configurations, the Snakehead LDUUV program, An
 
 ## Economic profile
 Programs have generally cost more and taken longer than planned. The commercial entrants — Anduril in particular — argue that building to commercial reliability standards and iterating quickly beats the traditional development approach, and their vehicles have reached the water faster than several government programs. Whether that holds through long unattended deployments is the open question and it will be answered by operational experience rather than by testing.
+
+## Videos
+
+- https://www.youtube.com/watch?v=sVMuLICCH0s — #USNavy has christened its largest Unmanned Undersea Vehicle! (Defense Updates, 8 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=KVZQRlUSe94 — The Underwater Drone That Latches Onto Ships And Launches UAVs (Task & Purpose, 17 minutes, 100k+ views)
 
 ## Further reading
 

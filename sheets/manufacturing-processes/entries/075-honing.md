@@ -18,7 +18,11 @@ Corrects bore geometry and creates a functional crosshatch surface. Removal rate
 
 ## When to use
 
-Pick honing as the final operation on bores that seal or slide and must be round, straight, and sized to a few micrometers: engine cylinders, hydraulic cylinders, valve and bearing bores. It is especially useful where the crosshatch pattern has to retain oil. It expects a bored or reamed hole within roughly 0.02-0.1 mm of final size, and it fixes geometry that reaming cannot. Skip it when a reamed or bored finish already meets spec. For external surfaces, grind or superfinish instead. Honing follows the existing bore position rather than moving it, so it won't correct location.
+Pick honing as the final operation on bores that seal or slide and must be round, straight, and sized to a few micrometers: engine cylinders, hydraulic cylinders, valve and bearing bores. It is especially useful where the crosshatch pattern has to retain oil. It expects a bored or reamed hole within roughly 0.02–0.1 mm of final size, and it fixes geometry that reaming cannot. Skip it when a reamed or bored finish already meets spec. For external surfaces, grind or superfinish instead. Honing follows the existing bore position rather than moving it, so it won't correct location.
+
+## Key numbers
+
+Bore roundness and straightness within 1–5 µm · surface finish 0.1–0.8 µm Ra · crosshatch angle usually 30–60 degrees included · removes 0.02–0.1 mm on diameter · cycle time 20 seconds to a few minutes per bore · bore diameters from a few millimeters to over 1 m.
 
 ## Examples
 

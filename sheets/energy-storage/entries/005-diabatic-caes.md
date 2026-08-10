@@ -19,11 +19,20 @@ Cavern energy capacity is nearly free ($1–10/kWh), plant life is measured in d
 ## When to use
 Build new diabatic CAES only where salt caverns are on hand, gas is cheap and unpriced for carbon, and the buyer wants dispatchable capacity more than clean storage. In practice that is a shrinking set of markets, mostly outside the West. If you already own Huntorf- or McIntosh-class assets, keep running them; the caverns and machinery are paid for. In any decarbonizing market, skip straight to advanced CAES or hydrogen-fired turbines on the same salt geology. The gas burner is what makes this design unfinanceable, not the cavern.
 
+## Key numbers
+Plant power 110 MW at McIntosh and 321 MW at Huntorf · duration roughly 2 hours at Huntorf and 26 hours at McIntosh · cavern energy capacity $1–10/kWh · plant life 35–48 years so far on both Western units · two Western plants built in 45 years · China's revival plants at 100–300 MW.
+
 ## Examples
 Huntorf (Germany, 321 MW), McIntosh (Alabama, 110 MW); China's Zhangjiakou and Yingcheng plants revive the concept at 100–300 MW scale with reduced or zero gas input.
 
 ## Economic profile
 Where salt geology exists, the cavern is the cheapest electricity reservoir ever built, and the entire modern LDES cavern thesis (advanced CAES, hydrogen) descends from it. Diabatic CAES itself is a transitional design: its economics were built on cheap off-peak baseload and peak gas prices, a spread modern markets no longer offer in the same shape.
+
+## Videos
+
+- https://www.youtube.com/watch?v=sVDh_4ymcyY — Turning Compressed Air Into Electricity - CAES 2015 (PowerSouth Energy Cooperative, 5 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=MNVG7x9ZKBc — CAES - Compressed Air Energy Storage - IMAGES Project - animation (IMAGES Project, 2 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=D_L8Px45I9Y — The Genius Energy Storage Idea Everyone Forgot (Engineering with Rosie, 16 minutes, 10k+ views)
 
 ## Further reading
 

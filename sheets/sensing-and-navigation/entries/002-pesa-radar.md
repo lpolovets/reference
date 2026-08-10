@@ -19,6 +19,9 @@ Cost is the advantage. One high-power transmitter, usually a travelling wave tub
 ## When to use
 Pick PESA when you need electronic beam steering at long range on a budget, particularly for ground-based and naval surveillance where size and power are not constraints. If the mission involves contested electromagnetic conditions, AESA's frequency agility is worth the cost difference. If cost is the overriding constraint and the target set is unsophisticated, a mechanically scanned radar is cheaper still. In practice most new Western designs skip PESA entirely, and its continued relevance is largely in legacy fleets and in export systems from suppliers who have not made the transition.
 
+## Key numbers
+One central transmitter feeding hundreds to a few thousand phase shifters · peak power in the hundreds of kilowatts from a travelling wave tube · detection 150–400 km against fighter-sized targets on large sets, on vendor figures · beam steering in microseconds · scan volume about ±60° off boresight per face · unit cost roughly a third of a comparable AESA.
+
 ## How it is defeated
 Noise jamming is more effective than against an AESA, because the radar's frequency agility is limited to pulse groups rather than individual pulses. Chaff and DRFM false targets work. Anti-radiation missiles home on the single high-power transmitter easily. Sidelobe jamming is a standard approach, since a central-feed array typically has worse sidelobe control than an individually weighted AESA.
 
@@ -27,6 +30,12 @@ The Soviet and Russian Zaslon on the MiG-31 (the first airborne phased array in 
 
 ## Economic profile
 PESA is a mature and largely sunset architecture in the West, sustained by upgrade programs on fielded systems like Patriot and Aegis, both of which are transitioning to AESA replacements. In export markets it remains commercially significant, because a PESA priced at a third of an AESA is genuinely attractive to buyers facing unsophisticated threats. The economic story is essentially the transmit-receive module cost curve: as modules got cheap, PESA's cost advantage evaporated.
+
+## Videos
+
+- https://www.youtube.com/watch?v=JGgFI-WDXVQ — PESA and AESA for radar systems - ISAE SUPAERO (ArthurSR44, 5 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=vtPPAnvJS6c — Phased Array Antennas (Mark Hickle, 5 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=jSDLfcNhThw — Phased Arrays - Steering and the Antenna Pattern | An Animated Intro to Phased Arrays (Marshall Bruner, 20 minutes, 100k+ views)
 
 ## Further reading
 

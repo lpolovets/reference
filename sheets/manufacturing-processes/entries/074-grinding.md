@@ -18,7 +18,11 @@ Works on hardened materials and achieves excellent tolerances and finishes. Heat
 
 ## When to use
 
-Pick grinding whenever the part is hardened past practical cutting-tool range (roughly 45-50 HRC and up), or the drawing demands tolerances tighter than about plus or minus 0.005 mm or finishes below 0.4 micrometers Ra. Typical parts are bearing surfaces, dies, gauges, and cutting tools. Centerless grinding turns it into a genuine high-volume process for small cylindrical parts. Don't use it for bulk stock removal. The usual sequence is to machine soft, heat treat, then grind the last tenths of a millimeter (creep-feed grinding of superalloy slots is the notable exception). If the geometry is simple, hard turning with CBN now covers some of the same work.
+Pick grinding whenever the part is hardened past practical cutting-tool range (roughly 45–50 HRC and up), or the drawing demands tolerances tighter than about ±0.005 mm or finishes below 0.4 micrometers Ra. Typical parts are bearing surfaces, dies, gauges, and cutting tools. Centerless grinding turns it into a genuine high-volume process for small cylindrical parts. Don't use it for bulk stock removal. The usual sequence is to machine soft, heat treat, then grind the last tenths of a millimeter (creep-feed grinding of superalloy slots is the notable exception). If the geometry is simple, hard turning with CBN now covers some of the same work.
+
+## Key numbers
+
+Tolerances ±0.002–0.005 mm · surface finish 0.1–0.4 µm Ra, down to 0.05 µm with fine wheels · works above 45–50 HRC, where cutting tools stop · leave 0.05–0.5 mm of stock for the grind · wheel speeds 30–60 m/s, and 100 m/s and up with CBN · centerless machines run hundreds of small parts per hour.
 
 ## Examples
 

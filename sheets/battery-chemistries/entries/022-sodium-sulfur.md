@@ -19,11 +19,19 @@ The active materials are cheap and abundant, cells deliver 4,500+ deep cycles at
 ## When to use
 Consider Na-S only for utility-scale, 4–8 hour storage cycled daily, since that continuous duty keeps the 300 °C stack warm on its own losses. In practice that also means buying through NGK's established supplier relationship, where two decades of fielded fleet data reduce the risk of the ceramic-tube failure mode. Avoid it for intermittent or standby duty, where heating losses ruin the economics, and for new greenfield procurement, where LFP containers now underbid it. People buy this chemistry for its track record, not for where its costs are headed.
 
+## Key numbers
+Operating temperature 300–350 °C · nominal cell voltage about 2.0 V · specific energy roughly 100–150 Wh/kg at the module · 4,500+ deep cycles over a 15-year design life · rated discharge duration 6 hours · round-trip efficiency roughly 75–85% before standby heating.
+
 ## Examples
 NGK Insulators systems: hundreds of MW deployed for Japanese utilities, Abu Dhabi's 108 MW/648 MWh virtual plant — long the world's largest battery installation; BASF Stationary Energy Storage partnership.
 
 ## Economic profile
 Levelized economics for 4–8 hour daily cycling are proven, but the technology never got a cost curve. There's one dominant supplier, ceramic-tube manufacturing that resisted scaling, and now competition from LFP containers that keep getting cheaper. It's a useful case study in how an early lead in long-duration storage doesn't survive a rival's learning curve.
+
+## Videos
+
+- https://www.youtube.com/watch?v=kiidgPFzBpQ — Lab tour through the sodium battery technology center at Fraunhofer IKTS site Hermsdorf (Fraunhofer IKTS, 10 minutes, 1k+ views)
+- https://www.youtube.com/watch?v=dPLeRy8unrw — S&C Builds 1-MW NaS Battery Energy Storage System (S&C Electric Company, 6 minutes, 5k+ views)
 
 ## Further reading
 

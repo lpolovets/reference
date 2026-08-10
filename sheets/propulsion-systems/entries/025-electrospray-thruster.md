@@ -28,6 +28,12 @@ Busek colloid thrusters on NASA's ST7 payload aboard LISA Pathfinder, Accion Sys
 ## Economic profile
 This is a startup-heavy segment aimed at the smallsat market, where the competition is not other electric thrusters but doing without propulsion at all. Unit prices in the tens of thousands of dollars make propulsion viable on spacecraft that previously flew ballistic. The commercial risk is that Hall thrusters keep scaling down: sub-100 W Hall units have improved, and if they reach acceptable efficiency they will take much of the addressable market on heritage alone.
 
+## Videos
+
+- https://www.youtube.com/watch?v=X5Yt0uJTUyg — A New Way to Move Tiny Spacecraft | Electrospray Propulsion (SciShow Space, 5 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=nuBet1MQmfk — MIT's electric thruster can allow us to explore deep space | Hard Reset (Freethink, 14 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=zzbBLm1nsUA — All you need to know about ENPULSION's FEEP Technology and Thrusters (ENPULSION, 4 minutes, 10k+ views)
+
 ## Further reading
 
 [NASA Glenn Electrospray Activities Overview (NASA Technical Reports Server)](https://ntrs.nasa.gov/citations/20190026649) · [LISA Pathfinder (NASA Science)](https://science.nasa.gov/mission/lisa-pathfinder/)

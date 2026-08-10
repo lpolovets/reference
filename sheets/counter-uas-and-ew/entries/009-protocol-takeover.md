@@ -19,6 +19,9 @@ Landing a drone intact is the best possible outcome for law enforcement and site
 ## When to use
 Use protocol takeover for civil site protection — airports, prisons, stadiums, critical infrastructure — where the drones are overwhelmingly commercial models and where a controlled landing is far preferable to any kinetic effect. In a military context against purpose-built or improvised drones it will rarely apply. Check the supported-model list against the actual threat before buying, and treat library currency as a subscription cost rather than a one-time purchase.
 
+## Key numbers
+System cost $200k–1M, plus a subscription for library updates · coverage limited to the protocols in the supported-model list, which is almost entirely commercial types · zero debris and no falling rounds · the drone lands intact, so its flight logs give the operator's launch point · encrypted and authenticated links defeat it outright.
+
 ## Limits and failure modes
 Unsupported models are unaffected, which in a military context is most of them. Firmware updates from manufacturers close the vulnerabilities used, so effectiveness decays without continuous development. Encrypted and authenticated links, which the major manufacturers have moved toward, defeat the approach. Legal authority to take control of an aircraft is restricted in most countries even for government users.
 
@@ -27,6 +30,12 @@ D-Fend Solutions EnforceAir, which is the best-known system of this type and is 
 
 ## Economic profile
 This is a niche with a strong civil market, because it is the only defeat mechanism acceptable in most populated environments. Systems cost $200k–1M and are sold with continuing library updates. The business is structurally similar to antivirus software: value depends on keeping pace with an adversary that updates, and the moat is the research pipeline rather than the hardware.
+
+## Videos
+
+- https://www.youtube.com/watch?v=ElWooStxQpo — The EnforceAir Anti-Drone System: Control the Drone to Control the Threat (D-Fend Solutions, 2 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=4F0T7_sB_Ss — DJI Drone Hacking Using Software Defined Radio ANTSDR E200 (Tech Minds, 6 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=LfZh-yGo6IM — EnforceAir2 Next-Generation RF Cyber-Takeover Anti-Drone System Highlights Video (D-Fend Solutions, 2 minutes, 5k+ views)
 
 ## Further reading
 

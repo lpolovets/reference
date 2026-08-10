@@ -18,7 +18,11 @@ Joins many surface-mount components simultaneously. Warpage, oxidation, voids, t
 
 ## When to use
 
-Reflow is the default soldering step for any surface-mount board, because every joint forms in one oven pass. Thermal profiling is the main engineering effort, and lead-free peaks around 245–250°C set what the components have to survive. Use wave or selective soldering when through-hole connectors dominate the board, hand or hot-air work for prototypes and rework, and vapor phase or vacuum reflow when void-sensitive power or RF parts require it.
+Reflow is the default soldering step for any surface-mount board, because every joint forms in one oven pass. Thermal profiling is the main engineering effort, and lead-free peaks around 245–250 °C set what the components have to survive. Use wave or selective soldering when through-hole connectors dominate the board, hand or hot-air work for prototypes and rework, and vapor phase or vacuum reflow when void-sensitive power or RF parts require it.
+
+## Key numbers
+
+Peak temperature 245–250 °C for lead-free alloys, which melt around 217 °C · 60–90 seconds above melting and 4–6 minutes total through the oven · ramp rates 1–3 °C/s with a 150–200 °C soak for 60–120 seconds · 7–12 heating zones at conveyor speeds 0.5–1.5 m/min · BGA voiding accepted to about 25% of ball area under IPC-A-610 · ovens $30k–150k.
 
 ## Examples
 

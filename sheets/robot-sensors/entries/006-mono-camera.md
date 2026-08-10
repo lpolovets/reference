@@ -19,6 +19,9 @@ Semantic richness is unmatched, the sensors are tiny, cheap, and passive, the ec
 ## When to use
 Put cameras on essentially everything. They are the only sensor that delivers semantics (reading labels, classifying objects, feeding learned policies), and at $2–20 the sensor cost is never the objection. Choose camera-primary stacks when the task is recognition-heavy, the BOM is tight, and you can fund the real cost, which is GPU compute and data pipelines. Avoid relying on monocular vision as the sole geometric sensor where wrong depth is a safety event: night operation, out-of-distribution scenes, metric-critical manipulation. In those cases add stereo, ToF, or LiDAR for measured geometry, unless you are deliberately making the camera-only model-progress bet with eyes open.
 
+## Key numbers
+Resolution typically 1–12 MP · frame rate 30–60 fps, higher on global-shutter industrial parts · dynamic range around 70 dB standard and up to 120 dB on HDR automotive sensors · field of view 60–120° depending on lens · sensor power draw roughly 0.5–2 W · unit cost $2–20, with interpretation compute 50–100× the sensor price.
+
 ## Failure modes
 Glare, low sun, and tunnel exits swing the dynamic range past what the sensor can hold. Darkness defeats the camera unless you add illumination. Motion blur shows up at control-relevant speeds. Lens contamination is the number-one issue in fleets. Vibration produces rolling-shutter distortion. Learned depth hallucinates on out-of-distribution scenes, and confidently wrong geometry is the signature failure of this modality. Adversarial and spoofing edge cases are also a concern.
 
@@ -27,6 +30,12 @@ Tesla's eight-camera Autopilot suite (the camera-only flagship), every drone (DJ
 
 ## Economic profile
 Sensor cost is a rounding error; compute and data pipelines are the spend. The camera-only versus fusion argument is at heart a bet that model progress outruns the cost of the sensors it replaces. Even fusion stacks are camera-first for semantics, so cameras are central either way. The open question is whether they're sufficient on their own.
+
+## Videos
+
+- https://www.youtube.com/watch?v=FKJFIzDfUNE — Image Sensors Explained: How CCD and CMOS Sensors works? CCD vs CMOS (ALL ABOUT ELECTRONICS, 9 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=nsPvcX-_4KU — Types of Image Sensors | Image Sensing (First Principles of Computer Vision, 11 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=dNVtMmLlnoE — Why Do Cameras Do This? | Rolling Shutter Explained - Smarter Every Day 172 (SmarterEveryDay, 7 minutes, 1m+ views)
 
 ## Further reading
 

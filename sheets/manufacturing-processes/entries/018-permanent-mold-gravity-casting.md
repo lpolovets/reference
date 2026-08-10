@@ -20,6 +20,10 @@ Provides better consistency, finish, and mechanical properties than sand casting
 
 Use permanent-mold casting for aluminum or magnesium parts in roughly the 1,000 to 100,000 per year band. In that range the finish, tolerances, and mechanical properties are better than sand casting, the tooling costs a fraction of a die-cast cell, and the parts stay fully heat-treatable. Below that volume you won't recover the mold cost, so stay with sand casting. Above it, or if your walls are under about 3 mm, use high-pressure die casting instead. Ferrous alloys are generally not an option here.
 
+## Key numbers
+
+Minimum wall about 3 mm · linear tolerance roughly ±0.25–0.5 mm · as-cast surface Ra 3.2–6.3 µm · cycle time 2–10 minutes per mold · mold life 20,000–100,000 shots · tooling $40,000–200,000 at 8–16 week lead time · economical from about 1,000 to 100,000 parts a year.
+
 ## Examples
 
 Aluminum wheels, pistons, cookware, brackets, housings.

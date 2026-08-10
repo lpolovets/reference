@@ -20,6 +20,10 @@ Produces dense, strong parts with low porosity. Equipment, dies, and process dev
 
 Reserve squeeze casting for safety- and fatigue-critical aluminum parts (suspension arms, knuckles, pistons) that need forging-like density and full heat-treat response in a geometry that's too complex or too costly to forge. Your volumes need to be high enough to cover the dies plus the process development that the narrow operating window requires. If ordinary casting integrity is good enough, use LPDC. If the shape can be forged, closed-die forging often gets you the same properties for less money.
 
+## Key numbers
+
+Applied pressure 50–150 MPa held through solidification · porosity typically under 1%, low enough for full T6 heat treatment · elongation 5–15% in aluminum, against 1–3% from conventional high-pressure die casting · cycle time 1–3 minutes · part weight usually 0.5–20 kg · tooling $200,000–800,000.
+
 ## Examples
 
 Pistons, wheels, suspension components, aerospace aluminum parts.

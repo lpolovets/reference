@@ -17,11 +17,19 @@ There's no sodium-style fire risk, no intermediate loop is needed, natural circu
 ## When to use
 Right now this is an investment thesis rather than something you can buy. Back an LFR if you believe corrosion control in lead is an oxygen-chemistry engineering problem that BREST-OD-300 and loop programs will solve, and you want fast-spectrum benefits without paying for sodium-fire mitigation in the plant. A newcleo-style venture is fundamentally a European plutonium-disposition play, so diligence the fuel-cycle politics as hard as the metallurgy. If you need a fast reactor on a committed schedule, go with sodium instead, since it has the operating fleet and the reactor-years.
 
+## Key numbers
+Electric output 200–300 MWe on current designs, 700 MWt at BREST-OD-300 · molten lead or lead-bismuth coolant at atmospheric pressure, no moderator · lead melts at 327 °C and boils at 1,749 °C · outlet around 535 °C · mixed nitride or MOX fuel carrying plutonium · the only operating history is the Soviet Alfa-class submarine reactors of the 1970s and 1980s.
+
 ## Examples
 Russia's BREST-OD-300 under construction at Seversk (the world's first purpose-built civilian LFR, tied to an on-site closed fuel-cycle complex); newcleo (UK/France/Italy, lead-cooled mini-reactors with MOX ambitions); Westinghouse's LFR concept; Belgium's MYRRHA accelerator-driven lead-bismuth research machine.
 
 ## Economic profile
 The pitch is SFR benefits without paying for sodium fire protection, in exchange for materials risk that only reactor-years can settle. BREST's completion will be the field's proof point. Private ventures (newcleo has raised close to a billion) are effectively selling European plutonium-disposition policy plus lead physics, so they're fuel-cycle businesses more than reactor businesses.
+
+## Videos
+
+- https://www.youtube.com/watch?v=8Z48USLxfRg — The LeadCold Revolution (Janne Wallenius, 7 minutes, 5k+ views)
+- https://www.youtube.com/watch?v=IbxK5Td80vo — Introducing newcleo’s LFR-TL-40 reactor (newcleo, 1 minute, 10k+ views)
 
 ## Further reading
 

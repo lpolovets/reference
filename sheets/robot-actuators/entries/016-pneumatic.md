@@ -7,7 +7,7 @@ applications: [arm, soft]
 density: med
 backdrive: exc
 precision: coarse
-cost: vlow
+cost: low
 ---
 
 ## Description
@@ -19,6 +19,9 @@ Pneumatics is very cheap and fast (full stroke in tens of milliseconds), intrins
 ## When to use
 Use pneumatics for binary motion against mechanical stops at high cycle rates: clamp, eject, sort, gripper open and close. It fits wherever plant air already exists and the axis has to cost tens of dollars, survive washdown, or sit in an explosive atmosphere. Compressibility helps at the gripper, where it gives intrinsic compliance and overload safety, and hurts everywhere else. Avoid pneumatics for mid-stroke position or force control, for anything untethered (the compressor is part of the system), and on energy-audited lines where 10–20% wall-to-work efficiency draws scrutiny. If the motion needs a trajectory rather than two endpoints, a servo-electric gripper or axis is the upgrade.
 
+## Key numbers
+Line pressure 6–8 bar · cylinder force roughly 200 N to 2 kN across common 20–63 mm bores · full stroke in tens of milliseconds · compressor-to-work efficiency 10–20% · repeatability mm-class, and only at the end stops · cylinder plus valve costs tens of dollars per axis.
+
 ## Examples
 SMC and Festo's entire catalogs (a $10B+ duopoly-adjacent industry), every injection-molding sprue picker and packaging line, gripper open/close on countless robot arms, soft-robotics research (air is the usual power source for soft actuators; see the McKibben entry).
 
@@ -27,6 +30,12 @@ Pneumatics has the lowest cost per motion in automation, and the compressor's in
 
 ## Suppliers
 [SMC](https://www.smcworld.com/) — the pneumatics volume leader · [Festo](https://www.festo.com/) — pneumatic and electric automation components
+
+## Videos
+
+- https://www.youtube.com/watch?v=hmz1h5fk2bI — Pneumatic Cylinder Working explained (Animation) (TecknoMechanics, 4 minutes, 1m+ views)
+- https://www.youtube.com/watch?v=bXXL-0sf8gs — Directional Control Valve Working Animation | 5/2 Solenoid Valve | Pneumatic Valve Symbols Explained (Upmation, 6 minutes, 1m+ views)
+- https://www.youtube.com/watch?v=lBARBZNLxQI — How a Industrial Pneumatic Systems Works And The Five Most Common Elements Used (RG Group PA, 8 minutes, 500k+ views)
 
 ## Further reading
 

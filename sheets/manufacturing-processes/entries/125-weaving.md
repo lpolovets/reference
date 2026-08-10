@@ -20,6 +20,10 @@ Creates stable, strong textiles. Usually provides less stretch and conformabilit
 
 Weave when the fabric must hold its shape and carry load (upholstery, belting, airbags, tarpaulins, 0/90 composite reinforcement) and when you want high loom throughput at commodity cost. If you need stretch, drape, or seamless three-dimensional shapes, use knitting instead. If the product is disposable and cost per square meter is the only metric that matters, use nonwovens.
 
+## Key numbers
+
+Air-jet looms run 1,000–1,500 picks per minute and rapier looms 500–700 · loom width usually 1.5–3.6 m, wider for technical fabric · fabric weight 100–1,000 g/m² · output roughly 30–60 m per loom-hour at 10–20 picks per cm · looms $50k–150k each · warp changeover takes hours, so economical runs start in the hundreds of meters.
+
 ## Examples
 
 Clothing, upholstery, industrial belts, composite reinforcement.

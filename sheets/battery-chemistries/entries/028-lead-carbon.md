@@ -19,11 +19,19 @@ Partial-state-of-charge cycle life is roughly an order of magnitude better than 
 ## When to use
 Pick lead-carbon for partial-state-of-charge duty (solar smoothing, hybrid buffering, behind-the-meter storage) in markets where lead's recycling value, permitting ease, and familiar suppliers outweigh footprint, and where standard lead-acid would sulfate in months. Qualify the specific vendor's cells rather than the category, because carbon integration varies widely. Avoid it where space or weight is tight, or where project finance runs on $/kWh-cycle over 15+ years. In those cases LFP's falling prices make it the better choice, and that gets a little more true every year.
 
+## Key numbers
+Specific energy 30–40 Wh/kg · 3,000–5,000 cycles in partial-state-of-charge duty, roughly ten times plain lead-acid · carbon at about 1–3% of the negative active material · charge acceptance several times that of a standard lead plate · designed to live in a 30–70% state-of-charge window.
+
 ## Examples
 Ecoult/East Penn UltraBattery (hybrid rail and wind-smoothing projects), Narada and Shoto lead-carbon strings in Chinese telecom and behind-the-meter storage, microgrid installations in developing markets.
 
 ## Economic profile
 This is the lead industry's strongest offering for stationary storage. It comes with familiar suppliers, bankable recycling value, and no fire-code friction. It stays viable where capital cost, safety codes, or recycling infrastructure outweigh footprint, but the window narrows every year LFP gets cheaper.
+
+## Videos
+
+- https://www.youtube.com/watch?v=05sHA1OLZqw — Lead carbon battery - ultrabattery (Cayrex, 19 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=nEp0p2duZ1E — John Wood CEO of Ecoult with their UltraBattery (Smart Energy Lab, 8 minutes, 1k+ views)
 
 ## Further reading
 

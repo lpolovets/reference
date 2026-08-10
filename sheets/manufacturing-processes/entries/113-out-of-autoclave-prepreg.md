@@ -20,6 +20,10 @@ Skipping the autoclave lowers capital cost and loosens part-size constraints. Vo
 
 Pick OOA prepreg when you want near-autoclave laminate quality without owning an autoclave, or when the part is simply too large to fit in one. Typical work includes drone and motorsport structures, aerospace secondary structure, and large one-offs cured in an oven under vacuum bag alone. Keeping voids down takes disciplined debulking and bagging, so if you need certified primary structure with guaranteed sub-1% void content, use an autoclave instead. If the part has no prepreg-level property requirements, vacuum infusion is cheaper still.
 
+## Key numbers
+
+Cure at 80–130 °C under vacuum alone, roughly 1 bar of consolidation · void content typically 1–2% against under 1% from an autoclave · fiber volume fraction 50–60% · ovens $10k–$100k against $1m and up for an autoclave · intermediate debulks every 3–5 plies · part size limited only by the oven, so parts of several meters are routine.
+
 ## Examples
 
 Drone structures, automotive panels, aerospace secondary structures.

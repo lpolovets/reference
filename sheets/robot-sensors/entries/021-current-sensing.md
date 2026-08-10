@@ -19,6 +19,9 @@ It costs nothing, adds no mass, and needs no wiring, because the sensing is soft
 ## When to use
 Use it everywhere it comes free: collision detection, hand-guiding, and coarse contact estimation on any arm. On QDD and other low-gear joints, where external loads actually reach the motor, the force estimates are genuinely useful, which is how quadruped touchdown detection and cobot safety stops work at zero BOM cost. Before trusting it beyond that, measure where the friction floor sits for your transmission. Don't make it your only force sense for delicate low-speed contact, since stiction makes the estimates confidently wrong in exactly that regime, and don't rely on it behind high-ratio gearboxes that bury the signal. If the task needs real force numbers or contact location, pay for a wrist F/T sensor or a tactile sensor.
 
+## Key numbers
+Added BOM cost zero · torque estimates at the 1 kHz servo rate, off a current loop running at 10–40 kHz · force resolution roughly an order of magnitude below a wrist F/T sensor · friction floor a few percent of rated torque on quasi-direct-drive joints, 20–30% behind a high-ratio gearbox · collision-detection latency typically 5–20 ms · coverage at every joint rather than only the wrist.
+
 ## Failure modes
 Friction hysteresis and stiction generate force estimates that are confidently wrong at low speeds, which is exactly where delicate contact happens. Unmodeled payloads bias everything. Temperature-dependent motor constants drift the calibration mid-shift. Gearbox wear changes the friction model over fleet life. Collision detection tuned tight enough to be safe will false-trigger on aggressive motion, and that sensitivity-versus-uptime trade never goes away.
 
@@ -27,6 +30,11 @@ Universal Robots' collision detection and freedrive, Franka's blended joint-torq
 
 ## Economic profile
 This is what compresses margins across the force-sensing market, because free and adequate competes hard with expensive and precise. Its ceiling is set by physics, since friction masks the signal, so the market settles into layers: current sensing for safety and coarse contact everywhere, dedicated F/T and tactile sensors where precision pays. When doing diligence on a "sensor-light" robot pitch, ask exactly where the friction floor sits for their transmissions.
+
+## Videos
+
+- https://www.youtube.com/watch?v=STdONYFI2C4 — Motor Torque, Speed and Current (AURA Robotics, 7 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=ecSQZlNda6g — MIT Mini Cheetah Actuator (Skyentific, 17 minutes, 100k+ views)
 
 ## Further reading
 

@@ -20,6 +20,10 @@ Requires no filler and is highly automatable. Mainly suits sheet, often needs tw
 
 Resistance spot welding is the automatic choice for lap-joined steel sheet at automotive volumes. Cycles run under a second, no filler or shielding gas is needed, robots handle it easily, and a single car body takes thousands of welds. Seam welding extends the same idea to liquid-tight containers. The process needs two-sided access and overlapping flanges, so if you have single-sided joints, thick sections, or butt joints, use arc or laser welding instead. Laser is also the answer when flange width has to shrink or the joint has to be invisible.
 
+## Key numbers
+
+Weld time 0.2–1 second per spot · current 5–15 kA on steel and 20–40 kA on aluminum, at 2–5 kN electrode force · nugget diameter 4–7 mm, roughly 4 to 5 times the square root of sheet thickness in mm · sheet 0.5–3 mm per layer · electrode tips last 2,000–10,000 welds between dressings · 3,000–5,000 spots in a typical car body.
+
 ## Variants
 
 ### Spot welding

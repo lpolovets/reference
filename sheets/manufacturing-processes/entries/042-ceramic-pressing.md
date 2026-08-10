@@ -20,6 +20,10 @@ Produces consistent, high-volume parts. Undercuts, major thickness variation, an
 
 Choose die pressing for simple, prismatic ceramic parts at high volume (tiles, substrates, cutting inserts, seal faces), where uniaxial compaction and sintering give the lowest unit cost. Switch to isostatic pressing when you need uniform density, or for elongated shapes such as tubes and rods. Avoid undercuts, large thickness variation, and delicate features, which press poorly and crack in sintering. If the shape is complex and hollow, use slip casting instead; if the parts are fine and intricate, use ceramic injection molding.
 
+## Key numbers
+
+Uniaxial compaction at 50–200 MPa, cold isostatic pressing at 100–400 MPa · length-to-diameter under about 2–3 for uniaxial pressing before density gradients show up · sintering shrinkage 12–20% linear · as-fired tolerance roughly ±1–2%, down to ±0.01 mm if you grind after firing · carbide die sets $5,000–30,000 · press rate 10–100 small parts per minute.
+
 ## Examples
 
 Tiles, cutting inserts, electronic substrates, insulators, wear parts.

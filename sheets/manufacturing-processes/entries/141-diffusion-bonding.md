@@ -20,6 +20,10 @@ Creates high-integrity low-distortion joints and complex laminated structures. S
 
 Reserve diffusion bonding for joints that have to be metallurgically invisible, or for parts that contain thousands of joints buried inside them: stacked-plate microchannel heat exchangers and printed-circuit heat exchangers, titanium SPF/DB aerostructures, and nuclear hardware. It fits low volumes where you can afford hours at temperature under press or HIP load. Success depends mostly on how well the surfaces are prepared, so budget time for that. For ordinary dissimilar or multi-joint assemblies, brazing gets you most of the benefit at a fraction of the cost and time.
 
+## Key numbers
+
+Bonding temperature 50–80% of the material's absolute melting point, around 900 °C for titanium · pressure 1–10 MPa in a press and 100–200 MPa under hot isostatic pressing · hold time 1–4 hours at temperature · mating surfaces prepared to about 0.4 µm Ra and kept clean · joint strength within roughly 10% of parent metal · printed-circuit heat exchanger channels 1–2 mm wide, stacked hundreds of plates deep.
+
 ## Examples
 
 Aerospace heat exchangers, titanium structures, nuclear components.

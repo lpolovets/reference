@@ -28,6 +28,12 @@ NASA's NSTAR on Deep Space 1 and Dawn, NEXT-C on DART, Hughes/Boeing XIPS on 702
 ## Economic profile
 Electric propulsion changed satellite economics more than any other propulsion technology of the past 30 years, because it converts propellant mass into payload or launch-cost savings. All-electric GEO platforms launch at roughly half the wet mass of chemical equivalents. Xenon supply is a real constraint — it is a byproduct of air separation, produced in small quantities, and prices have spiked when demand rose — which has pushed several operators toward krypton at a modest performance penalty. Thruster cost is modest; the power processing unit and solar array are where the money goes.
 
+## Videos
+
+- https://www.youtube.com/watch?v=5OFgJwdZxRc — Crazy Engineering: Ion Propulsion and the Dawn Mission (NASA Jet Propulsion Laboratory, 4 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=0Kl-vromzaQ — NASA’s Evolutionary Xenon Thruster (NEXT) | Gridded Ion Thruster (NASA Glenn Research Center, 1 minute, 100k+ views)
+- https://www.youtube.com/watch?v=VmoyUQPETK8 — How Gridded Ion Thrusters REALLY Work (The World's Most Efficient Space Engines) (Science Workshop, 4 minutes, 10k+ views)
+
 ## Further reading
 
 [Electric propulsion research (NASA Glenn Research Center)](https://www1.grc.nasa.gov/space/electric-propulsion/) · [Development Status and Performance Metrics of the Advanced NEXT Ion Propulsion System (NASA Technical Reports Server)](https://ntrs.nasa.gov/citations/20250008559)

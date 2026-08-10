@@ -19,11 +19,20 @@ The electrolyte is dirt-cheap, non-toxic, and non-flammable, there are no critic
 ## When to use
 Pick all-iron flow for long-duration stationary projects where electrolyte cost, toxicity, and permitting friction dominate the decision, which usually means sites that would fight lithium fire codes or vanadium price exposure, and where ~70% efficiency and a generous footprint are priced in. Underwrite the vendor as hard as the chemistry: balance-of-plant drives system cost more than the electrolyte does, and ESS's financial distress shows the survival risk. If you need bankable flow storage today, use VRFB, and if your duration is under ~6 hours, use LFP.
 
+## Key numbers
+Cell voltage about 1.2 V · round-trip efficiency around 70% · duration 4–12 hours in shipped products · usable energy density low even by flow standards, roughly 10–20 Wh/L · electrolyte cost in the low tens of dollars per kWh, since iron chloride is a steel-industry byproduct · cycle life quoted above 20,000 cycles with electrolyte rebalancing.
+
 ## Examples
 ESS Inc. Energy Warehouse and Energy Center products (SB Energy and utility deployments, though the company's 2025 financial distress underscores sector risk); academic all-iron programs (Case Western lineage).
 
 ## Economic profile
 All-iron flow is the purest "cheapest possible molecule" thesis in storage. If engineering costs (stacks, pumps, controls) can be driven down with volume, iron flow undercuts everything on long-duration capacity cost. Today the balance-of-plant dominates system cost rather than the electrolyte, which is the same trap that caught earlier flow ventures.
+
+## Videos
+
+- https://www.youtube.com/watch?v=_TnuQdfdI3Y — ESS Iron Flow Battery Technology Explainer Video (ESS Tech, Inc., 3 minutes, 5k+ views)
+- https://www.youtube.com/watch?v=mu6mZZuPdpI — This iron flow battery could power a more renewable grid (Grist, 7 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=HmtI8Wat7rY — Battery Fueled by Iron and Water Could Transform the Power Grid (The Good Stuff, 9 minutes, 100k+ views)
 
 ## Further reading
 

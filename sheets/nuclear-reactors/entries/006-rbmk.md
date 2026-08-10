@@ -17,11 +17,20 @@ The RBMK offered on-power refueling, no enrichment-heavy fuel demands, and no gi
 ## When to use
 There's no deployment case. The design can't be licensed outside its legacy Russian fleet, and it exits with the 2030s retirements. Today it's useful mainly as a reference point: it's the benchmark that every "inherent safety" claim gets priced against, and the case study in how a positive void coefficient compounds with institutional secrecy. If you actually want a channel-type reactor with on-power refueling, look at the CANDU lineage instead.
 
+## Key numbers
+Electric output 1,000 MWe per unit from 3,200 MWt, and 1,500 MWe at Ignalina · light water coolant boiling in pressure tubes at about 70 bar, graphite moderator · outlet around 284 °C for roughly 31% thermal efficiency · UO2 fuel at 2–2.8% enrichment · on-power refueling, and no containment building · 7 units still operating, all retiring through the 2030s.
+
 ## Examples
 Chernobyl (all units closed, 1986–2000); Leningrad, Kursk, and Smolensk units in Russia — seven still operating with lifetime extensions, retiring through the 2030s as VVER-1200s replace them.
 
 ## Economic profile
 The RBMK has no commercial future, so its relevance is analytical. It's the cautionary entry in any reactor comparison: a design that was cheap because it gave up safety margin, run by an institution that couldn't admit the flaw. Every modern "inherent safety" pitch (passive decay heat, negative coefficients everywhere) is implicitly priced against this history.
+
+## Videos
+
+- https://www.youtube.com/watch?v=vDPh1JA72nk — RBMK Reactors - Design Overview | The Nuclear Reactor that was used in Chernobyl (Antares, 13 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=PhZxnRPJY_8 — RBMK reactor (Chernobyl) - How it works (Energy Encyclopedia, 4 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=8OlB3JmMLgk — RBMK: The Soviet Reactor That Was Doomed from the Start | Chornobyl Uncharted Ep 04 (Chornobyl Family, 13 minutes, 500k+ views)
 
 ## Further reading
 

@@ -7,7 +7,7 @@ roles: [isr, log]
 endurance: [hours, day]
 payload: [small, med]
 autonomy: sup
-cost: med
+cost: high
 ---
 
 ## Description
@@ -19,6 +19,9 @@ Operating from anywhere is the point: a small ship's deck, a clearing, a road. T
 ## When to use
 Pick tactical VTOL where the operating site cannot support conventional launch and recovery and the mission needs more than a small drone can deliver: small-deck maritime operations, expeditionary units, and forward resupply. If a runway or a catapult is available, a conventional Group 3 aircraft gives more endurance and payload per dollar. For pure cargo missions, compare against ground resupply seriously — an uncrewed helicopter delivering 200 kg is impressive but often more expensive per tonne than a truck when the route is passable.
 
+## Key numbers
+Gross weight 100–600 kg · endurance 6–16 hours · payload 25–150 kg · cargo variants around 200 kg · unit cost $1–15M, rotary designs at the high end.
+
 ## How it is countered
 The same air defense and electronic warfare counters as other Group 3 systems apply. The hover phases during takeoff and landing are acoustically and visually conspicuous, and they are also the least recoverable part of the flight if a lift unit fails. Cargo variants flying predictable routes to known positions are straightforward to ambush, which is a tactical planning issue rather than a technical vulnerability.
 
@@ -27,6 +30,12 @@ Northrop Grumman MQ-8C Fire Scout, Schiebel Camcopter S-100, UMS Skeldar V-200, 
 
 ## Economic profile
 Aircraft costs run $1–15M depending on size and payload, with rotary designs at the high end. Naval demand drives much of the market, since navies want organic aviation on ships too small for a helicopter. The uncrewed cargo segment has struggled commercially because the economics rarely beat ground transport except in genuinely contested or inaccessible conditions, which is a smaller market than early forecasts assumed.
+
+## Videos
+
+- https://www.youtube.com/watch?v=dL-DVJhbw0c — JUMP 20 VTOL Fixed-Wing Medium Unmanned Aircraft System | Explainer Video (AV, 4 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=oprzjTiL7Wk — Latest on Shield AI's MQ-35 V-BAT drone and Hive Mind AI autonomy software. (TWZ, 8 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=jQ4X7Y2ydS0 — Kaman K-MAX Helicopter • Cargo Resupply Unmanned Aircraft (Gung Ho Vids, 4 minutes, 10k+ views)
 
 ## Further reading
 

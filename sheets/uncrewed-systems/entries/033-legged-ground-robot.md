@@ -19,6 +19,9 @@ Mobility over terrain that defeats tracked robots is the unique capability, and 
 ## When to use
 Use legged robots where the terrain genuinely requires legs: stairs, rubble, industrial plant with catwalks and obstacles, and tunnels. If the ground is drivable, a tracked or wheeled robot does the job for a fraction of the cost with better endurance. If the task is aerial observation, a small drone is cheaper and faster. The honest assessment is that legged robots have found solid commercial footing in industrial inspection, where the routes are fixed and the value of avoiding a human visit is clear, and a narrower military niche than early enthusiasm suggested.
 
+## Key numbers
+Mass 30–70 kg · payload 10–15 kg · endurance 60–150 minutes per battery · walking speed 1–3 m/s · unit cost $75k–150k for Western platforms, a few thousand dollars for Chinese quadrupeds.
+
 ## How it is countered
 Small arms disable them. Radio links fail underground and inside structures, which is where they are most wanted, so tethered or relay-based operation is common. Short endurance limits mission length. Their noise and gait make them conspicuous. Terrain that is genuinely hostile — deep mud, loose sand, ice — remains difficult for legs as well as for wheels.
 
@@ -27,6 +30,12 @@ Boston Dynamics Spot, Ghost Robotics Vision 60 used for base perimeter patrol by
 
 ## Economic profile
 Chinese manufacturers have driven quadruped prices down by roughly an order of magnitude, with capable platforms available for a few thousand dollars against $75k+ for Western equivalents. That has expanded experimentation enormously while creating the same supply-chain concern as small drones. The durable commercial market is industrial inspection with a clear return on avoided human site visits; the military market remains smaller and focused on base security and hazardous reconnaissance.
+
+## Videos
+
+- https://www.youtube.com/watch?v=tfWbE_1eCZk — Boston Dynamics Spot Robot | All of its Engineering SECRETS! (Sabin Civil Engineering, 8 minutes, 5m+ views)
+- https://www.youtube.com/watch?v=R-PdPtqw78k — How Boston Dynamics' Spot Robot Works! (Adam Savage’s Tested, 20 minutes, 1m+ views)
+- https://www.youtube.com/watch?v=RdDERZeghR0 — MILITARY TECH: Ghost Robotics VISION 60 Q-UGV Ground Robot (Media Magik Entertainment, 3 minutes, 10k+ views)
 
 ## Further reading
 

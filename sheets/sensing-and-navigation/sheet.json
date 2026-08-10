@@ -116,8 +116,10 @@
       "options": { "vlow": "<$10k", "low": "$10k–100k", "med": "$100k–1M", "high": "$1M–10M", "vhigh": "$10M+" }
     }
   ],
+  "videosAfter": "Economic profile",
   "extraSections": [
     ["when to use", "When to use"],
+    ["key numbers", "Key numbers"],
     ["how it is defeated", "How it is defeated"],
     ["examples", "Examples"],
     ["economic profile", "Economic profile"],

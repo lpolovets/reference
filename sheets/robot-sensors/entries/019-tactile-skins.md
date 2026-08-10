@@ -19,6 +19,9 @@ Skins give you contact location and pressure distribution that vision can't prov
 ## When to use
 Pick tactile arrays when the task is decided by information vision loses at the moment of grasp: slip onset on variable objects, contact location in clutter, grasp verification on deformable items. They also make sense for whole-body contact sensing on robots that work around people. Humanoid fingertips are the canonical case, at hundreds of dollars per finger with consumable-replacement economics. If you're running a cost- and uptime-driven industrial cell handling known objects, use a parallel jaw with current feedback or a wrist F/T sensor instead. Those give you the signal you need without a wear surface whose calibration drifts, and without a vendor-fragmented integration project.
 
+## Key numbers
+Taxel counts from a few dozen on a fingertip to thousands across a body skin · taxel pitch typically 1–5 mm · per-taxel force range roughly 0.1–10 N · update rate 100 Hz to 1 kHz · unit cost in the hundreds of dollars per finger, with the contact surface a consumable.
+
 ## Failure modes
 Contact surfaces wear through and delaminate, so fingertip skins are consumables. Creep and hysteresis in the elastomer layers corrupt force readings. Taxels drop out as flex-cycle wiring fatigues. Temperature sensitivity gets misread as contact. High-impedance sensing lines pick up EMI. Sensitivity drifts gradually, which degrades grasp policies trained on fresh sensors without any obvious symptom.
 
@@ -27,6 +30,12 @@ Tesla Optimus and Figure fingertip arrays, Sanctuary's touch-enabled hands, pres
 
 ## Economic profile
 This was a research cottage industry for a long time, and humanoid demand is now pulling it toward real products, starting with fingertips at $100s per finger and consumable-replacement economics (good for vendors, a recurring cost for fleets). The unsolved product question is standardization. Whoever ships the durable, calibrated, easy-to-integrate "tactile module" that hand makers standardize on gets a strategic component slot.
+
+## Videos
+
+- https://www.youtube.com/watch?v=_E0Uitg4cAo — Tactile Sensor-Enabled Gripping - How it works (Contactile, 3 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=yR8fDoNmO0k — Human-Like Artificial Skin Sensor for Physical Human-Robot Interaction (IEEE Spectrum, 2 minutes, 5k+ views)
+- https://www.youtube.com/watch?v=YGUV1dHuCRc — RobotSweater : Fabric Tactile Sensor "Skin" (CMU Robotics Institute, 3 minutes, 5k+ views)
 
 ## Further reading
 

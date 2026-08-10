@@ -19,11 +19,19 @@ Gel has the deepest cycling tolerance of any lead-acid construction, resists str
 ## When to use
 Pick gel for deep-cycle, moderate-rate duty in hot climates (mobility scooters, marine house banks, off-grid solar in Africa and South Asia), where its stratification resistance and heat tolerance beat AGM and the charger can hold voltage within tenths of a volt. Avoid it for engine starting or any high-current load, since its internal resistance is the worst in the family. Also avoid it for new daily-cycled solar installs if the budget allows LFP, whose cycle-life economics now dominate. If you need the high-rate lead-acid case covered, use AGM instead.
 
+## Key numbers
+Specific energy 30–35 Wh/kg · 500–1,000+ cycles at 50% depth of discharge, the best in the lead family · charge voltage 2.30–2.35 V per cell, held within about 0.1 V · continuous discharge limited to roughly 0.2C · holds up in 40–50 °C ambients better than AGM · priced above AGM.
+
 ## Examples
 Wheelchairs and mobility scooters (the classic gel market), solar home systems in Africa and South Asia, marine house banks, telecom sites in hot regions.
 
 ## Economic profile
 Gel is a durable specialty within lead-acid. It's priced above AGM and holds its position mostly through installed-base habits in mobility and off-grid solar. It keeps losing the solar segment to LFP, whose cycle-life economics now dominate anywhere daily cycling occurs.
+
+## Videos
+
+- https://www.youtube.com/watch?v=A3dHEXmiF28 — GEL Battery- A look inside (johnnythefox71, 3 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=3ywopGAXP-I — Best Motorcycle Battery? Lead-Acid v. AGM v. Gel v. Lithium (FortNine, 12 minutes, 500k+ views)
 
 ## Further reading
 

@@ -17,11 +17,20 @@ These systems supply continuous power through lunar nights and dust storms, wher
 ## When to use
 This is a mission-driven government market. Specify a fission surface-power or heat-pipe system when the mission profile rules out solar (lunar night, Mars dust, the outer planets) and RTG power levels of a few hundred watts fall short. If you're an investor, you get exposure through component, fuel, and shielding suppliers rather than mission primes, and the commercial payoff is the terrestrial microreactor crossover (eVinci came out of the Kilopower lineage). If you're planning a program, price cancellation as the dominant risk, because the field's history, DRACO included, is programs dying before flight.
 
+## Key numbers
+Power class runs from 1 kWe (KRUSTY) to about 40 kWe (NASA's Fission Surface Power target), against a few hundred watts electric from an RTG · heat pipes with alkali-metal working fluid replace pumped loops entirely, so there are no moving parts in the cooling path · Stirling conversion runs roughly 25–30% efficient against 6–7% for thermoelectrics · KRUSTY ran 28 hours at full power in 2018 on a highly enriched uranium-molybdenum core · NASA's lunar specification is 40 kWe under 6 t launch mass with a 10-year surface life.
+
 ## Examples
 KRUSTY (1 kWe ground demo), Fission Surface Power program (40 kWe-class lunar unit, industry teams incl. Westinghouse and IX/Intuitive Machines), the Soviet TOPAZ and RORSAT flight heritage, DRACO nuclear-thermal (paused), China/Russia announced lunar-station reactor plans.
 
 ## Economic profile
 This is a government program market rather than a commercial one, but it is strategically load-bearing. Heat-pipe cores, refractory fuels, and compact shielding developed for space flow directly into terrestrial microreactors (eVinci is Kilopower's industrial cousin). For investors the exposure is via component and fuel suppliers rather than missions. For nations it's Artemis-era prestige infrastructure.
+
+## Videos
+
+- https://www.youtube.com/watch?v=fugONNLb9JE — Kilopower: A Gateway to Abundant Power for Exploration (NASA Video, 3 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=m2IiI4UVZP8 — The Problem of Power in Space. NASA's New Kilopower Reactor (Fraser Cain, 13 minutes, 500k+ views)
+- https://www.youtube.com/watch?v=51bwzEO8XCw — Heat Pipe Basics and Demonstration on How a Heat Pipe Works (Advanced Cooling Technologies Inc., 2 minutes, 100k+ views)
 
 ## Further reading
 

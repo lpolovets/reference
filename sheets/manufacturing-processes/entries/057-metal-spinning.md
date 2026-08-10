@@ -18,7 +18,11 @@ Tooling is inexpensive, which suits prototypes and low-volume axisymmetric parts
 
 ## When to use
 
-Pick spinning for round hollow shapes (cones, domes, hemispheres, flanged shells) from one-offs up to a few thousand pieces per year. A mandrel costs hundreds to a few thousand dollars and replaces a deep-draw die costing fifty times that. It scales from cookware diameters to multi-meter tank heads, and it handles thicknesses that conventional presses struggle with. Avoid it for anything non-axisymmetric. If you need sustained volumes above roughly 5,000-10,000 pieces per year, deep drawing or stamping is better on cycle time and consistency.
+Pick spinning for round hollow shapes (cones, domes, hemispheres, flanged shells) from one-offs up to a few thousand pieces per year. A mandrel costs hundreds to a few thousand dollars and replaces a deep-draw die costing fifty times that. It scales from cookware diameters to multi-meter tank heads, and it handles thicknesses that conventional presses struggle with. Avoid it for anything non-axisymmetric. If you need sustained volumes above roughly 5,000–10,000 pieces per year, deep drawing or stamping is better on cycle time and consistency.
+
+## Key numbers
+
+Blank diameters from about 50 mm to 5 m · thickness 0.5–6 mm on manual work, to 25 mm with power spinning · dimensional tolerance ±0.25–1 mm · surface finish Ra 0.4–3.2 µm · mandrels $500–5,000 in wood, aluminum, or steel · cycle 20–60 s on a CNC spinner, minutes per part by hand · economic lot size one-off to roughly 5,000–10,000 pieces a year.
 
 ## Examples
 

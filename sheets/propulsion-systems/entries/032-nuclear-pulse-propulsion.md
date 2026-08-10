@@ -28,6 +28,12 @@ Project Orion (General Atomics, Freeman Dyson and Ted Taylor), Project Daedalus 
 ## Economic profile
 No market, no supplier base, no legal path. The concept's practical relevance today is as a reference point in propulsion trade studies and as a case study in how arms-control agreements shape technology. Fusion-based pulse concepts are occasionally proposed by startups; the honest evaluation there is that they depend on inertial-confinement fusion gain that has only recently been demonstrated at all, in a laboratory, at a scale and repetition rate far from what propulsion would need.
 
+## Videos
+
+- https://www.youtube.com/watch?v=6ntizB4Uc_0 — Spaceflight By Nuking Yourself | The Orion Drive EXPLAINED (Spacedock, 11 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=pBenHWEGozE — Project Orion: The Spaceship Propelled By Nuclear Bombs (SciShow Space, 4 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=Q8Sv5y6iHUM — Project Orion Nuclear Propulsion - 1950s Tests | Unclassified Video (VideoFromSpace, 4 minutes, 100k+ views)
+
 ## Further reading
 
 [Nuclear Pulse Propulsion: Orion and Beyond (NASA Technical Reports Server)](https://ntrs.nasa.gov/citations/20000096503) · [Limited Test Ban Treaty (US Department of State archive)](https://2009-2017.state.gov/t/isn/4797.htm)

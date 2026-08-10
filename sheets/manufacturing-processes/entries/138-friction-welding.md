@@ -20,6 +20,10 @@ Creates strong repeatable joints and can join some dissimilar metals. Parts and 
 
 Use rotary friction welding for axisymmetric joints at medium-to-high volume: axles, drill pipe, engine valves, and bimetallic transitions like aluminum-to-steel or copper-to-aluminum that fusion welding cannot make. It runs like a machine-tool process and gives forged-quality joints with no filler, gas, or spatter. Parts have to tolerate high axial force and one side has to spin, which rules out thin sheet and non-round geometry. If the joint is not round, linear friction welding handles it at aerospace-level cost. If you need long seams, use friction-stir welding.
 
+## Key numbers
+
+Cycle time 1–30 seconds, with most joints under 15 · 1,000–3,000 rpm on direct-drive machines and higher on inertia welders · forge pressure 30–200 MPa at machine thrusts of 50–500 kN · upset consumes 3–10 mm of part length · bar diameters 5–150 mm on common machines · machines $150k–1.5m.
+
 ## Examples
 
 Drill pipe, axles, cutting tools, valves.

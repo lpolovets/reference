@@ -19,6 +19,9 @@ Cost is negligible and there is no explosive, no debris, and no electromagnetic 
 ## When to use
 Consider entanglement as a supplementary measure over predictable approach corridors — the approach to a bridge, a gate, or a landing site — and as a payload option on interceptor drones where non-explosive defeat is required. Do not plan a defense around it. Its main practical value is as a cheap, always-present passive layer that costs nothing to maintain and occasionally works, in the same category as physical barriers.
 
+## Key numbers
+A few grams of line per intercept · consumable cost effectively zero, since the material is wire or cord · coverage limited to narrow approach corridors rather than areas · no explosive, no debris, and no electromagnetic footprint.
+
 ## Limits and failure modes
 Achieving contact is the whole problem and it is unreliable. Wind displaces suspended lines. Fixed-wing drones may survive a strike. Deployed lines are a hazard to friendly small drones and to helicopters, which limits where they can be strung. The approach does not scale to defending an area, only specific narrow corridors.
 

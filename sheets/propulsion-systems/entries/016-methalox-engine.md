@@ -28,6 +28,12 @@ SpaceX Raptor (Starship, full-flow staged combustion), Blue Origin BE-4 (New Gle
 ## Economic profile
 Methalox became the industry default in under a decade, which is unusually fast for propulsion. The reason is reuse economics: if an engine can fly ten times with light inspection, engine cost per flight falls by an order of magnitude, and methane is what makes that practical. Propellant itself is cheap and available from industrial LNG infrastructure. The competitive question now is manufacturing rate — Raptor and BE-4 production rates, not their performance, are what gate their respective vehicles.
 
+## Videos
+
+- https://www.youtube.com/watch?v=yRtx56xl-70 — Why SpaceX is Using a New Fuel (Real Engineering, 17 minutes, 1m+ views)
+- https://www.youtube.com/watch?v=twnZYPdFgbU — Rocket Science: How the Raptor Rocket Engine Works and Full Flow Staged Combustion (Terran Space Academy, 19 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=hdS4azOaF2M — This is BE-4. (Blue Origin, 3 minutes, 50k+ views)
+
 ## Further reading
 
 [Liquid Oxygen/Liquid Methane Propulsion and Cryogenic Advanced Development (NASA Technical Reports Server)](https://ntrs.nasa.gov/citations/20110016509) · [Liquid Oxygen/Liquid Methane Integrated Propulsion System Test Bed (NASA Technical Reports Server)](https://ntrs.nasa.gov/citations/20110012829)

@@ -19,6 +19,9 @@ It sees warm-blooded life and machinery in zero light, smoke, dust, and most fog
 ## When to use
 Pick thermal when the job is finding warm things where light fails: pedestrian detection at night, search-and-rescue and firefighting drones, security patrol, and condition monitoring of motors, substations, and battery installations. A ~$200 Lepton-class module covers detection, while recognition-grade work needs $1k+ resolution and germanium optics. It is also the only camera that doubles as a thermometer. Avoid it as a general perception sensor, since it gives no color or texture, glass is a wall, and dawn/dusk crossover erases contrast. Pair it with a visible camera rather than replacing one, and check export caps on resolution and frame rate before designing it in.
 
+## Key numbers
+Wavelength 8–14 µm · resolution 160×120 on entry modules up to 640×512 and above · thermal sensitivity (NETD) typically under 50 mK · frame rate 30–60 Hz, or 9 Hz on export-capped parts · power draw roughly 0.15–1.5 W · unit cost about $200 for a Lepton-class module, $1,000 and up for recognition-grade resolution with germanium optics.
+
 ## Failure modes
 Thermal crossover at dawn and dusk erases the contrast between targets and background. Reflective metal surfaces show the sky's temperature rather than their own. Glass blocks the view entirely. Sun-heated clutter creates false positives for any "warm object" logic. Uniformity drift requires periodic shutter-based recalibration, which blinds the camera for a moment each time. Low resolution merges adjacent objects at range.
 
@@ -27,6 +30,12 @@ FLIR (Teledyne) Lepton/Boson modules, the dominant supplier; automotive night vi
 
 ## Economic profile
 Leptons brought entry thermal to ~$200, but automotive-grade resolution is still a $1k+ story driven by germanium optics and regulation. A genuine volume driver (NHTSA's pedestrian-AEB night requirements pushing thermal into mainstream cars) could finally bring those costs down. In robotics it is a specialist that earns its slot wherever robots share darkness with living things.
+
+## Videos
+
+- https://www.youtube.com/watch?v=__VED_DsX0g — Ask an Expert: What is a Microbolometer? (Sierra-Olympia Technologies, 4 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=Rb_O1wv5UsM — #1486 Micro Bolometer Thermal Camera Sensor (IMSAI Guy, 15 minutes, 5k+ views)
+- https://www.youtube.com/watch?v=ZSozrAIfigE — How Do Thermal Imaging Goggles Work? (SciShow, 3 minutes, 100k+ views)
 
 ## Further reading
 

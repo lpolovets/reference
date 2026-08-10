@@ -19,6 +19,9 @@ Solenoids are the cheapest electric actuator per unit, respond in milliseconds, 
 ## When to use
 Use a solenoid when the requirement is genuinely binary and short-stroke: throw a latch, fire a valve, kick a part, engage a brake. You get millisecond response for cents to dollars, with nothing to tune. If the state has to be held for minutes or held with the power off, specify a latching (permanent-magnet) variant before the coil overheats. Avoid solenoids as soon as the spec mentions position, speed, or proportional force anywhere between the endpoints, because the force-stroke curve won't cooperate. If you need controlled short-stroke force, use a voice coil; if you need controlled travel, use a small gearmotor.
 
+## Key numbers
+Stroke usually 2–25 mm · force a few newtons at full extension, rising to tens of newtons near closure · response roughly 5–30 ms · duty cycle typically 10–50% on non-latching coils, since continuous current overheats them · cents to a few dollars per unit.
+
 ## Examples
 Every fluid solenoid valve (the largest actuator population on earth), door locks and vending machines, part-reject flippers on sorting lines, pinball machines, camera shutters, automotive starter engagement.
 
@@ -27,6 +30,12 @@ Solenoids are a fully mature commodity measured in cents to dollars, and they ha
 
 ## Suppliers
 [TLX Technologies](https://www.tlxtech.com/) — custom solenoids and electromagnetic actuators · [Johnson Electric](https://www.johnsonelectric.com/) — motors and solenoids by the hundred million
+
+## Videos
+
+- https://www.youtube.com/watch?v=BbmocfETTFo — Solenoid Basics Explained - Working Principle (The Engineering Mindset, 9 minutes, 1m+ views)
+- https://www.youtube.com/watch?v=8_dIuA5wIxQ — How does a Linear Solenoid work? (Tubular Solenoid) (Geeplus, 2 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=-MLGr1_Fw0c — How Solenoid Valves Work - Basics actuator control valve working principle (The Engineering Mindset, 8 minutes, 1m+ views)
 
 ## Further reading
 

@@ -20,6 +20,10 @@ Melt spinning is fast, solvent-free, and cheap. Solution-based spinning extends 
 
 Default to melt spinning for any fiber whose polymer melts cleanly (polyester, nylon, polypropylene), because it is the cheapest option at commodity scale. If the polymer degrades before it melts, as cellulosics, acrylics, and spandex do, use wet or dry spinning and plan for the solvent-recovery costs that come with them. Use electrospinning only when micro- or nanoscale diameters and very high surface area are worth the very low throughput, as in filtration media, scaffolds, and separators. It is not a way to make bulk textile fiber.
 
+## Key numbers
+
+Melt spinning at 500–6,000 m/min, against 50–150 m/min for wet spinning · filament diameter 10–50 µm, or 0.5–20 denier · spinneret packs with tens to several thousand holes · draw ratio 3:1–6:1 after spinning · electrospun fibers 50–1,000 nm at under about 1 g/h per needle · spinneret packs from thousands to tens of thousands of dollars.
+
 ## Variants
 
 ### Melt spinning

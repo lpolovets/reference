@@ -28,6 +28,12 @@ Project Rover and NERVA (Kiwi, Phoebus, NRX, XE-Prime), the DARPA/NASA DRACO dem
 ## Economic profile
 This is a government technology with no commercial market. Costs are dominated by nuclear qualification, ground test infrastructure, and fuel supply rather than by propulsion engineering. The HALEU fuel supply chain is itself a constraint, since domestic production capacity in the US is only now being rebuilt. As with most space nuclear work, the honest assessment is that the physics was demonstrated 55 years ago and everything since has been about test facilities, funding continuity, and regulatory approval.
 
+## Videos
+
+- https://www.youtube.com/watch?v=miy2mbs2zAQ — Nuclear Thermal Propulsion (NTP) (NASA Video, 3 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=Ti_90nLCf8A — Crazy Nuclear Rocket Engines 1 - NERVA (Eager Space, 6 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=KlKAMB71wT4 — Why Nuclear Rockets Are Going To Change Spaceflight (Scott Manley, 22 minutes, 1m+ views)
+
 ## Further reading
 
 [6 Things You Should Know About Nuclear Thermal Propulsion (US Department of Energy)](https://www.energy.gov/ne/articles/6-things-you-should-know-about-nuclear-thermal-propulsion) · [Regulatory Approach for Nuclear Thermal Propulsion (NASA Technical Reports Server)](https://ntrs.nasa.gov/citations/20230005415)

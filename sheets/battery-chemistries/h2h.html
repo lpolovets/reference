@@ -1,5 +1,5 @@
     <h2>Head-to-head: the usual short list</h2>
-    <p class="muted">Most of the catalog never makes it into a design review. These are the chemistries that actually end up on the same short list for a new design today. The long tail of nickel, zinc, flow, and primary chemistries lives in the explorer.</p>
+    <p class="muted">Most of the catalog never makes it into a design review. These are the chemistries that actually end up on the same short list for a new design today. The tables after it go a level deeper: which solid-state electrolyte, what to use past four hours, and which primary cell. Nickel chemistries and the rest of the long tail live in the explorer.</p>
     <div class="tblwrap"><table>
       <thead><tr><th>Chemistry</th><th>Energy (Wh/kg)</th><th>Cycle life</th><th>Cost ($/kWh)</th><th>Weak spot</th><th>Pick it when</th></tr></thead>
       <tbody>
@@ -9,5 +9,48 @@
         <tr><td>Sodium-ion</td><td>140–175</td><td>2,000–5,000</td><td>$100–200</td><td>Trails current LFP on energy; cost win needs scale</td><td>You want a hedge against lithium prices, cold-weather power, or zero-volt shipping, and you can buy at real volume.</td></tr>
         <tr><td>LTO</td><td>60–110</td><td>10,000+</td><td>$200–400</td><td>Half the energy at 2–3× LFP price</td><td>The duty cycle is very demanding (many cycles a day, sub-10-minute charging, or -30 °C) and you judge on $/kWh-cycle.</td></tr>
         <tr><td>Solid-state</td><td>300+ (claimed)</td><td>~1,000 (early)</td><td>$1k+ (pilot)</td><td>Pilot-stage: moisture-free processing, stack pressure</td><td>You are placing an automotive bet on ~2027–2030 and can fund the wait; nothing shipping soon should depend on it.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2>Which solid-state electrolyte</h2>
+    <p class="muted">The short list above treats solid-state as one row. There are really four routes being commercialized, and they differ more in what the factory has to do than in what the cell delivers. Anyone funding a solid-state program, or underwriting one, picks among these.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Electrolyte</th><th>Conductivity at 25 °C</th><th>Operating temp</th><th>Cell energy</th><th>Manufacturing catch</th><th>Pick it when</th></tr></thead>
+      <tbody>
+        <tr><td>Sulfide (argyrodite)</td><td>1–25 mS/cm, matching liquid electrolyte</td><td>Ambient, under a few MPa of stack pressure</td><td>350–500 Wh/kg target, ~1,000 cycles in pilot cells</td><td>Ultra-dry line end to end, since moisture releases H2S; cathode particles need coatings</td><td>You are funding an automotive program for 2027–2030 and can guarantee moisture exclusion across the whole factory. Most of the industry's money sits here.</td></tr>
+        <tr><td>Oxide ceramic (LLZO)</td><td>0.1–1 mS/cm, an order of magnitude below sulfides</td><td>Ambient, and the ceramic is air-stable to handle</td><td>QuantumScape's QSE-5 samples are 5 Ah at ~300 Wh/kg and 840 Wh/L</td><td>Sintering above 1,000 °C, then defect-free 20–50 µm sheets at automotive area</td><td>Air-stable processing and real lithium-metal compatibility matter more than conductivity: thin-film, medical implants, premium consumer, or a licensing deal where someone else carries the ceramics capex.</td></tr>
+        <tr><td>Polymer (LMP)</td><td>Under 0.01 mS/cm at room temperature, ~1 at 80 °C</td><td>60–80 °C, held continuously</td><td>LFP-class; PEO's oxidation limit caps the cathode near 4 V</td><td>Roll-to-roll polymer film, the easiest of the four, with no dry room</td><td>The duty is always-on depot-charged fleet work that amortizes continuous heating, and a decade of safe lithium-metal fleet service counts with the buyer.</td></tr>
+        <tr><td>Semi-solid</td><td>Liquid electrolyte is retained, so conductivity isn't the constraint</td><td>Ambient</td><td>CATL's condensed cell is rated 500 Wh/kg; NIO's 150 kWh swap pack uses ~360 Wh/kg cells</td><td>Near-conventional lines, but electrodes run several times thicker than the usual 50–100 µm coating</td><td>You need 400–500 Wh/kg on existing manufacturing now (eVTOL, range-flagship EV) and can accept hundreds of cycles at that density plus cells that still burn.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2>Storage past four hours</h2>
+    <p class="muted">Below about four hours, LFP containers win on efficiency and capex, so the decision is usually made for you. Past that, tank-scaled and metal-air systems start competing on capacity cost, and this is the comparison grid developers and their lenders actually run. Organic flow is left out because it has no commercial fleet to price.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>System</th><th>Duration</th><th>Round-trip efficiency</th><th>Cycle life</th><th>Cost ($/kWh)</th><th>Pick it when</th></tr></thead>
+      <tbody>
+        <tr><td>LFP containers</td><td>Up to ~8 h economically</td><td>90%+</td><td>2,000–5,000</td><td>Under $100 at cell level</td><td>Duration is roughly 8 hours or less and the site can clear lithium fire codes. It's the default, and every other row here has to beat it.</td></tr>
+        <tr><td>Vanadium flow (VRFB)</td><td>4–12+ h, set by tank size</td><td>65–80% after pump losses</td><td>15,000+ full-depth cycles over 20 years</td><td>$400–1k at system level</td><td>You cycle hard every day at 6 hours and beyond and want two decades of field data. Lease the electrolyte so the project doesn't carry vanadium price risk.</td></tr>
+        <tr><td>Zinc-bromine flow</td><td>2–12 h</td><td>65–75%</td><td>~3,000 full cycles in fielded units</td><td>$200–400 at system level</td><td>A remote or off-grid site where cheap reactants and double vanadium's energy density change the economics, and someone is there for the strip cycle every few days.</td></tr>
+        <tr><td>All-iron flow</td><td>4–12 h</td><td>~70%</td><td>20,000+ quoted with electrolyte rebalancing</td><td>$200–400 at system level; the electrolyte itself is low tens</td><td>Electrolyte cost, toxicity, and permitting friction dominate the decision. Underwrite the vendor as hard as the chemistry, because balance-of-plant sets system cost.</td></tr>
+        <tr><td>Zinc-halide static</td><td>3–12 h</td><td>~75% or below</td><td>~5,000 claimed over a 20-year life</td><td>$200–400 at system level</td><td>Fire codes or community opposition make lithium siting painful, or non-Chinese supply is a procurement requirement. There are no pumps or tanks to maintain.</td></tr>
+        <tr><td>Iron-air</td><td>Up to 100 h</td><td>40–50%</td><td>Thousands of cycles targeted; air-electrode durability is the open problem</td><td>~$20/kWh target for energy capacity</td><td>You are firming a renewable-heavy grid across multi-day gaps and charging on surplus power. Don't spec it for daily cycling or fast response.</td></tr>
+        <tr><td>Sodium-sulfur (Na-S)</td><td>6 h rated, 4–8 h in practice</td><td>75–85% before standby heating</td><td>4,500+ deep cycles over a 15-year life</td><td>$200–400 at system level</td><td>You want daily 4–8 hour duty with two decades of fleet data behind it, and the plant runs continuously enough to keep the 300 °C stack warm on its own losses.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2>Which primary cell</h2>
+    <p class="muted">Primaries are chosen by drain, temperature, and how long the device sits before anyone touches it, not by $/kWh. First check whether you need one at all: if the device is drained more than every month or two, a low-self-discharge NiMH or a Li-ion pack pays back within the year.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Cell</th><th>Voltage</th><th>Specific energy</th><th>Shelf life</th><th>Drain it supports</th><th>Pick it when</th></tr></thead>
+      <tbody>
+        <tr><td>Alkaline</td><td>1.5 V, sagging to a 0.9 V cutoff</td><td>100–140 Wh/kg, 300–400 Wh/L</td><td>~10 years</td><td>Low to moderate; an AA holds 2,000–3,000 mAh at low drain</td><td>An ordinary low-drain household device, where availability everywhere at $0.25–0.50 per AA matters more than runtime. Don't leave cells in seldom-used gear, because end-of-life leakage kills electronics.</td></tr>
+        <tr><td>Li-FeS2 (lithium AA)</td><td>1.5 V nominal, 1.8 V open circuit</td><td>260+ Wh/kg; an AA holds ~3,000 mAh at 14.5 g against 23 g for alkaline</td><td>20 years at about 90% retention</td><td>High drain, at full output down to -40 °C</td><td>A AA/AAA device faces high drain, cold, or years of dormancy, and 3–4x the alkaline price is repaid in runtime. Check that voltage-sensing electronics tolerate 1.8 V open circuit.</td></tr>
+        <tr><td>Silver-oxide</td><td>1.55 V, flat from first use to exhaustion</td><td>120–130 Wh/kg, about 500 Wh/L</td><td>2–3 years</td><td>Microamps to a few milliamps; 5–200 mAh per button</td><td>A small circuit depends on voltage stability (watches, calipers, glucose meters) and you can pay silver prices for it.</td></tr>
+        <tr><td>Zinc-air button</td><td>1.4 V</td><td>300–400 Wh/kg and ~1,300 Wh/L, the highest of any mass-produced aqueous cell</td><td>3 years sealed, then 3–6 weeks once the tab comes off</td><td>1–5 mA continuous depending on size; 90–600 mAh per button</td><td>An air-breathing device draws a few milliamps for days to weeks, hearing aids being the case. Size the cell so it is used up before air exposure ends it.</td></tr>
+        <tr><td>Li-MnO2 (CR coin)</td><td>3 V</td><td>230–280 Wh/kg, 500–650 Wh/L</td><td>~10 years at roughly 1% per year</td><td>A few hundred microamps in coin formats; a CR2032 holds 220 mAh</td><td>You want ~10-year service in a small device that consumers handle: key fobs, motherboard clocks, tags, smoke alarms. Design ingestion-safe retention wherever children can reach coin cells.</td></tr>
+        <tr><td>Li-SOCl2</td><td>3.6 V</td><td>500–700 Wh/kg, 1,000–1,200 Wh/L</td><td>20+ years at under 1% per year</td><td>Microamps to a few mA in bobbin cells, amps in spiral construction</td><td>The device sits unattended for decades at low drain across -55 to +85 °C (utility meters, IoT sensors, downhole tools). Add a supercapacitor if it pulses, and design around voltage delay after dormancy.</td></tr>
+        <tr><td>Li-SO2</td><td>3 V</td><td>250–330 Wh/kg, 350–450 Wh/L</td><td>~10 years</td><td>Several amps continuous, at full rate down to -40 °C</td><td>Military field equipment has to deliver full power at -40 °C after a decade in storage, and BA-5590 logistics and qualification already exist.</td></tr>
+        <tr><td>Li-I2</td><td>2.8 V</td><td>200–270 Wh/kg, close to 1,000 Wh/L</td><td>5–15 years per implant</td><td>10–100 µA and nothing more</td><td>The load is an implanted device drawing continuous microamps, and a forecastable end of life lets a surgeon schedule the replacement.</td></tr>
       </tbody>
     </table></div>

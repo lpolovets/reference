@@ -20,6 +20,10 @@ Creates tapered or stepped axisymmetric parts with good finish and strengthened 
 
 Choose rotary swaging for tapering, pointing, or stepping round bars and tubes (cable fittings, tapered shafts, tube-end reductions) at medium-to-high volumes. The dies are cheap, the process is chipless so it saves material, and the surface comes out work-hardened and burnished, which is what makes it beat turning here. It also attaches end fittings by swaging directly over them. Anything non-axisymmetric is out of scope, and for one-offs or complex internal profiles CNC turning is the simpler answer.
 
+## Key numbers
+
+Bar and tube diameters from about 1 mm to 50 mm · area reduction 20–50% per pass · diameter tolerance ±0.02–0.1 mm · burnished finish around Ra 0.2–0.8 µm · cycle a few seconds per piece, with the dies striking 1,500–4,000 times a minute · die sets $1,000–5,000 · economic lot size tens of thousands and up.
+
 ## Examples
 
 Cable fittings, tapered shafts, medical tubing, tool handles.

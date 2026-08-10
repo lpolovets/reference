@@ -19,6 +19,9 @@ Cost per unit of aperture is the great advantage. A large rotating dish delivers
 ## When to use
 Pick a mechanically scanned radar for wide-area surveillance where targets are cooperative or slow and the budget matters: air traffic control, weather, coastal surveillance, and long-range early warning. If you need to engage maneuvering targets or maintain many simultaneous tracks, an electronically scanned array is necessary. A common and sensible architecture pairs the two — a cheap rotating radar for volume search cueing an expensive electronically scanned set for engagement — which gets most of the coverage benefit at a fraction of the array cost.
 
+## Key numbers
+Rotation 10–15 rpm, so a full 360° picture every 4–6 seconds · detection roughly 100 km for airport surveillance sets and up to 450 km for long-range early warning · one track update per rotation · antenna 4–12 m across on long-range sets · beamwidth typically 1–2° · emplacement and displacement in tens of minutes for tactical sets.
+
 ## How it is defeated
 Slow revisit rate is the exploitable weakness: a target that maneuvers between looks breaks track. Terrain masking and low-altitude flight defeat ground-based sets. Noise and deception jamming are effective because the waveform is predictable. Anti-radiation missiles home easily on a continuously rotating high-power emitter, which is why these radars now come with rapid displacement requirements measured in minutes.
 
@@ -27,6 +30,12 @@ AN/TPS-77 and TPS-75 tactical radars, the AN/SPS-49 naval air search radar, ASR-
 
 ## Economic profile
 This is the commodity end of radar. Prices per unit of detection range are far below phased arrays, the supplier base is broad and includes non-traditional vendors, and the technology diffuses easily. Ground-based early warning radars of this type are widely exported and widely copied. Their continued relevance rests on the same economics that keep cheap sensors in every field: adequate performance at a price that lets you buy enough of them to cover the area.
+
+## Videos
+
+- https://www.youtube.com/watch?v=c8OWHnHjIpA — How Radar Works | Start Learning About EW Here (The Ops Center By Mike Solyom, 13 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=mt43UeqVaZU — Primary Radar or Primary Surveillance Radar (PSR) (Lets Learn Aviation, 4 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=IobeoYmpn8U — Vintage Furuno Marine Radar Scanner Autopsy (Aussie50, 15 minutes, 10k+ views)
 
 ## Further reading
 

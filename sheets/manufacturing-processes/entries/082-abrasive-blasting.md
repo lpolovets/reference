@@ -20,6 +20,10 @@ Rapidly removes rust, scale, coatings, and contamination. May alter dimensions, 
 
 Use abrasive blasting to strip scale, rust, and old coatings, and to build the anchor profile that paint, powder coat, and thermal spray need. It's the standard prep on castings, weldments, and structural steel, and you pick the media to suit the job (steel grit for profile, glass bead for cosmetic matte, plastic or soda for delicate substrates). It's also the cheap way to get a uniform non-directional matte finish. Avoid it on precision surfaces and on thin panels, which peen and warp, and on parts where embedded media would contaminate later processing. Mask anything that has to stay sharp or stay on size. If you want controlled compressive strengthening, use shot peening instead, which is the same physics run to a specification.
 
+## Key numbers
+
+Blast pressure 0.3–0.7 MPa (about 40–100 psi) · anchor profile 25–100 µm, set to match the coating spec · cleanliness graded against SSPC SP 6 commercial or SP 10 near-white · hand blasting covers roughly 10–50 m² per hour · media from 60 mesh glass bead to 16 mesh steel grit.
+
 ## Examples
 
 Castings, structural steel, automotive bodies, refurbished machinery.

@@ -18,7 +18,11 @@ MIM produces intricate small metal parts at scale. Tooling and development are e
 
 ## When to use
 
-Pick MIM for small, genuinely complex metal parts (ideally under about 100 grams and 6 mm wall thickness) at tens of thousands of pieces per year and up. You get injection-molding geometric freedom, meaning undercuts, thin walls, and fine features, along with near-wrought density in stainless, low-alloy steel, or titanium. Surgical instruments, firearm components, and watch parts are the classic wins. Plan for tooling and development in the tens of thousands of dollars, months of qualification, and roughly 15-20 percent sintering shrinkage held to about plus or minus 0.3-0.5 percent. For simple shapes, press-and-sinter or screw machining is cheaper. For large or thick parts, use casting. If volumes are low or the design is still changing, CNC machining or metal additive gets you parts without the tooling commitment.
+Pick MIM for small, genuinely complex metal parts (ideally under about 100 grams and 6 mm wall thickness) at tens of thousands of pieces per year and up. You get injection-molding geometric freedom, meaning undercuts, thin walls, and fine features, along with near-wrought density in stainless, low-alloy steel, or titanium. Surgical instruments, firearm components, and watch parts are the classic wins. Plan for tooling and development in the tens of thousands of dollars, months of qualification, and roughly 15–20% sintering shrinkage held to about ±0.3–0.5%. For simple shapes, press-and-sinter or screw machining is cheaper. For large or thick parts, use casting. If volumes are low or the design is still changing, CNC machining or metal additive gets you parts without the tooling commitment.
+
+## Key numbers
+
+Parts typically under 100 g with walls of 0.3–6 mm · sintering shrinkage 15–20% linear, held to about ±0.3–0.5% · sintered density 96–99% of wrought · surface finish Ra roughly 0.8–1.6 µm · tooling in the tens of thousands of dollars with months of qualification · economical from tens of thousands of parts a year.
 
 ## Examples
 

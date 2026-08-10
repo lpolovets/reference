@@ -19,11 +19,20 @@ The grip holds through a power loss, since the magnet is electropermanent. Oil a
 ## When to use
 Pick electropermanent magnets for ferrous sheet, plate, and machined steel (laser-cutter load/unload, press lines, welding fixtures), especially where oil, scale, and dust defeat vacuum seals or where cutting the compressed-air tether pays. Holding through a power loss is a genuine safety upgrade over both vacuum and electromagnets. If the part is non-ferrous, the gripper simply does not see it, so aluminum, stainless, and plastic go to vacuum instead. For thin stacked sheets you need pole designs shaped for single-sheet separation. And if the next process will be contaminated by residual magnetism or clinging swarf, vacuum is the fallback.
 
+## Key numbers
+Holding force 100 N to several kN per pole · full rated force needs roughly 3 mm or more of steel · switch time 0.05–0.5 s on a current pulse · zero holding power, and the grip survives a power loss · unit cost $1–8k.
+
 ## Examples
 Magswitch and SPD/Assfalg electropermanent units on sheet-metal press lines, laser-cutting load/unload cells, Schmalz and Goudsmit magnetic ranges, robotic welding fixtures, steel-service-center automation.
 
 ## Economic profile
 This is a solid niche ($1–8k) growing along with sheet-metal automation, and electropermanent technology has displaced always-on electromagnets for safety and energy reasons. Ferrous physics bounds the market, so it will never generalize, and it doesn't need to. In fab shops it is the obvious answer, and obvious answers with switching-cost-free reliability make excellent, quiet businesses.
+
+## Videos
+
+- https://www.youtube.com/watch?v=hcXJ98mXHZE — Goudsmit Magnetic gripper animation - for robotic sheet handling (Goudsmit Magnetics - Driven by magnetism, 1 minute, 10k+ views)
+- https://www.youtube.com/watch?v=BHYI1XYPDg4 — What is an Electro Permanent Magnet (EPM) (Altius Space Machines, 2 minutes, 1k+ views)
+- https://www.youtube.com/watch?v=eJ5L9HKds7Q — How Does Magnetic Gripping Work? (SCHUNK USA, 16 minutes, 1k+ views)
 
 ## Further reading
 

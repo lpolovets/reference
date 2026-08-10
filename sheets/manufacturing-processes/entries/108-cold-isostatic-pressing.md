@@ -20,6 +20,10 @@ CIP creates relatively uniform density in large preforms. Precision is modest, a
 
 Choose CIP for large, long, or thick-section powder preforms such as ceramic tubes, refractory billets, and sputtering targets, where uniaxial die pressing would leave density gradients. Cheap elastomer tooling also suits low-to-medium volumes and frequent shape changes. Plan on green machining or generous sintering allowances, since as-pressed tolerances are loose. For small parts at high volume, automated uniaxial die compaction is the default. If you need full density in one step, go to HIP instead.
 
+## Key numbers
+
+Pressures 100–400 MPa · green density 55–70% of theoretical and uniform through thick sections · as-pressed tolerance roughly ±1–2% · elastomer tooling in the hundreds to low thousands of dollars, ready in days · vessels up to about 1.2 m across and 3 m deep · wet-bag cycles 5–30 minutes, dry-bag production much faster.
+
 ## Examples
 
 Ceramic tubes, refractory parts, powder billets, grinding wheels.

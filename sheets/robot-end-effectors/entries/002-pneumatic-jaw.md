@@ -19,11 +19,20 @@ They're cheap, fast (tens of milliseconds), and immensely reliable, because the 
 ## When to use
 Pick pneumatic jaws for high-cycle, known-geometry handling when you already have plant air (machine tending, molding, and assembly cells gripping the same part family every few seconds for years), and put the engineering into custom fingers rather than into the gripper. At $100–800 with tens-of-millisecond actuation, nothing matches its cost per million cycles. If grip force has to modulate for delicate or variable parts, if SKU churn makes finger changeovers the bottleneck, or if you're in an air-free environment like a lab or electronics assembly, the electric parallel-jaw gripper earns its 5–20× premium.
 
+## Key numbers
+Payload 0.1–20 kg · grip force 50–3,000 N at 6 bar across common sizes · actuation time 20–100 ms · repeatability around ±0.02 mm · rated life 10–30 million cycles on catalog units · unit cost $100–800.
+
 ## Examples
 Schunk PGN-plus (the archetype, in its millions), SMC and Festo catalogs, three-jaw centric versions for round stock, sprue pickers on every injection-molding machine, CNC machine-tending cells worldwide.
 
 ## Economic profile
 This is a mature, profitable European/Japanese component oligopoly, with typical prices of $100–800 and margins coming from precision manufacturing and distribution. The shift to electric grippers takes bites out of the edges (controllability, air costs), but for high-cycle single-part duty nothing beats its cost-per-million-cycles. For diligence, treat it as the boring benchmark: a clever gripper startup has to beat it on uptime, and beating it on features isn't enough.
+
+## Videos
+
+- https://www.youtube.com/watch?v=OPRt_D28JTk — what's inside a PNEUMATIC GRIPPER? (tear down and maintenance) (Continuous Load, 4 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=wuZDv3qyc_E — Air Grippers by SMC (SMC Corporation (UK), 3 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=O8F4voY8OXQ — HOW TO SELECT A PNEUMATIC GRIPPER? (IntroMech, 10 minutes, 1k+ views)
 
 ## Further reading
 

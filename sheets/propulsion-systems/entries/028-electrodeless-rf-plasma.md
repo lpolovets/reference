@@ -28,6 +28,12 @@ Ad Astra Rocket Company's VX-200SS VASIMR, helicon double-layer thrusters from A
 ## Economic profile
 Funding comes from space agencies and a small number of private investors, and the field has a long history of schedule slip against ambitious mission concepts. The near-term commercial activity is at the opposite end of the power scale: small ECR and helicon thrusters for cubesats, where electrodeless operation gives long life in a package that does not need cathode heaters or high voltages. That segment is real and shipping; the megawatt-class vision remains contingent on space nuclear power.
 
+## Videos
+
+- https://www.youtube.com/watch?v=uqX8wIkjoYg — The VASIMR Engine: How to Get to Mars in 40 Days (SciShow Space, 6 minutes, 1m+ views)
+- https://www.youtube.com/watch?v=8KJC-PhP0HY — Developing the VASIMR Engine (adastrarocket, 3 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=_eAKjozN16w — The Physics of Helicon Thrusters (ESA's Advanced Concepts Team, 10 minutes, 1k+ views)
+
 ## Further reading
 
 [Recent Progress on the VASIMR (NASA Technical Reports Server)](https://ntrs.nasa.gov/citations/20000092090) · [Electric propulsion research (NASA Glenn Research Center)](https://www1.grc.nasa.gov/space/electric-propulsion/)

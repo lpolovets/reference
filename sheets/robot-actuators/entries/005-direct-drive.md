@@ -19,6 +19,9 @@ Backdrivability and force transparency are as good as they get, precision reache
 ## When to use
 Go direct drive when transparency or precision is the product and the axis carries no standing gravity load. Typical cases are haptic interfaces, gimbals, rotary tables, metrology and wafer stages, and force-sensitive test rigs, where the spec is sub-arc-second resolution, zero backlash, or kilohertz force bandwidth and the motor can be as big as it needs to be. Avoid it for gravity-loaded limbs and mobile robots, since holding torque burns continuous power and torque density is the worst on this sheet. That's the gap QDD closes with a single 6–10:1 stage at a fraction of the motor mass. Budget the encoder alongside the motor, because at this precision class it can cost as much as the motor.
 
+## Key numbers
+Zero backlash by construction · continuous torque from under 1 Nm to several hundred Nm depending on diameter · specific torque roughly 2–10 Nm/kg continuous, the lowest of the electric options here · position resolution to sub-arc-second with a matched encoder · rated speed usually a few hundred rpm · encoder cost often as much as the motor.
+
 ## Examples
 Semiconductor wafer stages and rotary tables (the natural home), Kollmorgen/ETEL/Tecnotion frameless lines, the direct-drive SCARA arms of the 1980s (AdeptOne, which proved the approach worked and also showed why it stayed niche), haptic devices, gimbal motors on every camera drone.
 
@@ -27,6 +30,12 @@ Direct drive owns the applications where precision or transparency is the produc
 
 ## Suppliers
 [Kollmorgen](https://www.kollmorgen.com/) — frameless torque motor kits · [Celera Motion](https://www.celeramotion.com/) — direct-drive motors and precision encoders
+
+## Videos
+
+- https://www.youtube.com/watch?v=oNRAUPjWfd0 — What is a frameless motor? (Design World, 4 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=COFhfHBydxk — Custom Brushless Robotic Actuator using Frameless Motors! (CubeMars RO Series) (Kevin Wood | Robotics & AI, 9 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=wp0AbeDBV9g — Driving gimbal motors with moteus (Josh Pieper, 3 minutes, 10k+ views)
 
 ## Further reading
 

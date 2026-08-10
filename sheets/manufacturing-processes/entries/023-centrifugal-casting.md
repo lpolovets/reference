@@ -20,6 +20,10 @@ Creates dense cylindrical parts without a central core. Mainly useful for axisym
 
 Choose centrifugal casting for axisymmetric hollow parts (pipe, cylinder liners, bushings, large rings), where spinning the mold gives you dense walls with no core, at anywhere from one-off to steady production. Budget for machining the as-cast bore, since the lighter impurities collect there. It doesn't work for non-round geometry, and for small bushings at high volume, powder metallurgy or drawn tube plus machining is usually cheaper.
 
+## Key numbers
+
+Mold rotation 300–3,000 rpm, giving 60–150 g at the mold wall · outside diameter from about 25 mm to 3 m, lengths to roughly 6 m · wall thickness 5–125 mm · bore machining allowance 3–6 mm, where the lighter inclusions collect · OD tolerance roughly ±0.5–2 mm · molds $5,000–50,000 per size and good for thousands of pours.
+
 ## Examples
 
 Pipes, cylinder liners, bushings, bearing rings.

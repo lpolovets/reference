@@ -19,6 +19,9 @@ Overload tolerance and rigidity are both very high, backlash is near zero when p
 ## When to use
 Pick a cycloidal for high-torque proximal joints that will take shock loads: industrial-robot bases and shoulders, humanoid hips and knees, and anything that lifts hundreds of newton-meters or absorbs impacts as part of normal operation. Its 500% momentary overload rating and torsional stiffness are what keep those joints from becoming service calls. It suits ratios of 30–300:1 and a mass budget that can absorb the extra kilograms over strain-wave. Avoid it in wrists and distal joints where grams and axial depth dominate, since harmonic packages better there, and in force-controlled, contact-transparent joints, where a low-ratio QDD stage is the right architecture.
 
+## Key numbers
+Ratio 30–300:1 in one or two stages · momentary overload capacity around 500% of rated torque · backlash under 1 arcminute when preloaded · efficiency roughly 80–90% at rated load · rated service life 6,000 hours at rated torque and 15 rpm output, which is not the same basis as a harmonic drive's rated hours.
+
 ## Examples
 Nabtesco RV series — the base and shoulder joints of the large industrial robots of Fanuc, ABB, KUKA, Yaskawa (Nabtesco holds ~60% of the world precision-reducer market); Sumitomo Fine Cyclo; Spinea; Chinese entrants (Shuanghuan, Zhongdadi) chasing the market; 3D-printed hobby cycloidals as a maker staple.
 
@@ -27,6 +30,12 @@ Cycloidals are the other half of the Japanese precision-reducer duopoly, and the
 
 ## Suppliers
 [Nabtesco](https://www.nabtesco.com/) — RV cycloidal reducers, ~60% world share · [Spinea](https://www.spinea.sk/) — compact TwinSpin cycloidals
+
+## Videos
+
+- https://www.youtube.com/watch?v=dv2URKU5YNU — How does a cycloidal gearbox work? | Structure and function simply explained | parametric equation (tec-science, 16 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=OsS9-FzKN6s — What is Cycloidal Drive? Designing, 3D Printing and Testing (How To Mechatronics, 17 minutes, 1m+ views)
+- https://www.youtube.com/watch?v=1ijFove42Kw — Animation CYCLO Principle - Sumitomo Drive Technologies (Sumitomo Drive Technologies EMEIA, 3 minutes, 100k+ views)
 
 ## Further reading
 

@@ -20,6 +20,10 @@ Compounding lets you tune material properties for a specific application. The th
 
 Commission custom compounding when no stock resin hits your property targets (filled, reinforced, flame-retardant, conductive, or precisely matched color grades) and your annual usage justifies a dedicated formulation, which typically means tons rather than kilograms. If you only need color, masterbatch let-down at the molding machine is cheaper. At modest volumes, an existing commercial compound usually beats developing your own.
 
+## Key numbers
+
+Twin-screw extruders at 32:1–52:1 L/D and 200–1,200 rpm · throughput 20–5,000 kg/h by screw diameter · melt residence time 10–60 s · filler and fiber loadings commonly 10–50% by weight · minimum economic run 500 kg to several tons · toll compounding adds roughly $0.20–1.00 per kg over the base resin.
+
 ## Examples
 
 Glass-filled nylon pellets, flame-retardant plastics, conductive polymers, colored resin.

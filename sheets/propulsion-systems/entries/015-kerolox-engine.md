@@ -28,6 +28,12 @@ SpaceX Merlin (Falcon 9), Rocketdyne F-1 (Saturn V), NPO Energomash RD-180 and R
 ## Economic profile
 Kerolox has the cheapest propellant of any liquid system — RP-1 and LOX together run roughly $1–2 per kilogram — so propellant is a rounding error against engine and operations cost. The RD-180 export relationship, and its termination, is the standard example of how engine supply becomes a geopolitical exposure. Reusability economics on kerolox have been proven by Falcon 9 at over 20 flights per booster, though the engines require more inspection between flights than a methalox design would.
 
+## Videos
+
+- https://www.youtube.com/watch?v=2cldgl9IIyY — How To Start The Massive F-1 Rocket Engine - Explaining "Ignition Sequence Start" (Scott Manley, 9 minutes, 1m+ views)
+- https://www.youtube.com/watch?v=u3O43J7JFTY — Saturn V F-1 Engine Gas Generator Testing (NASA's Marshall Space Flight Center, 2 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=oGr1UVNBDLs — Why Some 21st Century US Rockets Still Use Soviet Era Engines (Scott Manley, 9 minutes, 100k+ views)
+
 ## Further reading
 
 [Liquid Rocket Engine (NASA Glenn Beginner's Guide to Aeronautics)](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/liquid-rocket-engine/) · [Experimental Research and Design Planning in the Field of Liquid-Propellant Rocket Engines (NASA Technical Reports Server)](https://ntrs.nasa.gov/citations/19770026110)

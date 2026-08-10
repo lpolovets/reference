@@ -19,6 +19,9 @@ Reliability is much better than electronic or gun-based defeat, and range of 10�
 ## When to use
 Use low-cost interceptors as the reliable middle layer of a counter-drone architecture: above guns in range, below full air-defense missiles in cost, and reserved for targets that matter. Against long-range one-way attack drones threatening infrastructure, this is currently the most dependable answer even at an unfavorable exchange. Against short-range FPV attack, use jamming, guns, or interceptor drones instead. The recoverable interceptor concept is worth watching, because it changes the economics of maintaining readiness rather than of the engagement itself.
 
+## Key numbers
+Intercept range 10–15 km · target price $15k–150k per round against $1–4M for a short-range air-defense missile · $30k–150k per shot in fielded systems · exchange roughly even against a $30k drone · credible production paths at tens of thousands of rounds a year.
+
 ## Limits and failure modes
 Cost per shot remains too high against the cheapest threats, which is the whole problem the category is trying to solve and has only partly solved. Magazine depth limits sustained defense against salvos. Debris from intercepts falls somewhere. Seeker performance against very small, slow, low-flying targets in ground clutter is genuinely difficult and is where these systems succeed or fail.
 
@@ -27,6 +30,12 @@ Raytheon Coyote Block 2, which has been used operationally against drone attacks
 
 ## Economic profile
 This is one of the fastest-growing segments in air defense, funded by the recognition that Patriot interceptors cannot be spent on Shahed drones. The target price is the entire product requirement, and programs are judged on whether they hold it. Production rate matters as much as unit cost, since a defense that runs out of interceptors after a night of salvos has not solved anything. Several programs have credible paths to tens of thousands of units per year, which is the number that matters.
+
+## Videos
+
+- https://www.youtube.com/watch?v=nPMqgVFNMTQ — The Coyote: This $100K drone is outgunning $2M missiles (Task & Purpose, 16 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=al9ITeP4fUA — Anduril Unveils Roadrunner & Roadrunner-M (Anduril Industries , 2 minutes, 1m+ views)
+- https://www.youtube.com/watch?v=fwshoSzWciU — How Reusable Missile Works | Anduril Roadrunner (AiTelly, 5 minutes, 100k+ views)
 
 ## Further reading
 

@@ -19,11 +19,18 @@ Geomechanical storage reuses mature oil-and-gas drilling, siting is far more fle
 ## When to use
 Deploy geomechanical storage where flat land sits over competent, pressure-tight sedimentary rock with oilfield services nearby, for 10+ hour daily-to-multi-day shifting targeting cavern-class $20–50/kWh without mountains or salt. Budget for per-site geological derisking (test wells, pressure holds) before committing capacity. It suits utilities in Texas-like geographies that want PSH economics on commodity drilling timelines. Avoid it where induced-seismicity or groundwater politics are hot, where the geology hasn't been proven to hold pressure, or for sub-8-hour duty. Li-ion owns that band, and where salt caverns exist, advanced CAES carries far more operating history.
 
+## Key numbers
+Duration 10+ hours · round trip below pumped hydro's 70–85% · target energy capex $20–50/kWh · flagship offtake 300 MWh with CPS Energy · field history measured in megawatts, not gigawatts.
+
 ## Examples
 Quidnet's Texas pilots and its 300 MWh CPS Energy (San Antonio) offtake — the sector's flagship deal; Hunt Energy backing.
 
 ## Economic profile
 The target is $20–50/kWh energy capacity using commodity oilfield services, which is genuinely pumped-hydro-class if the geology cooperates. The oilfield supply chain means fast scaling with no novel manufacturing. The open questions are per-site derisking cost and whether efficiency and cycling hold over decades. It is the most credible "PSH anywhere" thesis and worth watching.
+
+## Videos
+
+- https://www.youtube.com/watch?v=xUKbNJEhbKo — Revolutionary Grid-Scale Energy Storage Technology (ClearPath Action, 4 minutes, 1k+ views)
 
 ## Further reading
 

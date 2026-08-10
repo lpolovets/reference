@@ -20,6 +20,10 @@ Flexible and suitable for custom or low-volume threads. Removes material and gen
 
 Pick thread machining for internal threads, custom or large-diameter forms, hard or pre-hardened materials, threads next to shoulders, and any low-volume or prototype work. A tap, single-point tool, or thread mill needs no dedicated tooling and handles odd pitches freely. Thread milling is the safe choice in expensive parts, since a broken tap in a finished component often means scrap. Avoid it for mass-produced external fasteners and fatigue-critical studs. There, thread rolling is faster, wastes no material, and leaves compressive residual stress that machined threads lack.
 
+## Key numbers
+
+Cut threads typically hold class 2A/2B or metric 6H/6g, with 3A/3B possible at extra cost · thread grinding reaches pitch-diameter tolerances near 0.005 mm · flank finish usually 1.6–3.2 µm Ra · taps cost $10–100 and thread mills $50–300 · a tapped hole takes seconds and a milled thread 10–60 seconds · diameters from M1 to over 1 m with single-point tooling.
+
 ## Examples
 
 Lead screws, pipe fittings, custom fasteners, threaded shafts.

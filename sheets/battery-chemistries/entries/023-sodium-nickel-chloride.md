@@ -19,11 +19,18 @@ It tolerates cell failures, is non-flammable in practice, has long cycle and cal
 ## When to use
 Pick ZEBRA for unattended, fire-averse sites with wide ambient swings, such as telecom shelters, tunnels, mines, and rail backup. In those places the benign cell failures, non-flammability, and self-managed operating temperature justify a $/kWh well above LFP, and fire codes would make lithium expensive to permit. Keep it in continuous or predictable duty so the heater overhead is amortized. Avoid it for intermittent-use or cost-driven storage, and anywhere lithium is allowed without heavy fire-code friction, because LFP is cheaper on every other axis.
 
+## Key numbers
+Internal operating temperature 250–300 °C, in ambients from -40 °C to 60 °C · nominal cell voltage about 2.6 V · specific energy roughly 100–120 Wh/kg · 3,000–4,500 cycles at 80% depth of discharge over a 15-year design life · standby heating drains a full charge in roughly 3–5 days of idling.
+
 ## Examples
 FZSoNick (formerly FIAMM/MES-DEA) telecom and rail backup batteries; historic Th!nk City and Modec EVs; GE's discontinued Durathon grid product; current interest for fire-averse sites (tunnels, mines).
 
 ## Economic profile
 It survives in niches that will pay for its safety and temperature tolerance, such as unattended telecom sites and underground installations, where lithium's fire codes are a problem. Nickel exposure and small-volume manufacturing keep $/kWh well above LFP, so it stays a specialty product rather than a general storage option.
+
+## Videos
+
+- https://www.youtube.com/watch?v=hpc07SL7E_k — SODIUM NICKEL CHLORIDE BATTERY (ZEBRA BATTERY)@sadhanadhananjaya CHEMISTRY WINS (CHEMISTRY WINS BY DHANANJAYA, 7 minutes, under 1k views)
 
 ## Further reading
 

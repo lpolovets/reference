@@ -17,11 +17,20 @@ The concept combines drain-tank passive safety with waste transmutation, needs n
 ## When to use
 This is the longest-dated bet in the salt family. Back it only if you have decade-plus patience and believe a credible waste-burning reactor changes nuclear politics enough to be worth owning early. Gate any commitment on MCRE's results and on three specifics: chlorine-37 enrichment supply, tonnes-scale fissile startup inventory, and chloride corrosion data. The reactor physics is not the risk. If you want molten-salt heat sooner, look at the FHR or thermal MSRs instead. If you're a state that wants actinide burning sooner, look at sodium fast reactors.
 
+## Key numbers
+Fuel and coolant are the same chloride salt, typically sodium chloride carrying uranium or plutonium chlorides · no moderator, fast spectrum · outlet temperature roughly 600–750 °C at atmospheric pressure · chlorine enriched above 99% Cl-37, against 24% natural abundance · fissile startup inventory in tonnes of HALEU or plutonium rather than kilograms · online refueling, so no cladding burnup limit · conversion ratio above 1 in breeder configurations.
+
 ## Examples
 TerraPower's Molten Chloride Fast Reactor program with its MCRE experiment planned at Idaho National Lab (with Southern Company) — the first fast-spectrum liquid-fuel criticality since the 1960s; Moltex's Stable Salt Reactor (UK/Canada — salt fuel in static pins, a deliberate simplification); Elysium and TerraPower's earlier chloride studies.
 
 ## Economic profile
 This is the furthest from revenue of the salt family, and it carries the biggest strategic prize: a credible waste-burning reactor changes the politics of nuclear everywhere. MCRE's results this decade will determine whether the concept graduates from viewgraph to engineering. Put your diligence weight on chlorine-37 supply, fissile startup inventory, and salt chemistry control. The reactor physics is sound.
+
+## Videos
+
+- https://www.youtube.com/watch?v=VuDLCt4sEeA — Elysium Molten Chloride Fast Reactor (MCSFR): LFTR Alternative | Ep. 8 (Rock Logic With Sean Kenny, 8 minutes, 5k+ views)
+- https://www.youtube.com/watch?v=VsFg4Lfiz8U — Revolutionising Nuclear: Meet the Molten Chloride Fast Reactor (MCFR) (CORE POWER, 2 minutes, 1k+ views)
+- https://www.youtube.com/watch?v=JQR_b19lZGE — Southern Company Services and TerraPower Build World’s Largest Chloride Salt System (U.S. Department of Energy, 1 minute, 1k+ views)
 
 ## Further reading
 

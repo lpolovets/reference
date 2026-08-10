@@ -19,6 +19,9 @@ Transparency and impact tolerance are both good, since impacts backdrive the mot
 ## When to use
 QDD is the default for contact-rich dynamic joints: legs, dynamic arms, and anything that makes hard contact and needs to sense it. Impacts backdrive the joint harmlessly, torque is estimated from current with no load cell, and $100–500 buys the whole module off the shelf. Size it for duty cycles dominated by motion rather than holding, because the torque density is real but the thermal headroom for standing under gravity all day isn't. If the joint mostly holds static load, use a 50:1+ strain-wave joint, which runs cooler and smaller. If the spec is machining-grade repeatability, a harmonic-drive servo axis is still the right tool, since QDD's motor-side encoder and residual gear lash can't get there.
 
+## Key numbers
+Gear ratio 6–10:1 in a single planetary stage · continuous torque typically 5–20 Nm from a module under 1 kg, with peaks 2–3× higher · specific torque roughly 10–20 Nm/kg continuous · joint efficiency around 85–90%, since only one gear stage sits in the path · module cost $100–500 for motor, gear, encoder and FOC drive together.
+
 ## Examples
 MIT Cheetah/Mini Cheetah (the archetype), Unitree's entire quadruped and humanoid line, Tesla Optimus rotary joints, open-source actuators (MIT-inspired T-Motor AK series, ODrive-based builds), Ghost Robotics.
 
@@ -27,6 +30,12 @@ The AK-series-class QDD module packages motor, planetary, encoder, and FOC drive
 
 ## Suppliers
 [CubeMars](https://www.cubemars.com/) — AK-series QDD modules, the open-robotics default · [MyActuator](https://www.myactuator.com/) — integrated QDD joint modules
+
+## Videos
+
+- https://www.youtube.com/watch?v=ecSQZlNda6g — MIT Mini Cheetah Actuator (Skyentific, 17 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=Mhxz2Bj2RXA — MIT Mini Cheetah Actuator Teardown (Robert Robotics, 16 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=-YJi2a5i6a8 — 3D Printed Planetary Gearbox Robotic Actuator BLDC with ODrive S1 (Kevin Wood | Robotics & AI, 7 minutes, 10k+ views)
 
 ## Further reading
 

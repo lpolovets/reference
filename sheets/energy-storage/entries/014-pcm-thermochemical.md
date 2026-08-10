@@ -19,11 +19,20 @@ PCMs deliver heat at a constant temperature, which suits processes that need exa
 ## When to use
 Pick PCM when the application needs constant-temperature discharge, or when compactness is worth paying a multiple of brick cost: domestic hot water in space-constrained homes, cold-chain shipping, or processes that can't tolerate a sliding temperature. Choose thermochemical only if a months-long hold or transportable heat is the actual requirement, and price in the reactors and mass handling honestly. For bulk industrial heat storage, avoid both; sensible bricks, rock, or salt win on $/kWh-thermal nearly everywhere. Back specific applications where someone will pay the density or precision premium, not the category as a whole.
 
+## Key numbers
+PCM discharge temperature is fixed by the material's melting point · latent heat of typical salt-hydrate and paraffin PCMs runs roughly 150–250 kJ/kg · thermochemical stores hold energy for months with effectively zero standby loss · energy density several times that of hot rock · cost a multiple of sensible brick storage, which sits under $10/kWh-thermal.
+
 ## Examples
 Sunamp's heat batteries (UK homes, salt-hydrate PCM), PCM cold-chain shipping packs, aluminum-alloy PCM pilots (Azelio, wound down), university metal-oxide and salt-hydrate programs, solar-ammonia loops (historic ANU work).
 
 ## Economic profile
 These technologies win niches where temperature precision, compactness, or a months-long hold justifies paying a multiple of brick costs: domestic heat, cold chain, and mobile heat delivery. As bulk storage they lose to sensible heat on simple $/kWh-thermal nearly everywhere. If you're investing, back specific applications, not the category.
+
+## Videos
+
+- https://www.youtube.com/watch?v=XFl4TxfBPOU — How phase change materials (PCMs) work in Sunamp thermal batteries (Sunamp, 7 minutes, 5k+ views)
+- https://www.youtube.com/watch?v=OsiW3fqt2PI — Are Phase Change Materials the Future of Water Heaters? (Undecided with Matt Ferrell, 13 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=FZu2qDeOqFQ — The Heat Battery using Thermochemical Storage | TNO (TNO, 4 minutes, 10k+ views)
 
 ## Further reading
 

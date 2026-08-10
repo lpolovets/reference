@@ -18,7 +18,11 @@ The process gives you high material utilization, controlled porosity, and low un
 
 ## When to use
 
-Pick press-and-sinter for small-to-medium parts with essentially 2.5D geometry (gears, sprockets, bushings, structural brackets) at tens of thousands of pieces per year and up. At those volumes near-net shaping with over 95 percent material utilization undercuts machining from bar. It also helps when controlled porosity is a feature you want, as in self-lubricating bearings and filters. The shape has to press and eject along one axis, which means uniform sections and no undercuts or cross-holes without secondary ops. If your volumes are too low to amortize the die, or the part is fatigue- or impact-critical and needs full wrought properties, use forging plus machining instead. If you need intricate small 3D geometry at volume, step up to metal injection molding.
+Pick press-and-sinter for small-to-medium parts with essentially 2.5D geometry (gears, sprockets, bushings, structural brackets) at tens of thousands of pieces per year and up. At those volumes near-net shaping with over 95% material utilization undercuts machining from bar. It also helps when controlled porosity is a feature you want, as in self-lubricating bearings and filters. The shape has to press and eject along one axis, which means uniform sections and no undercuts or cross-holes without secondary ops. If your volumes are too low to amortize the die, or the part is fatigue- or impact-critical and needs full wrought properties, use forging plus machining instead. If you need intricate small 3D geometry at volume, step up to metal injection molding.
+
+## Key numbers
+
+Compaction pressures 400–800 MPa · ferrous sintered density 6.6–7.2 g/cm³, roughly 85–93% of wrought · tolerance roughly ±0.05–0.13 mm radially and looser along the press axis · parts usually under 2 kg, pressed at 5–30 per minute · die sets $10k–$100k with 8–16 week lead times · economical from about 10,000 parts a year.
 
 ## Examples
 

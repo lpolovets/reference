@@ -20,6 +20,10 @@ Reduces friction, noise, and wear and improves fatigue life. Cannot correct majo
 
 Use superfinishing as the last operation on ground rotating contact surfaces (bearing races, cams, crank and cam journals, gear flanks) when friction, noise, or contact fatigue drives the spec and the finish has to drop below roughly 0.1 micrometers Ra. It removes only the peaks left by grinding, a few micrometers at most, and it does that in seconds per part at production rates. Don't use it as a corrective step: size, roundness, and position have to already be right from grinding. If the surface is decorative, or a standard ground finish is good enough, skip it.
 
+## Key numbers
+
+Surface finish 0.01–0.1 µm Ra · removes 2–10 µm, just the peaks left by grinding · stones at 400 grit and finer · oscillation 200–3,000 strokes per minute at 1–5 mm amplitude · cycle time 10–60 seconds per part · economic from thousands of parts a year upward.
+
 ## Examples
 
 Crankshafts, camshafts, gears, bearing races.

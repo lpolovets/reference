@@ -19,6 +19,9 @@ Zero backlash, no transmission wear, extreme speed and acceleration, sub-micron 
 ## When to use
 Pick a linear motor when a linear axis has to be both fast and precise (meters per second and micron-or-better accuracy in the same move), or when throughput per track meter justifies the cost of the magnets: lithography stages, SMT gantries, programmable transport lines. Ironless variants give you cogging-free smoothness for scanning; iron-core variants give you force. Avoid linear motors when the axis mostly holds force rather than moves, because holding burns continuous current or needs a brake, while a ball screw holds for free. Also avoid them when travel is long but speed is modest (a belt or screw costs a fraction of the track), or around ferrous swarf, which the open magnet track will collect.
 
+## Key numbers
+Continuous force roughly 50 N to 5 kN per forcer, with peak around 3× continuous · speeds above 10 m/s · acceleration typically 3–10 g on light stages · zero backlash, sub-micron positioning with a linear encoder and nanometer-class on lithography stages · $1k–10k per axis, and the magnet track's cost scales with travel length.
+
 ## Examples
 ASML wafer and reticle stages, pick-and-place machine gantries (the SMT industry runs on them), laser cutters and high-end CNC axes, maglev-style transport systems (Beckhoff XTS, Planar motors), Rockwell/B&R track systems replacing conveyor lines.
 
@@ -27,6 +30,12 @@ Linear motors own the applications where precision times throughput justifies th
 
 ## Suppliers
 [Tecnotion](https://www.tecnotion.com/) — iron-core and ironless linear motors · [ETEL](https://www.etel.ch/) — precision direct-drive systems for semiconductor stages
+
+## Videos
+
+- https://www.youtube.com/watch?v=0McH4fIHtuc — How does a linear motor work? (Tecnotion - direct drive in motion, 3 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=uf_Z57gAJTc — Linear Motors | How do they work? (Sabin Civil Engineering, 6 minutes, 500k+ views)
+- https://www.youtube.com/watch?v=Roxj1aGq1LA — The entire linear motor manufacturing process including the production of the moving stator. (YHDFA, 8 minutes, 1m+ views)
 
 ## Further reading
 

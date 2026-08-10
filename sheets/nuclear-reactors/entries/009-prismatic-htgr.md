@@ -17,11 +17,20 @@ These are the highest demonstrated outlet temperatures in fission, the core mech
 ## When to use
 Reach for a prismatic HTGR only when your requirement genuinely exceeds the pebble bed's range: 900–950 °C for sulfur-iodine hydrogen or the hottest process heat. HTTR is the only place in fission where that's been demonstrated. If you're investing, two things have to be true: there's a real market at 950 °C that 750 °C can't serve, and the balance sheet survives years of fuel qualification before revenue (that's the failure mode USNC ran into). For anything at 750 °C and below, the pebble-bed camp has the operating plant, the order book, and the momentum.
 
+## Key numbers
+Thermal output 15–600 MWt across built and proposed units, 5–330 MWe · helium coolant with a graphite moderator · outlet 750–950 °C, the highest demonstrated in fission (HTTR held 950 °C for 50 days in 2010) · TRISO compacts stacked in hexagonal graphite blocks, HALEU enrichment · discharge burnup roughly 100 GWd/t · batch refueling on a roughly 18-month cycle, with block shuffling.
+
 ## Examples
 Japan's HTTR (operating, 950 °C demonstrations, coupled hydrogen-production testing); Fort St. Vrain (US, 1979–89, plagued by water ingress); Ultra Safe Nuclear's MMR (Canadian licensing at Chalk River before the company's 2024 bankruptcy and asset sale); General Atomics' prismatic lineage.
 
 ## Economic profile
 Commercially it trails the pebble bed: same heat markets, less momentum. Its one distinctive asset is the 950 °C capability, the only demonstrated fission route to sulfur-iodine hydrogen and the hottest industrial heat. USNC's bankruptcy is the warning for the sector, since TRISO-based microreactor ventures burn capital on fuel qualification long before they see revenue.
+
+## Videos
+
+- https://www.youtube.com/watch?v=dSXV4t-2rcA — HTGR The High Temperature, Gas-Cooled Power Reactor System (What is Nuclear?, 15 minutes, 5k+ views)
+- https://www.youtube.com/watch?v=3vHNf398Gag — How Do High-Temperature Gas Reactors Work? (U.S. Department of Energy, 2 minutes, 5k+ views)
+- https://www.youtube.com/watch?v=Lrb0ci5xmwA — Loss of Forced Coolant test using the High-Temperature Engineering Test Reactor (HTTR) (OECD Nuclear Energy Agency, 3 minutes, under 1k views)
 
 ## Further reading
 

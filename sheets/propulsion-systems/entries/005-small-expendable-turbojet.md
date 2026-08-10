@@ -28,6 +28,12 @@ Williams F107 and F415 (Tomahawk, ALCM classes), Safran/Microturbo TRI 60 (Storm
 ## Economic profile
 This is the fastest-moving segment in gas turbines, because the strike-munition inventories of every major military are being rebuilt at the same time. Cost per engine has roughly halved over the past decade with additive manufacturing of cases and integrally bladed rotors, and several startups are targeting sub-$20k units at thousands per year. The competitive question is not thermodynamic performance but manufacturing rate: whoever can hold tolerance on rotating parts at high volume with a non-aerospace supply chain wins the segment.
 
+## Videos
+
+- https://www.youtube.com/watch?v=b6qYRknxAwg — PBS TJ150 | NEW turbojet engine for UAVs by PBS Velka Bites (PBS, 2 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=Ds0PhkRYbBs — Small But Powerful: The Pratt & Whitney TJ-150 (Pratt & Whitney, 2 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=e_dOZtjXt2s — I built a small turbojet - for way less than you would expect (Ayden Wardell Aerospace, 10 minutes, 10k+ views)
+
 ## Further reading
 
 [Small, Low-Cost, Expendable Turbojet Engine: Design, Fabrication, and Preliminary Testing (NASA Technical Reports Server)](https://ntrs.nasa.gov/citations/19760017154) · [Small, Low-Cost, Expendable Turbojet Engine: Performance Characteristics (NASA Technical Reports Server)](https://ntrs.nasa.gov/citations/19770007088)

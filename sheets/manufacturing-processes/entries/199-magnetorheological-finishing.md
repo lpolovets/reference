@@ -20,6 +20,10 @@ Provides deterministic, localized correction with low subsurface damage. Removal
 
 Use MRF as the finishing step on optics whose figure spec exceeds what conventional polishing reliably delivers: aspheres and freeforms needing lambda/20 or better, laser optics where subsurface damage limits damage threshold, and imaging systems with tight mid-spatial-frequency requirements. Fed by interferometric maps, it converges in one or two deterministic runs, while pitch polishing can iterate for days. That is why it pays on high-value glass. It only removes microns, so the incoming surface must already be within a few microns of final figure from grinding and pre-polishing; it is not a bulk process. Skip it for commodity spherical lenses, where conventional polishing meets spec at far lower cost. For the very last nanometers on meter-class or EUV optics, use ion-beam figuring instead.
 
+## Key numbers
+
+Figure convergence to lambda/20 or better, often under 10 nm peak to valley, in one or two runs · total material removal 0.5–5 µm · surface roughness held under 1 nm RMS, typically 0.3–0.8 nm · part sizes from a few millimeters to about 1 m on the largest machines · run time 30 minutes to several hours per surface · machines roughly $1–2M, plus magnetorheological fluid as a consumable.
+
 ## Examples
 
 Aspheric lenses, lithography optics, telescope mirrors.

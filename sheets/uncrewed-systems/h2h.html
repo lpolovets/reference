@@ -1,5 +1,5 @@
     <h2>Head-to-head: the options that actually compete</h2>
-    <p class="muted">Uncrewed systems rarely compete across domains — an air vehicle and a submarine are not alternatives. Within a domain they compete hard, and usually on cost per effect rather than on capability. The rows below are the choices that come up repeatedly in real programs. Specialty classes — gliders, cargo aircraft, swarm munitions, ground robots — live in the explorer.</p>
+    <p class="muted">Uncrewed systems rarely compete across domains — an air vehicle and a submarine are not alternatives. Within a domain they compete hard, and usually on cost per effect rather than on capability. The rows below are the choices that come up repeatedly in real programs. The tables after them go inside one class at a time: small UAS for a ground unit, getting through an air defense system, and ground robots. Gliders, cargo aircraft, and the largest uncrewed vessels live in the explorer.</p>
 
     <h3>Short-range aerial attack</h3>
     <div class="tblwrap"><table>
@@ -28,13 +28,52 @@
 
     <h3>Maritime and undersea</h3>
     <div class="tblwrap"><table>
-      <thead><tr><th>Option</th><th>Endurance</th><th>Main weakness</th><th>Unit cost</th><th>Pick it when</th></tr></thead>
+      <thead><tr><th>Option</th><th>Size</th><th>Endurance</th><th>Main weakness</th><th>Unit cost</th><th>Pick it when</th></tr></thead>
       <tbody>
-        <tr><td>Small attack USV</td><td>12–24 hours, 400–800 km</td><td>Sea state above 3–4; terminal link dependence</td><td>$200–500k</td><td>You need to threaten warships and ports without anti-ship missiles. The cost exchange against a frigate is unmatched.</td></tr>
-        <tr><td>Long-endurance survey USV</td><td>6–12 months</td><td>1–5 knots; tens of watts of payload power</td><td>$500k–2M</td><td>Persistent wide-area ocean sensing where slow is fine. Usually better bought as a data subscription than as hulls.</td></tr>
-        <tr><td>Medium USV</td><td>30–60 days</td><td>Unattended reliability is the recurring program failure</td><td>$20–50M</td><td>Adding sensor mass to a fleet over wide areas, including anti-submarine trailing a destroyer cannot afford.</td></tr>
-        <tr><td>Man-portable UUV</td><td>8–20 hours</td><td>Low coverage rate; no supervision while submerged</td><td>$100–500k</td><td>Mine countermeasures and inspection in shallow water, launched from a small boat instead of a diver going in.</td></tr>
-        <tr><td>Medium survey UUV</td><td>2–5 days</td><td>Launch and recovery in a seaway; loss at depth is permanent</td><td>$2–10M</td><td>Deep-water survey and wide-area mine reconnaissance where coverage per day is what you are buying.</td></tr>
-        <tr><td>Extra-large UUV</td><td>30–70 days</td><td>Turns into a shipbuilding program; policy limits on weapons</td><td>$50–100M+</td><td>Mine laying or payload delivery in waters where a crewed submarine should not go. Judge on hulls in the water, not projections.</td></tr>
+        <tr><td>Small attack USV</td><td>5–8 m hull, several hundred kg of explosive</td><td>12–24 hours, 400–800 km</td><td>Sea state above 3–4; terminal link dependence</td><td>$200–500k</td><td>You need to threaten warships and ports without anti-ship missiles. The cost exchange against a frigate is unmatched.</td></tr>
+        <tr><td>Long-endurance survey USV</td><td>3–20 m hull, wind, wave, or solar driven</td><td>6–12 months</td><td>1–5 knots; tens of watts of payload power</td><td>$500k–2M</td><td>Persistent wide-area ocean sensing where slow is fine. Usually better bought as a data subscription than as hulls.</td></tr>
+        <tr><td>Medium USV</td><td>12–50 m, 100–500 tonnes</td><td>30–60 days</td><td>Unattended reliability is the recurring program failure</td><td>$20–50M</td><td>Adding sensor mass to a fleet over wide areas, including anti-submarine trailing a destroyer cannot afford.</td></tr>
+        <tr><td>Man-portable UUV</td><td>10–50 kg, over the side by hand</td><td>8–20 hours</td><td>Low coverage rate; no supervision while submerged</td><td>$100–500k</td><td>Mine countermeasures and inspection in shallow water, launched from a small boat instead of a diver going in.</td></tr>
+        <tr><td>Medium survey UUV</td><td>3–7 m torpedo shape, rated to 3,000–6,000 m</td><td>2–5 days</td><td>Launch and recovery in a seaway; loss at depth is permanent</td><td>$2–10M</td><td>Deep-water survey and wide-area mine reconnaissance where coverage per day is what you are buying.</td></tr>
+        <tr><td>Extra-large UUV</td><td>20–25 m, 50–80 tonnes</td><td>30–70 days</td><td>Turns into a shipbuilding program; policy limits on weapons</td><td>$50–100M+</td><td>Mine laying or payload delivery in waters where a crewed submarine should not go. Judge on hulls in the water, not projections.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2>Choices inside a class</h2>
+    <p class="muted">The tables above compare one class against another. The three below settle the choices inside a class, which is where most buying decisions actually sit: which small drone a unit carries, how to attack a target that sits under an air defense system, and whether a ground robot earns its cost.</p>
+
+    <h3>Small UAS for a ground unit</h3>
+    <p class="muted">The Group 1–2 decision, made by companies and battalions buying by the dozen. Rotors or a wing is the first question, and how much launch and recovery equipment the unit is willing to carry is the second.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Option</th><th>Weight</th><th>Endurance</th><th>Launch &amp; recovery</th><th>Unit cost</th><th>Pick it when</th></tr></thead>
+      <tbody>
+        <tr><td>Nano quadcopter</td><td>30–500 g</td><td>15–30 min</td><td>Hand launch, hand catch, flies indoors</td><td>$3–50k</td><td>Someone needs to look around a corner or inside a building in the next minute. Buy them as consumables; the loss rate is high and the price allows it.</td></tr>
+        <tr><td>Small multirotor ISR</td><td>1–25 kg</td><td>25–60 min</td><td>Vertical from any patch of ground, no equipment</td><td>$2–50k</td><td>The task needs a stare rather than a pass: overwatch of one building, artillery observation, or inspection from several angles.</td></tr>
+        <tr><td>Hand-launched fixed-wing</td><td>2–20 kg</td><td>1–4 hours</td><td>Thrown or bungeed; belly, parachute, or net recovery, which is where the airframe damage happens</td><td>$20–100k</td><td>You need to watch a route or an area for hours. One sortie by a 4 kg fixed-wing covers what a quadcopter needs six sorties to see.</td></tr>
+        <tr><td>Small VTOL fixed-wing</td><td>5–25 kg</td><td>2–6 hours, or 8–12 with a combustion hybrid</td><td>Vertical both ways; the hover-to-wing transition is the failure point</td><td>$30–150k</td><td>The site has no room or time for a launcher and a net, and you still need multi-hour endurance. Expect to pay 1.5–2× the pure fixed-wing price and give up 15–25% of the endurance.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h3>Getting through an air defense system</h3>
+    <p class="muted">Four answers to the same problem: the target sits under radars and interceptors, so a MALE or Group 3 aircraft cannot go there at all. The choice is between saturating the defense, killing its radars, and penetrating it.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Option</th><th>Reach</th><th>Warhead or payload</th><th>Unit cost</th><th>What defeats it</th><th>Pick it when</th></tr></thead>
+      <tbody>
+        <tr><td>Swarm munition</td><td>Minutes to a few hours, from the launching aircraft, vehicle, or ship</td><td>Under 1 kg each, dozens per salvo</td><td>$10–100k per aircraft</td><td>Jamming the mesh network, which leaves a set of independent drones; one high-power microwave shot engages many at once</td><td>A point defense that engages four targets a minute has to handle forty arriving together. Ask what the system does when the mesh degrades, because the answer is usually that it reverts to waypoint followers.</td></tr>
+        <tr><td>One-way attack drone</td><td>800–2,500 km, no return trip</td><td>20–90 kg</td><td>$20–50k</td><td>Guns, cheap interceptors, and GNSS jamming; the defender's problem is volume rather than difficulty per shot</td><td>You want sustained pressure on fixed infrastructure, or you want the defender spending $0.5–4M interceptors on $30k airframes. Accuracy of tens of meters suits area targets.</td></tr>
+        <tr><td>Anti-radiation munition</td><td>2–9 hours loitering over the defended area</td><td>Tens of kilograms</td><td>$100k–1M</td><td>Cheap decoy emitters, which cost a small fraction of the munition</td><td>The radars have to transmit and cannot stay silent for the whole loiter period. Size the salvo assuming some munitions go after decoys.</td></tr>
+        <tr><td>Stealth UCAV</td><td>1,500–2,000 km combat radius, unrefuelled</td><td>250 kg–2 t, carried internally</td><td>$10M+, crewed-fighter class</td><td>Low-frequency and passive radar, infrared search and track, and a loss rate the fleet cannot replace</td><td>The mission needs a fighter-sized sensor or weapon load over defended territory and standoff weapons will not do it. Program history says settle the unit cost before believing the concept.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h3>Ground robots</h3>
+    <p class="muted">Ground autonomy is much harder than air autonomy, so for a job that is only about seeing, a small drone usually beats every row here on cost and speed. These four cover the cases where a machine has to physically be there.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Option</th><th>Scale</th><th>What it carries</th><th>Unit cost</th><th>What stops it</th><th>Pick it when</th></tr></thead>
+      <tbody>
+        <tr><td>Throwable and EOD robot</td><td>2–8 kg thrown, 15–350 kg for a tracked EOD chassis</td><td>Cameras and microphones; a manipulator arm and disruptors on EOD models</td><td>$10–250k</td><td>Stairs, rubble, and mud; radio links fail indoors and underground, which is exactly where the robot is wanted</td><td>Someone has to enter an unknown building or approach a suspected device. In radio-dead spaces use a tethered or fiber-spooled version, which is standard practice in EOD work.</td></tr>
+        <tr><td>Legged robot</td><td>30–70 kg</td><td>10–15 kg of payload, 60–150 minutes per battery</td><td>$75–150k Western, a few thousand for Chinese quadrupeds</td><td>Deep mud, loose sand, and ice; legs wear faster than tracks and the gait is loud</td><td>The route has stairs, catwalks, or rubble that a tracked chassis will not cross. If the ground is drivable, a tracked robot does the same job for a fraction of the cost.</td></tr>
+        <tr><td>Squad logistics UGV</td><td>Small tracked or wheeled vehicle, 5–15 km/h</td><td>200–500 kg of supplies, batteries, or casualties; 60–100 km per charge</td><td>$150–500k</td><td>Slopes, mud, and vegetation a person steps over; the acoustic signature can reveal a unit that was moving quietly</td><td>The 40–60 kg load per soldier is the limiting factor and the terrain is drivable. Judge it on how often the squad has to stop for the robot, which is what has decided most field trials.</td></tr>
+        <tr><td>Robotic combat vehicle</td><td>5–30 tonnes</td><td>Remote weapon station, sensors, or electronic warfare payloads</td><td>A few million per vehicle, roughly what the crewed one costs</td><td>Anti-tank weapons and FPV drones, at a cost exchange that favors the attacker; links break in broken terrain before anyone jams them</td><td>You want reconnaissance in contact, or an electronic warfare payload that should not sit beside a crew, and unit cost is a hard requirement. Programs so far have been cancelled or restructured once it slipped.</td></tr>
       </tbody>
     </table></div>

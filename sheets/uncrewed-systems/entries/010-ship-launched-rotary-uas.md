@@ -19,6 +19,9 @@ It extends a small warship's sensor horizon from about 20 nautical miles to 100 
 ## When to use
 Pick a ship-launched rotary UAS when a warship needs persistent organic surveillance beyond its radar horizon and has deck space but not enough for a full helicopter detachment. If the ship can host a crewed helicopter and the mission needs lifting or boarding capability, the crewed aircraft is more versatile. If the requirement is simply extending the sensor horizon at low cost, a small catapult-launched fixed-wing system does it for a tenth of the price with less deck impact.
 
+## Key numbers
+Gross weight 200–3,000 kg · endurance 8–14 hours · sensor horizon 100+ nautical miles against about 20 from the ship's own radar · automated deck landing demanding above sea state 5 · unit cost roughly $9–12M per aircraft at MQ-8C size, well below that for the 200 kg class.
+
 ## How it is countered
 The aircraft is a conventional radar target and is engageable by any naval or shore-based air defense. Its datalink to the ship is jammable, though modern systems are designed to continue autonomously and return. The operational limit is more often sea state and deck availability than enemy action. Because it operates from a known ship, its presence is predictable.
 
@@ -26,7 +29,13 @@ The aircraft is a conventional radar target and is engageable by any naval or sh
 Northrop Grumman MQ-8B and MQ-8C Fire Scout, Schiebel Camcopter S-100 in service with several navies, Saab and UMS Skeldar systems, Leonardo AWHero, and Chinese naval rotary UAS on newer frigates.
 
 ## Economic profile
-Programs in this category have had a mixed record: the MQ-8B and C were procured and then retired early by the US Navy, which concluded that the capability did not justify the deck footprint and sustainment cost on littoral combat ships. Smaller systems like the S-100 have done better commercially by fitting more ships and costing less. The general lesson is that deck space on a warship is extraordinarily expensive real estate, and a system has to earn it against every alternative use.
+Programs in this category have had a mixed record: the MQ-8B and C were procured and then retired early by the US Navy, which concluded that the capability did not justify the deck footprint and sustainment cost on littoral combat ships. Navy production contracts for the MQ-8C worked out to roughly $9–12M per aircraft. Smaller systems like the S-100 have done better commercially by fitting more ships and costing less. The general lesson is that deck space on a warship is extraordinarily expensive real estate, and a system has to earn it against every alternative use.
+
+## Videos
+
+- https://www.youtube.com/watch?v=5ClznOIb2EQ — The MQ-8 Fire Scout: America's Unmanned Robot Helicopter (Megaprojects, 16 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=7WW1s9Nqyd8 — Northrop Grumman-built MQ-8C Fire Scout First Flight (Northrop Grumman, 2 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=THsU9hwqB8U — Schiebel CAMCOPTER® S-100 UAS - Maritime (Canada - Fogo Island) (Schiebel, 3 minutes, 5k+ views)
 
 ## Further reading
 

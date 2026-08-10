@@ -18,7 +18,11 @@ Produces durable, thick, low-solvent finishes with good material utilization. Cu
 
 ## When to use
 
-Powder coating is the default finish for fabricated steel and aluminum that can survive a 150-200 C oven: enclosures, frames, wheels, and outdoor furniture get a tough 60-120 um film with near-zero VOCs and 95+ percent material utilization on a reclaim line. It does better than liquid paint on chip resistance, edge coverage, and cost per part once a line is running. Rule it out for heat-sensitive substrates like most plastics, wood, and assemblies with seals or electronics, for parts needing films under about 25 um or Class A automotive color-matched finishes, and for deep recesses where Faraday-cage effects starve coverage. Liquid spray painting handles all of those. Very large one-off structures also favor liquid paint applied in place.
+Powder coating is the default finish for fabricated steel and aluminum that can survive a 150–200 °C oven: enclosures, frames, wheels, and outdoor furniture get a tough 60–120 µm film with near-zero VOCs and 95+ percent material utilization on a reclaim line. It does better than liquid paint on chip resistance, edge coverage, and cost per part once a line is running. Rule it out for heat-sensitive substrates like most plastics, wood, and assemblies with seals or electronics, for parts needing films under about 25 µm or Class A automotive color-matched finishes, and for deep recesses where Faraday-cage effects starve coverage. Liquid spray painting handles all of those. Very large one-off structures also favor liquid paint applied in place.
+
+## Key numbers
+
+Film thickness typically 60–120 µm, against a practical floor near 25 µm · cure at 150–200 °C metal temperature for 10–20 minutes · material utilization above 95% with powder reclaim, and effectively zero VOC · powder at roughly $4–10 per kg covering 8–12 m² per kg at 60 µm · salt-spray life of roughly 500–1,000 hours over a proper pretreatment.
 
 ## Examples
 

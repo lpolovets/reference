@@ -20,6 +20,10 @@ Handles inserts and more complex geometry than compression molding. Creates runn
 
 Use transfer molding when a thermoset or rubber part needs delicate inserts held in a closed cavity, or finer geometry than compression molding can fill. Semiconductor encapsulation and insert-heavy connectors are the usual cases. In exchange you accept cured runner scrap and more expensive tooling. If the shape is simple and has no inserts, stay with compression molding. At very high volumes with complex geometry, thermoset injection molding is usually the better fit.
 
+## Key numbers
+
+Transfer pressure 20–70 MPa, between compression and injection molding · mold temperature 150–190 °C, cure in 1–5 minutes or 60–120 s for semiconductor encapsulation · dimensional tolerance roughly ±0.1–0.25 mm · cull and runner scrap 10–30%, none of it reusable · epoxy molding compounds usually get a 4–6 hour post-mold cure at about 175 °C · tooling $15,000–150,000.
+
 ## Examples
 
 Encapsulated electronics, semiconductor packages, connectors, rubber parts.

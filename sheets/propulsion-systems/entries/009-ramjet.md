@@ -5,7 +5,7 @@ part: 2
 group: Ram compression
 regimes: [super, hyper]
 thrust: [small, med]
-isp: vhigh
+isp: high
 maturity: common
 cost: low
 ---
@@ -27,6 +27,12 @@ MBDA Meteor (throttleable solid-fuel ducted ramjet), the Bomarc and Talos ramjet
 
 ## Economic profile
 Ramjet engines themselves are cheap; the cost sits in integration, boosters, and the thermal structure. The technology is old and widely held, so proliferation is limited more by fuel-control and materials know-how than by the cycle itself. The commercially interesting motion is in solid-fuel ducted ramjets, where throttling a solid fuel gas generator gives most of the range benefit at close to solid-rocket simplicity, and in reusable Mach 4–5 testbed vehicles from companies pursuing hypersonic flight test as a service.
+
+## Videos
+
+- https://www.youtube.com/watch?v=kHSJiO_Fvvw — Ramjet engines, How do they work? (Sabin Civil Engineering, 8 minutes, 5m+ views)
+- https://www.youtube.com/watch?v=636ANEHgEOo — How Does A Supersonic Jet Engine Inlet Work? - Advanced Compressible Flow (VDEngineering, 6 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=s8GvUje-DH8 — How Supersonic Cruise Missile with Ramjet Works: BrahMos Missile (Literacy Corner Global, 6 minutes, 100k+ views)
 
 ## Further reading
 

@@ -19,11 +19,20 @@ AGM is maintenance-free, works in any position, handles high current well, toler
 ## When to use
 Pick AGM when you want lead-acid's cost along with high current, no maintenance, and freedom to mount the battery in any orientation. Typical uses are start-stop vehicles, UPS strings, motorcycles, and marine, where partial-state-of-charge tolerance matters more than deep cycling. Hold float voltage tightly and keep the battery cool, since overcharge dries the mat and heat corrodes grids fast. Avoid it for deep daily cycling (use gel or LFP) and for hot-climate float service. Reassess it against lithium 12-V and UPS products every year, since those are crossing the price line.
 
+## Key numbers
+Specific energy 30–40 Wh/kg · nominal cell voltage 2.0 V, floated at 2.25–2.30 V per cell · 300–600 cycles at 50% depth of discharge · cold-cranking current 700–900 A in start-stop sizes · service life roughly halves for every 10 °C above 25 °C · priced 1.5–2× flooded.
+
 ## Examples
 Start-stop car batteries (the largest AGM market), data-center and telecom UPS strings, motorcycles and marine, premium off-grid installations.
 
 ## Economic profile
 AGM is the premium tier of a commodity industry, priced at roughly 1.5–2× flooded and earning better margins for the same producers. Start-stop mandates drove a decade of growth. The main threat is lithium 12-V and UPS products crossing the price line as cell costs fall.
+
+## Videos
+
+- https://www.youtube.com/watch?v=nL9hArPnWYM — Johnson Controls Power Solutions AGM Battery Animation (AnthologieWorks, 3 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=Hs5kA-4l4hg — What is the Difference between Conventional and Absorbed Glass Mat AGM Batteries? (Delphi, 2 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=99oGcq4-t-4 — What Type Of Car Battery Should You Use? Flooded vs AGM (Engineering Explained, 7 minutes, 500k+ views)
 
 ## Further reading
 

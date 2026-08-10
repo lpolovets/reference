@@ -19,6 +19,9 @@ Active sonar detects quiet targets that passive sonar cannot hear, and it produc
 ## When to use
 Go active when detection matters more than concealment: a surface task group screening against a suspected submarine, a helicopter localizing a contact for attack, or a mine countermeasures vehicle imaging the seabed. Submarines generally do not, except for a single ranging ping in extremis. Multistatic architectures — a noisy expendable source with quiet distributed receivers — get much of the benefit without exposing the valuable platform, and they are where most of the current development effort is going.
 
+## Key numbers
+Low-frequency search in the hundreds of hertz, mid-frequency hull and dipping sonar at 1–10 kHz, mine-hunting sonar above 100 kHz · source levels around 220–235 dB re 1 micropascal at 1 m on hull sets · detection range typically 10–20 km at mid frequency in good conditions · range resolution from tens of meters at low frequency to centimeters above 100 kHz · counter-detection range for a listening submarine several times the sonar's own detection range · shipborne suite cost in the tens of millions.
+
 ## How it is defeated
 Anechoic coatings absorb the incident pulse and cut target strength substantially. Bubble decoys and mobile acoustic countermeasures generate false echoes. Bottom-following and hiding in reverberation-heavy shallow water frustrate returns. And the fundamental counter is simply listening: a submarine detects an active sonar at far greater range than the sonar detects the submarine, so it can leave the area before the searcher knows it was there.
 
@@ -27,6 +30,12 @@ The AN/SQS-53C hull sonar on US destroyers, the AN/AQS-22 dipping sonar on MH-60
 
 ## Economic profile
 Full shipborne active sonar suites cost tens of millions and are built by a small number of suppliers. The direction of travel is toward distributed multistatic systems using expendable or uncrewed sources, which spreads cost and reduces the exposure of high-value platforms. Environmental regulation is a genuine constraint on where and how systems can be used and tested, and it shapes procurement in a way that has few parallels in other sensing domains.
+
+## Videos
+
+- https://www.youtube.com/watch?v=AqqaYs7LjlM — How Sonar Works (Submarine Shadow Zone) - Smarter Every Day 249 (SmarterEveryDay, 27 minutes, 1m+ views)
+- https://www.youtube.com/watch?v=XTlQOh162z8 — Unrivalled Anti-submarine warfare with CAPTAS-4 VDS and FLASH dipping sonar - Thales (Thales, 4 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=_iBT88DmCD0 — Initial In-Water Testing of Northrop Grumman's AQS-24 Mine Hunting Sonar (Northrop Grumman, 3 minutes, 10k+ views)
 
 ## Further reading
 

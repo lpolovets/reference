@@ -20,6 +20,10 @@ Creates stretchable, conformable textiles and seamless structures. Dimensional s
 
 Knit when the product must stretch, conform, or come off the machine as a net-shape three-dimensional piece: apparel, shoe uppers, compression and medical textiles, covers for complex forms. Circular and flatbed machines cover high volumes economically, and 3D knitting eliminates cut-and-sew waste. Knits stretch, distort, and can run under tension, so if dimensional stability and strength under sustained load matter more than drape, use weaving instead.
 
+## Key numbers
+
+Gauge 3–18 needles per inch on flat-bed machines and 18–40 on circular · circular machines 25–40 rpm with 90–120 feeders, roughly 20–30 kg of fabric per hour · whole-garment flat-bed knitting 20–60 minutes per piece · fabric weight 100–400 g/m² · machines $30k–80k circular, $100k and up for whole-garment flat-bed · knitting to shape avoids the 15–20% fabric waste of cut-and-sew.
+
 ## Examples
 
 Apparel, shoe uppers, medical textiles, filters.

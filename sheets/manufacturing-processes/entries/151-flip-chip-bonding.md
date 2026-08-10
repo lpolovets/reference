@@ -20,6 +20,10 @@ Enables high density, short electrical paths, and strong thermal performance. Al
 
 Choose flip-chip when wire bonds cannot deliver what the die needs: interconnect counts from the high hundreds into the thousands, minimal inductance for high-frequency or high-current paths, or heat extraction through the exposed die back. Typical parts are CPUs, GPUs, RF front ends, and chiplet assemblies. Flip-chip requires wafer bumping, fine-alignment assembly, and underfill development, so for low-pin-count cost-driven devices wire bonding is still the economical default.
 
+## Key numbers
+
+Bump pitch typically 130–200 µm with solder bumps and down to about 40 µm with copper pillars · interconnect counts from several hundred to over 10,000 on large processors · placement accuracy ±5–10 µm on mass-reflow lines and 1–3 µm on thermocompression bonders · throughput roughly 2,000–6,000 dies per hour on mass reflow, well under 1,000 on thermocompression · underfill cure 30–60 minutes at about 150 °C · die sizes from a few mm on a side up to roughly 30 mm.
+
 ## Examples
 
 CPUs, GPUs, RF devices, image sensors, chiplets.

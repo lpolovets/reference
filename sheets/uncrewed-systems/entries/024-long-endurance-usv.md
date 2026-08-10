@@ -19,6 +19,9 @@ Persistence is unmatched: a year at sea with no refuelling and no crew. Operatin
 ## When to use
 Use long-endurance USVs for persistent ocean observation, maritime domain awareness in wide areas, acoustic monitoring, and hydrographic and environmental survey. If you need to respond to an event or reposition quickly, a powered vessel or an aircraft is necessary. If the sensing requirement needs kilowatts, the power budget will not support it. The commercial model — selling the data rather than the vessel — has worked well here, and buyers should compare a data subscription against owning and operating hulls.
 
+## Key numbers
+Speed 1–5 knots · deployment 6–12 months per launch · hull length roughly 3–20 m across fielded types · payload power budget tens to a few hundred watts · zero fuel consumption, so operating cost is mostly satellite data charges.
+
 ## How it is countered
 These vessels are slow and defenseless, so anything that finds one can destroy or capture it, and several have been seized. Their small size makes detection hard, which is their main protection. Fouling and biological growth degrade performance over long deployments. Because they cannot outrun weather, severe storms are a real loss mechanism.
 
@@ -27,6 +30,12 @@ Saildrone Explorer, Voyager, and Surveyor, Liquid Robotics Wave Glider, Ocius Bl
 
 ## Economic profile
 This is one of the few uncrewed maritime segments with a working commercial market, driven by ocean science, fisheries enforcement, offshore energy survey, and maritime domain awareness. Data-as-a-service pricing has been the successful model. Defense interest has grown quickly because persistent presence in wide ocean areas at low cost is exactly what maritime awareness requires, and because the same hull can carry acoustic sensors for undersea monitoring.
+
+## Videos
+
+- https://www.youtube.com/watch?v=m7gmf4Mfba4 — The Wave Glider: How it Works (with audio) (Liquid Robotics, 2 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=N78CktURvT4 — How a fleet of sailing drones is monitoring our oceans (Saildrone, 5 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=ugDnC0iidL4 — Saildrones: Cutting Edge Technology for Ocean Research (NOAA Fisheries, 4 minutes, 50k+ views)
 
 ## Further reading
 

@@ -19,11 +19,20 @@ They work on porous and non-ferrous surfaces, use nearly zero energy (electrosta
 ## When to use
 Reach for these only where vacuum and magnets are physically disqualified: limp porous textiles and composite plies that leak air, perforated sheet, and in-vacuum handling of wafers or space hardware where there is no atmosphere to press with. Near-zero power and silence are a bonus in those settings. Prototype against your actual materials and humidity before committing, because holding pressure is a fraction of vacuum's. For mainstream picking of sealable surfaces, vacuum wins on force, speed, and track record. Treat any general-gripping pitch built on these mechanisms with the skepticism the category's commercial history has earned.
 
+## Key numbers
+Electroadhesive holding pressure roughly 0.5–5 kPa, against 60–80 kPa for vacuum · drive voltage 1–10 kV at microamp currents, under 1 W per pad · gecko dry-adhesive shear stress roughly 10–100 kPa · release by peel in well under a second · payload usually under 1 kg per pad · unit cost $500–5k where products are still sold.
+
 ## Examples
 Grabit's electroadhesive sheet handlers (Nike shoe-upper stacking, the best-known win; the company later faded), gecko grippers on Stanford/JPL space-debris demos and ISS experiments, OnRobot's briefly-sold Gecko line, textile and composite-ply handling pilots.
 
 ## Economic profile
 The category has been promising for a long time and commercially fitful. Each mechanism owns real niches (limp textiles, in-vacuum handling), but those niches are individually small, and the flagship vendors have repeatedly stalled. The apparel-automation prize (sewing's limp-fabric problem) keeps venture interest alive. The right posture is to back application-specific bets where vacuum physically cannot compete, and to discount general-gripping stories.
+
+## Videos
+
+- https://www.youtube.com/watch?v=D5lqandIKjQ — Composites Manufacturing: Advanced Electrostatic Gripping System - Elektrostatischer Greifer (Fraunhofer IPT, 2 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=RiAiNjd6ukk — Grabit electroadhesion robotic each pick gripper - boxes, bags, cans, bare goods (Grabit Inc, 1 minute, 10k+ views)
+- https://www.youtube.com/watch?v=6hHv4li2JbY — Stanford engineers design a robotic gripper for cleaning up space debris (Stanford, 2 minutes, 10k+ views)
 
 ## Further reading
 

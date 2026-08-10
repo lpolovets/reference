@@ -28,6 +28,12 @@ Pratt & Whitney F135 (F-35, ~190 kN augmented), F119 (F-22), GE F110 and P&W F10
 ## Economic profile
 Fighter engines cost roughly $10–15M each and are sold into single-customer programs with 40-year sustainment tails, so the business is a national-capability question as much as a commercial one. Only the US, UK, France, Russia, and (increasingly) China field domestic high-performance military turbofans; China's WS-15 program is the clearest illustration of how hard the hot section is to replicate. Export controls on engines are one of the more effective non-proliferation levers available, which is why aircraft deals frequently hinge on engine release rather than airframe release.
 
+## Videos
+
+- https://www.youtube.com/watch?v=g3awv7eeubA — How an AFTERBURNER works - Explained by CAPTAIN JOE (Captain Joe, 10 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=mH3BBUpzj9c — Explained: Afterburners (JoshTheEngineer, 11 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=1DdF3U2g-Ic — The Afterburner - Turbine Engines: A Closer Look (AgentJayZ, 5 minutes, 100k+ views)
+
 ## Further reading
 
 [Turbofan Thrust (NASA Glenn Beginner's Guide to Propulsion)](https://www.grc.nasa.gov/www/k-12/airplane/turbfan.html) · [Experimental Evaluation of a TF30-P-3 Turbofan Engine: Afterburner Performance (NASA Technical Reports Server)](https://ntrs.nasa.gov/citations/19720019364)

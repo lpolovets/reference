@@ -19,6 +19,9 @@ Long standoff and complete passivity are the advantages, and the weapon imposes 
 ## When to use
 Use anti-radiation weapons in suppression and destruction of enemy air defenses, and understand that the operational effect is usually suppression rather than destruction — forcing radars off the air is the point. If the target radar is expected to shut down quickly, combine the anti-radiation weapon with GPS or millimeter-wave terminal guidance so the weapon can still hit the site. Loitering anti-radiation drones invert the timing problem entirely by waiting in the area until the radar transmits, which is a much better match to the actual behavior of a disciplined air-defense operator.
 
+## Key numbers
+Wideband interferometer seeker giving bearing, not range · acquisition range often longer than the target radar's own detection range against the launching aircraft · standoff commonly quoted above 100 km, more on extended-range types · several hundred thousand to over a million dollars per round · decoy emitters that draw a shot cost a small fraction of that · counter-tactic timescale in minutes: transmit briefly, shut down, displace.
+
 ## How it is defeated
 Emission control defeats it: the standard counter is to transmit briefly, shut down, and displace within minutes. Decoy emitters mimicking the radar are cheap and draw missiles onto empty ground. Placing radars near protected sites exploits collateral-damage rules. Multistatic and passive radar architectures give nothing to home on. Blinking several radars in sequence confuses seekers that expect continuous emission.
 
@@ -27,6 +30,11 @@ The AGM-88 HARM and its AARGM and AARGM-ER developments, the ALARM with its loit
 
 ## Economic profile
 Anti-radiation missiles are expensive — several hundred thousand to over a million dollars each — and inventories are small relative to the number of emitters a campaign would face. That cost asymmetry against cheap decoy emitters is the central economic problem of the mission, and it is a large part of why loitering munitions and cheap one-way attack drones have become attractive for the same role. The seeker itself is a wideband receiver, and improvements track the same digital receiver technology as electronic support systems.
+
+## Videos
+
+- https://www.youtube.com/watch?v=kHV12DPE1kk — SEAD - Suppression of Enemy Air Defense (Covert Cabal, 18 minutes, 500k+ views)
+- https://www.youtube.com/watch?v=yL9MkFq-Oaw — Invisible Battlefield: Jamming & Anti-Radiation Missiles (Military History not Visualized, 23 minutes, 10k+ views)
 
 ## Further reading
 

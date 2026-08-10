@@ -20,6 +20,10 @@ Enables sealed cavities, multilayer structures, and complex devices. Surfaces mu
 
 Bond wafers when the device fundamentally requires joined substrates: hermetic vacuum cavities for gyros and resonators, SOI material, capping of MEMS before dicing, backside-illuminated image sensor stacks, and 3D die stacking via hybrid bonding. Pick the variant by constraint. Fusion bonding gives the highest strength when both wafers tolerate high anneal temperatures and sub-nanometer roughness is achievable. Anodic bonding suits glass-to-silicon MEMS sealing at moderate temperature. Adhesive or eutectic bonding works when surfaces are rough, patterned, or temperature-limited. The flatness and particle requirements are severe: a single micron-scale particle voids square millimeters, so budget for CMP-grade surfaces and meticulous cleaning. If you only need package-level sealing or attachment of a finished die, conventional packaging and die-attach processes are far cheaper than wafer-level bonding.
 
+## Key numbers
+
+Surface roughness under 0.5 nm RMS and bow within a few tens of microns for fusion bonding · anneal temperature 1,000–1,100 °C for fusion, 300–450 °C at 200–1,000 V for anodic, 363 °C for Au-Si eutectic, 200–250 °C for adhesive · bond surface energy 1–2.5 J/m2 after a full fusion anneal · alignment 0.5–2 µm on MEMS aligners and under 200 nm for hybrid bonding · a single micron-scale particle voids square millimeters of bond area · bonders $1–3M.
+
 ## Examples
 
 MEMS sensors, microfluidics, image sensors, 3D integration.

@@ -20,6 +20,10 @@ Produces intricate shapes, thin walls, fine details, and high-performance alloy 
 
 Choose investment casting for complex, thin-walled (down to about 1.5 mm), fine-finish parts in hard-to-machine alloys (superalloys, titanium, stainless) at tens to tens of thousands of pieces, typically under about 50 kg. You get a near-net shape with detail that would otherwise take a lot of machining. Skip it for simple geometry or large parts, where sand casting is much cheaper, and for high-volume aluminum, where die casting has much shorter cycle times.
 
+## Key numbers
+
+Wall thickness down to about 1.5 mm · linear tolerance roughly ±0.13 mm on the first 25 mm plus ±0.05 mm per 25 mm after that · as-cast surface Ra 1.6–3.2 µm · part weight from a few grams to about 50 kg · wax dies $5,000–50,000 at 8–16 week lead time · shell built from 5–10 dip-and-dry coats over 1–2 days · economical from tens to tens of thousands of pieces.
+
 ## Examples
 
 Turbine blades, aerospace brackets, surgical implants, impellers, jewelry.

@@ -7,7 +7,7 @@ roles: [isr, strike, ew]
 endurance: [day]
 payload: [small, med]
 autonomy: sup
-cost: med
+cost: high
 ---
 
 ## Description
@@ -19,6 +19,9 @@ Capability per dollar is the strength: a modest aircraft carrying a good sensor 
 ## When to use
 Pick this class for armed ISR against opponents without effective medium-range air defense, for border and maritime patrol, and for persistent surveillance where a runway is available. Against a peer with layered air defense, plan on losing them and price accordingly, or use them outside the threat envelope as sensor and communications platforms. The strategic lesson from 2020–2022 is that this class is decisive against unprepared opponents and attritable against prepared ones, and both conclusions are correct.
 
+## Key numbers
+Gross weight 150–600 kg · endurance 12–20 hours · operating altitude 10,000–20,000 ft · payload 25–150 kg · runway 500–1,000 m · unit cost roughly $5M for a TB2 against $30M+ for a Western equivalent.
+
 ## How it is countered
 Medium-range surface-to-air missiles and modern short-range systems engage them readily. Electronic warfare against control links and GNSS is effective, particularly since most of these aircraft rely on satellite or line-of-sight links for weapons employment. They are large enough and slow enough to be tracked by ordinary surveillance radar. Their runway requirement also makes their operating bases predictable and targetable.
 
@@ -27,6 +30,12 @@ Baykar Bayraktar TB2 and Akinci, General Atomics Gray Eagle in its smaller confi
 
 ## Economic profile
 The TB2 at roughly $5M per aircraft against $30M+ for a comparable Western system reset expectations for the whole category, and Turkish and Chinese suppliers now dominate export sales on price. Operating cost is a few thousand dollars per flight hour against tens of thousands for crewed aircraft. Western manufacturers have responded partly on capability and partly on regulatory arguments, but the price gap has been the decisive factor in most competitions outside NATO.
+
+## Videos
+
+- https://www.youtube.com/watch?v=Wil6V0sYHf8 — How a Military Drone Works | Bayraktar TB2 UAV (AiTelly, 6 minutes, 1m+ views)
+- https://www.youtube.com/watch?v=BAwE9e3GY_0 — The Truth About Ukraine's Bayraktar TB2 Drone: Project Ukraine (Task & Purpose, 10 minutes, 500k+ views)
+- https://www.youtube.com/watch?v=M9gWJjsmluM — Turkish Drone Technology | Making of BAYRAKTAR TB2 UAV (TR, 4 minutes, 10k+ views)
 
 ## Further reading
 

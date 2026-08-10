@@ -19,11 +19,20 @@ It has the highest energy density of any near-term rechargeable architecture, an
 ## When to use
 Pick liquid-electrolyte lithium-metal when Wh/kg is worth thousands of dollars per kilogram and the mission fits inside 100–300 cycles. That covers HAPS and pseudo-satellites, defense UAVs, eVTOL demonstrators, and record attempts. Charge it slowly, under pressure, on a disciplined protocol, and treat every cycle as consumable. Avoid it if you need fast charge, long service life, or a consumer safety envelope. For those, silicon-anode or high-nickel Li-ion is the practical high-energy choice, and solid-state is the eventual successor.
 
+## Key numbers
+Lithium metal holds 3,860 mAh/g against graphite's 372 · practical cells 400–500 Wh/kg · cycle life 100–300 to 80% capacity · charge rates typically held to C/10–C/3 · stack pressure of roughly 1 MPa held through cycling · nominal 3.7–3.8 V against a high-nickel cathode.
+
 ## Examples
 Sion Power Licerion, SES AI hybrid-electrolyte automotive samples; ultralight cells for HAPS/pseudo-satellites, defense UAVs, and record-setting eVTOL demonstrations.
 
 ## Economic profile
 It sells today into aerospace and defense niches where Wh/kg is priced in thousands of dollars and 100–300 cycles are enough. Automotive relevance depends on either solid electrolytes or electrolyte breakthroughs that extend life 5–10×. Thin, wide lithium foil production (extrusion or evaporation) is itself an investable chokepoint.
+
+## Videos
+
+- https://www.youtube.com/watch?v=mSK7MIp3mxI — Lithium Dendrity (CATL, 3 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=XP9w6mGo-mE — Scientists tackle the lithium dendrite problem in batteries (Chemical & Engineering News, 5 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=Emv4I-IlTns — Solid Lithium Metal anode breakthrough. 750% LONGER life! (Just Have a Think, 11 minutes, 100k+ views)
 
 ## Further reading
 

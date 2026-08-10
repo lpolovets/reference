@@ -19,6 +19,9 @@ Remote actuation cuts limb inertia substantially. Tensioned cables run smooth, q
 ## When to use
 Reach for belts and cables when moving mass is the problem. Putting the motors at the base drops limb inertia a lot, which is why tendon drives are standard in dexterous hands and cable capstans are standard in haptics and surgical instruments, where backdrivable, backlash-free feel is the product. Belts are the cheap default for planar stages (CoreXY, SCARA, deltas) and any long run that has to tolerate misalignment. Avoid them when you need stiffness under high load or maintenance-free life, since cables creep, fray, and need tensioning; for heavy sustained force, use a screw or a geared joint instead. Keep the routing simple, because every joint a cable crosses becomes a kinematic coupling you have to compensate for.
 
+## Key numbers
+Synchronous belt efficiency 95–98% · capstan reduction typically 5–20:1 per stage · backlash effectively zero on a tensioned cable or capstan drive · belt pitch 2–5 mm on small robots (GT2 and GT3 profiles) · minimum pulley diameter roughly 20× the cable diameter for reasonable fatigue life.
+
 ## Examples
 The da Vinci surgical system's cable-driven instruments (the category's flagship), Phantom haptic devices' capstans, 3D printer CoreXY belt systems, SCARA and delta robot belt stages, tendon-driven robot hands (Shadow Hand), Agility Robotics' leg transmissions mixing cables and links.
 
@@ -27,6 +30,12 @@ Belts are a commodity. Precision cable and capstan work is closer to craft engin
 
 ## Suppliers
 [Gates](https://www.gates.com/) — synchronous belts and drives · [SDP/SI](https://www.sdp-si.com/) — small-mechanism belts, cables, and pulleys
+
+## Videos
+
+- https://www.youtube.com/watch?v=MwIBTbumd1Q — High Precision Speed Reducer Using Rope (Aaed Musa, 20 minutes, 1m+ views)
+- https://www.youtube.com/watch?v=Xau6Qnt0wPE — Teardown of Surgical Robot Instrument (Kyle Bartholomew, 19 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=_ramiM3KHYE — CoreXY explained: Comparison + strengths & weaknesses (Teaching Tech, 13 minutes, 500k+ views)
 
 ## Further reading
 

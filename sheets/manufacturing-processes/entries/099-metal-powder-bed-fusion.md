@@ -18,7 +18,11 @@ Creates internal channels, lattices, consolidated assemblies, and complex metal 
 
 ## When to use
 
-Pick metal powder-bed fusion when geometry earns it: conformal cooling channels, internal passages, lattices, and part consolidation in high-value low-volume hardware (rocket injectors, implants, heat exchangers, aerospace brackets). That typically means ones to hundreds of units where the design could not be machined or cast at all, or where lead time on castings and forgings is the bottleneck. Budget the full chain: stress relief, support removal, HIP or heat treatment, finish machining of interfaces, and inspection often cost more than the print. Avoid it for geometry a lathe or mill handles directly, for parts larger than roughly 400-800 mm build envelopes, and for volumes in the thousands, where casting plus machining or MIM is far cheaper.
+Pick metal powder-bed fusion when geometry earns it: conformal cooling channels, internal passages, lattices, and part consolidation in high-value low-volume hardware (rocket injectors, implants, heat exchangers, aerospace brackets). That typically means ones to hundreds of units where the design could not be machined or cast at all, or where lead time on castings and forgings is the bottleneck. Budget the full chain: stress relief, support removal, HIP or heat treatment, finish machining of interfaces, and inspection often cost more than the print. Avoid it for geometry a lathe or mill handles directly, for parts larger than roughly 400–800 mm build envelopes, and for volumes in the thousands, where casting plus machining or MIM is far cheaper.
+
+## Key numbers
+
+Layer thickness 20–60 µm · tolerance roughly ±0.1 mm or ±0.2% before finish machining · as-built surface finish Ra 8–20 µm · density above 99.5% of theoretical · build rates roughly 5–30 cm³ per hour per laser · Ti-6Al-4V powder $200–400/kg · machines $500k to $2m, with build envelopes commonly 250–400 mm and up to about 800 mm.
 
 ## Examples
 

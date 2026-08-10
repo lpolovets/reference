@@ -19,6 +19,9 @@ Engineering time drops to configuration time. Industrial versions come with deca
 ## When to use
 Buy an integrated servo when engineering time is scarcer than unit cost. That covers research platforms and low-volume machines (Dynamixel-class smart servos) and industrial axes that need certified safety functions, fieldbus integration, and decade-scale reliability (Yaskawa/Beckhoff-class). It's usually the right call up to a few hundred units a year, or wherever the axis isn't your product's differentiator. If the joint needs backdrivability or force transparency, skip it, because the bundled high-ratio gearbox rules that out; use a QDD module instead. At humanoid-scale volumes, the integration markup pays for an in-house motor-gear-encoder module within a product generation.
 
+## Key numbers
+Rated torque roughly 0.3–30 Nm across 100 W to 5 kW industrial frames · rated speed usually 2,000–3,000 rpm, peak 4,000–6,000 · absolute encoders of 20 bits and up on modern industrial servos · bundled gearhead backlash typically 3–15 arcminutes on standard grades · unit cost $3 for a hobby RC servo, $30–100 for a smart servo, roughly $500–3,000 per industrial axis.
+
 ## Examples
 Yaskawa, Fanuc, Siemens, and Beckhoff AC servo axes across industrial automation; Dynamixel (Robotis) as the research-robot standard; Feetech/Waveshare clones powering the low-cost arm wave (SO-ARM100 class); KEBA-driven cobot joints.
 
@@ -27,6 +30,12 @@ Industrial servo axes are a mature, oligopolistic $10B+ market with stable margi
 
 ## Suppliers
 [ROBOTIS](https://www.robotis.us/) — Dynamixel smart servos, the research standard · [Yaskawa](https://www.yaskawa.com/) — industrial AC servo axes
+
+## Videos
+
+- https://www.youtube.com/watch?v=ditS0a28Sko — What is a Servo Motor and How it Works? (RealPars, 16 minutes, 1m+ views)
+- https://www.youtube.com/watch?v=rZuC5xZC8PE — What is an AC Servo Motor? from AutomationDirect (AutomationDirect.com, 10 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=hg3TIFIxWCo — Technical animation: How a Servo Motor works (learnchannel, 3 minutes, 1m+ views)
 
 ## Further reading
 

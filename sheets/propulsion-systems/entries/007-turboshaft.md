@@ -28,6 +28,12 @@ GE T700 (Black Hawk, Apache), Rolls-Royce/Honeywell T55 (Chinook), Safran Arriel
 ## Economic profile
 Military helicopter engines are concentrated among GE, Safran, Rolls-Royce, and Klimov, with 40-year fielded lives and heavy sustainment revenue. The US Improved Turbine Engine Program (GE T901) is the first clean-sheet helicopter engine in decades and is intended to give 50% more power and 25% better fuel burn in the same envelope as the T700. Marine gas turbines are an even smaller club: the LM2500 alone powers a large share of Western warships, which is a single-point supply-chain concern that navies discuss more openly than they used to.
 
+## Videos
+
+- https://www.youtube.com/watch?v=uVjStAxMFEY — Understanding Helicopter's Engine | Turboshaft (Sabin Civil Engineering, 6 minutes, 5m+ views)
+- https://www.youtube.com/watch?v=vZQII9AwwE0 — How a Gas Turbine engine works Black Hawk helicopter GE T-700 series (msfirefighter662, 5 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=5ebnIjgDKyg — How Does A Helicopter Engine Work? | Turboshaft And Jet Engine Explained (mrfabulousk, 3 minutes, 100k+ views)
+
 ## Further reading
 
 [Wide Speed Range Turboshaft Study (NASA Technical Reports Server)](https://ntrs.nasa.gov/citations/19960009440) · [Test Stand Performance of a Convertible Engine for Advanced V/STOL and Rotorcraft Propulsion (NASA Technical Reports Server)](https://ntrs.nasa.gov/citations/19880002297)

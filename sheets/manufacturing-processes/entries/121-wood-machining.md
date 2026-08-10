@@ -20,6 +20,10 @@ Wood is easy to machine and aesthetically attractive. It is anisotropic, moistur
 
 Wood machining is the default for furniture, cabinetry, millwork, and instrument making from prototypes through mid volumes. Tooling is nearly free, CNC routers make complex 2.5D work repeatable, and the material cuts fast and finishes easily. Design around the material rather than the process. Avoid wood where tolerances must hold across humidity swings, where fire or rot resistance is required without treatment, or at volumes where molded plastics or stamped metal become cheaper per part.
 
+## Key numbers
+
+Tolerance about ±0.25 mm on CNC-routed parts, with seasonal moisture movement often larger than that · kiln-dried moisture content 6–8% for interior work and 12–15% outdoors · movement across the grain roughly 0.2% per 1% change in moisture content · router spindles 12,000–24,000 rpm at 5–15 m/min feed · tooling under $5k, mostly bits and fixtures · economical from lot size 1 up to a few thousand parts.
+
 ## Examples
 
 Furniture, cabinetry, framing, musical instruments, flooring.

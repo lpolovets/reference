@@ -20,6 +20,10 @@ Joins dissimilar materials, spreads load, seals joints, and avoids thermal disto
 
 Bond when you are joining dissimilar or heat-intolerant materials (composites to metals, thin skins, glass), or when you want the joint to seal as well as spread load over an area instead of concentrating it at fasteners or welds. Budget for surface preparation, fixturing, and cure time, and design the joint so the adhesive is loaded in shear. Avoid peel-dominated loads, service beyond the adhesive's temperature rating, and safety-critical joints you cannot inspect or process-control. For those, combine adhesive with mechanical fastening or use fastening alone.
 
+## Key numbers
+
+Lap shear strength 20–40 MPa for structural epoxies and 5–15 MPa for polyurethanes · bond line 0.1–0.5 mm · room-temperature cure about 24 hours, aerospace film adhesive roughly 1 hour at 120–180 °C · service temperature 80–120 °C for common epoxies and up to about 200 °C for high-temperature systems · adhesive $20–200/kg · fixtures and cure tooling usually under $5k.
+
 ## Examples
 
 Aircraft panels, automotive structures, composites, electronics.

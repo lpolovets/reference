@@ -20,6 +20,10 @@ Can combine dissimilar materials and embed sensors. Interlayer bond strength and
 
 Pick sheet lamination for the jobs its layer-stacking nature uniquely enables: embedding sensors, wiring, or dissimilar-material layers mid-build, and cheap large-format visual models from paper or polymer sheet. Ultrasonic metal variants join aluminum and copper foils at low temperature around embedded electronics. Design so loads run in-plane, because the interlayer bond is the weak axis, and avoid enclosed cavities, which trap waste sheet you cannot dig out. For general functional prototyping or production metal parts, FFF, powder-bed fusion, or machining are all stronger defaults. Treat sheet lamination as a niche process you pick for embedding and laminating rather than as a general-purpose printer.
 
+## Key numbers
+
+Layer thickness set by the sheet: 0.1–0.2 mm for paper and about 150 µm for metal foil · ultrasonic bonding stays under roughly 150 °C, low enough to embed electronics and fiber · XY tolerance roughly ±0.1–0.3 mm · build envelopes up to about 1.8 × 1.8 × 0.9 m on large ultrasonic machines · ultrasonic metal machines several hundred thousand dollars.
+
 ## Examples
 
 Laminated models, embedded-sensor structures, tooling.

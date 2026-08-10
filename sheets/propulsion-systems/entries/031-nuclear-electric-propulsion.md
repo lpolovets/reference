@@ -28,6 +28,12 @@ NASA's Kilopower and KRUSTY test, the Fission Surface Power program with Lockhee
 ## Economic profile
 Entirely government-funded, with a supplier base drawn from the naval and commercial nuclear industries rather than from aerospace. The renewed interest since 2020 is driven by lunar surface power needs and by military interest in maneuverable space assets. As with nuclear thermal, the cost drivers are qualification, testing, and launch approval rather than component manufacture. Fission surface power is the nearer-term budget line and is likely to fund the reactor and conversion technology that any future NEP vehicle would use.
 
+## Videos
+
+- https://www.youtube.com/watch?v=QxeRPQGQDk4 — Nuclear Space Power and Propulsion (Illinois EnergyProf, 19 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=WR_ynlse0dQ — Dr. Kurt Polzin: Nuclear Power Applications for Spacecraft Propulsion (Electrical and Computer Engineering at Michigan, 5 minutes, 1k+ views)
+- https://www.youtube.com/watch?v=bdMzFQOABcQ — Powering a Habitat on Mars with Kilopower (Los Alamos National Lab, 2 minutes, 100k+ views)
+
 ## Further reading
 
 [Fission Surface Power (NASA)](https://www.nasa.gov/tdm/fission-surface-power/) · [Electric Propulsion Options for Mars Cargo Missions (NASA Technical Reports Server)](https://ntrs.nasa.gov/citations/20210003758)

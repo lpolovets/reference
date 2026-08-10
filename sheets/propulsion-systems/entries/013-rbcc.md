@@ -28,6 +28,11 @@ NASA's GTX and ISTAR concepts, the Aerojet Strutjet demonstrator, Japan's JAXA c
 ## Economic profile
 There is no market and no supplier base — this is a technology-readiness question funded through space agencies and defense research offices. It gets attention every time single-stage-to-orbit comes back into fashion, and it loses funding every time reusable staged rockets get cheaper. Falling launch costs from reusable two-stage vehicles have made the economic case harder, not easier, since the target that RBCC has to beat has moved by an order of magnitude in a decade.
 
+## Videos
+
+- https://www.youtube.com/watch?v=HdPcPHxK22U — High Speed Flight Episode 2.2 | RBCC, Part 1 (Venus Aerospace, 9 minutes, 1k+ views)
+- https://www.youtube.com/watch?v=7PNfXMMlAuk — High Speed Flight Episode 2.2 | RBCC, Part 2 (Venus Aerospace, 10 minutes, under 1k views)
+
 ## Further reading
 
 [Rocket-Based Combined Cycle Engine Concept Development (NASA Technical Reports Server)](https://ntrs.nasa.gov/citations/20020016608) · [Hypersonics research (NASA Glenn Research Center)](https://www1.grc.nasa.gov/research-and-engineering/hypersonics/)

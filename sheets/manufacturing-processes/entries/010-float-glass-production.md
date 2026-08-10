@@ -20,6 +20,10 @@ This is the most efficient way to make large, optically smooth flat glass. It ca
 
 Specify float glass for any flat glazing need (windows, mirrors, automotive and architectural stock), because nothing else produces large optically smooth sheet at commodity cost. This is strictly a feedstock decision. Float lines cost hundreds of millions and run continuously for years, so everyone except the largest producers buys rather than makes. If you need shaped or hollow glassware, use pressing, blowing, or slumping instead.
 
+## Key numbers
+
+Ribbon thickness 0.4–25 mm, with architectural stock at 2–19 mm · thickness tolerance roughly ±0.1–0.3 mm · jumbo sheet about 3.2 m by 6 m · line output 500–1,000 tons per day · furnace campaign roughly 12–15 years between rebuilds · fire-polished surface below 1 nm Ra · line capex $150–400M.
+
 ## Examples
 
 Windows, mirrors, architectural glazing, automotive glass feedstock.

@@ -19,6 +19,9 @@ This is the only effector class that can attempt the full human task distributio
 ## When to use
 Pick a dexterous hand only when task generality is itself the product: humanoid platforms facing open-ended task distributions, manipulation research, and teleoperated data collection for learned policies. LEAP-class $2k open hardware suits research budgets, and production-style underactuated hands suit cases where fleet reliability matters. If your task set can be enumerated, which covers nearly all deployed automation, a parallel jaw, suction, or a tool-changer portfolio beats a hand on cost, cycle time, and MTBF. Before specifying one, answer honestly what fraction of your tasks needs more than a pinch.
 
+## Key numbers
+6–24 actuated degrees of freedom, against 1 on a parallel jaw · payload 0.5–5 kg per hand · fingertip force roughly 5–20 N · fingertip repeatability around 1 mm · unit cost $2k for LEAP-class open hardware up to $100k+ for a Shadow Hand.
+
 ## Variants
 ### Research-grade instruments
 16–24 actuated DoF, tendon-driven, maximal sensing: Shadow Dexterous Hand (~$100k+, OpenAI's Rubik's-cube work), Wonik Allegro (the decade-long research default), LEAP Hand ($2k open-source, the cost collapse that put dexterity research within reach of ordinary lab budgets). They get maintained like lab instruments, with regular retensioning and rebuilds.
@@ -31,6 +34,12 @@ OpenAI's cube manipulation (Shadow), academic in-hand-reorientation and tool-use
 
 ## Economic profile
 Two economies share one anatomy. The first is a tiny research-instrument market (~$10–50M/yr) that matters far more than its size suggests, because it is the R&D bench and the training-data source for the production wave. The second is a potential tens-of-millions-of-units component market if general-purpose humanoids ship, with razor-blade fingertip economics. One open question prices both: what fraction of deployed humanoid tasks actually needs more than a pinch? If the answer is "most," hands become the strategic component of the era. If it's "few," humanoids ship with two-finger grippers and the premium collapses.
+
+## Videos
+
+- https://www.youtube.com/watch?v=gS4rOqNDTBk — What's in a humanoid hand? | Boston Dynamics (Boston Dynamics, 7 minutes, 1m+ views)
+- https://www.youtube.com/watch?v=x4O8pojMF0w — Solving Rubik’s Cube with a Robot Hand (OpenAI, 3 minutes, 500k+ views)
+- https://www.youtube.com/watch?v=VKAlJPypQFI — LEAP Hand: Low-Cost, Anthropomorphic, Multi-fingered Hand [RSS 2023] (Deepak Pathak, 2 minutes, 5k+ views)
 
 ## Further reading
 

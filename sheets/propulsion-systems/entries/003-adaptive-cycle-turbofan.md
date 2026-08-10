@@ -28,6 +28,12 @@ GE Aerospace XA100 and XA102, Pratt & Whitney XA101 and XA103 under the Next Gen
 ## Economic profile
 Adaptive engines are funded almost entirely by the US Air Force and Navy through NGAP, at roughly $1B per contractor per phase. There is no commercial market — civil aviation has no use for variable bypass at subsonic cruise — so the whole business case rests on which sixth-generation programs actually enter production and in what numbers. That makes it a classic defense-only technology: high technical maturity, uncertain demand, and a supplier base of exactly two.
 
+## Videos
+
+- https://www.youtube.com/watch?v=5PLjjCS4V-A — GE's XA100 Adaptive Cycle Engine (GE Aerospace, 3 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=T3eudKVbdG0 — GE Adaptive Cycle Engine (GE Aerospace, 3 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=H88q4Rdwy-M — AFRL Adaptive Engine Overview (Gaurav Singh, 4 minutes, 10k+ views)
+
 ## Further reading
 
 [Multipoint Variable Cycle Engine Design Using Gradient-Based Optimization (NASA Technical Reports Server)](https://ntrs.nasa.gov/citations/20190004944) · [Variable Cycle Engine Technology Program Planning and Definition Study (NASA Technical Reports Server)](https://ntrs.nasa.gov/citations/19790014913)

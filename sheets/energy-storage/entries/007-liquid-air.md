@@ -19,11 +19,20 @@ LAES has no geology or geography constraints, uses a mature industrial supply ch
 ## When to use
 Pick LAES when you need siting freedom (no salt, no mountains, brownfield industrial land works fine) for 8–12+ hour duty on a grid with abundant cheap surplus to charge from, ideally with an industrial neighbor to buy the waste cold or supply waste heat. Wind-heavy systems like Britain's are the archetype. The mature industrial-gas supply chain makes it the most bankable of the geology-free mechanical options. Avoid it where charging power isn't reliably cheap or duty is under 8 hours: you pay the 50–60% round trip on every cycle, while Li-ion does better intraday and advanced CAES does better wherever caverns exist.
 
+## Key numbers
+Liquefaction at -196 °C · round trip 50–60% at best, about 25% without heat and cold recycling · duration 8–12+ hours · asset life 30–40 years · tank energy capacity in the tens of $/kWh, with the liquefier and power island driving $/kW · flagship plant 50 MW / 300 MWh at Carrington.
+
 ## Examples
 Highview Power: Pilsworth pilot, the 50 MW/300 MWh Carrington plant (UK, under construction with UK IB backing), and gigawatt-hour follow-ons; Sumitomo (industrial gases) as an investor.
 
 ## Economic profile
 Tank capacity costs tens of $/kWh; the expensive parts are the liquefier and power island ($/kW). LAES therefore wants 8–12+ hour duty with abundant cheap surplus power, which is exactly the profile of wind-heavy grids like Britain's. You accept the efficiency penalty in exchange for siting freedom and a mature supply chain.
+
+## Videos
+
+- https://www.youtube.com/watch?v=kDvlh_aG7iA — Liquid Air Energy Storage Animation (Highview, 5 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=yb1Nuk3_t_4 — Liquid Air Battery Explained - Rival to Lithium Ion Batteries? (Undecided with Matt Ferrell, 12 minutes, 500k+ views)
+- https://www.youtube.com/watch?v=fjERw-Ol-_s — Cryogenic Air Energy Storage - the new long duration energy solution? (Just Have a Think, 11 minutes, 100k+ views)
 
 ## Further reading
 

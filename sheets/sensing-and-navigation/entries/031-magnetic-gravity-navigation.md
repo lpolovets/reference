@@ -9,13 +9,16 @@ cost: med
 ---
 
 ## Description
-The Earth's crust produces small, spatially varying anomalies in both the magnetic and gravitational fields, and those anomalies are stable over decades. A vehicle carrying a sensitive magnetometer or gravity gradiometer can measure the local field, compare it against a stored anomaly map, and derive a position fix by the same correlation logic that terrain matching uses — except that it works over water, under water, in cloud, and at night, because the fields pass through everything. Accuracy demonstrated in flight testing is in the hundreds of metres to a few kilometres, improving as maps and sensors improve.
+The Earth's crust produces small, spatially varying anomalies in both the magnetic and gravitational fields, and those anomalies are stable over decades. A vehicle carrying a sensitive magnetometer or gravity gradiometer can measure the local field, compare it against a stored anomaly map, and derive a position fix by the same correlation logic that terrain matching uses — except that it works over water, under water, in cloud, and at night, because the fields pass through everything. Accuracy demonstrated in flight testing is in the hundreds of meters to a few kilometers, improving as maps and sensors improve.
 
 ## Strengths and weaknesses
 It is passive, unjammable, and works in every medium and every weather condition, including underwater where nothing else absolute is available. Field anomalies are stable, so maps stay valid for decades. The weaknesses are sensitivity and interference. Magnetic anomalies are a few hundred nanotesla against a 50,000 nT background, and the vehicle's own electrical systems produce comparable disturbances, so platform compensation is the central engineering problem. Solar activity perturbs the magnetic field on hourly timescales. Gravity gradiometers are expensive and slow to average. And large areas of the world are not mapped at useful resolution.
 
 ## When to use
 Use field-based navigation where GNSS is denied and no other absolute reference is available: submarines, long-range aircraft over ocean, and any platform that must navigate under cloud with no terrain relief. It complements terrain matching rather than replacing it, since terrain works well over land and field navigation works over water. Treat map availability as the gating question — the technique's accuracy is set by survey coverage and resolution more than by the sensor, and the relevant maps are national assets in many regions.
+
+## Key numbers
+Fix accuracy hundreds of meters to a few kilometers in flight testing · crustal anomalies of a few hundred nanotesla against a 50,000 nanotesla background · platform magnetic interference comparable in size to the signal, so compensation sets the achievable accuracy · global anomaly grids at roughly 2 arc-minute resolution, about 4 km, with national surveys much finer · maps stable over decades · solar storms degrading fixes for hours.
 
 ## How it is defeated
 Poor or absent map coverage limits it geographically. Solar storms disturb the magnetic field enough to degrade fixes for hours. Platform magnetic interference must be compensated continuously, and a change in the vehicle's electrical configuration can invalidate the calibration. Because accuracy is coarse compared with GNSS, it is a bounding technique for inertial drift rather than a precision fix.
@@ -26,6 +29,12 @@ The MagNav flight demonstrations by the US Air Force and MIT Lincoln Laboratory,
 ## Economic profile
 Interest is recent and driven by GNSS denial. Quantum magnetometers — optically pumped alkali vapor and nitrogen-vacancy diamond sensors — are the technology enabler, since they offer high sensitivity in a small package without cryogenics. Several startups and national laboratories are working on it, funding is growing, and flight demonstrations have shown real navigation performance. The pacing items are platform compensation algorithms and map coverage, neither of which is a sensor problem.
 
+## Videos
+
+- https://www.youtube.com/watch?v=1iPGD27GrlM — The Science Behind Magnetic Mapping and GPS-Free Navigation (SandboxAQ, 3 minutes, 5k+ views)
+- https://www.youtube.com/watch?v=S3wKHDsHq8A — Signal Enhancement for Magnetic Navigation Scientific Machine Learning Challenge Problem (The Julia Programming Language, 9 minutes, 1k+ views)
+- https://www.youtube.com/watch?v=oYLyBtYvZdY — Gravity Gradiometer for Navigation.wmv (ANT Center, 2 minutes, 1k+ views)
+
 ## Further reading
 
-[Research and development projects (MIT Lincoln Laboratory)](https://www.ll.mit.edu/r-d/projects) · [Mineral Resources Program (US Geological Survey)](https://www.usgs.gov/programs/mineral-resources-program)
+[Research and development projects (MIT Lincoln Laboratory)](https://www.ll.mit.edu/r-d/projects) · [Earth Magnetic Anomaly Grid (EMAG) 2 (NOAA National Centers for Environmental Information)](https://www.ncei.noaa.gov/products/earth-magnetic-model-anomaly-grid-2)

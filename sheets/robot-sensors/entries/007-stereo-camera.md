@@ -19,6 +19,9 @@ It can work passively, so it holds up in sunlight where ToF struggles. Depth com
 ## When to use
 Pick stereo for outdoor depth in sunlight at roughly 0.5–15 m (drones, sidewalk and field robots, outdoor manipulation), where active-IR ToF washes out and LiDAR is overkill on cost or weight. Modern modules with on-board matching and projectors make it a $200–500 bolt-on that gives you registered RGB-D. Match baseline to working range, since precision falls off quadratically with distance. Avoid it past its baseline's sweet spot, on textureless indoor scenes without projection, and for short-range indoor grasping, where a ToF module is cheaper, denser, and lighter on compute. If you need real range outdoors, step up to LiDAR.
 
+## Key numbers
+Working range roughly 0.5–15 m · depth error roughly 1% of range and quadratic with distance (a centimeter at 1 m, decimeters at 5 m) · baseline 50–120 mm on common modules · depth resolution 720p–1080p at 30–90 fps · power draw roughly 2–3 W over USB · unit cost $200–500.
+
 ## Failure modes
 Texture-poor surfaces such as white walls and shiny tables yield holes or garbage without the projector, and the projector itself washes out in direct sunlight. Repetitive patterns like fences and gratings cause false matches that report wrong depth with high confidence. Thermal or mechanical flex of the baseline mis-scales the world until you recalibrate, with no obvious symptom in the meantime. Specular and transparent objects break the Lambertian assumption that the whole method depends on.
 
@@ -27,6 +30,12 @@ Intel RealSense D400 series (the research default, surviving Intel's wind-down s
 
 ## Economic profile
 $200–500 modules made stereo the default lab and startup depth sensor. Its commercial position is squeezed from two sides: ToF modules from underneath (cheaper, better indoors, phone volume) and learned monocular depth from above (free with the camera you already have). Sunlight performance and metric reliability keep stereo the outdoor workhorse. Skydio-class results show how far the modality stretches with enough software.
+
+## Videos
+
+- https://www.youtube.com/watch?v=bRkUGqsz6SI — Depth Camera - Computerphile (Computerphile, 13 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=hUVyDabn1Mg — Simple Stereo | Camera Calibration (First Principles of Computer Vision, 17 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=yfjMJfXMBcY — Clumsy Cyclops- How does Stereo Vision work? (i3D robotics, 3 minutes, 10k+ views)
 
 ## Further reading
 

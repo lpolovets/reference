@@ -20,6 +20,10 @@ Provides structural support, thermal conduction, and sometimes electrical connec
 
 Die attach is a mandatory packaging step, so the real decision is which material to use. Use solder or silver-sintered attach when the die dissipates a lot of power or needs a low-resistance electrical path (power modules, high-brightness LEDs), with sintering preferred for high-temperature and automotive reliability. Conductive or plain epoxy is the low-cost default for logic, sensors, and anything thermally undemanding, and film adhesives suit thin-die stacking in memory packages.
 
+## Key numbers
+
+Bondline thickness roughly 20–75 µm · thermal conductivity about 1–3 W/mK for conductive epoxy, 30–60 W/mK for solder, and 150–250 W/mK for sintered silver · placement accuracy ±10–25 µm on production die bonders and a few um on precision machines · throughput 5,000–20,000 dies per hour · voiding usually specified under 5% of the die area · silver sintering at about 250 °C and 10–30 MPa, epoxy cure 30–60 minutes at 150–175 °C.
+
 ## Examples
 
 Power modules, LEDs, processors, sensors.

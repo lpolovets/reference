@@ -19,6 +19,9 @@ Torque density is high, efficiency runs 90–97% per stage, the layout is coaxia
 ## When to use
 Default to a planetary for any ratio you can reach in one or two stages. Use a single 3–10:1 stage for backdrivable QDD limbs, and two stages up to roughly 100:1 for drivetrains, wheels, and general servo axes where arcminute backlash (or the cost of a preloaded grade) is acceptable. It's the cheapest torque density you can buy, at every quality point from hobby grade to ground-and-preloaded. If the spec is 50:1 or more in a pancake envelope with zero backlash, use a strain-wave gear instead. If it's a base joint taking heavy shock at high ratio, use a cycloidal, which survives loads that stacked planet gears won't.
 
+## Key numbers
+Ratio 3–10:1 per stage, stacking to 100:1 and beyond · efficiency 90–97% per stage · backlash 6–15 arcminutes on economy grades, under 1 arcminute ground and preloaded · acceleration torque typically 1.5–2× the nominal rating · unit cost $10 for hobby gearheads to $1,000 and up for precision servo grades.
+
 ## Examples
 Every cordless drill; Neugart/Wittenstein precision gearheads on industrial servos; single-stage planetaries inside MIT Cheetah-descended QDD joints (Unitree, Tesla Optimus rotary joints); drone gimbal and rover wheel hubs; automotive transmissions by the hundred million.
 
@@ -27,6 +30,12 @@ The category is fully industrialized, with a steep quality-price ladder running 
 
 ## Suppliers
 [Neugart](https://www.neugart.com/) — precision planetary gearheads · [WITTENSTEIN](https://www.wittenstein.de/) — low-backlash servo planetaries
+
+## Videos
+
+- https://www.youtube.com/watch?v=oSFZvBm4HFA — How does a planetary gear work? | Design and operating principle simply explained (tec-science, 8 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=TzJkD87eQNI — What makes planetary gearboxes so amazing? (3D Printer Academy, 10 minutes, 5m+ views)
+- https://www.youtube.com/watch?v=imp3le0DCXs — How to Achieve Massive Speed Reductions with Planetary Gears (160:1 and Beyond!) (Mentored Engineer, 14 minutes, 10k+ views)
 
 ## Further reading
 

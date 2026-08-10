@@ -18,7 +18,11 @@ Enables extremely small, repeatable features and parallel fabrication. Equipment
 
 ## When to use
 
-Photolithography is the only economical way to pattern micron-and-below features across a whole wafer at once, so use it whenever device counts reach the thousands and geometry fits in stacked planar layers (ICs, MEMS, photonics, microfluidic molds). Contact and proximity printing with cheap chrome or even film masks serves university-scale MEMS down to a few microns; projection steppers and scanners take over below that, with mask sets running from thousands of dollars to millions for advanced nodes. If you are building one-offs or the design is still changing, the mask cost is hard to justify, and maskless direct-write laser or e-beam lithography gives up throughput in exchange for zero tooling. For microfluidic prototypes, write one master and replicate it in PDMS. Nonplanar substrates and features above ~100 um are usually better served by machining or printing processes.
+Photolithography is the only economical way to pattern micron-and-below features across a whole wafer at once, so use it whenever device counts reach the thousands and geometry fits in stacked planar layers (ICs, MEMS, photonics, microfluidic molds). Contact and proximity printing with cheap chrome or even film masks serves university-scale MEMS down to a few microns; projection steppers and scanners take over below that, with mask sets running from thousands of dollars to millions for advanced nodes. If you are building one-offs or the design is still changing, the mask cost is hard to justify, and maskless direct-write laser or e-beam lithography gives up throughput in exchange for zero tooling. For microfluidic prototypes, write one master and replicate it in PDMS. Nonplanar substrates and features above ~100 µm are usually better served by machining or printing processes.
+
+## Key numbers
+
+Feature sizes from a few microns with contact printing down to about 13 nm half-pitch with EUV · exposure wavelengths 365 nm i-line, 193 nm ArF immersion, 13.5 nm EUV · overlay 1–3 nm on leading-edge scanners · throughput 150–300 wafers per hour · tool cost from a few hundred thousand dollars for a contact aligner to $150–350M for an EUV scanner · mask sets from a few thousand dollars for MEMS work to well over $10M at advanced nodes.
 
 ## Examples
 

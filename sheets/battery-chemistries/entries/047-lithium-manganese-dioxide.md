@@ -18,11 +18,20 @@ Energy density is good for a consumer-safe chemistry, shelf life is about 10 yea
 ## When to use
 Li-MnO2 is the default primary for ~10-year small-device service where consumers handle the cell: key fobs, motherboard clocks, tags, smoke alarms, telemetry. Reach for it whenever a CR-format cell fits and the load is low-to-moderate; design in ingestion-safe retention wherever children can reach coin cells. Step up to Li-SOCl2 when the spec demands 20-year life or temperature extremes beyond its window, and to Li-SO2 or spiral formats for sustained high-rate cold-weather discharge.
 
+## Key numbers
+Nominal 3 V · specific energy roughly 230–280 Wh/kg and 500–650 Wh/L · shelf life about 10 years at roughly 1% annual self-discharge · operating range -20 to +60 °C in standard grades · capacity about 220 mAh for a CR2032 and 1,500 mAh for a CR123A · continuous drain limited to a few hundred microamps in coin formats.
+
 ## Examples
 CR2032 coin cells everywhere (key fobs, motherboards, sensors, tags — Panasonic, Murata, Maxell); CR123A cells in flashlights, smoke alarms, and cameras; medical telemetry devices.
 
 ## Economic profile
 Manufacturing is a commodity business with brand-stable pricing and gigantic unit volumes, and growth tracks the proliferation of small connected devices. AirTag-style trackers alone move hundreds of millions of coin cells. There is little strategic tension here (supply is diversified and the materials are cheap), which is why it's the default.
+
+## Videos
+
+- https://www.youtube.com/watch?v=8BS3QNvU_Do — What’s Inside a LITHIUM BATTERY (coin type) (BicyclesEndTraffic, 3 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=iqhLgxC3on8 — Teardown of an Energizer 223 (or CR-P2) Camera Battery and Possible Re-Use with Cheaper Cells (Fix it Uncle, 3 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=vQwaV5IbZV0 — Can Amazon Basics CR2032 Battery Beat Energizer or Duracell? I Have The Answer! (electronicsNmore, 13 minutes, 100k+ views)
 
 ## Further reading
 

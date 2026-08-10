@@ -20,6 +20,10 @@ Improves mechanical and environmental protection. Cure stress, moisture absorpti
 
 Every packaged die needs protection, so choose the method by environment and volume. Transfer-molded epoxy compound is the high-volume default for ICs, glob top is the cheap answer for chip-on-board, and underfill is effectively mandatory under flip-chip dies. Reserve hermetic metal or ceramic packages for aerospace, implantable, and other applications where molded plastic's moisture uptake and delamination risk are unacceptable; they cost roughly an order of magnitude more.
 
+## Key numbers
+
+Transfer molding at 170–180 °C with 60–120 seconds in the mold, then 4–6 hours of post-mold cure near 175 °C · molding pressure 5–10 MPa · epoxy molding compound 70–90% silica filler by weight, giving a CTE of roughly 8–16 ppm/K · moisture sensitivity level 1 to 3 under JEDEC J-STD-020 · underfill cure 30–60 minutes at about 150 °C · hermetic ceramic or metal packages at roughly 10x the cost of molded plastic.
+
 ## Examples
 
 IC packages, controllers, MEMS, power electronics.

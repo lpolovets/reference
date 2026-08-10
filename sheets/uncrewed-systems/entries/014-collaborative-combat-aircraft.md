@@ -19,6 +19,9 @@ Mass at acceptable cost is the argument. Adding two to five uncrewed aircraft to
 ## When to use
 Collaborative aircraft are the current answer to fighting in contested airspace at acceptable cost, and they are most valuable where an opponent's air defense makes crewed penetration expensive. If the airspace is permissive, cheaper systems do the job. If the requirement is one specific target, a standoff missile is cheaper per effect. The pacing questions for any program in this class are the achieved unit cost, the autonomy behavior when the link is lost, and whether basing and sustainment for hundreds of jet aircraft is actually affordable.
 
+## Key numbers
+Target unit cost $25–30M, roughly a quarter to a third of a crewed fighter · 2–5 uncrewed aircraft per crewed fighter · endurance several hours to about a day · planned US Air Force buys in the hundreds to over a thousand airframes.
+
 ## How it is countered
 Air defense engages them like any other aircraft, and their reduced stealth relative to a crewed fighter makes that easier. Electronic attack on the crewed-to-uncrewed link degrades coordination, which is exactly why autonomy matters. Because the concept depends on numbers, the real counter is economic: if interceptors or air defense missiles cost less than the aircraft they destroy, the exchange favors the defender and the concept weakens.
 
@@ -27,6 +30,12 @@ Anduril YFQ-44A Fury and General Atomics YFQ-42A under the US Air Force CCA prog
 
 ## Economic profile
 This is currently the most heavily funded area in uncrewed aviation, and the central bet is that unit cost can be held low enough to buy hundreds. History with the stealth UCAV programs suggests that is the hard part: requirements creep pushes cost up, and once the aircraft costs half a fighter the concept loses its rationale. The programs to watch are the ones enforcing a cost ceiling as a hard requirement rather than treating it as a goal.
+
+## Videos
+
+- https://www.youtube.com/watch?v=vuR8_4Qjpuk — The Air Force's Robot Wingmen Are Here (Task & Purpose, 19 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=BP3Zpox8m5k — MQ-28, Wedgetail, Super Hornet: Drone Intercept Behind-the-Scenes (Boeing, 3 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=jXdIqsottp0 — Kratos XQ-58 Valkyrie: A Loyal Wingman for the US Marine Corps (Megaprojects, 18 minutes, 100k+ views)
 
 ## Further reading
 

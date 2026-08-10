@@ -20,6 +20,10 @@ Useful for prototypes and short production runs without hard tooling. Silicone m
 
 Use vacuum casting for 10–100 production-like polyurethane parts (functional prototypes, pilot builds, marketing samples) delivered in days without hard tooling. Each silicone mold is good for roughly 15–25 casts. Treat the material properties as approximations of the production polymer rather than equivalents. This is a bridge process. Past a few hundred parts, cut a mold and switch to injection molding; for a handful of pieces, 3D printing is cheaper still.
 
+## Key numbers
+
+Dimensional tolerance roughly ±0.3% of the dimension, about ±0.25 mm minimum · silicone molds $500–2,000 and 3–7 days to make, good for 15–25 casts · cycle 1–4 hours per casting including cure · parts up to roughly 500 mm in typical chambers · polyurethane resins from Shore A 30 to Shore D 80 · economic lot size 10–100 pieces.
+
 ## Examples
 
 Prototype housings, automotive mockups, medical-device enclosures.

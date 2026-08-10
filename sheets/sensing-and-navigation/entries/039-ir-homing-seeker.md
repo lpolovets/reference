@@ -19,6 +19,9 @@ Fire-and-forget operation with no emissions is the advantage: the launching plat
 ## When to use
 Use infrared homing for short and medium-range air-to-air engagements, man-portable air defense, and any application where the launcher must not emit. If the engagement is beyond visual range or in poor weather, active radar homing is the answer. For helicopter and slow-aircraft targets in clear conditions, infrared remains extremely effective, and its passive nature means the first warning a target gets is often the missile itself. Assume the target has some form of infrared countermeasure and select a seeker generation accordingly, since the capability gap between reticle and imaging seekers is very large.
 
+## Key numbers
+Cooled all-aspect seekers work in the 3–5 µm band · seeker fits a 70–130 mm missile nose · engagement ranges roughly 4–6 km for man-portable systems and 20–35 km for short-range air-to-air · seeker cost from tens of thousands of dollars for MANPADS to a few hundred thousand for an imaging air-to-air unit · zero emissions from the launching platform · acquisition range down substantially in cloud, rain, and humidity.
+
 ## How it is defeated
 Flares defeat older seekers, and modern flare formulations tailored to specific seeker bands are effective against many newer ones. Directed infrared countermeasures use a modulated laser to inject false guidance commands into the seeker, and these are now fitted to many transport and rotary aircraft. Engine exhaust suppression and cooling reduce signature. Cloud and heavy rain limit acquisition. Aspect matters: a head-on shot against a subsonic aircraft has much less signal than a tail chase.
 
@@ -27,6 +30,12 @@ The AIM-9 Sidewinder family from the original reticle designs through the imagin
 
 ## Economic profile
 Infrared seekers are the largest-volume guided weapon seeker category and among the most widely proliferated, with production in the US, Europe, Russia, China, and several other countries. Costs run from tens of thousands of dollars for a MANPADS seeker to a few hundred thousand for an imaging air-to-air seeker. The proliferation of man-portable systems into non-state hands is a standing policy concern, and the countermeasure market — directed infrared countermeasures for civil and military aircraft — is a substantial business in its own right.
+
+## Videos
+
+- https://www.youtube.com/watch?v=_Uwk4eiJ07o — How Heat Seeking Missile Works I Aim 9 Sidewinder (AiTelly, 8 minutes, 500k+ views)
+- https://www.youtube.com/watch?v=LuhyUP9PmfU — The Genius Engineering of the AIM-9 Sidewinder (Reuben T, 12 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=5rNkJT7AFOg — How Do Heat-Seeking Missiles Find Their Target? (History of Simple Things, 8 minutes, 10k+ views)
 
 ## Further reading
 

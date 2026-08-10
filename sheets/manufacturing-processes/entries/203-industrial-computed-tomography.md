@@ -18,7 +18,11 @@ Reveals internal passages, porosity, inclusions, wall thickness, and assembled i
 
 ## When to use
 
-Use CT when the feature of interest is internal and the part must survive: porosity mapping in castings and additively built parts, internal channels no probe can reach, wall thickness of hollow components, and assembled products (connectors, batteries, medical devices) inspected without teardown. It is also usually the fastest way to root-cause a field failure before committing to destructive sectioning. Resolution scales inversely with part size, and X-ray penetration limits how dense a metal you can scan; expect trouble beyond roughly 50 mm of steel-equivalent path. For large or dense parts, fall back to ultrasonic testing or 2D radiography. Scan cost and time make 100 percent CT inspection viable only for high-value or safety-critical production. If you only need external geometry, optical scanning or a CMM is far cheaper.
+Use CT when the feature of interest is internal and the part must survive: porosity mapping in castings and additively built parts, internal channels no probe can reach, wall thickness of hollow components, and assembled products (connectors, batteries, medical devices) inspected without teardown. It is also usually the fastest way to root-cause a field failure before committing to destructive sectioning. Resolution scales inversely with part size, and X-ray penetration limits how dense a metal you can scan; expect trouble beyond roughly 50 mm of steel-equivalent path. For large or dense parts, fall back to ultrasonic testing or 2D radiography. Scan cost and time make 100% CT inspection viable only for high-value or safety-critical production. If you only need external geometry, optical scanning or a CMM is far cheaper.
+
+## Key numbers
+
+Voxel size from about 1 µm on small samples to 200 µm on large ones, roughly the part's largest dimension divided by 1,000–2,000 · X-ray tubes 90–450 kV, with practical penetration around 50 mm of steel-equivalent path · scan time 5 minutes to several hours · part envelopes from 100 mm on desktop systems to 1–2 m in walk-in bays · dimensional accuracy typically 5–30 µm when calibrated against a CMM · systems roughly $200k to well over $1M, and 2–50 GB of data per scan.
 
 ## Examples
 

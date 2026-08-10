@@ -19,11 +19,20 @@ Flywheels offer unmatched cycle life and response speed, precise state-of-charge
 ## When to use
 Buy flywheels for seconds-to-minutes power duty at very high cycling rates (hundreds of full cycles a day for decades): UPS bridging to generator start, industrial pulse loads, rail and crane regeneration, and inertia services where temperature extremes or fire codes rule batteries out. You are buying $/kW, response speed, and cycle life; size the energy content in seconds. Avoid anything beyond ~15 minutes of discharge, because the $/kWh doesn't work and self-discharge of percent-per-hour drains longer holds. For plain frequency regulation, Li-ion is now the cheaper default; flywheels win only where cycle count or environment would destroy a battery.
 
+## Key numbers
+Rotor speed up to tens of thousands of RPM · discharge duration seconds to about 15 minutes · full power in milliseconds · millions of cycles with no degradation, over decades of service life · self-discharge several percent per hour · grid plants around 20 MW.
+
 ## Examples
 Beacon Power's 20 MW regulation plants (Stephentown NY, Hazle PA); Amber Kinetics' multi-hour steel flywheels (unusual for the category); UPS bridging (Piller, Active Power); fusion-experiment and rail pulse power.
 
 ## Economic profile
 Flywheels are a niche, profitable power-quality business rather than an energy-storage market: data centers, microgrids, and industrial pulse loads pay for cycle life and reliability that batteries can't match. Every attempt to push flywheels into hours-long duty has failed on $/kWh; the survivors sell $/kW and durability.
+
+## Videos
+
+- https://www.youtube.com/watch?v=A4c_7h3IpRY — How an Amber Kinetics flywheel works (AmberKinetics, 2 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=Z95t-f-0IjI — How 40-Ton Spinning Wheels Are Saving the Power Grid (Undecided with Matt Ferrell, 14 minutes, 500k+ views)
+- https://www.youtube.com/watch?v=mCshn2Rl5cs — How NASA Reinvented the Mechanical Battery (Ziroth, 15 minutes, 100k+ views)
 
 ## Further reading
 

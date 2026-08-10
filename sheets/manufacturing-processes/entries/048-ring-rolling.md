@@ -20,6 +20,10 @@ Creates strong seamless rings with excellent grain orientation and material effi
 
 Ring rolling is the sensible route to seamless rings from roughly 200 mm to several meters in diameter (bearing races, jet-engine and flange rings) at one-off to medium volumes. It gives circumferential grain flow and far better material yield than machining from plate or a forged block. It handles annular geometry only. If the rings are small and the volume is high, cold forming or machining from tube is usually better, and non-round frames have to be forged or fabricated.
 
+## Key numbers
+
+Ring diameters from about 200 mm to several meters, to 10 m on the largest mills · wall thickness 20–500 mm · ring mass from tens of kilograms to over 50 tons · rolled at 1,100–1,250 °C in steel · cycle 1–5 minutes per ring · material yield 60–90%, against roughly 30–50% cutting the ring from plate · machining allowance 5–15 mm per surface.
+
 ## Examples
 
 Bearing races, jet-engine rings, wind-turbine rings, flanges.

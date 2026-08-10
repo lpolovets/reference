@@ -20,6 +20,10 @@ Joins otherwise incompatible metals across large areas without bulk melting. Req
 
 Use explosion welding for large-area bonds between metallurgically incompatible metals (titanium- or nickel-clad steel tubesheets and pressure-vessel plate, aluminum-steel structural transition joints), where fusion processes would form brittle intermetallics. It is bought as a toll service from a handful of specialist sites, and it is economical from single plates up to modest lot sizes. If you need continuous bimetal strip at volume, roll bonding is far cheaper. For small parts, look at brazing or diffusion bonding instead.
 
+## Key numbers
+
+Plates up to roughly 30 m² per shot · cladding layer 0.5–25 mm on backer plate up to 300 mm thick · detonation velocity 1,500–3,000 m/s at 5–20 mm standoff · interface waves 0.05–1 mm in amplitude · bond shear strength above 140 MPa, the ASME minimum for clad plate · economical from a single plate up to lots in the low hundreds.
+
 ## Examples
 
 Titanium-clad steel, aluminum-steel transitions, corrosion-resistant plate.

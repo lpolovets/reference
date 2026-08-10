@@ -19,6 +19,9 @@ Force is perfectly linear with current, there's no friction or backlash, bandwid
 ## When to use
 Use a voice coil when the stroke is millimeters to a couple of centimeters and you need fast, clean force: kilohertz bandwidth, force exactly proportional to current, zero friction. That fits fast-steering mirrors, precision dosing, haptic transducers, and the fine stage of a coarse-fine axis layered on a screw or linear motor. If travel goes beyond a few centimeters, use a linear motor instead (same physics, packaged for distance). Avoid voice coils wherever the load must be held without power, since there's no detent and no self-locking, so you'd have to add a brake or use a screw. Avoid them for sustained high force too, because the moving coil reaches its thermal limit quickly.
 
+## Key numbers
+Stroke a few millimeters to a few centimeters · continuous force typically 1–100 N, with peak several times higher in short bursts · bandwidth into the kilohertz · sub-micron resolution with a position encoder · no holding force at zero current · cents at phone volume, hundreds of dollars for precision industrial units.
+
 ## Examples
 Hard-disk head actuators (billions made, the highest-volume example), smartphone camera OIS/AF modules, fast-steering mirrors in optics and laser comms, Apple's Taptic Engine, wafer-stage fine-positioning layers, ventilator and dosing valves.
 
@@ -27,6 +30,12 @@ There are two economic worlds here. Consumer-electronics voice coils are stamped
 
 ## Suppliers
 [H2W Technologies](https://www.h2wtech.com/) — voice coil and linear actuator specialist · [Akribis](https://www.akribis-sys.com/) — voice coils and precision stages
+
+## Videos
+
+- https://www.youtube.com/watch?v=gD9rkh3zC6Q — Voice Coil Actuator (Celera Motion, A Novanta Company, 3 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=-UQOfKaB-Mc — Hard drive voice coil motor demonstration (mbbrutman, 6 minutes, 5k+ views)
+- https://www.youtube.com/watch?v=fUV8QQwCrh4 — EEVblog 1400 - Hard Drive Micro Actuators are AMAZING! (EEVblog, 16 minutes, 100k+ views)
 
 ## Further reading
 

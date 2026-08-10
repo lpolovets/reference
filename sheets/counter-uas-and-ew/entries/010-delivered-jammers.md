@@ -19,6 +19,9 @@ Range advantage is decisive: proximity converts a modest transmitter into an eff
 ## When to use
 Use delivered jamming where the geometry defeats ground-based jamming: against drones approaching from an unexpected direction, against emitters inside a defended area, and in terrain where line of sight from a fixed site is blocked. For suppression of air defenses, stand-in jamming from expendable aircraft is now a central concept precisely because standoff jamming has become insufficient against modern radars. Coordinate deconfliction carefully, because a jammer in the middle of a friendly formation causes as many problems as it solves.
 
+## Key numbers
+Roughly 1,600 times better power ratio at 500 m than at 20 km · MALD-J at a few hundred thousand dollars against tens of millions for a jamming aircraft · drone-borne units at a few thousand dollars · endurance of tens of minutes on a small platform · friendly systems inside the same area are jammed too.
+
 ## Limits and failure modes
 Delivery requires knowing where to go, so this depends on the detection layer being right. Small platforms have short endurance, so the jammer is only in position briefly. Friendly interference in the immediate area is unavoidable. Against fiber-optic and autonomous drones the jammer has nothing to attack, which is the same limitation all electronic attack faces now.
 
@@ -27,6 +30,12 @@ The US Navy's MALD-J expendable decoy-jammer, the Air Force's stand-in jamming c
 
 ## Economic profile
 Expendable jammers cost far less than the aircraft and pods they replace — a MALD-J is a few hundred thousand dollars against tens of millions for a jamming aircraft — and the economics improve further with small drone-borne units at a few thousand dollars. The concept is central to current electronic warfare planning because standoff jamming loses to improving radar processing while stand-in jamming does not, and the cost of getting close has fallen with cheap uncrewed platforms.
+
+## Videos
+
+- https://www.youtube.com/watch?v=w8PMZEzl31Y — Stand-Off/Stand-In Jamming in MACE (Battlespace Simulations, 3 minutes, 1k+ views)
+- https://www.youtube.com/watch?v=nIxO_rZIcxE — MALD (ADM-160), Miniature Air Launched Decoy. Best solution for SEAD Missions. (UFK Channel, 10 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=Bvf9v4EHovY — Gremlins: Airborne Launch & Recovery of Unmanned Aerial Systems (DARPAtv, 4 minutes, 100k+ views)
 
 ## Further reading
 

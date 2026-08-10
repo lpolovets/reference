@@ -18,7 +18,11 @@ Produces high-quality conformal coatings. Processes may require high temperature
 
 ## When to use
 
-Choose CVD when the film must be conformal over topography or must be a material best formed from gas-phase chemistry: polysilicon, silicon nitride, oxide interlayers, tungsten plugs, SiC, and diamond coatings. Batch furnace LPCVD coats hundreds of wafers uniformly and cheaply; PECVD trades some film quality for deposition at 200-400 C when metallized or temperature-limited substrates rule out the 600-900 C thermal processes. Handling toxic and pyrophoric precursors is a facility-level commitment, so plan for it. If the substrate cannot tolerate even plasma-assisted temperatures, or the film is a simple metal, sputtered PVD is easier. If conformality requirements reach extreme aspect ratios or thickness control has to be sub-nanometer, use ALD instead and accept its slow deposition rate.
+Choose CVD when the film must be conformal over topography or must be a material best formed from gas-phase chemistry: polysilicon, silicon nitride, oxide interlayers, tungsten plugs, SiC, and diamond coatings. Batch furnace LPCVD coats hundreds of wafers uniformly and cheaply; PECVD trades some film quality for deposition at 200–400 °C when metallized or temperature-limited substrates rule out the 600–900 °C thermal processes. Handling toxic and pyrophoric precursors is a facility-level commitment, so plan for it. If the substrate cannot tolerate even plasma-assisted temperatures, or the film is a simple metal, sputtered PVD is easier. If conformality requirements reach extreme aspect ratios or thickness control has to be sub-nanometer, use ALD instead and accept its slow deposition rate.
+
+## Key numbers
+
+Film thickness 10 nm to several microns · LPCVD deposits 5–20 nm/min at 600–900 °C and 0.1–2 Torr, PECVD 50–300 nm/min at 200–400 °C · step coverage 80–100% for LPCVD versus 40–80% for PECVD · batch LPCVD furnaces hold 100–200 wafers · CVD diamond grows at 0.1–10 µm/hr · tools roughly $500k to $3M.
 
 ## Examples
 

@@ -28,6 +28,12 @@ Apollo Service Propulsion System and Lunar Module descent and ascent engines, Sp
 ## Economic profile
 The market is mature, small, and slowly shrinking as green monopropellants and electric propulsion displace hydrazine on new spacecraft. Regulatory pressure in Europe is the main forcing function. Handling infrastructure — fueling facilities, trained crews, exclusion zones — is a fixed cost that spaceports carry, which gives an operational cost advantage to any vehicle that can avoid it. For deep-space and crewed missions where restart reliability is worth almost any price, hypergolics are likely to persist for decades.
 
+## Videos
+
+- https://www.youtube.com/watch?v=IcjYdEW_HLQ — Hypergolic Fuels – The Chemistry of a Rocket Launch (The Royal Institution, 6 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=AFLmqQ5ceS8 — What are Hypergolic Rocket Fuels? (Other than Explosive, Corrosive, Toxic, Carcinogenic and Orange) (Scott Manley, 12 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=bin_W1xVPfY — Hypergolic Reaction - Periodic Videos (Periodic Videos, 4 minutes, 100k+ views)
+
 ## Further reading
 
 [Planetary Mission Applications for Space Storable Propulsion (NASA Technical Reports Server)](https://ntrs.nasa.gov/citations/19750026255) · [Advanced Propulsion Systems for Unmanned Spacecraft (NASA Technical Reports Server)](https://ntrs.nasa.gov/citations/19650046055)

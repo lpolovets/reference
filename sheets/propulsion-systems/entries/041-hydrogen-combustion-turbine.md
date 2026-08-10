@@ -28,6 +28,12 @@ Rolls-Royce and easyJet's ground tests of an AE 2100 and later a Pearl 15 on hyd
 ## Economic profile
 Costs sit in the aircraft and the airport, not the engine. Airbus's ZEROe schedule has already slipped, which is the clearest signal available about how the industry currently rates the readiness of hydrogen infrastructure. Green hydrogen production cost is the other variable: at $5–6/kg it is uncompetitive with jet fuel, and forecasts of $1–2/kg by the 2030s carry wide error bars. Sustainable aviation fuel is the pragmatic competitor precisely because it requires no new aircraft, no new engines, and no new airports.
 
+## Videos
+
+- https://www.youtube.com/watch?v=F0jSWZ_KUAU — Rolls-Royce | Rolls-Royce Hydrogen video from Boscombe Down (Rolls-Royce, 3 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=es9iu2SL0YU — A tour of the Airbus A380 hydrogen engine test aircraft (Aerospace Testing International Magazine, 5 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=Fk7Ofw3keTI — Countdown to #ZEROe: Episode 1 - Tanks (Airbus, 4 minutes, 10k+ views)
+
 ## Further reading
 
 [New Potentials for Conventional Aircraft When Powered by Hydrogen-Enriched Gasoline (NASA Technical Reports Server)](https://ntrs.nasa.gov/citations/19770050540) · [ZEROe hydrogen aircraft programme (Airbus)](https://www.airbus.com/en/innovation/energy-transition/hydrogen/zeroe)

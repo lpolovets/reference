@@ -19,11 +19,20 @@ It has the lowest upfront $/kWh of any rechargeable battery, the best cold-crank
 ## When to use
 Pick flooded lead-acid for engine starting, and for cost-floor traction or off-grid duty such as forklifts, golf carts, and budget solar, where someone can top up the water, ventilation exists for the hydrogen, and upfront $/kWh matters more than anything else. Keep it above ~50% state of charge and never leave it sitting discharged, because sulfation will cost you more than the price saved. Avoid it for sealed or unattended installations (use AGM there) and for daily deep cycling, where LFP's cycle-life economics clearly win.
 
+## Key numbers
+Specific energy 30–40 Wh/kg · energy density 60–90 Wh/L · nominal cell voltage 2.0 V · 200–500 deep cycles, several times that if it stays above 50% state of charge · cold-cranking current 500–800 A on a typical car battery · roughly $100–150/kWh, the cheapest rechargeable chemistry · recycled at rates above 95%.
+
 ## Examples
 Automotive SLI batteries (Clarios, Exide, GS Yuasa — hundreds of millions yearly); golf carts and floor scrubbers (deep-cycle variants); traction batteries for forklifts; off-grid solar in cost-constrained markets.
 
 ## Economic profile
 The industry is mature, consolidated, and cash-generative, with fully depreciated plants and a captive recycling loop that supplies cheap secondary lead. The EV transition erodes the SLI base slowly (EVs still carry 12-V batteries, though lithium and LFP 12-V units are taking share). Margins come from brands, distribution, and recycling rather than from the chemistry itself.
+
+## Videos
+
+- https://www.youtube.com/watch?v=rhIRD5YVNbs — How a lead-acid battery works (engineerguy, 5 minutes, 500k+ views)
+- https://www.youtube.com/watch?v=hObLxlXJPPM — How Lead Acid Batteries Work: A Simple Guide (The Engineering Mindset, 5 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=P7tOipB_-38 — How Lead Batteries are Made (HowStuffWorks, 3 minutes, 100k+ views)
 
 ## Further reading
 

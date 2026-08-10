@@ -20,6 +20,10 @@ Provides high throughput and precise areal loading. Thickness variation, crackin
 
 Slot-die coating on continuous roll-to-roll lines is the standard for any serious cell production. Choose it whenever areal loading has to hold to a percent or two at tens of meters per minute. Line speed is bought with dryer length, so ovens dominate plant footprint and energy cost, and NMP cathode lines add solvent-recovery capital on top. Below pilot scale, doctor-blade and lab coaters are enough. At giga-scale, dry-electrode coating is the developing alternative that removes the ovens.
 
+## Key numbers
+
+Line speeds of roughly 30–80 m/min on production coaters · web widths 300–1,500 mm · dry coating 50–150 µm per side, giving areal loadings around 2–4 mAh/cm² · areal loading held to about ±1–2% across the web · dryers 30–100 m long · NMP recovery systems reclaiming typically over 90% of the solvent.
+
 ## Examples
 
 Lithium-ion anode and cathode webs.

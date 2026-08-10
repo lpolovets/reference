@@ -20,6 +20,10 @@ Improves corrosion resistance without materially changing dimensions. Cannot com
 
 Passivate every machined, ground, or welded stainless part before service, because free iron picked up from tooling otherwise seeds rust spots. In medical, food, pharma, and aerospace work it is mandatory, spec-driven practice (ASTM A967/AMS 2700). Citric acid chemistry now covers most needs with fewer safety and disposal issues than nitric. Passivation is a cleaning and oxide-optimization step rather than a coating: dimensions are untouched, so it is safe on finished precision parts. Do not expect it to compensate for 400-series or free-machining grades in chloride service, or to fix heat tint and weld scale, which need pickling or electropolishing first. If the alloy is marginal for the environment, change the alloy instead of relying on passivation.
 
+## Key numbers
+
+Citric acid 4–10% by weight or nitric acid 20–50% by volume · bath 20–70 °C · immersion 4–30 minutes depending on the ASTM A967 method · passive oxide film 1–3 nm thick · dimensional change well under 1 µm · batch tanks hold dozens to hundreds of parts at once.
+
 ## Examples
 
 Medical tools, food equipment, pharmaceutical vessels.

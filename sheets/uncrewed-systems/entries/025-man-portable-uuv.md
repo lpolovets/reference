@@ -17,7 +17,10 @@ A man-portable uncrewed underwater vehicle weighs 10–50 kg, is launched over t
 It removes divers from mine countermeasures, which is the single most dangerous routine task in naval operations, and it does so from small boats without specialized ships. Cost of $100k–500k per vehicle allows navies to buy them in numbers. The weaknesses are endurance, coverage rate, and communications. Twenty hours at 3 knots covers a modest area, so clearing a large minefield takes many vehicle-days. Underwater communication is slow and unreliable, so there is no supervision during the mission, and a vehicle that fails is usually lost.
 
 ## When to use
-Use man-portable UUVs for mine countermeasures, harbour and hull inspection, and seabed survey in shallow water where a diver would otherwise go. If the area is large or deep, a larger vehicle with better endurance and sonar range covers ground far faster. If the requirement is real-time inspection with manipulation, a tethered remotely operated vehicle gives control and power that an autonomous vehicle cannot. Plan coverage rate rather than endurance — the useful metric is square kilometres per vehicle-day at the required detection confidence.
+Use man-portable UUVs for mine countermeasures, harbour and hull inspection, and seabed survey in shallow water where a diver would otherwise go. If the area is large or deep, a larger vehicle with better endurance and sonar range covers ground far faster. If the requirement is real-time inspection with manipulation, a tethered remotely operated vehicle gives control and power that an autonomous vehicle cannot. Plan coverage rate rather than endurance — the useful metric is square kilometers per vehicle-day at the required detection confidence.
+
+## Key numbers
+Mass 10–50 kg · endurance 8–20 hours · survey speed around 3 knots · depth rating typically 100–300 m · unit cost $100k–500k.
 
 ## How it is countered
 Underwater vehicles are hard to detect and hard to attack, which is their principal protection. Countermeasures are mostly environmental: strong currents, poor visibility, cluttered seabeds that hide mines among debris, and shallow water that limits sonar geometry. Acoustic communication jamming is possible but rarely relevant. The realistic loss mechanism is vehicle failure or navigation error rather than enemy action.
@@ -27,6 +30,12 @@ Teledyne Gavia and the REMUS family (REMUS 100 and 300) from HII, Saab AUV62, Ko
 
 ## Economic profile
 This is the most mature and commercially healthy uncrewed underwater segment, with a real market spanning defense mine countermeasures, offshore energy survey, and ocean science. Prices have fallen and capability has risen steadily. Navies are replacing crewed mine countermeasures vessels with uncrewed systems deployed from ordinary ships, which is a substantial procurement shift and the main growth driver for the category.
+
+## Videos
+
+- https://www.youtube.com/watch?v=O5LVtowsWgQ — REMUS 100: The Industry Standard Compact Man-Portable AUV (Hydroid, Inc., 3 minutes, 5k+ views)
+- https://www.youtube.com/watch?v=ZauEscGdJsE — REMUS 100 Animation (Hydroid, Inc., 3 minutes, 1k+ views)
+- https://www.youtube.com/watch?v=7lmXBV6UnuY — Teledyne Gavia Osprey Autonomous Underwater Vehicle (Teledyne Marine, 3 minutes, 10k+ views)
 
 ## Further reading
 

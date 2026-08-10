@@ -18,7 +18,11 @@ It's clean, fast, and contactless. It mainly works on conductive materials, and 
 
 ## When to use
 
-Pick electromagnetic forming for high-conductivity alloys (aluminum and copper above roughly 1-2 mm skin depth equivalents) in fast, repeatable crimping, flanging, and joining operations at medium to high volume. It's especially useful for dissimilar-material joints such as aluminum to steel or metal to composite, where you can't weld. Cycle times run a second or less, and because no tool touches the part it works well on cosmetic surfaces. Avoid it for steels and other poor conductors unless you add a driver sheet, for large-area panel forming, and in shops that aren't willing to maintain pulsed high-voltage capacitor banks. The fallback is mechanical crimping or conventional press forming.
+Pick electromagnetic forming for high-conductivity alloys (aluminum and copper above roughly 1–2 mm skin depth equivalents) in fast, repeatable crimping, flanging, and joining operations at medium to high volume. It's especially useful for dissimilar-material joints such as aluminum to steel or metal to composite, where you can't weld. Cycle times run a second or less, and because no tool touches the part it works well on cosmetic surfaces. Avoid it for steels and other poor conductors unless you add a driver sheet, for large-area panel forming, and in shops that aren't willing to maintain pulsed high-voltage capacitor banks. The fallback is mechanical crimping or conventional press forming.
+
+## Key numbers
+
+Capacitor bank 5–100 kJ at 3–25 kV · discharge in 10–100 µs · workpiece velocity up to about 300 m/s · sheet and tube wall typically 0.5–3 mm in aluminum or copper · cycle time under 1 second.
 
 ## Examples
 

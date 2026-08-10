@@ -14,10 +14,13 @@ cost: med
 LiDAR builds a three-dimensional point cloud by firing many laser pulses and timing each return. Military LADAR systems extend the idea with two useful modes. Geiger-mode and single-photon detectors let a sensor collect returns fast enough to map large areas from an aircraft, and because a pulse that passes through a gap in foliage still returns from the ground, multiple-return processing produces bare-earth terrain maps under tree cover. Gated-viewing systems use a pulsed illuminator and a shuttered camera to image a specific range slice, cutting through fog and haze that defeat ordinary cameras.
 
 ## Strengths and weaknesses
-Direct geometric measurement is the advantage. Point clouds give absolute dimensions, which makes them good for terrain mapping, change detection, target dimensioning, and navigation in GPS-denied environments. Foliage penetration is a genuinely unique capability. The weaknesses are range, weather, and cost. Atmospheric scattering limits practical range to a few kilometres for airborne systems, rain and fog cut it further, and shiny or absorbing surfaces return nothing. Automotive-driven cost declines have been real but military-grade long-range units remain expensive, and data volumes are large.
+Direct geometric measurement is the advantage. Point clouds give absolute dimensions, which makes them good for terrain mapping, change detection, target dimensioning, and navigation in GPS-denied environments. Foliage penetration is a genuinely unique capability. The weaknesses are range, weather, and cost. Atmospheric scattering limits practical range to a few kilometers for airborne systems, rain and fog cut it further, and shiny or absorbing surfaces return nothing. Automotive-driven cost declines have been real but military-grade long-range units remain expensive, and data volumes are large.
 
 ## When to use
 Pick LiDAR for terrain and site mapping, for foliage-penetrating survey, for autonomous navigation where measured geometry beats inferred depth, and for gated imaging through obscurants at short range. If the requirement is wide-area imaging at long range, SAR does it through weather and LiDAR does not. If the platform is a small drone that needs obstacle avoidance, cheap solid-state automotive LiDAR now costs a few hundred dollars and is usually the right answer. For archaeology and terrain intelligence under canopy, nothing else does the job.
+
+## Key numbers
+Wavelengths of 905 nm or 1,550 nm · airborne mapping range of a few kilometers, automotive units to about 200 m · pulse rates of 100 kHz to a few MHz on airborne mapping systems, far higher in Geiger mode · point density 1–50 points per square metre and vertical accuracy 5–15 cm on survey work · automotive solid-state units at a few hundred dollars, airborne mapping systems at hundreds of thousands.
 
 ## How it is defeated
 Fog, rain, dust, and smoke scatter the beam and limit range. Absorbing and specular surfaces return nothing. Because it is an active emitter at optical wavelengths, a laser warning receiver detects it. Camouflage netting that presents a broken surface degrades point-cloud interpretation. The practical limit in most military uses is simply range: a sensor that works well at 1 km and poorly at 5 km constrains the platform's standoff.
@@ -27,6 +30,12 @@ Airborne bathymetric and terrain LiDAR used for hydrographic survey, the ALIRT a
 
 ## Economic profile
 The automotive market drove LiDAR costs down by more than an order of magnitude over a decade and consolidated the supplier base around a few Chinese and US manufacturers. Defense buyers benefit from the component cost curve but face a supply-chain concentration problem, since the volume producers are mostly Chinese. High-end airborne mapping systems remain a separate, small, expensive market with different suppliers and no comparable cost decline.
+
+## Videos
+
+- https://www.youtube.com/watch?v=H2-Yp30TGk4 — What is Lidar? How does Lidar work? Know all about LiDAR (Geospatial World, 4 minutes, 500k+ views)
+- https://www.youtube.com/watch?v=eNFNVSU6A24 — How a LiDAR Drone Maps the Bare Earth through trees! (Indiana Drones, 7 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=VaXrX0veR9Y — Lost beneath the leaves: Lasers reveal an ancient Amazonian civilisation (nature video, 6 minutes, 1m+ views)
 
 ## Further reading
 

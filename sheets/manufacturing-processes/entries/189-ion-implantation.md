@@ -20,6 +20,10 @@ Provides precise control of dose and depth. Equipment is expensive and implantat
 
 Implantation is the standard doping method for any modern device flow. Choose it when dose must be controlled to a few percent and depth set independently by beam energy, when doping through a masking layer at room temperature, or when the profile you need (a retrograde well, a shallow source/drain extension, a buried layer) cannot be obtained by diffusion from the surface. Every implant needs a subsequent activation anneal, so check that the thermal budget fits the rest of the stack, and use rapid thermal annealing when shallow junctions must not diffuse. For deep, cheap, uniform doping where profile shape is uncritical (power-device drift regions, solar cell emitters at commodity cost), furnace diffusion still has the better throughput and the lower capital cost. Heavy-dose amorphization damage in compound semiconductors may also push you to doped epitaxial growth instead.
 
+## Key numbers
+
+Beam energy 0.2 keV for shallow extensions up to about 3 MeV for deep wells · dose 10^11 to 10^16 ions per cm2 · dose uniformity typically within 1% across a wafer · projected range 10 nm to a few um, set by energy alone · activation anneal 900–1,100 °C, seconds or less on an RTA · implanters roughly $3–8M each.
+
 ## Examples
 
 Source/drain regions, wells, threshold adjustment, power devices.

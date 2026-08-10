@@ -28,6 +28,12 @@ Princeton's long-running MPD research program, NASA Lewis and JPL testing throug
 ## Economic profile
 There is no market. MPD is a research technology whose commercial timeline is tied entirely to space nuclear power, which itself has been perpetually a decade out. Renewed interest in fission surface power and nuclear electric propulsion has brought some funding back through NASA and DARPA programs. For anyone assessing it, the honest framing is that the thruster is not the hard part and never was — the reactor, the power conversion, and the radiators are.
 
+## Videos
+
+- https://www.youtube.com/watch?v=M3iYhtsZCiA — Taking Man To Mars! | How MPD (MagnetoPlasmaDynamic) Thrusters Work (Science Workshop, 4 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=p4WUlGToZgs — A Basic Overview of MPD Magnetoplasmadynamics Thrusters for the layman (Drew Stannard-Stockton, 18 minutes, 1k+ views)
+- https://www.youtube.com/watch?v=mb5gxSrl_Wk — 100 KW Class Applied-field Magnetoplasmadynamic Thruster | Protocol Preview (JoVE (Journal of Visualized Experiments), 2 minutes, 1k+ views)
+
 ## Further reading
 
 [MPD Thruster Technology (NASA Technical Reports Server)](https://ntrs.nasa.gov/citations/19930009450) · [Electric propulsion research (NASA Glenn Research Center)](https://www1.grc.nasa.gov/space/electric-propulsion/)

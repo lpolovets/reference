@@ -19,6 +19,9 @@ Depth comes out dense with minimal compute, because the sensor does the work. Sh
 ## When to use
 Pick this family as the first answer for indoor depth at 0.2–5 m. Manipulation, bin-picking, and AMR obstacle sensing get dense, low-compute depth that works in darkness, and phone-volume ToF modules keep the price in stereo's range without stereo's matching compute. Step up to industrial structured-light scanners (Photoneo, Zivid class, $5–15k) when bin-picking needs sub-millimeter registration. Avoid it outdoors, since direct sunlight collapses performance, and distrust it on black foam, transparent packaging, and shiny bins. For the outdoor cases use stereo, and for the optically hostile ones you'll need added modalities or polarization tricks.
 
+## Key numbers
+Working range 0.2–10 m, with 0.2–5 m the usual sweet spot · depth accuracy roughly 1% of range, sub-millimeter on industrial structured-light scanners · depth resolution VGA to 1 MP at 15–30 fps · field of view 70–120° · power draw roughly 2–5 W, most of it the IR illuminator · unit cost a few hundred dollars for phone-lineage modules, $5–15k for industrial scanners.
+
 ## Failure modes
 Direct sunlight swamps the return, so outdoor performance collapses. Dark and IR-absorbing materials such as black foam and some fabrics go invisible. Specular and transparent surfaces either mis-range or drop out entirely. Multipath in concave corners reports walls closer than they are. Cameras interfere with each other in multi-robot cells. Temperature drift shifts the phase calibration.
 
@@ -27,6 +30,12 @@ Microsoft Azure Kinect and its industrial successors, orbbec's Kinect-lineage se
 
 ## Economic profile
 Phone and automotive in-cabin volume made ToF chips a commodity. Industrial-grade structured-light scanners (Photoneo, Zivid at $5–15k) hold the precision bin-picking niche with sub-millimeter accuracy. For indoor manipulation this family is usually the right first answer, because the compute savings versus stereo pay for the sensor. Outdoors, it isn't in the running.
+
+## Videos
+
+- https://www.youtube.com/watch?v=uq9SEJxZiUg — How the Kinect Depth Sensor Works in 2 Minutes (CuriousInventor, 2 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=VrM5_EO-bK8 — WHAT IS ToF? All About Time-of-Flight and the FRAMOS ToF Devkit (FRAMOS , 4 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=F1eWql_sVHE — What is Structured-Light 3D Scanning? (Holocreators GmbH, 4 minutes, 10k+ views)
 
 ## Further reading
 

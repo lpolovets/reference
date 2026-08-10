@@ -20,6 +20,10 @@ Enables high-purity, compositionally engineered semiconductor layers. Growth is 
 
 Use epitaxy when the device physics lives in the grown layer: heterostructures and quantum wells for LEDs and lasers, GaN-on-Si or SiC drift layers for power devices, SiGe and III-V layers for RF, and lightly doped device layers over heavily doped substrates that no implant or diffusion can replicate. It is the only way to get single-crystal material with independently chosen doping and composition. MOCVD is the standard production tool for compounds, and MBE is mostly reserved for research-grade abruptness. Watch the lattice and thermal mismatch budgets: if you exceed the critical thickness, dislocations form and yield drops. If the layer only needs to be a dielectric, polycrystalline, or amorphous film, ordinary CVD or PVD is faster and far cheaper, so use epitaxy only where crystal quality matters to the device.
 
+## Key numbers
+
+Layer thickness 0.1–100 µm · silicon CVD epitaxy grows 0.1–5 µm/min at 900–1,150 °C, MOCVD 1–5 µm/hr, MBE around 1 µm/hr · doping controllable from 10^14 to 10^20 cm^-3 · thickness and composition uniformity typically within 1–2% across a wafer · threading dislocations below 1 cm^-2 for homoepitaxial silicon and 10^8–10^9 cm^-2 for GaN on silicon · reactors roughly $2–5M.
+
 ## Examples
 
 LEDs, lasers, RF devices, power semiconductors, advanced logic.

@@ -27,6 +27,12 @@ Intelligent Energy and Doosan fuel-cell modules on ISR drones, ZeroAvia's ZA600 
 ## Economic profile
 Fuel-cell stacks have fallen sharply in cost on the back of automotive programs, though those programs have slowed, which removes some of the volume that aviation was counting on. The near-term commercial case is strongest in drones, where the endurance gain is decisive and the infrastructure problem is small because a single gas cylinder serves a unit. For crewed regional aircraft, the binding constraints are certification of hydrogen systems and airport infrastructure, both of which are 10-year problems rather than technology problems.
 
+## Videos
+
+- https://www.youtube.com/watch?v=_MsG9REFN3s — PEM Fuel Cell: How it works (Pragma Industries, 2 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=gW4cNAs2z3M — ZeroAvia Technology Deep Dive - ZA600 Fuel Cell Power Generation (ZeroAvia, 8 minutes, 5k+ views)
+- https://www.youtube.com/watch?v=egR5buArDO4 — Flying 523 Miles, Emissions-Free: Joby's Hydrogen-Electric Demonstrator (Joby Aviation, 3 minutes, 50k+ views)
+
 ## Further reading
 
 [Electrified Aircraft Propulsion (NASA Glenn Research Center)](https://www1.grc.nasa.gov/aeronautics/eap/) · [Fuel Cell-Based Hydrogen Aircraft Architecture (NASA Technical Reports Server)](https://ntrs.nasa.gov/citations/20250004608)

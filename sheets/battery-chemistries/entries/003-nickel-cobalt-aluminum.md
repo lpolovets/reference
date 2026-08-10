@@ -19,11 +19,19 @@ NCA has class-leading gravimetric energy and strong rate capability, plus a two-
 ## When to use
 Pick NCA when you want maximum gravimetric energy in cylindrical formats with a production record behind it, such as long-range EVs and high-energy e-mobility built around 2170/4680-class cells, and when you have the BMS sophistication its discharge and degradation behavior require. In practice the choice versus high-nickel NMC usually comes down to supplier relationships rather than chemistry, so treat them as interchangeable and negotiate accordingly. Avoid NCA for daily-deep-cycled or cost-floor applications, where LFP wins on cycle life and $/kWh by a wide margin.
 
+## Key numbers
+Specific energy 250–300 Wh/kg at cell level, among the highest in mass production · volumetric energy 600–700 Wh/L · nominal 3.6 V · cycle life 1,000–2,000 to 80% capacity · composition roughly 80% nickel, 15% cobalt, 5% aluminum · cell cost $100–200/kWh.
+
 ## Examples
 Tesla/Panasonic 2170 and 4680 cells (Model 3/Y long-range variants); high-energy cylindrical cells for e-mobility and aerospace prototypes.
 
 ## Economic profile
 NCA's cost profile is similar to nickel-rich NMC: metal-dominated, with nickel as the swing input. It has historically been tied to a small number of cell-maker relationships (Panasonic-Tesla), so supply is less commoditized than NMC. It competes directly with 811/9-series NMC, and the distinction between them increasingly blurs into generic "high-nickel."
+
+## Videos
+
+- https://www.youtube.com/watch?v=VEBY7rEUZiI — What's Inside a Tesla 4680 Battery? (Munro Live, 10 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=8WPPBhqeekw — Tesla 4680 Teardown:  Specs Revealed! (Part 2) (The Limiting Factor, 11 minutes, 50k+ views)
 
 ## Further reading
 

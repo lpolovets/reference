@@ -20,6 +20,10 @@ Extrusion produces complex constant cross-sections efficiently and with relative
 
 Pick extrusion for constant-cross-section lengths with complex profiles, especially in aluminum: a die costs only a few thousand dollars, and runs from a few hundred kilograms upward are economical. It is the default for heat sinks, frames, and structural profiles that would waste a lot of material if machined from solid. If the section has to vary along the length, machine or fabricate the part instead. For steels and other high-strength alloys, hot-rolled standard sections or roll forming are usually cheaper.
 
+## Key numbers
+
+Aluminum billet at 400–500 °C · extrusion ratio 10:1–100:1 · press force 500–10,000 tons · standard profile tolerance about ±0.25 mm on dimensions under 25 mm, minimum wall around 1 mm · dies $1,000–10,000 at 2–4 week lead time · economical from a few hundred kilograms per run.
+
 ## Examples
 
 Aluminum window frames, heat sinks, tubing, rails, channels, structural profiles.

@@ -20,6 +20,10 @@ Produces nanometer-scale finishes and complex aspheric or freeform geometry. Fer
 
 Diamond turn when the optic is metal, crystal, or polymer and the geometry is aspheric, freeform, or off-axis. Aluminum and copper mirrors, germanium and zinc selenide infrared lenses, and the mold inserts behind molded polymer optics all come off the machine with single-digit-nanometer roughness and submicron figure, with no polishing lab required. At prototype and low-to-medium volume it is usually the fastest path from CAD to a finished asphere. Chemical tool wear rules out steel and most ferrous alloys; if you need a ferrous part, plate it with electroless nickel and turn the plating instead. Glass and other brittle materials generally still need grinding and polishing. If the system works at visible wavelengths, residual turning marks will scatter light, so plan a post-polish or use MRF. For high-volume polymer optics, use SPDT for the mold and let injection molding make the parts.
 
+## Key numbers
+
+Surface roughness 2–5 nm Ra, good enough for infrared use without polishing · form accuracy 0.1–0.5 µm peak to valley across the aperture · part diameters up to about 300–700 mm on production machines · air-bearing spindles at 1,000–10,000 rpm, feeds of 1–10 µm per revolution, depths of cut 1–20 µm · machines $400k–$1.5M and diamond tools $500–5,000 each · hours per surface, so prototype through low-thousands volume.
+
 ## Examples
 
 Infrared optics, mirror substrates, laser components, optical molds.

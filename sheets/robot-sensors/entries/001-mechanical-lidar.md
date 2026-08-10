@@ -19,6 +19,9 @@ One unit gives true 360° coverage and dense direct 3D geometry, it works in dar
 ## When to use
 Pick spinning LiDAR when you need 360° geometry from a single mast-mounted unit at 30–200 m range with centimeter accuracy, and the platform can carry a fist-sized assembly that wears out: outdoor AMRs, off-road and mining vehicles, mapping rigs. Sub-$1k 32-beam units make it the default outdoor navigation sensor. Take it over solid-state whenever full surround coverage from one sensor matters more than point density in a wedge. Avoid it on high-shock or high-vibration platforms, in designs that must embed the sensor flush, and in automotive series production, where one or several solid-state units are the usual answer. If the job is surviving rain, fog, and dust rather than resolving shape, skip LiDAR entirely and use radar.
 
+## Key numbers
+Range 30–200 m · range accuracy roughly ±2–3 cm · field of view 360° horizontal by 30–45° vertical · 32–128 beams · update rate 10–20 Hz · power draw roughly 8–20 W · unit cost under $1,000 for 32-beam units, into the tens of thousands for high-channel models.
+
 ## Failure modes
 Rain, snow, fog, and dust both return spurious points and absorb signal. Glass and mirrors either read as invisible or place the surface somewhere else entirely. Retroreflectors bloom and ghost. Wet black asphalt absorbs returns. Multiple LiDARs interfere with each other once you run them at scale. Bearing wear ends in dead sectors or total loss, usually gradually but sometimes all at once.
 
@@ -27,6 +30,12 @@ Velodyne HDL-64 (the iconic early unit, now retired), Ouster OS-series digital L
 
 ## Economic profile
 Prices went from $75k (HDL-64) to sub-$1k (Chinese 32-beam units) in fifteen years, one of the steepest cost declines in robotics, driven by Hesai/RoboSense automotive volume. Mechanical spinning units increasingly serve robotics and mapping while automotive design-ins shift to solid-state. What keeps the spinning form factor alive is 360° coverage per dollar, which nothing has beaten yet.
+
+## Videos
+
+- https://www.youtube.com/watch?v=bUVtT7Gp2Z4 — Velodyne Laser Teardown (Hizook, 7 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=NZKvf1cXe8s — Lidar 101 from Velodyne Lidar (Velodyne Lidar, 4 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=dOvMDbQKpwQ — What Is LiDAR and how does LiDAR work? (Phoenix LiDAR Systems, 6 minutes, 50k+ views)
 
 ## Further reading
 

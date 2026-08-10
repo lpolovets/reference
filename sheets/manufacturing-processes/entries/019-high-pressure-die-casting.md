@@ -20,6 +20,10 @@ Produces thin walls, fine detail, excellent repeatability, and short cycles. Too
 
 Choose HPDC for aluminum, magnesium, or zinc parts at tens of thousands per year and up, with thin walls (1–3 mm), fine detail, and near-net finish. Cycles run in seconds, so unit cost is usually lower than any other casting route at those volumes. Don't specify it if you need welding, solution heat treatment, or pressure tightness, unless you pay for a vacuum-assisted variant, because some entrapped gas comes with the process. At lower volumes, or for structural parts that need higher integrity, fall back to permanent-mold or low-pressure die casting.
 
+## Key numbers
+
+Wall thickness 1–3 mm · linear tolerance about ±0.1–0.25 mm on the first 25 mm · as-cast surface Ra 0.8–3.2 µm · injection pressure 30–150 MPa at gate velocities of 30–60 m/s · cycle time 15–90 s · die life 100,000–200,000 shots in aluminum and up to a million in zinc · dies from tens of thousands of dollars on small zinc parts to several million on large structural castings, at 12–20 week lead time.
+
 ## Examples
 
 Transmission housings, electronics enclosures, appliance components, structural aluminum castings.

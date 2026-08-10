@@ -18,6 +18,9 @@ It's tiny, cheap, kilohertz-fast, and works in any environment. It's the glue of
 ## When to use
 Every robot gets one, so the real decision is grade. Consumer parts (cents to tens of dollars) are correct whenever external fixes arrive every second or faster, as they do with VIO, GNSS-INS, or encoder odometry, which covers nearly all of robotics. Spend on tactical-grade ADIS-class parts ($1k–20k) only when dead-reckoning gaps stretch to tens of seconds or vibration is severe. Isolate it mechanically from props and motors before buying a better one. Don't trust any MEMS IMU standalone for position beyond a few seconds, and don't jump to FOG prices before checking whether better fusion or learned inertial odometry closes the gap in software.
 
+## Key numbers
+Update rate 100 Hz to several kHz · gyro bias instability roughly 10–100 °/hr on consumer parts, 0.1–3 °/hr on tactical grades · unaided position error into the meters within seconds of dead reckoning · package around 3 × 3 mm, power in the milliwatts · unit cost cents to tens of dollars for consumer parts, $1,000–20,000 for tactical grade.
+
 ## Failure modes
 Vibration rectification biases estimates on any platform with motors, and it does so without any obvious symptom. Temperature transients swing bias faster than estimators can track it. Saturation during impacts corrupts everything downstream. Magnetometer-aided headings, the usual fix for yaw, break near steel and current. Estimator divergence after GPS or vision dropout is really the IMU's drift being unmasked.
 
@@ -25,7 +28,13 @@ Vibration rectification biases estimates on any platform with motors, and it doe
 Bosch/TDK-InvenSense/STMicro consumer parts in every phone and drone flight controller; tactical-grade MEMS (Honeywell HG series, Analog Devices ADIS) in robots and munitions at $1k–20k; VectorNav and Xsens integrated AHRS units as robotics staples.
 
 ## Economic profile
-Consumer silicon costs cents, and each 10× improvement in bias stability costs roughly 10× more, up through export-controlled navigation grades. The interesting frontier is software substituting for grade: learned IMU odometry and better fusion extract tactical-grade performance from consumer parts, which compresses the pyramid from below.
+Consumer silicon costs cents, and each 10× improvement in bias instability costs roughly 10× more, up through export-controlled navigation grades. The interesting frontier is software substituting for grade: learned IMU odometry and better fusion extract tactical-grade performance from consumer parts, which compresses the pyramid from below.
+
+## Videos
+
+- https://www.youtube.com/watch?v=eqZgxR6eRjo — How MEMS Accelerometer Gyroscope Magnetometer Work & Arduino Tutorial (How To Mechatronics, 10 minutes, 500k+ views)
+- https://www.youtube.com/watch?v=KuekQ-m9xpw — How does an Accelerometer work? | 3D Animation (CircuitBread, 6 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=LjeFZetmfYc — Intro to Inertial Measurement Units (IMU) (MicWro Engr, 12 minutes, 10k+ views)
 
 ## Further reading
 

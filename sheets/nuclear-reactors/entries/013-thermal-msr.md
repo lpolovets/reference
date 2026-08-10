@@ -17,11 +17,20 @@ You get atmospheric pressure, walk-away drain-tank safety, 700 °C heat, fuel th
 ## When to use
 Back a thermal MSR when the thesis is a much cheaper plant (no pressure vessel, no fuel fabrication, 700 °C heat) and the venture has a credible answer to salt chemistry as an operations problem. Today that means an IMSR-style sealed replaceable core, pursued in a jurisdiction like Canada that will engage with novel designs. If you're planning a program, treat China's TMSR line as the pacing demonstration and calibrate your timelines to it. If you need salt-heat revenue this decade, the FHR's solid-fuel compromise is the lower-risk route; liquid fuel pays off more but takes longer.
 
+## Key numbers
+Thermal output 2–440 MWt across operating and licensed designs, up to about 195 MWe · fuel and coolant are the same liquid, uranium or thorium fluorides in molten salt, with a graphite moderator · outlet roughly 700 °C at atmospheric pressure · FLiBe carrier salt melts near 460 °C, so the loop has to stay hot · LEU to HALEU at up to 19.75% enrichment, plus thorium blends · on-line refueling and cleanup, with the IMSR core sealed and swapped about every 7 years · MSRE ran about 13,000 hours critical between 1965 and 1969.
+
 ## Examples
 MSRE (Oak Ridge, 1965–69 — the founding demonstration); China's TMSR-LF1 at Wuwei (2 MWt, achieved criticality 2023 and thorium-in-salt operation — the world's only operating MSR); Terrestrial Energy's IMSR (LEU, sealed replaceable core units, deep into Canadian licensing); Denmark's Copenhagen Atomics and Seaborg pursuing mass-manufactured salt units.
 
 ## Economic profile
 The promise is a cheap plant (no pressure vessel, no fuel fabrication, high-grade heat). The cost is a licensing and materials problem that has taken every MSR venture roughly a decade. China's state program doesn't face Western regulatory economics, and it's now the pacing demonstration. Western ventures live or die on whether "sealed core, swap every 7 years" (IMSR) convinces regulators to treat salt chemistry as an operations problem rather than a design-basis one.
+
+## Videos
+
+- https://www.youtube.com/watch?v=6v35VrNMfaU — Molten Salt Nuclear Reactors – Visually Explained (Higgsino physics, 14 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=tyDbq5HRs0o — The Molten-Salt Reactor Experiment (Oak Ridge National Laboratory, 21 minutes, 1m+ views)
+- https://www.youtube.com/watch?v=Wfz6ZKU0JF4 — Are Molten Salt Reactors the Future of Nuclear Power? (Curious Droid, 13 minutes, 100k+ views)
 
 ## Further reading
 

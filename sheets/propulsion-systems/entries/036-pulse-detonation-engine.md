@@ -14,7 +14,7 @@ cost: low
 A pulse detonation engine fills a tube with a fuel-air mixture, ignites it, transitions the resulting deflagration into a detonation, and lets the wave exit before repeating the cycle at 10–100 Hz. Like the rotating detonation engine it exploits constant-volume combustion, but intermittently and in a straight tube rather than continuously in an annulus. That makes the hardware very simple — valves, a tube, an igniter — and it means the engine can in principle run from static conditions to high supersonic speed. A PDE flew on a modified Rutan Long-EZ in 2008, the only manned aircraft flight of a detonation engine.
 
 ## Strengths and weaknesses
-Simplicity and a wide operating range are the advantages. There is no turbomachinery, the engine works statically unlike a ramjet, and thermodynamic efficiency exceeds a conventional constant-pressure cycle. The weaknesses have kept it in the lab for 70 years. Deflagration-to-detonation transition needs either a long tube or obstacles that cost pressure, valve life at 100 Hz is a serious materials problem, noise is extreme, and the intermittent thrust produces vibration that airframes and turbines dislike. Cycle-averaged performance also suffers because the tube spends much of each cycle refilling and purging rather than producing thrust.
+Simplicity and a wide operating range are the advantages. There is no turbomachinery, the engine works statically unlike a ramjet, and thermodynamic efficiency exceeds a conventional constant-pressure cycle. It burns atmospheric oxygen, so its specific impulse is quoted in the thousands of seconds like a turbojet's, not in the hundreds like the rocket-mode rotating detonation engine's. The weaknesses have kept it in the lab for 70 years. Deflagration-to-detonation transition needs either a long tube or obstacles that cost pressure, valve life at 100 Hz is a serious materials problem, noise is extreme, and the intermittent thrust produces vibration that airframes and turbines dislike. Cycle-averaged performance also suffers because the tube spends much of each cycle refilling and purging rather than producing thrust.
 
 ## When to use
 Treat PDEs as a research option with narrow practical appeal. They are most attractive where a simple, wide-envelope engine matters more than efficiency or noise — expendable high-speed vehicles, and afterburner or augmentor replacement in hybrid cycles. If you want pressure-gain combustion for a real program today, the rotating detonation engine has more momentum, better steady-flow behavior, and more funding. If you need a simple cheap thruster for an expendable subsonic vehicle, a small turbojet or even a pulsejet is far more practical and much quieter.
@@ -27,6 +27,12 @@ The Air Force Research Laboratory and Innovative Scientific Solutions Long-EZ fl
 
 ## Economic profile
 Funding has largely shifted from pulse to rotating detonation over the past decade, because continuous operation integrates better with turbomachinery and nozzles. PDE work continues at a lower level, mostly as a research tool for detonation physics and as a candidate for expendable applications where noise and vibration do not matter. There is no commercial supply base and no near-term product.
+
+## Videos
+
+- https://www.youtube.com/watch?v=12NZCxUrMZQ — PULSED DETONATION ENGINE (Integza, 13 minutes, 1m+ views)
+- https://www.youtube.com/watch?v=mSiER26ZHBg — 2-D Pulse Detonation Engine simulation. (Asena1970, 2 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=DXkfMpi7hyI — Inside the Pulsed Detonation Engine lab (GE Research, 1 minute, 1k+ views)
 
 ## Further reading
 

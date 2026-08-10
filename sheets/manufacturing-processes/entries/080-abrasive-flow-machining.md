@@ -20,6 +20,10 @@ Reaches internal passages inaccessible to conventional tools. Material removal c
 
 Use abrasive-flow machining to deburr, radius, and polish internal geometry that no tool can reach: cross-drilled intersections, turbine cooling passages, extrusion dies, fuel injector interiors, and the rough as-built channels of metal additive parts. It's a batch process, so it works well on families of similar parts once the fixtures and media are dialed in. Avoid it if removal has to be confined to one spot or a tight tolerance has to be held, because the media polishes everything it flows past. If the surface is external and accessible, ordinary polishing or vibratory finishing costs far less.
 
+## Key numbers
+
+Media pressure roughly 7–20 MPa · abrasive from about 8 to 500 grit · removes 0.01–0.1 mm per surface · cuts Ra by 50–90%, for example 3 µm down to about 0.4 µm · cycle time 1–10 minutes per load · fixtures cost roughly $1,000–10,000 per part family.
+
 ## Examples
 
 Turbine passages, extrusion dies, fuel components, manifolds.

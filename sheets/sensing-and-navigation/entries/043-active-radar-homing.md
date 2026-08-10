@@ -19,6 +19,9 @@ Fire-and-forget at long range is the decisive advantage, and it works in weather
 ## When to use
 Use active radar homing for beyond-visual-range air-to-air missiles, anti-ship missiles, and long-range surface-to-air systems where all-weather fire-and-forget performance is needed. If the engagement is within visual range and clear, an imaging infrared seeker is cheaper and gives no terminal warning. Against heavily jammed targets, consider a dual-mode seeker with a passive home-on-jam mode, which turns the jammer into a beacon. Getting the mid-course guidance right matters at least as much as seeker performance, since a good seeker pointed at empty sky finds nothing.
 
+## Key numbers
+Seeker goes active in the last 10–20 km · X-band, with an antenna typically 150–200 mm across on an air-to-air missile · mid-course on inertial navigation plus datalink updates from the launching platform · engagement ranges from tens of kilometers to well past 100 km on current types · seeker among the most expensive components in the missile, dominated by the RF front end and antenna.
+
 ## How it is defeated
 DRFM repeater jamming creates false targets and range-gate pull-off. Towed decoys present a more attractive return than the aircraft. Chaff still works against some seekers. Notching — flying perpendicular to the missile so Doppler shift falls into the clutter rejection filter — is a classic and still effective maneuver. Low observability reduces seeker acquisition range enough to break the endgame. Breaking the mid-course datalink leaves the missile searching in the wrong place.
 
@@ -27,6 +30,12 @@ The AIM-120 AMRAAM, MBDA Meteor, the R-77, PL-15, the seekers on Harpoon and mos
 
 ## Economic profile
 Active seekers are among the most expensive components in a missile, and the cost is dominated by the RF front end and the antenna. The important trend is AESA seekers, made viable by falling transmit-receive module prices, which give better jam resistance and multiple simultaneous functions in the same nose volume. Several countries now field or are fielding AESA seekers, and the module cost curve is what determines how far down the missile inventory that capability spreads.
+
+## Videos
+
+- https://www.youtube.com/watch?v=gOWvmMYVCfI — Active Radar Homing - The Guidance of the AMRAAM, MICA, R77 etc. (Millennium 7 * HistoryTech, 21 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=gonNHTHPbds — TRACKING: how missile sensors follow their targets (AMRAAM, Sidewinder and all the others) (Millennium 7 * HistoryTech, 16 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=mqj7V9jc61A — The AIM-120 AMRAAM and How it Works.| munitions of battle ( Scenario Fulfillment, 8 minutes, 10k+ views)
 
 ## Further reading
 

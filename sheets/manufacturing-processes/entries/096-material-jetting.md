@@ -20,6 +20,10 @@ Offers high resolution, smooth surfaces, multiple materials, and full-color capa
 
 Pick material jetting when a single build must combine materials, durometers, or full color: anatomical models with soft and rigid tissue, photorealistic marketing prototypes, overmold simulations. It also fits wax patterns for investment casting that need jetted precision. Resolution and finish rival vat photopolymerization, with easier soluble supports. Avoid it for functional parts, because jetted photopolymers age and creep worse than most resins. Machines and per-kilogram material prices are among the highest in additive, so it is a poor fit for cost-sensitive work. For single-material mechanical prototypes, vat photopolymerization or powder-bed fusion delivers more part per dollar.
 
+## Key numbers
+
+Layer thickness 14–32 µm · tolerance roughly ±0.1 mm or ±0.1% · surface finish Ra under 1 µm on glossy faces · resins roughly $300–600 per kilogram, among the highest in additive · machines from about $20k to over $300k · build envelopes up to roughly 500 × 400 × 200 mm.
+
 ## Examples
 
 Anatomical models, realistic prototypes, casting patterns.

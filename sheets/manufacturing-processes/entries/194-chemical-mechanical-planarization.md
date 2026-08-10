@@ -20,6 +20,10 @@ Enables multilayer semiconductor structures. Scratching, dishing, erosion, conta
 
 CMP is required wherever a process flow stacks patterned layers that must each start flat. Copper damascene interconnects, shallow-trench isolation, tungsten plugs, and the bonding-grade surfaces needed for hybrid wafer bonding all depend on it, and any design with more than a couple of metal levels cannot avoid it. Use it, too, whenever a later lithography step's depth of focus cannot absorb accumulated topography. It is expensive in consumables and sensitive to layout, so enforce layout density rules and dummy fill to control dishing and erosion, and budget for slurry, pads, and metrology. If the flow is simple (few layers, relaxed lithography, MEMS that tolerate topography), skip CMP and use resist etch-back or spin-on planarization for mild smoothing instead.
 
+## Key numbers
+
+Removal rate 100–500 nm/min on oxide and 300–1,000 nm/min on copper · post-polish roughness under 0.5 nm RMS, below 0.2 nm for bonding-grade surfaces · within-wafer thickness non-uniformity typically 2–5% · dishing and erosion 20–100 nm on wide features · pads last 300–1,000 wafers and consumables run several dollars per wafer pass · tools $2–5M.
+
 ## Examples
 
 Copper interconnects, dielectric planarization, shallow-trench isolation.

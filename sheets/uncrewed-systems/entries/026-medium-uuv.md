@@ -19,6 +19,9 @@ Area coverage and depth capability are the strengths: these vehicles map the dee
 ## When to use
 Use medium UUVs for deep-water survey, seabed infrastructure inspection, wide-area mine reconnaissance, and intelligence preparation of the undersea environment. If the water is shallow and the area small, a man-portable vehicle is cheaper and easier to handle. If the task needs manipulation or live decision-making, a tethered vehicle is the answer. For infrastructure monitoring, compare against permanent seabed sensors and against fiber-optic distributed acoustic sensing on the cable itself, which can be much cheaper for continuous monitoring.
 
+## Key numbers
+Length 3–7 m · endurance 2–5 days · depth rating 3,000–6,000 m · survey speed roughly 3–4 knots · navigation drift a fraction of a percent of distance travelled · unit cost $2–10M.
+
 ## How it is countered
 Detection of a quiet UUV at depth is genuinely difficult, which is why they are attractive for intelligence work. The vulnerabilities are operational: launch and recovery must happen from a ship that is visible, communications are limited to acoustic links and surface periods, and navigation error accumulates without external fixes. Capture of a vehicle that surfaces in the wrong place has happened and is a real intelligence loss.
 
@@ -27,6 +30,12 @@ Kongsberg HUGIN, Teledyne Gavia and Slocum-derived designs, Bluefin-21 (used in 
 
 ## Economic profile
 The offshore energy and hydrographic survey markets fund most development in this class, and defense buys into a supply base that commerce sustains. Vehicle costs of $2–10M are substantial but compare well against the ship time they replace. Growth drivers now include undersea infrastructure protection, which has become a policy priority after several cable and pipeline incidents, and which needs exactly the survey and monitoring capability these vehicles provide.
+
+## Videos
+
+- https://www.youtube.com/watch?v=pEhJYyE13NM — Exploring Earth’s Final Frontier With AUV Technology (Freethink, 6 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=vj95Mp0Xmzc — Kongsberg Maritime's autonomous underwater vehicle "Hugin" (Simrad by Kongsberg, 4 minutes, 5k+ views)
+- https://www.youtube.com/watch?v=eR8TQ2rXTbE — Deep Sea Survey and Mapping with the Teledyne Gavia SeaRaptor AUV (Teledyne Marine Vehicles, 5 minutes, 10k+ views)
 
 ## Further reading
 

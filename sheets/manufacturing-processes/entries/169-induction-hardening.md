@@ -18,7 +18,11 @@ Induction hardening is fast, local, and controllable. Coil design is geometry-sp
 
 ## When to use
 
-Use induction hardening for medium- and high-volume production of medium-carbon steel parts (roughly 0.4-0.5 percent C or hardenable alloy grades) where a specific surface, such as a journal, tooth flank, or raceway, needs 55-62 HRC while the rest of the part stays tough and soft for machining. It is the usual choice for shafts and axles at volume, because cycle times run in seconds, the equipment integrates in-line, and frequency selection gives precise control over case depth. The coil and process development cost only pays off on repeating geometry, so use flame hardening for one-offs, very large parts, or field work. For complex 3D surfaces that a coil cannot couple to uniformly, or for low-carbon steels, use carburizing.
+Use induction hardening for medium- and high-volume production of medium-carbon steel parts (roughly 0.4–0.5% C or hardenable alloy grades) where a specific surface, such as a journal, tooth flank, or raceway, needs 55–62 HRC while the rest of the part stays tough and soft for machining. It is the usual choice for shafts and axles at volume, because cycle times run in seconds, the equipment integrates in-line, and frequency selection gives precise control over case depth. The coil and process development cost only pays off on repeating geometry, so use flame hardening for one-offs, very large parts, or field work. For complex 3D surfaces that a coil cannot couple to uniformly, or for low-carbon steels, use carburizing.
+
+## Key numbers
+
+Frequencies from about 1 kHz for 3–6 mm cases up to 200–400 kHz for cases under 1 mm · case depth typically 0.5–6 mm · surface hardness 55–62 HRC on 0.4–0.5% carbon steels · surface power density roughly 1–5 kW/cm² · heat-and-quench cycles of 1–10 seconds per feature · machine ratings from about 10 kW to several hundred kW.
 
 ## Examples
 

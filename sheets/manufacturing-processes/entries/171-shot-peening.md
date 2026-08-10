@@ -18,7 +18,11 @@ Improves fatigue and stress-corrosion resistance. Poor control can damage surfac
 
 ## When to use
 
-Specify shot peening on any steel or aluminum part whose life is fatigue-limited at the surface (springs, gear roots, welded joints, machined fillets). A compressive layer of roughly 0.1-0.3 mm routinely buys tens of percent in fatigue life for pennies per part. It is cheap enough to apply broadly at medium and high volume, but ask for Almen-strip intensity and coverage control on anything critical, since uncontrolled peening can do more harm than good. Avoid it on surfaces with tight finish or dimensional requirements unless a post-peen lapping step is planned, and on thin sections that will distort. If you need a deeper compressive layer of 1 mm or more, as on turbine airfoils or aircraft primary structure, use laser peening instead.
+Specify shot peening on any steel or aluminum part whose life is fatigue-limited at the surface (springs, gear roots, welded joints, machined fillets). A compressive layer of roughly 0.1–0.3 mm typically raises fatigue strength by tens of percent, which at a fixed stress level buys 2–10x the fatigue life, for pennies per part. It is cheap enough to apply broadly at medium and high volume, but ask for Almen-strip intensity and coverage control on anything critical, since uncontrolled peening can do more harm than good. Avoid it on surfaces with tight finish or dimensional requirements unless a post-peen lapping step is planned, and on thin sections that will distort. If you need a deeper compressive layer of 1 mm or more, as on turbine airfoils or aircraft primary structure, use laser peening instead.
+
+## Key numbers
+
+Compressive layer roughly 0.1–0.3 mm deep · peak compressive stress around 50–60% of the material's tensile strength · Almen A-strip intensity typically 0.006–0.024 in of arc height, at 100–200% coverage · shot diameter 0.1–1.5 mm · surface roughness rising to roughly Ra 2–6 µm · cost of pennies to a few dollars per part at volume.
 
 ## Examples
 

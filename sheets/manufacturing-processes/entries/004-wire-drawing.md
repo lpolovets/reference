@@ -20,6 +20,10 @@ Drawing gives precise dimensions, excellent surface finish, and very high throug
 
 Specify drawn wire when you need round stock below hot-rolled rod sizes, or with tight diameter tolerance, elevated tensile strength, or a bright finish (springs, cable, conductors, welding wire). This is a continuous commodity operation, so buy from a wire drawer unless you consume tons per month. If you need non-round profiles or discrete parts, or if work hardening is unacceptable, use shaped-profile rolling or machining from bar instead.
 
+## Key numbers
+
+Wire rod feedstock 5–12 mm, drawn down to about 0.01 mm on the finest sizes · area reduction 15–30% per pass over 5–15 passes · line speed 1–5 m/s on heavy wire and up to 30 m/s on fine wire · diameter tolerance roughly ±0.5–1% · drawn surface Ra 0.1–0.8 µm · high-carbon steel wire reaching 2,000–4,000 MPa tensile after full drawing.
+
 ## Examples
 
 Electrical wire, steel cable, welding wire, springs, piano wire.

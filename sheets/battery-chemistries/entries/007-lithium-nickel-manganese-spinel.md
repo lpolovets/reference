@@ -19,6 +19,9 @@ LNMO is cobalt-free, cheap on materials, high power, and its high voltage reduce
 ## When to use
 Choose LNMO only for development programs that control their own electrolyte roadmap (48-V automotive, power tools, or solid-state pairings that can exploit the 4.7 V plateau) and that can wait for high-voltage electrolytes to mature. Don't design a near-term product around it, because cycle life falls apart with standard carbonate electrolytes. If you need proven life today, use NMC for energy or LFP for cost.
 
+## Key numbers
+Discharge plateau near 4.7 V, the highest of any near-commercial cathode · theoretical capacity 147 mAh/g, with 130–140 mAh/g realized · cell-level specific energy 200–250 Wh/kg in pilot cells · cobalt-free, at a nickel-to-manganese ratio of 0.5:1.5 · cycle life typically a few hundred with standard carbonate electrolytes.
+
 ## Examples
 Development programs and pilot cells (Haldor Topsoe/Topsoe Battery Materials, SVOLT, BASF programs); targeted at power tools, 48-V automotive systems, and eventual EV use.
 

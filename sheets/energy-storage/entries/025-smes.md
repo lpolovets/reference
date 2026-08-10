@@ -19,11 +19,20 @@ SMES is the fastest, most cycle-proof storage that exists, with 95%+ instantaneo
 ## When to use
 There is almost no commercial case for SMES today. Consider it only for sub-second power-quality duty where nothing else responds fast enough: millisecond ride-through at a fab-class critical load, or pulsed power for research. Even there, price flywheels and supercapacitors first, since they have absorbed nearly every historical SMES niche at a fraction of the cost. Treat the field as an option on cheap REBCO tape: if fusion-magnet demand collapses HTS costs, revisit SMES for grid inertia and pulse loads. For any energy-holding duty beyond seconds, the cryogenic standing losses disqualify it outright.
 
+## Key numbers
+Stored energy 1–10 MJ in fielded units, roughly 0.3–3 kWh · instantaneous efficiency above 95% before cryogenic standing losses · full power reversal in milliseconds · low-temperature coils sit at 4.2 K, high-temperature designs at 20–77 K · cycle life effectively unlimited · practical duration seconds, not minutes.
+
 ## Examples
 1–10 MJ power-quality units historically deployed at semiconductor fabs and paper mills (American Superconductor lineage), lab-scale HTS-coil demos in Japan, Korea, and China; occasional fusion-adjacent pulsed-power studies.
 
 ## Economic profile
 Commercially dormant: the technology survives as a research field waiting on cheap high-temperature superconductor tape. If REBCO tape costs collapse (fusion-magnet demand could drive that), niche SMES could re-emerge for grid inertia and pulse loads. This is an option-value story, not a market today.
+
+## Videos
+
+- https://www.youtube.com/watch?v=buIklvrd5KA — The superconducting magnetic Energy storage (VOSTFR) (InstitutNEEL, 3 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=PifnlZigp6c — Superconducting Magnetic Energy Storage Demonstration (JamesJamieSMES, 4 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=QU05d43dw6g — Superconducting Magnetic Energy Storage System "SMES" (ikinamo, 3 minutes, 10k+ views)
 
 ## Further reading
 

@@ -20,6 +20,10 @@ Cast film has high clarity, good thickness control, and high line speed. It usua
 
 Pick cast film when clarity, gloss, and tight thickness control matter (stretch wrap, food packaging, medical packaging) and your volumes justify the flat-die and chill-roll investment. These lines run faster than any other film process. If you need balanced biaxial strength or tear resistance, or you have short runs and frequent width changes, blown film handles those better.
 
+## Key numbers
+
+Film gauge roughly 10–250 µm · gauge uniformity about ±1–3%, tighter than blown film · line speed often 300–600 m/min, the fastest of the film processes · die widths 1–5 m · chill rolls held at 10–30 °C · flat die and chill-roll tooling $250,000 to $1M.
+
 ## Examples
 
 Food packaging, stretch wrap, hygiene films, medical packaging.

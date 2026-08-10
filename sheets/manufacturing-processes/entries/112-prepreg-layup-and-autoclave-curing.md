@@ -20,6 +20,10 @@ The process produces very high-quality composites with low void content. Materia
 
 This is the default for certified primary aerostructure, spacecraft, and top-tier motorsport. Pick it when sub-1% void content, maximum fiber volume, and an established certification basis justify autoclave time, frozen-material logistics, and high-end tooling, at rates from one-offs to a few thousand parts a year. If your part does not need aerospace laminate quality, infusion or RTM will do the job at a fraction of the price. If the part outgrows the autoclave chamber, OOA prepreg removes the autoclave entirely.
 
+## Key numbers
+
+Fiber volume fraction 55–65% with void content under 1% · autoclave cure at 120–180 °C and 3–7 bar for 2–8 hours · prepreg $40–150/kg, stored at -18 °C with 10–30 days of out-life · invar or steel tooling $50k to several hundred thousand dollars · autoclaves $1m and up · one-offs to a few thousand parts a year.
+
 ## Examples
 
 Aircraft wings, fuselage sections, satellites, racing structures.

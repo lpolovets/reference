@@ -19,6 +19,9 @@ Sensitivity and range are the reasons to accept the cooler. A cooled MWIR system
 ## When to use
 Pick cooled MWIR when detection range or thermal sensitivity is the requirement: targeting pods, long-range surveillance, infrared search and track, and missile seekers. If the application is short-range and cost-sensitive — a soldier's weapon sight, a small drone, a driver's viewer — uncooled LWIR gives adequate performance at a tenth of the price with no cooldown delay. A useful rule of thumb is that cooled sensors earn their cost past about 3–5 km against vehicle targets, and rarely below that.
 
+## Key numbers
+3–5 µm band · detector cooled to about 77 K, with several minutes of cooldown from a Stirling cooler · noise-equivalent temperature difference of 20 mK or better · arrays typically 640×512 to 1280×1024 · vehicle detection at two to five times the range of a comparable uncooled camera, which pays off past roughly 3–5 km · cooler life of a few thousand hours · detector cost in the tens of thousands of dollars.
+
 ## How it is defeated
 Thermal signature management works: exhaust cooling, thermal blankets, and simply keeping engines off. Multispectral smoke that blocks both visible and infrared bands is standard issue in mechanized forces. Water vapor and heavy rain absorb strongly in the MWIR band. Flares defeat older non-imaging seekers, and directed infrared countermeasures using modulated lasers defeat many seeker types. Thermal crossover — the period at dawn and dusk when target and background reach the same temperature — degrades contrast for everyone.
 
@@ -27,6 +30,12 @@ The Sniper ATP and Litening targeting pods, Raytheon's third-generation FLIR on 
 
 ## Economic profile
 Cooled detector arrays are made by a handful of suppliers — Leonardo DRS, Teledyne FLIR, Lynred, Sofradir-derived lines, and a small number of Chinese and Israeli producers — and prices remain in the tens of thousands of dollars per detector at best. Export control keeps the market segmented and margins high. The interesting trend is that improvements in uncooled technology keep pushing the crossover range upward, which slowly erodes the cooled market from below.
+
+## Videos
+
+- https://www.youtube.com/watch?v=PYHjAdf8bU0 — What's the difference between cooled & uncooled thermal detectors? (Teledyne FLIR, 2 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=ZSJFPb8030g — How Does a Sunpower Stirling Cryocooler Work? Sunpower Free-Piston Stirling Cryocooler Animation (Sunpower, Inc., 3 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=dzWbZ3GNbxU — Tech Talk: MWIR & LWIR Overview (Sierra-Olympia Technologies, 5 minutes, 10k+ views)
 
 ## Further reading
 

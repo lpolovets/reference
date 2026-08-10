@@ -18,7 +18,11 @@ It's very flexible and can produce complex three-dimensional geometry. It wastes
 
 ## When to use
 
-Pick milling for prismatic and freeform parts from prototypes through a few thousand units, whenever the geometry is still changing or volumes can't justify tooling. It holds plus or minus 0.01-0.05 mm with no fixed tooling beyond workholding. It's also the standard finishing step after castings, forgings, and metal additive parts. Avoid it as the primary process at high volumes, where casting, molding, or stamping plus finish machining is cheaper. For deep narrow cavities or sharp internal corners in hardened material, use EDM instead.
+Pick milling for prismatic and freeform parts from prototypes through a few thousand units, whenever the geometry is still changing or volumes can't justify tooling. It holds ±0.01–0.05 mm with no fixed tooling beyond workholding. It's also the standard finishing step after castings, forgings, and metal additive parts. Avoid it as the primary process at high volumes, where casting, molding, or stamping plus finish machining is cheaper. For deep narrow cavities or sharp internal corners in hardened material, use EDM instead.
+
+## Key numbers
+
+Tolerances ±0.01–0.05 mm · surface finish 0.8–3.2 µm Ra, down to 0.4 µm with a finishing pass · no dedicated tooling beyond workholding, so lot size 1 is economic · material removal in aluminum from about 50 cm³/min on a general machining center to several hundred on a high-speed spindle · setup 30 minutes to several hours · US shop rates roughly $60–120 per hour for 3-axis and $100–200 for 5-axis.
 
 ## Examples
 

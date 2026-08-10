@@ -19,6 +19,9 @@ Energy capacity is effectively unbounded, and the marginal cost of reservoir spa
 ## When to use
 Use electrolysis as storage only for durations nothing else reaches (weeks to seasons), and only with a cheap reservoir downstream, which in practice means salt-cavern access. Under those conditions, a 30–40% power-to-power round trip is acceptable because the alternative is not storing at all. It also needs power that is both cheap and available several thousand hours a year: charging only on curtailed surplus leaves the electrolyzer idle too much, and running it flat-out erases the surplus story. For anything under ~100 hours, don't use it; Li-ion, flow, and CAES all beat it. And if the real customer is industry, sell the molecule as feedstock rather than round-tripping it.
 
+## Key numbers
+Electricity to hydrogen 60–75% efficient before compression, roughly 50–55 kWh per kg · power-to-power round trip 30–40% · system capex $300–600/kW for Chinese alkaline and higher in the West · stack life roughly 60,000–90,000 hours · solid-oxide cells run 700–850 °C at 85%+ electrical efficiency · storage duration weeks to seasons.
+
 ## Variants
 ### Alkaline
 KOH liquid electrolyte; $300–600/kW from Chinese suppliers; slower dynamics.
@@ -34,6 +37,12 @@ NEOM's 2.2 GW plant (Air Products/thyssenkrupp), Sinopec Kuqa (China, alkaline),
 
 ## Economic profile
 Everything hinges on the capacity factor of cheap power: electrolyzers running only on curtailed surplus sit idle too much to amortize, and running them flat-out kills the "surplus" story. China ships alkaline systems at a third of Western prices, which is compressing equipment margins globally. As storage, hydrogen's role is the durations lithium and CAES can't reach (weeks and seasons), where a 35% round trip is acceptable because the alternative is not storing at all.
+
+## Videos
+
+- https://www.youtube.com/watch?v=WfkNf7kMZPA — The Hydrogen Electrolyser (Phi Suea House Project, 4 minutes, 500k+ views)
+- https://www.youtube.com/watch?v=N-uOW0DNDO0 — Unboxing : We dismantled a PEM electrolyzer to better understand its internal structure. (SENZA Hydrogen Energy And Environmental Technology, 6 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=fnEOxmWkj14 — How A PEM Electrolyser Works (Lesson 2/5) Hunor Kacso | Hydrogen Training Solutions (Hydrogen Training Solutions, 15 minutes, 5k+ views)
 
 ## Further reading
 

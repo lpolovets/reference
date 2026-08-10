@@ -18,7 +18,11 @@ It avoids expensive tooling, which makes it useful for prototypes and custom par
 
 ## When to use
 
-Pick incremental forming for one-offs and runs under roughly 100 pieces (prototype panels, patient-specific implants, replacement parts for out-of-production vehicles), where die cost would dominate and a CNC toolpath is the only tooling you need. Expect cycle times of minutes to hours per part and accuracy around plus or minus 0.5-1 mm, unless you add a partial die and compensation passes. Avoid it for production volumes or tight-tolerance skins. Stamping takes over once quantities justify dies, and stretch forming handles large smooth aerospace contours.
+Pick incremental forming for one-offs and runs under roughly 100 pieces (prototype panels, patient-specific implants, replacement parts for out-of-production vehicles), where die cost would dominate and a CNC toolpath is the only tooling you need. Expect cycle times of minutes to hours per part and accuracy around ±0.5–1 mm, unless you add a partial die and compensation passes. Avoid it for production volumes or tight-tolerance skins. Stamping takes over once quantities justify dies, and stretch forming handles large smooth aerospace contours.
+
+## Key numbers
+
+Sheet thickness 0.5–3 mm · maximum wall angle 60–70° from the sheet plane, which leaves a third to half the starting gauge · accuracy roughly ±0.5–1 mm · hemispherical tools 6–30 mm across, stepping down 0.2–1 mm per pass · cycle minutes to hours per part · tooling is a forming tool and a backing plate, a few hundred dollars · economic lot size 1 to about 100 pieces.
 
 ## Examples
 

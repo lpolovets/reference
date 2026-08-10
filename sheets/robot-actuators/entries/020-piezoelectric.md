@@ -19,6 +19,9 @@ Resolution and bandwidth are unmatched. Piezo works in vacuum and at cryogenic t
 ## When to use
 Reach for piezo when resolution is measured in nanometers, bandwidth in kilohertz, or the environment rules out electromagnetics (vacuum, cryogenic, MRI-adjacent, or field-sensitive metrology), and the stroke fits in microns for stacks or a few millimeters for amplified flexures. Ultrasonic and stick-slip motors extend travel further when speed can be modest. Two bonuses no coil matches: stacks hold position unpowered, and stiffness is extreme. Avoid piezo when the stroke is centimeters at high speed or the load is limb-scale, because amplification eats force and the ceramics don't tolerate shock or tension. Budget for the overhead up front, since closed-loop sensing for hysteresis and 100–1000 V drives are part of the bill. If you need clean millimeter-scale force at low voltage, a voice coil is the simpler tool.
 
+## Key numbers
+Native strain about 0.1% of stack length, so stacks give tens of microns and amplified flexures a few millimeters · blocking force into the kilonewtons for a stack · sub-nanometer resolution and microsecond response · drive voltage 100–1,000 V · open-loop hysteresis roughly 10–15%, so accuracy needs closed-loop sensing · $1k–10k for a closed-loop stage.
+
 ## Examples
 Every AFM and confocal microscope stage (Physik Instrumente, npoint), camera autofocus ultrasonic ring motors (Canon USM lineage), fuel-injector piezo stacks (billions of firings), fiber-alignment stages, and inkjet printheads, which are arguably the highest-volume piezo actuator of all.
 
@@ -27,6 +30,12 @@ Piezo is a profitable precision oligopoly (PI, Cedrat, Noliac/CTS) at instrument
 
 ## Suppliers
 [Physik Instrumente](https://www.physikinstrumente.com/) — piezo stages and stacks, the precision incumbent · [PiezoMotor](https://piezomotor.com/) — piezo-stepping micro motors
+
+## Videos
+
+- https://www.youtube.com/watch?v=uFZsH62ewYo — Piezoelectric motor (Applied Science, 3 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=WAAeJD8qbN8 — KEMET Piezoelectric Actuators (TOKIN, 5 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=_iMHP-gaABk — Piezo Actuators & Their Limitations in Digital Microscopy (Dover Motion, 10 minutes, 10k+ views)
 
 ## Further reading
 

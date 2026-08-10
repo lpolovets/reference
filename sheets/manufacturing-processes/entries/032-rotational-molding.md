@@ -20,6 +20,10 @@ Excellent for large hollow parts and low-to-medium volumes because tooling is re
 
 Pick rotomolding for large seamless hollow parts (tanks, kayaks, bins from tens of liters to several cubic meters) at dozens to a few thousand units per year, where its cheap cast-aluminum or fabricated tooling costs far less than the alternatives. In exchange you get cycles of 30–60 minutes, loose tolerances, and a short list of materials led by polyethylene. At high volumes, or for small containers, use blow molding instead. If you need precision or structural detail, use injection molding.
 
+## Key numbers
+
+Dimensional tolerance roughly ±1% of the dimension, wall thickness ±10–20% · walls typically 3–12 mm · cycle 30–60 minutes per part · cast-aluminum or fabricated-steel molds $3,000–25,000, 3–8 weeks lead time · part volumes from tens of liters to several cubic meters, almost all polyethylene · economic lot size dozens to a few thousand a year.
+
 ## Examples
 
 Water tanks, kayaks, playground equipment, coolers, barriers.

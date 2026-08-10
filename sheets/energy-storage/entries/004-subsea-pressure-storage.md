@@ -19,11 +19,20 @@ The theoretical siting resource along continental slopes is enormous, efficiency
 ## When to use
 Treat this as a research position, not a procurement option. It is relevant only when co-located with deep offshore wind on continental slopes at 600–800 m, where the hydrostatic head is free and the export cable is already paid for. Fund it through grants or strategic offshore-wind capital with offshore-operations diligence, not storage-market underwriting. If a near-term project needs actual capacity, use onshore alternatives: Li-ion for hours, CAES or PSH for bulk. Revisit subsea spheres only if multi-sphere pilots demonstrate marine O&M costs low enough to preserve the advantage of the free storage medium.
 
+## Key numbers
+Deployment depth 600–800 m · pilot sphere roughly 9 m across · duration a few hours · round trip in pumped hydro's 70–85% band on paper · still at single-sphere pilot scale, with no commercial project built.
+
 ## Examples
 Fraunhofer IEE's StEnSea program: Lake Constance model tests, and the ~9 m sphere pilot off California (with Sperra and Pleuger) targeting mid-2020s deployment; Ocean Grazer's seabed bladder variant.
 
 ## Economic profile
 Paper economics reach pumped-hydro territory only at large sphere counts and depths; near-term reality is R&D funded by grants and offshore-wind strategic interest. The relevant diligence lens is offshore-industry cost discipline, not storage chemistry: the medium is free, but the marine operations are not.
+
+## Videos
+
+- https://www.youtube.com/watch?v=rfdu1-_z_J4 — Underwater Battery Storing Power at 600m depth! (German Science Guy, 12 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=_O1XeqxEMTI — Stensea - Energy Storage of the Future!? (The Futurist, 10 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=gd1fTJ-csio — How the Ocean Could be the Future of Energy Storage (Undecided with Matt Ferrell, 14 minutes, 500k+ views)
 
 ## Further reading
 

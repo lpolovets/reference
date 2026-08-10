@@ -20,6 +20,10 @@ Mature, flexible, inexpensive, and well understood. Adds electrical inductance a
 
 Wire bonding is the default die-to-package interconnect for cost-sensitive and moderate-pin-count devices (analog, sensors, LEDs, MEMS), and heavy aluminum wire is still standard in power modules. It needs no wafer bumping, and a routing change takes a program edit rather than a new mask. Move to flip-chip when pin counts run into the high hundreds, when interconnect inductance limits high-frequency or high-current performance, or when package height is critical.
 
+## Key numbers
+
+Wire 15–50 µm gold or copper for ball bonding, 100–500 µm aluminum in power modules · 10–20 wires per second on production bonders · pad pitch down to about 35 µm at 100–300 µm loop height · thermosonic bonding at 125–175 °C with ultrasonic drive near 60 kHz · loop inductance roughly 1 nH per mm of wire · bonders $100k–300k.
+
 ## Examples
 
 Analog ICs, sensors, LEDs, MEMS, power devices.

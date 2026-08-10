@@ -19,6 +19,9 @@ SWIR sees through haze, fog, and some smoke far better than visible light, becau
 ## When to use
 Pick SWIR when you need to see laser designation spots, image through haze, or discriminate materials that defeat visible-band camouflage. It is the standard choice for laser spot trackers and increasingly for covert illumination systems, since a 1,550 nm illuminator is invisible to both the naked eye and conventional night vision goggles. If cost matters and the requirement is simply night vision, image-intensified goggles or uncooled thermal are cheaper by an order of magnitude. In practice SWIR usually appears as the third channel in a high-end turret rather than as a sensor on its own.
 
+## Key numbers
+0.9–1.7 µm band · indium gallium arsenide detectors at or near room temperature with modest thermoelectric cooling · images the 1,064 nm and 1,550 nm laser lines used by designators and rangefinders · arrays typically 320×256 to 1280×1024 · camera cost $10k–50k.
+
 ## How it is defeated
 Heavy cloud and rain still block it. It is a reflective band, so a target in genuine darkness with no airglow — indoors, under cover — is invisible. Camouflage designed with SWIR reflectance in mind, which modern multispectral camouflage materials include, works. As with all optical sensors, laser dazzling and damage are possible, and the same InGaAs sensitivity that makes it good at seeing lasers makes it easy to saturate.
 
@@ -27,6 +30,12 @@ Laser spot trackers on targeting pods, the SWIR channels in MX-series and Wescam
 
 ## Economic profile
 InGaAs detector production is small and specialized, with a handful of suppliers, and prices have come down slowly compared with silicon or microbolometer arrays. There is meaningful non-defense demand from semiconductor inspection, agricultural sorting, and solar-cell testing, which helps sustain the supply base. Newer quantum-dot and germanium-on-silicon approaches promise much cheaper SWIR sensing and are the thing to watch, since a $500 SWIR sensor would change several product categories at once.
+
+## Videos
+
+- https://www.youtube.com/watch?v=kqJ6ga6A3Rc — InGaAs Cameras - TechBites Series (HAMAMATSU PHOTONICS, 5 minutes, 1k+ views)
+- https://www.youtube.com/watch?v=IHkPIOVJOCM — SWIR Imaging Enhances Fire Zone Visibility: Visible Spectrum, NIR & LWIR Comparison | Sony Official (Sony, 1 minute, 10k+ views)
+- https://www.youtube.com/watch?v=ozEtDULvH0E — When And Why You Should Use SWIR (PhotonicsOnline, 4 minutes, 1k+ views)
 
 ## Further reading
 

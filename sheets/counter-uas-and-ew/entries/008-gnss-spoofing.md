@@ -19,6 +19,9 @@ Spoofing is more elegant than jamming: it can move a drone rather than merely de
 ## When to use
 Spoofing is primarily a state capability used for area denial around sensitive sites, and it has been observed protecting airfields and government facilities in several countries. Consider it where you want drones diverted rather than dropped, and where the affected area does not include civil traffic that would be endangered. For most tactical counter-drone work, jamming is simpler and achieves an adequate effect. For civil sites, spoofing carries legal exposure well beyond jamming and is not a practical option.
 
+## Key numbers
+Spoofing kit built from a software-defined radio for a few thousand dollars · only a few dB more power than the genuine −160 dBW signal · gradual pull-off of the position solution, slow enough that no receiver alarm triggers · defeated by GPS M-code and Galileo OSNMA or PRS authentication · every unprotected receiver in range affected, civil aircraft and shipping included.
+
 ## Limits and failure modes
 Authenticated signals — GPS M-code, Galileo's OSNMA and PRS — defeat it, and civil authentication is now rolling out. Receivers with inertial coupling detect implausible position jumps and reject them. Multi-constellation receivers are harder to spoof consistently. The safety consequences for civil aviation and shipping in the affected area are severe and have prompted international complaints, which constrains where it can responsibly be used.
 
@@ -27,6 +30,12 @@ Widely reported spoofing around Moscow and other Russian sites causing drones an
 
 ## Economic profile
 Software-defined radio has put spoofing capability within reach of anyone with a few thousand dollars and the relevant expertise, which is a substantial proliferation change. The defensive response — signal authentication in civil GNSS, and inertial coupling in receivers — is progressing but slowly, and most fielded receivers remain vulnerable. The economics strongly favor the attacker for now.
+
+## Videos
+
+- https://www.youtube.com/watch?v=6qQXVUze8oE — Demonstration of a Remote Unmanned Aerial Vehicle Hijacking via GPS Spoofing (Texas Engineering, 3 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=ctw9ECgJ8L0 — Spoofing on the High Seas (Texas Engineering, 2 minutes, 500k+ views)
+- https://www.youtube.com/watch?v=qLcHe18rtvI — GPS/GNSS Spoofing and How To Detect It (GPSPATRON, 3 minutes, 10k+ views)
 
 ## Further reading
 

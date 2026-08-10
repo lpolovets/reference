@@ -20,6 +20,10 @@ It can form very large parts with relatively simple tooling. Safety, regulation,
 
 Pick explosive forming only for very large parts in single digits to low tens of pieces: multi-meter domes, vessel heads, and panels that exceed any available press. One female die and a water tank replace forming capacity you couldn't buy at a reasonable price. It also suits hard-to-form alloys, because the high strain rate can improve formability. Avoid it for anything a press or spinning machine can reach. Explosive licensing, remote facilities, and one shot per cycle make it uncompetitive at any real volume, and stretch forming or superplastic forming handles most large aerospace contours.
 
+## Key numbers
+
+Strain rates of 100 to 10,000 per second, against roughly 1 per second in a press · charges from tens of grams to a few kilograms, fired at a standoff in a water tank · peak pressures of hundreds of MPa at the sheet · parts from about 1 m to several meters across · one female die in concrete, ductile iron, or steel at $10,000–100,000, instead of a matched set · one shot per cycle, so hours between parts · economic lot size single digits to low tens.
+
 ## Examples
 
 Large aerospace panels, vessel heads, ship structures.

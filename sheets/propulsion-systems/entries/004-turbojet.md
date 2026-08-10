@@ -28,6 +28,12 @@ Pratt & Whitney J58 (SR-71), General Electric J85 (T-38, F-5), Rolls-Royce Viper
 ## Economic profile
 The large-turbojet business is essentially closed — nothing new is being designed for crewed aircraft — but the small expendable turbojet market is growing quickly on the back of cruise-missile and attritable-drone demand. Prices there have fallen from several hundred thousand dollars to tens of thousands as suppliers like Kratos, TRS/Safran, PBS, and several Chinese and Iranian producers moved to casting-and-machining-light designs. If low-cost mass strike is a real doctrine shift, small turbojets and their supply chains are one of the direct beneficiaries.
 
+## Videos
+
+- https://www.youtube.com/watch?v=GrhBrhYIFdo — How a TURBOJET Engine works - Explained by CAPTAIN JOE (Captain Joe, 20 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=ui70sM5G9Qs — Turbojet | How do Turbojet Engine works (KnowHow!, 4 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=F3ao5SCedIk — The Mighty J58 - The SR-71's Secret Powerhouse (TechLaboratories, 6 minutes, 5m+ views)
+
 ## Further reading
 
 [Turbojet Engines (NASA Glenn Beginner's Guide to Propulsion)](https://www.grc.nasa.gov/www/k-12/airplane/aturbj.html) · [Propulsion Flight Research at NASA Dryden From 1967 to 1997 (NASA Technical Reports Server)](https://ntrs.nasa.gov/citations/19980218800)

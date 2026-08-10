@@ -20,6 +20,10 @@ Inexpensive and sensitive on many nonporous materials. Only detects flaws open t
 
 Penetrant testing is the cheap default for surface-crack detection on nonmagnetic materials (aluminum, titanium, austenitic stainless, nickel alloys, even ceramics) where magnetic-particle inspection cannot work. Use fluorescent systems for critical aerospace hardware and simple visible-dye kits for weld shops and field checks. It inspects whole complex surfaces at once with minimal equipment and modest training. It finds nothing below the surface, and it finds nothing in a crack whose opening has been closed off. Smeared metal from machining, peening, or blasting seals crack openings, so etch first or inspect before those operations. Porous surfaces, such as castings with connected porosity and as-printed additive parts, give overwhelming false indications. On ferromagnetic steel, magnetic-particle inspection is faster and also catches slightly subsurface flaws. For anything internal, use ultrasonic or radiographic methods.
 
+## Key numbers
+
+Detects surface cracks around 1 µm wide and 10 µm deep with high-sensitivity fluorescent systems, coarser with visible dye · penetrant dwell 10–30 minutes and developer dwell at least 10 minutes, so 30–60 minutes total per batch · five sensitivity levels under AMS 2644, from 1/2 to 4 · working temperature about 4–52 °C · aerosol kits $50–150, production fluorescent lines $50k–300k · consumable cost well under a dollar per part.
+
 ## Examples
 
 Turbine blades, castings, forgings, welds.

@@ -28,6 +28,12 @@ Aerojet Rocketdyne MR-103 and MR-107 series (Voyager, Cassini, New Horizons), th
 ## Economic profile
 Hydrazine thrusters are cheap hardware — tens of thousands of dollars for small units — sold into a mature market with a handful of suppliers. Cost has shifted from the thruster to the handling: European REACH authorization requirements have made hydrazine progressively more expensive and administratively burdensome to use, and that regulatory trajectory is the main reason green monopropellants got funded. Expect a slow substitution on new small spacecraft and long persistence on large heritage platforms.
 
+## Videos
+
+- https://www.youtube.com/watch?v=vRJ7NVEBpbc — What is Monopropellant? (Black Square Photography, 5 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=2DwN_-LCQDQ — ESPA and Monopropellant Engine from Moog (Edison Tech Center, 8 minutes, 1k+ views)
+- https://www.youtube.com/watch?v=Zha9DyS-PPA — Toxic Propellant Hazards (US National Archives, 22 minutes, 100k+ views)
+
 ## Further reading
 
 [Long Life Monopropellant Hydrazine Thruster Evaluation (NASA Technical Reports Server)](https://ntrs.nasa.gov/citations/19910057064) · [In-Space Propulsion: State of the Art of Small Spacecraft Technology (NASA)](https://www.nasa.gov/smallsat-institute/sst-soa/in-space-propulsion/)

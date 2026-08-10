@@ -19,6 +19,9 @@ Reliability and range are the strengths. These are mature systems with high prob
 ## When to use
 Use short-range air defense missiles against targets that justify the expenditure: crewed aircraft, cruise missiles, and large drones threatening high-value assets. Against small drones, use them only when nothing else is available, and treat the expenditure as a warning that the architecture is wrong. The correct response to a drone problem being solved with SHORAD missiles is to buy guns, lasers, and low-cost interceptors, which is exactly what several militaries have concluded since 2022.
 
+## Key numbers
+Engagement range 5–25 km · $400k–4M per missile against a $20k–50k drone · high kill probability across drones, cruise missiles, and crewed aircraft · inventory depth measured in weeks under nightly drone attack · production expansion measured in years.
+
 ## Limits and failure modes
 Cost exchange is the fundamental failure, and no amount of technical improvement fixes it. Inventory depth is measured in weeks against sustained drone attack, and replacement production takes years to expand. Infrared seekers may not acquire small electric drones with weak thermal signatures. Minimum engagement range leaves a gap that close-in systems must cover.
 
@@ -27,6 +30,11 @@ FIM-92 Stinger, MBDA Mistral, IRIS-T SLM and SLS, NASAMS firing AMRAAM, Pantsir 
 
 ## Economic profile
 The Red Sea campaign made this problem concrete: US Navy destroyers expended millions of dollars of SM-2 and SM-6 missiles against drones worth a fraction of that, and the resulting inventory and cost concerns drove immediate investment in guns, lasers, and cheap interceptors. Missile production rates cannot scale to match drone production rates, and that asymmetry — not any technical shortfall — is what is reshaping air defense procurement.
+
+## Videos
+
+- https://www.youtube.com/watch?v=suKv8G3Gd88 — Stinger Missile | How does a Stinger Missile Works? | MANPADS Stingers (AiTelly, 5 minutes, 500k+ views)
+- https://www.youtube.com/watch?v=GBDmnKd8mBI — IRIS-T SLM (Medium Range Ground-Based Air Defence) (Diehl Gruppe, 4 minutes, 100k+ views)
 
 ## Further reading
 

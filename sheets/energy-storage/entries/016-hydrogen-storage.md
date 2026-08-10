@@ -18,11 +18,20 @@ Cavern storage is proven, vast, and extremely cheap per kWh ($0.20–2), with mo
 ## When to use
 Use salt caverns whenever seasonal-scale hydrogen inventory is the goal and the geology exists (Gulf Coast, northern Europe). At $0.20–2/kWh they are the only reservoir cheap enough to cycle once a year, and much of the value goes to whoever secures cavern rights early. Above-ground tanks are for mobility, refueling, and small industrial buffering only; never size them for bulk grid energy, where their $/kWh runs hundreds of times cavern levels. If there's no salt, don't force it: import storability via ammonia or LOHC, test porous-rock storage if local geology permits, or concede the seasonal case to transmission.
 
+## Key numbers
+Cavern storage $0.20–2/kWh, above-ground tanks 10–100× that · cavern pressure 100–200 bar holding thousands of tonnes · compressed tanks 350–700 bar · liquid hydrogen at -253 °C · compression to storage pressure eats 5–15% of the energy · hold time months with no degradation.
+
 ## Examples
 Chevron Phillips Clemens and Air Liquide Spindletop caverns (Texas, decades of operation), Teesside (UK), the ACES Delta project (Utah — 300 GWh-class caverns feeding hydrogen turbines), HyStock (Netherlands); porous-rock storage pilots in Austria and Argentina.
 
 ## Economic profile
 The cavern is why hydrogen wins seasonal storage on paper: it is the only reservoir cheap enough to cycle once a year. The value therefore concentrates in geology rights and conversion equipment, not the molecule. Where salt doesn't exist, hydrogen's seasonal case weakens sharply, because pipelines or carriers (ammonia, LOHC) have to import the storability.
+
+## Videos
+
+- https://www.youtube.com/watch?v=7E4xZh6wLuU — Storengy - Storage in salt cavern (Storengy, 3 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=xXhQglcjOMA — Fundamentals of hydrogen storage (Future Energy & Technology, 4 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=AHzjAYniPmY — H2 tanks type 1 - type 5, technological differences and advantages (Voith Group, 4 minutes, 10k+ views)
 
 ## Further reading
 

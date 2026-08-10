@@ -19,11 +19,20 @@ NiCd has exceptional abuse tolerance, a wide temperature range, and good shelf r
 ## When to use
 Specify NiCd only where certification and abuse tolerance decide the choice and a regulatory exemption applies: turbine-engine starting, rail rolling stock, and emergency power that must deliver hard current at -40 °C and fail predictably enough to certify. If you already have a qualified installation, it's usually worth keeping, because requalification costs more than the batteries. Avoid it for any new design outside those exemptions, since cadmium bans foreclose it, and avoid it for anything driven by energy density or cost. NiMH or Li-ion took those markets long ago.
 
+## Key numbers
+Specific energy 40–60 Wh/kg · nominal cell voltage 1.2 V, so 20 cells make a 24 V aircraft battery · 1,000–2,000 cycles · works from -40 °C to 60 °C · self-discharge 10–20% per month · priced well above lead-acid per kWh.
+
 ## Examples
 Turbine-engine start batteries (Saft, Marathon Norco) on airliners and helicopters; rail rolling stock; emergency power in refineries and substations; legacy power tools now fully converted to Li-ion.
 
 ## Economic profile
 The installed base is shrinking but sticky. Certification barriers in aviation and rail keep prices and margins high, while regulation forecloses growth. Saft dominates the surviving aerospace segment. NiCd is a good example of how a chemistry exits: it goes niche by niche, and it holds on longest where requalification costs the most.
+
+## Videos
+
+- https://www.youtube.com/watch?v=tUvpwdqdLlI — Nickel-cadmium battery | Redox reactions and electrochemistry | Chemistry | Khan Academy (Khan Academy Organic Chemistry, 11 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=NVC9TwW11wg — Nickel Cadmium Battery Working | NiCad Battery (Owl WiS, 2 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=rTAqhNgmw0c — Aircaft Nicad Battery Cleaning (ime otu, 4 minutes, 1k+ views)
 
 ## Further reading
 

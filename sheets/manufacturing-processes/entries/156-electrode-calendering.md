@@ -20,6 +20,10 @@ Improves particle contact, adhesion, and energy density. Excessive compression r
 
 Calendering is mandatory to hit target density, so the decision is the setpoint rather than whether to run the step. Compress energy cells toward roughly 25–30% porosity for maximum volumetric capacity, and leave power and fast-charge designs more open, since over-densification restricts electrolyte transport and cracks particles. High-nickel cathodes and silicon-bearing anodes tolerate the least compression. As webs get wider, watch roll deflection and foil elongation, because uneven density across the web shows up later as lithium plating.
 
+## Key numbers
+
+Target porosity roughly 25–30% for energy cells and 35% or more for power and fast-charge designs · electrode density about 1.5–1.7 g/cm³ for graphite anodes and 3.2–3.6 g/cm³ for NMC cathodes · thickness held to roughly ±1–2 µm across the web · coating compressed 20–40% from the as-dried state · line speeds up to roughly 80–100 m/min · hot-calendering rolls at 60–120 °C.
+
 ## Examples
 
 Densified anode and cathode webs.

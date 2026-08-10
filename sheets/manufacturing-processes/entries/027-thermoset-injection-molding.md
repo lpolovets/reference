@@ -20,6 +20,10 @@ Provides heat resistance, dimensional stability, and electrical insulation. Cycl
 
 Use thermoset injection molding for parts that have to hold their shape and keep insulating at temperatures and arc conditions thermoplastics can't sustain (connectors, breaker bodies, appliance handles), at medium-to-high volumes on BMC, phenolic, or epoxy compounds. If a glass-filled high-temperature thermoplastic meets the spec, use standard injection molding instead, since cycles are faster and the scrap can be remelted. Runners and rejects here can't be recycled, so design your gating to keep them small.
 
+## Key numbers
+
+Barrel held at 60–100 °C with the mold at 150–200 °C · cure time 20–120 s, so cycles run longer than thermoplastic molding · mold shrinkage 0.1–0.8%, tighter than thermoplastics · continuous service temperature 150–250 °C · runner and reject scrap 5–20%, none of it recyclable · tooling $25,000–150,000, with abrasive-filled compounds cutting mold life to a few hundred thousand shots.
+
 ## Examples
 
 Electrical connectors, circuit breakers, appliance handles, high-temperature housings.

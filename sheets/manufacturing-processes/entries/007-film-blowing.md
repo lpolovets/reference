@@ -20,6 +20,10 @@ Film blowing is efficient for thin, flexible films, and it can produce multilaye
 
 Choose blown film for thin flexible packaging that needs balanced machine- and transverse-direction strength, tube or bag formats, and easy width changes (grocery bags, liners, agricultural film, and most polyethylene film generally). If optical clarity, tight gauge uniformity, or maximum line speed drives your spec, use cast film instead.
 
+## Key numbers
+
+Film gauge roughly 8–250 µm · blow-up ratio 1.5:1–4:1 · gauge uniformity typically ±5–10% · layflat widths of several meters at 100–1,500 kg/h · 3 to 9 coextruded layers on multilayer lines · die and air-ring tooling $50,000–250,000 for a multilayer head.
+
 ## Examples
 
 Grocery bags, agricultural film, food packaging, liners, shrink film.

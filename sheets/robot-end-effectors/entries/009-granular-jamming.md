@@ -19,11 +19,20 @@ It grasps wildly irregular shapes with zero programming, and the conforming cont
 ## When to use
 Consider jamming only for oddly-shaped rigid parts presented on a supportive surface with clearance to press down: short-run kitting of irregular parts, or instant custom fixturing that holds strange geometries rigid for secondary operations. It works best exactly where fingers would need programming and cups can't seal, provided nothing sharp meets the membrane. Avoid bins with walls and close-packed neighbors, flat or large or porous objects, and anything that needs predictable release placement. In nearly every general-picking scenario vacuum or soft fingers is slightly better, which is why the standalone category failed. Think of jamming as a variable-stiffness component to put inside something else rather than as a default gripper.
 
+## Key numbers
+Membrane diameter typically 50–100 mm · payload usually under 1 kg, holding force a few N to tens of N · jam and release each take roughly 0.1 s · vacuum 0.7–0.9 bar below atmosphere · zero actuated degrees of freedom, since the grains do the shaping · no catalog product on sale since 2017.
+
 ## Examples
 The Empire Robotics VERSABALL (the best-known commercialization, shut down in 2017), Nichols/Formhand jamming pads for kitting, research fixtures for odd-part machining, jamming-stiffened surgical and wearable devices (where the principle is more active today).
 
 ## Economic profile
 The mechanism is clever, but the market kept being adjacent. For every jamming use case, either vacuum or soft fingers was slightly better, or an object violated the press-down requirement. Jamming's real commercial future looks like a component (variable-stiffness elements inside other effectors and wearables) rather than a standalone gripper category. It is a textbook study in the gap between a demo and a product.
+
+## Videos
+
+- https://www.youtube.com/watch?v=ZKOI_lVDPpw — Robotic grippers based on granular jamming (CornellCCSL, 3 minutes, 500k+ views)
+- https://www.youtube.com/watch?v=Rna03IlJjf8 — Presenting the Universal Jamming Gripper (CornellCCSL, 4 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=LcuBRQtVGxk — Experimental Jamming 'Beanbag' Robot Gripper (James Bruton, 16 minutes, 100k+ views)
 
 ## Further reading
 

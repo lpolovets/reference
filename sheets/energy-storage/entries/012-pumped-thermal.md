@@ -19,11 +19,20 @@ It sites anywhere, uses cheap thermal media, lasts decades, and runs on a fully 
 ## When to use
 Treat pumped thermal as a pilot-stage bet, not a procurement option. Back it only if you're funding geology-free 10–24 hour storage development and can condition capital on measured (not modeled) round trip from an integrated plant; 55%+ is the threshold that makes the arbitrage math work. Its promise is CAES-class $/kWh anywhere, which is worth option money. For capacity you need this decade, buy Li-ion below 8 hours and advanced CAES or LAES beyond it. And if the site's real product could be heat rather than electricity, skip the heat engine entirely and buy solid heat bricks.
 
+## Key numbers
+Charging heat pump moves 2–3 units of heat per unit of electricity · modeled round trip 60–70%, with 55% the threshold that makes the arbitrage work · duration 10–24 hours · target energy capex in the CAES range, tens of $/kWh · asset life measured in decades · nothing demonstrated beyond pilot scale so far.
+
 ## Examples
 Malta Inc (X/Alphabet spinout, salt-based), Echogen (supercritical CO2 cycle), Stiesdal GridScale (rock), MAN ETES; academic origins in Isentropic Ltd's gravel design (an early venture that failed).
 
 ## Economic profile
 On paper it's the best of both worlds: cavern-free siting with CAES-class $/kWh. In practice the efficiency-versus-capex trade-off is very tight, because every compromise in turbomachinery drops RTE toward values where cheap thermal media can't save the arbitrage math. In this category, the diligence question is always the measured round trip, not the modeled one.
+
+## Videos
+
+- https://www.youtube.com/watch?v=PXwFvOTPp18 — Malta - Pumped Heat Energy Storage (PHES) System (Malta Inc., 4 minutes, 1k+ views)
+- https://www.youtube.com/watch?v=IMD_CptGayc — National Facility for Pumped Heat Energy Storage (National Facility for Pumped Heat Energy Storage, 4 minutes, 5k+ views)
+- https://www.youtube.com/watch?v=i5SB3wtefUg — Pumped Thermal Energy Storage (Southwest Research Institute, 16 minutes, 1k+ views)
 
 ## Further reading
 

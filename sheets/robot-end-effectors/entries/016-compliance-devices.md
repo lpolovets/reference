@@ -19,11 +19,19 @@ It solves peg-in-hole misalignment mechanically, in microseconds, with zero sens
 ## When to use
 Pick an RCC for defined, repeated insertions with small misalignment (connectors, dowels, bearings, shafts), where a $1–3k passive device replaces a $15k force-control package and reacts in microseconds instead of control-loop time. Size the compliance center to the part length and it simply works. Crash-protector variants are cheap insurance on any tool worth more than they are. If you have varied insertion families, each part length wants its own tuning, which gets awkward. If misalignment runs past the capture range, you need a search strategy anyway. And if the arm's built-in force control already handles the insertion, you may not need one, though check the passive device's price before assuming software is cheaper.
 
+## Key numbers
+Lateral compliance roughly ±1–3 mm and angular ±1–3° · compliance center projected 50–300 mm ahead of the mount, matched to part length · reacts mechanically in microseconds, against milliseconds for a control loop · payload 1–30 kg · passive device $1–3k, against about $15k for a force-control package.
+
 ## Examples
 ATI and Schunk RCC lines descended from the Draper design, insertion stations in connector and bearing assembly, active compliance flanges (FerRobotics, PushCorp — shared with finishing), spring-loaded "crash protectors" (the RCC's cousin that saves tools from collisions), dowel and shaft-fitting cells everywhere.
 
 ## Economic profile
 This is a small, permanent market with the best cost-benefit ratio in assembly automation, since a $1–3k passive device routinely replaces a $15k force-control package for defined insertions. Its intellectual legacy is larger than its revenue. The RCC's lesson (put intelligence in the mechanics when you can) is the founding argument for underactuated hands and soft robotics, which covers a good share of this sheet.
+
+## Videos
+
+- https://www.youtube.com/watch?v=qFTUFHGGZIg — ATI Industrial Automation Compensator Remote Center Compliance Device (A3 Robotics, 1 minute, 10k+ views)
+- https://www.youtube.com/watch?v=9jjtZlPWMiY — Compliant Peg-in-Hole Assembly Using a Very Soft Wrist (Kensuke Harada, 2 minutes, 1k+ views)
 
 ## Further reading
 

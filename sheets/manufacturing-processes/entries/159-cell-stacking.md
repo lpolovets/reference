@@ -20,6 +20,10 @@ Stacking supports rectangular formats and uniform compression. The machinery is 
 
 Stack when the format is rectangular and the performance gain justifies slower, costlier machinery. Pouch and large prismatic EV cells get packaging efficiency, uniform pressure, and better swelling tolerance from flat stacks, and solid-state and lithium-metal designs with fragile layers essentially require them. Z-folding the separator is the common compromise between speed and alignment. If you are making cylindrical cells, or assembly cost per amp-hour dominates, winding is the faster default.
 
+## Key numbers
+
+Stacking rates of roughly 0.1–0.3 seconds per layer on current machines · 20–60 electrode layers in a large pouch or prismatic cell, so 5–15 seconds per cell · layer alignment held to about ±0.2–0.3 mm · anode overhang of 1–2 mm per edge to cover alignment error · cell capacities of 50–120 Ah for EV pouch cells and 100–300 Ah for large prismatic.
+
 ## Examples
 
 Pouch, prismatic, solid-state, and lithium-metal cells.

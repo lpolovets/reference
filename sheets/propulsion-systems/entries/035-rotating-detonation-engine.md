@@ -11,7 +11,7 @@ cost: med
 ---
 
 ## Description
-A rotating detonation engine sustains one or more detonation waves travelling continuously around an annular combustion chamber at 1,500–2,500 m/s. Fresh propellant is injected axially at the closed end, the wave passes through it, and the burned gas exhausts. Detonation raises pressure across the wave instead of dropping it, so the cycle approximates constant-volume rather than constant-pressure combustion, which is thermodynamically more efficient. The theoretical gain over a conventional engine is 5–15% in specific impulse, and because the pressure rise happens in the combustor, the feed system can run at lower pressure for the same chamber conditions.
+A rotating detonation engine sustains one or more detonation waves travelling continuously around an annular combustion chamber at 1,500–2,500 m/s. Fresh propellant is injected axially at the closed end, the wave passes through it, and the burned gas exhausts. Detonation raises pressure across the wave instead of dropping it, so the cycle approximates constant-volume rather than constant-pressure combustion, which is thermodynamically more efficient. The theoretical gain over a conventional engine is 5–15% in specific impulse, and because the pressure rise happens in the combustor, the feed system can run at lower pressure for the same chamber conditions. Almost all the hardware built so far runs as a rocket carrying its own oxidizer, so an RDE's specific impulse is quoted in the hundreds of seconds rather than the thousands an air-breathing engine reports.
 
 ## Strengths and weaknesses
 Pressure gain combustion is a genuine efficiency improvement and it also shortens the combustor, which cuts engine length and mass. Lower required feed pressure means lighter pumps and tanks. The problems are practical. The chamber sees enormous oscillating heat flux and structural loading at kilohertz frequencies, injector design has to prevent the wave from propagating back upstream, and measured performance in most tests has fallen short of the theoretical gain. Integrating an RDE with a turbine is harder still, because turbines dislike the unsteady flow, and that is where most of the aviation payoff would come from.
@@ -27,6 +27,12 @@ NASA Marshall's Rotating Detonation Rocket Engine testing with GRCop-42 additive
 
 ## Economic profile
 RDEs are the most-funded advanced combustion concept at the moment, with money from defense research offices, NASA, and a handful of startups. Additive manufacturing is what made the current wave possible, since printed chambers with integral cooling channels made iteration cheap enough to actually run experiments. The commercial question is whether a 5–15% gain justifies replacing a qualified engine, and the honest answer is that it usually does not on its own; the concept needs a mission where combustor length or feed pressure is the binding constraint.
+
+## Videos
+
+- https://www.youtube.com/watch?v=rG_Eh0J_4_s — What Is A Rotating Detonation Engine - And Why Are They Better Than Regular Engines (Scott Manley, 11 minutes, 1m+ views)
+- https://www.youtube.com/watch?v=RVxgyz_avQM — How NASA Reinvented the Rocket Engine (Real Engineering, 18 minutes, 1m+ views)
+- https://www.youtube.com/watch?v=xtdgulfvLlk — Rotating Detonation Rocket Engine passes long duration test (SciNews, 5 minutes, 50k+ views)
 
 ## Further reading
 

@@ -20,6 +20,10 @@ Provides very high throughput and tunable filtration, absorption, and barrier be
 
 Choose nonwovens when the product is roll goods sold by the square meter and the performance requirement is filtration, absorption, or barrier rather than strength (hygiene products, wipes, masks, insulation, geotextiles). Lines are capital-intensive and pay off only at continuous commodity volumes. Avoid the process for durable or load-bearing textiles and for anything without large steady demand; woven or knit fabric covers those cases.
 
+## Key numbers
+
+Basis weight 10–100 g/m² for hygiene webs, up to 800 g/m² for geotextiles · fiber diameter 15–25 µm spunbond and 1–5 µm meltblown · line width 3.2–5 m at 200–800 m/min · spinneret and bonding-roll tooling in the hundreds of thousands of dollars · line capex $10m–40m for 5,000–20,000 tonnes a year · spunbond polypropylene roughly $2–3/kg.
+
 ## Examples
 
 Masks, diapers, wipes, insulation, filters, geotextiles.

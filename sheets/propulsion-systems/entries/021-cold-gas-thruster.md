@@ -28,6 +28,11 @@ Manned Maneuvering Unit and SAFER astronaut jetpacks, LISA Pathfinder's micronew
 ## Economic profile
 Cold gas is a commodity. Components are simple enough that several suppliers sell integrated cubesat modules for under $50k, and the technology has no meaningful moat. Its persistence is a good illustration of a general rule in space hardware: the simplest adequate system usually beats the best-performing one when the mission's requirement is small, because qualification and integration cost dominate. Growth tracks the smallsat market rather than any technology trend.
 
+## Videos
+
+- https://www.youtube.com/watch?v=10Pdl0Omet8 — Model Rocket RCS Thruster Update (BPS.space, 14 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=o3EIRCfwbUA — Cold Gas Thruster Propulsion Test (Rice Hyperloop, 2 minutes, 5k+ views)
+
 ## Further reading
 
 [In-Space Propulsion: State of the Art of Small Spacecraft Technology (NASA)](https://www.nasa.gov/smallsat-institute/sst-soa/in-space-propulsion/) · [Thruster Options for Microspacecraft: A Review and Evaluation (NASA Technical Reports Server)](https://ntrs.nasa.gov/citations/20060035386)

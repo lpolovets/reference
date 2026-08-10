@@ -18,7 +18,11 @@ Carburizing creates a hard wear-resistant case over a tough core. Treatment is s
 
 ## When to use
 
-Carburize low-carbon and low-alloy steels when high contact stress demands a deep hard case (roughly 0.5 to 2 mm at 58-62 HRC) over a ductile core. That is the classic recipe for gear teeth, cam lobes, and pins that see both rolling contact and shock. Carbonitriding runs cooler and suits thin cases on cheap plain-carbon parts like fasteners and stampings at high volume. Because parts are quenched from temperature, expect distortion and plan a post-hardening grind on precision features. If the part has to go in finished-machined, or the alloy already contains nitride formers, use nitriding instead for its lower temperature and minimal distortion. If you need selective hardening of medium-carbon parts without furnace batch times, induction hardening is the usual alternative.
+Carburize low-carbon and low-alloy steels when high contact stress demands a deep hard case (roughly 0.5 to 2 mm at 58–62 HRC) over a ductile core. That is the classic recipe for gear teeth, cam lobes, and pins that see both rolling contact and shock. Carbonitriding runs cooler and suits thin cases on cheap plain-carbon parts like fasteners and stampings at high volume. Because parts are quenched from temperature, expect distortion and plan a post-hardening grind on precision features. If the part has to go in finished-machined, or the alloy already contains nitride formers, use nitriding instead for its lower temperature and minimal distortion. If you need selective hardening of medium-carbon parts without furnace batch times, induction hardening is the usual alternative.
+
+## Key numbers
+
+Gas carburizing at 900–950 °C, low-pressure vacuum carburizing up to about 1,050 °C, carbonitriding cooler at 780–870 °C · case depth 0.5–2 mm, roughly 4 hours per 0.5 mm at 925 °C and growing with the square root of time · surface carbon of about 0.8–1.0%, giving 58–62 HRC after quench · core hardness typically 30–45 HRC · carbonitrided cases much shallower at roughly 0.075–0.75 mm · furnace cycles of 4–30 hours.
 
 ## Examples
 

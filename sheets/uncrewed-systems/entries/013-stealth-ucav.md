@@ -19,6 +19,9 @@ Survivability in contested airspace is the point, and it is the capability that 
 ## When to use
 A stealth UCAV is the right answer when the mission requires penetrating a modern integrated air defense system to collect or to strike, and putting a crew at that risk is unacceptable or unnecessary. If the airspace is permissive, a MALE aircraft does the job at a tenth of the cost. If the target can be attacked from standoff range, a cruise missile is cheaper per shot and does not need to come home. The category's real competition is a mix of standoff weapons and collaborative combat aircraft, and program history suggests that competition has usually won.
 
+## Key numbers
+Gross weight roughly 7,000–20,000 kg across demonstrators · unrefuelled combat radius 1,500–2,000 km · internal payload around 2,000 kg on the larger types · unit cost comparable to a crewed fighter · autonomous carrier launch and recovery demonstrated in 2013, autonomous aerial refuelling in 2015.
+
 ## How it is countered
 Low-frequency and passive radar detect low-observable aircraft at useful ranges, though usually without engagement-quality accuracy. Infrared search and track systems detect them passively. Satellite control links are jammable, which forces reliance on onboard autonomy. Above all, the counter is economic: a small number of very expensive aircraft can be attrited faster than they can be replaced, which is the argument that has repeatedly pushed programs toward cheaper collaborative aircraft instead.
 
@@ -27,6 +30,12 @@ Northrop Grumman X-47B (the carrier demonstrations), Boeing X-45, Dassault nEURO
 
 ## Economic profile
 Every major stealth UCAV program has been cancelled, restructured, or slowed. The pattern is consistent: the aircraft ends up costing as much as a crewed fighter, which removes the cost argument for uncrewed operation, while the autonomy and command-and-control questions remain hard. That history is why the current generation of programs has pivoted to cheaper collaborative aircraft designed to be lost, rather than exquisite penetrating platforms designed to survive.
+
+## Videos
+
+- https://www.youtube.com/watch?v=WC8U5_4lo2c — X-47B UCAS Aviation History Under Way (Northrop Grumman, 4 minutes, 1m+ views)
+- https://www.youtube.com/watch?v=orTsIRPT0Ts — X-47B Completes First Autonomous Aerial Refueling (Northrop Grumman, 2 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=X9hl-7qBTHU — Dassault nEUROn European UCAV Drone Prototype Takeoff And Landing #1 (Siivet - Wings, 3 minutes, 50k+ views)
 
 ## Further reading
 

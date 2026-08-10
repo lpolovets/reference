@@ -19,6 +19,9 @@ It is the only aerial system that a dismounted soldier carries and uses without 
 ## When to use
 Use nano quadcopters for immediate close-in reconnaissance by small units, building clearance, and inspection tasks where a human would otherwise be exposed. If you need to look further than a kilometre or stay up for more than half an hour, a small fixed-wing aircraft is the right tool. If the environment is jammed, expect the video link to be the first thing lost, and prefer models that can complete a preprogrammed route and return without a link. Treat these as consumable — the loss rate in use is high and that is acceptable at this price.
 
+## Key numbers
+Gross weight 30–500 g · endurance 15–30 minutes · range 1–2 km · payload 50–150 g · wind limit around 25 knots · unit cost a few thousand dollars to roughly $50k.
+
 ## How it is countered
 Control and video links are the weak point, and a handheld jammer at a few hundred dollars defeats most consumer-derived links at short range. GNSS jamming disrupts position hold and return-to-home on models without visual odometry. Small arms work at close range. Simple detection is a challenge, but acoustic and RF detection systems both handle this class reasonably well because the aircraft is loud relative to its size and its link is easy to see.
 
@@ -27,6 +30,12 @@ Teledyne FLIR Black Hornet (the reference nano system, about 33 g), Skydio X2 in
 
 ## Economic profile
 Consumer drone manufacturing set the price and capability of this class, and defense-specific versions cost five to twenty times as much for hardened links, thermal sensors, and supply-chain assurance. The Black Hornet at roughly $50k per unit and DJI-derived alternatives at a few thousand illustrate the gap, and much of it is procurement policy rather than capability. The supply chain concentration in China remains the central strategic problem for Western buyers of this class, and it has driven substantial investment in domestic alternatives that still cost more.
+
+## Videos
+
+- https://www.youtube.com/watch?v=x19eT9O9WHU — Black Hornet 4 Nano UAV – The Future of Battlefield Reconnaissance (Teledyne FLIR, 4 minutes, 500k+ views)
+- https://www.youtube.com/watch?v=fLUxuOkvvcY — What Can THIS Black Hornet Drone Do? (TheRcSaylors, 14 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=f-FF3a8E0Q0 — A first look at the FLIR Black Hornet nanodrone (GearScout, 2 minutes, 10k+ views)
 
 ## Further reading
 

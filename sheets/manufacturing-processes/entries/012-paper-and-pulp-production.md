@@ -20,6 +20,10 @@ Throughput is high and the feedstocks are renewable. Water, energy, drying, fibe
 
 This applies when your product is a web of renewable cellulose fiber (paper, board, tissue, packaging stock) at machine-scale volumes where cost per ton decides the business. For essentially everyone downstream it is a buy-not-make process, since mills cost hundreds of millions and live or die on utilization, energy, and fiber cost. If you need barrier or structural performance beyond what coated paper can deliver, look at polymer film or laminate constructions instead.
 
+## Key numbers
+
+Machine speed 300–2,000 m/min at 2–11 m width · basis weight 15–500 g/m² · output 200–2,000 tons per day · furnish enters the headbox at 0.2–1% solids and leaves the dryers at 92–95% · water use roughly 10–50 m³ per ton · machine capex in the hundreds of millions of dollars.
+
 ## Examples
 
 Paper, paperboard, tissue, packaging stock.

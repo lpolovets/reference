@@ -19,11 +19,19 @@ NiZn offers high power and good specific energy for an aqueous chemistry, a non-
 ## When to use
 Pick NiZn for short-duration, high-power bridging where fire codes are the binding constraint (data-center UPS is the defining case), and for high-rate starting duty where you want more power per kilogram than lead without lithium's permitting burden. Keep the cycling shallow, since zinc shape change still caps deep-cycle life. Avoid it for deep daily cycling or long-duration storage, and weigh the thin supplier base against the incumbents. If cost is what matters, use lead; if density is what matters, use one of the lithium UPS products engineered to satisfy fire marshals.
 
+## Key numbers
+Nominal cell voltage 1.65 V, the highest of the aqueous nickel chemistries · specific energy roughly 60–100 Wh/kg · UPS strings sized for 30-second to 5-minute bridging discharges at very high power · a few hundred to about 1,000 full-depth cycles, and far more if cycling stays shallow · operates from about -20 °C to 50 °C.
+
 ## Examples
 ZincFive data-center UPS strings (the flagship application — short-duration, high-power bridging), aircraft and military starting batteries, motorsport starter packs.
 
 ## Economic profile
 NiZn sits between lead (more power, less mass) and lithium (no fire suppression, simpler permitting) in the UPS niche, and it sells regulatory ease as much as electrochemistry. Materials are cheap. The business question is whether the niche's price premium survives lithium UPS products engineered to satisfy fire marshals.
+
+## Videos
+
+- https://www.youtube.com/watch?v=hbhLqLU7uRM — Nickel-Zinc Batteries Explained (ZincFive, 4 minutes, 5k+ views)
+- https://www.youtube.com/watch?v=AQxKYnguIKQ — How to make a Nickel Zinc Battery ⚗ (Cayrex, 13 minutes, 1k+ views)
 
 ## Further reading
 

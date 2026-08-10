@@ -20,6 +20,10 @@ It produces complex near-net-shape castings with fewer cores and parting lines. 
 
 Consider lost foam at automotive-scale volumes for complex castings that would otherwise need many sand cores (blocks, heads, manifolds), because one foam pattern consolidates the internal passages and removes parting lines and draft. It only pays off if your volumes cover the foam-pattern tooling and you've thoroughly debugged the process. Avoid it for short runs, or if your shop can't hold tight pattern-quality control. The usual fallback is conventional cored sand casting.
 
+## Key numbers
+
+Linear tolerance roughly ±0.25 mm per 25 mm, better than green sand · as-cast surface Ra 6–12 µm · minimum wall about 3 mm · EPS pattern density 20–25 g/L · pattern tooling $50,000–250,000 at 8–16 week lead time · part weight typically 0.5–100 kg · economical from roughly 10,000 parts a year upward.
+
 ## Examples
 
 Engine blocks, cylinder heads, manifolds, pump housings.

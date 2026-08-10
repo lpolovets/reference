@@ -18,7 +18,11 @@ It produces strong, precise, thin-walled axisymmetric parts. The equipment is sp
 
 ## When to use
 
-Pick flow forming for seamless thin-walled cylinders and cones at hundreds to low tens of thousands of pieces, when you need wall accuracy of a few hundredths of a millimeter and cold-worked strength. Typical parts are rocket and motor cases, high-pressure cylinders, and premium wheels. The 20-50 percent strength gain from cold work often lets you thin the walls and drop weight compared with machined or drawn equivalents. Avoid it for non-rotational geometry, for very short simple tubes that are cheaper to draw, and for one-offs that don't justify the mandrel and machine setup. Conventional tube drawing or spinning covers those cases.
+Pick flow forming for seamless thin-walled cylinders and cones at hundreds to low tens of thousands of pieces, when you need wall accuracy of a few hundredths of a millimeter and cold-worked strength. Typical parts are rocket and motor cases, high-pressure cylinders, and premium wheels. The 20–50% strength gain from cold work often lets you thin the walls and drop weight compared with machined or drawn equivalents. Avoid it for non-rotational geometry, for very short simple tubes that are cheaper to draw, and for one-offs that don't justify the mandrel and machine setup. Conventional tube drawing or spinning covers those cases.
+
+## Key numbers
+
+Wall reduction 50–90%, stretching the preform 3–8 times its starting length · wall thickness tolerance ±0.02–0.05 mm · surface finish Ra 0.4–1.6 µm · yield strength up 20–50% from the cold work · diameters roughly 25–1,000 mm, lengths to about 4 m · cycle 2–15 minutes per part · economic lot size hundreds to low tens of thousands.
 
 ## Examples
 

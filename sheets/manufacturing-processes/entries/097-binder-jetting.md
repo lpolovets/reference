@@ -18,7 +18,11 @@ Fast, requires no separate support structures in the powder bed, and can process
 
 ## When to use
 
-Pick binder jetting for printed sand molds and cores (its most mature use, delivering casting tooling in days with no pattern). It also fits batches of small complex metal parts in the hundreds to tens of thousands, where full-bed nesting without supports makes it the cheapest metal additive route per part. Design for sintering: roughly 15-20 percent linear shrinkage, distortion on unsupported spans, and final density a shade below wrought. Avoid it for fatigue-critical or highly loaded metal parts, where laser powder-bed fusion or MIM gives better properties, and for one-off metal prototypes where the sintering furnace cycle erases the speed advantage.
+Pick binder jetting for printed sand molds and cores (its most mature use, delivering casting tooling in days with no pattern). It also fits batches of small complex metal parts in the hundreds to tens of thousands, where full-bed nesting without supports makes it the cheapest metal additive route per part. Design for sintering: roughly 15–20% linear shrinkage, distortion on unsupported spans, and final density a shade below wrought. Avoid it for fatigue-critical or highly loaded metal parts, where laser powder-bed fusion or MIM gives better properties, and for one-off metal prototypes where the sintering furnace cycle erases the speed advantage.
+
+## Key numbers
+
+Layer thickness 30–100 µm for metal and 200–400 µm for sand · sintering shrinkage 15–20% linear, held to about ±1–2% on final dimensions · tolerance roughly ±0.2 mm on sintered metal parts · sintered density 95–99% of wrought · sand build boxes up to about 4 × 2 × 1 m · economical from hundreds to tens of thousands of parts.
 
 ## Examples
 

@@ -20,6 +20,10 @@ RTM gives you finished surfaces on both sides and supports moderate production v
 
 Choose RTM at roughly one to thirty thousand parts a year when you need both surfaces finished, net molded edges, and repeatable dimensions. Automotive structural parts, bicycle frames, and aerospace components qualified to it are the usual cases. Below that volume the matched-mold investment and flow-development effort go unamortized, so use infusion or hand layup instead. For very large parts like hulls and blades, infusion is the practical route regardless of volume. At automotive takt times, HP-RTM with presses and fast-cure resins extends the process to minutes-scale cycles.
 
+## Key numbers
+
+Fiber volume fraction 50–55% with void content 1–2% · injection at 1–10 bar for standard RTM and 30–120 bar for HP-RTM · cycle times 20–60 minutes, down to 2–5 minutes with HP-RTM · matched tooling $50k to $500k · tolerance roughly ±0.2–0.5 mm on both molded faces · economical from about 1,000 to 30,000 parts a year.
+
 ## Examples
 
 Automotive structures, aircraft parts, bicycle frames, housings.

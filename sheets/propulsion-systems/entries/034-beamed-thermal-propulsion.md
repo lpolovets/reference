@@ -28,6 +28,12 @@ Leik Myrabo's Lightcraft experiments with the US Air Force, NASA's beamed-energy
 ## Economic profile
 No commercial activity of significance. The economics are all about the cost per watt of high-power lasers and the utilization rate of a ground facility, and neither number currently works. Directed-energy weapons investment is indirectly relevant, since it funds the same fiber-laser and beam-control technology; if 100 kW-class weapon lasers become cheap and common, the input costs for this concept fall accordingly. That is a slow, indirect path rather than a near-term one.
 
+## Videos
+
+- https://www.youtube.com/watch?v=KtH-SxqdtaA — LightCraft Launch Oct 2000 - laserbeam powered propulsion (roidroid, 4 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=LAdj6vpYppA — Laser Pumped Flying Saucer Spacecraft (SpaceRip, 7 minutes, 1m+ views)
+- https://www.youtube.com/watch?v=-Nm16wp0kMs — RPI Prof Leik Myrabo Lightcraft Research (MullamComm, 3 minutes, 10k+ views)
+
 ## Further reading
 
 [Beamed Energy Propulsion (NASA Technical Reports Server)](https://ntrs.nasa.gov/citations/19930007728) · [Beamed-Energy Propulsion (BEP) Study (NASA Technical Reports Server)](https://ntrs.nasa.gov/citations/20120002761)

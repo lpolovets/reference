@@ -19,6 +19,9 @@ Saturation and graceful degradation are the strengths. A defense that can engage
 ## When to use
 Consider swarm munitions for saturating point defenses, for wide-area search where many cheap sensors beat one good one, and for distributed electronic attack. If the target requires a substantial warhead, a small swarm aircraft cannot carry it and a conventional munition is necessary. If the environment is heavily jammed, the coordination that makes a swarm more than a group of individual drones may not survive, so check what the system does when the mesh degrades — the honest answer is usually that it becomes a set of independent waypoint-following drones.
 
+## Key numbers
+Per-aircraft mass roughly 0.3–7 kg · endurance minutes to about an hour · range tens of kilometers from the launch point · payload a few kilograms at most · demonstrated swarm sizes 30–100 aircraft.
+
 ## How it is countered
 Jamming the mesh network reduces a swarm to uncoordinated individuals. High-power microwave weapons are the most promising kinetic counter, because they engage many targets in one shot, which is the only way to match the cost exchange. Guns with programmable airburst ammunition and short-range interceptors both work per target but lose on economics against large numbers. Distributed detection is straightforward given the acoustic and RF signatures.
 
@@ -27,6 +30,12 @@ Raytheon Coyote in swarm configurations, the US Navy LOCUST and DARPA OFFSET and
 
 ## Economic profile
 Swarms are heavily funded on the argument that they invert the cost exchange in the attacker's favor, and the counter-investment in high-power microwave weapons follows the same logic in reverse. Progress has been slower than demonstrations suggest, because the difficult part is robust autonomy in degraded conditions rather than the coordination algorithms shown in clear-weather tests. The systems that field first are likely to be simple ones with modest coordination rather than the fully autonomous swarms of the concept videos.
+
+## Videos
+
+- https://www.youtube.com/watch?v=ndFKUKHfuM0 — Perdix Drone Swarm – Fighters Release Hive-mind-controlled Weapon UAVs in Air (AiirSource Military, 4 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=qW77hVqux10 — Watch the Navy's LOCUST launcher fire a swarm of drones (Business Insider, 2 minutes, 1m+ views)
+- https://www.youtube.com/watch?v=rx0yczThPog — Drone Swarms, Explained (DEFENCE CENTRAL, 5 minutes, 10k+ views)
 
 ## Further reading
 

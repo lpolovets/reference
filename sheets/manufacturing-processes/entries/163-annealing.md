@@ -20,6 +20,10 @@ Annealing improves ductility, machinability, and dimensional stability. It may r
 
 Anneal when accumulated cold work is about to cause cracking: between wire-drawing or deep-drawing passes, before severe forming of sheet, and after welding or heavy machining when residual stress would distort a later precision operation. Use full annealing to maximize softness and machinability of high-carbon and alloy steels. If you only need stress removal without a strength penalty, the cheaper stress-relief or process anneals below the transformation temperature will do. Avoid annealing on parts whose final strength comes from work hardening or prior heat treatment, since it erases both. If the steel just needs a uniform, moderately tough structure at lower furnace time, normalize instead. Use a protective atmosphere or vacuum when scale and decarburization on finished surfaces are unacceptable.
 
+## Key numbers
+
+Full annealing of carbon steel at roughly 760–900 °C, subcritical and process anneals at 600–700 °C, stress relief at 550–650 °C · soak time about 1 hour per 25 mm of section · furnace cooling at roughly 10–30 °C per hour, so total cycles of 8–24 hours · aluminum annealed at 340–415 °C, soda-lime glass near its 550 °C annealing point · annealed carbon steel typically 120–200 HB.
+
 ## Examples
 
 Sheet before forming, wire between draws, castings, glass.

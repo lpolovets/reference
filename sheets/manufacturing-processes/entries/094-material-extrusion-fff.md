@@ -18,7 +18,11 @@ Equipment and feedstock are inexpensive and ideal for prototypes, fixtures, and 
 
 ## When to use
 
-Pick FFF for form-and-fit prototypes, jigs, fixtures, and one-off functional parts. A few hundred dollars of machine and commodity filament turn CAD into a part overnight, which makes it the cheapest route to a physical object below roughly a few hundred units. Design around the weaknesses: plus or minus 0.2 mm typical accuracy, visible layers, and Z-direction strength a fraction of in-plane. If you need fine detail and smooth cosmetic surfaces, use vat photopolymerization; for isotropic production-grade nylon parts, use powder-bed fusion. Past roughly 500-1,000 units, injection molding's per-part economics take over.
+Pick FFF for form-and-fit prototypes, jigs, fixtures, and one-off functional parts. A few hundred dollars of machine and commodity filament turn CAD into a part overnight, which makes it the cheapest route to a physical object below roughly a few hundred units. Design around the weaknesses: ±0.2 mm typical accuracy, visible layers, and Z-direction strength a fraction of in-plane. If you need fine detail and smooth cosmetic surfaces, use vat photopolymerization; for isotropic production-grade nylon parts, use powder-bed fusion. Past roughly 500–1,000 units, injection molding's per-part economics take over.
+
+## Key numbers
+
+Tolerance roughly ±0.2 mm or ±0.5% · layer heights 0.1–0.3 mm through a 0.4 mm nozzle · surface finish Ra roughly 10–25 µm from visible layer lines · Z-direction strength 30–70% of in-plane · commodity filament $20–50/kg · desktop machines from a few hundred dollars, with injection molding cheaper past roughly 500–1,000 units.
 
 ## Examples
 

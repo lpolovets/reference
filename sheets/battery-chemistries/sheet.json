@@ -33,12 +33,12 @@
     "Layered-oxide cathodes": "nickel and cobalt layers — maximum energy per liter",
     "Lead-acid": "cheap, recyclable starters and backup workhorses",
     "Lithium-metal & conversion": "pure lithium anodes for the highest energy density",
+    "Metal-air & rechargeable zinc": "air-breathing metals and rechargeable zinc cells",
     "Nickel": "rugged alkaline cells that tolerate abuse",
     "Olivine & spinel cathodes": "iron and manganese cathodes — safety and cost first",
     "Other alkali-ion": "cheaper charge carriers beyond lithium and sodium",
     "Primary lithium": "single-use cells with decade-long shelf lives",
     "Primary zinc & silver": "everyday disposables and tiny button cells",
-    "Rechargeable zinc & metal-air": "abundant metals breathing air for cheap storage",
     "Redox flow": "energy in tanks — power and duration decoupled",
     "Reserve & specialty": "inert until activated, plus early multivalent chemistries",
     "Room-temperature sodium-ion": "drop-in lithium-ion alternatives, no lithium needed",
@@ -111,8 +111,10 @@
       "options": { "mass": "Mass production", "comm": "Commercial", "pilot": "Pilot / early", "rd": "R&D" }
     }
   ],
+  "videosAfter": "Economic profile",
   "extraSections": [
     ["when to use", "When to use"],
+    ["key numbers", "Key numbers"],
     ["examples", "Examples"],
     ["economic profile", "Economic profile"],
     ["further reading", "Further reading"]

@@ -18,7 +18,11 @@ Identifies problems before they create widespread scrap and supports stable high
 
 ## When to use
 
-Apply SPC to repetitive production of measurable characteristics once the process is capable. A good rule of thumb is to run control charts where Cpk exceeds about 1.33, so sampling can replace 100 percent inspection, and to chart only the few characteristics that actually predict function rather than everything measurable. It is standard practice, and often contractually required, in automotive and other high-volume supply chains. Two prerequisites really matter: a gauge R&R showing measurement variation well under tolerance, and enough process understanding to act on out-of-control signals rather than tamper. SPC adds little in job shops with lot sizes of a handful, on immature processes still being debugged, or on safety-critical characteristics with marginal capability. In those cases, use 100 percent inspection or in-process monitoring instead.
+Apply SPC to repetitive production of measurable characteristics once the process is capable. A good rule of thumb is to run control charts where Cpk exceeds about 1.33, so sampling can replace 100% inspection, and to chart only the few characteristics that actually predict function rather than everything measurable. It is standard practice, and often contractually required, in automotive and other high-volume supply chains. Two prerequisites really matter: a gauge R&R showing measurement variation well under tolerance, and enough process understanding to act on out-of-control signals rather than tamper. SPC adds little in job shops with lot sizes of a handful, on immature processes still being debugged, or on safety-critical characteristics with marginal capability. In those cases, use 100% inspection or in-process monitoring instead.
+
+## Key numbers
+
+Cpk 1.33 the usual threshold for replacing 100% inspection with sampling, 1.67 for safety-critical characteristics · Cpk 1.33 corresponds to roughly 63 defective parts per million and Cpk 1.67 to under 1 ppm · gauge R&R under 10% of tolerance acceptable, 10–30% marginal, above 30% unusable · control limits at ±3 sigma, giving about one false alarm per 370 points · subgroups of 3–5 parts sampled every 30 minutes to 2 hours · 20–25 subgroups, or 100–125 measurements, to establish limits.
 
 ## Examples
 

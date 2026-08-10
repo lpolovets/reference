@@ -17,6 +17,9 @@ A well-designed anti-jam installation raises the jammer power needed by two to f
 ## When to use
 Fit anti-jam GNSS on anything that must navigate accurately in contested airspace and can carry the antenna: aircraft, ships, ground vehicles, and larger munitions. For small munitions and cheap drones the antenna does not fit, and the answer is a good inertial unit plus terrain or visual navigation instead. As a rule of thumb, if the platform costs more than about $100k, anti-jam GNSS is worth it; below that, design for GNSS-denied operation from the start rather than trying to protect a signal you cannot adequately defend.
 
+## Key numbers
+CRPA arrays of 4–16 elements giving 20–50 dB of jammer rejection and nulling N−1 jammers · antenna aperture roughly 20–40 cm across · required jammer power raised by two to five orders of magnitude · antenna and receiver cost thousands to tens of thousands of dollars · worth fitting above roughly $100k of platform value.
+
 ## How it is defeated
 Numbers beat nulls: an array with N elements can null N−1 jammers, so enough distributed jammers saturate it. Very high power jamming close in overwhelms the front end. Spoofing that mimics authenticated signals is hard, but replay and meaconing attacks still cause problems for receivers that do not check timing consistency. And the practical defeat is simply that most platforms in most militaries still do not have anti-jam fitted, so the capability exists on paper more than in the field.
 
@@ -25,6 +28,12 @@ The GPS Directorate's M-code receivers (MGUE), Raytheon and BAE anti-jam antenna
 
 ## Economic profile
 This is a large, slow, expensive modernization market. M-code fielding alone is a multi-billion-dollar effort across US services, and progress has repeatedly slipped. Antenna and receiver suppliers are a small group with strong export controls. The parallel commercial development — low-Earth-orbit navigation and timing services from companies like Xona and TrustPoint, plus fiber and atomic timing for infrastructure — is growing quickly because civil operators have concluded they cannot wait for military solutions.
+
+## Videos
+
+- https://www.youtube.com/watch?v=zfOEg1MuLkg — Testing CRPA Receivers (Rohde & Schwarz, 10 minutes, 1k+ views)
+- https://www.youtube.com/watch?v=1TFWTgasPYo — How to Protect from GPS and GNSS Jamming | GAJT® Anti-Jam Solutions | NovAtel® Defense Solutions (NovAtel, 3 minutes, 5k+ views)
+- https://www.youtube.com/watch?v=I_ij3jPRnRw — Null Steering: Introduction (John Buck, 10 minutes, 1k+ views)
 
 ## Further reading
 

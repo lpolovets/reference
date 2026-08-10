@@ -20,6 +20,10 @@ Produces very large, strong parts with favorable grain flow and relatively modes
 
 Open-die forging is for very large or very low-volume parts that have to be metallurgically sound (turbine shafts, vessel rings, rotors from hundreds of kilograms to hundreds of tons), where no closed die could exist. Treat the forging as a rough envelope and plan substantial machining allowances. If you need thousands of identical net-shape parts, move to closed-die forging. If your strength requirements allow it, a large casting is cheaper still.
 
+## Key numbers
+
+Part mass from a few hundred kilograms to several hundred tons · forged at 1,100–1,250 °C in steel · dimensional tolerance roughly ±1–2% of the dimension, so 6–25 mm of machining stock per surface · presses of 1,000–15,000 tons cover most industrial work · flat, V, and swage dies costing a few thousand dollars, usually already on the floor · cycle minutes to hours per piece · economic lot size 1 to a few hundred.
+
 ## Examples
 
 Turbine shafts, pressure-vessel rings, generator rotors, large gears.

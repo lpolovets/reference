@@ -17,6 +17,9 @@ The coolant is chemically inert and could drive a direct-cycle turbine, you get 
 ## When to use
 Don't plan deployments or venture bets here. Nothing has ever been built, and depressurized decay-heat removal has beaten sixty years of design iterations. The GFR belongs in a program portfolio only as low-cost research optionality with a defined revisit trigger, and the signal to watch for would be refractory carbide fuels maturing in space-reactor work. If you want fast-spectrum fuel economics, use sodium. If you want high-temperature helium, use a thermal HTGR.
 
+## Key numbers
+Reference design 2,400 MWt and roughly 1,200 MWe, with ALLEGRO's 75 MWt demonstrator as the only concrete proposal · helium coolant at about 70 bar, no moderator · outlet 850 °C · refractory carbide fuel in SiC cladding that has to survive above 1,600 °C uncooled · no unit has ever been built.
+
 ## Examples
 Purely programmatic: Euratom's ALLEGRO demonstrator concept (Czech/Slovak/Hungarian consortium, perpetually pre-decision), historic GA and UK GCFR studies, Gen-IV Forum working groups.
 

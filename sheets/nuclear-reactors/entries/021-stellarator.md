@@ -17,11 +17,20 @@ Stellarators are intrinsically steady-state, disruption-free, and quiescent, whi
 ## When to use
 Back stellarators on the thesis that the hard part of fusion is running a plant 8,000 hours a year rather than reaching first gain. Steady-state, disruption-free operation is what tokamaks have to engineer around, and stellarators get it from geometry. The bet requires two things to be true: that HTS magnets plus modern optimization close W7-X's confinement gap, and that coil manufacturing and maintenance access yield to the Type One/Proxima generation of designs. The value case is that entry prices run an order of magnitude below the tokamak camp's. If you need a near-term Q>1 catalyst, be in tokamaks instead.
 
+## Key numbers
+W7-X runs 2.5 T on axis in a 30 m³ plasma, held by 50 non-planar and 20 planar superconducting coils · discharges have reached 8 minutes, with no plasma current and therefore no disruptions · the machine took about 15 years and roughly €1B to build · coil geometry has to hold millimeter tolerances, which is the manufacturing constraint · no stellarator has ever run D-T fuel, so there is no measured Q for the concept.
+
 ## Examples
 Wendelstein 7-X (Greifswald, record stellarator triple products and 8-minute plasmas, the field's flagship); Type One Energy (Infinity One design, TVA partnership at a retired coal site, the leading private effort); Proxima Fusion (Munich, W7-X heritage, HTS coils); Thea Energy (planar-coil simplification); Japan's LHD heritage.
 
 ## Economic profile
 The thesis is that tokamaks win the race to Q>1 and stellarators win the race to a power plant that runs all year. Modern optimization plus HTS magnets could leapfrog a machine generation. Private funding is an order of magnitude below the tokamak camp's, which makes stellarators the value bet in fusion portfolios. The odds on timing are long, but the odds that the physics choice is right for the endgame are strong.
+
+## Videos
+
+- https://www.youtube.com/watch?v=SjLviAfyyuo — Construction and Working Principles of a Stellarator (Energy Encyclopedia, 8 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=51Hji5NfkdA — Wendelstein 7-X fusion device – visualized from construction data (Max-Planck-Institut für Plasmaphysik, 6 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=lyqt6u5_sHA — Wendelstein 7-X – from concept to reality (Max-Planck-Institut für Plasmaphysik, 11 minutes, 100k+ views)
 
 ## Further reading
 

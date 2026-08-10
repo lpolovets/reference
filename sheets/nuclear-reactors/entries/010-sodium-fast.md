@@ -18,11 +18,20 @@ There's a lot of operating experience here (EBR-II's well-known passive-safety t
 ## When to use
 If you're a utility, the near-term case is Natrium's specific configuration: a renewable-heavy grid that will pay for storage-backed load-following, in a jurisdiction willing to license sodium. Don't pick it for cheap baseload, where LWRs win. If you're running a state program, choose the SFR when you want fuel-cycle infrastructure (breeding, actinide burning, plutonium management) and the treasury can hold a multi-decade position, as Russia, China, and India do. Either way, treat a secured HALEU or plutonium startup inventory as the gating item, because it's the binding constraint on every Western schedule.
 
+## Key numbers
+Electric output 300–800 MWe per unit, 345 MWe base and 500 MWe peaking on Natrium · liquid sodium coolant at atmospheric pressure, no moderator · outlet 500–550 °C · MOX or metal fuel, needing HALEU up to 19.75% or plutonium · design burnup roughly 100–150 GWd/t, several times what a light-water reactor reaches · breeding ratio around 1.0–1.2 · about 20 units have operated worldwide since 1951.
+
 ## Examples
 Russia's BN-800 (operating on MOX, the only commercial fast fleet); TerraPower's Natrium (345 MWe, metal fuel, plus a molten-salt heat store for 500 MWe peaking) — construction underway at Kemmerer, Wyoming, targeting ~2030; India's PFBR at Kalpakkam approaching operation; historic Phénix, Superphénix, Monju, EBR-II, FFTF.
 
 ## Economic profile
 Natrium is the West's flagship advanced build. Its salt-store peaking design is a genuinely clever answer to renewable-heavy grids, and its HALEU dependence (waived initially via DOE stockpiles) is the weak point in the schedule. Russia and China (CFR-600) treat SFRs as strategic fuel-cycle infrastructure rather than merchant plants, which is a reminder that fast-reactor economics have always been a state's long game rather than a market's.
+
+## Videos
+
+- https://www.youtube.com/watch?v=qUnik4gxrtM — The Genius Behind Bill Gates' New Natrium Reactor (Dr Ben Miles, 14 minutes, 500k+ views)
+- https://www.youtube.com/watch?v=47jP4YlqPZ4 — Small Nuclear Reactors - Natrium (Illinois EnergyProf, 20 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=Na5Nkl0p3rs — The Natrium™ Reactor and Energy Storage System (TerraPower, LLC, 3 minutes, 50k+ views)
 
 ## Further reading
 

@@ -28,6 +28,12 @@ Hybrid VTOL drones from Quantum Systems, Skyfront, and Harris Aerial, the Ampair
 ## Economic profile
 Hybrid powertrains are the pragmatic middle of electrified aviation and the segment where products are actually shipping, mostly in drones. The business is assembly-oriented: engines, generators, inverters, and batteries all come from existing supply chains, and the value is in integration and control software. That keeps barriers to entry low and margins thin. For military buyers the appeal is concrete — endurance of a combustion aircraft with an electric-only quiet mode over the target — and that requirement is driving most of the current procurement.
 
+## Videos
+
+- https://www.youtube.com/watch?v=LU8O-qVc68o — Rolls-Royce | A new gas turbine for hybrid-electric flight (Rolls-Royce, 3 minutes, 5k+ views)
+- https://www.youtube.com/watch?v=K2-5bgWdhIU — GE Aerospace’s industry-leading hybrid electric propulsion technology development (GE Aerospace, 3 minutes, 5k+ views)
+- https://www.youtube.com/watch?v=63TqdO27IMY — Turbo Electric Hybrid Aircraft Power System Test Bench First Run (ElectroTechnics, 4 minutes, 10k+ views)
+
 ## Further reading
 
 [Electrified Aircraft Propulsion (NASA Glenn Research Center)](https://www1.grc.nasa.gov/aeronautics/eap/) · [Visions of the Future: Hybrid Electric Aircraft Propulsion (NASA Technical Reports Server)](https://ntrs.nasa.gov/citations/20170002633)

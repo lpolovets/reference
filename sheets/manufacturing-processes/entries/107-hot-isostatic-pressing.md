@@ -20,6 +20,10 @@ HIP creates dense material and closes internal porosity in cast or printed parts
 
 Specify HIP when internal porosity limits fatigue life, which covers cast or powder-bed-fusion titanium and nickel parts for rotating aerospace hardware, medical implants, and similar critical service. It also makes sense for consolidating superalloy powder into segregation-free billets. Treat it as a densification step you buy from a toll processor. It only fixes the inside of the part, so you still need to budget for canning or finish machining, and for batch cycles measured in hours. If the part is statically loaded or cost-driven, skip HIP; vacuum impregnation or simply accepting the porosity is the norm there.
 
+## Key numbers
+
+Pressures 100–200 MPa in argon · temperatures 900–1,250 °C for steel, nickel, and titanium work · hold times 2–4 hours inside 8–12 hour furnace cycles · residual porosity closed to above 99.9% density · vessel working zones from about 200 mm to 2 m across.
+
 ## Examples
 
 Turbine disks, aerospace castings, powder-superalloy billets, additive parts.

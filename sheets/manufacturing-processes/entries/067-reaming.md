@@ -18,7 +18,11 @@ Produces accurate smooth holes efficiently. Cannot correct major location or str
 
 ## When to use
 
-Pick reaming to bring drilled holes to H7-class fits with a fine finish in seconds: dowel holes, bushing bores, and any standard diameter you make repeatedly. A reamer costs little and runs at production rates. Leave the right stock (typically 0.1-0.4 mm on diameter) and it will hold size all day. Avoid it when position or straightness is wrong, because a reamer follows the existing hole. If the location needs correcting, bore first. For non-standard or very large diameters, single-point boring is the better tool.
+Pick reaming to bring drilled holes to H7-class fits with a fine finish in seconds: dowel holes, bushing bores, and any standard diameter you make repeatedly. A reamer costs little and runs at production rates. Leave the right stock (typically 0.1–0.4 mm on diameter) and it will hold size all day. Avoid it when position or straightness is wrong, because a reamer follows the existing hole. If the location needs correcting, bore first. For non-standard or very large diameters, single-point boring is the better tool.
+
+## Key numbers
+
+Holds H7, about 0.015 mm of tolerance on a 10 mm hole · stock allowance 0.1–0.4 mm on diameter · surface finish 0.4–1.6 µm Ra · common diameters 2–50 mm · a few seconds per hole · reamers cost tens to a few hundred dollars.
 
 ## Examples
 

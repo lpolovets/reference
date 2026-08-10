@@ -28,6 +28,12 @@ Starlink's krypton and argon thrusters (the largest fleet ever flown), Busek and
 ## Economic profile
 Hall thrusters are the workhorse of the industry and the segment where startups have most successfully entered, because the physics is well published and the hardware is not extraordinarily complex. Prices for small units have fallen to the low hundreds of thousands of dollars, and constellation-scale in-house production, as at SpaceX, has driven them lower still. The strategic story is propellant: the move from xenon to krypton and argon was driven by supply and cost, and it demonstrates how quickly the industry will trade performance for supply-chain resilience.
 
+## Videos
+
+- https://www.youtube.com/watch?v=mAfjmGMp43w — How Hall thrusters work (and why we can't simulate them) (UMich PEPL, 5 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=OHRS2pbOGhc — How Hall Effect Thrusters REALLY Work (Step-by-Step) (Science Workshop, 3 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=PmdDTOvLKC4 — Why Are There Two Different Types Of Electric Space Engines, And How Do They Work? (Scott Manley, 17 minutes, 100k+ views)
+
 ## Further reading
 
 [Electric propulsion research (NASA Glenn Research Center)](https://www1.grc.nasa.gov/space/electric-propulsion/) · [12.5 kW Advanced Electric Propulsion System Thruster Development Testing (NASA Technical Reports Server)](https://ntrs.nasa.gov/citations/20205004235)

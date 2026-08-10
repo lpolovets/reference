@@ -19,6 +19,9 @@ NMC offers the best all-around balance of energy, power, life, and cost among hi
 ## When to use
 Pick NMC when you need high gravimetric energy with a mature, multi-vendor supply base: long-range EVs, power tools, e-mobility, and any pack where weight or range is what sells the product. Go nickel-rich (811, 9-series) only if your factory and BMS can handle the moisture and thermal sensitivity. Avoid NMC wherever the pack cycles daily and density is not decisive, which is why stationary storage and standard-range vehicles have mostly gone LFP, and avoid it in minimum-cost designs where cobalt and nickel exposure is unacceptable. For small-format consumer devices where volumetric density matters most, LCO is usually still better.
 
+## Key numbers
+Specific energy 200–300 Wh/kg at cell level · volumetric energy 550–700 Wh/L · nominal 3.6–3.7 V · cycle life 1,000–2,000 to 80% capacity · 1–3C continuous discharge, with EV cells fast-charging at 2–4C · nickel fraction from 33% in NMC 111 to over 90% in the 9-series · cell cost $100–200/kWh.
+
 ## Variants
 ### NMC 111 / 532
 Balanced ratios; robust and cobalt-heavy. Legacy EV and tool cells.
@@ -37,6 +40,12 @@ Most non-Tesla Western EVs (VW, GM Ultium, Hyundai-Kia, BMW); power tools; e-bik
 
 ## Economic profile
 NMC lands at mid-to-high $/kWh, driven by nickel and residual cobalt. It benefits from enormous economies of scale and a deep equipment ecosystem, but cathode precursor (pCAM/CAM) capacity is a bottleneck concentrated in China and Korea. The nickel-rich roadmap trades a cheaper metal mix for costlier processing and more yield risk.
+
+## Videos
+
+- https://www.youtube.com/watch?v=w4lvDGtfI9U — How To Ruin Your Electric Car's Battery - NMC Edition! (Engineering Explained, 13 minutes, 1m+ views)
+- https://www.youtube.com/watch?v=Uwv8jega9NY — EV Battery Show: LFP & NCM Explained (Ford Motor Company, 3 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=b7UnZwNHQ_I — What is the NMC 811 Battery? What are its features? - Battery Monday | 13 Dec 2021 (Grepow, 4 minutes, 1k+ views)
 
 ## Further reading
 

@@ -20,6 +20,10 @@ Produces thin-walled seamless parts rapidly with little waste. Requires ductile 
 
 Impact extrusion makes seamless deep thin-walled cans and tubes in ductile metals (aluminum, zinc, copper) at high volumes: aerosol cans, battery cases, collapsible tubes. A single blow replaces multiple draw stages. It requires soft alloys and simple axisymmetric geometry. For steels, complex shapes, or shallower parts, deep drawing is the standard alternative. At low volumes, machine or spin the part instead.
 
+## Key numbers
+
+Wall thickness 0.2–2 mm at length-to-diameter ratios up to about 10:1 · 50–95% area reduction in a single blow · rate 30–150 pieces per minute · diameter tolerance ±0.05–0.15 mm · tool sets $5,000–30,000 · limited to soft metals such as aluminum, zinc, copper, and tin · economic lot size 100,000 pieces and up.
+
 ## Examples
 
 Aerosol cans, battery cases, collapsible tubes, aluminum housings.

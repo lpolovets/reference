@@ -20,6 +20,10 @@ Produces flexible, damage-tolerant tubular or structural reinforcement. Variable
 
 Braid for tubular, torsion-tolerant, damage-tolerant structures produced by the continuous meter: ropes, hose and cable reinforcement, catheter shafts and stents, and ±45-dominated composite tubes braided over cores or mandrels. For flat broad goods, weave instead. For hoop-pressure-dominated vessels, filament winding places fiber more efficiently. Braiders control fiber angle only within limits, so avoid braiding for parts that need precise fiber angles varying sharply along the length.
 
+## Key numbers
+
+Carrier count 16–144 on most machines and several hundred on large ones · braid angle ±20° to ±80°, with most parts near ±45° · line speed 0.5–5 m/min · fiber volume fraction roughly 45–55% in braided composite preforms · mandrels and fixtures $5k–50k · machines from about $50k for rope work to several hundred thousand for radial composite braiders.
+
 ## Examples
 
 Ropes, hose reinforcement, vascular stents, composite tubes.

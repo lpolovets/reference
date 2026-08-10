@@ -20,6 +20,10 @@ Extremely fast, chipless, and produces strong parts with good grain flow. Geomet
 
 Cold heading is the automatic choice for fasteners and similar headed axisymmetric parts in ductile metals, running at hundreds of pieces per minute. The economics need runs in the hundreds of thousands to millions. The process is chipless, so it strengthens the material and wastes almost nothing, which is why it beats machining at volume. Below tens of thousands of pieces, or for low-ductility alloys and features the dies cannot reach, screw-machine turning is the fallback.
 
+## Key numbers
+
+Rate 100–400 pieces per minute · wire and rod stock 2–25 mm diameter · unsupported upset length limited to about 3 stock diameters per blow · diameter tolerance ±0.05–0.15 mm · material utilization above 95%, against 40–60% for screw machining · tool sets $2,000–20,000, good for 100,000 to 1,000,000 hits · economic lot size in the hundreds of thousands.
+
 ## Examples
 
 Bolts, screws, rivets, valve heads, pins.

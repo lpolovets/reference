@@ -19,6 +19,9 @@ Persistent tracking of specific platforms is the payoff, and it works through ca
 ## When to use
 Use specific emitter identification when identity, not detection, is the requirement: tracking particular vessels in a crowded maritime picture, confirming that a specific air-defense unit has moved, or associating a new emission with a previously observed platform. If you only need to know a threat type is present, ordinary electronic support is far cheaper. Treat database currency as an operational task with its own tempo — the fingerprint library ages continuously, and its accuracy is the system's real performance metric rather than the receiver's specifications.
 
+## Key numbers
+Usable range shorter than detection range, since fingerprinting needs roughly 20 dB signal-to-noise or better · receiver fidelity of 14–16 bit digitizers with very low phase noise · published classifier accuracy above 90% under matched conditions and well below that when the receiver or channel changes · fingerprint libraries refreshed on a months timescale as equipment ages and is repaired.
+
 ## How it is defeated
 Emission control defeats it. Replacing or repairing components changes the fingerprint, sometimes accidentally and sometimes deliberately. Deliberate transmitter-level randomization has been demonstrated in research and would degrade the technique substantially if fielded. Distance and poor signal-to-noise ratio wash out the subtle features the method depends on, so it generally needs closer or higher-quality collection than simple detection does.
 
@@ -28,6 +31,10 @@ Maritime domain awareness systems that track vessels through transponder-off per
 ## Economic profile
 The capability has been a closely held national one, but wideband software-defined receivers plus machine learning have made research versions accessible to universities and startups. Commercial applications in wireless device authentication and drone identification are emerging and share the technology base. The defense value is disproportionate to the hardware cost because it turns a stream of detections into a persistent track history, which is the kind of intelligence product that is hard to produce any other way.
 
+## Videos
+
+- https://www.youtube.com/watch?v=FIuENRVjNho — Artificial Intelligence Colloquium: Radio Frequency Machine Learning Systems (DARPAtv, 23 minutes, 5k+ views)
+
 ## Further reading
 
-[Defense Primer: Electronic Warfare (Congressional Research Service)](https://www.everycrsreport.com/reports/IF11118.html)
+[A Comprehensive Survey on Radio Frequency (RF) Fingerprinting: Traditional Approaches, Deep Learning, and Open Challenges (arXiv)](https://arxiv.org/abs/2201.00680) · [Feature Analysis and Extraction for Specific Emitter Identification Based on the Signal Generation Mechanisms of Radar Transmitters (Sensors via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9003364/)

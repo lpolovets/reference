@@ -20,6 +20,10 @@ Highly efficient for hollow containers. Wall thickness can vary, fine structural
 
 Blow molding is the right choice for hollow thermoplastic containers at six-figure volumes and up: stretch blow for PET beverage bottles, extrusion blow for handled and irregular containers like detergent bottles and fuel tanks, injection blow for small precise-neck vials. Below tens of thousands of units, or for very large tanks at modest volume, rotational molding is usually cheaper because its tooling costs so much less. If the part needs tight wall control or structural detail, use injection molding instead.
 
+## Key numbers
+
+Dimensional tolerance roughly ±0.5 mm on small blown features and looser as parts scale up · wall thickness variation ±10–25% · extrusion blow molds roughly $5,000–50,000, 4–10 weeks lead time · cycle about 2 s per cavity on PET stretch blow, 30–120 s on large extrusion-blown tanks · part volumes from a few milliliters to about 1,000 L · economic lot size 100,000 units and up.
+
 ## Examples
 
 Beverage bottles, fuel tanks, detergent containers, drums, ducts.

@@ -20,6 +20,10 @@ Formation strongly affects lifetime, impedance, self-discharge, and safety. It a
 
 Formation is unavoidable for lithium-ion, so the decision is how much capex and residence time to spend on it. Plan for it early in factory design, since formation and aging typically occupy a quarter or more of plant footprint and capex, and size charger channels with regenerative discharge to recover energy at scale. Use slow, multi-step protocols with elevated-temperature holds when you are qualifying new chemistries or when warranty life dominates. Move to compressed fast-formation recipes only after cycle-life and self-discharge data prove them out on the exact cell design. Do not shorten formation to relieve a capacity bottleneck without that validation, because latent SEI defects show up as field failures rather than line rejects.
 
+## Key numbers
+
+First charge at roughly C/20 to C/10, with total formation time from about 12 hours to several days per cell · first-cycle irreversible capacity loss of roughly 5–10% to SEI formation · elevated-temperature holds usually 40–60 °C · formation channel current and voltage accuracy of roughly 0.05% of full scale · formation and aging together taking a quarter or more of a cell plant's floor space and capex.
+
 ## Examples
 
 All lithium-ion cell production.

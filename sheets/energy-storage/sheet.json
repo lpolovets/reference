@@ -103,8 +103,10 @@
       "options": { "mature": "Deployed at scale", "comm": "Commercial", "pilot": "Pilot / early", "rd": "R&D" }
     }
   ],
+  "videosAfter": "Economic profile",
   "extraSections": [
     ["when to use", "When to use"],
+    ["key numbers", "Key numbers"],
     ["examples", "Examples"],
     ["economic profile", "Economic profile"],
     ["further reading", "Further reading"]

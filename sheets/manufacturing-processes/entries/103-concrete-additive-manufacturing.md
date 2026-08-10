@@ -20,6 +20,10 @@ Reduces formwork and enables unusual architecture. Reinforcement, building codes
 
 Pick concrete printing where formwork dominates cost or geometry: curved and non-repeating walls that would need one-off molds, landscaping and marine structures, and demonstration housing in regions where skilled formwork labor is scarce. A wall system can go up in days with a small crew. Structural spans still need conventional reinforcement strategies, and printed surfaces show layer lines unless finished. Avoid it for standard rectilinear buildings, where crews with plywood forms or precast panels remain cheaper and code-approved, and for load paths a local jurisdiction will not certify. Today it usually complements conventional concrete construction rather than replacing it.
 
+## Key numbers
+
+Bead widths 25–60 mm laid in 10–30 mm layers · nozzle travel roughly 50–250 mm/s · printable mortar compressive strength typically 30–60 MPa · a single-storey wall shell in 24–48 hours of printing · gantry and boom printers from roughly $200k to over $1m.
+
 ## Examples
 
 Walls, small buildings, landscaping structures, bridge elements.

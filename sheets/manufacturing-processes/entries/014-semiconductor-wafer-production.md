@@ -20,6 +20,10 @@ It produces the ultra-flat, low-defect substrates that semiconductor manufacturi
 
 Treat this as a sourcing decision. In almost all cases you should buy polished prime wafers to the diameter, orientation, doping, and flatness spec your device requires, because merchant supply is far cheaper than growing your own. Growing and finishing crystal in-house only makes sense for substrates you can't source at all (novel compound semiconductors, unusual orientations, captive SiC capacity), and it takes cleanroom-grade capital plus years of process development.
 
+## Key numbers
+
+Prime wafer diameters 100–300 mm at 525–775 µm thick · total thickness variation under 1 µm and polished roughness below 0.1 nm Ra · polysilicon purity 9N to 11N · Czochralski pull rate roughly 0.5–2 mm/min, giving 300 mm ingots of 250–450 kg · wire-saw kerf and polishing lose 30–50% of the ingot · 300 mm prime silicon wafers roughly $60–150 each, with silicon carbide an order of magnitude more.
+
 ## Examples
 
 Silicon wafers, silicon-carbide wafers, gallium-arsenide substrates.

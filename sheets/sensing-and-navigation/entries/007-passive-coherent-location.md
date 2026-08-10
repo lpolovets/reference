@@ -19,6 +19,9 @@ Emitting nothing is the decisive advantage: there is no signal to detect, no sig
 ## When to use
 Pick passive radar for covert surveillance, for gap-filling in an integrated air defense network, and for situations where emitting would be dangerous or is not permitted. It is also increasingly used for civil purposes like drone detection near airports, where spectrum licensing for an active radar is difficult. If you need engagement-quality tracks or coverage over ocean where no transmitters exist, an active radar is required. A reasonable architecture uses passive receivers as the always-on layer and turns active radars on only when a track needs refining.
 
+## Key numbers
+Illuminators in the FM band at 88–108 MHz, DVB-T at 470–790 MHz, and cellular bands · detection typically 50–200 km, set by transmitter power and geometry · track accuracy in the hundreds of meters · update rate around 1 second · zero transmit power · receiver hardware in the thousands to tens of thousands of dollars per node.
+
 ## How it is defeated
 Turning off or destroying the illuminators removes the radar, which is one reason broadcast infrastructure is an early target in conflicts. Coverage holes exist wherever transmitters do not. Accuracy is usually insufficient for engagement without handoff. The processing chain can be stressed by clutter and multipath in urban terrain, and low-altitude targets remain hard for the same reasons they are hard for any ground-based sensor.
 
@@ -27,6 +30,12 @@ Hensoldt TwInvis, Lockheed Martin Silent Sentry, Thales Homeland Alerter, the Cz
 
 ## Economic profile
 Hardware costs are low — software-defined receivers and commodity compute — so the barrier is signal processing expertise rather than manufacturing. That has let smaller companies and national research institutes field credible systems, and it makes passive radar unusually proliferation-friendly. The commercial market is growing around counter-drone and airport applications where an active radar's licensing and interference problems are prohibitive. Expect capability to track improvements in general-purpose computing more closely than in radar hardware.
+
+## Videos
+
+- https://www.youtube.com/watch?v=C2qFOirA1JQ — Using passive radars and satellite signals to detect and identify airborne threats (NATO Science & Technology Organization, 9 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=FF2n28qoTQM — Real time passive radar at home (30hours, 7 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=-k2ZuhAz0ac — FM Radio Passive Radar, WWLI 105.1 MHz (Juha Vierinen, 13 minutes, 10k+ views)
 
 ## Further reading
 

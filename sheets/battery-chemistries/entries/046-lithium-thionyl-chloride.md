@@ -18,11 +18,19 @@ Energy density and shelf life are unmatched, the cells run from -55 to +85 °C, 
 ## When to use
 Pick Li-SOCl2 for decades-long unattended service at microamp-to-milliamp drains across -55 to +85 °C (utility meters, IoT sensors, downhole tools, ordnance electronics), where sub-1%/year self-discharge is the whole point. If the device pulses, pair bobbin cells with a supercapacitor or specify spiral construction, and design for the voltage delay after dormancy. Avoid it for consumer-handled products, high-rate loads, or anything with a disposal path that can't handle toxic, corrosive cells. If you need decade-scale duty in a consumer-safe cell, use Li-MnO2 instead.
 
+## Key numbers
+Nominal 3.6 V · specific energy 500–700 Wh/kg and roughly 1,000–1,200 Wh/L · self-discharge under 1% per year, which is what supports 20+ year service · operating range -55 to +85 °C · continuous drain of microamps to a few milliamps in bobbin cells, amps in spiral construction.
+
 ## Examples
 Utility meters (the giant volume application — Saft, Tadiran, EVE), toll transponders, downhole oil-and-gas tools, military ordnance electronics, long-lived IoT sensors.
 
 ## Economic profile
 This is a quietly excellent business. Design-ins are sticky, replacement cycles run 20 years, safety-driven qualification keeps competitors out, and the customer base (metering, defense) doesn't care about $/kWh. EVE Energy's rise on Chinese smart-meter volume shows the scale hiding in "boring" primaries.
+
+## Videos
+
+- https://www.youtube.com/watch?v=Cae-bhGtyHQ — 🔋 How does a primary lithium battery work? full version 🔋 (Saft, 9 minutes, 1k+ views)
+- https://www.youtube.com/watch?v=9838WfA8xJA — 🔋 What is passivation in a primary lithium battery? motion design part 3 🔋 (Saft, 3 minutes, 1k+ views)
 
 ## Further reading
 

@@ -19,6 +19,9 @@ Temporal resolution and latency are measured in microseconds, dynamic range is e
 ## When to use
 Pick an event camera only when a conventional sensor's physics is the binding constraint: microsecond latency for aggressive flight or high-speed tracking, 120 dB dynamic range for welding-arc or tunnel-mouth scenes, or milliwatt always-on sensing in wearables and IoT. Even then, pick it only if the team can carry research-grade tooling and train on thin datasets. Avoid it for mainstream perception. A global-shutter frame camera at a few hundred fps solves most "too fast" problems with mature tooling, and hybrid frame-plus-event chips are the sensible middle path when you genuinely need both.
 
+## Key numbers
+Temporal resolution about 1 µs, with sub-millisecond latency · dynamic range around 120 dB · resolution 320×320 to 1280×720 on current sensors · sensor power in the milliwatts on static scenes, rising with event rate · unit cost a few thousand dollars for a development camera, less for the bare sensor.
+
 ## Failure modes
 Static scenes are invisible until something moves, though hybrid frame+event chips address this. Flickering lights such as LEDs and fluorescents flood the stream with useless events. Low light adds event noise. Per-pixel threshold mismatch requires calibration. Downstream algorithms trained on limited event datasets generalize unpredictably, so the ecosystem is a failure mode in its own right.
 
@@ -27,6 +30,12 @@ iniVation DVS and Prophesee-Sony IMX636/GenX320 (the commercial leaders), high-s
 
 ## Economic profile
 Sony's fab partnership with Prophesee signaled real intent, but a decade of "emerging" status reflects the missing volume driver: every proposed use has an adequate conventional alternative. The plausible break-in points are always-on low-power vision (wearables, IoT) and hybrid sensors where events augment frames. Price follows volume, and volume is still waiting on the app.
+
+## Videos
+
+- https://www.youtube.com/watch?v=MjX3z-6n3iA — What is Event-Based Vision | Metavision by Prophesee (PROPHESEE Metavision Technologies, 4 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=b5yJpxLEKoI — Event-based Vision Sensor (EVS) - Detecting Changes in Moving Subjects [Technology] | Sony Official (Sony, 3 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=sbJAi6SXOQw — Rapid, Dynamic Obstacle Avoidance with an Event-based Camera (UZH Robotics and Perception Group, 3 minutes, 100k+ views)
 
 ## Further reading
 

@@ -20,6 +20,10 @@ Aging and grading identify latent defects and let cells be matched into packs. T
 
 Hold cells through a high-temperature or room-temperature aging period, typically one to three weeks, whenever self-discharge screening matters. That covers any application where an internal micro-short becomes a field safety event, and any pack with many cells in series where capacity and impedance mismatch drives balancing loss. Grade tightly for EV and grid packs that string dozens to thousands of cells. Loose binning is tolerable for single-cell consumer devices. Shorten aging only if you have statistical evidence from delta-OCV data on a mature, stable process, and treat rising bin spread as an upstream process-control alarm rather than a sorting problem.
 
+## Key numbers
+
+Aging hold of roughly one to three weeks, often a 1–3 day stage at 45–60 °C followed by room-temperature rest · self-discharge screened from OCV drops of a few mV, resolved to about 0.1 mV · capacity bins typically ±1–2% wide and impedance bins around ±5% · direct leakage-current measurement resolving down to roughly 1 uA in hours rather than weeks · weeks of finished-cell inventory held as working capital.
+
 ## Examples
 
 Cell binning and pack matching.

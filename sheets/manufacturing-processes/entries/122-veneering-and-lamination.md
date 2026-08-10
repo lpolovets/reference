@@ -20,6 +20,10 @@ Conserves valuable material, enables curved structures, and improves dimensional
 
 Use veneering to put premium species on stable, economical substrates. Use lamination to build curved parts that solid wood cannot hold, or engineered structural members (LVL, glulam) with better consistency and span than sawn lumber. Bent lamination over a simple form is the standard route to curves at moderate volume. Avoid deep compound curves, which need molded plywood pressing or a different material entirely. Match the adhesive class to the moisture and heat the part will see, because delamination is the characteristic failure mode.
 
+## Key numbers
+
+Face veneer 0.5–0.9 mm thick, rotary-peeled plywood plies 1.5–3 mm · hot-press platens 110–140 °C at 0.7–1.4 MPa · press time 3–10 minutes hot and 1–4 hours cold · glulam laminations 20–45 mm thick in beams spanning 30 m and more · forms and cauls $5k–50k · economical from a few hundred panels a year upward.
+
 ## Examples
 
 Plywood, furniture surfaces, laminated beams, curved chairs.

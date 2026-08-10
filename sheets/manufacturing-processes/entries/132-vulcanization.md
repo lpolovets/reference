@@ -20,6 +20,10 @@ Creates resilience, durability, and dimensional stability. Vulcanized rubber can
 
 Choose vulcanized thermoset rubber wherever compression set, heat resistance, and dynamic fatigue life matter: seals, tires, engine mounts, and anything loaded continuously or running hot. Sulfur cure is the general-purpose system for dynamic service, while peroxide and specialty cures give higher temperature capability and lower compression set. If parts are lightly loaded and you care more about recyclability or fast injection-molding cycles, thermoplastic elastomers skip the cure step and the scrap that comes with it.
 
+## Key numbers
+
+Sulfur cures run 140–180 °C, with cure time roughly halving per 10 °C rise · sulfur 0.5–3 phr in conventional systems and under 0.5 phr in efficient ones · press cure 2–20 minutes for typical parts, 10–20 minutes for a passenger tire and 40 minutes or more for truck tires · compression set 10–30% after 22 hours at 100 °C, lower with peroxide cure · service temperature 80–100 °C for natural rubber and 150–200 °C for peroxide-cured EPDM and silicone.
+
 ## Examples
 
 Tires, seals, hoses, bushings, belts.

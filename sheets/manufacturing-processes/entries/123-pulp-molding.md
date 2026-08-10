@@ -20,6 +20,10 @@ Uses renewable or recycled fibers and works well for protective packaging. Preci
 
 Pick pulp molding for high-volume protective and food packaging where sustainability or recycled content is a requirement and tolerances of a millimeter or more are acceptable: egg cartons, cushioning inserts, and, in the hot-pressed thermoformed-fiber grades, smooth premium electronics trays. Tooling is cheap relative to injection molds, so it also suits packaging that changes shape often. Avoid it for parts needing tight dimensions, wet strength, or structural stiffness. Where those dominate and regulation still permits it, thermoformed plastic is the alternative.
 
+## Key numbers
+
+Wall thickness 1–5 mm, down to about 1 mm on hot-pressed thermoformed grades · tolerance roughly ±1 mm, looser on unpressed grades · slurry consistency 0.5–1.5% fiber · cycle time 20–60 seconds per mold set · tooling $5k–50k per tool with lead times of a few weeks · economical above roughly 100,000 units.
+
 ## Examples
 
 Egg cartons, food trays, electronics packaging.

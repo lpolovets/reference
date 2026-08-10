@@ -20,6 +20,10 @@ Provides low heat input, narrow welds, and excellent automation. Joint fit-up mu
 
 Choose laser welding for high-rate precision joining where heat input must stay low (battery tabs and cans, medical devices, powertrain components, hairpin stators) and where fixturing can hold fit-up gaps around 0.1 mm. The equipment cost only pays off at mid-to-high volumes or on genuinely precision work. If you have poor fit-up, thick multi-pass sections, or field conditions, arc welding is still the right tool. If you need very deep welds in reactive metals, electron-beam welding is the specialist alternative.
 
+## Key numbers
+
+Fit-up gap around 0.1 mm, or under 10% of sheet thickness · laser power 1–10 kW for most production welding · penetration roughly 1 mm per kW in keyhole mode on steel · travel speed 1–10 m/min, up to 20 m/min on thin sheet · weld width 0.2–2 mm with a heat-affected zone under 1 mm · cell capex $150k–1m.
+
 ## Examples
 
 Batteries, automotive bodies, medical devices, aerospace assemblies.

@@ -20,6 +20,10 @@ Winding is fast and material-efficient. Tension, alignment, wrinkling, telescopi
 
 Wind whenever the format allows it. It is the fastest, cheapest, and most mature assembly route, it is the only practical one for cylindrical cells, and winders comfortably outpace stacking machines per unit of capital. You do have to live with its limits: winding puts curvature stress on the electrodes, it puts corner strain into flattened prismatic rolls, and it fits thick or fragile electrodes poorly. If you are building large pouch or prismatic formats where packaging efficiency and uniform stack pressure drive performance, or solid-state and lithium-metal designs, use stacking instead.
 
+## Key numbers
+
+Winding roughly 1–3 seconds per jelly roll on cylindrical machines · electrode alignment held to about ±0.2–0.5 mm against a designed anode overhang of 1–2 mm · separator 12–25 µm thick · standard cylindrical formats of 18650 (18 x 65 mm), 21700, and 4680 · cell capacities from roughly 2.5–3.5 Ah in 18650 to 25–30 Ah in 4680.
+
 ## Examples
 
 Cylindrical and wound prismatic cells.

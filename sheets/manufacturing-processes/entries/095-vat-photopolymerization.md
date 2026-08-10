@@ -18,7 +18,11 @@ Creates excellent detail and smooth surfaces. Resins may be brittle, UV-sensitiv
 
 ## When to use
 
-Pick vat photopolymerization when detail and surface finish drive the job. It resolves features down to 25-100 micrometers with near-injection-molded smoothness, which suits dental models and aligner molds, jewelry and investment-casting patterns, hearing-aid shells, microfluidics, and master patterns for silicone molding. Desktop machines make it the best-looking prototype per dollar. Avoid it for load-bearing parts in service, because most resins are brittle, creep, and degrade under UV and heat. If you need functional end-use parts, use powder-bed fusion or machining; beyond low volumes, use injection molding.
+Pick vat photopolymerization when detail and surface finish drive the job. It resolves features down to 25–100 micrometers with near-injection-molded smoothness, which suits dental models and aligner molds, jewelry and investment-casting patterns, hearing-aid shells, microfluidics, and master patterns for silicone molding. Desktop machines make it the best-looking prototype per dollar. Avoid it for load-bearing parts in service, because most resins are brittle, creep, and degrade under UV and heat. If you need functional end-use parts, use powder-bed fusion or machining; beyond low volumes, use injection molding.
+
+## Key numbers
+
+Layer thickness 25–100 µm · tolerance roughly ±0.1 mm or ±0.2% · surface finish Ra typically 0.5–2 µm · resin roughly $50–200 per liter for common grades · desktop machines a few hundred to a few thousand dollars, industrial SLA $50k and up · build envelopes about 150 mm on desktop machines and 500 mm or more on industrial ones.
 
 ## Examples
 

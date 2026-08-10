@@ -19,6 +19,9 @@ Patience is the capability. It converts an opponent's air defense from a system 
 ## When to use
 Use anti-radiation loitering munitions in suppression and destruction of enemy air defenses, particularly at the start of a campaign when radars must operate and cannot simply hide. If the radar's location is known and it will be transmitting at a predictable time, a conventional anti-radiation missile is faster and cheaper per shot. If the target set is broader than radars, a general loitering munition with an imaging seeker is more flexible. Expect decoy emitters, and plan the salvo size on the assumption that some munitions will attack decoys.
 
+## Key numbers
+Loiter endurance 2–9 hours · range 200–1,000 km on fielded types · launch weight roughly 100–200 kg · warhead 15–35 kg · unit cost $100k–1M.
+
 ## How it is countered
 Cheap decoy emitters are the standard and effective counter, and they cost a small fraction of the munition. Emission control works if the defender can accept being blind for the loiter period. Point defense guns and short-range missiles engage them since they are slow. Some newer air-defense systems specifically pair a remote illuminating decoy with the real radar so that any attack goes to the decoy.
 
@@ -27,6 +30,12 @@ IAI Harpy and Harop, the Turkish Kargu and Alpagu in related roles, the Chinese 
 
 ## Economic profile
 Unit costs of $100k–1M sit below anti-radiation missiles while offering loiter time that missiles cannot. The export market has been active, with Harop sales to several countries and demonstrated use in the Nagorno-Karabakh conflict, where the combination of loitering munitions and armed drones against unprepared air defenses was decisive. The counter-economics — cheap decoys against expensive munitions — is the segment's structural weakness and is well understood by defenders.
+
+## Videos
+
+- https://www.youtube.com/watch?v=1HUEERZU9oI — Loitering Munition 9-Hour Endurance Strike with Precision Targeting | HAROP - IAI (IAI, 4 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=1BDEkZp8t9g — How the Israel's Harop suicide Drone Changed Modern Warfare (The Aviation Archives, 5 minutes, 5k+ views)
+- https://www.youtube.com/watch?v=dXFGyyFWahY — Maritime Harop - Loitering Munition System (IAI, 2 minutes, 10k+ views)
 
 ## Further reading
 

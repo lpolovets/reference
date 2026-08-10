@@ -19,6 +19,9 @@ They put a machine where a person would otherwise be, in the two situations wher
 ## When to use
 Use throwable robots for building and tunnel reconnaissance ahead of people, and EOD robots for any approach to a suspected explosive device. If the environment blocks radio, use a tethered robot or one with a fiber spool, which is common in EOD work for exactly this reason. If the terrain is broken enough that a tracked chassis will not manage it, a legged robot may get there, at several times the cost. For large-area searching, aerial systems cover ground far faster.
 
+## Key numbers
+Throwable robots 2–8 kg · EOD robots 15–350 kg · endurance a few hours per battery · radio control range a few hundred meters line of sight, much less inside structures · unit cost $10k for a throwable up to $250k for a large EOD system.
+
 ## How it is countered
 Radio links are the main vulnerability and they fail without any enemy action inside buildings. Deliberate jamming works. Physical obstacles — stairs, debris, doors — stop small robots routinely, and a defender who anticipates their use can arrange terrain to do so. Their approach is also conspicuous, so any element of surprise is lost.
 
@@ -27,6 +30,12 @@ Teledyne FLIR PackBot and FirstLook, the Recon Robotics Throwbot, Endeavor Robot
 
 ## Economic profile
 This is a mature market with well-established suppliers, prices from $10k for a throwable robot to $250k for a large EOD system, and demand tied to counter-IED and police budgets. Growth has flattened as counterinsurgency operations wound down. The technology base has largely been absorbed into wider ground-robotics work, and the interesting developments now are in autonomy and in legged platforms rather than in the tracked chassis that defined the category.
+
+## Videos
+
+- https://www.youtube.com/watch?v=kV0GwG269xQ — PackBot® 510 | Unmanned Ground Systems (Teledyne FLIR, 3 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=yohWIfy_zNk — A Robot You Can Throw (IEEE Spectrum, 2 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=DIte7K1GswU — How Do Robots Dismantle Bombs? (Seeker, 4 minutes, 50k+ views)
 
 ## Further reading
 

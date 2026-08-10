@@ -19,6 +19,9 @@ Force per gram and cost are both remarkable. TSA turns any micro-motor into a te
 ## When to use
 Use a twisted-string actuator when a gram-scale, cent-scale mechanism has to pull like a tendon: prosthetic and robotic fingers, exo-gloves, cable tensioners. Anywhere a tiny high-RPM motor plus two cords can replace a gearbox, TSA is worth a look, and the naturally rising ratio suits grasps that start fast and end forceful. Budget for string replacement as a wear item and handle the nonlinear ratio in your controller. Avoid TSA for long-travel or high-cycle continuous axes. Avoid SCP muscles in products entirely, since single-digit thermal efficiency and hertz-class bandwidth confine them to research until a non-Joule heating path appears. For controlled linear force at scale, a screw or voice coil is still the tool.
 
+## Key numbers
+TSA travel typically 10–30% of free string length · a gram-scale motor at thousands of rpm gives tens to hundreds of newtons of pull, with the ratio rising as the bundle twists · SCP contracts a few percent under Joule heating · SCP work density roughly 100× biological muscle · SCP efficiency single-digit, bandwidth around 1 Hz · string and thread cost cents, and both are wear items.
+
 ## Examples
 TSA: prosthetic hands and exo-gloves in research (and consumer products quietly — some e-bike and cable-tensioning mechanisms), NASA tendon experiments; SCP: University of Texas/Baughman lab's nylon muscles, haptic and micro-robotics demos, textile-integrated actuator research.
 
@@ -27,6 +30,12 @@ TSA is an underrated engineering trick with real product wins available today in
 
 ## Suppliers
 [Allonic](https://allonic.co/) — braided/twisted-fiber muscle actuators
+
+## Videos
+
+- https://www.youtube.com/watch?v=5PtXTI1t3Po — Designing Anthropomorphic Robot Hand with Active Dual-Mode Twisted String Actuation Mechanism (MSC kaist, 4 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=gzdZGKHdfsc — Making artificial muscles from fishing line (BionicMuscles, 7 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=Tba8Nf02OSI — Fishing Line Artificial Muscles (Intelligent Polymer Research Institute, 2 minutes, 50k+ views)
 
 ## Further reading
 

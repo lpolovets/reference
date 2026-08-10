@@ -28,6 +28,12 @@ NASA's Green Propellant Infusion Mission (2019, ASCENT), Sweden's PRISMA mission
 ## Economic profile
 The market is small but growing with the smallsat propulsion segment. Propellant costs more per kilogram than hydrazine, but total mission cost usually falls because ground handling, range safety, and schedule costs drop more. Suppliers are a mix of primes and startups, and the segment is one of the few in space propulsion where new entrants have won flight heritage quickly. European regulatory pressure on hydrazine is the strongest tailwind, and it is a policy variable rather than a technical one.
 
+## Videos
+
+- https://www.youtube.com/watch?v=y7jn9VApYqU — Green Rocket Fuels - Safer & Better Than Hydrazine (as if that's hard) (Scott Manley, 9 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=SCLnEnpe9hY — ASCENT Propellant on the GPIM Mission (AFResearchLab, 7 minutes, 1k+ views)
+- https://www.youtube.com/watch?v=FNxUpFrbm2E — Benefits of Green Propellant (NASA's Marshall Space Flight Center, 3 minutes, 1k+ views)
+
 ## Further reading
 
 [Green Propellant Infusion Mission Program Development and Technology Maturation (NASA Technical Reports Server)](https://ntrs.nasa.gov/citations/20140016837) · [In-Space Propulsion: State of the Art of Small Spacecraft Technology (NASA)](https://www.nasa.gov/smallsat-institute/sst-soa/in-space-propulsion/)

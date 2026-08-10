@@ -20,6 +20,10 @@ Significantly increases strength and causes safer fragmentation. Tempered glass 
 
 Temper flat soda-lime glass 3 mm and thicker whenever codes demand safety glazing or the design needs roughly four times annealed strength (doors, shower enclosures, vehicle side windows, facades). It is by far the cheapest strengthening route at volume. All cutting, drilling, and edging must happen before tempering, so finalize geometry first. It cannot handle thin glass, which lacks the thermal mass to build the stress profile, and the quench pattern and roller wave rule it out for display covers and precision optics; use chemical strengthening for those. If post-breakage retention matters, as in overhead glazing, use laminated or heat-strengthened constructions rather than fully tempered lites, and specify heat soaking when spontaneous nickel-sulfide breakage is a liability concern.
 
+## Key numbers
+
+Thickness 3–19 mm, with about 3 mm the practical minimum · surface compression at least 69 MPa fully tempered and 24–52 MPa heat-strengthened · roughly 4× the bending strength of annealed glass · furnace around 620–650 °C followed by an air quench · heating time roughly 40 seconds per mm of thickness · roller wave distortion typically 0.05–0.15 mm peak to valley.
+
 ## Examples
 
 Architectural glazing, side windows, shower doors, oven doors.

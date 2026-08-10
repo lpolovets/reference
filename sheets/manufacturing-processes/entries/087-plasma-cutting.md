@@ -18,7 +18,11 @@ Cuts thick metal rapidly and economically. Edge quality and precision are genera
 
 ## When to use
 
-Use plasma for conductive plate in the roughly 6-50 mm range (structural steel, heavy-equipment blanks, ship plate), where it's the cheapest fast option and a plus or minus 0.5-1 mm edge is fine because the edge gets welded or machined anyway. High-definition plasma tightens that tolerance usefully. Capital cost is a fraction of a laser with the same thickness capacity, and handheld units cover field work. Avoid it for thin sheet and precision profiles, where laser is faster and cleaner, and for nonconductive materials. If the edge has to go into service as-cut with no heat-affected zone, use waterjet instead.
+Use plasma for conductive plate in the roughly 6–50 mm range (structural steel, heavy-equipment blanks, ship plate), where it's the cheapest fast option and a ±0.5–1 mm edge is fine because the edge gets welded or machined anyway. High-definition plasma tightens that tolerance usefully. Capital cost is a fraction of a laser with the same thickness capacity, and handheld units cover field work. Avoid it for thin sheet and precision profiles, where laser is faster and cleaner, and for nonconductive materials. If the edge has to go into service as-cut with no heat-affected zone, use waterjet instead.
+
+## Key numbers
+
+Torch current 30–800 A, with 100–400 A covering most plate work · kerf 1.5–4 mm with a 1–5 degree bevel · tolerance ±0.5–1 mm, tightening to ±0.2–0.4 mm on high-definition systems · thickness 6–50 mm at production speeds · cut speed 1–6 m/min in 10 mm steel · electrodes and nozzles last a few hours of arc-on time.
 
 ## Examples
 

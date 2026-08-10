@@ -20,6 +20,10 @@ Improves appearance, friction, cleanliness, and coating performance. Can be labo
 
 Pick polishing and buffing when you need cosmetic or functional surface quality rather than dimensional control: mirror trim, cookware, mold cavities that must release cleanly, and surfaces being prepared for plating. Budget real labor hours unless volume justifies robotic cells, or the parts are small enough for mass finishing. Avoid it on tight-tolerance features and crisp edges, because it rounds them. If you need to finish internal passages or large batches of stainless parts, electropolishing does the same job chemically. If you just need bulk deburring, vibratory finishing is much cheaper.
 
+## Key numbers
+
+Mirror finishes of SPI A-1 to A-3, roughly 0.012–0.1 µm Ra · abrasive progression from about 120 grit to 3,000 grit, then compounds · removes only a few micrometers of material · hand work runs minutes to tens of minutes per part · hand polishing stays cheaper below roughly a few thousand parts a year, robotic cells above that.
+
 ## Examples
 
 Medical tools, cookware, molds, automotive trim.

@@ -19,6 +19,9 @@ COMINT is passive and gives insight into intent and organization that no other s
 ## When to use
 Tactical COMINT is worth deploying wherever an opponent uses radio: it supports targeting through geolocation, provides warning, and reveals unit boundaries and command relationships. The Ukraine conflict has shown how much can be derived from undisciplined use of unencrypted or commercially encrypted radios and phones. If the opponent has good communications security discipline and uses low-probability-of-intercept datalinks, expect little content and plan around metadata and geolocation instead. Cheap software-defined receivers make basic tactical collection accessible to almost anyone now.
 
+## Key numbers
+Tactical VHF and UHF intercept range roughly 30–50 km from a ground mast, several hundred kilometers from an aircraft, intercontinental on HF skywave · direction-finding accuracy typically 2–5° RMS, giving fixes of hundreds of meters to a few kilometers · frequency coverage typically 20 MHz to 6 GHz on tactical systems · wideband software-defined receiver hardware from a few thousand dollars.
+
 ## How it is defeated
 Communications security discipline, strong encryption, frequency hopping, and directional or low-probability-of-intercept links defeat most of it. Radio silence defeats all of it. Traffic padding and dummy transmissions frustrate traffic analysis. At the tactical level, using wired links and couriers instead of radio is a low-technology counter that continues to work well against a technically superior opponent.
 
@@ -27,6 +30,11 @@ National agency collection systems, tactical ground stations like the US Army's 
 
 ## Economic profile
 Software-defined radio has commoditized the collection hardware — a capable wideband receiver now costs a few thousand dollars — which has pushed collection capability far down the sophistication ladder and into non-state hands. The remaining barriers are processing at scale, language and analytic capacity, and legal authority. Value in this discipline has moved almost entirely to the software and analytic layer, and commercial vendors selling collection and analysis tools have become a policy concern in their own right.
+
+## Videos
+
+- https://www.youtube.com/watch?v=uo-FVllj7yo — SIGINT (Explained Simply) (Matt Luskus, 6 minutes, 5k+ views)
+- https://www.youtube.com/watch?v=OcF1MNCpfac — Intercept Radio Signals For Intelligence Gathering With An RTL SDR (Tech Minds, 11 minutes, 100k+ views)
 
 ## Further reading
 

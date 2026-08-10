@@ -18,7 +18,11 @@ Cuts nearly any material and avoids heat-affected zones. Slower than laser on th
 
 ## When to use
 
-Use waterjet when the part can't take heat or the material can't be cut thermally: titanium and hardened plate up to 150-200 mm, composites and laminates that delaminate under a laser, glass, stone, and pre-hardened parts that you need to cut without tempering the edge. Expect roughly plus or minus 0.1-0.25 mm, a 1 mm kerf, and some edge taper unless the machine compensates for it. For thin mild steel and stainless at volume, laser cutting is several times faster and cheaper. For fine features and tight tolerances in conductive metals, use wire EDM instead.
+Use waterjet when the part can't take heat or the material can't be cut thermally: titanium and hardened plate up to 150–200 mm, composites and laminates that delaminate under a laser, glass, stone, and pre-hardened parts that you need to cut without tempering the edge. Expect roughly ±0.1–0.25 mm, a 1 mm kerf, and some edge taper unless the machine compensates for it. For thin mild steel and stainless at volume, laser cutting is several times faster and cheaper. For fine features and tight tolerances in conductive metals, use wire EDM instead.
+
+## Key numbers
+
+Pump pressure 400–600 MPa (60,000–90,000 psi) · orifice 0.25–0.4 mm, giving a kerf near 1 mm · tolerance ±0.1–0.25 mm with some edge taper · cuts up to 150–200 mm thick in most materials · garnet consumption 0.2–0.7 kg per minute · cut edge roughly 3.2–6.3 µm Ra.
 
 ## Examples
 

@@ -19,6 +19,9 @@ Availability is the advantage and it is not trivial — every soldier has a weap
 ## When to use
 Small arms are the last-ditch layer, and units should be trained for it because they will use it whether trained or not. Shotguns with drone-specific ammunition at platoon level are a cheap and worthwhile addition to positions likely to face FPV attack. If anything else is available — jamming, a dedicated interceptor, cover — use that first. The most effective response to an FPV drone remains getting behind hard cover, and training should say so plainly rather than implying that shooting is a reliable answer.
 
+## Key numbers
+Shotgun effective envelope 50–100 m, rifles marginally further · a 30 cm target moving at 20 m/s at 150 m is a hard rifle shot even for a good marksman · one or two seconds of engagement time against a drone diving at 30 m/s · specialized ammunition a few dollars per round · missed rounds keep travelling, so the hazard footprint runs well past the target.
+
 ## Limits and failure modes
 Hit probability is low against anything but a slow or hovering target. Range is very short, so engagement happens inside the drone's attack window. Missed rounds create a hazard, and in built-up areas this can be worse than the drone. A drone attacking in a dive at 30 m/s allows only a second or two of engagement time. Night attacks make visual acquisition nearly impossible without thermal sights.
 
@@ -27,6 +30,11 @@ SkyNet and similar drone-defeat shotgun ammunition, the widespread issue of shot
 
 ## Economic profile
 This is the cheapest possible engagement and the least reliable, which is exactly the trade a defender accepts when nothing else is available. Specialized ammunition costs a few dollars per round. The broader lesson is that counter-drone capability has had to be pushed down to the individual soldier because dedicated systems cannot cover every position, and that has driven interest in cheap, distributed, simple solutions rather than in fewer sophisticated ones.
+
+## Videos
+
+- https://www.youtube.com/watch?v=mORdXxZ2uKU — World Champion Shotgun Shooter vs FPV Drones – You Won’t Believe the Ending! (Kim Leppänen | Mr Dronewall, 12 minutes, 1m+ views)
+- https://www.youtube.com/watch?v=vF2tnFC_q8A — FINALLY! ANTI-DRONE Shotgun Shells - Deploys NET! (TAOFLEDERMAUS, 14 minutes, 1m+ views)
 
 ## Further reading
 

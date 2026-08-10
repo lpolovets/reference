@@ -20,6 +20,10 @@ Produces strong low-distortion welds, especially in aluminum. Requires rigid fix
 
 FSW is the process of choice for long, straight or gently curved seams in aluminum plate and extrusions (battery trays, rail and ship panels, rocket tank barrels), including the 2xxx and 7xxx alloys fusion welding cannot handle. Distortion stays low enough to hold machining-grade flatness afterward. It needs rigid backing, clamping that can react large forces, and tool access along the whole seam. If the joints are complex and three-dimensional, or you are running thin sheet at high rate, use laser or resistance welding instead. Steel is still marginal for FSW because of tool wear.
 
+## Key numbers
+
+Single-pass thickness 1–25 mm in aluminum, more when welded from both sides · tool rotation 200–2,000 rpm at 0.5–3 m/min travel · axial force 5–50 kN, reacted through the fixture and backing bar · joint efficiency 70–90% of parent metal in 2xxx and 7xxx alloys · tool life hundreds to thousands of meters in aluminum and far less in steel · machines $250k–2m, or roughly $100k for a head on an existing machining center.
+
 ## Examples
 
 Aircraft panels, rocket tanks, railcars, ship panels, battery trays.
