@@ -1,0 +1,124 @@
+{
+  "slug": "hydrogen-and-efuels",
+  "docTitle": "Hydrogen and E-Fuels Reference",
+  "shortTitle": "Hydrogen and E-Fuels",
+  "blurb": "Making, moving, storing, and burning hydrogen — electrolyzers, reforming with and without carbon capture, ammonia and other carriers, synthetic fuels, and the industries that already buy 100 Mt a year.",
+  "category": "Energy",
+  "question": "Where does this hydrogen come from, and what does it cost delivered?",
+  "title": "Hydrogen and E-Fuels: A Practical Reference",
+  "lede": "The world already makes about 100 Mt of hydrogen a year, and less than 1% of it is low-carbon. Most is made from natural gas or coal inside the plant that consumes it. This guide catalogs {{N_ENTRIES}} technologies across seven classes, from electrolyzer stacks and reformers to ammonia carriers and the refineries, fertilizer plants, and steel mills that decide what any of it is worth.",
+  "unit": ["technology", "technologies"],
+  "groupLabel": "Class",
+  "explorerTab": "Hydrogen explorer",
+  "guideTab": "Selection guide",
+  "h2hTab": "Head-to-head",
+  "searchPlaceholder": "Search routes, carriers, end uses…",
+  "stats": [
+    { "count": "entries", "label": "technologies" },
+    { "count": "parts", "label": "classes" },
+    { "count": "groups", "label": "families" }
+  ],
+  "parts": [
+    { "id": 1, "roman": "I", "name": "Water Electrolysis", "blurb": "split water with electricity", "color": "var(--p1)" },
+    { "id": 2, "roman": "II", "name": "Reforming and Gasification", "blurb": "pull hydrogen out of methane, coal, and biomass", "color": "var(--p2)" },
+    { "id": 3, "roman": "III", "name": "Alternative Production", "blurb": "byproduct streams, solid carbon, and wells", "color": "var(--p3)" },
+    { "id": 4, "roman": "IV", "name": "Storage and Delivery", "blurb": "compress it, chill it, bury it, move it", "color": "var(--p4)" },
+    { "id": 5, "roman": "V", "name": "Carriers and Synthetic Fuels", "blurb": "hydrogen packed into shippable liquids", "color": "var(--p5)" },
+    { "id": 6, "roman": "VI", "name": "Industrial End Uses", "blurb": "the plants that buy hydrogen by the tonne", "color": "var(--p6)" },
+    { "id": 7, "roman": "VII", "name": "Transport and Power", "blurb": "engines, fuel cells, and turbines", "color": "var(--p7)" }
+  ],
+  "groupBlurbs": {
+    "Electrolysis": "split water with electricity, four stack types",
+    "Reforming": "steam and oxygen turn methane into hydrogen",
+    "Gasification": "hydrogen from solid feedstocks at high heat",
+    "Alternative sources": "byproduct streams, solid carbon, and wells",
+    "Conditioning and delivery": "get the molecule to the customer",
+    "Bulk storage": "where the inventory actually sits",
+    "Hydrogen carriers": "liquids that give the hydrogen back on arrival",
+    "Synthetic hydrocarbons": "drop-in fuels built from hydrogen and CO2",
+    "Existing demand": "the two sinks that take most of today's supply",
+    "New industrial demand": "iron ore and process heat, mostly unbuilt",
+    "Transport": "vehicles that carry their own hydrogen",
+    "Power": "turn hydrogen back into electricity"
+  },
+  "facets": [
+    {
+      "id": "sec",
+      "key": "sector",
+      "label": "Sector",
+      "type": "multi",
+      "color": "--fa",
+      "required": true,
+      "tagRow": 2,
+      "tip": "End markets the technology serves, supplies, or is mainly aimed at. Refining and Ammonia and chemicals are the two sinks that take most of today's 100 Mt · Steel and heat is the largest proposed new industrial demand · Vehicles and fleets covers trucks, buses, forklifts, and off-road · Export and trade means the technology exists to move energy between regions. Directional, not exhaustive.",
+      "order": ["ref", "chem", "steel", "veh", "mar", "pwr", "exp"],
+      "options": {
+        "ref": "Refining",
+        "chem": "Ammonia and chemicals",
+        "steel": "Steel and heat",
+        "veh": "Vehicles and fleets",
+        "mar": "Marine and aviation",
+        "pwr": "Power and grid",
+        "exp": "Export and trade"
+      }
+    },
+    {
+      "id": "frm",
+      "key": "form",
+      "label": "Form",
+      "type": "multi",
+      "color": "--fb",
+      "required": true,
+      "tip": "The state the hydrogen is in when this technology produces, handles, or consumes it. Pipeline gas covers roughly 1–100 bar, which is what electrolyzers, reformers, and industrial users work with · 350–700 bar is vehicle storage · Liquid H2 means cryogenic at -253 °C · Chemically bound means the hydrogen rides inside another molecule (ammonia, methanol, LOHC, a hydride, a synthetic hydrocarbon).",
+      "order": ["gas", "hp", "liq", "bound"],
+      "options": {
+        "gas": "Pipeline gas",
+        "hp": "350–700 bar",
+        "liq": "Liquid H2",
+        "bound": "Chemically bound"
+      }
+    },
+    {
+      "id": "co2",
+      "key": "carbon",
+      "label": "Carbon",
+      "type": "single",
+      "color": "--fc",
+      "tagPrefix": "CO2e/kg",
+      "tip": "Life-cycle carbon intensity of the hydrogen the route makes, in kg CO2e per kg of H2, counting upstream methane and the grid power used. Reference points: the EU's RFNBO ceiling is 3.38, the US 45V credit pays nothing above 4, unabated steam methane reforming runs 9–12, coal gasification 18–24, and electrolysis on an average grid lands near 19. Tagged on production routes only; storage, delivery, carriers, and end uses inherit whatever hydrogen you feed them.",
+      "order": ["zero", "low", "part", "high"],
+      "options": { "zero": "<1", "low": "1–4", "part": "4–10", "high": "10+" }
+    },
+    {
+      "id": "mtr",
+      "key": "maturity",
+      "label": "Maturity",
+      "type": "single",
+      "color": "--fd",
+      "required": true,
+      "tip": "Deployed at scale = megatonne- or gigawatt-class installed base earning money today · Commercial = bankable projects exist but the installed base is small · Pilot / early = demonstration plants and first-of-a-kind units · R&D = lab and startup stage with no commercial unit running.",
+      "order": ["mature", "comm", "pilot", "rd"],
+      "options": { "mature": "Deployed at scale", "comm": "Commercial", "pilot": "Pilot / early", "rd": "R&D" }
+    },
+    {
+      "id": "cst",
+      "key": "cost",
+      "label": "Cost",
+      "type": "single",
+      "color": "--fe",
+      "tagPrefix": "$/kg",
+      "tip": "Directional dollars per kg of hydrogen, in 2025 money. Production routes carry their cost at the plant gate. Storage and delivery steps carry the cost they add to a delivered kg. End uses carry the delivered price at which they beat the incumbent fuel or feedstock, so a high band on an end use means the application tolerates expensive hydrogen rather than that it is expensive.",
+      "order": ["vlow", "low", "med", "high"],
+      "options": { "vlow": "<$1", "low": "$1–3", "med": "$3–6", "high": "$6+" }
+    }
+  ],
+  "videosAfter": "Economic profile",
+  "extraSections": [
+    ["when to use", "When to use"],
+    ["key numbers", "Key numbers"],
+    ["energy and losses", "Energy and losses"],
+    ["examples", "Examples"],
+    ["economic profile", "Economic profile"],
+    ["further reading", "Further reading"]
+  ]
+}

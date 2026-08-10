@@ -1,0 +1,135 @@
+{
+  "slug": "bioprocessing",
+  "docTitle": "Bioprocessing Reference",
+  "shortTitle": "Bioprocessing",
+  "blurb": "Expression hosts, bioreactors, the downstream purification train, fill-finish and release testing, plus mRNA, viral vectors, cell therapy, and precision fermentation.",
+  "category": "Bioprocessing",
+  "question": "How should this biologic be manufactured?",
+  "title": "Bioprocessing: A Practical Reference",
+  "lede": "What a biologic costs is mostly settled in process development: which cell makes the molecule, how big the reactor has to be, and how much product survives each purification step. This guide catalogs {{N_ENTRIES}} processes across seven stages, from expression host to release testing, with the titers, step recoveries, batch sizes, and cost-of-goods numbers that decide between them.",
+  "unit": ["process", "processes"],
+  "groupLabel": "Stage",
+  "explorerTab": "Process explorer",
+  "guideTab": "Selection guide",
+  "h2hTab": "Head-to-head",
+  "searchPlaceholder": "Search hosts, unit operations, modalities…",
+  "stats": [
+    { "count": "entries", "label": "processes" },
+    { "count": "parts", "label": "stages" },
+    { "count": "groups", "label": "families" }
+  ],
+  "parts": [
+    { "id": 1, "roman": "I", "name": "Expression Hosts", "blurb": "the organism or system that makes the molecule", "color": "var(--p1)" },
+    { "id": 2, "roman": "II", "name": "Bioreactors and Culture Modes", "blurb": "the vessel, its scale, and how it is fed", "color": "var(--p2)" },
+    { "id": 3, "roman": "III", "name": "Harvest and Recovery", "blurb": "get the product away from cells and debris", "color": "var(--p3)" },
+    { "id": 4, "roman": "IV", "name": "Purification and Polishing", "blurb": "the columns that do most of the purifying", "color": "var(--p4)" },
+    { "id": 5, "roman": "V", "name": "Viral Safety and Drug Product", "blurb": "clear viruses, formulate, fill, and release", "color": "var(--p5)" },
+    { "id": 6, "roman": "VI", "name": "Nucleic Acids and Viral Vectors", "blurb": "plasmids, mRNA, lipid particles, and vectors", "color": "var(--p6)" },
+    { "id": 7, "roman": "VII", "name": "Cells, Food and Materials", "blurb": "living products and non-pharma fermentation", "color": "var(--p7)" }
+  ],
+  "groupBlurbs": {
+    "Microbial hosts": "bacteria, yeast, and fungi that grow fast and cheap",
+    "Animal-cell hosts": "mammalian and insect cells for complex proteins",
+    "Alternative hosts": "expression without a conventional fermentation",
+    "Bioreactor formats": "the vessel and what it costs to own and run",
+    "Culture modes": "how the reactor is fed and when it is harvested",
+    "Primary recovery": "separate product from cells, debris, and water",
+    "Chromatography": "columns that capture, polish, and concentrate",
+    "Viral safety and formulation": "clear adventitious virus, then make it stable",
+    "Fill-finish and quality": "fill the vial and prove the lot can be released",
+    "Nucleic acids": "plasmid, mRNA, and the particles that carry them",
+    "Viral vectors": "engineered viruses that deliver a gene",
+    "Cell therapy": "living cells as the finished product",
+    "Food and materials": "fermentation aimed at commodity price points"
+  },
+  "facets": [
+    {
+      "id": "prod",
+      "key": "products",
+      "label": "Product",
+      "type": "multi",
+      "color": "--fa",
+      "required": true,
+      "tagRow": 2,
+      "tip": "Product classes this host, unit operation, or platform is actually used for in production. Directional rather than exhaustive: most downstream steps can be adapted to anything, so the tags mark where each one is standard practice, not where it is physically possible.",
+      "order": ["protein", "vaccine", "nucleic", "vector", "cell", "indus"],
+      "options": {
+        "protein": "Proteins & mAbs",
+        "vaccine": "Vaccines",
+        "nucleic": "Nucleic acids",
+        "vector": "Viral vectors",
+        "cell": "Cells & tissue",
+        "indus": "Food & industrial"
+      }
+    },
+    {
+      "id": "scale",
+      "key": "scale",
+      "label": "Scale",
+      "type": "range",
+      "color": "--fb",
+      "required": true,
+      "tagPrefix": "Scale",
+      "tip": "Batch scale the process usually runs at, as bioreactor working volume or the equivalent downstream batch: Bench under 50 L · Pilot 50–500 L · Mid 500–2,000 L · Large 2,000–20,000 L · Bulk above 20,000 L or continuous. Autologous cell therapy stays at bench scale no matter how many patients are treated, because each patient is a batch.",
+      "order": ["bench", "pilot", "mid", "large", "bulk"],
+      "options": { "bench": "Bench", "pilot": "Pilot", "mid": "Mid", "large": "Large", "bulk": "Bulk" },
+      "chipLabels": {
+        "bench": "Bench <50 L",
+        "pilot": "Pilot 50-500 L",
+        "mid": "Mid 0.5-2 kL",
+        "large": "Large 2-20 kL",
+        "bulk": "Bulk 20 kL+"
+      }
+    },
+    {
+      "id": "cogs",
+      "key": "cogs",
+      "label": "COGS share",
+      "type": "single",
+      "color": "--fe",
+      "required": true,
+      "tagPrefix": "COGS",
+      "tip": "Roughly what share of the finished product's cost of goods this choice accounts for at commercial scale, counting consumables, labor, QC, and amortized facility. Directional: the split moves a long way with titer, batch size, and how much of the plant sits idle.",
+      "order": ["vlow", "low", "med", "high", "vhigh"],
+      "options": { "vlow": "<5%", "low": "5–15%", "med": "15–35%", "high": "35–60%", "vhigh": ">60%" }
+    },
+    {
+      "id": "mat",
+      "key": "maturity",
+      "label": "Maturity",
+      "type": "single",
+      "color": "--fc",
+      "required": true,
+      "tagPrefix": "Maturity",
+      "tip": "How settled the choice is in commercial manufacturing: Early = mostly research and pilot runs, no licensed product depends on it · Emerging = in clinical or early commercial use but not routine · Proven = licensed products depend on it today · Default = what a new program picks unless there is a specific reason not to.",
+      "order": ["early", "emerging", "proven", "default"],
+      "options": { "early": "Early", "emerging": "Emerging", "proven": "Proven", "default": "Default" }
+    },
+    {
+      "id": "reg",
+      "key": "regulatory",
+      "label": "Regulatory",
+      "type": "single",
+      "color": "--fd",
+      "required": true,
+      "tagPrefix": "Reg",
+      "tip": "How much regulatory and validation work the choice creates: Non-pharma = food, feed, or industrial rules and no GMP · Routine GMP = standard filings on a well-trodden path · Heavily validated = dedicated studies reviewers scrutinize, such as viral clearance, sterility assurance, and potency · Precedent-setting = guidance is still being written, so reviews take longer and outcomes are less predictable.",
+      "order": ["nonpharma", "routine", "validated", "novel"],
+      "options": {
+        "nonpharma": "Non-pharma",
+        "routine": "Routine GMP",
+        "validated": "Heavily validated",
+        "novel": "Precedent-setting"
+      }
+    }
+  ],
+  "videosAfter": "Economic profile",
+  "extraSections": [
+    ["when to use", "When to use"],
+    ["key numbers", "Key numbers"],
+    ["regulatory notes", "Regulatory notes"],
+    ["examples", "Examples"],
+    ["economic profile", "Economic profile"],
+    ["further reading", "Further reading"]
+  ]
+}

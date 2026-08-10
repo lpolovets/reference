@@ -1,0 +1,122 @@
+{
+  "slug": "semiconductor-manufacturing",
+  "docTitle": "Semiconductor Manufacturing Reference",
+  "shortTitle": "Semiconductor Manufacturing",
+  "blurb": "Wafers, lithography generations, transistor and memory architectures, compound semiconductors, advanced packaging, and test, with the tool costs and supply concentration that decide who can build what.",
+  "category": "Semiconductors",
+  "question": "How does this chip get made, and who can make it?",
+  "title": "Semiconductor Manufacturing: A Practical Reference",
+  "lede": "A leading-edge chip takes something like a thousand process steps, and the hardest ones run on tools that one or two companies in the world know how to build. This guide covers {{N_ENTRIES}} technologies across seven stages, from the bare wafer to the tested package, with the tool costs, node economics, and supply concentration that decide who gets to make what.",
+  "unit": ["technology", "technologies"],
+  "groupLabel": "Stage",
+  "explorerTab": "Technology explorer",
+  "guideTab": "Selection guide",
+  "h2hTab": "Head-to-head",
+  "searchPlaceholder": "Search nodes, tools, packages…",
+  "stats": [
+    { "count": "entries", "label": "technologies" },
+    { "count": "parts", "label": "stages" },
+    { "count": "groups", "label": "families" }
+  ],
+  "parts": [
+    { "id": 1, "roman": "I", "name": "Substrates & Wafers", "blurb": "the starting material every chip is built on", "color": "var(--p1)" },
+    { "id": 2, "roman": "II", "name": "Lithography Generations", "blurb": "the light that sets minimum feature size", "color": "var(--p2)" },
+    { "id": 3, "roman": "III", "name": "Deposition & Etch", "blurb": "the film and removal steps that gate scaling", "color": "var(--p3)" },
+    { "id": 4, "roman": "IV", "name": "Device Integration", "blurb": "how transistors and memory cells get built", "color": "var(--p4)" },
+    { "id": 5, "roman": "V", "name": "Compound Semiconductors", "blurb": "silicon carbide, gallium nitride, and III-V", "color": "var(--p5)" },
+    { "id": 6, "roman": "VI", "name": "Advanced Packaging", "blurb": "connect and stack dies into one product", "color": "var(--p6)" },
+    { "id": 7, "roman": "VII", "name": "Test, Metrology & Yield", "blurb": "find defects and prove each die works", "color": "var(--p7)" }
+  ],
+  "groupBlurbs": {
+    "Silicon substrates": "the wafers most chips start life on",
+    "Optical lithography": "pattern with deep-ultraviolet light and masks",
+    "EUV lithography": "13.5 nm light from a single supplier",
+    "Process modules": "the etch and metal steps that limit scaling",
+    "Logic transistors": "how the switch itself is built",
+    "Memory arrays": "stack bits vertically to keep cost falling",
+    "Wide-bandgap power": "switch high voltage with less loss than silicon",
+    "RF and photonic III-V": "compound chips for radios and light",
+    "Conventional packaging": "wire or bump one die onto a substrate",
+    "Heterogeneous integration": "combine dies into one high-bandwidth package",
+    "Test and metrology": "measure the process and sort the parts"
+  },
+  "facets": [
+    {
+      "id": "dev",
+      "key": "devices",
+      "label": "Device",
+      "type": "multi",
+      "color": "--fa",
+      "required": true,
+      "tagRow": 2,
+      "tip": "What the technology is mainly used to build. Directional rather than exhaustive: most front-end steps touch several device types, and the tag marks where the choice actually gets argued about.",
+      "order": ["logic", "memory", "power", "rf", "photonic", "analog"],
+      "options": {
+        "logic": "Logic & CPU/GPU",
+        "memory": "Memory",
+        "power": "Power devices",
+        "rf": "RF & wireless",
+        "photonic": "Photonics & optical",
+        "analog": "Analog, MEMS & sensors"
+      }
+    },
+    {
+      "id": "node",
+      "key": "node",
+      "label": "Node",
+      "type": "range",
+      "color": "--fb",
+      "required": true,
+      "tagPrefix": "Node",
+      "tip": "Process generations the technology is used at. Mature = 28 nm and above · Advanced = 16–7 nm · Leading = 5–3 nm · Frontier = 2 nm and below. Packaging and test entries carry the nodes of the dies they handle, and compound-semiconductor entries sit at Mature because those devices are built with 1990s-era lithography.",
+      "order": ["mature", "adv", "lead", "front"],
+      "options": { "mature": "Mature", "adv": "Advanced", "lead": "Leading", "front": "Frontier" },
+      "chipLabels": { "mature": "Mature (28 nm+)", "adv": "Advanced (16–7 nm)", "lead": "Leading (5–3 nm)", "front": "Frontier (2 nm and below)" }
+    },
+    {
+      "id": "waf",
+      "key": "wafer",
+      "label": "Wafer",
+      "type": "range",
+      "color": "--fc",
+      "tagPrefix": "Wafer",
+      "tip": "Substrate format the step runs on: Small = 150 mm and below · 200 mm · 300 mm · Panel = the rectangular formats used in packaging. Die cost scales with usable area per substrate, so a platform stuck on 150 mm pays several times more per mm² than one on 300 mm. Untagged where the step happens on singulated packages rather than a substrate.",
+      "order": ["small", "w200", "w300", "panel"],
+      "options": { "small": "Small", "w200": "200mm", "w300": "300mm", "panel": "Panel" },
+      "chipLabels": { "small": "150 mm and below", "w200": "200 mm", "w300": "300 mm", "panel": "Panel" }
+    },
+    {
+      "id": "tool",
+      "key": "toolcost",
+      "label": "Tool cost",
+      "type": "single",
+      "color": "--fd",
+      "required": true,
+      "tagPrefix": "Tool",
+      "tip": "List price of the most expensive single tool the capability requires: <$1M · $1–10M · $10–100M · $100–250M · $250M+. New Western list prices; used tools and Chinese-built equivalents run well below them, and a fab buys dozens to hundreds of each.",
+      "order": ["vlow", "low", "med", "high", "vhigh"],
+      "options": { "vlow": "<$1M", "low": "$1–10M", "med": "$10–100M", "high": "$100–250M", "vhigh": "$250M+" }
+    },
+    {
+      "id": "sup",
+      "key": "suppliers",
+      "label": "Suppliers",
+      "type": "single",
+      "color": "--fe",
+      "required": true,
+      "tagPrefix": "Supply",
+      "tip": "How many firms can supply the critical tool or material at production quality today: Sole source (1) · 2–3 firms · 4–8 firms · Many. This is the axis that decides who can be cut off, by an export-control regime or by a single fire at a single plant.",
+      "order": ["one", "duo", "few", "many"],
+      "options": { "one": "Sole source", "duo": "2–3 firms", "few": "4–8 firms", "many": "Many" }
+    }
+  ],
+  "videosAfter": "Economic profile",
+  "extraSections": [
+    ["when to use", "When to use"],
+    ["key numbers", "Key numbers"],
+    ["supply chain", "Supply chain"],
+    ["examples", "Examples"],
+    ["economic profile", "Economic profile"],
+    ["further reading", "Further reading"]
+  ]
+}

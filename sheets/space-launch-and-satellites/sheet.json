@@ -1,0 +1,144 @@
+{
+  "slug": "space-launch-and-satellites",
+  "docTitle": "Space Launch and Satellites Reference",
+  "shortTitle": "Space Launch and Satellites",
+  "blurb": "Launch vehicles from small lift to super heavy, the orbits worth flying, spacecraft buses, communications and sensing payloads, ground segment, and in-space logistics — compared on mass, cost, orbit, and maturity.",
+  "category": "Defense and Aerospace",
+  "question": "How does this get to orbit, and what does it cost once it is there?",
+  "title": "Space Launch and Satellites: A Practical Reference",
+  "lede": "Launch used to be the constraint. A kilogram to low Earth orbit now costs around $3,000 on a Falcon 9, several times less than a Western expendable rocket charged fifteen years ago, and the hard problems have moved to picking an orbit, building spacecraft at rate, and getting spectrum and ground time. This guide covers {{N_ENTRIES}} launch vehicles, orbits, spacecraft buses, payload types, ground systems, and in-space services, with the mass, cost, and maturity behind each choice.",
+  "unit": ["option", "options"],
+  "groupLabel": "Class",
+  "explorerTab": "Explorer",
+  "guideTab": "Selection guide",
+  "h2hTab": "Head-to-head",
+  "searchPlaceholder": "Search vehicles, orbits, buses, payloads…",
+  "stats": [
+    { "count": "entries", "label": "options" },
+    { "count": "parts", "label": "classes" },
+    { "count": "groups", "label": "families" }
+  ],
+  "parts": [
+    { "id": 1, "roman": "I", "name": "Launch vehicles", "blurb": "the ride up, from 300 kg to 100 tonnes", "color": "var(--p1)" },
+    { "id": 2, "roman": "II", "name": "Orbits and destinations", "blurb": "the choice that sets everything downstream", "color": "var(--p2)" },
+    { "id": 3, "roman": "III", "name": "Spacecraft buses", "blurb": "the platform that keeps a payload alive", "color": "var(--p3)" },
+    { "id": 4, "roman": "IV", "name": "Communications payloads", "blurb": "moving bits, the biggest business in space", "color": "var(--p4)" },
+    { "id": 5, "roman": "V", "name": "Sensing and PNT payloads", "blurb": "watching the ground and fixing position", "color": "var(--p5)" },
+    { "id": 6, "roman": "VI", "name": "Ground segment and space traffic", "blurb": "antennas, terminals, laser links, and tracking", "color": "var(--p6)" },
+    { "id": 7, "roman": "VII", "name": "In-space logistics and servicing", "blurb": "moving, refueling, fixing, and removing spacecraft", "color": "var(--p7)" }
+  ],
+  "groupBlurbs": {
+    "Small-payload access": "a few hundred kilograms up, cheaply",
+    "Medium and heavy lift": "tonnes to orbit on a proven vehicle",
+    "Super-heavy lift": "a hundred tonnes at a time, if it works",
+    "Low Earth orbits": "close in, cheap to reach, short-lived",
+    "Mid and high orbits": "fewer satellites, wider coverage, harder to reach",
+    "Beyond Earth orbit": "the Moon and past it, where nothing is routine",
+    "Small buses": "under half a tonne, delivered in months",
+    "Constellation buses": "spacecraft built on a line, not one at a time",
+    "Large platforms": "one big satellite, fifteen years of service",
+    "Broadband": "selling bandwidth to fixed and mobile users",
+    "Mobile and protected": "links to handsets, and links that survive jamming",
+    "Imaging": "pictures of the ground, day or night",
+    "RF and infrared": "finding emitters and hot objects from orbit",
+    "Navigation": "position and time as a public utility",
+    "Ground stations and terminals": "the antennas at both ends of the link",
+    "Links and traffic": "lasers between spacecraft, and avoiding collisions",
+    "Orbital transport": "moving payloads after the rocket lets go",
+    "Servicing": "extending and refueling what is already up",
+    "Disposal": "getting dead hardware out of the way"
+  },
+  "facets": [
+    {
+      "id": "orb",
+      "key": "orbits",
+      "label": "Orbit",
+      "type": "multi",
+      "color": "--fa",
+      "required": true,
+      "tagRow": 2,
+      "tip": "Where the option operates, serves, or delivers. LEO = 160–2,000 km, including very low orbits under 350 km · SSO = the sun-synchronous subset near 97–99° inclination that most imaging flies · MEO = 2,000–35,000 km, in practice 8,000 km and 20,200 km · GEO = the 35,786 km ring, and the transfer orbits that feed it · Beyond GEO = cislunar, Lagrange points, and escape · Ground = hardware or service that sits on the ground.",
+      "order": ["leo", "sso", "meo", "geo", "deep", "gnd"],
+      "options": {
+        "leo": "LEO",
+        "sso": "SSO",
+        "meo": "MEO",
+        "geo": "GEO",
+        "deep": "Beyond GEO",
+        "gnd": "Ground"
+      }
+    },
+    {
+      "id": "mass",
+      "key": "mass",
+      "label": "Mass",
+      "type": "range",
+      "color": "--fb",
+      "tagPrefix": "Mass",
+      "tip": "Mass class. For a launch vehicle this is payload delivered to low Earth orbit; for a bus, payload, or servicing vehicle it is spacecraft wet mass at launch. Options that span sizes carry a span. Untagged where mass is not the useful measure, which covers the orbits and most of the ground segment.",
+      "order": ["nano", "micro", "small", "med", "large", "heavy"],
+      "options": { "nano": "Nano", "micro": "Micro", "small": "Small", "med": "Medium", "large": "Large", "heavy": "Heavy" },
+      "chipLabels": {
+        "nano": "Nano (<10 kg)",
+        "micro": "Micro (10–100 kg)",
+        "small": "Small (100 kg–1 t)",
+        "med": "Medium (1–10 t)",
+        "large": "Large (10–50 t)",
+        "heavy": "Heavy (50 t+)"
+      }
+    },
+    {
+      "id": "buy",
+      "key": "buyer",
+      "label": "Buyer",
+      "type": "multi",
+      "color": "--fc",
+      "required": true,
+      "tip": "Who actually pays, listed only where that customer is a primary source of demand. Commercial = telecom, imagery, and consumer services sold on the open market · Civil = government agencies buying operational services such as weather, aviation, and disaster response · Science = research missions and exploration programs · Defense & intel = military and intelligence buyers, who pay more for hardening, schedule, and control.",
+      "order": ["com", "civ", "sci", "def"],
+      "options": {
+        "com": "Commercial",
+        "civ": "Civil",
+        "sci": "Science",
+        "def": "Defense & intel"
+      }
+    },
+    {
+      "id": "mtr",
+      "key": "maturity",
+      "label": "Maturity",
+      "type": "single",
+      "color": "--fd",
+      "required": true,
+      "tip": "How settled the option is as a purchase. Routine = many units flying and usually several suppliers, so buying it is a catalog decision · In service = operational, but with one dominant supplier or a thin track record · Emerging = first units flying or first missions under contract · Development = funded and building, nothing operational yet.",
+      "order": ["routine", "service", "emerging", "dev"],
+      "options": {
+        "routine": "Routine",
+        "service": "In service",
+        "emerging": "Emerging",
+        "dev": "Development"
+      }
+    },
+    {
+      "id": "cost",
+      "key": "cost",
+      "label": "Cost",
+      "type": "single",
+      "color": "--fe",
+      "required": true,
+      "tagPrefix": "Cost",
+      "tip": "Directional cost to field one unit: one launch, one spacecraft, one terminal, one servicing mission. For an orbit it is the all-in cost of putting one useful operational spacecraft there, launch included. Constellation and program totals run far higher and are given in the entries instead.",
+      "order": ["vlow", "low", "med", "high", "vhigh"],
+      "options": { "vlow": "<$1M", "low": "$1–10M", "med": "$10–100M", "high": "$100M–1B", "vhigh": "$1B+" }
+    }
+  ],
+  "videosAfter": "Economic profile",
+  "extraSections": [
+    ["when to use", "When to use"],
+    ["key numbers", "Key numbers"],
+    ["regulatory and spectrum", "Regulatory and spectrum"],
+    ["examples", "Examples"],
+    ["economic profile", "Economic profile"],
+    ["further reading", "Further reading"]
+  ]
+}

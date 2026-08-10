@@ -1,0 +1,40 @@
+---
+number: 28
+name: Space situational awareness
+part: 6
+group: Links and traffic
+orbits: [leo, meo, geo, gnd]
+buyer: [com, civ, def]
+maturity: service
+cost: low
+---
+
+## Description
+Space situational awareness is the business of knowing where every object in orbit is, predicting where it will be, and telling operators when two of them are going to get close. Radars track low orbits and optical telescopes track high ones, the observations are fitted into orbits, and the resulting catalog is propagated forward and screened for close approaches. ESA counted 46,180 tracked objects and more than 17,000 tonnes of material in orbit as of 31 July 2026, of which roughly 16,000 are working satellites out of about 27,500 ever placed there; statistical models put the untracked population at around 54,000 objects larger than 10 cm, 1.2 million between 1 and 10 cm, and 140 million from 1 mm to 1 cm. The operational product is not the catalog but the conjunction warning, and the thing that makes it hard is uncertainty rather than detection. Three days out, an object's along-track position is known to hundreds of metres at best, so the screening question is never "will they hit" but "is the probability high enough to spend propellant and interrupt service", and most maneuvers are made against uncertainty rather than against a known collision.
+
+## Strengths and weaknesses
+The system works well enough that catastrophic collisions remain rare despite a fleet that has roughly tripled in a decade, and improvements are cheap relative to what they protect: better sensors shrink the covariance, and a smaller covariance directly means fewer maneuvers, more service uptime, and less propellant burned. The weakness is that the whole thing is advisory. Screening tells two operators they have a problem; nothing tells either of them who moves. Coordination happens by email, phone call, and bilateral agreement, and it fails exactly when it matters most, which is when one of the two objects is dead and cannot move at all. Roughly half of the tracked population is debris that nobody controls, so a warning about it is only actionable for the other party. The second weakness is data quality: the public catalog is deliberately imprecise for some objects, operators know their own satellites far better than any external tracker does, and reconciling those two views is a standing source of false alarms and missed ones.
+
+## When to use
+Everyone flying anything needs conjunction screening, so the real decision is how much to buy beyond the free government service. Take the public catalog and the standard conjunction messages as a baseline. Pay for a commercial provider when one of three conditions holds: you fly enough satellites that maneuver decisions are a real operating cost and tighter covariances save you propellant and downtime, you operate somewhere the public catalog is thin, such as geostationary or very low orbits where objects decay quickly, or you need to know when another spacecraft maneuvers rather than only where it was. If you run a large constellation, build automated screening and maneuver planning into the operations system from the beginning, because the maneuver rate grows faster than the fleet does and manual handling stops scaling early. And if you are relying on a warning to save you, remember that no warning exists for the 1.2 million objects between 1 and 10 cm, which are large enough to destroy a satellite and too small to track.
+
+## Key numbers
+46,180 tracked objects and more than 17,000 tonnes of material in orbit as of 31 July 2026 · about 16,000 working satellites out of roughly 27,500 ever placed in orbit · modelled populations of 54,000 objects above 10 cm, 1.2 million from 1–10 cm, and 140 million from 1 mm to 1 cm · positional uncertainty of hundreds of metres three days ahead, which is what forces a maneuver · relative velocities around 10 km/s in a low-orbit conjunction · roughly 300,000 Starlink collision-avoidance maneuvers reported across 2025.
+
+## Regulatory and spectrum
+There is no space traffic authority, and that is the central regulatory fact about this category. National licensing does part of the job: the FCC requires an orbital debris mitigation plan and a demonstrated collision-avoidance capability before it will authorize a US system, and other regulators have similar conditions, but those are conditions on a license rather than rules of the road, and they bind only the operators each regulator licenses. The UN guidelines on long-term sustainability are voluntary. Tracking data itself comes with strings: the US public catalog is published by the Space Force on space-track.org, higher-accuracy data requires a sharing agreement, and some objects are deliberately withheld or degraded for national security reasons, so the free data is not the best data. The US attempt to move civil space traffic coordination out of the military into the Commerce Department produced TraCSS, which reached initial operating capability and then had its funding proposed for cancellation in the fiscal 2026 budget request on the argument that commercial providers could do the job. Whether a neutral civil coordinator exists is still unsettled, and it matters because the alternative is the largest operator's own system becoming the de facto standard.
+
+## Examples
+The US Space Surveillance Network combines radars including the S-band Space Fence at Kwajalein with the GEODSS optical telescopes for high orbits, and its 19th Space Defense Squadron issues the conjunction messages most of the world's operators act on. Commercially, LeoLabs runs a network of phased-array radars sized for low orbit, Slingshot Aerospace and ExoAnalytic Solutions operate global optical telescope networks that watch geostationary objects, and COMSPOC sells the astrodynamics software behind many of these catalogs. Operators have started building their own: SpaceX unveiled a tracking system of its own in January 2026 and signed a cooperative agreement with NOAA on automated collision avoidance. The events that shaped the field are the 2007 Chinese anti-satellite test, the 2009 Iridium 33 and Cosmos 2251 collision, and the 2021 Russian anti-satellite test against Cosmos 1408, each of which added thousands of tracked fragments.
+
+## Economic profile
+The hard part of this business is that the baseline product is free. A government funds the sensors, publishes a catalog, and issues warnings at no charge, which caps what anyone can charge for the same thing. Commercial providers therefore sell the margin above it: tighter covariances, faster revisit on a specific object, custody of maneuvering spacecraft, coverage where the public catalog is weak, and analytics that turn conjunction messages into maneuver decisions. The customers who actually pay are defense and intelligence agencies, large constellation operators for whom avoided maneuvers have a measurable cost, and insurers and regulators at the margin. Sensor hardware is no longer the barrier, since a phased-array radar site costs a few million dollars and a telescope network far less, so the durable asset is the catalog history and the software that maintains it. The unsolved commercial problem is the same as the unsolved policy problem: everyone benefits from a well-maintained shared picture, nobody's individual business case justifies paying for all of it, and if public funding for a neutral system goes away the picture ends up owned by whoever flies the most satellites.
+
+## Videos
+
+- https://www.youtube.com/watch?v=JOo3hgJcNyg — Dodging debris to keep satellites safe (European Space Agency, ESA, 2 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=9joArH-xnkA — DARPA's Space Surveillance Telescope: What It Does (DARPAtv, 4 minutes, 10k+ views)
+
+## Further reading
+
+[NASA Spacecraft Conjunction Assessment and Collision Avoidance Best Practices Handbook (NASA)](https://ntrs.nasa.gov/citations/20230002470) · [Space Situational Awareness: DOD Should Evaluate How It Can Use Commercial Data (GAO)](https://www.gao.gov/products/gao-23-105565)

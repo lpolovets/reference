@@ -1,0 +1,122 @@
+{
+  "slug": "power-generation",
+  "docTitle": "Power Generation Reference",
+  "shortTitle": "Power Generation",
+  "blurb": "How electricity actually gets made (solar cells, wind, hydro, geothermal, gas turbines, coal, fuel cells), compared on cost, capacity factor, dispatchability, and build time.",
+  "category": "Energy",
+  "question": "What should generate this electricity?",
+  "title": "Power Generation: A Practical Reference",
+  "lede": "The cheapest ways to make electricity are mostly the ones you can't turn on when you want them, and that trade decides most generation projects. This guide catalogs {{N_ENTRIES}} technologies across seven classes, from silicon solar cells to hydrogen-fired turbines, with the cost, capacity factor, and build-time numbers a project actually buys on.",
+  "unit": ["technology", "technologies"],
+  "groupLabel": "Class",
+  "explorerTab": "Technology explorer",
+  "guideTab": "Selection guide",
+  "h2hTab": "Head-to-head",
+  "searchPlaceholder": "Search technologies, fuels, trade-offs…",
+  "stats": [
+    { "count": "entries", "label": "technologies" },
+    { "count": "parts", "label": "classes" },
+    { "count": "groups", "label": "families" }
+  ],
+  "parts": [
+    { "id": 1, "roman": "I", "name": "Photovoltaics", "blurb": "silicon and thin-film cells, the cheapest new build", "color": "var(--p1)" },
+    { "id": 2, "roman": "II", "name": "Wind", "blurb": "rotors on land, in shallow water, and afloat", "color": "var(--p2)" },
+    { "id": 3, "roman": "III", "name": "Hydro & Marine", "blurb": "moving water, from dams to tidal turbines", "color": "var(--p3)" },
+    { "id": 4, "roman": "IV", "name": "Geothermal & Concentrating Solar", "blurb": "renewable heat run through a steam cycle", "color": "var(--p4)" },
+    { "id": 5, "roman": "V", "name": "Gas Turbines", "blurb": "the flexible fleet most grids lean on", "color": "var(--p5)" },
+    { "id": 6, "roman": "VI", "name": "Solid Fuel & Nuclear", "blurb": "boilers and reactors built for steady output", "color": "var(--p6)" },
+    { "id": 7, "roman": "VII", "name": "Distributed Generation", "blurb": "power made where it is used", "color": "var(--p7)" }
+  ],
+  "groupBlurbs": {
+    "Crystalline silicon": "the wafer cells behind almost all solar output",
+    "Thin film and emerging": "cells that skip silicon or sit on top of it",
+    "Onshore wind": "the cheapest renewable after solar in windy places",
+    "Offshore wind": "bigger rotors, better wind, much higher capex",
+    "Hydropower": "the original dispatchable renewable",
+    "Marine energy": "tides and waves, still pre-commercial",
+    "Geothermal": "heat from the ground, running around the clock",
+    "Concentrating solar": "mirrors, molten salt, and a steam turbine",
+    "Gas turbines": "the fleet that follows load and covers peaks",
+    "Low-carbon gas": "hydrogen and carbon capture on gas turbines",
+    "Combustion steam": "burn a solid fuel, raise steam, turn a turbine",
+    "Nuclear": "firm clean power, covered on its own sheet",
+    "Distributed renewables": "generation on the customer's roof or land",
+    "On-site generators": "engines and fuel cells behind the meter"
+  },
+  "facets": [
+    {
+      "id": "disp",
+      "key": "dispatch",
+      "label": "Dispatch",
+      "type": "single",
+      "color": "--fa",
+      "required": true,
+      "tip": "How much control an operator has over output, which is this sheet's organizing axis. Variable = the resource sets output (sun, wind, waves, an unregulated river). Baseload = ramps slowly and is economically must-run once started. Dispatchable = follows load over minutes to hours. Fast-start = synchronized and at full load in about ten minutes or less.",
+      "order": ["var", "base", "disp", "fast"],
+      "options": {
+        "var": "Variable",
+        "base": "Baseload",
+        "disp": "Dispatchable",
+        "fast": "Fast-start"
+      }
+    },
+    {
+      "id": "lcoe",
+      "key": "lcoe",
+      "label": "LCOE",
+      "type": "single",
+      "color": "--fe",
+      "required": true,
+      "tagPrefix": "$/MWh",
+      "tip": "Unsubsidized levelized cost of electricity for a new build at a reasonable site, in $/MWh. Anchored on Lazard's June 2025 US ranges where they exist (utility solar $38–78, onshore wind $37–86, geothermal $66–109, combined-cycle gas $48–109, coal $71–173, nuclear $141–220, gas peaking $149–251) and on project data elsewhere. LCOE ignores when the power arrives, so read it next to the dispatch tag.",
+      "order": ["vlow", "low", "med", "high"],
+      "options": { "vlow": "<$50", "low": "$50–100", "med": "$100–200", "high": "$200+" }
+    },
+    {
+      "id": "cf",
+      "key": "cf",
+      "label": "Cap. factor",
+      "type": "single",
+      "color": "--fb",
+      "required": true,
+      "tagPrefix": "CF",
+      "tip": "Share of the year the plant delivers its rated output, at a good site in a typical market. US 2025 fleet averages: utility solar 24%, wind 34%, coal 49%, combined-cycle gas 58%, nuclear 91%. A low band is not always a weakness, since peakers are built to run 5–15% of the year.",
+      "order": ["low", "med", "high", "vhigh"],
+      "options": { "low": "<25%", "med": "25–50%", "high": "50–80%", "vhigh": "80%+" }
+    },
+    {
+      "id": "capex",
+      "key": "capex",
+      "label": "Capex",
+      "type": "single",
+      "color": "--fc",
+      "required": true,
+      "tagPrefix": "$/kW",
+      "tip": "Overnight capital cost per kW of rated capacity for a new project, excluding interest during construction. Directional, and first-of-a-kind projects routinely land 2–3× above the band. Gas figures reflect 2026 pricing rather than the pre-2022 numbers still quoted in older models.",
+      "order": ["low", "med", "high", "vhigh"],
+      "options": { "low": "<$1.5k", "med": "$1.5–3k", "high": "$3–7k", "vhigh": "$7k+" }
+    },
+    {
+      "id": "build",
+      "key": "build",
+      "label": "Build time",
+      "type": "single",
+      "color": "--fd",
+      "required": true,
+      "tagPrefix": "Build",
+      "tagRow": 2,
+      "tip": "Time from notice to proceed to commercial operation for a typical project. It excludes permitting, equipment lead time, and the interconnection queue, which now runs a US median above five years on its own. Lazard's 2025 construction assumptions: utility solar 15 months, onshore wind 18, offshore wind 24, gas 24, geothermal 36, coal 60–66, nuclear 84.",
+      "order": ["fast", "med", "slow", "vslow"],
+      "options": { "fast": "<1 yr", "med": "1–3 yr", "slow": "3–6 yr", "vslow": "6 yr+" }
+    }
+  ],
+  "videosAfter": "Economic profile",
+  "extraSections": [
+    ["when to use", "When to use"],
+    ["key numbers", "Key numbers"],
+    ["grid integration", "Grid integration"],
+    ["examples", "Examples"],
+    ["economic profile", "Economic profile"],
+    ["further reading", "Further reading"]
+  ]
+}

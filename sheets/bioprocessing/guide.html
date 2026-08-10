@@ -1,0 +1,121 @@
+    <h2>How to choose a bioprocess</h2>
+    <p class="muted">A bioprocess is a chain of decisions that mostly get locked in early and stay locked for the life of the product. The molecule narrows the choice of host, the host sets the titer and the impurity profile, the titer sets how big the plant has to be, and the impurity profile sets how many purification steps the product has to survive. Everything after that is arithmetic. The two numbers that decide whether the arithmetic works are batch scale and cost of goods per gram, and they pull against each other more often than people expect.</p>
+
+    <h3>Engineering factors</h3>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Factor</th><th>Why it matters</th></tr></thead>
+      <tbody>
+        <tr><td>Expression host</td><td>Sets titer, folding, glycosylation, and whether the product is secreted or trapped in inclusion bodies. Host choice eliminates more options than any other single decision, and it usually happens before anyone has costed the process.</td></tr>
+        <tr><td>Titer</td><td>Grams of product per liter of harvested culture. CHO fed-batch runs 3–8 g/L, yeast secretion 5–20 g/L, filamentous fungi 30–100 g/L, and viral vectors are measured in particles rather than grams. Titer decides reactor size for a given batch mass.</td></tr>
+        <tr><td>Post-translational modification</td><td>Glycosylation, disulfide bonds, and gamma-carboxylation are not optional for many products. E. coli does none of them, yeast hyperglycosylates unless engineered, and CHO gets close enough to human that it became the default.</td></tr>
+        <tr><td>Step recovery</td><td>Downstream yields multiply. Eight steps at 90% each leave 43% of what you started with. A well-run antibody train recovers 65–80% from harvest to bulk; vector and cell-therapy processes often recover 10–30%.</td></tr>
+        <tr><td>Oxygen transfer and mixing</td><td>Both get worse as vessels grow, because surface area rises more slowly than volume. A process that works in a 2 L glass reactor can fail at 2,000 L on oxygen transfer, mixing time, or dissolved CO&#8322; stripping alone.</td></tr>
+        <tr><td>Culture mode</td><td>Fed-batch gives one harvest every 12–18 days. Perfusion holds 50–150 million cells/mL for 30–60 days and produces continuously, but it consumes roughly a reactor volume of medium a day and depends on a cell-retention device that has to keep working the whole run.</td></tr>
+        <tr><td>Impurity profile</td><td>Host cell protein, host DNA, aggregates, endotoxin, and leached ligand are what the polishing steps exist to remove. Regulators expect host cell protein down to single-digit parts per million, and the upstream choice decides how hard that is.</td></tr>
+        <tr><td>Viral safety</td><td>Any process using mammalian cells has to demonstrate clearance of adventitious virus, conventionally 12 or more logs across orthogonal steps. Microbial, plant, and cell-free processes skip this, which removes steps, validation studies, and review risk.</td></tr>
+        <tr><td>Product stability</td><td>Aggregation, deamidation, and oxidation decide whether the product ships as a liquid or has to be lyophilized, and whether the cold chain runs at 2–8&nbsp;°C or -70&nbsp;°C. That decision changes drug-product cost and distribution more than it changes the science.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h3>Economic and strategic factors</h3>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Factor</th><th>Why it matters</th></tr></thead>
+      <tbody>
+        <tr><td>Cost of goods per gram</td><td>The headline number for protein products. Monoclonal antibody drug substance runs roughly $50–150/g at commercial scale and has plateaued near $50–100/g for a decade. The Gates Foundation has run a challenge aimed at $10/g, which is a useful marker for how much of the current number is physics and how much is habit.</td></tr>
+        <tr><td>Batch mass and batch count</td><td>A 2,000 L run at 5 g/L makes about 10 kg of antibody in the harvest, and 7 kg of drug substance after a 70% downstream recovery. Divide annual demand by that and you get batch count, which is what actually sizes the plant and the QC lab.</td></tr>
+        <tr><td>Facility capex and utilization</td><td>Large stainless-steel drug-substance plants have cost $500M–2B to build. Single-use facilities cost far less up front and more per batch. Either way, underutilized capacity is the most common way bioprocess economics break, because depreciation does not care how many batches you ran.</td></tr>
+        <tr><td>Consumables versus depreciation</td><td>Single-use shifts cost from a fixed asset to a per-batch line item (tens of thousands of dollars of bags, filters, and tubing per 2,000 L batch) and cuts changeover from weeks to days. Whether that is a good trade depends almost entirely on how many batches a year the plant runs.</td></tr>
+        <tr><td>Resin and ligand amortization</td><td>Protein A resin costs roughly $8,000–15,000 per liter and survives 100–300 cycles. Running a column 30 times before a product change versus 200 times moves the capture step's cost per gram by several-fold, which is the entire argument for continuous chromatography.</td></tr>
+        <tr><td>Analytics and release testing</td><td>QC is often 10–25% of a biologic's cost of goods, and proportionally worse for cell therapy, where the product can expire before sterility testing finishes. Assay development and comparability data are a real line item, not overhead.</td></tr>
+        <tr><td>Comparability lock-in</td><td>Any change to cell line, scale, site, or purification after pivotal trials requires a comparability package, which can take 6–12 months. Processes therefore get frozen years before commercial demand is known, and the frozen version is often the one that was fastest to the clinic rather than the cheapest to run.</td></tr>
+        <tr><td>Build versus CDMO</td><td>Building a plant costs years and hundreds of millions. Buying CDMO slots costs a premium per gram and gives up control of scheduling, which becomes the binding constraint the moment a product succeeds faster than forecast.</td></tr>
+        <tr><td>Single-source inputs</td><td>Protein A resin, single-use film, ionizable lipids, cap analogs, GMP plasmid, and growth factors have each been a supply chokepoint in the last decade. Any of them can stop a plant that is otherwise fully qualified.</td></tr>
+        <tr><td>Regulatory burden as cost</td><td>Viral clearance validation, sterility assurance, and potency assays are not paperwork; they are studies, batches, and calendar time. A process that avoids a whole category of them (no mammalian cells, no sterile fill) is structurally cheaper before any equipment is chosen.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h3>Typical titers</h3>
+    <div class="bands">
+      <div class="band"><div class="bt">Filamentous fungi</div><div class="bv">30–100 g/L secreted protein, the highest titers in the industry, on cheap medium</div></div>
+      <div class="band"><div class="bt">Yeast (Pichia)</div><div class="bv">5–20 g/L secreted, defined medium, no viral safety burden</div></div>
+      <div class="band"><div class="bt">E. coli</div><div class="bv">2–10 g/L as inclusion bodies; far less soluble or secreted, and refolding recovers only 15–40%</div></div>
+      <div class="band"><div class="bt">CHO fed-batch</div><div class="bv">3–8 g/L over 12–18 days, occasionally above 10</div></div>
+      <div class="band"><div class="bt">Viral vectors</div><div class="bv">counted as particles, not grams: an AAV suspension process yields on the order of 10&#185;&#8308;–10&#185;&#8309; vector genomes per liter</div></div>
+    </div>
+
+    <h3>Cost of goods, per gram of purified product</h3>
+    <div class="bands">
+      <div class="band"><div class="bt">Under $1/g</div><div class="bv">Industrial enzymes and fermentation-derived food protein, where the target is set by a commodity</div></div>
+      <div class="band"><div class="bt">$10–100/g</div><div class="bv">Microbial recombinant proteins and mRNA drug substance</div></div>
+      <div class="band"><div class="bt">$50–150/g</div><div class="bv">Monoclonal antibody drug substance at commercial scale</div></div>
+      <div class="band"><div class="bt">$1,000/g and up</div><div class="bv">GMP plasmid DNA and small-batch biologics</div></div>
+      <div class="band"><div class="bt">Above $10,000/g</div><div class="bv">Viral vectors and autologous cell therapy, which are better quoted per dose at $30,000–100,000</div></div>
+    </div>
+
+    <h3>Where the money goes in an antibody batch</h3>
+    <div class="bands">
+      <div class="band"><div class="bt">Upstream</div><div class="bv">35–50%: medium and feeds, reactor time, and the facility overhead that goes with both</div></div>
+      <div class="band"><div class="bt">Capture</div><div class="bv">10–20%: mostly Protein A resin amortization, which depends on cycle count</div></div>
+      <div class="band"><div class="bt">Polishing and viral safety</div><div class="bv">10–15%: resins, virus filters, buffers, and buffer preparation</div></div>
+      <div class="band"><div class="bt">Drug product</div><div class="bv">15–25%: formulation, aseptic fill, lyophilization if the molecule needs it</div></div>
+      <div class="band"><div class="bt">QC and release</div><div class="bv">10–25%: assays, stability, and the people who run them</div></div>
+    </div>
+    <p class="muted">Treat these splits as directional. They shift substantially with titer, batch size, and utilization, and a plant running at 30% of capacity has a completely different-looking breakdown because depreciation swamps everything else.</p>
+
+    <h2>Why titer stopped being the bottleneck</h2>
+    <p>CHO antibody titers rose from roughly 0.05 g/L in the late 1980s to 3–8 g/L today, a hundredfold improvement achieved through cell line engineering, chemically defined media, and feed strategy rather than through any change in the reactor. The consequence is that mammalian drug-substance capacity mostly stopped being scarce. A 2,000 L single-use reactor now produces what a 20,000 L stainless vessel produced in 1995, which is why plants got smaller and why so much of the industry's 10,000 L-and-up capacity is underused. The cost did not disappear; it moved. Downstream consumables, aseptic fill-finish slots, QC and analytics, and the fixed cost of a validated facility are now the larger share, and none of them improve when titer improves. This is the main reason a further doubling of titer buys much less than the last one did, and why the interesting cost work has moved to continuous chromatography, resin reuse, and reducing the number of steps rather than to making cells produce more.</p>
+
+    <h2>The modalities that broke the platform</h2>
+    <p>Antibodies have a manufacturing platform: CHO fed-batch, Protein A capture, two polishing steps, low-pH hold and a virus filter, then UF/DF and fill. A new antibody can enter that platform with a few months of process development and a cost of goods you can predict before you have made any. Nothing else has one. Viral vector processes lose most of their material and produce mostly empty capsids, typically 10–30% full from a triple transfection. Autologous cell therapy has a batch size of one patient, so unit costs do not fall with volume the way every other manufacturing curve does, and reported cost of goods per dose sits at $30,000–100,000. mRNA is cheaper per gram than either, but a large fraction of its drug-substance cost is a handful of reagents (nucleotides, enzymes, cap analog) sold by very few suppliers. That is why gene therapies price at $2M–4M a dose and why most process-development spending in the industry is now aimed at these modalities rather than at proteins. Anyone claiming a platform for them is claiming the thing that made antibodies cheap, and it is worth checking how many products have actually gone through it unchanged.</p>
+
+    <h2>Core takeaway</h2>
+    <div class="callout">
+      <p>Most of a biologic's cost of goods is fixed by three early decisions: the host, the titer it reaches, and how many purification steps the product has to survive. Evaluate any process by multiplying the step recoveries end to end, dividing annual demand by batch mass to get a batch count, and then asking what fraction of the plant sits idle at that batch count. A process that looks cheap per gram at full utilization is frequently the most expensive thing a company owns at 30%. And treat the regulatory burden as a cost line rather than a compliance line, because viral clearance validation, sterility assurance, and comparability studies are measured in batches and quarters.</p>
+    </div>
+
+    <h3>Key questions for engineering decisions</h3>
+    <ul class="qlist">
+      <li>What is the titer at the scale you will actually run, and does it hold after the process is locked for comparability?</li>
+      <li>What is the recovery of every downstream step, and what do they multiply to from harvest to bulk?</li>
+      <li>Which impurities does this host create, and does the train have an orthogonal step for each of them?</li>
+      <li>Does the process need demonstrated viral clearance, and which steps supply the logs?</li>
+      <li>What fails first at ten times the volume: oxygen transfer, mixing time, shear, or CO&#8322; removal?</li>
+      <li>Can the analytics measure the critical quality attributes fast enough to release the batch before it expires?</li>
+    </ul>
+
+    <h3>Key questions for investment and business analysis</h3>
+    <ul class="qlist">
+      <li>What is the cost of goods per gram or per dose, and how does it split between consumables, facility, and QC?</li>
+      <li>What plant utilization does that number assume, and what does the demand forecast actually support?</li>
+      <li>Which single-source inputs does the process depend on, and what happens to the schedule if one is unavailable?</li>
+      <li>How much of the process is frozen by comparability, and what would changing it cost in time and data?</li>
+      <li>For a new modality: who has run this process at commercial scale, and what yield did they get rather than project?</li>
+      <li>Is the durable advantage the molecule, the process, the analytics, or the capacity? Which of those still matters in five years?</li>
+    </ul>
+
+    <p class="muted">Durable advantage in bioprocessing has historically gone to whoever had qualified capacity when demand arrived (Lonza, Samsung Biologics, Catalent), or who owned an input everyone needed (Protein A resin, ionizable lipid patents, single-use film). A better titer, by itself, is usually matched within a few years, because the techniques travel with the people.</p>
+
+    <h3>Glossary</h3>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Term</th><th>What it means</th></tr></thead>
+      <tbody>
+        <tr><td>Comparability</td><td>The data package showing that product made after a process change is the same as product made before it. Any change to cell line, scale, site, or purification after pivotal trials triggers one, and a full exercise runs 6–12 months plus analytical and clinical work. It is the main reason processes get frozen early and stay frozen.</td></tr>
+        <tr><td>Critical quality attribute</td><td>A property of the product that has to stay inside a defined range for the product to be safe and effective: glycan profile, aggregate content, potency, residual host DNA, endotoxin. The whole control strategy is built backwards from the list of them, so adding one late adds testing to every batch.</td></tr>
+        <tr><td>Drug substance and drug product</td><td>Drug substance is the purified, formulated bulk leaving the purification train. Drug product is what ends up in the vial or syringe after fill, stoppering, and any lyophilization. Cost is quoted per gram for drug substance and per vial for drug product, and the two are often made in different plants on different continents.</td></tr>
+        <tr><td>Dynamic binding capacity</td><td>How much product a chromatography resin holds under flow before the product starts coming out the bottom, in grams per liter of resin. Modern Protein A resins reach 40–80 g/L at a 4–6 minute residence time. It sets column volume, and with resin at $8,000–15,000 per liter, column volume is most of what the capture step costs.</td></tr>
+        <tr><td>Fed-batch</td><td>The default mammalian culture mode: seed the reactor, feed concentrated nutrients over 12–18 days, harvest everything at once. CHO fed-batch reaches 3–8 g/L of antibody. It is simple and well understood, and it spends most of the reactor's volume-time growing cells rather than collecting product.</td></tr>
+        <tr><td>Full-to-empty ratio</td><td>The fraction of AAV capsids that actually contain a genome. Triple-transfection processes commonly deliver 10–30% full, so most of the protein made is waste that still has to be separated out, usually by anion exchange or a density gradient. Raising this ratio is one of the largest available levers on gene-therapy cost of goods.</td></tr>
+        <tr><td>Host cell protein</td><td>Protein from the production organism that travels with the product through purification. Regulators expect it down to single-digit parts per million in a final biologic, measured by an immunoassay raised against that specific host cell line. Removing it, along with host DNA and aggregates, is what the polishing steps are for.</td></tr>
+        <tr><td>Inclusion body</td><td>A dense aggregate of misfolded protein that E. coli forms when it over-expresses something it cannot fold. Yields reach 2–10 g/L, which is the attraction, but the protein has to be solubilized in denaturant and refolded at 0.1–1 g/L with only 15–40% recovery. That dilute refolding step is usually the most expensive part of an E. coli process.</td></tr>
+        <tr><td>In vitro transcription</td><td>The enzymatic reaction that makes mRNA from a linearized DNA template using T7 RNA polymerase and nucleotides. Yields run about 2–5 g of RNA per liter of reaction, so a reactor measured in tens of liters supplies tens of millions of 30–100 µg doses. Almost all of the cost is reagents: nucleotides, enzymes, and the cap analog.</td></tr>
+        <tr><td>kLa</td><td>The volumetric oxygen transfer coefficient, in reciprocal hours, and the number that decides whether a culture can breathe at scale. It falls as vessels grow because surface area rises more slowly than volume. Microbial fermentation needs a kLa in the hundreds; mammalian culture needs far less, which is why mammalian reactors can be stirred gently enough not to shear the cells.</td></tr>
+        <tr><td>Log reduction value</td><td>How many factors of ten a step removes of something, almost always virus. A mammalian process is conventionally expected to demonstrate 12 or more total logs across orthogonal steps, with a low-pH hold, an anion-exchange step, and a 20 nm virus filter each contributing about 4 logs against the virus types they work on. The clearance is proven in scaled-down spiking studies, never in the plant.</td></tr>
+        <tr><td>Perfusion</td><td>Continuously feeding fresh medium and withdrawing spent medium while a retention device keeps cells in the reactor. It sustains 50–150 million cells/mL against fed-batch's 10–30 million and runs 30–60 days, so a small reactor out-produces a much larger fed-batch one. The costs are medium consumption of roughly a reactor volume per day and a retention device that has to survive the entire run.</td></tr>
+        <tr><td>Protein A</td><td>A bacterial protein that binds the Fc region of antibodies, immobilized on resin to give a capture step that takes a monoclonal antibody to 95–99% purity in a single pass. It is the reason antibodies have a manufacturing platform at all. It is also the most expensive consumable in the train, at $8,000–15,000 per liter of resin and 100–300 usable cycles.</td></tr>
+        <tr><td>Single-use</td><td>Bioreactors, mixers, filters, and tubing built as pre-sterilized plastic assemblies that are used once and thrown away. They remove clean- and steam-in-place, cut changeover from weeks to days, and move cost from depreciation to consumables. Standard sizes stop at 2,000 L, with a few 5,000 L systems available.</td></tr>
+        <tr><td>Step yield</td><td>The fraction of product surviving one unit operation. Yields multiply, so eight steps at 90% each leave 43%. A well-run antibody train recovers 65–80% from harvest to bulk drug substance; viral vector and cell-therapy processes frequently recover 10–30%, which is most of why they cost what they cost.</td></tr>
+        <tr><td>Titer</td><td>Product concentration in the harvested culture, in grams per liter. CHO fed-batch runs 3–8 g/L, yeast secretion 5–20 g/L, and filamentous fungi 30–100 g/L. Titer sets the reactor size needed for a given batch mass, so it drives upstream cost more than any other single number, though above roughly 5 g/L the remaining savings sit downstream instead.</td></tr>
+        <tr><td>Transient transfection</td><td>Pushing plasmid DNA into cells for a few days of expression instead of building a stable cell line. It is how most AAV and lentiviral vector is made, and how research-grade protein gets produced in weeks rather than months. At scale it is expensive, because plasmid and transfection reagent for a few hundred liters can cost more than the medium, which is why producer cell lines keep getting attempted.</td></tr>
+        <tr><td>Vein-to-vein time</td><td>For autologous cell therapy, the elapsed time from collecting a patient's cells to infusing the finished product back. Manufacturing takes 7–14 days, or 1–3 days on the newer rapid processes, but testing, release, and shipping push the total to roughly 3–5 weeks. It is a clinical constraint as much as a manufacturing one, since patients need bridging therapy while they wait.</td></tr>
+      </tbody>
+    </table></div>

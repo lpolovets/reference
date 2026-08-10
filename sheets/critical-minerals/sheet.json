@@ -1,0 +1,126 @@
+{
+  "slug": "critical-minerals",
+  "docTitle": "Critical Minerals Reference",
+  "shortTitle": "Critical Minerals",
+  "blurb": "Lithium, rare earths, copper, gallium, uranium and the rest — where each one is mined, where it is refined, what a substitute costs, and where the real chokepoints sit.",
+  "category": "Materials",
+  "question": "Where does this material actually get refined?",
+  "title": "Critical Minerals: A Practical Reference",
+  "lede": "Most critical-mineral risk sits one step downstream of the mine. Cobalt comes out of the ground in the Congo and gets refined in China; graphite is mined in half a dozen countries and turned into anode material in one. This guide catalogs {{N_ENTRIES}} materials and processing steps across seven classes, with where each is mined, where it is refined, what substitution costs, and how exposed a Western buyer really is.",
+  "unit": ["material", "materials"],
+  "groupLabel": "Class",
+  "explorerTab": "Material explorer",
+  "guideTab": "Selection guide",
+  "h2hTab": "Head-to-head",
+  "searchPlaceholder": "Search materials, refining steps, substitutes…",
+  "stats": [
+    { "count": "entries", "label": "materials" },
+    { "count": "parts", "label": "classes" },
+    { "count": "groups", "label": "families" }
+  ],
+  "parts": [
+    { "id": 1, "roman": "I", "name": "Battery Metals", "blurb": "what a lithium-ion cell is actually made of", "color": "var(--p1)" },
+    { "id": 2, "roman": "II", "name": "Rare Earths & Magnets", "blurb": "the motor magnet chain, from ore to sintered magnet", "color": "var(--p2)" },
+    { "id": 3, "roman": "III", "name": "Industrial & Structural Metals", "blurb": "high-tonnage metals behind wiring and airframes", "color": "var(--p3)" },
+    { "id": 4, "roman": "IV", "name": "Semiconductor & Optical Materials", "blurb": "silicon feedstock and the minor metals around it", "color": "var(--p4)" },
+    { "id": 5, "roman": "V", "name": "Catalytic & Refractory Metals", "blurb": "small volumes, no substitutes, extreme prices", "color": "var(--p5)" },
+    { "id": 6, "roman": "VI", "name": "Nuclear Fuel Cycle", "blurb": "uranium from ore to enriched reactor fuel", "color": "var(--p6)" },
+    { "id": 7, "roman": "VII", "name": "Recycling & Secondary Supply", "blurb": "scrap routes that compete with new mines", "color": "var(--p7)" }
+  ],
+  "groupBlurbs": {
+    "Lithium": "the charge carrier, from brine or hard rock",
+    "Cobalt & nickel": "the metals that make a high-energy cathode",
+    "Anode carbon": "graphite for the negative electrode",
+    "Rare-earth feedstock": "the ores that carry neodymium and dysprosium",
+    "Separation & metal": "turning mixed oxide into single elements",
+    "Permanent magnets": "the finished magnets inside every motor",
+    "Base metals": "millions of tonnes a year for wiring and structure",
+    "Reactive light metals": "light metals that need a hard reduction step",
+    "Silicon feedstock": "quartz and polysilicon, the substrate for chips",
+    "Byproduct minor metals": "metals recovered from other metals' waste streams",
+    "Platinum group": "catalysts with no equal-performance substitute",
+    "Refractory metals": "hard, high-melting metals for tools and alloys",
+    "Uranium supply": "yellowcake through conversion to enriched fuel",
+    "Reactor metals": "cladding and control materials around the fuel",
+    "Battery recycling": "recovering cathode metals from spent cells",
+    "Magnet & catalyst recovery": "pulling rare earths and platinum back out of scrap"
+  },
+  "facets": [
+    {
+      "id": "use",
+      "key": "use",
+      "label": "End use",
+      "type": "multi",
+      "color": "--fa",
+      "required": true,
+      "tagRow": 2,
+      "tip": "Where the material mainly ends up — directional, not exhaustive. Recycling routes are tagged by what they produce rather than by what they consume.",
+      "order": ["bat", "mag", "semi", "grid", "aero", "cat", "nuc"],
+      "options": {
+        "bat": "Batteries",
+        "mag": "Magnets & motors",
+        "semi": "Semiconductors & optics",
+        "grid": "Grid & wiring",
+        "aero": "Aerospace & defense",
+        "cat": "Catalysis & hydrogen",
+        "nuc": "Nuclear fuel"
+      }
+    },
+    {
+      "id": "ref",
+      "key": "refining",
+      "label": "Refining",
+      "type": "single",
+      "color": "--fb",
+      "tagPrefix": "Refined",
+      "required": true,
+      "tip": "Share of world refining, separation, or processing capacity held by the single largest country, which is China for most of this list. Diversified under 30% · Concentrated 30–50% · Dominant 50–80% · Near-monopoly 80% and up. This is the axis the sheet is organized around, because it is almost always tighter than mine supply. A high share is not the same as high exposure, and this tag cannot tell you which you have: high-purity quartz and niobium are near-monopolies held by the United States and Brazil at flat, contract-set prices, and those two entries exist to make the point.",
+      "order": ["div", "conc", "dom", "mono"],
+      "options": { "div": "Diversified", "conc": "Concentrated", "dom": "Dominant", "mono": "Near-monopoly" }
+    },
+    {
+      "id": "min",
+      "key": "mining",
+      "label": "Mine supply",
+      "type": "single",
+      "color": "--fc",
+      "tagPrefix": "Mined",
+      "tip": "Share of world primary extraction held by the single largest country, using the same bands as Refining: under 30% · 30–50% · 50–80% · 80% and up. Compare the two tags — the gap between them is where most supply risk lives. Refining steps, byproduct recovery, and recycling routes carry no mine tag.",
+      "order": ["div", "conc", "dom", "mono"],
+      "options": { "div": "Diversified", "conc": "Concentrated", "dom": "Dominant", "mono": "Near-monopoly" }
+    },
+    {
+      "id": "sub",
+      "key": "substitution",
+      "label": "Substitution",
+      "type": "single",
+      "color": "--fd",
+      "tagPrefix": "Substitution",
+      "required": true,
+      "tip": "How hard it is to design the material out at equal performance. None = nothing else does the job · Poor = substitutes exist but cost real performance or money · Partial = some applications can switch and others cannot · Good = drop-in alternatives at comparable cost. Swapping within a family can change the material without changing the country it comes from.",
+      "order": ["none", "poor", "part", "good"],
+      "options": { "none": "None", "poor": "Poor", "part": "Partial", "good": "Good" }
+    },
+    {
+      "id": "vol",
+      "key": "volatility",
+      "label": "Price swing",
+      "type": "single",
+      "color": "--fe",
+      "tagPrefix": "Swing",
+      "required": true,
+      "tip": "Ratio of the highest to the lowest price over roughly the past five years, on the benchmark contract or trade assessment for that material. Under 2x · 2–4x · 4–10x · 10x and up. Thin, opaque, assessed markets swing much harder than LME-listed metals.",
+      "order": ["low", "med", "high", "vhigh"],
+      "options": { "low": "<2x", "med": "2–4x", "high": "4–10x", "vhigh": "10x+" }
+    }
+  ],
+  "videosAfter": "Economic profile",
+  "extraSections": [
+    ["when to use", "When to use"],
+    ["key numbers", "Key numbers"],
+    ["chokepoint", "Chokepoint"],
+    ["examples", "Examples"],
+    ["economic profile", "Economic profile"],
+    ["further reading", "Further reading"]
+  ]
+}

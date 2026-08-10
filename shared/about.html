@@ -1,0 +1,53 @@
+    <h2>What these are</h2>
+    <p class="muted">{{N_SHEETS}} reference sheets covering {{N_ENTRIES}} entries, built for the moment when you have to choose between technologies you don't yet know well. Each sheet answers one question — how should this part be made, which battery chemistry fits this product, what should push this vehicle — and each entry is one option you could actually pick.</p>
+
+    <p>Most technical references are organized for people who already know the field. An encyclopedia entry on investment casting tells you what investment casting is; it doesn't tell you that the crossover against machining sits somewhere near a few hundred parts, or that the pattern tooling is what you are really buying. These sheets are organized the other way round: around the decision, with the numbers that settle it.</p>
+
+    <p>They exist because deep-tech diligence keeps running into the same problem. Judging a company means judging a technology choice, and the honest answer usually depends on three or four quantities and one trade-off that nobody writes down in one place.</p>
+
+    <h2>What is in an entry</h2>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Section</th><th>What it is for</th></tr></thead>
+      <tbody>
+        <tr><td>Description</td><td>What the thing is and how it works, in a paragraph. Enough mechanism that the trade-offs later make sense.</td></tr>
+        <tr><td>Strengths and weaknesses</td><td>The honest version, including the failure modes vendors don't lead with.</td></tr>
+        <tr><td>When to use</td><td>A decision procedure: when to pick it, when to avoid it, and what the usual alternative is. This is the section most entries are written around.</td></tr>
+        <tr><td>Key numbers</td><td>Four to seven quantities on one line. Every figure also appears in the entry's own prose, so the summary can't drift away from the argument.</td></tr>
+        <tr><td>Examples</td><td>Real products, programs, and companies, so you can go and look.</td></tr>
+        <tr><td>Economic profile</td><td>Cost structure, supply concentration, and where the cost curve is heading. The part that matters most for investment questions.</td></tr>
+        <tr><td>Videos</td><td>Up to three, chosen to show the mechanism rather than to market it.</td></tr>
+        <tr><td>Further reading</td><td>One or two canonical sources: institutional reports, trade-association primers, university course material, open-access reviews.</td></tr>
+      </tbody>
+    </table></div>
+
+    <p>Every sheet also carries a selection guide (the factors that decide the choice, plus a glossary of the field's jargon) and a head-to-head tab of comparison tables. The first table compares the top-level options; the rest settle the choices inside one class, which is usually where the real argument is.</p>
+
+    <h2>Where the numbers come from</h2>
+    <p>Quantities are drawn from vendor datasheets, institutional and trade-association publications, open-access literature, and public program cost disclosures. Where a figure is genuinely a range, it is written as a range. Where the honest answer is "it depends on the duty cycle", the sheets say so rather than picking a number that looks authoritative.</p>
+
+    <p>Two habits do most of the work. First, a number that appears in more than one place in a sheet has to match in all of them, so a card, its summary line, and the comparison table can't disagree. Second, cost and performance bands are stated with the basis attached — cell-level or system-level, per kW or per kWh, continuous or peak — because most apparent contradictions between sources turn out to be two different bases.</p>
+
+    <div class="callout">
+      <p>Treat everything here as directional. The figures are good enough to size a decision, compare options, and know which questions to ask a vendor. They are not good enough to design against or to put in a model without checking the primary source, and anything tied to a fast-moving cost curve goes stale.</p>
+    </div>
+
+    <h2>How links and videos get checked</h2>
+    <p>Every further-reading URL is fetched before it goes in, and the link title is compared against the page's real title. That sounds obvious, and it is still the step that catches the most errors. A status code proves less than it looks like it does: some sites return HTTP 200 for any URL you ask for because the page is a client-rendered shell, so a citation ID that never existed will look fine until you check it against an API.</p>
+
+    <p>Sources that block automated fetchers entirely are avoided, because a link nobody can re-check is a link that rots silently. A few worth knowing about serve a challenge page to scripts but work fine in a browser, so those get verified by hand.</p>
+
+    <p>Videos go through a tool that reads each one's title, channel, duration, and view count back from YouTube, which means a mistyped or invented video ID fails loudly instead of shipping as a dead embed. The bar for inclusion is that the video shows the mechanism: animations, teardowns, factory floors, lab demonstrations. News segments, conference talks, and marketing reels without content are left out, and an entry with nothing good available gets no videos rather than filler. Of {{N_ENTRIES}} entries, all but a handful carry at least one; {{N_VIDEOS}} videos are linked in total.</p>
+
+
+    <h2>What is deliberately missing</h2>
+    <ul class="qlist">
+      <li>Entries that are topics rather than choices. If you would never pick between two things, they don't belong side by side.</li>
+      <li>Precision that isn't real. A tolerance quoted to three significant figures across a whole process family would be made up.</li>
+      <li>Sources behind paywalls, and specs you would need a standards subscription to read.</li>
+      <li>Coverage for its own sake. A few entries have no videos and one has no further reading, because nothing canonical exists and padding would be worse.</li>
+    </ul>
+
+    <h2>Corrections</h2>
+    <p>If a number here is wrong, it is worth telling us — a wrong figure in a reference is worse than a missing one. The sheets are maintained rather than published once, and corrections get folded in.</p>
+
+    <p class="muted">Built and maintained by <a href="https://humbaventures.com" target="_blank" rel="noopener">Humba Ventures</a>, which invests in deep tech and ends up needing this sort of thing regularly. &copy; {{YEAR}}.</p>

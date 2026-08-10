@@ -1,0 +1,118 @@
+    <h2>How to choose a generation technology</h2>
+    <p class="muted">Almost every generation decision comes down to one trade: the cheapest ways to make electricity are the ones you can't turn on when you want them. Utility solar runs $38–78/MWh unsubsidized in the US and onshore wind $37–86, while a gas peaker that starts on ten minutes' notice costs $149–251 (Lazard, June 2025). So the organizing axis for this sheet is <b>dispatchability against cost</b>, and capacity factor, capex per kW, and build time are mostly ways of explaining where a technology sits on it. Two neighbors are deliberately out of scope. Nuclear appears here as a single row, with the twenty-five fission and fusion designs behind it on the nuclear-reactors sheet. Storage isn't generation and lives on the energy-storage sheet, though a four-hour battery now sets the price a peaker has to beat.</p>
+
+    <h3>The dispatchability–cost logic</h3>
+    <p>Every technology on this sheet obeys the same cost equation: annualized capital plus fixed O&amp;M, divided by the energy produced in a year, plus fuel and variable O&amp;M. That makes capacity factor do double duty. It sets how much energy a given capex gets spread over, and it decides which hours the plant can sell into. A $1,300/kW solar plant at 24% capacity factor and a $2,100/kW wind farm at 35% land in roughly the same LCOE band, because the wind farm spreads more capital over more hours.</p>
+    <p>The same equation explains why LCOE alone is a bad way to pick. It prices a megawatt-hour without asking when the megawatt-hour arrives. As solar penetration rises, solar's capture price (the average price it actually earns) drops below the market average, and the cost of firming it lands somewhere else in the system as storage, transmission, or a gas plant on standby. A good rule of thumb is to compare technologies only within the same job: cheap bulk energy, firm capacity, or fast ramping. Comparing across those three jobs is how most generation arguments go wrong.</p>
+
+    <h3>Engineering factors</h3>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Factor</th><th>Why it matters</th></tr></thead>
+      <tbody>
+        <tr><td>Capacity factor</td><td>Decides how much energy a kilowatt of capex earns. US 2025 fleet averages: utility solar 24%, wind 34%, coal 49%, combined-cycle gas 58%, nuclear 91%. A 3× difference in capacity factor is a 3× difference in the capex you can afford per kW.</td></tr>
+        <tr><td>Dispatchability &amp; ramp</td><td>Whether output follows the operator or the weather, and how fast. Reciprocating engines and hydro reach full load in a minute or two, aeroderivative turbines in 5–10 minutes, combined-cycle plants in 30–60 from a warm start, coal and nuclear in hours.</td></tr>
+        <tr><td>Heat rate</td><td>For anything burning fuel, efficiency is the fuel bill. A modern combined cycle at ~6,400 Btu/kWh burns about a third less gas per MWh than a simple-cycle peaker at 10,500, which is the whole reason both exist.</td></tr>
+        <tr><td>Land &amp; power density</td><td>Utility solar takes roughly 5–8 acres per MW of AC capacity; wind spreads across far more land while occupying little of it. Land is rarely the cost problem and usually the permitting problem.</td></tr>
+        <tr><td>Grid services</td><td>Synchronous machines supply inertia, fault current, and voltage support as a by-product of spinning mass. Solar, wind, and batteries connect through inverters and have to be told to provide equivalents, which is why grid-forming inverter requirements are spreading.</td></tr>
+        <tr><td>Interconnection</td><td>About 2.6 TW sits in US interconnection queues, and the median project that reached operation in 2025 waited more than five years from its request. For many projects the grid connection is a longer pole than the plant.</td></tr>
+        <tr><td>Water</td><td>Steam-cycle plants (coal, nuclear, biomass, flash geothermal, CSP) need cooling water or take an efficiency penalty for dry cooling. PV and wind need almost none, which matters in the dry places with the best solar resource.</td></tr>
+        <tr><td>Degradation &amp; asset life</td><td>PV modules lose 0.3–0.5% a year and warranty to 25–30 years. Wind turbines run 20–30 years with a mid-life blade and gearbox bill. Hydro and nuclear run 50–80, and that long tail is most of why their lifetime cost looks low.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h3>Economic and strategic factors</h3>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Factor</th><th>Why it matters</th></tr></thead>
+      <tbody>
+        <tr><td>LCOE and its limits</td><td>The standard cross-technology number, and it deliberately ignores timing, firming cost, and transmission. Use it to compare inside a job, not across jobs. Always check the assumed capacity factor and cost of capital, because both move the answer more than the technology does.</td></tr>
+        <tr><td>Capex per kW</td><td>Sets how big a balance sheet the project needs before it earns anything. Utility solar is $1,150–1,600/kW, onshore wind $1,900–2,300, offshore wind $3,450–6,550, geothermal $5,000–6,460, and a US nuclear new build $9,020–14,820.</td></tr>
+        <tr><td>Equipment lead time</td><td>The binding constraint in 2026 is gas turbines: roughly 80 GW ordered in 2024 against about 30 GW/year of combined OEM capacity, delivery slots being negotiated into 2030–31, reservation fees in the tens of millions, and installed combined-cycle cost moving from about $1,000/kW to $2,000–2,800.</td></tr>
+        <tr><td>Fuel price exposure</td><td>Gas plants pass fuel through and renewables and nuclear are almost all capital. At a 6,500 Btu/kWh heat rate, every $1/MMBtu of gas price moves a CCGT's cost by about $6.50/MWh, so a gas LCOE is really a gas-price forecast.</td></tr>
+        <tr><td>Capture price</td><td>What a technology earns, as opposed to the market average. Solar generates all at once, so its capture rate falls as more solar is built, and in high-penetration markets midday prices go to zero or negative. Model the capture price at the penetration expected in year ten, not today's.</td></tr>
+        <tr><td>Policy exposure</td><td>Tax credits, capacity markets, renewable mandates, and carbon prices are worth more than most technology differences and change with elections. A business case that only works with a credit is a bet on a legislature.</td></tr>
+        <tr><td>Demand anchor</td><td>Data-center load growth changed the buyer. Hyperscalers want firm clean power on a fixed date and will pay a premium for it, which is why geothermal, nuclear, and fuel cells suddenly have offtake conversations they didn't have in 2021.</td></tr>
+        <tr><td>Manufacturing learning</td><td>Solar modules fell to $0.08–0.12/W and the world installed 647 GW of solar and 167 GW of wind in 2025. Technologies that ride a factory learning curve get cheaper on someone else's volume. Site-built plants don't, and their costs have risen since 2021.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h3>Dispatch bands</h3>
+    <div class="bands">
+      <div class="band"><div class="bt">Variable</div><div class="bv">PV, wind, run-of-river, tidal, wave — the resource decides, and you buy firming separately</div></div>
+      <div class="band"><div class="bt">Baseload</div><div class="bv">Nuclear, coal, geothermal, waste-to-energy, fuel cells — cheap per MWh only if run flat</div></div>
+      <div class="band"><div class="bt">Dispatchable</div><div class="bv">Combined-cycle gas, biomass, CSP with salt storage — follow load over minutes to hours</div></div>
+      <div class="band"><div class="bt">Fast-start</div><div class="bv">Hydro, reciprocating engines, aeroderivative and frame peakers — full load in under ten minutes</div></div>
+    </div>
+
+    <h3>Unsubsidized LCOE bands ($/MWh)</h3>
+    <div class="bands">
+      <div class="band"><div class="bt">&lt;$50</div><div class="bv">Utility solar and onshore wind at good sites; nothing dispatchable gets here</div></div>
+      <div class="band"><div class="bt">$50–100</div><div class="bv">Combined-cycle gas, conventional geothermal, hydro, the top end of solar and wind</div></div>
+      <div class="band"><div class="bt">$100–200</div><div class="bv">Offshore wind, coal, nuclear, CSP, EGS, rooftop solar, fuel cells</div></div>
+      <div class="band"><div class="bt">$200+</div><div class="bv">Peakers at real duty cycles, floating wind, tidal, wave, hydrogen turbines, gas with capture</div></div>
+    </div>
+
+    <h3>Build and lead time</h3>
+    <div class="bands">
+      <div class="band"><div class="bt">&lt;1 yr</div><div class="bv">Rooftop solar, engine gensets, fuel cells, mobile aeroderivative units</div></div>
+      <div class="band"><div class="bt">1–3 yr</div><div class="bv">Utility solar, onshore wind, gas plants once the turbine actually arrives</div></div>
+      <div class="band"><div class="bt">3–6 yr</div><div class="bv">Offshore wind, geothermal including exploration drilling, CSP, coal, biomass</div></div>
+      <div class="band"><div class="bt">6 yr+</div><div class="bv">Large hydro and nuclear, both routinely 10 years or more in Western practice</div></div>
+    </div>
+    <p class="muted">These are construction times. Add permitting, equipment lead time, and the interconnection queue, all of which are longer than they were in 2021 and none of which the developer controls.</p>
+
+    <h2>Load growth changed the question</h2>
+    <p>For about fifteen years the question a US or European utility asked was "what is the cheapest way to add a megawatt-hour," and solar and wind answered it. Since 2023 the question has become "what is the fastest way to add a firm megawatt on a date I can contract to," which sorts the technologies differently. Gas is the cheapest firm answer and can no longer be delivered quickly, because roughly 80 GW of turbines were ordered in 2024 against about 30 GW a year of manufacturing capacity, and buyers are paying reservation fees for 2030 slots. That gap is why enhanced geothermal, small reactors, and solid-oxide fuel cells all found data-center offtake in 2025–26 despite costing more per MWh than gas. They are competing on delivery date and interconnection avoidance as much as on price.</p>
+
+    <h2>Cheap solar makes firm power more valuable</h2>
+    <p>Solar reached 8.7% of world electricity in 2025 and renewables overtook coal for the first time, and the market effect is that midday power is close to worthless in a growing number of places while evening and multi-day-lull power is worth more. Every additional gigawatt of solar lowers the capture price of the next gigawatt of solar and raises the value of anything that can run when solar can't. That is the mechanism behind the current interest in geothermal, hydro, long-duration storage, and gas with capture, and it is also why a technology's LCOE has become a weaker predictor of whether it gets built. A good diligence habit is to ask what a project earns per MWh at the penetration expected in year ten, rather than what it costs.</p>
+
+    <h2>Core takeaway</h2>
+    <div class="callout">
+      <p>Pick the job first, then the technology. If the job is cheap bulk energy, utility solar and onshore wind win nearly everywhere, and the real argument is about land, transmission, and queue position. If the job is firm capacity, compare gas, nuclear, geothermal, hydro, and long-duration storage on delivered cost per firm kW, where gas currently wins on price and loses on delivery date. If the job is fast ramping, compare engines, aeroderivatives, and batteries on start time and cost per start. Most bad generation comparisons are a technology from one of those three lists being judged against a technology from another.</p>
+    </div>
+
+    <h3>Key questions for engineering decisions</h3>
+    <ul class="qlist">
+      <li>What is the capacity factor at this specific site, and does it come from measured resource data or a regional average?</li>
+      <li>Does the system need energy, firm capacity, or ramping from this plant, and does the technology actually supply that?</li>
+      <li>What does the interconnection study say, and how much network upgrade cost is allocated to the project?</li>
+      <li>For anything burning fuel: what is the heat rate at the part loads it will really run at, and what fuel price does the model assume?</li>
+      <li>What degrades, how fast, and what is the mid-life capital bill (blades, gearboxes, fuel-cell stacks, turbine hot sections, tube replacement)?</li>
+    </ul>
+
+    <h3>Key questions for investment and business analysis</h3>
+    <ul class="qlist">
+      <li>What is the unsubsidized LCOE at the site's real capacity factor and the project's real cost of capital, rather than at the deck's assumptions?</li>
+      <li>What is the capture price for this technology in this market in year ten, not the market average today?</li>
+      <li>Where does the long-lead equipment come from and what is the delivery slot? Gas turbines are the current chokepoint, with transformers, HV cable, and offshore installation vessels close behind.</li>
+      <li>Is the revenue a contracted PPA, a capacity payment, or merchant exposure, and how good is the counterparty's credit?</li>
+      <li>How much of the return depends on a tax credit or carbon price that an election could remove?</li>
+      <li>For a first-of-a-kind project: what did the last unit cost per kW, and what specifically makes the next one cheaper?</li>
+    </ul>
+
+    <p class="muted">Durable advantage in power generation has usually come from one of four things: a resource position nobody can copy (a dam site, a hydrothermal field, a shallow windy sea), a manufacturing cost curve (silicon modules, turbine nacelles), an equipment slot in a supply-constrained market, or a grid connection that a competitor would wait five years for. It rarely comes from a better conversion efficiency on its own.</p>
+
+    <h3>Glossary</h3>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Term</th><th>What it means</th></tr></thead>
+      <tbody>
+        <tr><td>Balance of system</td><td>Everything in a solar plant other than the modules: racking, trackers, inverters, wiring, site work, labor, permitting, and interconnection. Modules now sell for $0.08–0.12/W, roughly a tenth of a $1,150–1,600/kW utility project, so almost all the remaining cost reduction has to come from balance of system.</td></tr>
+        <tr><td>Bifacial</td><td>A module that also collects light reflected onto its rear face. The gain is typically 5–10%, and more over bright ground like sand or snow. It is one reason utility projects moved to single-axis trackers and taller racking, since both raise the light reaching the back.</td></tr>
+        <tr><td>Capacity credit</td><td>The share of a plant's nameplate that a system operator counts toward meeting peak demand, often called ELCC. A gas plant is credited near 100%. Solar's credit falls as more solar is added, because the net peak shifts into the evening, and both CAISO and PJM have cut accreditation for correlated resources.</td></tr>
+        <tr><td>Capacity factor</td><td>Energy actually produced in a year divided by what the plant would produce running flat out. US 2025 fleet averages: utility solar 24%, wind 34%, coal 49%, combined-cycle gas 58%, nuclear 91%. A low number isn't always a weakness, since a peaker is built to run 5–15% of the year.</td></tr>
+        <tr><td>Capture price</td><td>The average wholesale price a technology actually earns, as against the market average over the same period. Solar generates all at once, so its capture rate falls as penetration rises, and in high-solar markets midday prices already reach zero or go negative.</td></tr>
+        <tr><td>Combined cycle</td><td>A gas turbine whose exhaust raises steam for a second, steam turbine. Modern H-class plants convert 60–64% of the fuel's lower heating value into electricity, against 35–44% for the same turbine exhausting straight to the stack. The second cycle is why combined cycle sells energy and simple cycle sells capacity.</td></tr>
+        <tr><td>Curtailment</td><td>Output a grid operator refuses because of oversupply or a transmission limit. It cuts a variable plant's revenue and its realized capacity factor, and it is now routine in the middle of the day in California, Chile, and parts of China and Australia.</td></tr>
+        <tr><td>Dispatchability</td><td>How much control an operator has over a plant's output. It is the axis this sheet is organized on, and it separates plants that sell energy from plants that sell capacity and flexibility. Note that it is distinct from predictability: tidal output is perfectly forecastable and completely undispatchable.</td></tr>
+        <tr><td>Heat rate</td><td>Fuel energy in per unit of electricity out, quoted in Btu/kWh in US practice. Lower is better: about 6,400–6,500 for a modern combined cycle, 10,300–11,200 for a simple-cycle peaker, and 8,750–12,000 for coal. Divide 3,412 by the heat rate for higher-heating-value efficiency; the European lower-heating-value figures run about 10% higher.</td></tr>
+        <tr><td>Inertia</td><td>Kinetic energy stored in the spinning mass of synchronous generators, which slows frequency change in the first seconds after a plant trips. Solar, wind, and batteries connect through inverters and supply none of it natively, so high-renewable grids buy synthetic inertia, synchronous condensers, or grid-forming inverters instead.</td></tr>
+        <tr><td>Interconnection queue</td><td>The line of projects waiting for a transmission operator to study and approve a grid connection. About 2.6 TW sits in US queues, and the median project that reached operation in 2025 had waited over five years, which makes a queue position an asset in its own right.</td></tr>
+        <tr><td>LCOE</td><td>Levelized cost of electricity: lifetime capital, fuel, and operating cost divided by lifetime output, in $/MWh. It is the standard cross-technology comparison, and it deliberately ignores when the power arrives, so it flatters variable generation and penalizes plants that run few hours by design.</td></tr>
+        <tr><td>Organic Rankine cycle</td><td>A closed steam cycle running an organic working fluid such as isobutane or pentane instead of water, so it boils at 100–180 °C and can make power from moderate-temperature heat. Conversion efficiency is only 10–13%, but it is what lets binary geothermal, most next-generation geothermal, and industrial waste-heat plants work at all.</td></tr>
+        <tr><td>Overnight capital cost</td><td>Plant capital cost per kW quoted as if it were built instantly, so it excludes interest during construction. On a decade-long build that interest can add 30–50% to the delivered cost, which is why build time is a facet on this sheet rather than a footnote.</td></tr>
+        <tr><td>PPA</td><td>Power purchase agreement: a contract to buy a plant's output at an agreed price, usually over 10–25 years. It is what makes a capital-intensive plant financeable, and lenders often care more about the buyer's credit rating than about the technology.</td></tr>
+        <tr><td>Ramp rate</td><td>How fast a plant can change output, in MW per minute or percent of rating per minute. Reciprocating engines and hydro reach full load in a minute or two, aeroderivative turbines in 5–10 minutes, combined-cycle plants in 30–60 from a warm start, and coal and nuclear in hours.</td></tr>
+        <tr><td>Spark spread</td><td>The gap between the power price and the cost of the gas needed to make it at a stated heat rate. It is the margin a gas plant actually earns, and it decides whether a combined-cycle unit runs at a 60% capacity factor or a 20% one.</td></tr>
+        <tr><td>Tracker</td><td>A mount that rotates PV modules through the day, almost always single-axis east to west on utility projects. It adds roughly 15–25% of annual energy for something like $0.10/W, and it flattens the generation profile, which raises the capture price as well as the capacity factor.</td></tr>
+      </tbody>
+    </table></div>

@@ -5,3 +5,7 @@ node_modules/
 .env
 *.api_key
 .gemini*
+
+# Per-sheet taxonomy plans: build scaffolding, never rendered, and stale
+# once entry writers correct them. Kept locally, not published.
+sheets/*/entries/_PLAN.md

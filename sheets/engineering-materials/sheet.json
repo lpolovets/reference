@@ -1,0 +1,138 @@
+{
+  "slug": "engineering-materials",
+  "docTitle": "Engineering Materials Reference",
+  "shortTitle": "Engineering Materials",
+  "blurb": "Metals, plastics, elastomers, ceramics, glass, composites, and functional materials — compared on strength-to-weight, service temperature, cost per kg, and how you shape them.",
+  "category": "Materials",
+  "question": "What should this part be made of?",
+  "title": "Engineering Materials: A Practical Reference",
+  "lede": "Material choice sets a part's weight, cost, and service life before anyone picks a process. This guide catalogs {{N_ENTRIES}} engineering materials across seven classes, from mild steel at about $1/kg to infrared crystals at a thousand times that, with the property, processing, and supply context that decides what you can actually specify.",
+  "unit": ["material", "materials"],
+  "groupLabel": "Class",
+  "explorerTab": "Material explorer",
+  "guideTab": "Selection guide",
+  "h2hTab": "Head-to-head",
+  "searchPlaceholder": "Search materials, alloys, properties…",
+  "stats": [
+    { "count": "entries", "label": "materials" },
+    { "count": "parts", "label": "classes" },
+    { "count": "groups", "label": "families" }
+  ],
+  "parts": [
+    { "id": 1, "roman": "I", "name": "Ferrous Alloys", "blurb": "steel and iron, the default structural metals", "color": "var(--p1)" },
+    { "id": 2, "roman": "II", "name": "Nonferrous Alloys", "blurb": "aluminum, titanium, copper, and the hot metals", "color": "var(--p2)" },
+    { "id": 3, "roman": "III", "name": "Thermoplastics", "blurb": "melt-processable plastics, commodity to 250 °C", "color": "var(--p3)" },
+    { "id": 4, "roman": "IV", "name": "Thermosets & Elastomers", "blurb": "cured resins, rubber, and foam", "color": "var(--p4)" },
+    { "id": 5, "roman": "V", "name": "Ceramics, Glass & Carbon", "blurb": "hard, brittle, and stable at high temperature", "color": "var(--p5)" },
+    { "id": 6, "roman": "VI", "name": "Composites", "blurb": "fiber plus matrix, with properties per direction", "color": "var(--p6)" },
+    { "id": 7, "roman": "VII", "name": "Functional Materials", "blurb": "specified for magnetics, heat flow, or light", "color": "var(--p7)" }
+  ],
+  "groupBlurbs": {
+    "Carbon and alloy steel": "the default structural metal, at about $1/kg",
+    "Stainless steel": "corrosion resistance for four times the steel price",
+    "Cast iron": "cheap complex castings that damp vibration",
+    "Light alloys": "aluminum, magnesium, and titanium for weight",
+    "Copper and high-temperature alloys": "conduct electricity or survive the hot section",
+    "Commodity plastics": "the cheap plastics, under $2 per kilogram",
+    "Engineering plastics": "molded parts that carry real mechanical load",
+    "High-performance plastics": "plastics that keep working above 200 °C",
+    "Thermoset resins": "cured once, so they cannot be remelted",
+    "Elastomers": "rubber that seals, damps, and springs back",
+    "Technical ceramics": "hard, stiff, heat-proof, and brittle",
+    "Glass and carbon": "transparent or high-temperature non-metals",
+    "Polymer composites": "fiber carries the load, resin holds it in place",
+    "Metal and ceramic composites": "reinforcement in a matrix that tolerates heat",
+    "Magnetic materials": "chosen for the shape of their B-H curve",
+    "Thermal and optical materials": "move heat or pass light on spec"
+  },
+  "facets": [
+    {
+      "id": "prop",
+      "key": "properties",
+      "label": "Picked for",
+      "type": "multi",
+      "color": "--fa",
+      "required": true,
+      "tagRow": 2,
+      "tip": "What engineers usually specify the family for. Directional, not exhaustive: most materials do several of these adequately, so the tags mark the reasons someone reaches for this family first. Corrosion covers chemical resistance too, and Sealing covers damping and cushioning.",
+      "order": ["strong", "stiff", "light", "tough", "corr", "heat", "wear", "seal", "elec", "mag", "therm", "opt"],
+      "options": {
+        "strong": "Strength",
+        "stiff": "Stiffness",
+        "light": "Light weight",
+        "tough": "Toughness",
+        "corr": "Corrosion",
+        "heat": "High temperature",
+        "wear": "Wear",
+        "seal": "Sealing",
+        "elec": "Electrical",
+        "mag": "Magnetic",
+        "therm": "Thermal",
+        "opt": "Optical"
+      }
+    },
+    {
+      "id": "sw",
+      "key": "strength",
+      "label": "Strength/wt",
+      "type": "single",
+      "color": "--fb",
+      "tagPrefix": "Str/wt",
+      "tip": "Specific strength: tensile strength (flexural for ceramics) divided by density, in kN·m/kg, which is the same number as MPa per g/cm³. Mild steel is about 50, 6061-T6 aluminum 115, Ti-6Al-4V 215, and a quasi-isotropic carbon laminate 350–400. Figures are for a common structural grade of the family. Untagged where the material is not chosen to carry load.",
+      "order": ["vlow", "low", "med", "high", "vhigh"],
+      "options": { "vlow": "<25", "low": "25–75", "med": "75–150", "high": "150–300", "vhigh": "300+" }
+    },
+    {
+      "id": "temp",
+      "key": "temperature",
+      "label": "Max temp",
+      "type": "single",
+      "color": "--fc",
+      "required": true,
+      "tagPrefix": "Max °C",
+      "tip": "Maximum continuous service temperature in air for a common grade, in °C, not a brief excursion. Polymers are limited by softening and oxidation, metals by creep and scaling, ceramics mostly by what they react with. Graphite and refractory metals only reach the top band in vacuum or inert gas.",
+      "order": ["low", "mod", "high", "vhigh", "ext"],
+      "options": { "low": "<100", "mod": "100–200", "high": "200–450", "vhigh": "450–1000", "ext": "1000+" }
+    },
+    {
+      "id": "proc",
+      "key": "processing",
+      "label": "Processing",
+      "type": "multi",
+      "color": "--fd",
+      "required": true,
+      "tip": "How parts are usually made from the material, which is often the binding constraint. Forming covers rolling, extrusion, forging, stamping, and hot glass work · Casting covers die, investment, and sand · Sintering covers powder metallurgy and ceramic firing · Layup covers hand layup, prepreg, and filament winding. The processes themselves are on the manufacturing-processes sheet.",
+      "order": ["cast", "form", "mach", "mold", "sint", "layup", "am"],
+      "options": {
+        "cast": "Casting",
+        "form": "Forming",
+        "mach": "Machining",
+        "mold": "Molding",
+        "sint": "Sintering",
+        "layup": "Layup",
+        "am": "Additive"
+      }
+    },
+    {
+      "id": "cost",
+      "key": "cost",
+      "label": "Cost/kg",
+      "type": "single",
+      "color": "--fe",
+      "required": true,
+      "tagPrefix": "Cost",
+      "tip": "Directional price per kilogram of the usual mill or feedstock form in commercial quantity, not the finished part. Bands: <$2 · $2–10 · $10–50 · $50–200 · $200+. Machining, scrap rate, and qualification usually cost more than the material, so treat this as a floor rather than a budget.",
+      "order": ["vlow", "low", "med", "high", "vhigh"],
+      "options": { "vlow": "<$2", "low": "$2–10", "med": "$10–50", "high": "$50–200", "vhigh": "$200+" }
+    }
+  ],
+  "videosAfter": "Economic profile",
+  "extraSections": [
+    ["when to use", "When to use"],
+    ["key numbers", "Key numbers"],
+    ["how it fails", "How it fails"],
+    ["examples", "Examples"],
+    ["economic profile", "Economic profile"],
+    ["further reading", "Further reading"]
+  ]
+}

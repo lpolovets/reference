@@ -1,0 +1,122 @@
+    <h2>How to read a chip manufacturing decision</h2>
+    <p class="muted">A leading-edge logic wafer goes through something like a thousand process steps over three months, and almost none of them are in doubt scientifically. What is in doubt is money: whether the tool can be bought, whether the mask set and design NRE can be amortized, whether the die yields at the size the product needs, and whether the exporting government will allow the sale. Four questions decide most arguments on this sheet. What resolution does the pattern actually need? What does the tool that delivers it cost? How much of the finished part's cost is silicon, and how much is memory and packaging? And how many companies in the world can supply the critical step?</p>
+
+    <h3>Engineering factors</h3>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Factor</th><th>Why it matters</th></tr></thead>
+      <tbody>
+        <tr><td>Resolution</td><td>Single-exposure half-pitch runs from about 350 nm on an i-line stepper to 38 nm on ArF immersion, 13 nm on 0.33 NA EUV, and 8 nm on High-NA. Anything finer than the tool prints has to be built from multiple exposures, which multiplies steps rather than adding them.</td></tr>
+        <tr><td>Overlay</td><td>How accurately one layer lands on the one below. Current immersion scanners hold roughly 1.3 nm matched-machine and 1.7 nm on product. Overlay, rather than resolution, is usually what limits multi-patterning, because two separately printed features have to meet.</td></tr>
+        <tr><td>Defect density and die size</td><td>Yield falls roughly exponentially with die area times defect density. At D0 = 0.1 defects/cm² a 1 cm² die yields about 90%; a 6 cm² die at D0 = 0.4 yields under 20%. This single relationship is why chiplets exist.</td></tr>
+        <tr><td>Aspect ratio</td><td>3D NAND channel holes now run past 60:1 through several microns of stacked film, and DRAM capacitors past 100:1. Etching those straight, round, and uniform across 300 mm is the limiting capability in memory, not lithography.</td></tr>
+        <tr><td>Thermal budget</td><td>Every high-temperature step diffuses the doping already in place, so late steps have to run cooler than early ones. It is why back-end metallization uses copper rather than tungsten and why 3D stacking constrains what can be done after bonding.</td></tr>
+        <tr><td>Interconnect resistance</td><td>Copper wires get more resistive as they narrow, because the barrier layer does not scale and electrons start scattering off the wire walls. Delay and power have been migrating from the transistor to the wiring for several nodes, which is what backside power delivery is trying to fix.</td></tr>
+        <tr><td>Interconnect pitch in the package</td><td>Wire bond lands on 40–60 µm pads, flip-chip on roughly 130 µm bumps, microbumps on 25–45 µm, and hybrid bonding on 6–9 µm. Each step down is roughly an order of magnitude more connections per mm², and each one demands cleaner surfaces and tighter alignment.</td></tr>
+        <tr><td>Thermal density</td><td>An accelerator package now dissipates over a kilowatt through a few square centimeters, and stacking dies puts a heat source under another heat source. Thermal design increasingly decides what can be stacked, not just what fits.</td></tr>
+        <tr><td>Substrate quality</td><td>Silicon arrives essentially defect-free at $60–150 a wafer. Compound substrates do not: silicon carbide and indium phosphide bring dislocation densities, smaller diameters, and prices 30–50× higher per wafer and more than that per unit area. Those substrate limits set device cost more than the device process does.</td></tr>
+        <tr><td>Test coverage</td><td>You cannot rework a bonded stack. If twelve dies at 99% good go into one HBM stack, the stack is 89% good, so everything has to be proven good before assembly rather than after.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h3>Economic and strategic factors</h3>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Factor</th><th>Why it matters</th></tr></thead>
+      <tbody>
+        <tr><td>Tool cost</td><td>An i-line stepper is about $4M, a KrF scanner about $12M, an ArF immersion scanner about $90M, a low-NA EUV scanner $180–230M, and a High-NA EUV scanner $350–400M. A fab buys dozens of the expensive ones, and depreciation is the largest line in wafer cost at the leading edge.</td></tr>
+        <tr><td>Fab capex</td><td>A new 28 nm fab runs roughly $5–10B; a leading-edge module is several times that, and TSMC's committed spend in Arizona alone has grown to $165B. TSMC's annual capex is around $50B. Capital of that size only works at high utilization, which makes demand forecasting part of the technology decision.</td></tr>
+        <tr><td>Mask set and design NRE</td><td>Commonly cited IBS estimates put chip design cost at roughly $48M at 28 nm, $249M at 7 nm, $449M at 5 nm, and about $725M at 2 nm. A leading-edge mask set is 60–100 reticles and runs into the tens of millions. Both are fixed costs, so the node you can afford is a function of your unit volume.</td></tr>
+        <tr><td>Wafer price</td><td>Roughly $3,000 for a mature 28 nm wafer against about $17,000 at N5, $18,000–20,000 at N3, and about $30,000 at N2. Price per wafer keeps climbing; price per transistor has been roughly flat since 28 nm, which is the whole reason mature nodes remain a real market.</td></tr>
+        <tr><td>Yield and die size</td><td>A big monolithic die at the leading edge can lose more than half its cost to defects. Splitting it into four chiplets raises per-die yield a lot but adds an assembly yield of its own, so the trade is only worth making above a certain die size.</td></tr>
+        <tr><td>Where the cost actually sits</td><td>For an AI accelerator, memory and packaging dominate: across the 2025 volume mix, memory was about 63% of component cost, packaging 15%, and the leading-edge logic die only about 13%. For a mature microcontroller, packaging and test together are more like 15–20%.</td></tr>
+        <tr><td>Capacity as the constraint</td><td>Since 2023 the binding limit on AI accelerator supply has been advanced packaging capacity rather than wafer capacity. TSMC CoWoS went from roughly 13k wafers per month at the end of 2023 to 70–75k at the end of 2025, with 120–140k targeted for 2026, and it has been sold out the whole time.</td></tr>
+        <tr><td>Supply concentration</td><td>ASML builds 100% of EUV scanners. Ajinomoto supplies over 95% of the ABF film in flip-chip substrates. AGC and Hoya together make roughly 93% of mask blanks. Japanese firms hold over 95% of high-end EUV photoresist. Three companies make all the DRAM. Any of these is a single point of failure.</td></tr>
+        <tr><td>Export control</td><td>US rules already cover EUV, advanced immersion tools, some etch and packaging equipment, and HBM. The MATCH Act introduced in April 2026 would go further and bar immersion lithography and cryogenic etch exports to any facility in China; it had not passed as of August 2026. ASML's China share of system sales fell from 36% in Q4 2025 to 19% in Q1 2026.</td></tr>
+        <tr><td>Cycle time</td><td>Multi-patterning adds passes, and each pass adds queue time as well as process time. A wafer that spends three months in a fab ties up working capital and delays the yield learning that makes the next lot better.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h3>Lithography generations at a glance</h3>
+    <div class="bands">
+      <div class="band"><div class="bt">i-line, 365 nm</div><div class="bv">~350 nm resolution · about $4M a tool · power, analog, MEMS, packaging RDL</div></div>
+      <div class="band"><div class="bt">KrF, 248 nm</div><div class="bv">~110 nm · about $12M · mature logic and most 3D NAND layers</div></div>
+      <div class="band"><div class="bt">ArF immersion, 193 nm</div><div class="bv">38 nm half-pitch at NA 1.35 · about $90M · most layers at every advanced node</div></div>
+      <div class="band"><div class="bt">EUV, 0.33 NA</div><div class="bv">13 nm half-pitch · $180–230M · 220 wafers/hour · critical layers from 7 nm down</div></div>
+      <div class="band"><div class="bt">High-NA EUV, 0.55 NA</div><div class="bv">8 nm half-pitch · $350–400M · half-size field, so big dies need stitching</div></div>
+    </div>
+    <p class="muted">High-NA is the live disagreement of 2026. Intel shipped the first high-volume logic product with High-NA layers in July 2026, on 18A, and dual-qualified those layers on 0.33 NA tools as a hedge. TSMC has publicly said it will not use High-NA through A12 in 2029, on the argument that two low-NA exposures are cheaper than one High-NA exposure until roughly 2030. Both positions are defensible, and which one is right depends on defectivity and uptime numbers neither company publishes.</p>
+
+    <h3>Interconnect pitch by integration level</h3>
+    <div class="bands">
+      <div class="band"><div class="bt">Wire bond</div><div class="bv">40–60 µm pad pitch, perimeter only, a few hundred connections</div></div>
+      <div class="band"><div class="bt">Flip-chip C4</div><div class="bv">~130 µm bump pitch across the whole die face, thousands of I/O</div></div>
+      <div class="band"><div class="bt">Microbump, 2.5D and 3D</div><div class="bv">25–45 µm; Intel EMIB 45 µm and EMIB-T 36 µm; Foveros 36 µm</div></div>
+      <div class="band"><div class="bt">Hybrid bonding</div><div class="bv">TSMC SoIC at 6 µm today, 4.5 µm planned for 2029; Foveros Direct at 9 µm</div></div>
+    </div>
+
+    <h3>What a bare substrate costs</h3>
+    <div class="bands">
+      <div class="band"><div class="bt">Silicon, 300 mm</div><div class="bv">$60–150 polished prime, and about 9.6M wafer starts a month of capacity</div></div>
+      <div class="band"><div class="bt">Silicon carbide, 150 mm</div><div class="bv">Roughly $400 in 2026, down from over $850 in 2023</div></div>
+      <div class="band"><div class="bt">Silicon carbide, 200 mm</div><div class="bv">Around $1,000–1,500, still under 5% of SiC shipments</div></div>
+      <div class="band"><div class="bt">Indium phosphide, 50 mm</div><div class="bv">$800 in early 2025, $2,300–2,500 by April 2026 on AI optics demand</div></div>
+    </div>
+    <p class="muted">The two compound platforms moved in opposite directions. Silicon carbide substrate prices fell more than 60% through 2024 and another 40% in 2025 as Chinese capacity arrived, which pushed Wolfspeed through a Chapter 11 restructuring it emerged from in September 2025. Indium phosphide went the other way: optical interconnect demand from AI clusters opened a supply gap of well over 50%, prices roughly tripled, and Lumentum has said it is shipping about 30% below customer demand. Substrate supply, not device design, is what is deciding both markets right now.</p>
+
+    <h2>Scaling stopped paying, so the money moved to packaging</h2>
+    <p>Cost per transistor stopped falling at about 28 nm. Every node since has delivered more transistors per mm² and better power, but not cheaper transistors, because the wafer price rose about as fast as the density. At the same time the fixed costs exploded: design cost went from roughly $48M at 28 nm to something like $725M at 2 nm, and the number of firms that could manufacture at the leading edge fell from more than 18 at 130 nm to three today. Those two facts together mean a leading-edge design now needs enormous unit volume or enormous unit price to make sense, and most products have neither.</p>
+    <p>The response was to stop making one big die. Split the design into chiplets, build only the parts that benefit from the newest node on the newest node, and connect them in the package. That trade works because yield falls fast with die area: four 200 mm² chiplets each yield far better than one 800 mm² die, and the parts that do not need 2 nm can be built on 5 nm or 7 nm where wafers cost half as much. It also moves the hard engineering into the package. An AI accelerator's cost is now roughly 63% memory, 15% packaging, and 13% logic die, so the leading-edge silicon everyone argues about is the smallest of the three. Packaging capacity has been the binding constraint on accelerator supply since 2023, and it is the reason TSMC's CoWoS roadmap (3.3 reticle fields today, 5.5 in 2026, and talk of 14 reticles with 24 HBM stacks by 2029) gets as much attention as its transistor roadmap.</p>
+
+    <h2>Every step has a chokepoint</h2>
+    <p>The semiconductor supply chain is unusual in how many of its steps have one or two credible suppliers, and the concentration is not accidental. Each of these tools or materials is a decades-long learning curve with a market too small to support many players, so the winner tends to take nearly all of it. ASML makes every EUV scanner in the world, and no other country has reproduced one. Two Japanese glassmakers supply about 93% of mask blanks. One Japanese chemical company supplies over 95% of the ABF film that flip-chip substrates are built from, and its shortage in 2021–2023 constrained the whole industry. Five firms sell about 90% of prime silicon wafers, three make all the DRAM, and two make about 80% of automated test equipment.</p>
+    <p>This is why export control works as a policy lever, and also why it is risky. Restricting one tool from one company can stop a node, which is a level of leverage no other industry offers. It also gives every restricted buyer a decade-long reason to fund a domestic alternative, and it costs the supplier real revenue: ASML's China share of system sales dropped from 36% to 19% in one quarter after the 2026 escalation was proposed. The leverage runs both ways, too. China refines about 69% of the world's indium and added indium phosphide substrates to its own export control list in February 2025, which matters because three companies supply more than 90% of the InP that every long-reach optical transceiver depends on. When you evaluate any company on this sheet, the useful question is not just what it makes but how many other firms could make it, and what it would take to become one of them.</p>
+
+    <h2>Core takeaway</h2>
+    <div class="callout">
+      <p>Chip manufacturing decisions are usually resolved by cost and access rather than by physics. Pick the coarsest lithography the device actually needs, because a SiC power MOSFET built on i-line and a 2 nm GPU built on EUV can both be excellent products and the second one costs a hundred times more per mm². Assume the fixed costs (mask set, design NRE, fab capex) will decide whether a node is available to you, and assume yield times die area will decide whether the design works economically. Then check the supply chain: for most steps here the honest answer to "who else could supply this?" is one, two, or three companies, and that answer explains more about the industry's behavior than any roadmap does.</p>
+    </div>
+
+    <h3>Key questions for engineering decisions</h3>
+    <ul class="qlist">
+      <li>What is the finest feature the design actually needs, and does one exposure on a cheaper tool print it?</li>
+      <li>At the target die size and the node's defect density, what yield does the math give, and does splitting into chiplets beat that after assembly yield?</li>
+      <li>Is the bottleneck the transistor, the interconnect, the memory bandwidth, or the thermal path? Recent nodes have moved it away from the transistor.</li>
+      <li>What has to be proven good before assembly, and what does that test coverage cost per die?</li>
+      <li>For a compound-semiconductor device, how much of the cost is the substrate, and what happens to that when the platform moves up a wafer size?</li>
+    </ul>
+
+    <h3>Key questions for investment and business analysis</h3>
+    <ul class="qlist">
+      <li>How many firms can supply this step at production quality, and what would a second source have to spend and wait to qualify?</li>
+      <li>What are the fixed costs (mask set, design NRE, tool depreciation) per unit at the realistic volume, rather than at the pitch-deck volume?</li>
+      <li>Is the constraint on this business wafer capacity, packaging capacity, substrate supply, or test time? The answer has moved several times since 2023.</li>
+      <li>Which export-control regime touches this, and is the exposure the customer, the tool, or the material?</li>
+      <li>For a claimed cost advantage, is it a materials advantage, a wafer-size advantage, a yield advantage, or a depreciated-equipment advantage? Only the first two survive a competitor with fresh capital.</li>
+      <li>Where is Chinese domestic capacity in this step today, and what does its arrival do to price? It has already halved silicon carbide substrate prices.</li>
+    </ul>
+
+    <p class="muted">Durable advantage in this industry has historically come from three places: a tool or material nobody else has learned to make (ASML, Ajinomoto, Shin-Etsu), a manufacturing learning curve run for decades at scale (TSMC), or ownership of an interface everyone has to design around (HBM, CoWoS, UCIe). It rarely comes from a device idea by itself, and most of the device ideas on this sheet were first demonstrated in a national lab twenty to forty years before anyone shipped one.</p>
+
+    <h3>Glossary</h3>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Term</th><th>What it means</th></tr></thead>
+      <tbody>
+        <tr><td>Backside power delivery</td><td>Building the power distribution network on the back of the wafer instead of on top of the transistors, so power and signal wiring stop competing for the same metal levels. Intel's PowerVia on 18A was first into production and reported roughly 30% less IR drop and 5–10% better standard-cell utilization. TSMC's version, Super Power Rail, arrives with A16.</td></tr>
+        <tr><td>Chiplet</td><td>One die of a multi-die product, connected to the others inside a package rather than on a board. The point is economic: small dies yield better than large ones, and only the blocks that benefit from the newest node have to be built on it. UCIe is the industry's attempt at a standard die-to-die interface.</td></tr>
+        <tr><td>CoWoS</td><td>Chip-on-wafer-on-substrate, TSMC's family of 2.5D packages. CoWoS-S puts every die on one silicon interposer, up to about 3.3 reticle fields; CoWoS-L embeds small silicon bridges in a molded interposer instead, which is cheaper and scales further. Nearly every AI accelerator shipped since 2023 is in one of them, and capacity has been the industry's bottleneck.</td></tr>
+        <tr><td>Defect density (D0)</td><td>Killer defects per square centimeter of wafer, the number that turns die area into yield. Mature processes run about 0.05–0.15/cm² and leading-edge processes about 0.2–0.5/cm² early in a ramp. A 1 cm² die at 0.1/cm² yields roughly 90%.</td></tr>
+        <tr><td>EUV</td><td>Extreme ultraviolet lithography at 13.5 nm, made by vaporizing tin droplets with a laser and focused entirely by mirrors, because EUV is absorbed by air and by glass. A 0.33 NA scanner prints about 13 nm half-pitch at 220 wafers per hour for $180–230M. ASML is the only company that builds one.</td></tr>
+        <tr><td>FinFET</td><td>A transistor whose channel stands up as a thin fin with the gate wrapped around three sides, which restores control of the channel at short gate lengths. Intel shipped it at 22 nm in 2011 and it carried the industry from 16 nm to 3 nm. Its limitation is quantization: drive current comes in whole fins, so device width is chosen in integer steps.</td></tr>
+        <tr><td>Gate-all-around (GAA)</td><td>Stacked horizontal channel sheets with the gate wrapped around all four sides of each. Sheet width is continuously tunable, so drive current stops being quantized the way it is with fins. Samsung shipped it first at 3 nm in 2022, TSMC at N2 in December 2025, Intel with RibbonFET on 18A in November 2025.</td></tr>
+        <tr><td>HBM</td><td>High-bandwidth memory: 8 to 16 thinned DRAM dies stacked on a base die and connected by through-silicon vias, exposing a very wide slow bus. HBM3E gives about 1.2 TB/s per stack over 1,024 bits; HBM4 doubles the interface to 2,048 bits for about 2 TB/s and entered production in early 2026.</td></tr>
+        <tr><td>Hybrid bonding</td><td>Bonding two dies copper pad to copper pad and oxide to oxide, with no solder and no gap. It reaches bond pitches around 6 µm today against 25–45 µm for microbumps, which is roughly two orders of magnitude more connections per mm². The price is CMP-flat surfaces, sub-200 nm placement accuracy, and cleanroom discipline in what used to be an assembly house.</td></tr>
+        <tr><td>Interposer</td><td>A slab of silicon (or organic build-up film) that sits between the dies and the package substrate and carries the fine wiring between them. A silicon interposer is patterned like a chip and has through-silicon vias for power, which is why its size is limited by the lithography reticle and has to be stitched past about 858 mm².</td></tr>
+        <tr><td>Known-good die</td><td>A die tested thoroughly enough before assembly that you are willing to bond it into something you cannot rework. It became a requirement rather than a nicety with chiplets and HBM: twelve dies at 99% each give an 89% stack, and the discarded stack contains eleven good dies.</td></tr>
+        <tr><td>Mask set</td><td>The full set of reticles for one design, 60–100 of them at an advanced node. An EUV reticle alone runs into the hundreds of thousands of dollars, and a leading-edge set into the tens of millions. It is a fixed cost per design, so it sets the minimum volume at which a node makes sense.</td></tr>
+        <tr><td>Multi-patterning</td><td>Building one design layer out of several exposures plus deposition and etch steps, so features come out finer than the tool can print. Litho-etch-litho-etch runs about 2.5× the cost of a single exposure; self-aligned double and quadruple patterning trade mask count for tighter control. The yield limiter is usually edge placement error between the separately printed pieces.</td></tr>
+        <tr><td>Numerical aperture (NA)</td><td>How wide a cone of light the lens collects, which together with wavelength sets resolution. Immersion lithography puts water in the gap to reach NA 1.35 at 193 nm. EUV scanners run NA 0.33, and High-NA raises it to 0.55 using anamorphic optics that halve the exposure field.</td></tr>
+        <tr><td>Overlay</td><td>How accurately one patterned layer lands on the one beneath it, quoted in nanometers. Current immersion scanners hold about 1.3 nm machine-to-machine and 1.7 nm on product. Multi-patterning and 3D stacking are both usually limited by overlay rather than by resolution.</td></tr>
+        <tr><td>Process node</td><td>A marketing name for a process generation. It stopped corresponding to any physical dimension around 2011, so "3 nm" describes a density and performance class rather than a measured feature. Compare nodes by transistor density, SRAM cell size, and published power/performance deltas instead.</td></tr>
+        <tr><td>Reticle limit</td><td>The largest area a scanner can expose in one shot, about 26 × 33 mm or 858 mm² on standard EUV and immersion tools. It caps monolithic die size, which is a large part of why big designs became chiplets. High-NA halves it to 26 × 16.5 mm, so anything larger has to be stitched from two exposures.</td></tr>
+        <tr><td>Through-silicon via (TSV)</td><td>A metal-filled hole that goes all the way through a thinned die or interposer, carrying signal and power vertically. TSVs are what make interposers and stacked memory possible, and they force wafer thinning to tens of microns, which brings its own warpage and handling problems.</td></tr>
+      </tbody>
+    </table></div>
