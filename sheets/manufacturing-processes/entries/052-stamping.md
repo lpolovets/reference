@@ -5,7 +5,7 @@ part: 2
 group: "Sheet-Metal Forming"
 materials: [metal]
 volumes: [high]
-tooling: high
+tooling: mod
 ---
 
 ## Description

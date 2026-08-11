@@ -5,7 +5,7 @@ part: 2
 group: "Abrasive & Precision Machining"
 materials: [metal]
 volumes: [low, med]
-tooling: mod
+tooling: low
 ---
 
 ## Description

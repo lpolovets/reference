@@ -5,7 +5,7 @@ part: 2
 group: "Conventional Machining"
 materials: [metal]
 volumes: [high, cont]
-tooling: mod
+tooling: min
 ---
 
 ## Description

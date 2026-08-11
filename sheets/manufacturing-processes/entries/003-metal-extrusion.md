@@ -5,7 +5,7 @@ part: 1
 group: "Continuous Stock Production"
 materials: [metal]
 volumes: [med, high, cont]
-tooling: mod
+tooling: low
 ---
 
 ## Description

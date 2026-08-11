@@ -5,7 +5,7 @@ part: 2
 group: "Glass & Ceramic Forming"
 materials: [ceramic]
 volumes: [med, high]
-tooling: high
+tooling: mod
 ---
 
 ## Description

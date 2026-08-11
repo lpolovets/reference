@@ -5,7 +5,7 @@ part: 2
 group: "Rubber Manufacturing"
 materials: [rubber, composite]
 volumes: [high]
-tooling: vhigh
+tooling: mod
 ---
 
 ## Description

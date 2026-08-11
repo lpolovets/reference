@@ -5,7 +5,7 @@ part: 2
 group: "Bulk Metal Deformation"
 materials: [metal]
 volumes: [high]
-tooling: mod
+tooling: low
 ---
 
 ## Description

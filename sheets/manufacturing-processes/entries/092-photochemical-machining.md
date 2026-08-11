@@ -5,7 +5,7 @@ part: 2
 group: "Nontraditional Material Removal"
 materials: [metal]
 volumes: [low, med, high]
-tooling: low
+tooling: min
 ---
 
 ## Description
