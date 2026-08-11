@@ -74,6 +74,8 @@ nav.tabs button:hover{color:var(--ink)}
 .ptile{display:flex;flex-direction:column;align-items:flex-start;text-align:left;background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:10px 12px 9px;border-top:3px solid var(--pc,var(--line));transition:background .12s}
 .ptile:hover{background:var(--surface2)}
 .ptile[aria-pressed="true"]{background:var(--surface2);border-color:var(--pc);box-shadow:inset 0 0 0 1px var(--pc)}
+.ptile .pimg{display:block;width:100%;height:74px;object-fit:contain;object-position:center;margin:-2px 0 5px;border-radius:3px;background:#F2F3F1}
+.ptile .pimgnone{background:transparent}
 .ptile .pn{font-family:var(--mono);font-size:10px;letter-spacing:.12em;color:var(--pc);text-transform:uppercase}
 .ptile .pt{font-size:12.5px;font-weight:600;line-height:1.25;margin:3px 0 0}
 .ptile .pb{font-size:11px;color:var(--ink2);line-height:1.35;margin:2px 0 4px}

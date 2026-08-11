@@ -156,8 +156,18 @@ function render(){
 }
 
 // ----- build part tiles -----
+// A class image is optional per class and website-only (the artifact blocks external
+// requests). alt="" because the tile's own text already names the class, so the image
+// is decoration and announcing it twice only slows a screen reader down.
+// Class images are deliberately allowed to be sparse — some classes have no subject that
+// draws well. Once ANY class on the sheet has one, the classes without one reserve the
+// same block of space, so every tile's title still starts on the same line. Without this
+// a single missing image pulls one title to the top of its tile and reads as a bug.
+const anyPartImg = EMBED_OK && SHEET.parts.some(p=>p.img);
 $("partTiles").innerHTML = SHEET.parts.map(part=>
   '<button class="ptile" data-p="'+part.id+'" style="--pc:'+part.color+'" aria-pressed="false">'+
+  (part.img && EMBED_OK ? '<img class="pimg" src="'+part.img+'" alt="" loading="lazy">'
+    : anyPartImg ? '<span class="pimg pimgnone" aria-hidden="true"></span>' : '')+
   '<span class="pn">'+SHEET.groupLabel+' '+part.roman+'</span>'+
   '<span class="pt" style="display:block">'+part.name+'</span>'+
   (part.blurb ? '<span class="pb" style="display:block">'+part.blurb+'</span>' : '')+

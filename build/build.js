@@ -179,12 +179,21 @@ function loadSheet(dir) {
   const rel = path.relative(ROOT, edir);
   const entries = files.map(f => parseEntry(sheet, rel + '/' + f, fs.readFileSync(path.join(edir, f), 'utf8')));
   // optional per-entry illustration: sheets/<slug>/images/<zero-padded number>.<ext>
+  // optional per-class illustration: sheets/<slug>/images/part-<part id>.<ext>
+  // Both are opt-in per file, so a sheet can illustrate the classes it has a good
+  // image for and leave the rest plain — an omitted class simply renders as before.
   const idir = path.join(dir, 'images');
   if (fs.existsSync(idir)) {
     for (const e of entries) {
       for (const ext of ['jpg', 'png', 'webp']) {
         const img = String(e.n).padStart(3, '0') + '.' + ext;
         if (fs.existsSync(path.join(idir, img))) { e.img = 'images/' + img; break; }
+      }
+    }
+    for (const p of sheet.parts) {
+      for (const ext of ['jpg', 'png', 'webp']) {
+        const img = 'part-' + p.id + '.' + ext;
+        if (fs.existsSync(path.join(idir, img))) { p.img = 'images/' + img; break; }
       }
     }
   }
@@ -326,7 +335,10 @@ function composeBody(sheetData, artifact) {
   }).join('\n');
 
   const clientSheet = {
-    unit: sheet.unit, groupLabel: sheet.groupLabel, parts: sheet.parts,
+    unit: sheet.unit, groupLabel: sheet.groupLabel,
+    // The artifact blocks external requests, so it never renders class images. Strip the
+    // paths rather than shipping dead references that a later change might try to fetch.
+    parts: artifact ? sheet.parts.map(({ img, ...p }) => p) : sheet.parts,
     groupBlurbs: sheet.groupBlurbs,
     facets: sheet.facets.map(f => {
       const cf = { id: f.id, label: f.label, type: f.type, color: f.color, order: f.order, options: f.options };
