@@ -39,4 +39,4 @@ These are national infrastructure projects costing hundreds of millions to low b
 
 ## Further reading
 
-[Waves and Frequency Ranges (Radar Tutorial)](https://www.radartutorial.eu/07.waves/Waves%20and%20Frequency%20Ranges.en.html)
+[Waves and Frequency Ranges (Radar Tutorial)](https://www.radartutorial.eu/07.waves/Waves%20and%20Frequency%20Ranges.en.html) · [Jindalee Over-the-Horizon Radar (Engineers Australia)](https://portal.engineersaustralia.org.au/system/files/engineering-heritage-australia/nomination-title/Jindalee.Nomination.V14.June%202016.pdf)

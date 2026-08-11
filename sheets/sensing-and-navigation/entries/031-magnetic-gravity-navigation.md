@@ -37,4 +37,4 @@ Interest is recent and driven by GNSS denial. Quantum magnetometers — opticall
 
 ## Further reading
 
-[Research and development projects (MIT Lincoln Laboratory)](https://www.ll.mit.edu/r-d/projects) · [Earth Magnetic Anomaly Grid (EMAG) 2 (NOAA National Centers for Environmental Information)](https://www.ncei.noaa.gov/products/earth-magnetic-model-anomaly-grid-2)
+[MagNav project successfully demonstrates real-time magnetic navigation (MIT Lincoln Laboratory)](https://www.ll.mit.edu/news/magnav-project-successfully-demonstrates-real-time-magnetic-navigation) · [Earth Magnetic Anomaly Grid (EMAG) 2 (NOAA National Centers for Environmental Information)](https://www.ncei.noaa.gov/products/earth-magnetic-model-anomaly-grid-2)

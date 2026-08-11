@@ -37,4 +37,4 @@ GNSS is free infrastructure paid for by four governments and consumed by a globa
 
 ## Further reading
 
-[GPS.gov: official U.S. government information about GPS](https://www.gps.gov/)
+[GPS.gov: official U.S. government information about GPS](https://www.gps.gov/) · [GNSS Receivers General Introduction (ESA Navipedia)](https://gssc.esa.int/navipedia/index.php/GNSS_Receivers_General_Introduction)

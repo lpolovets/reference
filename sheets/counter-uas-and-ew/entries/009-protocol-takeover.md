@@ -39,4 +39,4 @@ This is a niche with a strong civil market, because it is the only defeat mechan
 
 ## Further reading
 
-[Department of Defense Counter-Unmanned Aircraft Systems (Congressional Research Service)](https://www.everycrsreport.com/reports/IF11426.html) · [Counter-Unmanned Aircraft Systems (US Department of Homeland Security)](https://www.dhs.gov/science-and-technology/counter-unmanned-aircraft-systems-c-uas)
+[Department of Defense Counter Unmanned Aircraft Systems: Background and Issues for Congress (Congressional Research Service)](https://www.everycrsreport.com/reports/R48477.html) · [Counter-Unmanned Aircraft Systems (US Department of Homeland Security)](https://www.dhs.gov/science-and-technology/counter-unmanned-aircraft-systems-c-uas)

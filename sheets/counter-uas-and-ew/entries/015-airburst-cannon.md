@@ -39,4 +39,4 @@ The Gepard's performance in Ukraine — a 1970s gun system destroying modern att
 
 ## Further reading
 
-[Department of Defense Counter-Unmanned Aircraft Systems (Congressional Research Service)](https://www.everycrsreport.com/reports/IF11426.html) · [U.S. Army's Maneuver Short-Range Air Defense (M-SHORAD) System (Congressional Research Service)](https://www.everycrsreport.com/reports/IF12397.html)
+[Department of Defense Counter Unmanned Aircraft Systems: Background and Issues for Congress (Congressional Research Service)](https://www.everycrsreport.com/reports/R48477.html) · [U.S. Army's Maneuver Short-Range Air Defense (M-SHORAD) System (Congressional Research Service)](https://www.everycrsreport.com/reports/IF12397.html)

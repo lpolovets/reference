@@ -39,4 +39,4 @@ Sensor cost has fallen sharply with commercial thermal and visible imaging, so a
 
 ## Further reading
 
-[Department of Defense Counter-Unmanned Aircraft Systems (Congressional Research Service)](https://www.everycrsreport.com/reports/IF11426.html)
+[Department of Defense Counter Unmanned Aircraft Systems: Background and Issues for Congress (Congressional Research Service)](https://www.everycrsreport.com/reports/R48477.html) · [Thermal Infrared Sensor Design Considerations for Counter-UAS Defense (Teledyne FLIR)](https://oem.flir.com/en-150/learn/discover/thermal-infrared-sensor-design-considerations-for-counter-uas-defense/)

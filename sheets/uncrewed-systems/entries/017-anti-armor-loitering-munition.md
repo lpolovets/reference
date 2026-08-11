@@ -39,4 +39,4 @@ Unit costs of $100k–300k put these weapons in direct competition with anti-tan
 
 ## Further reading
 
-[Defense Primer: Categories of Uncrewed Aircraft Systems (Congressional Research Service)](https://www.everycrsreport.com/reports/IF12797.html) · [Research publications (Royal United Services Institute)](https://www.rusi.org/explore-our-research/publications)
+[Defense Primer: Categories of Uncrewed Aircraft Systems (Congressional Research Service)](https://www.everycrsreport.com/reports/IF12797.html) · [The Uninhabited War in Ukraine (International Institute for Strategic Studies)](https://www.iiss.org/globalassets/media-library---content--migration/files/publications---free-files/strategic-dossier/uavs-2026/iiss_ch-3-uavs-isr-deterrence-and-war_032026.pdf)

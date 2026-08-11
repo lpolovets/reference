@@ -39,4 +39,4 @@ This is the cheapest useful counter-UAS capability and the segment with the most
 
 ## Further reading
 
-[Department of Defense Counter-Unmanned Aircraft Systems (Congressional Research Service)](https://www.everycrsreport.com/reports/IF11426.html) · [Unmanned Aircraft Systems (Federal Aviation Administration)](https://www.faa.gov/uas)
+[Department of Defense Counter Unmanned Aircraft Systems: Background and Issues for Congress (Congressional Research Service)](https://www.everycrsreport.com/reports/R48477.html) · [Unmanned Aircraft Systems (Federal Aviation Administration)](https://www.faa.gov/uas)

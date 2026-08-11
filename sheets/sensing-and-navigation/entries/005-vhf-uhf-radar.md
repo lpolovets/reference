@@ -38,4 +38,4 @@ VHF radar is comparatively cheap to build and widely exported, which makes it on
 
 ## Further reading
 
-[Waves and Frequency Ranges (Radar Tutorial)](https://www.radartutorial.eu/07.waves/Waves%20and%20Frequency%20Ranges.en.html)
+[Waves and Frequency Ranges (Radar Tutorial)](https://www.radartutorial.eu/07.waves/Waves%20and%20Frequency%20Ranges.en.html) · [The Radar Game: Understanding Stealth and Aircraft Survivability (Mitchell Institute for Aerospace Studies)](https://www.mitchellaerospacepower.org/the-radar-game-understanding-stealth-and-aircraft-survivability/)

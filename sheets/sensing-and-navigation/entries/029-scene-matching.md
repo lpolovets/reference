@@ -37,4 +37,4 @@ This is the cheapest anti-jam navigation technology available and it is diffusin
 
 ## Further reading
 
-[A Minimal State Augmentation Algorithm for Vision-Based Navigation (NASA Technical Reports Server)](https://ntrs.nasa.gov/citations/20190033574)
+[A digital scene matching technique for geometric image correction and autonomous navigation (NASA Technical Reports Server)](https://ntrs.nasa.gov/citations/19790017914) · [Cross-view geo-localization: a survey (arXiv)](https://arxiv.org/abs/2406.09722)

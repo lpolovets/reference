@@ -39,4 +39,4 @@ Undersea sensing is expensive, concentrated among a few national suppliers, and 
 
 ## Further reading
 
-[What is sonar? (NOAA National Ocean Service)](https://oceanservice.noaa.gov/facts/sonar.html)
+[The Sound Surveillance System (SOSUS) (Federation of American Scientists)](https://irp.fas.org/program/collect/sosus.htm) · [TB-29 Thin Line Towed Array (Federation of American Scientists)](https://man.fas.org/dod-101/sys/ship/weaps/tb-29.htm)

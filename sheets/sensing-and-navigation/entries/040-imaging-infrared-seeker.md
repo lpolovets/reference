@@ -38,4 +38,4 @@ Imaging seeker cost is dominated by the cooled focal plane array and its cooler,
 
 ## Further reading
 
-[Fundamentals of Infrared Detector Materials (SPIE)](https://spie.org/publications/fundamentals-of-infrared-detector-materials)
+[Fundamentals of Infrared Detector Materials (SPIE)](https://spie.org/publications/fundamentals-of-infrared-detector-materials) · [Infrared System Test and Evaluation at APL (Johns Hopkins APL Technical Digest)](https://secwww.jhuapl.edu/techdigest/content/techdigest/pdf/V18-N03/18-03-Gear.pdf)

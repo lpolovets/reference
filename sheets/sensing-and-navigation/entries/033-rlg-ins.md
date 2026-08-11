@@ -37,4 +37,4 @@ The market is mature and concentrated among Honeywell, Northrop Grumman, Safran,
 
 ## Further reading
 
-[On the Calculation of an Inertial Navigation System (NASA Technical Reports Server)](https://ntrs.nasa.gov/citations/19670014147)
+[On the Calculation of an Inertial Navigation System (NASA Technical Reports Server)](https://ntrs.nasa.gov/citations/19670014147) · [Gyroscope Technology and Applications: A Review in the Industrial Perspective (Sensors via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC5677445/)

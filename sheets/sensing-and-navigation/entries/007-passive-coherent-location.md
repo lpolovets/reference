@@ -39,4 +39,4 @@ Hardware costs are low — software-defined receivers and commodity compute — 
 
 ## Further reading
 
-[Radar Principle (Radar Tutorial)](https://www.radartutorial.eu/01.basics/Radar%20Principle.en.html)
+[Radar Principle (Radar Tutorial)](https://www.radartutorial.eu/01.basics/Radar%20Principle.en.html) · [DVB-T based Passive Bistatic Radar (Norwegian Defence Research Establishment)](https://www.ffi.no/en/publications-archive/dvb-t-based-passive-bistatic-radar)

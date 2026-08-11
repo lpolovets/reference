@@ -39,4 +39,4 @@ Unit costs of $100k–1M sit below anti-radiation missiles while offering loiter
 
 ## Further reading
 
-[Defense Primer: Categories of Uncrewed Aircraft Systems (Congressional Research Service)](https://www.everycrsreport.com/reports/IF12797.html) · [Research publications (Royal United Services Institute)](https://www.rusi.org/explore-our-research/publications)
+[Defense Primer: Categories of Uncrewed Aircraft Systems (Congressional Research Service)](https://www.everycrsreport.com/reports/IF12797.html) · [Mapping the Development of Autonomy in Weapon Systems (Stockholm International Peace Research Institute)](https://www.sipri.org/publications/2017/policy-reports/mapping-development-autonomy-weapon-systems)

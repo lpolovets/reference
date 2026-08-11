@@ -39,4 +39,4 @@ This class has done more to change strike economics than any other recent system
 
 ## Further reading
 
-[Iran's Transfer of Weaponry to Russia for Use in Ukraine (Congressional Research Service)](https://www.everycrsreport.com/reports/IN12042.html) · [Research publications (Royal United Services Institute)](https://www.rusi.org/explore-our-research/publications)
+[Iran's Transfer of Weaponry to Russia for Use in Ukraine (Congressional Research Service)](https://www.everycrsreport.com/reports/IN12042.html) · [Shahed-131 and -136 (CSIS Missile Defense Project)](https://missilethreat.csis.org/missile/shahed-131-and-136/)

@@ -39,4 +39,4 @@ Unit costs run $20k–80k, which is far above an FPV drone and far below a guide
 
 ## Further reading
 
-[Defense Primer: Categories of Uncrewed Aircraft Systems (Congressional Research Service)](https://www.everycrsreport.com/reports/IF12797.html) · [Research publications (Royal United Services Institute)](https://www.rusi.org/explore-our-research/publications)
+[Defense Primer: Categories of Uncrewed Aircraft Systems (Congressional Research Service)](https://www.everycrsreport.com/reports/IF12797.html) · [Loitering Munitions In Focus (Center for the Study of the Drone at Bard College)](https://dronecenter.bard.edu/loitering-munitions-in-focus/)

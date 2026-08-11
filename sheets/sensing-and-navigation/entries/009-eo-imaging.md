@@ -39,4 +39,4 @@ This is the most commoditized sensing category in defense. Consumer and automoti
 
 ## Further reading
 
-[Earth observation data basics (NASA Earthdata)](https://www.earthdata.nasa.gov/learn/backgrounders/remote-sensing)
+[Earth observation data basics (NASA Earthdata)](https://www.earthdata.nasa.gov/learn/backgrounders/remote-sensing) · [National Security Space: Actions Needed to Better Use Commercial Satellite Imagery and Analytics (GAO)](https://www.gao.gov/products/gao-22-106106)

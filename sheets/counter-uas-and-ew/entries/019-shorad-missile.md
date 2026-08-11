@@ -38,4 +38,4 @@ The Red Sea campaign made this problem concrete: US Navy destroyers expended mil
 
 ## Further reading
 
-[U.S. Army's Maneuver Short-Range Air Defense (M-SHORAD) System (Congressional Research Service)](https://www.everycrsreport.com/reports/IF12397.html) · [Research publications (Royal United Services Institute)](https://www.rusi.org/explore-our-research/publications)
+[U.S. Army's Maneuver Short-Range Air Defense (M-SHORAD) System (Congressional Research Service)](https://www.everycrsreport.com/reports/IF12397.html) · [Cost and Value in Air and Missile Defense Intercepts (Center for Strategic and International Studies)](https://www.csis.org/analysis/cost-and-value-air-and-missile-defense-intercepts)

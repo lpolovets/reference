@@ -39,4 +39,4 @@ Infrared seekers are the largest-volume guided weapon seeker category and among 
 
 ## Further reading
 
-[Homeland Security: Protecting Airliners from Terrorist Missiles (Congressional Research Service)](https://www.everycrsreport.com/reports/RL31741.html)
+[Homeland Security: Protecting Airliners from Terrorist Missiles (Congressional Research Service)](https://www.everycrsreport.com/reports/RL31741.html) · [Fundamentals of Naval Weapons Systems, Chapter 10: Visible and Infrared Spectrum (US Naval Academy)](https://man.fas.org/dod-101/navy/docs/fun/part10.htm)

@@ -39,4 +39,4 @@ A fiber spool adds $150–500 to a drone that otherwise costs a few hundred doll
 
 ## Further reading
 
-[Research publications (Royal United Services Institute)](https://www.rusi.org/explore-our-research/publications) · [Emerging Military Technologies: Background and Issues for Congress (Congressional Research Service)](https://www.everycrsreport.com/reports/R46458.html)
+[The Russia-Ukraine Drone War: Innovation on the Frontlines and Beyond (Center for Strategic and International Studies)](https://www.csis.org/analysis/russia-ukraine-drone-war-innovation-frontlines-and-beyond) · [Emerging Military Technologies: Background and Issues for Congress (Congressional Research Service)](https://www.everycrsreport.com/reports/R46458.html)

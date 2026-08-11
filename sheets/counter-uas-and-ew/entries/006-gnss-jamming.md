@@ -39,4 +39,4 @@ Jammers are the cheapest counter-drone capability by an enormous margin — tens
 
 ## Further reading
 
-[GPS.gov: official U.S. government information about GPS](https://www.gps.gov/)
+[GPS.gov: official U.S. government information about GPS](https://www.gps.gov/) · [Global Navigation Space Systems: reliance and vulnerabilities (Royal Academy of Engineering)](https://www.raeng.org.uk/media/5shgtv4t/global-navigation-space-systems.pdf)

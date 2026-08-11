@@ -39,4 +39,4 @@ Solid-state gallium nitride amplifier arrays are what made these systems practic
 
 ## Further reading
 
-[Department of Defense Directed Energy Weapons: Background and Issues for Congress (Congressional Research Service)](https://www.everycrsreport.com/reports/R46925.html)
+[Department of Defense Directed Energy Weapons: Background and Issues for Congress (Congressional Research Service)](https://www.everycrsreport.com/reports/R46925.html) · [Science & Tech Spotlight: Directed Energy Weapons (Government Accountability Office)](https://www.gao.gov/products/gao-23-106717)

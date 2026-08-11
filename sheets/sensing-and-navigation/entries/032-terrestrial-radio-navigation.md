@@ -37,4 +37,4 @@ The economics are public-infrastructure economics: high fixed cost, no direct re
 
 ## Further reading
 
-[GPS.gov: official U.S. government information about GPS](https://www.gps.gov/)
+[GPS.gov: official U.S. government information about GPS](https://www.gps.gov/) · [2021 Federal Radionavigation Plan (Departments of Defense, Transportation, and Homeland Security)](https://www.navcen.uscg.gov/sites/default/files/pdf/2021_Federal_Rdionavigation_Plan.pdf)

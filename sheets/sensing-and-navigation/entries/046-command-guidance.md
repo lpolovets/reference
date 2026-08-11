@@ -39,4 +39,4 @@ Command guidance is the cheap end of guided weapons and it has become newly impo
 
 ## Further reading
 
-[Defense Primer: U.S. Precision-Guided Munitions (Congressional Research Service)](https://www.everycrsreport.com/reports/IF11353.html)
+[Defense Primer: U.S. Precision-Guided Munitions (Congressional Research Service)](https://www.everycrsreport.com/reports/IF11353.html) · [Guidance of Missiles, Chapter 8: The Line of Sight Guidance Law (NPTEL)](https://archive.nptel.ac.in/content/storage2/courses/101108054/module7/lecture19.pdf)

@@ -38,4 +38,4 @@ This is the clearest recent case of adapting existing inventory to a new problem
 
 ## Further reading
 
-[Department of Defense Counter-Unmanned Aircraft Systems (Congressional Research Service)](https://www.everycrsreport.com/reports/IF11426.html) · [Defense Primer: U.S. Precision-Guided Munitions (Congressional Research Service)](https://www.everycrsreport.com/reports/IF11353.html)
+[Department of Defense Counter Unmanned Aircraft Systems: Background and Issues for Congress (Congressional Research Service)](https://www.everycrsreport.com/reports/R48477.html) · [Defense Primer: U.S. Precision-Guided Munitions (Congressional Research Service)](https://www.everycrsreport.com/reports/IF11353.html)

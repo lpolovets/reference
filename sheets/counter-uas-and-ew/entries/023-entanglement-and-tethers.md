@@ -33,4 +33,4 @@ There is essentially no market, because this is a technique rather than a produc
 
 ## Further reading
 
-[Department of Defense Counter-Unmanned Aircraft Systems (Congressional Research Service)](https://www.everycrsreport.com/reports/IF11426.html) · [Research publications (Royal United Services Institute)](https://www.rusi.org/explore-our-research/publications)
+[Department of Defense Counter Unmanned Aircraft Systems: Background and Issues for Congress (Congressional Research Service)](https://www.everycrsreport.com/reports/R48477.html) · [Mobile Force Protection Program Concludes with Successful Demonstration (Defense Advanced Research Projects Agency)](https://www.darpa.mil/news/2021/mobile-force-protection-demonstration)

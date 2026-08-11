@@ -39,4 +39,4 @@ Sonobuoys are one of the clearer cases of a consumable driving strategic capabil
 
 ## Further reading
 
-[What is sonar? (NOAA National Ocean Service)](https://oceanservice.noaa.gov/facts/sonar.html)
+[Sonobuoys (Federation of American Scientists)](https://man.fas.org/dod-101/sys/ship/weaps/sonobuoys.htm) · [AN/SSQ-53 Directional Frequency Analysis and Recording Sonobuoy (Federation of American Scientists)](https://man.fas.org/dod-101/sys/ship/weaps/an-ssq-53.htm)

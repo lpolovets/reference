@@ -38,4 +38,4 @@ Anti-radiation missiles are expensive — several hundred thousand to over a mil
 
 ## Further reading
 
-[Defense Primer: Electronic Warfare (Congressional Research Service)](https://www.everycrsreport.com/reports/IF11118.html)
+[Defense Primer: Electronic Warfare (Congressional Research Service)](https://www.everycrsreport.com/reports/IF11118.html) · [Anti-Radiation Missiles vs. Radars (International Journal of Electronics and Telecommunications)](https://journals.pan.pl/Content/87423)

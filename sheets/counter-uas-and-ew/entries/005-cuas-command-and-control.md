@@ -39,4 +39,4 @@ Software is a small fraction of system cost and a large fraction of system value
 
 ## Further reading
 
-[Department of Defense Counter-Unmanned Aircraft Systems (Congressional Research Service)](https://www.everycrsreport.com/reports/IF11426.html) · [SAPIENT autonomous sensor system (Defence Science and Technology Laboratory)](https://www.gov.uk/guidance/sapient-autonomous-sensor-system)
+[Department of Defense Counter Unmanned Aircraft Systems: Background and Issues for Congress (Congressional Research Service)](https://www.everycrsreport.com/reports/R48477.html) · [SAPIENT autonomous sensor system (Defence Science and Technology Laboratory)](https://www.gov.uk/guidance/sapient-autonomous-sensor-system)

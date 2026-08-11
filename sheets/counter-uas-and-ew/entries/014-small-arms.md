@@ -38,4 +38,4 @@ This is the cheapest possible engagement and the least reliable, which is exactl
 
 ## Further reading
 
-[Department of Defense Counter-Unmanned Aircraft Systems (Congressional Research Service)](https://www.everycrsreport.com/reports/IF11426.html) · [Research publications (Royal United Services Institute)](https://www.rusi.org/explore-our-research/publications)
+[Department of Defense Counter Unmanned Aircraft Systems: Background and Issues for Congress (Congressional Research Service)](https://www.everycrsreport.com/reports/R48477.html) · [Analysis of the Influence of Selected Parameters on the Success Rate of Shotgun Firing on UAVs (Measurement Science Review)](https://reference-global.com/article/10.2478/msr-2026-0012)

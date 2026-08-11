@@ -39,4 +39,4 @@ IRST is a high-value, low-volume segment dominated by the same suppliers as cool
 
 ## Further reading
 
-[Fundamentals of Infrared Detector Materials (SPIE)](https://spie.org/publications/fundamentals-of-infrared-detector-materials)
+[Fundamentals of Infrared Detector Materials (SPIE)](https://spie.org/publications/fundamentals-of-infrared-detector-materials) · [Infrared Dim Small Target Detection Networks: A Review (Sensors via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11207645/)

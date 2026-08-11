@@ -39,4 +39,4 @@ This is the cheapest precision guidance available, and the APKWS case is the cle
 
 ## Further reading
 
-[Defense Primer: U.S. Precision-Guided Munitions (Congressional Research Service)](https://www.everycrsreport.com/reports/IF11353.html)
+[Defense Primer: U.S. Precision-Guided Munitions (Congressional Research Service)](https://www.everycrsreport.com/reports/IF11353.html) · [TRADOC Pam 34-3, Joint Laser Designation Procedures (US Army Training and Doctrine Command)](https://man.fas.org/dod-101/sys/smart/docs/p34-3.htm)

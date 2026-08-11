@@ -39,4 +39,4 @@ This is the commodity end of radar. Prices per unit of detection range are far b
 
 ## Further reading
 
-[Radar Principle (Radar Tutorial)](https://www.radartutorial.eu/01.basics/Radar%20Principle.en.html)
+[Radar Principle (Radar Tutorial)](https://www.radartutorial.eu/01.basics/Radar%20Principle.en.html) · [Airport Surveillance Radar (ASR-11) (Federal Aviation Administration)](https://www.faa.gov/air_traffic/technology/asr-11)

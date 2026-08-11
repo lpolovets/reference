@@ -37,4 +37,4 @@ This is the most commoditized inertial technology by far, driven by phone and au
 
 ## Further reading
 
-[SmallSat Precision Navigation with Low-Cost MEMS IMU Swarms (NASA Technical Reports Server)](https://ntrs.nasa.gov/citations/20150016068)
+[SmallSat Precision Navigation with Low-Cost MEMS IMU Swarms (NASA Technical Reports Server)](https://ntrs.nasa.gov/citations/20150016068) · [Reliability of MEMS inertial devices in mechanical and thermal environments: A review (Heliyon via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10937697/)

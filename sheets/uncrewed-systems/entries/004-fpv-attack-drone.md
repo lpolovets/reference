@@ -39,4 +39,4 @@ This is manufacturing at a scale and price point that traditional defense indust
 
 ## Further reading
 
-[Emerging Military Technologies: Background and Issues for Congress (Congressional Research Service)](https://www.everycrsreport.com/reports/R46458.html) · [Research publications (Royal United Services Institute)](https://www.rusi.org/explore-our-research/publications)
+[Emerging Military Technologies: Background and Issues for Congress (Congressional Research Service)](https://www.everycrsreport.com/reports/R46458.html) · [Tactical Developments During the Third Year of the Russo–Ukrainian War (Royal United Services Institute)](https://www.rusi.org/explore-our-research/publications/special-resources/tactical-developments-during-third-year-russo-ukrainian-war)

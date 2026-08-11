@@ -39,4 +39,4 @@ This is the clearest recent case of an asymmetric capability built from commerci
 
 ## Further reading
 
-[Navy Large Unmanned Surface Vessels: Background and Issues for Congress (Congressional Research Service)](https://www.everycrsreport.com/reports/R45757.html) · [Research publications (Royal United Services Institute)](https://www.rusi.org/explore-our-research/publications)
+[Navy Large Unmanned Surface Vessels: Background and Issues for Congress (Congressional Research Service)](https://www.everycrsreport.com/reports/R45757.html) · [Uncrewed Platforms Have Been Critical to Ukraine's Success in the Black Sea (Royal United Services Institute)](https://www.rusi.org/explore-our-research/publications/commentary/uncrewed-platforms-have-been-critical-ukraines-success-black-sea)

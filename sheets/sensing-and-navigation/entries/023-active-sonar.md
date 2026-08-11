@@ -39,4 +39,4 @@ Full shipborne active sonar suites cost tens of millions and are built by a smal
 
 ## Further reading
 
-[What is sonar? (NOAA National Ocean Service)](https://oceanservice.noaa.gov/facts/sonar.html)
+[AN/SQS-53 Sonar (Federation of American Scientists)](https://man.fas.org/dod-101/sys/ship/weaps/an-sqs-53.htm) · [Incidental Take Authorizations for Military Readiness Activities (NOAA Fisheries)](https://www.fisheries.noaa.gov/national/marine-mammal-protection/incidental-take-authorizations-military-readiness-activities)

@@ -39,4 +39,4 @@ Jamming hardware is cheap and the technology diffuses easily, which is why tacti
 
 ## Further reading
 
-[Defense Primer: Electronic Warfare (Congressional Research Service)](https://www.everycrsreport.com/reports/IF11118.html)
+[Defense Primer: Electronic Warfare (Congressional Research Service)](https://www.everycrsreport.com/reports/IF11118.html) · [Electronic Warfare in Ukraine (Joint Air Power Competence Centre)](https://www.japcc.org/articles/electronic-warfare-in-ukraine/)

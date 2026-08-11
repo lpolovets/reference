@@ -38,4 +38,4 @@ This is the cheapest counter-drone measure by a very wide margin and the one wit
 
 ## Further reading
 
-[Research publications (Royal United Services Institute)](https://www.rusi.org/explore-our-research/publications) · [Department of Defense Counter-Unmanned Aircraft Systems (Congressional Research Service)](https://www.everycrsreport.com/reports/IF11426.html)
+[Missiles, Guns, Lasers . . . and Nets: The Case for Passive Drone Defenses (Modern War Institute)](https://mwi.westpoint.edu/missiles-guns-lasers-and-nets-the-case-for-passive-drone-defenses/) · [Department of Defense Counter Unmanned Aircraft Systems: Background and Issues for Congress (Congressional Research Service)](https://www.everycrsreport.com/reports/R48477.html)

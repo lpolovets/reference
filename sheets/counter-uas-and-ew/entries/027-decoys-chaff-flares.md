@@ -38,4 +38,4 @@ Countermeasure dispensers and expendables are cheap, high-volume, and produced b
 
 ## Further reading
 
-[Defense Primer: Electronic Warfare (Congressional Research Service)](https://www.everycrsreport.com/reports/IF11118.html)
+[Defense Primer: Electronic Warfare (Congressional Research Service)](https://www.everycrsreport.com/reports/IF11118.html) · [Electronic Warfare: Towed Decoys Could Improve Survivability of Current Navy Aircraft (U.S. Government Accountability Office)](https://www.gao.gov/products/nsiad-97-94)

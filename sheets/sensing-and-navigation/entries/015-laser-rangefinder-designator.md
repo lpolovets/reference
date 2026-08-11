@@ -39,4 +39,4 @@ Rangefinders are commodity items now, with handheld units at a few thousand doll
 
 ## Further reading
 
-[Defense Primer: U.S. Precision-Guided Munitions (Congressional Research Service)](https://www.everycrsreport.com/reports/IF11353.html)
+[Defense Primer: U.S. Precision-Guided Munitions (Congressional Research Service)](https://www.everycrsreport.com/reports/IF11353.html) · [Laser rangefinder built with APDs and PLDs (Laser Components)](https://www.lasercomponents.com/en/photonics-portal/knowledge-center/application-notes/laser-rangefinder/)

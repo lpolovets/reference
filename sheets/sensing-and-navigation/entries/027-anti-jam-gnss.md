@@ -37,4 +37,4 @@ This is a large, slow, expensive modernization market. M-code fielding alone is 
 
 ## Further reading
 
-[GPS.gov: official U.S. government information about GPS](https://www.gps.gov/)
+[GPS.gov: official U.S. government information about GPS](https://www.gps.gov/) · [GPS Modernization: Delays Continue in Delivering More Secure Capability for the Warfighter (GAO)](https://www.gao.gov/products/gao-24-106841)

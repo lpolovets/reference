@@ -39,4 +39,4 @@ SAR was the technology that most clearly changed with smallsats. ICEYE and Capel
 
 ## Further reading
 
-[Synthetic Aperture Radar (NASA Earthdata)](https://www.earthdata.nasa.gov/learn/backgrounders/what-is-sar)
+[Synthetic Aperture Radar (NASA Earthdata)](https://www.earthdata.nasa.gov/learn/backgrounders/what-is-sar) · [Spaceborne Synthetic Aperture Radar: Principles, Data Access, and Basic Processing Techniques (NASA SERVIR)](https://earthdata.nasa.gov/s3fs-public/2025-04/SARHB_CH2_Content.pdf)

@@ -39,4 +39,4 @@ Beam-riding weapons are cheap relative to homing missiles — often a third to a
 
 ## Further reading
 
-[Radar Principle (Radar Tutorial)](https://www.radartutorial.eu/01.basics/Radar%20Principle.en.html)
+[Radar Principle (Radar Tutorial)](https://www.radartutorial.eu/01.basics/Radar%20Principle.en.html) · [The Talos Guidance System (Johns Hopkins APL Technical Digest)](https://secwww.jhuapl.edu/techdigest/content/techdigest/pdf/V03-N02/03-02-Gulick.pdf)

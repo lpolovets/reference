@@ -39,4 +39,4 @@ InGaAs detector production is small and specialized, with a handful of suppliers
 
 ## Further reading
 
-[Fundamentals of Infrared Detector Materials (SPIE)](https://spie.org/publications/fundamentals-of-infrared-detector-materials)
+[Fundamentals of Infrared Detector Materials (SPIE)](https://spie.org/publications/fundamentals-of-infrared-detector-materials) · [NIR and SWIR Questions and Answers (Hamamatsu Photonics)](https://hub.hamamatsu.com/us/en/ask-an-engineer/imaging/nir-and-swir-questions-and-answers.html)

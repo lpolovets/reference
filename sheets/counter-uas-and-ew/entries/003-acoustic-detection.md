@@ -39,4 +39,4 @@ Acoustic detection is the clearest example of the cheap-and-many principle worki
 
 ## Further reading
 
-[Department of Defense Counter-Unmanned Aircraft Systems (Congressional Research Service)](https://www.everycrsreport.com/reports/IF11426.html)
+[Department of Defense Counter Unmanned Aircraft Systems: Background and Issues for Congress (Congressional Research Service)](https://www.everycrsreport.com/reports/R48477.html) · [Mesh Sensing for Air and Missile Defense (Center for Strategic and International Studies)](https://www.csis.org/analysis/mesh-sensing-air-and-missile-defense)

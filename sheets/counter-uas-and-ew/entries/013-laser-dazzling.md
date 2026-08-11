@@ -39,4 +39,4 @@ Fiber and diode laser costs have fallen steeply, making dazzlers among the cheap
 
 ## Further reading
 
-[Department of Defense Directed Energy Weapons: Background and Issues for Congress (Congressional Research Service)](https://www.everycrsreport.com/reports/R46925.html)
+[Department of Defense Directed Energy Weapons: Background and Issues for Congress (Congressional Research Service)](https://www.everycrsreport.com/reports/R46925.html) · [Homeland Security: Protecting Airliners from Terrorist Missiles (Congressional Research Service)](https://www.everycrsreport.com/reports/RL31741.html)

@@ -39,4 +39,4 @@ Systems cost $15–30M and ammunition is expensive, particularly self-destructin
 
 ## Further reading
 
-[Navy Shipboard Lasers: Background and Issues for Congress (Congressional Research Service)](https://www.everycrsreport.com/reports/R44175.html)
+[Navy Shipboard Lasers: Background and Issues for Congress (Congressional Research Service)](https://www.everycrsreport.com/reports/R44175.html) · [U.S. Army Short-Range Air Defense Force Structure and Selected Programs: Background and Issues for Congress (Congressional Research Service)](https://www.everycrsreport.com/reports/R46463.html)

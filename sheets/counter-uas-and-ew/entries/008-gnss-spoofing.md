@@ -39,4 +39,4 @@ Software-defined radio has put spoofing capability within reach of anyone with a
 
 ## Further reading
 
-[Air operations (European Union Aviation Safety Agency)](https://www.easa.europa.eu/en/domains/air-operations)
+[Air operations (European Union Aviation Safety Agency)](https://www.easa.europa.eu/en/domains/air-operations) · [Hostile Control of Ships via False GPS Signals: Demonstration and Detection (University of Texas at Austin Radionavigation Laboratory)](https://radionavlab.ae.utexas.edu/images/stories/files/papers/yacht.pdf)
