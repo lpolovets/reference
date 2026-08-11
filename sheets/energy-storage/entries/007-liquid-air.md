@@ -26,7 +26,7 @@ Liquefaction at -196 °C · round trip 50–60% at best, about 25% without heat 
 Highview Power: Pilsworth pilot, the 50 MW/300 MWh Carrington plant (UK, under construction with UK IB backing), and gigawatt-hour follow-ons; Sumitomo (industrial gases) as an investor.
 
 ## Economic profile
-Tank capacity costs tens of $/kWh; the expensive parts are the liquefier and power island ($/kW). LAES therefore wants 8–12+ hour duty with abundant cheap surplus power, which is exactly the profile of wind-heavy grids like Britain's. You accept the efficiency penalty in exchange for siting freedom and a mature supply chain.
+Tank capacity costs tens of $/kWh; the expensive parts are the liquefier and power island ($/kW). LAES therefore suits 8–12+ hour duty with abundant cheap surplus power, which is exactly the profile of wind-heavy grids like Britain's. You accept the efficiency penalty in exchange for siting freedom and a mature supply chain.
 
 ## Videos
 

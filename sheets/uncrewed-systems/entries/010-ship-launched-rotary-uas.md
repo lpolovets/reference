@@ -29,7 +29,7 @@ The aircraft is a conventional radar target and is engageable by any naval or sh
 Northrop Grumman MQ-8B and MQ-8C Fire Scout, Schiebel Camcopter S-100 in service with several navies, Saab and UMS Skeldar systems, Leonardo AWHero, and Chinese naval rotary UAS on newer frigates.
 
 ## Economic profile
-Programs in this category have had a mixed record: the MQ-8B and C were procured and then retired early by the US Navy, which concluded that the capability did not justify the deck footprint and sustainment cost on littoral combat ships. Navy production contracts for the MQ-8C worked out to roughly $9–12M per aircraft. Smaller systems like the S-100 have done better commercially by fitting more ships and costing less. The general lesson is that deck space on a warship is extraordinarily expensive real estate, and a system has to earn it against every alternative use.
+Programs in this category have had a mixed record: the MQ-8B and C were procured and then retired early by the US Navy, which concluded that the capability did not justify the deck footprint and sustainment cost on littoral combat ships. Navy production contracts for the MQ-8C worked out to roughly $9–12M per aircraft. Smaller systems like the S-100 have done better commercially by fitting more ships and costing less. The general lesson is that deck space on a warship is extraordinarily expensive real estate, and a system has to justify it against every alternative use.
 
 ## Videos
 

@@ -26,7 +26,7 @@ Fuel cells 45–60% efficient, hydrogen-capable turbines 35–60% · power-to-po
 Intermountain Power (Utah) — 840 MW turbines running 30% hydrogen with 100% capability, fed by ACES caverns; Mitsubishi, GE Vernova, Siemens Energy H2 turbine programs; Bloom and FuelCell Energy stationary fleets; Germany's planned "H2-ready" peaker auctions.
 
 ## Economic profile
-These are capacity assets, not energy assets: the stored energy sits in a cavern at $0.20–2/kWh, so cost per kWh of capacity is never the constraint, and the plant earns by existing (capacity markets, reliability contracts) rather than by cycling. They compete with gas peakers with offsets or CCS, not with batteries, and the question is which decarbonized firm-power option clears cheapest per kW-year. Turbine retrofits of existing gas fleets are the capital-efficient path, and they are what keeps this category alive.
+These are capacity assets, not energy assets: the stored energy sits in a cavern at $0.20–2/kWh, so cost per kWh of capacity is never the constraint, and the revenue comes from being available (capacity markets, reliability contracts) rather than from cycling. They compete with gas peakers with offsets or CCS, not with batteries, and the question is which decarbonized firm-power option clears cheapest per kW-year. Turbine retrofits of existing gas fleets are the capital-efficient path, and they are what keeps this category alive.
 
 ## Videos
 

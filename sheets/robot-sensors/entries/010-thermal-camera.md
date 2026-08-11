@@ -29,7 +29,7 @@ Thermal crossover at dawn and dusk erases the contrast between targets and backg
 FLIR (Teledyne) Lepton/Boson modules, the dominant supplier; automotive night vision (Autoliv/Veoneer systems in premium cars), AEB-pedestrian research after high-profile nighttime failures, firefighting and SAR drones (DJI thermal payloads), battery-plant and substation monitoring robots.
 
 ## Economic profile
-Leptons brought entry thermal to ~$200, but automotive-grade resolution is still a $1k+ story driven by germanium optics and regulation. A genuine volume driver (NHTSA's pedestrian-AEB night requirements pushing thermal into mainstream cars) could finally bring those costs down. In robotics it is a specialist that earns its slot wherever robots share darkness with living things.
+Leptons brought entry thermal to ~$200, but automotive-grade resolution is still a $1k+ story driven by germanium optics and regulation. A genuine volume driver (NHTSA's pedestrian-AEB night requirements pushing thermal into mainstream cars) could finally bring those costs down. In robotics it is a specialist worth carrying wherever robots share darkness with living things.
 
 ## Videos
 

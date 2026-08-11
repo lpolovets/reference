@@ -26,7 +26,7 @@ Specific energy 30–40 Wh/kg · nominal cell voltage 2.0 V, floated at 2.25–2
 Start-stop car batteries (the largest AGM market), data-center and telecom UPS strings, motorcycles and marine, premium off-grid installations.
 
 ## Economic profile
-AGM is the premium tier of a commodity industry, priced at roughly 1.5–2× flooded and earning better margins for the same producers. Start-stop mandates drove a decade of growth. The main threat is lithium 12-V and UPS products crossing the price line as cell costs fall.
+AGM is the premium tier of a commodity industry, priced at roughly 1.5–2× flooded at better margins for the same producers. Start-stop mandates drove a decade of growth. The main threat is lithium 12-V and UPS products crossing the price line as cell costs fall.
 
 ## Videos
 

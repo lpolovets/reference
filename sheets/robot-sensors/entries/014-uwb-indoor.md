@@ -11,7 +11,7 @@ cost: low
 ---
 
 ## Description
-UWB is essentially GPS for indoors, built out of installed infrastructure. Ultra-wideband radios time nanosecond pulses between tags and fixed anchors, which gives 10–30 cm positioning through walls and clutter where GNSS can't reach. Phone adoption (Apple U1/U2, Android peers) commoditized the silicon. The broader family also includes visual fiducials (AprilTags/QR floors), BLE beacons (meters-grade), and magnetic-signature maps. All of them trade an infrastructure install for localization that pure SLAM would otherwise have to earn with compute.
+UWB is essentially GPS for indoors, built out of installed infrastructure. Ultra-wideband radios time nanosecond pulses between tags and fixed anchors, which gives 10–30 cm positioning through walls and clutter where GNSS can't reach. Phone adoption (Apple U1/U2, Android peers) commoditized the silicon. The broader family also includes visual fiducials (AprilTags/QR floors), BLE beacons (meters-grade), and magnetic-signature maps. All of them trade an infrastructure install for localization that pure SLAM would otherwise have to achieve with compute.
 
 ## Strengths and weaknesses
 UWB gives absolute indoor position with bounded error and no drift, works through non-metal walls and in darkness, uses cheap tags, and needs little compute. It's a good fit for multi-robot coordination and asset tracking. The main weakness is the infrastructure tax: someone has to install, survey, and power the anchors. Metal-heavy environments produce bad multipath, there are capacity limits once you have many tags, and it competes with "free" SLAM that improves every year, which squeezes the niche from the software side.

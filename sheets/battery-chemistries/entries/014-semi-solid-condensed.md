@@ -26,7 +26,7 @@ CATL's condensed cell is rated 500 Wh/kg · eVTOL and aviation programs target 4
 CATL condensed-matter cell (civil aviation programs); WeLion semi-solid cells in NIO's 150 kWh swap pack; 24M licensees (Kyocera Enerezza storage, FREYR's former program).
 
 ## Economic profile
-The value proposition is mostly on the cost side: 24M-style processes remove drying and reduce inactive material, and hybrid electrolytes reuse existing gigafactory capex. As a stepping stone it earns revenue now, but it competes head-on with conventional Li-ion, which is improving quickly, so it doesn't get a protected niche.
+The value proposition is mostly on the cost side: 24M-style processes remove drying and reduce inactive material, and hybrid electrolytes reuse existing gigafactory capex. As a stepping stone it sells today, but it competes head-on with conventional Li-ion, which is improving quickly, so it doesn't get a protected niche.
 
 ## Videos
 

@@ -11,7 +11,7 @@ maturity: rd
 ---
 
 ## Description
-Li-air is the theoretical endpoint of lithium batteries: a lithium-metal anode breathing oxygen from the air at a porous cathode, forming Li2O2 (or Li2O) on discharge. Because the cathode reactant is stored outside the cell, theoretical energy density approaches gasoline. Practice is much worse. Real cells have to carry air-handling hardware, and the chemistry suffers large voltage hysteresis, electrolyte decomposition, and cathode clogging from insoluble discharge products.
+Li-air is the theoretical endpoint of lithium batteries: a lithium-metal anode breathing oxygen from the air at a porous cathode, forming Li2O2 (or Li2O) on discharge. Because the cathode reactant is stored outside the cell, theoretical energy density approaches gasoline. Practice is much worse. Real cells have to carry air-handling hardware, and the chemistry has large voltage hysteresis, electrolyte decomposition, and cathode clogging from insoluble discharge products.
 
 ## Strengths and weaknesses
 Theoretical energy density is higher than anything else, and the concept is simple with cheap materials. The weaknesses: round-trip efficiency is 60–70% at best, cycle life is measured in tens of cycles, and parasitic reactions with CO2 and humidity mean the cell needs pure-oxygen operation or membranes. Charge overpotentials degrade every component. After two decades of research, no credible path to a product has appeared.
