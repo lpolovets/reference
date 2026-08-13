@@ -1,0 +1,137 @@
+{
+  "slug": "carbon-capture-and-removal",
+  "docTitle": "Carbon Capture and Removal Reference",
+  "shortTitle": "Carbon Capture & Removal",
+  "blurb": "Point-source capture, direct air capture, ocean and mineral removal, biomass and land sinks, plus the pipelines and pore space that store the CO2 — with cost per ton, permanence, and how much of each is actually running.",
+  "category": "Energy",
+  "question": "How does this CO2 get captured, and what does a ton cost?",
+  "title": "Carbon Capture and Removal: A Practical Reference",
+  "lede": "Two different businesses get talked about as one. Point-source capture keeps CO2 out of the air and competes against the cost of emitting it; removal takes CO2 back out and competes against other removals on price and permanence. This guide catalogs {{N_ENTRIES}} approaches across seven classes, with cost per ton, storage permanence, and how much of each is operating rather than announced.",
+  "unit": ["approach", "approaches"],
+  "groupLabel": "Class",
+  "explorerTab": "Approach explorer",
+  "guideTab": "Selection guide",
+  "h2hTab": "Head-to-head",
+  "searchPlaceholder": "Search approaches, solvents, storage…",
+  "stats": [
+    { "count": "entries", "label": "approaches" },
+    { "count": "parts", "label": "classes" },
+    { "count": "groups", "label": "families" }
+  ],
+  "parts": [
+    { "id": 1, "roman": "I", "name": "Post-Combustion Capture", "blurb": "pull CO2 out of dilute flue gas", "color": "var(--p1)" },
+    { "id": 2, "roman": "II", "name": "Pre-Combustion & Oxy-Fuel", "blurb": "concentrate the CO2 before it dilutes", "color": "var(--p2)" },
+    { "id": 3, "roman": "III", "name": "Direct Air Capture", "blurb": "take CO2 from air at 420 ppm", "color": "var(--p3)" },
+    { "id": 4, "roman": "IV", "name": "Ocean & Mineral Removal", "blurb": "let rock and seawater do the chemistry", "color": "var(--p4)" },
+    { "id": 5, "roman": "V", "name": "Biomass Routes", "blurb": "plants collect the carbon, you keep it", "color": "var(--p5)" },
+    { "id": 6, "roman": "VI", "name": "Land & Biosphere Sinks", "blurb": "forests, soil, and coastal ecosystems", "color": "var(--p6)" },
+    { "id": 7, "roman": "VII", "name": "Transport, Storage & Use", "blurb": "moving the CO2 and putting it somewhere", "color": "var(--p7)" }
+  ],
+  "groupBlurbs": {
+    "Solvent scrubbing": "liquids that absorb CO2 and release it when heated",
+    "Sorbents & membranes": "solids and films that skip the boiling step",
+    "Pre-combustion & oxy-fuel": "capture before combustion, or burn without nitrogen",
+    "Looping & process streams": "circulating carriers, and the CO2 that arrives pure",
+    "Direct air capture": "engineered removal from ambient air",
+    "Mineral & ocean removal": "accelerated weathering and seawater chemistry",
+    "Biomass removal": "photosynthesis plus a way to keep the carbon down",
+    "Land sinks": "forests, farm soil, and coastal wetlands",
+    "Transport": "getting captured CO2 to the injection site",
+    "Geologic storage": "pore space that holds CO2 for geologic time",
+    "Utilization": "selling the carbon instead of burying it"
+  },
+  "facets": [
+    {
+      "id": "feed",
+      "key": "feed",
+      "label": "Feed",
+      "type": "multi",
+      "color": "--fa",
+      "required": true,
+      "tagRow": 2,
+      "tip": "Where the CO2 comes from. Flue gas is 3–15% CO2 and sets the cost of most point-source capture · Process stream is 90%+ and is the cheapest CO2 anywhere · Ambient air is 0.042% · Biogenic means the carbon came from recent photosynthesis · Any source covers transport, storage, and utilization, which take CO2 from whatever produced it.",
+      "order": ["proc", "flue", "air", "sea", "bio", "land", "any"],
+      "options": {
+        "proc": "Process stream",
+        "flue": "Flue gas",
+        "air": "Ambient air",
+        "sea": "Seawater",
+        "bio": "Biogenic",
+        "land": "Land & biosphere",
+        "any": "Any source"
+      }
+    },
+    {
+      "id": "cost",
+      "key": "cost",
+      "label": "Cost",
+      "type": "single",
+      "color": "--fe",
+      "tagPrefix": "$/t",
+      "tip": "Directional all-in cost per net ton of CO2 captured, removed, or handled, at the scale the approach runs today. Removal numbers are what a buyer pays; capture numbers are the levelized cost on the plant. Early-stage approaches are tagged at today's cost, not at their target.",
+      "order": ["u50", "m100", "m200", "m500", "h500"],
+      "options": {
+        "u50": "Under $50",
+        "m100": "$50–100",
+        "m200": "$100–200",
+        "m500": "$200–500",
+        "h500": "$500+"
+      }
+    },
+    {
+      "id": "perm",
+      "key": "permanence",
+      "label": "Permanence",
+      "type": "single",
+      "color": "--fb",
+      "tip": "How long the carbon stays put once the approach has done its job, and how reversible that is. Untagged on capture technologies, whose permanence is decided by the storage they feed rather than by the capture step.",
+      "order": ["rev", "cent", "mil"],
+      "options": {
+        "rev": "Decades, reversible",
+        "cent": "Centuries",
+        "mil": "1,000+ years"
+      }
+    },
+    {
+      "id": "mat",
+      "key": "maturity",
+      "label": "Maturity",
+      "type": "single",
+      "color": "--fd",
+      "required": true,
+      "tip": "Commercial = multiple plants running on commercial terms · First-of-a-kind = one or two full-scale units built or building · Pilot = demonstration hardware in the field · Lab = bench and modeling only.",
+      "order": ["comm", "foak", "pilot", "lab"],
+      "options": {
+        "comm": "Commercial",
+        "foak": "First-of-a-kind",
+        "pilot": "Pilot",
+        "lab": "Lab / concept"
+      }
+    },
+    {
+      "id": "scale",
+      "key": "scale",
+      "label": "Deployed",
+      "type": "single",
+      "color": "--fc",
+      "tagPrefix": "t/yr",
+      "tip": "Roughly how much CO2 the approach actually handles worldwide today, per year. This is the field that separates a 1 Mt/yr industry from a 1,000 t/yr pilot, and it is the number press releases most often skip.",
+      "order": ["kt10", "kt100", "mt1", "mt10", "mt10p"],
+      "options": {
+        "kt10": "Under 10k",
+        "kt100": "10k–100k",
+        "mt1": "100k–1M",
+        "mt10": "1M–10M",
+        "mt10p": "10M+"
+      }
+    }
+  ],
+  "videosAfter": "Economic profile",
+  "extraSections": [
+    ["when to use", "When to use"],
+    ["key numbers", "Key numbers"],
+    ["examples", "Examples"],
+    ["economic profile", "Economic profile"],
+    ["further reading", "Further reading"]
+  ]
+}

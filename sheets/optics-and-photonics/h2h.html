@@ -1,0 +1,44 @@
+    <h2>Head-to-head: which source</h2>
+    <p class="muted">Source choice sets the cost, the safety case, and usually the wavelength of everything downstream. The rule of thumb: use the cheapest source whose beam quality and linewidth are good enough, and be honest about whether you need a beam at all.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Source</th><th>Wavelengths</th><th>Beam quality</th><th>Cost</th><th>Pick it when</th></tr></thead>
+      <tbody>
+        <tr><td>LED</td><td>UV to NIR</td><td>None; wide emission</td><td>Cents</td><td>You need illumination rather than a beam. Half the lasers specified into systems could be this.</td></tr>
+        <tr><td>Diode laser</td><td>375 nm to 3 um</td><td>Asymmetric, correctable</td><td>$1–500</td><td>The wavelength exists and beam quality is adequate. Also the pump for everything below.</td></tr>
+        <tr><td>VCSEL</td><td>850–940 nm mainly</td><td>Round, low divergence</td><td>Cents at volume</td><td>Consumer sensing and short-reach links, especially in arrays. Wafer-level test is the cost advantage.</td></tr>
+        <tr><td>Fiber laser</td><td>1.0, 1.55, 2 um</td><td>Near diffraction-limited</td><td>$10k–500k</td><td>High average power with a good beam and low maintenance. The industrial default for metals.</td></tr>
+        <tr><td>DPSS laser</td><td>1,064 nm and harmonics</td><td>Good, thermally variable</td><td>$10k–100k</td><td>High pulse energy or visible and UV output. Where fiber nonlinearity becomes the limit.</td></tr>
+        <tr><td>Gas laser</td><td>193 nm, 633 nm, 10.6 um</td><td>Good</td><td>$5k–100k+</td><td>The wavelength itself is the requirement: excimer for lithography, CO2 for organics.</td></tr>
+        <tr><td>Quantum cascade laser</td><td>3–12 um</td><td>Moderate</td><td>$5k–30k</td><td>Mid-infrared spectroscopy. Nothing else is coherent and compact in this band.</td></tr>
+        <tr><td>Ultrafast laser</td><td>Visible to SWIR</td><td>Excellent</td><td>$50k–500k</td><td>Thermal damage is unacceptable, or the process is inherently nonlinear.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2>Which detector</h2>
+    <p class="muted">Work out roughly how many photons reach the detector per measurement, then read down this table. Choosing a detector class with more gain than the signal requires costs money and adds noise.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Detector</th><th>Signal level</th><th>Band</th><th>Speed</th><th>Pick it when</th></tr></thead>
+      <tbody>
+        <tr><td>Photodiode</td><td>Thousands of photons up</td><td>200–2,600 nm by material</td><td>To tens of GHz</td><td>There is enough light. The default, and everything else exists because of its limits.</td></tr>
+        <tr><td>Avalanche photodiode</td><td>Tens of photons</td><td>Visible to SWIR</td><td>GHz</td><td>Weak signal with bandwidth. LiDAR and long-span receivers. Compensate the bias for temperature.</td></tr>
+        <tr><td>SPAD</td><td>Single photons</td><td>Best in visible</td><td>Dead-time limited</td><td>Photon counting where cost and integration matter. Poor efficiency at 1,550 nm.</td></tr>
+        <tr><td>Superconducting nanowire</td><td>Single photons</td><td>Excellent at 1,550 nm</td><td>Sub-20 ps jitter</td><td>Efficiency and timing decide the experiment and a cryostat is acceptable.</td></tr>
+        <tr><td>Photomultiplier</td><td>Single photons</td><td>UV to 900 nm</td><td>Nanoseconds</td><td>Large area matters in the visible or UV. Dead beyond 900 nm.</td></tr>
+        <tr><td>Image sensor</td><td>Moderate, per pixel</td><td>200–1,100 nm silicon</td><td>Frame rate</td><td>You need a picture. InGaAs arrays extend to SWIR at roughly 1,000x the cost per pixel.</td></tr>
+        <tr><td>Microbolometer</td><td>Thermal radiation</td><td>8–14 um uncooled</td><td>Roughly 60 Hz</td><td>Thermal imaging without a cryocooler. The lens may cost more than the sensor.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2>How to modulate or move a beam</h2>
+    <p class="muted">Two different questions get conflated here: changing the light in time, and pointing it somewhere. Speed and optical power are the axes that decide both.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Device</th><th>Speed</th><th>Power handling</th><th>Side effects</th><th>Pick it when</th></tr></thead>
+      <tbody>
+        <tr><td>Acousto-optic modulator</td><td>Tens to hundreds of ns</td><td>High</td><td>Deflects and frequency-shifts</td><td>Pulse picking and shuttering in a powerful beam, or you want the frequency shift.</td></tr>
+        <tr><td>Electro-optic modulator</td><td>Tens of GHz and beyond</td><td>Modest</td><td>Needs a bias control loop</td><td>Anything above about 10 MHz. All telecom transmitters live here.</td></tr>
+        <tr><td>Spatial light modulator</td><td>60–500 Hz</td><td>Low</td><td>Zero order must be blocked</td><td>The wavefront itself is the thing you want to control: tweezers, adaptive optics, multi-spot.</td></tr>
+        <tr><td>Galvo scanner</td><td>Few kHz</td><td>High, large aperture</td><td>Mechanical wear</td><td>Marking, cutting, confocal. The industrial workhorse for moving one spot.</td></tr>
+        <tr><td>MEMS mirror</td><td>Tens of kHz resonant</td><td>Low, small aperture</td><td>Aperture caps range</td><td>Size and cost dominate: automotive LiDAR, pico-projectors.</td></tr>
+        <tr><td>Direct diode modulation</td><td>To tens of GHz</td><td>Source-limited</td><td>Wavelength chirps with current</td><td>The source is a diode and chirp is acceptable. Free, since it needs no extra component.</td></tr>
+      </tbody>
+    </table></div>

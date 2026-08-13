@@ -1,0 +1,70 @@
+    <h2>How to choose a grid technology</h2>
+    <p class="muted">Almost every grid decision is really a question about time, not engineering. A new 500 kV line is understood technology; what makes it a ten-year project is right of way, permits, and a transformer order. So the first question on any grid problem is not "what equipment solves this" but <b>"what is the fastest thing that solves this inside a corridor I already have."</b> That question orders this entire sheet.</p>
+
+    <h3>The ladder, cheapest and fastest first</h3>
+    <p>Given a constraint, work down this list and stop at the first rung that actually fixes it. Each step up costs roughly an order of magnitude more and takes several times longer than the one before it.</p>
+    <div class="bands">
+      <div class="band"><div class="bt">Rate it better</div><div class="bv">Ambient-adjusted and dynamic line ratings: 10–30% more capacity, months, no permit</div></div>
+      <div class="band"><div class="bt">Compensate it</div><div class="bv">Series capacitors, STATCOM, storage at the constraint: fixes stability and contingency limits inside the fence</div></div>
+      <div class="band"><div class="bt">Reconductor it</div><div class="bv">Advanced conductors on existing structures: up to 2x, 18–36 months, existing right of way</div></div>
+      <div class="band"><div class="bt">Rebuild it</div><div class="bv">Higher voltage or a second circuit in the same corridor: large gain, 4–7 years</div></div>
+      <div class="band"><div class="bt">Build new</div><div class="bv">A new line on a new right of way: 7–12 years, and the step where projects get canceled</div></div>
+    </div>
+
+    <h3>What is actually limiting the line</h3>
+    <p>Three different limits get called "capacity" and they have completely different fixes. A <b>thermal</b> limit means the conductor sags into its clearance envelope; dynamic ratings and reconductoring help, series capacitors do nothing. A <b>stability</b> limit means the line cannot carry more without losing synchronism or damping; series compensation and fast controls help, a fatter conductor does nothing. A <b>voltage</b> limit means the receiving end collapses under load; reactive support helps, and so does anything that moves generation closer. Ask which one binds before choosing anything, because half of the wasted money in grid planning comes from fixing the wrong limit.</p>
+
+    <h3>Engineering factors</h3>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Factor</th><th>Why it matters</th></tr></thead>
+      <tbody>
+        <tr><td>Voltage class</td><td>Power scales with voltage and losses with current squared, so going up a class carries several times the power on similar conductors. It also multiplies clearances, insulation, and equipment cost.</td></tr>
+        <tr><td>AC vs DC</td><td>DC has no reactance limit and no charging current, so it wins past roughly 600–800 km overhead and 40–70 km by cable. Below that, converter cost dominates and AC wins.</td></tr>
+        <tr><td>Short-circuit strength</td><td>Relays and converters both need fault current to work correctly. As synchronous machines retire, weak-grid behavior becomes the binding constraint on connecting more inverters.</td></tr>
+        <tr><td>Inertia</td><td>System inertia sets how fast frequency falls after a loss of generation. Inverters supply none unless they are grid-forming, which is why synchronous condensers came back.</td></tr>
+        <tr><td>Reactive power</td><td>It does not travel, so it has to be supplied near the load. Capacitors are cheapest per MVAr and weakest when voltage sags; STATCOMs are the opposite.</td></tr>
+        <tr><td>Fault duty</td><td>Adding ties and generation raises available fault current, and a breaker fleet rated 40 kA in 1990 can be under-rated today. Check this before adding a strong tie.</td></tr>
+        <tr><td>Protection and inverters</td><td>Distance and differential schemes were designed around machines that supply 5–6 times rated current into a fault. Inverters supply about 1.2 times, under software control, and misoperations follow.</td></tr>
+        <tr><td>Outage windows</td><td>Any work on an existing line needs the surrounding system to carry the load without it. On a constrained network there may be no window, which turns a cheap job into an impossible one.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h3>Economic and schedule factors</h3>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Factor</th><th>Why it matters</th></tr></thead>
+      <tbody>
+        <tr><td>Equipment lead time</td><td>Large power transformers run 80–144 weeks and HVDC converters three to five years. Order before design is final if the energization date is firm.</td></tr>
+        <tr><td>Right of way</td><td>The single largest schedule risk in transmission, and the reason anything that reuses an existing corridor is worth a large premium.</td></tr>
+        <tr><td>Cost allocation</td><td>Who pays for a line that benefits several regions is unresolved in most US markets, and it kills more interregional projects than engineering does.</td></tr>
+        <tr><td>Interconnection queue</td><td>Generation waits years for studies that mostly determine who pays for network upgrades. The queue, not the turbine, sets when a project connects.</td></tr>
+        <tr><td>Rate base vs contract</td><td>Utilities earn a return on capital, not on contracts, so non-wires alternatives face an incentive problem that has to be fixed in regulation rather than engineering.</td></tr>
+        <tr><td>Asset life</td><td>Lines last 50–80 years and transformers 40. A decision made now sets the network's shape past 2070, which argues for building the higher voltage class.</td></tr>
+        <tr><td>SF6 phase-down</td><td>Insulating gas with 23,500 times the warming potential of CO2 is being regulated out. New switchgear decisions should assume reporting obligations for the asset's whole life.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2>Why lead times became the story</h2>
+    <p>Before 2021 a utility could assume equipment would arrive when needed and spent its planning effort on siting. That assumption is gone. Power transformer demand rose 119% from 2019 while grain-oriented electrical steel capacity did not, and standard power transformers now average around 128 weeks with generator step-up units near 144. HVDC converter slots are booked years out, and so are subsea cable factory and vessel slots. The practical consequence is that procurement now belongs at the front of a project rather than after final design, and any schedule that assumes otherwise is optimistic by a year or more.</p>
+
+    <h2>Core takeaway</h2>
+    <div class="callout">
+      <p>Treat the existing corridor as the scarce resource and everything else as negotiable. Rating a line dynamically, compensating it, or reconductoring it delivers capacity in months to three years inside land that is already approved, and a new line delivers more capacity in seven to twelve years if it survives permitting at all. Build new lines where the need is large and durable, and exhaust the corridor you already own first, because that is where the time is.</p>
+    </div>
+
+    <h3>Key questions for engineering decisions</h3>
+    <ul class="qlist">
+      <li>Is the binding limit thermal, stability, or voltage? Each has a different fix and they are not interchangeable.</li>
+      <li>How many hours a year is the constraint actually binding, and does that favor storage or demand response over steel?</li>
+      <li>What is the short-circuit strength at this point, and will it still support protection after the next retirement?</li>
+      <li>Can the work be done inside an existing right of way, and is there an outage window to do it?</li>
+      <li>What are the fault duties after this addition, and do the existing breakers still cover them?</li>
+    </ul>
+
+    <h3>Key questions for investment and business analysis</h3>
+    <ul class="qlist">
+      <li>What is the equipment lead time, and has a slot been reserved or only quoted?</li>
+      <li>Which step in the schedule is longest: permitting, procurement, or construction? Optimize that one.</li>
+      <li>Who pays, and has cost allocation actually been settled rather than assumed?</li>
+      <li>If the load forecast is wrong by half, does the investment still make sense, or is a modular option worth its premium?</li>
+      <li>Does the revenue model match how the asset is regulated, particularly for storage and non-wires portfolios?</li>
+    </ul>

@@ -1,0 +1,69 @@
+    <h2>How to read a quantum technology claim</h2>
+    <p class="muted">This field has a wider gap between announcement and capability than any other in these sheets, so the guide has to start with how to read it. Two rules cover most of it. First, <b>qubit count is the least informative number available</b>: what matters is fidelity, connectivity, and speed together, because those decide how deep a circuit can run. Second, <b>sensing and timing are already products while computing is not</b>, and conflating them makes the whole field look either further along or further behind than it is.</p>
+
+    <h3>Three different businesses share one word</h3>
+    <p>Quantum sensing and timing sell hardware today to real customers with a return that does not depend on any future breakthrough: atomic clocks, magnetometers, gravimeters. Quantum communication sells a narrow product, key distribution over short links, whose value is contested by the same agencies that would buy it. Quantum computing sells expectations, and its useful applications are years out. When someone says the quantum market is worth billions, ask which of these three they counted.</p>
+
+    <h3>Operating temperature drives cost and form factor</h3>
+    <p>The single fact that predicts the most about a platform is what it needs to stay cold. A millikelvin platform carries a dilution refrigerator that costs half a million dollars, fills a room, and provides microwatts of cooling at base, which is what really limits how many control lines you can run. A laser-cooled platform carries an optics laboratory instead, with its own reliability profile. A room-temperature platform can be a component. That ordering explains why the first commercial quantum products were room-temperature sensors, not computers.</p>
+    <div class="bands">
+      <div class="band"><div class="bt">Millikelvin</div><div class="bv">Superconducting and spin qubits. Dilution fridge, room-sized, wiring is the scaling limit.</div></div>
+      <div class="band"><div class="bt">Liquid helium (4 K)</div><div class="bv">Photon detectors, some color centers, cryo control electronics. Far easier than millikelvin.</div></div>
+      <div class="band"><div class="bt">Laser-cooled</div><div class="bv">Ions, neutral atoms, clocks. Room-temperature apparatus, but the lasers are the system.</div></div>
+      <div class="band"><div class="bt">Room temperature</div><div class="bv">NV centers, vapor cells, QRNGs, post-quantum cryptography. Where products actually ship.</div></div>
+    </div>
+
+    <h3>Technical factors</h3>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Factor</th><th>Why it matters</th></tr></thead>
+      <tbody>
+        <tr><td>Two-qubit gate fidelity</td><td>The number that sets error-correction overhead. Going from 99% to 99.9% cuts the physical qubits per logical qubit by far more than a factor of ten.</td></tr>
+        <tr><td>Connectivity</td><td>All-to-all connections save enormous numbers of swap operations. A nearest-neighbor machine needs many more gates for the same circuit.</td></tr>
+        <tr><td>Gate time</td><td>Superconducting gates run in nanoseconds, ions in microseconds. Combined with circuit depth this sets wall-clock runtime, which vendors rarely lead with.</td></tr>
+        <tr><td>Coherence versus gate time</td><td>What matters is how many operations fit inside a coherence time, not the coherence time alone.</td></tr>
+        <tr><td>Mid-circuit measurement</td><td>Error correction requires measuring some qubits and continuing. Platforms that cannot do it without disturbing their neighbors have a problem.</td></tr>
+        <tr><td>Control wiring</td><td>One coaxial line per qubit into a fridge with microwatts of cooling is what caps a single-fridge machine. Ask how a roadmap past a few thousand qubits handles it.</td></tr>
+        <tr><td>Uniformity</td><td>Atoms and ions are identical by nature; fabricated qubits are not, and each one needs individual calibration that does not scale for free.</td></tr>
+        <tr><td>The real bottleneck</td><td>For most platforms it is lasers, cryogenics, or fabrication yield rather than physics. Ask which, because the answer predicts the schedule.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h3>Commercial and strategic factors</h3>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Factor</th><th>Why it matters</th></tr></thead>
+      <tbody>
+        <tr><td>Revenue today</td><td>Sensing and timing have paying customers. Computing revenue is mostly research contracts and cloud access, which is a different kind of number.</td></tr>
+        <tr><td>Overhead assumptions</td><td>A resource estimate that assumes a thousand physical qubits per logical one gives a very different answer from one assuming a hundred. Check which was used.</td></tr>
+        <tr><td>Classical improvement</td><td>Several quantum advantage claims have been matched by better classical algorithms within a year. The classical baseline is a moving target.</td></tr>
+        <tr><td>Harvest now, decrypt later</td><td>Encrypted traffic captured today is exposed whenever a capable machine arrives, which is why post-quantum migration is urgent regardless of the timeline.</td></tr>
+        <tr><td>Supply chain</td><td>Dilution refrigerators, helium-3, stabilized lasers, and engineered diamond all come from a handful of suppliers. Availability shapes schedules.</td></tr>
+        <tr><td>Export control</td><td>Quantum computers, sensors, and cryogenics appear in export control lists in the US, EU, and elsewhere, which constrains who can buy and sell what.</td></tr>
+        <tr><td>Talent concentration</td><td>The number of people who can operate these systems is small, and it is often the binding constraint on how fast an organization can move.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2>Why the overhead number decides everything</h2>
+    <p>A useful quantum algorithm needs logical qubits with error rates around one in a billion, and physical qubits deliver one in a thousand at best. Error correction bridges that, and at realistic fidelities it costs roughly a thousand physical qubits per logical one. That single factor is why credible estimates for breaking RSA-2048 run to millions of physical qubits, and it is why fidelity improvements matter more than qubit counts: better physical qubits cut the overhead superlinearly. Every serious roadmap is really a claim about how that ratio comes down, whether through better fidelity, better codes, or hardware-level protection.</p>
+
+    <h2>Core takeaway</h2>
+    <div class="callout">
+      <p>Judge a platform by fidelity, connectivity, gate time, and what its actual bottleneck is, and treat qubit count as a marketing number. Buy quantum sensing and timing today where the physics gives a measurable advantage, migrate to post-quantum cryptography now because that clock is already running, and treat quantum computing as a research position sized so that a decade of slippage does not hurt. All three of those are reasonable simultaneously, and confusing them is the most common mistake in this field.</p>
+    </div>
+
+    <h3>Key questions for technical decisions</h3>
+    <ul class="qlist">
+      <li>What are the two-qubit fidelity, the connectivity, and the gate time, together?</li>
+      <li>How many operations fit inside one coherence time, and how deep is the circuit you need?</li>
+      <li>Can the platform do mid-circuit measurement, which error correction requires?</li>
+      <li>What is the control wiring plan past a few thousand qubits?</li>
+      <li>Which is the real bottleneck for this team: cryogenics, lasers, fabrication, or software?</li>
+    </ul>
+
+    <h3>Key questions for investment and business analysis</h3>
+    <ul class="qlist">
+      <li>Is this a sensing product with customers, or a computing bet with a research contract?</li>
+      <li>What overhead ratio does the resource estimate assume, and where does that number come from?</li>
+      <li>What is the best classical algorithm on this problem, run by someone trying to win?</li>
+      <li>Does the supply chain for fridges, lasers, or specialty materials constrain the plan?</li>
+      <li>If the roadmap slips five years, which is normal here, does the thesis survive?</li>
+    </ul>

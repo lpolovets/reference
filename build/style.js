@@ -78,7 +78,10 @@ const RULES = [
   // nearly always proper nouns that keep their own spelling — Emirates Global
   // Aluminium, the UK Ministry of Defence, the Guiana Space Centre — and citation
   // titles are skipped wholesale anyway.
-  { id: 'british-spelling', re: /\b(?:aluminium|fibres?|metres?|millimetres?|centimetres?|kilometres?|micrometres?|litres?|centres?|centred|sulph(?:ur|ide|ate|uric)|defence|offence|licence|analyse[ds]?|catalogue|programme|grey|moulds?|moulding|moulded|draught|tyres?|ageing|judgement|modell(?:ing|ed)|labell(?:ing|ed)|travelling|fuelled|signalling|cancelled|manoeuvr(?:e|es|ing)|armour|vapour|colour|behaviour|favour|honour|organis(?:e|ed|ation)|optimis(?:e|ed)|utilise|minimise|maximise|recognise|specialise|standardis(?:e|ed)|stabilis(?:e|ed)|storey|kerb)\b/g,
+  // "analyses" is deliberately not matched: it is the ordinary US plural of
+  // "analysis" as well as the British verb form, and the noun is far more common
+  // here, so matching it fired on prose that was already correct.
+  { id: 'british-spelling', re: /\b(?:aluminium|fibres?|metres?|millimetres?|centimetres?|kilometres?|micrometres?|litres?|centres?|centred|sulph(?:ur|ide|ate|uric)|defence|offence|licence|analyse|analysed|analysing|catalogue|programme|grey|moulds?|moulding|moulded|draught|tyres?|ageing|judgement|modell(?:ing|ed)|labell(?:ing|ed)|travelling|fuelled|signalling|cancelled|manoeuvr(?:e|es|ing)|armour|vapour|colour|behaviour|favour|honour|organis(?:e|ed|ation)|optimis(?:e|ed)|utilise|minimise|maximise|recognise|specialise|standardis(?:e|ed)|stabilis(?:e|ed)|storey|kerb)\b/g,
     say: 'British spelling. Use the US form.' },
 ];
 

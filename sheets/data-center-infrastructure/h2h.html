@@ -1,0 +1,53 @@
+    <h2>Head-to-head: how do you cool this rack</h2>
+    <p class="muted">Rack density is the first fork, so this is the first table. Options are ordered by how much heat they can take out of a cabinet, and the right answer is usually the least invasive one that clears the density you actually need at end of life. The tables after it cover backup power, heat rejection, and how to get the facility at all.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Approach</th><th>Density</th><th>Loop temp</th><th>Retrofit</th><th>Pick it when</th></tr></thead>
+      <tbody>
+        <tr><td>Air with containment</td><td>Up to 20–40 kW</td><td>18–27 °C supply air</td><td>Drop-in</td><td>The racks fit under 30 kW. Containment is the cheapest capacity in the building and should be done before anything else.</td></tr>
+        <tr><td>Rear-door heat exchanger</td><td>20–60 kW</td><td>Chilled water</td><td>Drop-in, rack by rack</td><td>You need more density in an existing hall and cannot dictate what hardware arrives. The standard colocation answer.</td></tr>
+        <tr><td>Single-phase direct-to-chip</td><td>60 kW to well past 100</td><td>30–45 °C</td><td>Hall retrofit</td><td>Current AI hardware, which ships configured for it. Warm water means the plant can economize or reject dry.</td></tr>
+        <tr><td>Two-phase direct-to-chip</td><td>Extreme heat flux</td><td>Boiling near chip temp</td><td>New build</td><td>Chip powers past what a single-phase plate can hold. Ask about the fluid's PFAS status before committing.</td></tr>
+        <tr><td>Single-phase immersion</td><td>100 kW+ per tank</td><td>Warm fluid</td><td>New build</td><td>Uniform fleet you can modify, no legacy air plant, and a dusty or humid site. Check server warranties first.</td></tr>
+        <tr><td>Two-phase immersion</td><td>Highest available</td><td>Boils near 50 °C</td><td>New build</td><td>Thermally the best and commercially parked, because the enabling fluids are PFAS compounds being regulated out.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2>Carrying the load when the grid drops</h2>
+    <p class="muted">Backup is two separate questions: what covers the seconds before the generator picks up, and what covers the hours after. Getting the first wrong is a data loss event; getting the second wrong is a long outage.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Option</th><th>Ride-through</th><th>Footprint</th><th>Replacement cycle</th><th>Pick it when</th></tr></thead>
+      <tbody>
+        <tr><td>Double-conversion UPS with lithium</td><td>5–15 minutes</td><td>Moderate</td><td>8–10 years</td><td>The default. Also gives clean power, and a large plant can bid into demand response between outages.</td></tr>
+        <tr><td>Double-conversion UPS with lead-acid</td><td>5–15 minutes</td><td>Large</td><td>3–5 years</td><td>An existing battery room already sized and suppressed for it, with the replacement cycle already funded.</td></tr>
+        <tr><td>Flywheel or rotary UPS</td><td>15–30 seconds</td><td>Small</td><td>About 20 years</td><td>Generators are reliable and tested, batteries are a maintenance burden, and the site runs hot.</td></tr>
+        <tr><td>Diesel generator</td><td>Hours to days</td><td>Large yard</td><td>Decades</td><td>Standby duty, essentially always. The constraint is the air permit, not the engine.</td></tr>
+        <tr><td>On-site gas prime power</td><td>Continuous</td><td>Power plant</td><td>Decades</td><td>Interconnection is years away and the compute cannot wait. Costs more per kWh than the grid.</td></tr>
+        <tr><td>Fuel cells</td><td>Continuous</td><td>Moderate</td><td>Stack every few years</td><td>Air permits block engines. Higher capital, much lower local emissions, still burning gas.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2>Where the heat finally goes</h2>
+    <p class="muted">The last step out of the building is a straight trade between electricity and water, and how much room you have to make that trade depends on how warm the loop runs.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Method</th><th>Water use</th><th>Reaches</th><th>Footprint</th><th>Pick it when</th></tr></thead>
+      <tbody>
+        <tr><td>Open cooling tower</td><td>High</td><td>Within 3–5 °C of wet bulb</td><td>Compact</td><td>Hot climate, water available and uncontroversial, and the load needs genuinely cold water.</td></tr>
+        <tr><td>Dry cooler</td><td>None</td><td>A few degrees above dry bulb</td><td>Large</td><td>The IT loop runs warm, which liquid cooling allows. Removes the water question entirely.</td></tr>
+        <tr><td>Adiabatic hybrid</td><td>Low</td><td>Between the two</td><td>Large</td><td>You want dry operation most of the year without sizing the whole plant for the design day.</td></tr>
+        <tr><td>Air-side economizer</td><td>Low to none</td><td>Outside air directly</td><td>Large ducts</td><td>Cool clean dry climate. Bring a plan for smoke events and outdoor air quality.</td></tr>
+        <tr><td>Heat reuse to district network</td><td>None</td><td>Sells the heat</td><td>Plant plus connection</td><td>A network exists within a few kilometers and the planning authority values it. Not a revenue play.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2>Build, lease, or rent</h2>
+    <p class="muted">Below a certain size, running your own critical facility costs more than it saves. The crossover is mostly about how many megawatts you need and how confident the forecast is.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Model</th><th>Time to capacity</th><th>Unit cost</th><th>Flexibility</th><th>Pick it when</th></tr></thead>
+      <tbody>
+        <tr><td>Hyperscale self-build</td><td>2–4 years</td><td>Lowest at scale</td><td>Total control, large commitment</td><td>You need hundreds of MW, control the hardware, and can carry the balance sheet.</td></tr>
+        <tr><td>Prefabricated modular</td><td>6–12 months</td><td>Higher per MW</td><td>Increments, vendor-tied</td><td>Speed beats capital cost, or site labor is scarce. Power and cooling skids capture most of the benefit.</td></tr>
+        <tr><td>Wholesale colocation</td><td>3–12 months</td><td>Middle</td><td>Whole halls, long leases</td><td>1–10 MW with a stable forecast, and you would rather not operate the building.</td></tr>
+        <tr><td>Retail colocation</td><td>Weeks</td><td>Highest per kW</td><td>Cabinet by cabinet</td><td>Interconnection density matters, or the requirement is small and uncertain.</td></tr>
+        <tr><td>Edge</td><td>Weeks</td><td>Highest all-in</td><td>Many small sites</td><td>Latency or data locality genuinely requires proximity. Most workloads do not.</td></tr>
+      </tbody>
+    </table></div>

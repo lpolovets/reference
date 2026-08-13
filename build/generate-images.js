@@ -85,6 +85,11 @@ async function generate(prompt, style, anchorB64, outfile) {
         contents: [{ parts }],
         generationConfig: { responseModalities: ['IMAGE'], imageConfig: { aspectRatio: '4:3' } },
       }),
+      // Without this a hung socket blocks its worker forever: on 2026-08-12 a run
+      // stalled for 16 minutes with no error and no new files, because all three
+      // workers were waiting on requests that never returned. Failing fast is safe
+      // because the script skips files that already exist, so a re-run fills the gaps.
+      signal: AbortSignal.timeout(180000),
     });
   if (!res.ok) throw new Error(path.basename(outfile) + ': HTTP ' + res.status + ' ' + (await res.text()).slice(0, 300));
   const data = await res.json();

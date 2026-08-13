@@ -1,0 +1,41 @@
+    <h2>Head-to-head: which qubit platform</h2>
+    <p class="muted">Every platform trades the same three things against each other: gate speed, gate fidelity, and how many qubits you can put in one machine. No platform leads on all three, and the ordering has been stable for several years even as absolute numbers improve.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Platform</th><th>2Q fidelity</th><th>Gate time</th><th>Connectivity</th><th>Pick it when</th></tr></thead>
+      <tbody>
+        <tr><td>Transmon</td><td>99.5–99.9%</td><td>20–100 ns</td><td>Nearest neighbor</td><td>You believe fabrication scale wins. The most invested platform and the default in most roadmaps.</td></tr>
+        <tr><td>Fluxonium</td><td>Above 99.9% demonstrated</td><td>Slower than transmon</td><td>Nearest neighbor</td><td>Coherence rather than count is the binding constraint. Early, but the fidelity numbers are real.</td></tr>
+        <tr><td>Trapped ion</td><td>Above 99.9%</td><td>10–100 us</td><td>All-to-all in a chain</td><td>Circuit depth and gate quality matter more than speed. Best fidelity available today.</td></tr>
+        <tr><td>Neutral atom</td><td>About 99.5%</td><td>0.1–1 us</td><td>Reconfigurable geometry</td><td>Analog simulation now, and the fastest-improving gate-based platform. Thousands of atoms already.</td></tr>
+        <tr><td>Silicon spin</td><td>Above 99%</td><td>10–100 ns</td><td>Nearest neighbor</td><td>Long-horizon bet on CMOS manufacturing. Best endgame, smallest current systems.</td></tr>
+        <tr><td>Photonic</td><td>Loss-dominated</td><td>Speed of light</td><td>Set by the circuit</td><td>You believe foundry manufacturing beats physics scaling. Designed for fault tolerance, not for intermediate machines.</td></tr>
+        <tr><td>Topological</td><td>Not demonstrated</td><td>Not demonstrated</td><td>Not demonstrated</td><td>A high-variance research position. The foundational physics claim is still contested.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2>Which quantum sensor</h2>
+    <p class="muted">This is the part of the field that already sells hardware. Choose by what you are measuring and by whether the environment can be controlled.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Sensor</th><th>Measures</th><th>Sensitivity</th><th>Environment</th><th>Pick it when</th></tr></thead>
+      <tbody>
+        <tr><td>Optical atomic clock</td><td>Time and frequency</td><td>Around 10^-19 fractional</td><td>Laboratory</td><td>Geodesy, fundamental physics, or a future time standard. Not a field instrument yet.</td></tr>
+        <tr><td>Chip-scale atomic clock</td><td>Time holdover</td><td>Microsecond over a day</td><td>Anywhere, under 1 W</td><td>GPS may be lost and the system must keep time. The most deployed quantum device there is.</td></tr>
+        <tr><td>SERF magnetometer</td><td>Magnetic field</td><td>Femtotesla per root Hz</td><td>Shielded, field nulled</td><td>Biomagnetic imaging and anomaly detection. Replaces SQUIDs without cryogenics.</td></tr>
+        <tr><td>NV magnetometer</td><td>Magnetic field, temperature</td><td>Picotesla per root Hz</td><td>Room temperature, contact</td><td>Proximity and spatial resolution beat absolute sensitivity: chip imaging, downhole, in-place diagnostics.</td></tr>
+        <tr><td>Atom interferometer</td><td>Gravity, acceleration, rotation</td><td>Microgal, no drift</td><td>Low vibration</td><td>Absolute drift-free gravity survey. Inertial navigation is coming but not deployed.</td></tr>
+        <tr><td>Quantum radar</td><td>Nothing useful yet</td><td>6 dB in theory</td><td>Millikelvin, meters</td><td>Never, so far. Included so the claim can be checked against the requirements.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2>Protecting data against a quantum attacker</h2>
+    <p class="muted">Two answers exist and they are not equivalent. One is a software change you can start today; the other is hardware for specific links.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Approach</th><th>Security basis</th><th>Range</th><th>Deployment</th><th>Pick it when</th></tr></thead>
+      <tbody>
+        <tr><td>Post-quantum cryptography</td><td>Mathematical hardness</td><td>The internet</td><td>Software update</td><td>Essentially always. Standardized in 2024 and recommended by NSA and NCSC over the alternatives.</td></tr>
+        <tr><td>Fiber QKD</td><td>Physics, plus hardware assumptions</td><td>100–200 km</td><td>Dedicated fiber and hardware</td><td>One short high-value link where you own both ends and a physics argument has institutional value.</td></tr>
+        <tr><td>Satellite QKD</td><td>Physics, no trusted relay</td><td>Intercontinental</td><td>Orbital asset plus ground stations</td><td>You are a national program. Not an enterprise purchase.</td></tr>
+        <tr><td>Quantum repeaters</td><td>Physics, no trusted nodes</td><td>Unlimited in principle</td><td>Does not exist yet</td><td>Not yet. Track memory coherence and node-to-node entanglement rate as the indicators.</td></tr>
+        <tr><td>QRNG</td><td>Indeterminate measurement</td><td>Local</td><td>Chip or module</td><td>Entropy quality is a genuine risk. Complements the above rather than replacing anything.</td></tr>
+      </tbody>
+    </table></div>

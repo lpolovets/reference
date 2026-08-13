@@ -1,0 +1,135 @@
+{
+  "slug": "grid-and-transmission",
+  "docTitle": "Grid and Transmission Reference",
+  "shortTitle": "Grid & Transmission",
+  "blurb": "Overhead lines, underground and subsea cable, HVDC, transformers and switchgear, protection and control, stability services, and the distribution edge — with voltage class, lead time, and how hard each one is to site.",
+  "category": "Energy",
+  "question": "How do you move this power, and what is actually in the way?",
+  "title": "Grid and Transmission: A Practical Reference",
+  "lede": "Generation gets the headlines; the grid decides what actually gets built. This guide catalogs {{N_ENTRIES}} technologies across seven classes, from 765 kV overhead line to the smart meter on a house, with the voltage class each one serves, what it costs in time rather than dollars, and how much of the schedule is engineering against how much is right-of-way.",
+  "unit": ["technology", "technologies"],
+  "groupLabel": "Class",
+  "explorerTab": "Technology explorer",
+  "guideTab": "Selection guide",
+  "h2hTab": "Head-to-head",
+  "searchPlaceholder": "Search technologies, equipment, voltages…",
+  "stats": [
+    { "count": "entries", "label": "technologies" },
+    { "count": "parts", "label": "classes" },
+    { "count": "groups", "label": "families" }
+  ],
+  "parts": [
+    { "id": 1, "roman": "I", "name": "Overhead Transmission", "blurb": "the cheapest way to move bulk power", "color": "var(--p1)" },
+    { "id": 2, "roman": "II", "name": "Underground & Subsea", "blurb": "cable where a line cannot go", "color": "var(--p2)" },
+    { "id": 3, "roman": "III", "name": "HVDC & Power Electronics", "blurb": "long hauls and links between grids", "color": "var(--p3)" },
+    { "id": 4, "roman": "IV", "name": "Substation Apparatus", "blurb": "transform, switch, and compensate", "color": "var(--p4)" },
+    { "id": 5, "roman": "V", "name": "Protection & Control", "blurb": "clear faults and see what is happening", "color": "var(--p5)" },
+    { "id": 6, "roman": "VI", "name": "Stability & Grid Services", "blurb": "what inverters took away and must give back", "color": "var(--p6)" },
+    { "id": 7, "roman": "VII", "name": "Distribution & the Edge", "blurb": "the last few kilometers to the load", "color": "var(--p7)" }
+  ],
+  "groupBlurbs": {
+    "Overhead lines": "conductors, structures, and how hard you can push them",
+    "Underground & subsea": "cable systems and their thermal limits",
+    "HVDC converters": "turning AC into DC and back",
+    "HVDC apparatus": "the hardware a DC grid still needs",
+    "Substation apparatus": "transformers, switchgear, and compensation",
+    "Protection & control": "relays, telemetry, and substation automation",
+    "Stability & grid services": "inertia, reactive power, and fast response",
+    "Distribution & edge": "medium and low voltage out to the meter"
+  },
+  "facets": [
+    {
+      "id": "volt",
+      "key": "voltage",
+      "label": "Voltage",
+      "type": "range",
+      "color": "--fa",
+      "required": true,
+      "tip": "Voltage class the technology normally serves. LV under 1 kV · MV 1–35 kV, the distribution feeders · HV 35–230 kV, subtransmission and smaller transmission · EHV 230–800 kV, the bulk system · UHV above 800 kV, built at scale only in China and India. Most equipment spans a band.",
+      "order": ["lv", "mv", "hv", "ehv", "uhv"],
+      "options": { "lv": "LV", "mv": "MV", "hv": "HV", "ehv": "EHV", "uhv": "UHV" },
+      "chipLabels": {
+        "lv": "LV (under 1 kV)",
+        "mv": "MV (1–35 kV)",
+        "hv": "HV (35–230 kV)",
+        "ehv": "EHV (230–800 kV)",
+        "uhv": "UHV (800 kV+)"
+      }
+    },
+    {
+      "id": "role",
+      "key": "roles",
+      "label": "Role",
+      "type": "multi",
+      "color": "--fb",
+      "required": true,
+      "tagRow": 2,
+      "tip": "What the technology is bought to do. Most equipment does more than one job, and the reason a utility buys it is often the second one on the list.",
+      "order": ["bulk", "cong", "volt", "stab", "prot", "vis", "deliv"],
+      "options": {
+        "bulk": "Bulk transfer",
+        "cong": "Congestion relief",
+        "volt": "Voltage support",
+        "stab": "Stability & inertia",
+        "prot": "Protection",
+        "vis": "Visibility & control",
+        "deliv": "Local delivery"
+      }
+    },
+    {
+      "id": "lead",
+      "key": "lead",
+      "label": "Lead time",
+      "type": "single",
+      "color": "--fc",
+      "tip": "Time from decision to energization for a typical project, including procurement but not litigation. This is the number that has changed most since 2021: large power transformers and HVDC converters both went from months to years, and on many projects the equipment now arrives after the permits.",
+      "order": ["fast", "yr", "yr3", "yr5", "yr10"],
+      "options": {
+        "fast": "Under 1 year",
+        "yr": "1–3 years",
+        "yr3": "3–5 years",
+        "yr5": "5–10 years",
+        "yr10": "10+ years"
+      }
+    },
+    {
+      "id": "site",
+      "key": "siting",
+      "label": "Siting",
+      "type": "single",
+      "color": "--fe",
+      "tip": "How hard the technology is to permit and place. Inside the fence = goes in an existing substation or on existing structures · Corridor = needs an existing right of way · New right of way = needs land nobody has agreed to yet, which is where most large projects die.",
+      "order": ["fence", "exist", "corr", "row"],
+      "options": {
+        "fence": "Inside the fence",
+        "exist": "Existing assets",
+        "corr": "Existing corridor",
+        "row": "New right of way"
+      }
+    },
+    {
+      "id": "mat",
+      "key": "maturity",
+      "label": "Maturity",
+      "type": "single",
+      "color": "--fd",
+      "required": true,
+      "tip": "Mature = installed for decades, many vendors · Established = commercial with a shorter record or fewer suppliers · Emerging = deployed but still proving itself at scale · Early = pilots and demonstrations.",
+      "order": ["mature", "est", "emerg", "early"],
+      "options": {
+        "mature": "Mature",
+        "est": "Established",
+        "emerg": "Emerging",
+        "early": "Early"
+      }
+    }
+  ],
+  "videosAfter": "Economic profile",
+  "extraSections": [
+    ["when to use", "When to use"],
+    ["key numbers", "Key numbers"],
+    ["examples", "Examples"],
+    ["economic profile", "Economic profile"],
+    ["further reading", "Further reading"]
+  ]
+}

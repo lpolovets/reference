@@ -1,0 +1,55 @@
+    <h2>Head-to-head: how do you get more capacity on this path</h2>
+    <p class="muted">This is the choice a planner faces when a corridor is constrained. The options are ordered the way they should be evaluated, cheapest and fastest first. The tables after it cover the AC-versus-DC decision, what to put in a substation, and how to hold a low-inertia system together.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Option</th><th>Capacity gain</th><th>Time</th><th>Siting</th><th>Pick it when</th></tr></thead>
+      <tbody>
+        <tr><td>Dynamic line rating</td><td>10–30%, more in wind</td><td>Months</td><td>None needed</td><td>The line is thermally limited for a limited number of hours. Cheapest capacity available, and it stacks with everything below.</td></tr>
+        <tr><td>Series compensation</td><td>40–70% on a long line</td><td>1–2 years</td><td>Inside the fence</td><td>The limit is stability rather than heat. Run the subsynchronous resonance study before committing.</td></tr>
+        <tr><td>Storage at the constraint</td><td>Relieves contingency limits</td><td>1–2 years</td><td>Existing site</td><td>A specific contingency sets the limit and the binding hours are few. Check how your regulator treats cost recovery.</td></tr>
+        <tr><td>Reconductoring</td><td>Up to 2x</td><td>18–36 months</td><td>Existing right of way</td><td>The line is thermally limited, the structures are sound, and an outage window exists. Usually the best large increment available.</td></tr>
+        <tr><td>Rebuild at higher voltage</td><td>2–4x</td><td>4–7 years</td><td>Existing corridor, widened</td><td>The corridor will be needed for decades and the load growth is certain. Build the higher class now rather than twice.</td></tr>
+        <tr><td>New AC line</td><td>New path</td><td>7–12 years</td><td>New right of way</td><td>A genuinely new path is needed. Start the land work first and treat everything else as following it.</td></tr>
+        <tr><td>New HVDC link</td><td>New controllable path</td><td>7–12 years</td><td>New right of way or subsea</td><td>The route is long, crosses water, joins asynchronous systems, or the flow has to be controlled rather than left to impedance.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2>AC or DC, and which converter</h2>
+    <p class="muted">Distance and the medium decide AC against DC. After that, the converter choice is decided by how strong the AC systems at each end are and whether the scheme will ever have more than two terminals.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Option</th><th>Economic range</th><th>Losses</th><th>Needs a strong AC grid</th><th>Pick it when</th></tr></thead>
+      <tbody>
+        <tr><td>Overhead AC</td><td>Under about 600–800 km</td><td>2–4% per 1,000 km at 765 kV</td><td>n/a</td><td>Almost always, on land, at moderate distance. Cheapest per MW-mile and repairable in days.</td></tr>
+        <tr><td>AC cable</td><td>Under 50–80 km</td><td>Low, but charging current eats capacity</td><td>n/a</td><td>An overhead line cannot be built: city, airport, protected landscape. Expect 5–15x the cost.</td></tr>
+        <tr><td>LCC HVDC</td><td>Long overhead, 1,000 km+</td><td>0.7% per station</td><td>Yes, at both ends</td><td>The largest point-to-point transfers into strong systems. 800–1,100 kV moves 8–12 GW at the lowest loss available.</td></tr>
+        <tr><td>VSC HVDC</td><td>Any distance where DC wins</td><td>About 1% per station</td><td>No</td><td>Offshore wind, weak grids, city infeeds, and anything that may become multi-terminal. The default for new schemes.</td></tr>
+        <tr><td>Back-to-back converter</td><td>Zero distance</td><td>1–2% total</td><td>No</td><td>The two systems cannot be synchronized, or an internal seam needs a controllable valve rather than an impedance path.</td></tr>
+        <tr><td>Subsea DC cable</td><td>Up to 700+ km</td><td>Low, plus converters</td><td>No</td><td>The route crosses water at all. Book cable factory and vessel slots before finishing the design.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2>What goes in the substation</h2>
+    <p class="muted">Reactive support, switching, and protection are separate purchases that get conflated. The rule of thumb: buy bulk MVArs mechanically and buy speed electronically, and never let a device that costs ten times more per MVAr do steady-state work.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Equipment</th><th>Speed</th><th>Relative cost</th><th>Holds up in a voltage dip</th><th>Pick it when</th></tr></thead>
+      <tbody>
+        <tr><td>Switched capacitor bank</td><td>Seconds, stepwise</td><td>1x per MVAr</td><td>No, output falls with voltage squared</td><td>Steady-state reactive support. Always the base layer, everywhere.</td></tr>
+        <tr><td>Shunt reactor</td><td>Seconds, stepwise</td><td>1x per MVAr</td><td>n/a</td><td>Long lightly loaded lines and any EHV cable circuit, where the line's own capacitance pushes voltage up.</td></tr>
+        <tr><td>SVC</td><td>One to two cycles</td><td>5–7x</td><td>Partly</td><td>Continuous regulation at lower cost than a STATCOM, on a system that stays reasonably strong.</td></tr>
+        <tr><td>STATCOM</td><td>2–5 ms</td><td>10x</td><td>Yes, holds rated current</td><td>Fast dynamic support in a weak grid or next to a large inverter plant. Buy only the dynamic increment.</td></tr>
+        <tr><td>Synchronous condenser</td><td>About 100 ms</td><td>8–12x, less if converted</td><td>Yes</td><td>You need inertia and short-circuit current, not just MVArs. Converting a retiring generator is the cheap route.</td></tr>
+        <tr><td>Gas-insulated switchgear</td><td>n/a</td><td>2–4x air-insulated</td><td>n/a</td><td>Land is unavailable or the air is corrosive. Specify an SF6-free option unless there is a reason not to.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2>Holding up a system with few synchronous machines</h2>
+    <p class="muted">As thermal plant retires, three things go with it: inertia, short-circuit strength, and voltage control. They are separate services and no single device supplies all three well.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Option</th><th>Inertia</th><th>Fault current</th><th>Speed</th><th>Pick it when</th></tr></thead>
+      <tbody>
+        <tr><td>Synchronous condenser</td><td>Real, 2–6 MW-s per MVA</td><td>5–6x rated</td><td>About 100 ms</td><td>Protection is misoperating and converters are unstable because the system is weak. The only device that fixes short-circuit strength.</td></tr>
+        <tr><td>Grid-forming inverter</td><td>Synthetic, very fast</td><td>1.1–1.5x rated</td><td>Tens of ms</td><td>New batteries and inverters are being procured anyway. Cheap at procurement, expensive to retrofit.</td></tr>
+        <tr><td>STATCOM</td><td>None</td><td>1.1–1.5x rated</td><td>2–5 ms</td><td>The problem is voltage, not frequency. Pairs well with a synchronous condenser rather than replacing it.</td></tr>
+        <tr><td>Storage on fast frequency response</td><td>Effective, not physical</td><td>Low</td><td>Under 1 s full output</td><td>Frequency response is the shortfall and a market exists to pay for it.</td></tr>
+        <tr><td>Demand response</td><td>None</td><td>None</td><td>Seconds to hours</td><td>The shortfall is capacity for a few hundred hours a year. Cheapest option on this sheet, with a baseline you have to police.</td></tr>
+      </tbody>
+    </table></div>

@@ -1,0 +1,116 @@
+{
+  "slug": "data-center-infrastructure",
+  "docTitle": "Data Center Infrastructure Reference",
+  "shortTitle": "Data Center Infrastructure",
+  "blurb": "Power delivery, standby generation and UPS, air and liquid cooling, heat rejection and water, facility types and siting, plus racks, optics and operations — with the rack density each approach supports and whether it fits an existing hall.",
+  "category": "Computing and Photonics",
+  "question": "How do you power and cool a rack that draws 130 kW?",
+  "title": "Data Center Infrastructure: A Practical Reference",
+  "lede": "A decade of data center design assumed 5–10 kW racks and air. AI training racks draw 80–140 kW and are heading past 250, which breaks the air assumption, the power assumption, and usually the building. This guide catalogs {{N_ENTRIES}} systems across seven classes, with the rack density each one actually supports, how much water it uses, and whether it can go into a hall that already exists.",
+  "unit": ["system", "systems"],
+  "groupLabel": "Class",
+  "explorerTab": "System explorer",
+  "guideTab": "Selection guide",
+  "h2hTab": "Head-to-head",
+  "searchPlaceholder": "Search systems, cooling, power…",
+  "stats": [
+    { "count": "entries", "label": "systems" },
+    { "count": "parts", "label": "classes" },
+    { "count": "groups", "label": "families" }
+  ],
+  "parts": [
+    { "id": 1, "roman": "I", "name": "Power Delivery", "blurb": "utility service down to the rack", "color": "var(--p1)" },
+    { "id": 2, "roman": "II", "name": "Backup & Ride-Through", "blurb": "what carries the load when the grid drops", "color": "var(--p2)" },
+    { "id": 3, "roman": "III", "name": "Air Cooling", "blurb": "the incumbent, and where it runs out", "color": "var(--p3)" },
+    { "id": 4, "roman": "IV", "name": "Liquid Cooling", "blurb": "moving heat where air cannot", "color": "var(--p4)" },
+    { "id": 5, "roman": "V", "name": "Heat Rejection & Water", "blurb": "getting the heat out of the building", "color": "var(--p5)" },
+    { "id": 6, "roman": "VI", "name": "Facility & Siting", "blurb": "what kind of building, and where", "color": "var(--p6)" },
+    { "id": 7, "roman": "VII", "name": "Racks & Operations", "blurb": "standards, optics, and running the place", "color": "var(--p7)" }
+  ],
+  "groupBlurbs": {
+    "Power delivery": "from the utility takeoff to the rack outlet",
+    "Standby generation": "engines that start when the grid fails",
+    "UPS & ride-through": "carrying the load through the gap",
+    "Air cooling": "moving heat with air, and its limits",
+    "Liquid cooling": "cold plates, immersion, and the loops behind them",
+    "Heat rejection & water": "the last step to the atmosphere",
+    "Facility & siting": "building type, ownership model, and location",
+    "Racks & operations": "standards, interconnect, and how it is run"
+  },
+  "facets": [
+    {
+      "id": "dens",
+      "key": "density",
+      "label": "Density",
+      "type": "range",
+      "color": "--fa",
+      "required": true,
+      "tip": "Rack power density the system can support. Low under 10 kW/rack is legacy enterprise · Medium 10–40 kW covers most cloud racks · High 40–100 kW is where air stops working · Extreme above 100 kW is AI training. Most systems span a band, and the top of that band is what matters.",
+      "order": ["low", "med", "high", "ext"],
+      "options": { "low": "Low", "med": "Medium", "high": "High", "ext": "Extreme" },
+      "chipLabels": {
+        "low": "Low (under 10 kW/rack)",
+        "med": "Medium (10–40 kW)",
+        "high": "High (40–100 kW)",
+        "ext": "Extreme (100 kW+)"
+      }
+    },
+    {
+      "id": "where",
+      "key": "where",
+      "label": "Used in",
+      "type": "multi",
+      "color": "--fb",
+      "required": true,
+      "tagRow": 2,
+      "tip": "Where the system is normally deployed. AI training is called out separately from hyperscale because its density, power ramp rate, and cooling requirements differ enough to change the design.",
+      "order": ["ai", "hyper", "colo", "ent", "edge"],
+      "options": {
+        "ai": "AI training",
+        "hyper": "Hyperscale",
+        "colo": "Colocation",
+        "ent": "Enterprise",
+        "edge": "Edge"
+      }
+    },
+    {
+      "id": "water",
+      "key": "water",
+      "label": "Water use",
+      "type": "single",
+      "color": "--fc",
+      "tip": "On-site water consumption when the system is running. This is the metric communities and regulators ask about, and it trades directly against electricity: evaporative cooling saves power and spends water, closed loops do the reverse. Untagged where the system does not touch the water balance.",
+      "order": ["none", "low", "med", "high"],
+      "options": { "none": "None", "low": "Low", "med": "Moderate", "high": "High" }
+    },
+    {
+      "id": "retro",
+      "key": "retrofit",
+      "label": "Retrofit",
+      "type": "single",
+      "color": "--fe",
+      "tip": "How disruptive the system is to install in a facility that already exists. Drop-in = goes into a live hall rack by rack · Hall retrofit = needs a room taken out of service and reworked · New build = the building has to be designed around it.",
+      "order": ["drop", "hall", "new"],
+      "options": { "drop": "Drop-in", "hall": "Hall retrofit", "new": "New build" }
+    },
+    {
+      "id": "mat",
+      "key": "maturity",
+      "label": "Maturity",
+      "type": "single",
+      "color": "--fd",
+      "required": true,
+      "tip": "Mature = standard practice with many suppliers · Established = commercial and widely deployed but newer · Emerging = shipping at scale only in the last few years · Early = deployed in pilots and single sites.",
+      "order": ["mature", "est", "emerg", "early"],
+      "options": { "mature": "Mature", "est": "Established", "emerg": "Emerging", "early": "Early" }
+    }
+  ],
+  "videosAfter": "Economic profile",
+  "extraSections": [
+    ["when to use", "When to use"],
+    ["key numbers", "Key numbers"],
+    ["examples", "Examples"],
+    ["economic profile", "Economic profile"],
+    ["further reading", "Further reading"]
+  ]
+}

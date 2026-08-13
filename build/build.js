@@ -498,7 +498,7 @@ if (ARTIFACT_SLUG) {
   // fixes the running order, biggest and most-linked first; anything not listed
   // falls in after them in order of first appearance.
   const CATEGORIES = ['Energy', 'Robotics and Manufacturing', 'Materials',
-    'Semiconductors', 'Defense and Aerospace', 'Bioprocessing'];
+    'Semiconductors', 'Computing and Photonics', 'Defense and Aerospace', 'Bioprocessing'];
   const catOrder = [];
   const byCat = new Map();
   for (const s of all) {

@@ -1,0 +1,137 @@
+{
+  "slug": "optics-and-photonics",
+  "docTitle": "Optics and Photonics Reference",
+  "shortTitle": "Optics & Photonics",
+  "blurb": "Lasers and other light sources, lenses, coatings and fiber, modulators and scanners, detectors from photodiodes to single-photon counters, imaging and spectroscopy, and integrated photonics — with wavelength band, form factor, and unit cost.",
+  "category": "Computing and Photonics",
+  "question": "Which light source, optic, or detector does this job?",
+  "title": "Optics and Photonics: A Practical Reference",
+  "lede": "Photonics is the layer underneath half the technology in the other sheets: the LiDAR on a robot, the lithography that makes a chip, the fiber under the ocean, the transceiver in a rack. This guide catalogs {{N_ENTRIES}} devices across seven classes, organized the way an optical system is actually specified, by wavelength first and everything else second.",
+  "unit": ["device", "devices"],
+  "groupLabel": "Class",
+  "explorerTab": "Device explorer",
+  "guideTab": "Selection guide",
+  "h2hTab": "Head-to-head",
+  "searchPlaceholder": "Search devices, wavelengths, detectors…",
+  "stats": [
+    { "count": "entries", "label": "devices" },
+    { "count": "parts", "label": "classes" },
+    { "count": "groups", "label": "families" }
+  ],
+  "parts": [
+    { "id": 1, "roman": "I", "name": "Lasers", "blurb": "coherent light, from chips to kilowatts", "color": "var(--p1)" },
+    { "id": 2, "roman": "II", "name": "Other Sources", "blurb": "broadband and incoherent emitters", "color": "var(--p2)" },
+    { "id": 3, "roman": "III", "name": "Optics & Materials", "blurb": "guide, focus, filter, and reflect", "color": "var(--p3)" },
+    { "id": 4, "roman": "IV", "name": "Modulation & Scanning", "blurb": "change the light or point it somewhere", "color": "var(--p4)" },
+    { "id": 5, "roman": "V", "name": "Detectors", "blurb": "turn photons back into electrons", "color": "var(--p5)" },
+    { "id": 6, "roman": "VI", "name": "Imaging & Spectroscopy", "blurb": "instruments built from the classes above", "color": "var(--p6)" },
+    { "id": 7, "roman": "VII", "name": "Integrated Photonics", "blurb": "optics on a chip, and the data it moves", "color": "var(--p7)" }
+  ],
+  "groupBlurbs": {
+    "Semiconductor lasers": "light from a diode junction, made by the million",
+    "Bulk & fiber lasers": "where the high average powers come from",
+    "Broadband sources": "wide spectra, incoherent or supercontinuum",
+    "Optical components": "the passive parts that shape and select light",
+    "Modulation & scanning": "encode a signal or move a beam",
+    "Detectors": "from milliwatts down to single photons",
+    "Imaging & spectroscopy": "systems that answer a measurement question",
+    "Integrated photonics": "waveguides on silicon and the links they carry"
+  },
+  "facets": [
+    {
+      "id": "band",
+      "key": "band",
+      "label": "Wavelength",
+      "type": "range",
+      "color": "--fa",
+      "required": true,
+      "tip": "Spectral band the device works in. UV under 400 nm · Visible 400–700 nm · NIR 700–1,100 nm, where silicon still detects · SWIR 1.1–2.5 um, the telecom and eye-safe region · MWIR 3–5 um and LWIR 8–14 um, the two atmospheric windows thermal imaging uses · THz below that. Most devices span a band, and the material sets where it ends.",
+      "order": ["uv", "vis", "nir", "swir", "mwir", "lwir", "thz"],
+      "options": {
+        "uv": "UV",
+        "vis": "Visible",
+        "nir": "NIR",
+        "swir": "SWIR",
+        "mwir": "MWIR",
+        "lwir": "LWIR",
+        "thz": "THz"
+      },
+      "chipLabels": {
+        "uv": "UV (under 400 nm)",
+        "vis": "Visible (400–700 nm)",
+        "nir": "NIR (0.7–1.1 um)",
+        "swir": "SWIR (1.1–2.5 um)",
+        "mwir": "MWIR (3–5 um)",
+        "lwir": "LWIR (8–14 um)",
+        "thz": "THz (0.1–10 THz)"
+      }
+    },
+    {
+      "id": "app",
+      "key": "apps",
+      "label": "Used in",
+      "type": "multi",
+      "color": "--fb",
+      "required": true,
+      "tagRow": 2,
+      "tip": "Markets where the device is a normal choice rather than an exotic one. Most photonics parts serve several, which is why a component designed for telecom volume often turns up in a sensor.",
+      "order": ["comms", "sense", "mfg", "med", "def", "metro", "cons"],
+      "options": {
+        "comms": "Communications",
+        "sense": "Sensing & LiDAR",
+        "mfg": "Manufacturing",
+        "med": "Medical",
+        "def": "Defense",
+        "metro": "Metrology",
+        "cons": "Consumer"
+      }
+    },
+    {
+      "id": "form",
+      "key": "form",
+      "label": "Form factor",
+      "type": "single",
+      "color": "--fc",
+      "tip": "How the device arrives. Chip = a die or wafer-level part · Component = a discrete packaged optic or emitter · Module = a packaged subsystem with drive electronics · Instrument = a benchtop or rack system. Form factor usually predicts cost and volume better than the physics does.",
+      "order": ["chip", "comp", "mod", "inst"],
+      "options": { "chip": "Chip", "comp": "Component", "mod": "Module", "inst": "Instrument" }
+    },
+    {
+      "id": "cost",
+      "key": "cost",
+      "label": "Unit cost",
+      "type": "single",
+      "color": "--fe",
+      "tagPrefix": "$",
+      "tip": "Rough price for one unit at the quality a working system needs, not the cheapest catalog part. Photonics spans six orders of magnitude here, and the same function can sit at either end depending on wavelength and specification.",
+      "order": ["u10", "u100", "u1k", "u10k", "u100k", "o100k"],
+      "options": {
+        "u10": "Under $10",
+        "u100": "$10–100",
+        "u1k": "$100–1k",
+        "u10k": "$1k–10k",
+        "u100k": "$10k–100k",
+        "o100k": "$100k+"
+      }
+    },
+    {
+      "id": "mat",
+      "key": "maturity",
+      "label": "Maturity",
+      "type": "single",
+      "color": "--fd",
+      "required": true,
+      "tip": "Mature = commodity, many suppliers, decades of use · Established = commercial with a solid supply base · Emerging = shipping but still improving quickly · Early = research and first products.",
+      "order": ["mature", "est", "emerg", "early"],
+      "options": { "mature": "Mature", "est": "Established", "emerg": "Emerging", "early": "Early" }
+    }
+  ],
+  "videosAfter": "Economic profile",
+  "extraSections": [
+    ["when to use", "When to use"],
+    ["key numbers", "Key numbers"],
+    ["examples", "Examples"],
+    ["economic profile", "Economic profile"],
+    ["further reading", "Further reading"]
+  ]
+}

@@ -1,0 +1,69 @@
+    <h2>How to specify an optical system</h2>
+    <p class="muted">Optical design goes wrong in a predictable order. People pick a laser, then discover the detector does not respond at that wavelength, then discover the lens material does not transmit it, then discover the only coating vendor for that band has a twelve-week lead time. <b>Start with wavelength.</b> It is the one choice that constrains every other component, and once it is fixed the rest of the system narrows to a handful of options.</p>
+
+    <h3>Wavelength picks your materials for you</h3>
+    <p>Each band comes with its own set of what works, and the boundaries are set by physics rather than by preference. Silicon detects up to 1,100 nm and is blind past it. Ordinary glass transmits roughly 350–2,500 nm and nothing outside. Beyond 2.5 um you are buying germanium, zinc selenide, or calcium fluoride at ten to a hundred times the price of BK7. The step from "silicon and glass" to "exotic materials" is the single largest cost cliff in optics, and crossing it should be a deliberate decision.</p>
+    <div class="bands">
+      <div class="band"><div class="bt">UV (under 400 nm)</div><div class="bv">Fused silica and CaF2 optics, excimer or frequency-tripled sources, solar-blind detectors. Photon energy breaks bonds.</div></div>
+      <div class="band"><div class="bt">Visible & NIR (0.4–1.1 um)</div><div class="bv">Glass, silicon detectors, diode lasers. Everything is cheap here because everything is made here.</div></div>
+      <div class="band"><div class="bt">SWIR (1.1–2.5 um)</div><div class="bv">Telecom's home. InGaAs detectors, fiber components, eye-safe at 1,550 nm. Silicon stops working.</div></div>
+      <div class="band"><div class="bt">MWIR & LWIR (3–14 um)</div><div class="bv">Germanium and ZnSe optics, quantum cascade lasers, microbolometers. Thermal contrast lives here.</div></div>
+    </div>
+
+    <h3>Coherence is the second question</h3>
+    <p>Ask whether the application needs a beam or needs light. A beam, meaning something that can be focused to a diffraction-limited spot or sent a long way, requires a laser and brings alignment, speckle, and safety with it. Light, meaning illumination over an area, is far better served by an LED at a hundredth the cost. Half the lasers specified into industrial systems are doing a job an LED would do, and the other half could not be replaced by anything else.</p>
+
+    <h3>Engineering factors</h3>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Factor</th><th>Why it matters</th></tr></thead>
+      <tbody>
+        <tr><td>Wavelength</td><td>Fixes detector material, lens material, coating design, fiber type, and often the supplier list. Decide it before anything else.</td></tr>
+        <tr><td>Beam quality</td><td>Whether the light can be focused to a small spot. It is set at the source and cannot be recovered downstream by any optic.</td></tr>
+        <tr><td>Bandwidth and speed</td><td>Modulation above 10 MHz rules out mechanical and acousto-optic approaches and points to electro-optics or direct diode modulation.</td></tr>
+        <tr><td>Detector noise floor</td><td>Signal in photons per measurement decides the detector class: photodiode, avalanche device, or single-photon counter.</td></tr>
+        <tr><td>Optical power</td><td>Sets damage thresholds on coatings and modulators, and decides whether an acousto-optic device beats an electro-optic one.</td></tr>
+        <tr><td>Angle of incidence</td><td>Interference coatings and filters are specified at an angle. Using them in a converging beam shifts and broadens their response.</td></tr>
+        <tr><td>Thermal drift</td><td>Diode wavelength moves 0.3 nm per degree, silicon waveguides shift strongly, filters walk. Anything wavelength-critical needs control.</td></tr>
+        <tr><td>Eye safety</td><td>1,550 nm allows far more power for the same hazard class than 905 nm, which is why long-range LiDAR moved there.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h3>Economic and supply factors</h3>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Factor</th><th>Why it matters</th></tr></thead>
+      <tbody>
+        <tr><td>Volume determines everything</td><td>The same function costs $5 as a molded consumer part and $5,000 as a catalog component. Ask which market your part belongs to.</td></tr>
+        <tr><td>Telecom's shadow</td><td>Components made in telecom volume at 1,310 and 1,550 nm are cheap everywhere else. Designing into those wavelengths buys a supply chain.</td></tr>
+        <tr><td>Packaging and alignment</td><td>In integrated photonics, coupling and packaging routinely exceed half the unit cost. Budget for it explicitly.</td></tr>
+        <tr><td>Exotic materials</td><td>Germanium, zinc selenide, and calcium fluoride carry both price and lead time. In thermal imaging the lens often costs more than the sensor.</td></tr>
+        <tr><td>Custom coatings</td><td>A custom coating run has a setup cost and a multi-week lead time. Catalog coatings are usually good enough and immediately available.</td></tr>
+        <tr><td>Export control</td><td>Cooled infrared detectors, high-power lasers, and some ultrafast systems are controlled. This shapes the supplier list before price does.</td></tr>
+        <tr><td>Obsolescence</td><td>Photonics component lines get discontinued quietly. For a long-lived product, check second sources at design time rather than at production.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2>Why almost everything is 1,550 nm</h2>
+    <p>Silica fiber has its loss minimum near 1,550 nm, and erbium happens to amplify there. Those two facts built the entire long-haul network, and the volume that followed made lasers, modulators, detectors, and fiber components at that wavelength cheaper than anywhere else in the spectrum. That is why LiDAR moved to 1,550 nm when it needed more power, why fiber sensing lives there, and why a photonics startup that can work at telecom wavelengths has a large cost advantage over one that cannot. Wavelength choice is a supply chain choice as much as a physics one.</p>
+
+    <h2>Core takeaway</h2>
+    <div class="callout">
+      <p>Specify wavelength first, then check that a source, a detector, and a lens material all exist in that band at a price you can pay. Most failed optical designs are not failures of optics; they are cases where the wavelength was chosen for one component's convenience and the rest of the system had to be built around it at ten times the cost. If the application allows a choice, choose a band where silicon detects and glass transmits, and take the free supply chain.</p>
+    </div>
+
+    <h3>Key questions for engineering decisions</h3>
+    <ul class="qlist">
+      <li>What wavelength, and do a source, a detector, and a lens material all exist there affordably?</li>
+      <li>Does this need a beam or does it need light? An LED is a hundredth the cost of a laser.</li>
+      <li>How many photons per measurement reach the detector, and which detector class does that imply?</li>
+      <li>What angle of incidence do the filters and coatings actually see in the assembled system?</li>
+      <li>What drifts with temperature, and does anything in the design have to hold a wavelength?</li>
+    </ul>
+
+    <h3>Key questions for investment and business analysis</h3>
+    <ul class="qlist">
+      <li>Is this component made in telecom or consumer volume, or built to order? That is a hundredfold cost difference.</li>
+      <li>For an integrated photonics product, what fraction of unit cost is packaging and alignment rather than the die?</li>
+      <li>Is there a second source for every custom optic, and what is the lead time on the longest one?</li>
+      <li>Does the design depend on a material or detector subject to export control?</li>
+      <li>If the volume forecast is wrong by ten times, does the component choice still make sense?</li>
+    </ul>

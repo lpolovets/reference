@@ -1,0 +1,122 @@
+{
+  "slug": "quantum-technologies",
+  "docTitle": "Quantum Technologies Reference",
+  "shortTitle": "Quantum Technologies",
+  "blurb": "Qubit platforms from transmons to neutral atoms, quantum sensing and atomic clocks, quantum communication and post-quantum cryptography, plus the cryogenics, lasers, and error correction underneath — with operating temperature, maturity, and what is actually holding each one back.",
+  "category": "Computing and Photonics",
+  "question": "Which qubit or quantum device is worth betting on?",
+  "title": "Quantum Technologies: A Practical Reference",
+  "lede": "Quantum computing gets the coverage; quantum sensing and timing already ship products. This guide catalogs {{N_ENTRIES}} platforms across seven classes, with the operating temperature each one needs, how far along it actually is, and which constraint is the real one, since for most of these the bottleneck is lasers, cryogenics, or fabrication yield rather than physics.",
+  "unit": ["platform", "platforms"],
+  "groupLabel": "Class",
+  "explorerTab": "Platform explorer",
+  "guideTab": "Selection guide",
+  "h2hTab": "Head-to-head",
+  "searchPlaceholder": "Search platforms, qubits, sensors…",
+  "stats": [
+    { "count": "entries", "label": "platforms" },
+    { "count": "parts", "label": "classes" },
+    { "count": "groups", "label": "families" }
+  ],
+  "parts": [
+    { "id": 1, "roman": "I", "name": "Superconducting Qubits", "blurb": "circuits on a chip in a dilution fridge", "color": "var(--p1)" },
+    { "id": 2, "roman": "II", "name": "Ions & Neutral Atoms", "blurb": "identical qubits held by light and fields", "color": "var(--p2)" },
+    { "id": 3, "roman": "III", "name": "Solid-State Spins", "blurb": "single spins in silicon and diamond", "color": "var(--p3)" },
+    { "id": 4, "roman": "IV", "name": "Photonic & Topological", "blurb": "qubits in light, and protection by topology", "color": "var(--p4)" },
+    { "id": 5, "roman": "V", "name": "Sensing & Timing", "blurb": "the part that already sells products", "color": "var(--p5)" },
+    { "id": 6, "roman": "VI", "name": "Communication & Security", "blurb": "distributing keys, and defending against the threat", "color": "var(--p6)" },
+    { "id": 7, "roman": "VII", "name": "Enabling Stack", "blurb": "fridges, lasers, control, and error correction", "color": "var(--p7)" }
+  ],
+  "groupBlurbs": {
+    "Superconducting": "microwave circuits behaving as artificial atoms",
+    "Ions & atoms": "trapped charged ions and laser-held neutral atoms",
+    "Solid-state spins": "spins in silicon, diamond, and other crystals",
+    "Photonic & topological": "flying qubits and topologically protected states",
+    "Clocks": "the most accurate measurements humans make",
+    "Field & inertial sensing": "magnetic fields, gravity, and acceleration",
+    "Communication & security": "key distribution, repeaters, and the cryptographic response",
+    "Enabling stack": "the hardware and mathematics everything else runs on"
+  },
+  "facets": [
+    {
+      "id": "temp",
+      "key": "temperature",
+      "label": "Operating temp",
+      "type": "single",
+      "color": "--fa",
+      "required": true,
+      "tip": "What the quantum element needs to work. Millikelvin means a dilution refrigerator · Liquid helium is roughly 4 K, reachable with a simpler cryocooler · Laser-cooled means room-temperature apparatus around ultra-high vacuum with cold atoms inside · Room temperature means no cooling of the quantum element at all. This single fact drives most of the cost and footprint.",
+      "order": ["mk", "k4", "laser", "room"],
+      "options": {
+        "mk": "Millikelvin",
+        "k4": "Liquid helium",
+        "laser": "Laser-cooled",
+        "room": "Room temperature"
+      }
+    },
+    {
+      "id": "use",
+      "key": "uses",
+      "label": "Application",
+      "type": "multi",
+      "color": "--fb",
+      "required": true,
+      "tagRow": 2,
+      "tip": "What the platform is actually for. Computing and simulation are separated because analog simulation reaches useful problems long before general-purpose computing does, and sensing and timing already ship revenue-generating products.",
+      "order": ["comp", "sim", "sense", "time", "net", "sec"],
+      "options": {
+        "comp": "Computing",
+        "sim": "Simulation",
+        "sense": "Sensing",
+        "time": "Timing",
+        "net": "Networking",
+        "sec": "Security"
+      }
+    },
+    {
+      "id": "horizon",
+      "key": "horizon",
+      "label": "Horizon",
+      "type": "single",
+      "color": "--fc",
+      "tip": "When the platform delivers something a customer would pay for. Shipping = you can buy it now · ~2030 = credible first useful deployment this decade · 2030s and 2040s+ = realistic on published roadmaps, with the usual caveat that quantum roadmaps slip.",
+      "order": ["now", "near", "mid", "far"],
+      "options": { "now": "Shipping", "near": "~2030", "mid": "2030s", "far": "2040s+" }
+    },
+    {
+      "id": "mat",
+      "key": "maturity",
+      "label": "Maturity",
+      "type": "single",
+      "color": "--fd",
+      "required": true,
+      "tip": "Commercial = sold as a product with a support contract · Early product = first customers, small numbers · Prototype = works in a lab and is being engineered · Research = physics demonstrated, engineering path unclear.",
+      "order": ["comm", "early", "proto", "res"],
+      "options": { "comm": "Commercial", "early": "Early product", "proto": "Prototype", "res": "Research" }
+    },
+    {
+      "id": "block",
+      "key": "bottleneck",
+      "label": "Bottleneck",
+      "type": "single",
+      "color": "--fe",
+      "tip": "The constraint that actually decides progress, which is rarely the quantum physics. Cryogenics · Lasers and optics · Fabrication yield and uniformity · Materials · Control electronics and software. Ask any team which of these is theirs, because the answer predicts their schedule better than a qubit count does.",
+      "order": ["cryo", "laser", "fab", "mat", "ctrl"],
+      "options": {
+        "cryo": "Cryogenics",
+        "laser": "Lasers & optics",
+        "fab": "Fabrication yield",
+        "mat": "Materials",
+        "ctrl": "Control & software"
+      }
+    }
+  ],
+  "videosAfter": "Economic profile",
+  "extraSections": [
+    ["when to use", "When to use"],
+    ["key numbers", "Key numbers"],
+    ["examples", "Examples"],
+    ["economic profile", "Economic profile"],
+    ["further reading", "Further reading"]
+  ]
+}

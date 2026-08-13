@@ -1,0 +1,116 @@
+{
+  "slug": "mining-and-mineral-processing",
+  "docTitle": "Mining and Mineral Processing Reference",
+  "shortTitle": "Mining & Mineral Processing",
+  "blurb": "Surface and underground mining, solution and in-situ recovery, crushing and grinding, flotation and gravity concentration, hydro- and pyrometallurgy, and tailings and closure — with throughput, energy intensity, and water use for each step.",
+  "category": "Materials",
+  "question": "How does this ore become a salable product?",
+  "title": "Mining and Mineral Processing: A Practical Reference",
+  "lede": "Every metal in the other sheets starts as rock that is mostly not the metal. Getting from a 0.5% copper orebody to a cathode means moving, breaking, separating, and refining hundreds of tons of rock per ton of product, and most of the cost and nearly all of the environmental exposure sits in those steps. This guide catalogs {{N_ENTRIES}} processes across seven classes, with throughput, energy intensity, and water use.",
+  "unit": ["process", "processes"],
+  "groupLabel": "Class",
+  "explorerTab": "Process explorer",
+  "guideTab": "Selection guide",
+  "h2hTab": "Head-to-head",
+  "searchPlaceholder": "Search processes, ores, separation…",
+  "stats": [
+    { "count": "entries", "label": "processes" },
+    { "count": "parts", "label": "classes" },
+    { "count": "groups", "label": "families" }
+  ],
+  "parts": [
+    { "id": 1, "roman": "I", "name": "Surface Mining", "blurb": "take the cover off and dig", "color": "var(--p1)" },
+    { "id": 2, "roman": "II", "name": "Underground Mining", "blurb": "go to the ore and leave the rest", "color": "var(--p2)" },
+    { "id": 3, "roman": "III", "name": "Solution & In-Situ", "blurb": "dissolve it and pump it up", "color": "var(--p3)" },
+    { "id": 4, "roman": "IV", "name": "Comminution", "blurb": "break rock down to liberate mineral", "color": "var(--p4)" },
+    { "id": 5, "roman": "V", "name": "Concentration", "blurb": "separate the valuable grains from the rest", "color": "var(--p5)" },
+    { "id": 6, "roman": "VI", "name": "Extractive Metallurgy", "blurb": "chemistry that makes metal", "color": "var(--p6)" },
+    { "id": 7, "roman": "VII", "name": "Tailings & Closure", "blurb": "what is left, and for how long", "color": "var(--p7)" }
+  ],
+  "groupBlurbs": {
+    "Surface mining": "open pits, strips, quarries, and river gravels",
+    "Underground mining": "methods chosen by orebody shape and rock strength",
+    "Solution & in-situ": "recovering metal without moving the rock",
+    "Comminution": "blasting, crushing, and grinding, where the energy goes",
+    "Concentration": "flotation, gravity, magnetic, and sorting",
+    "Hydrometallurgy": "leaching and solution purification",
+    "Pyrometallurgy & refining": "heat, and the final purity step",
+    "Tailings & closure": "storage, water, and the century after mining"
+  },
+  "facets": [
+    {
+      "id": "feed",
+      "key": "commodity",
+      "label": "Commodity",
+      "type": "multi",
+      "color": "--fa",
+      "required": true,
+      "tagRow": 2,
+      "tip": "Which commodities the process is normally used for. Base metals are copper, nickel, zinc, and lead · Battery metals covers lithium, cobalt, and graphite · Bulk means iron ore and coal, where scale dominates · Industrial minerals covers aggregates, potash, phosphate, and salt.",
+      "order": ["base", "prec", "batt", "bulk", "ind", "uran"],
+      "options": {
+        "base": "Base metals",
+        "prec": "Precious metals",
+        "batt": "Battery metals",
+        "bulk": "Bulk commodities",
+        "ind": "Industrial minerals",
+        "uran": "Uranium"
+      }
+    },
+    {
+      "id": "scale",
+      "key": "scale",
+      "label": "Throughput",
+      "type": "single",
+      "color": "--fc",
+      "tagPrefix": "t/day",
+      "tip": "Material moved or treated per day at a typical operation using this process. Mining and processing economics are almost entirely about scale, and a method that cannot reach the throughput an orebody needs is the wrong method regardless of its recovery.",
+      "order": ["s1", "s10", "s100", "s100p"],
+      "options": {
+        "s1": "Under 1,000",
+        "s10": "1,000–10,000",
+        "s100": "10,000–100,000",
+        "s100p": "100,000+"
+      }
+    },
+    {
+      "id": "energy",
+      "key": "energy",
+      "label": "Energy",
+      "type": "single",
+      "color": "--fe",
+      "tip": "Energy intensity relative to other steps in the same flowsheet. Comminution alone is roughly 3–4% of global electricity, so grinding is usually the single largest line on a mine's power bill, and smelting is the largest fuel line.",
+      "order": ["low", "med", "high", "vhigh"],
+      "options": { "low": "Low", "med": "Moderate", "high": "High", "vhigh": "Very high" }
+    },
+    {
+      "id": "water",
+      "key": "water",
+      "label": "Water use",
+      "type": "single",
+      "color": "--fb",
+      "tip": "Water consumed per ton treated, which is what decides whether a process can be used in an arid district. Flotation and hydrometallurgy are wet by nature; dry crushing, ore sorting, and filtered tailings exist largely to reduce this number.",
+      "order": ["low", "med", "high"],
+      "options": { "low": "Low", "med": "Moderate", "high": "High" }
+    },
+    {
+      "id": "mat",
+      "key": "maturity",
+      "label": "Maturity",
+      "type": "single",
+      "color": "--fd",
+      "required": true,
+      "tip": "Mature = standard practice for a century or more · Established = widely used and well understood · Emerging = commercial but still spreading · Early = pilots and first plants.",
+      "order": ["mature", "est", "emerg", "early"],
+      "options": { "mature": "Mature", "est": "Established", "emerg": "Emerging", "early": "Early" }
+    }
+  ],
+  "videosAfter": "Economic profile",
+  "extraSections": [
+    ["when to use", "When to use"],
+    ["key numbers", "Key numbers"],
+    ["examples", "Examples"],
+    ["economic profile", "Economic profile"],
+    ["further reading", "Further reading"]
+  ]
+}
