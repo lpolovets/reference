@@ -30,3 +30,7 @@ Aldesleukin (Proleukin), recombinant interleukin-2, approved in 1992 and still t
 
 ## Economic profile
 Manufacturing is ordinary recombinant protein work at modest cost, so the economics are entirely about clinical risk, and that risk has been high. This is a modality where a great deal of capital has been deployed against a compelling rationale with few approvals to show for it, and the failures have generally come in Phase 2 and Phase 3 rather than early, which makes them expensive. The colony-stimulating factors are the counterexample and a large business, but they work because the biology is supportive rather than because the window was engineered. For an investor, the discriminating question is whether a program has human data showing the intended receptor selectivity on human cells, since that is the step where the field has repeatedly failed to translate.
+
+## Further reading
+
+[Insights into cytokine-receptor interactions from cytokine engineering (Annual Review of Immunology)](https://pmc.ncbi.nlm.nih.gov/articles/PMC4445396/)

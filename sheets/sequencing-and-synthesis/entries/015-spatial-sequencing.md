@@ -30,3 +30,7 @@ The Visium platform and its higher-resolution successors, which made spatial tra
 
 ## Economic profile
 An expensive consumables business in rapid technical flux, which makes purchasing decisions difficult: resolution has improved by more than an order of magnitude across a few product generations, so an instrument or workflow bought today may be superseded quickly. Competition between sequencing-based and imaging-based approaches is active and has not resolved, and they are converging on similar capabilities from different directions. For a laboratory, the practical implication is to favor service providers over capital purchases until the field settles, and for an investor, the platform question is whether either approach establishes a durable advantage before the other closes the gap.
+
+## Further reading
+
+[Technical Advances and Applications of Spatial Transcriptomics (GEN Biotechnology)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11562938/)

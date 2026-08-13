@@ -30,3 +30,7 @@ The COVID-19 vaccines from BioNTech and Pfizer (Comirnaty) and Moderna (Spikevax
 
 ## Economic profile
 Cost of goods is genuinely low, a few dollars a dose, and the facility footprint is small relative to any cell-culture vaccine, so capital intensity is modest and a single suite serves many products. The pandemic left substantial global capacity, so the constraint is demand rather than supply. The commercially distinctive property is changeover speed, which supports two business models nothing else can: rapid pandemic response, and individualized cancer vaccines where the product is made per patient. The main commercial risks are not technical. Public acceptance of the modality is meaningfully worse than for established vaccine types in several markets, and vaccine businesses generally are exposed to policy and procurement decisions in a way therapeutic businesses are not.
+
+## Further reading
+
+[Advances in mRNA vaccines (International Review of Cell and Molecular Biology)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9214710/)

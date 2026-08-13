@@ -30,3 +30,7 @@ Somatic oncology panels used routinely in clinical pathology; circulating tumor 
 
 ## Economic profile
 The workhorse of clinical sequencing economics. Panels are what make routine molecular pathology affordable, since they turn an expensive sequencing run into a cheap per-sample test by only reading what matters, and reimbursement structures have grown up around them. The commercial tension is that panels have to be revalidated whenever the gene content changes, while the clinically actionable gene list keeps growing, so laboratories face repeated revalidation costs and a slow drift toward exome or genome sequencing, where content changes are a reanalysis rather than a new assay. That drift is real but slow, because reimbursement and turnaround still favor panels.
+
+## Further reading
+
+[Target Enrichment Approaches for Next-Generation Sequencing Applications in Oncology (Diagnostics)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9318977/)

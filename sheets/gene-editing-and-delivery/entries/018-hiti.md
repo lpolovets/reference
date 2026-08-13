@@ -30,3 +30,7 @@ The original demonstrations restoring vision in animal models of retinitis pigme
 
 ## Economic profile
 Preclinical, and its commercial relevance depends on whether integration is worth the added complexity over conventional AAV gene addition. AAV gene addition is approved, well understood, and simpler, and its weakness is that the episome dilutes in dividing cells. In the tissues where homology-independent integration works best, namely retina and neurons, cells largely do not divide, which is precisely where AAV's weakness matters least. That is an awkward position: the method is best where the problem it solves is smallest. The stronger case is durability in tissues with slow turnover and applications where placing the gene under endogenous regulation is therapeutically important rather than incidental.
+
+## Further reading
+
+[Therapeutic homology-independent targeted integration in retina and liver (Nature Communications)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9005519/) · [Homology-independent targeted insertion (HITI) enables guided CAR knock-in and efficient clinical scale CAR-T cell manufacturing (Molecular Cancer)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10291796/)

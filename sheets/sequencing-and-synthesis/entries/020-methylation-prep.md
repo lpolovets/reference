@@ -30,3 +30,7 @@ Whole-genome bisulfite sequencing, the long-standing reference method for methyl
 
 ## Economic profile
 A specialized preparation market that has been substantially reshaped by the clinical arrival of methylation-based cancer detection, which turned methylation from a research measurement into the basis of large commercial diagnostic programs. That has pulled investment into targeted panels and away from whole-genome methods, since a clinical test needs a few hundred informative regions rather than the whole methylome. The technical trend is toward avoiding conversion entirely, either through enzymatic methods that are gentler or through long-read platforms that read the mark directly, and bisulfite's long dominance is ending for reasons of data quality rather than cost.
+
+## Further reading
+
+[Comprehensive comparison of enzymatic and bisulfite DNA methylation analysis in clinically relevant samples (Clinical Epigenetics)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12495756/) · [Comparison of enzymatic and bisulfite conversion of circulating cell-free tumor DNA for DNA methylation analyses (Clinical Epigenetics)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12135323/)

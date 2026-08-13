@@ -30,3 +30,7 @@ Commercial gene synthesis, which uses polymerase cycling assembly from array-der
 
 ## Economic profile
 Gene synthesis has become a competitive commodity service priced per base, with surcharges for repetitive or structured sequence. Prices have fallen far enough that ordering a designed gene is normally cheaper and faster than cloning one from a template, which has quietly changed how molecular biology is done. Suppliers compete on price, turnaround and how much difficult sequence they will accept, and that last point is where the genuine technical differentiation lies, since easy genes are easy for everyone.
+
+## Further reading
+
+[Synthetic DNA Synthesis and Assembly: Putting the Synthetic in Synthetic Biology (Cold Spring Harbor Perspectives in Biology)](https://pmc.ncbi.nlm.nih.gov/articles/PMC5204324/) · [Recent advances in DNA assembly technologies (FEMS Yeast Research)](https://pmc.ncbi.nlm.nih.gov/articles/PMC4257898/)

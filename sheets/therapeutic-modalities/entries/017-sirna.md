@@ -30,3 +30,7 @@ Patisiran (Onpattro), the first approval, delivered in a lipid nanoparticle rath
 
 ## Economic profile
 Synthesis costs are modest and doses are small, so cost of goods is low relative to price in rare disease and remains workable in large populations. Inclisiran is the interesting case commercially, because it tests whether a twice-yearly injectable can compete with cheap generic oral statins on convenience and adherence rather than on efficacy, in a market where the incumbent costs almost nothing. The platform effect is the strongest argument for the modality as a business: once the GalNAc conjugate and its safety profile are established, each additional hepatic target is faster and cheaper than the last, which is closer to a software-like repeatability than most of drug development gets. The corresponding risk is concentration, since a platform that only reaches one organ is one delivery breakthrough away from being either much larger or much less differentiated.
+
+## Further reading
+
+[The growth of siRNA-based therapeutics: Updated clinical studies (Biochemical Pharmacology)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8187268/) · [Preclinical and clinical development of siRNA-based therapeutics (Advanced Drug Delivery Reviews)](https://pmc.ncbi.nlm.nih.gov/articles/PMC4504743/)

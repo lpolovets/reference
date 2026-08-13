@@ -30,3 +30,7 @@ The PASTE system, which combines prime editing with a Bxb1 integrase to insert g
 
 ## Economic profile
 Early, and the commercial thesis is mutation-agnostic treatment. A therapy that inserts a working copy of a gene works for every patient with that disease regardless of which mutation they carry, which converts a set of tiny per-mutation markets into one addressable population, and that is a much better business than sequential bespoke edits. It is also the argument that justifies the technical difficulty. The counterweight is that conventional AAV gene addition already delivers a working gene copy without any of this complexity, and beats it on maturity everywhere except durability in dividing tissue. The technology has to earn its complexity on that specific axis, and it has not yet done so in a patient.
+
+## Further reading
+
+[Attachment site selection and identity in Bxb1 serine integrase-mediated site-specific recombination (PLoS Genetics)](https://pmc.ncbi.nlm.nih.gov/articles/PMC3642061/)

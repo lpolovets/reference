@@ -30,3 +30,7 @@ Clinical exome sequencing, which is the largest single application; comprehensiv
 
 ## Economic profile
 Sits in the middle of the targeted sequencing market and is squeezed from both sides. Amplicon panels are cheaper and faster for small stable target sets, and falling whole-genome costs erode the case for capture at the large end, since capturing an increasingly large fraction of the genome eventually costs more than sequencing all of it. The probe pool is the recurring consumable and where suppliers make their margin. The long-term direction is clear even if the timing is not: as sequencing gets cheaper, enrichment becomes harder to justify, and the industry drifts toward sequencing everything and filtering computationally, which also removes the revalidation burden that comes with changing an assay's content.
+
+## Further reading
+
+[Target Enrichment Approaches for Next-Generation Sequencing Applications in Oncology (Diagnostics)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9318977/)

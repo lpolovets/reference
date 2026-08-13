@@ -30,3 +30,7 @@ The Element Biosciences AVITI platform, which introduced the chemistry commercia
 
 ## Economic profile
 The most consequential thing about this platform may be its effect on prices rather than its own market share. A credible short-read competitor with better raw accuracy forced list price movement in a market that had been stable for a decade, which benefits every buyer regardless of what they purchase. The business model is the same razor-and-blade structure, and the strategic question is whether an alternative can accumulate enough ecosystem, pipeline validation and clinical acceptance to displace an incumbent whose real moat was never the chemistry. History in instrument markets suggests that takes longer than the specification advantage alone would predict.
+
+## Further reading
+
+[Comparative analysis of 7 short-read sequencing platforms using the Korean Reference Genome: MGI and Illumina sequencing benchmark for whole-genome sequencing (GigaScience)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7953489/)

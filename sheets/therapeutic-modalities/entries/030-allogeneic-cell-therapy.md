@@ -30,3 +30,7 @@ Ucartcs1 and earlier UCART programs from Allogene and Cellectis, using TALEN-edi
 
 ## Economic profile
 This is the attempt to turn cell therapy into a pharmaceutical business rather than a service business, and the economics work if durability does. Cost of goods around $10,000–50,000 per dose with inventory availability supports both a lower price and a much larger addressable population than autologous therapy. The unresolved question is clinical rather than economic: if allogeneic cells persist for weeks and autologous cells persist for years, the products are not substitutes, and the market for a less durable, cheaper, immediately available cell therapy has to be established rather than assumed. Several well-funded programs have failed at exactly this point, so an investor should weight persistence data far more heavily than manufacturing cost projections.
+
+## Further reading
+
+[Strategies for overcoming bottlenecks in allogeneic CAR-T cell therapy (Frontiers in Immunology)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10405079/)

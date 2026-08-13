@@ -30,3 +30,7 @@ Every PCR primer and probe in routine use; the approved antisense and siRNA drug
 
 ## Economic profile
 Two very different businesses run on the same chemistry. Research oligos are a commodity with thin margins, fast turnaround and many suppliers, competing on price and delivery time. Therapeutic oligonucleotide manufacturing is a pharmaceutical business with high margins, long qualification cycles and few qualified suppliers, and demand from approved siRNA and antisense drugs has driven substantial capacity investment. Solvent consumption and hazardous waste are a genuine cost and regulatory pressure at that scale, which is the strongest practical argument for enzymatic synthesis and the reason serious money is going into replacing a chemistry that has worked well for forty years.
+
+## Further reading
+
+[Synthesis of DNA/RNA and their analogs via phosphoramidite and H-phosphonate chemistries (Molecules)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6270087/) · [Improvements in the phosphoramidite procedure for the synthesis of oligodeoxyribonucleotides (Nucleic Acids Research)](https://pmc.ncbi.nlm.nih.gov/articles/PMC325909/)

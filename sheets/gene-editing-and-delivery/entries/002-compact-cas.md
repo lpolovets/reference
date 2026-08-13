@@ -30,3 +30,7 @@ EDIT-101, which delivered SaCas9 by AAV directly into the retina to remove a mut
 
 ## Economic profile
 Same as SpCas9 on reagent cost, which is to say negligible, but the intellectual property position is different and matters. The foundational SpCas9 patents have been heavily contested and licensed, while several compact nucleases were discovered later and carry cleaner or differently held rights, which has made them attractive for reasons that have nothing to do with biology. The real economic argument remains delivery: fitting into one AAV avoids a dual-vector product, and dual-vector AAV roughly doubles the manufacturing cost per patient of an already very expensive modality while requiring both vectors to land in the same cell.
+
+## Further reading
+
+[Comprehensive assessment of miniature CRISPR-Cas12f nucleases for gene disruption (Nature Communications)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9509373/)

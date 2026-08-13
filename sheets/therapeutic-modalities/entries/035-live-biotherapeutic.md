@@ -30,3 +30,7 @@ Rebyota and Vowst, the approved microbiome therapeutics for recurrent C. diffici
 
 ## Economic profile
 Cost of goods is the lowest on this sheet, since growing bacteria or phage is cheap, and that is both the attraction and the problem. Low manufacturing cost does not create a business on its own, and the modality has struggled to find one. Microbiome companies raised large sums on the strength of association studies and mostly failed in controlled trials outside C. difficile, which is now a cautionary case study in mistaking a strong correlation for a therapeutic hypothesis. Phage has the opposite problem: it works in individual desperate cases but the personalized, low-cost, rapidly-resisted nature of the treatment fits neither the regulatory system nor the commercial model. The most plausible phage businesses are diagnostics and matching services, defined cocktails against a small number of high-burden resistant organisms, or engineered phage with proprietary composition.
+
+## Further reading
+
+[Gut microbiome therapy: fecal microbiota transplantation vs live biotherapeutic products (Gut Microbes)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11469438/)

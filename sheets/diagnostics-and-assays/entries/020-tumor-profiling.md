@@ -30,3 +30,7 @@ FoundationOne CDx and MSK-IMPACT, among the most widely used tissue profiling as
 
 ## Economic profile
 An established, reimbursed segment of oncology diagnostics with several large laboratory players and meaningful competition. The business is a service laboratory model with substantial fixed costs in sequencing infrastructure and interpretation staff, and the interpretation is a genuine differentiator since the raw variant list is a commodity. A significant secondary revenue stream comes from the resulting real-world genomic databases, which are valuable to drug developers for trial design and enrollment, and that data business is a large part of why the companies are valued as they are. Falling sequencing costs improve margins without changing the competitive picture much, since interpretation and sales are the dominant costs.
+
+## Further reading
+
+[Impact and Diagnostic Gaps of Comprehensive Genomic Profiling in Real-World Clinical Practice (Cancers)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7281757/)

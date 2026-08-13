@@ -30,3 +30,7 @@ No approved therapeutic products yet. The most advanced clinical programs are in
 
 ## Economic profile
 Manufacturing is the modality's strongest feature: sequence-agnostic, fast, and with a facility footprint far smaller than cell culture, since a single suite can make many products and switching between them is quick. The COVID-19 buildout left substantial global capacity, so capacity is available rather than scarce. The commercial question is whether repeat-dose therapeutics can find indications where transient expression beats both recombinant protein and gene therapy, and that space is narrower than it first appears: the durable version of most of these ideas is gene therapy, and the simple version is an infused protein. The clearest near-term value may be as a component of other modalities, delivering editing machinery or encoding antibodies, rather than as protein replacement in its own right.
+
+## Further reading
+
+[Enabling mRNA Therapeutics: Current Landscape and Challenges in Manufacturing (Biomolecules)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10604719/)

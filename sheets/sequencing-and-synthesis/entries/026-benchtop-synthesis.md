@@ -30,3 +30,7 @@ DNA Script's enzymatic benchtop synthesizers, the most established commercial in
 
 ## Economic profile
 A small instrument market with an outsized policy footprint. The commercial case is turnaround rather than cost, which limits the addressable market to groups whose iteration speed is genuinely constrained, and that is a smaller set than the marketing implies. The more consequential dynamic is regulatory: as synthesis screening moves from voluntary industry practice toward a funding or legal requirement, the compliance burden falls differently on centralized suppliers, who already screen at scale, and on distributed instruments, which have to implement it per device. How that resolves will shape whether benchtop synthesis becomes common laboratory equipment or stays a specialist purchase.
+
+## Further reading
+
+[Enhancing Gene Synthesis Security: An Updated Framework for Synthetic Nucleic Acid Screening and the Responsible Use of Synthetic Biological Materials (Applied Biosafety)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11319848/) · [A system capable of verifiably and privately screening global DNA synthesis (National Science Review)](https://pmc.ncbi.nlm.nih.gov/articles/PMC13348243/)

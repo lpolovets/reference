@@ -30,3 +30,7 @@ The COVID-19 mRNA vaccines, which established the manufacturing base and the saf
 
 ## Economic profile
 The best economics of any in vivo genetic medicine delivery route by a wide margin, and that is what makes large indications plausible. Manufacturing is mixing lipids with synthetic RNA, capacity exists from the vaccine buildout, and cost of goods in the low thousands per dose supports treating millions of people rather than thousands. This is the specific reason in vivo editing of cardiovascular targets is a credible business where AAV gene therapy for the same target would not be. The main commercial exposure is intellectual property on the ionizable lipids, which has been extensively litigated and where freedom to operate is a real diligence item rather than a formality.
+
+## Further reading
+
+[Lipid nanoparticles for mRNA delivery (Nature Reviews Materials)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8353930/)

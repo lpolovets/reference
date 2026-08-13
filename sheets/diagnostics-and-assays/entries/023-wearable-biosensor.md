@@ -30,3 +30,7 @@ The Apple Heart Study and similar large consumer studies, which established that
 
 ## Economic profile
 A consumer electronics business with a regulated feature set bolted on, which is an unusual structure in diagnostics and gives it distribution that no medical device company can match: hundreds of millions of devices already on wrists. The commercial strategy has been to add cleared clinical features to devices sold for other reasons, so the marginal cost of the diagnostic capability is near zero. That is genuinely disruptive to conventional ambulatory monitoring. The unresolved question is whether population-scale detection of asymptomatic conditions improves health or mostly generates workload, and the answer will determine whether health systems embrace or resist the data these devices produce.
+
+## Further reading
+
+[Atrial fibrillation monitoring with wrist-worn photoplethysmography-based wearables: State-of-the-art review (Cardiovascular Digital Health Journal)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8890076/) · [The 2023 wearable photoplethysmography roadmap (Physiological Measurement)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10686289/)

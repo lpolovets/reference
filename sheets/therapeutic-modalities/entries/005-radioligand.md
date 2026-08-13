@@ -30,3 +30,7 @@ Lutetium-177 vipivotide tetraxetan (Pluvicto) against PSMA in metastatic prostat
 
 ## Economic profile
 Unusual for oncology in that cost of goods genuinely matters. Isotope, short-dated manufacturing, cold-chain-equivalent logistics, and specialized administration push cost of goods into the tens of thousands per dose, which is one to two orders of magnitude above an antibody. Capacity is the binding constraint on revenue rather than demand: Novartis publicly ran into manufacturing and supply limits on Pluvicto after approval, which is a rare problem in pharmaceuticals and a very expensive one. The strategic implication is that vertical integration into isotope supply and regional manufacturing is worth real capital in this modality, unlike almost anywhere else on this sheet. For a startup, partnering for isotope access early is usually a better use of time than optimizing the chelator.
+
+## Further reading
+
+[A Primer on Radiopharmaceutical Therapy (International Journal of Radiation Oncology, Biology, Physics)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9772089/) · [Radiopharmaceutical therapy in cancer: clinical advances and challenges (Nature Reviews Drug Discovery)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7390460/)

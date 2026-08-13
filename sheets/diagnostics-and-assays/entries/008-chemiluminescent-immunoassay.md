@@ -30,3 +30,7 @@ High-sensitivity cardiac troponin, which redefined myocardial infarction diagnos
 
 ## Economic profile
 The classic placed-instrument model: the analyzer is supplied at little or no upfront cost under a multi-year contract that commits the laboratory to the vendor's reagents at agreed volumes. That structure makes the reagent stream the product and the instrument a distribution channel, and it creates switching costs measured in years. A handful of large manufacturers dominate globally. Consolidation of hospital laboratories has strengthened buyer negotiating power somewhat, but the closed menu and the validation work required to change platforms keep contracts sticky. It is one of the most durable business models in diagnostics.
+
+## Further reading
+
+[Biotin interference in routine clinical immunoassays (Practical Laboratory Medicine)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12099460/) · [Chemistry of Biotin-Streptavidin and the Growing Concern of an Emerging Biotin Interference in Clinical Immunoassays (ACS Omega)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6963918/)

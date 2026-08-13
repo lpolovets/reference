@@ -30,3 +30,7 @@ Brain atlases built on single-nucleus multiome data, where whole-cell dissociati
 
 ## Economic profile
 A premium extension of the single-cell consumables business, sold at a higher price per sample on the argument that paired measurement answers questions neither assay answers alone. Adoption has been slower than for single-cell RNA sequencing because the analysis burden is real and the biological payoff is less immediate: expression data yield cell types straight away, while accessibility data yield regulatory hypotheses that need follow-up. The most durable driver of adoption has been practical rather than scientific, since nucleus-based protocols unlock frozen biobank material that whole-cell methods cannot use, and that material is abundant and already collected.
+
+## Further reading
+
+[Computational Analyses and Challenges of Single-cell ATAC-seq (Genomics, Proteomics & Bioinformatics)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12753137/)

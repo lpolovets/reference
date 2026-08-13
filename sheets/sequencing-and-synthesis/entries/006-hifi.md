@@ -30,3 +30,7 @@ PacBio's Revio and related instruments; the Human Pangenome Reference Consortium
 
 ## Economic profile
 Positioned as the premium long-read platform, sold on the value of a complete and confident answer rather than on cost per base. That works well in rare disease diagnostics, where a diagnosis after years of testing is worth a great deal, and in reference genomics, where quality is the product. It works poorly against short reads for any counting application and against nanopore where turnaround or capital cost dominates. The competitive dynamic between the two long-read platforms has been good for buyers, with both improving accuracy and throughput quickly, and the practical result is that many large projects now use both rather than choosing.
+
+## Further reading
+
+[Long and Accurate: How HiFi Sequencing is Transforming Genomics (Genomics, Proteomics & Bioinformatics)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12257948/)

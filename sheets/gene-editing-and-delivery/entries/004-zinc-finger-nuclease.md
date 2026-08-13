@@ -30,3 +30,7 @@ The SB-728 program targeting CCR5 in T cells as an HIV therapy, which was the fi
 
 ## Economic profile
 The engineering barrier concentrates this platform in very few hands, which is both its commercial weakness and its remaining moat. A company that can design zinc fingers reliably has something competitors cannot buy off a website, unlike a CRISPR guide, but the addressable market is limited to applications where the in vivo advantages justify the design cost. The clinical results have been mixed, with the mucopolysaccharidosis in vivo programs producing disappointing efficacy, and the field's capital has largely followed CRISPR. The most durable use of the zinc finger scaffold now looks likely to be as a DNA-binding domain for expression control rather than as a nuclease.
+
+## Further reading
+
+[Recent developments and clinical studies utilizing engineered zinc finger nuclease technology (Cellular and Molecular Life Sciences)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11113831/) · [Zinc-finger nucleases for somatic gene therapy: the next frontier (Human Gene Therapy)](https://pmc.ncbi.nlm.nih.gov/articles/PMC3159524/)

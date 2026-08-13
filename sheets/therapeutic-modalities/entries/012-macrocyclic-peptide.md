@@ -30,3 +30,7 @@ Cyclosporine and the natural-product macrocycles, which established that oral bi
 
 ## Economic profile
 Manufacturing is chemical, so cost of goods sits between a linear peptide and a complex small molecule, typically hundreds to a few thousand dollars per gram. That is cheap by biologic standards and the doses are small. The commercial argument is target access rather than cost: a macrocycle that reaches a validated intracellular interface has essentially no competition, because nothing else can address it. The counterweight is that the field has produced far more potent binders than approved drugs, and the gap is permeability. For an investor, the question to ask about a macrocycle company is what fraction of their binders reach the intracellular target in a cell assay, because that number, not the affinity data, predicts whether the platform produces drugs.
+
+## Further reading
+
+[Understanding Cell Penetration of Cyclic Peptides (Chemical Reviews)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6739158/)

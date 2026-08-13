@@ -30,3 +30,7 @@ Non-invasive prenatal testing for trisomies 21, 18 and 13, now standard in many 
 
 ## Economic profile
 Prenatal testing is a large commercial market with several competing laboratories, driven by near-universal uptake in some health systems and by the strong preference for avoiding invasive procedures. Expanded panels were a commercial growth strategy whose clinical justification has been questioned, which is a recurring pattern in screening: adding conditions increases revenue per test and decreases average positive predictive value. Newborn screening is publicly funded and run as a public health program rather than a market, which is why its expansion is decided by committees weighing treatability rather than by commercial demand, and that structure has served it well.
+
+## Further reading
+
+[Cell-free DNA screening in clinical practice: abnormal autosomal aneuploidy and microdeletion results (American Journal of Obstetrics and Gynecology)](https://pmc.ncbi.nlm.nih.gov/articles/PMC5613931/) · [Positive predictive value of noninvasive prenatal testing for sex chromosome abnormalities (Molecular Biology Reports)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9515017/)

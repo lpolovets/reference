@@ -30,3 +30,7 @@ The engineered virus-like particle systems developed in the Liu laboratory, whic
 
 ## Economic profile
 Too early for real economics, but the projected position is attractive: manufacturing should resemble lentiviral vector production, which is expensive but far below AAV per dose, and the ability to redose would change the commercial model for genetic medicine substantially, since a one-shot therapy that can be topped up is a different product from one that cannot. The technology is heavily protected by academic patents and licensed to a small number of companies. The realistic assessment is that this is the delivery approach most likely to matter in five years if the loading and manufacturing problems are solved, and the one that would most change which tissues gene editing can address.
+
+## Further reading
+
+[Engineered virus-like particles for efficient in vivo delivery of therapeutic proteins (Cell)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8809250/) · [Engineered virus-like particles for transient delivery of prime editor ribonucleoprotein complexes in vivo (Nature Biotechnology)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11228131/)

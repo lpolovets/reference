@@ -30,3 +30,7 @@ SARS-CoV-2 testing, which was overwhelmingly real-time PCR and defined public un
 
 ## Economic profile
 A mature, competitive, low-margin reagent business that became briefly and enormously profitable during the COVID-19 pandemic and then contracted sharply, which is a useful lesson about diagnostics revenue: volume driven by a public health emergency does not persist. Instruments are widely installed and largely commoditized. The margin now sits in multiplex panels, which bundle many targets into one billable test with a much better reimbursement per sample than a single-target assay, and in the closed cartridge systems that trade reagent cost for simplicity. Cost per reaction has fallen to the point that it is rarely the constraint; reimbursement and laboratory labor are.
+
+## Further reading
+
+[Real-time PCR in clinical microbiology: applications for routine laboratory testing (Clinical Microbiology Reviews)](https://pmc.ncbi.nlm.nih.gov/articles/PMC1360278/)

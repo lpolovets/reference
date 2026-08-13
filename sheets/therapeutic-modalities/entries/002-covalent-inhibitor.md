@@ -30,3 +30,7 @@ Sotorasib (Lumakras) and adagrasib (Krazati) against KRAS G12C; ibrutinib, acala
 
 ## Economic profile
 Identical to an ordinary small molecule on the cost side: commodity synthesis, no cold chain, cost of goods under a dollar. The differentiator is competitive rather than economic. Covalent chemistry has repeatedly opened targets that were considered undruggable, and the first entrant into such a target gets several years of monopoly on a validated biology. That is a better position than being the fourth reversible inhibitor of a crowded kinase. The countervailing force is that once one company shows a target is covalently addressable, follow-on chemistry moves fast, and the KRAS G12C field went from first approval to a crowded competitive landscape in a few years.
+
+## Further reading
+
+[KRAS G12C Game of Thrones, which direct KRAS inhibitor will claim the iron throne? (Cancer Treatment Reviews)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7041424/)

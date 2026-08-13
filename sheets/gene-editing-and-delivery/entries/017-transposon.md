@@ -30,3 +30,7 @@ Sleeping Beauty CAR-T programs, including academic and point-of-care efforts tha
 
 ## Economic profile
 This is a cost-structure play. The biology delivered is the same as a lentiviral product and the argument is entirely manufacturing: removing the most expensive input from cell therapy could widen access substantially, and in settings where commercial CAR-T is simply unaffordable it has already done so. The commercial question is whether the saving survives the extra regulatory scrutiny and longer follow-up that the malignancy signal created, and whether a company can build a competitive position on a manufacturing method rather than on a product. The most convincing near-term value is in decentralized manufacturing outside high-income markets, which is a real public health opportunity and an awkward venture proposition.
+
+## Further reading
+
+[The piggyBac transposon holds promise for human gene therapy (Proceedings of the National Academy of Sciences)](https://pmc.ncbi.nlm.nih.gov/articles/PMC1622765/)

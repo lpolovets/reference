@@ -30,3 +30,7 @@ The first clinical prime editing program, in chronic granulomatous disease, whic
 
 ## Economic profile
 The platform argument is strong and the delivery problem is the constraint. A single system that makes any small edit is worth more than several systems that each make one, because a company can build one delivery, manufacturing and regulatory package and reuse it across many indications, which is the closest thing to a real platform in this field. Against that, 6.3 kilobases rules out single AAV entirely, so the addressable tissues are those reachable by lipid nanoparticle or ex vivo manipulation, which today means liver and blood. The intellectual property is concentrated and highly valued. The commercial question is whether efficiency and delivery improve fast enough for prime editing to take the indications base editing is currently claiming.
+
+## Further reading
+
+[Prime editing in mammals: From promise to practicalities (Molecular Therapy: Nucleic Acids)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12550301/) · [Prime Editing: An All-Rounder for Genome Editing (International Journal of Molecular Sciences)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9456398/)

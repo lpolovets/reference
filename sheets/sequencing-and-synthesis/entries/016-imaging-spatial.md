@@ -30,3 +30,7 @@ The MERFISH and seqFISH methods that established combinatorial single-molecule i
 
 ## Economic profile
 A capital-intensive instrument market with high-margin consumable panels, competing directly with sequencing-based spatial from the opposite technical direction. The competitive picture is genuinely unsettled: imaging methods are adding genes toward whole-transcriptome coverage while sequencing methods are shrinking features toward single-cell resolution, and each is approaching the other's advantage. For laboratories the sensible position is to use service providers rather than buy, since the technology generation cycle is short. The archival tissue compatibility is the most durable commercial advantage, because the world's pathology archives are enormous, fixed, and unusable by most other methods.
+
+## Further reading
+
+[Spatially resolved cell atlas of the mouse primary motor cortex by MERFISH (Nature)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8494645/)

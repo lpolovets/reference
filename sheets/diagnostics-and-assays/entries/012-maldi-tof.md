@@ -30,3 +30,7 @@ Routine clinical microbiology identification in hospital laboratories worldwide,
 
 ## Economic profile
 One of the clearest examples in diagnostics of a technology that was both faster and cheaper than what it replaced, which is why adoption was rapid and near-universal in developed healthcare systems. The economics are instrument-heavy and consumable-light, so the payback comes from labor savings and from reduced reagent spend on biochemical panels, and it is typically quick at hospital volume. Two vendors dominate, competing largely on database quality, which is the real asset since the hardware is straightforward. The next commercial frontier is extending the same speed advantage to susceptibility testing, which is where the remaining clinical delay sits.
+
+## Further reading
+
+[Application and Perspectives of MALDI-TOF Mass Spectrometry in Clinical Microbiology Laboratories (Microorganisms)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8307939/) · [Current status of MALDI-TOF mass spectrometry in clinical microbiology (Journal of Food and Drug Analysis)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9296205/)

@@ -30,3 +30,7 @@ Measles, mumps and rubella (MMR) and varicella vaccines, all live attenuated; th
 
 ## Economic profile
 The lowest cost per dose of any modality, and the backbone of global immunization. Prices in procurement programs are frequently under a dollar, sometimes far under, which makes these among the most cost-effective health interventions ever measured. The commercial reality is that this is a volume business with negotiated pricing, dominated by a small number of large manufacturers plus significant capacity in India, and it does not support venture-scale returns. New entrants are rare because the incumbents are efficient, the products work, and the regulatory and facility barriers are high relative to the margin. The interesting opportunities are in replacing specific legacy processes, such as moving influenza off eggs onto cell culture or recombinant production, where speed and strain match are worth a price premium.
+
+## Further reading
+
+[Vaccine Types (NIAID)](https://www.niaid.nih.gov/research/vaccine-types)

@@ -30,3 +30,7 @@ Luxturna, Zolgensma, Hemgenix, Roctavian and Elevidys among approved gene therap
 
 ## Economic profile
 The most expensive delivery route on this sheet by a wide margin, and the cost is genuine rather than a pricing artifact: low yields, empty capsid separation, and doses measured in the hundreds of trillions of vector genomes per patient add up to six figures of manufacturing cost. Capacity is available from specialized contract manufacturers and is a real constraint for a company without its own. The strategic implication for an editing program is that AAV should be the choice when no alternative reaches the tissue, not the default, because every other delivery route on this sheet is at least an order of magnitude cheaper and most of them can be redosed.
+
+## Further reading
+
+[AAV vector development, back to the future (Molecular Therapy)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12126818/) · [Redirecting AAV vectors to extrahepatic tissues (Molecular Therapy)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10727976/)

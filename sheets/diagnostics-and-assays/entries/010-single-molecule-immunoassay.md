@@ -30,3 +30,7 @@ Plasma neurofilament light chain as a marker of neuronal injury across multiple 
 
 ## Economic profile
 A research instrument business that is being pulled into clinical diagnostics by the neurological biomarker field, which is the most important development in the category. If blood-based Alzheimer's biomarkers become routine, the volume implications are large and the requirements change: clinical use demands standardization, regulatory clearance and much higher throughput than current research platforms provide, which favors the large automated immunoassay manufacturers who are developing their own high-sensitivity versions. The likely outcome is that the technology's clinical value accrues substantially to the incumbent platform vendors rather than to the specialist instrument companies that pioneered it.
+
+## Further reading
+
+[An Update on Blood-Based Markers of Alzheimer's Disease Using the SiMoA Platform (Neurology and Therapy)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6908531/)

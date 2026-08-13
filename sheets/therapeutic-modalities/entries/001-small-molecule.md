@@ -30,3 +30,7 @@ Imatinib (Gleevec) for CML, which established targeted kinase inhibition; osimer
 
 ## Economic profile
 Cost of goods is close to irrelevant, usually well under 5% of revenue, so the economics are entirely about development cost, patent life, and payer willingness. That makes small molecules the modality where clinical risk dominates and manufacturing risk barely registers. The flip side is that generic entry typically removes 80–90% of revenue within two years of exclusivity expiring, so the whole return has to be earned in a window the company does not control. Contract manufacturing is a genuine commodity with dozens of qualified suppliers, and API supply is heavily concentrated in India and China, which has become a policy concern rather than a pricing one. For a startup, the practical implication is that the value is in the molecule and the clinical data, not in anything you build.
+
+## Further reading
+
+[KRAS mutation: from undruggable to druggable in cancer (Signal Transduction and Targeted Therapy)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8591115/)

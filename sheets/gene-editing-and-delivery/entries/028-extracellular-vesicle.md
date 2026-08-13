@@ -30,3 +30,7 @@ Preclinical work delivering Cas9 ribonucleoprotein packaged into engineered vesi
 
 ## Economic profile
 Manufacturing is the binding constraint and it is not close. Producing enough consistently characterized vesicles for systemic dosing is far harder than producing lipid nanoparticles, and the cost per dose would currently be high with no offsetting benefit that has been demonstrated in a patient. The technology has attracted substantial investment on the strength of the biology, and the returns so far have been poor, largely for manufacturing rather than biological reasons. The honest position is that this is a real natural delivery system whose engineering and manufacturing have not caught up, and that a program here should be evaluated on process data as much as on biology.
+
+## Further reading
+
+[Extracellular Vesicle- and Extracellular Vesicle Mimetics-Based Drug Delivery Systems: New Perspectives, Challenges, and Clinical Developments (Pharmaceutics)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7284431/)

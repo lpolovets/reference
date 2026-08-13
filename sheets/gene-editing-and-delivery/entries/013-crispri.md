@@ -30,3 +30,7 @@ Genome-scale CRISPR interference screens, which are now standard in functional g
 
 ## Economic profile
 Primarily a research tools market rather than a therapeutic one, and a large and healthy one: guide libraries, screening services, and the associated sequencing are a real business, and the technology has become infrastructure for target discovery across the industry. The therapeutic value is mostly indirect, through the targets that screens identify, rather than through CRISPR interference itself becoming a drug. Companies positioning it as a therapeutic platform generally end up moving toward epigenetic editing, because a hit-and-run mechanism that leaves nothing behind is a far better product than one requiring permanent expression of a foreign protein.
+
+## Further reading
+
+[CRISPR interference (CRISPRi) for sequence-specific control of gene expression (Nature Protocols)](https://pmc.ncbi.nlm.nih.gov/articles/PMC3922765/)

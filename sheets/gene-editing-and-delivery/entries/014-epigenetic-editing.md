@@ -30,3 +30,7 @@ Clinical programs silencing PCSK9 in the liver to lower cholesterol durably from
 
 ## Economic profile
 The delivery route makes it a lipid nanoparticle business, with the low manufacturing cost and off-the-shelf availability that implies, which is what makes large chronic indications plausible. The strategic argument is strong: a durable effect without an irreversible edit is easier to justify to regulators and to patients who are not severely ill, which is exactly the population that one-time cardiovascular and metabolic therapies need to reach. The unresolved risk is durability, and it is the kind of risk that only resolves with years of human follow-up, so the category will be capital-intensive before it is proven. For an investor, the discriminating question is how long silencing has held in the longest-followed animals and patients, not how deep it goes at week four.
+
+## Further reading
+
+[Epigenome editing based treatment: Progresses and challenges (Molecular Therapy)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12925790/) · [In vivo epigenome editing and transcriptional modulation using CRISPR technology (Transgenic Research)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6261694/)

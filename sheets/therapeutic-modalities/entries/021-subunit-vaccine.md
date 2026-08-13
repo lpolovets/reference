@@ -30,3 +30,7 @@ The hepatitis B vaccine, made in yeast and the first recombinant vaccine; the HP
 
 ## Economic profile
 The cheapest and most scalable modality on this sheet, with cost of goods under a dollar a dose and refrigerator distribution. That is what makes global immunization programs possible, and it is why subunit vaccines dominate volumes even though they get less attention than newer platforms. The commercial structure is difficult: vaccines are procured in bulk by governments and multilateral buyers at negotiated prices, so margins depend on volume and manufacturing efficiency rather than on pricing power, and a handful of large manufacturers dominate. Shingrix demonstrates that a premium-priced subunit vaccine is possible when the efficacy advantage is large and the population is in a high-income market. For a startup, the realistic paths are a novel adjuvant, a hard antigen nobody has solved, or a technology that shortens antigen design.
+
+## Further reading
+
+[Vaccine adjuvants: mechanisms and platforms (Signal Transduction and Targeted Therapy)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10356842/) · [Vaccine Types (NIAID)](https://www.niaid.nih.gov/research/vaccine-types)

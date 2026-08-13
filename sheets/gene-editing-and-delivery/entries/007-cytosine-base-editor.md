@@ -30,3 +30,7 @@ The original base editors from the Liu laboratory, which established the archite
 
 ## Economic profile
 Shares the base editing platform economics: cheap to make, with the delivery route determining everything. The commercial position differs from adenine editing mainly through intellectual property and safety perception. Because adenine editors have a better guide-independent off-target profile, several companies have moved their clinical priorities toward them, which has concentrated cytosine editing in applications where the specific C-to-T chemistry is required. The stop-codon knockout use case in ex vivo cell therapy is where it remains clearly the right tool, and that is a manufacturing application where the editing cost is negligible against the cell processing cost.
+
+## Further reading
+
+[Cytosine base editor 4 but not adenine base editor generates off-target mutations in mouse embryos (Communications Biology)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6952419/) · [Precise genome editing with base editors (Medical Review)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10471085/)

@@ -30,3 +30,7 @@ Cytokine and chemokine profiling in immunology and inflammation research, the do
 
 ## Economic profile
 A research-dominated market built on panel kits, where the supplier's value lies in having validated a set of antibody pairs that work together, which is genuinely difficult and not easily copied. Clinical adoption has been limited, partly because regulatory clearance for a multi-analyte panel is harder than for a single analyte and partly because interpreting 50 correlated biomarkers is not something clinical practice is set up to do. The commercial pattern is a moderate instrument business supporting a larger consumables one, with competition from newer proteomic platforms that measure thousands of proteins and are steadily encroaching on the exploratory end of the market.
+
+## Further reading
+
+[The Statistical Value of Raw Fluorescence Signal in Luminex xMAP Based Multiplex Immunoassays (Scientific Reports)](https://pmc.ncbi.nlm.nih.gov/articles/PMC4886638/)

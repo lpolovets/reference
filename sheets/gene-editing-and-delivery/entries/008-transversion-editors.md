@@ -30,3 +30,7 @@ The C-to-G base editors developed independently by several groups, which establi
 
 ## Economic profile
 Too early for meaningful economics. The strategic question is whether transversion base editing establishes itself as a distinct platform or is overtaken by prime editing, which already makes every substitution and is improving quickly on efficiency. The argument for the base editing approach is that it does not require a reverse transcriptase or a long engineered guide, so the machinery is smaller and the mechanism simpler, which could matter for delivery. The argument against is that product purity is the hard problem and prime editing is structurally better on exactly that dimension. For an investor, this is a technology to watch rather than to fund as a standalone platform.
+
+## Further reading
+
+[Development of deaminase-free T-to-S base editor and C-to-G base editor by engineered human uracil DNA glycosylase (Nature Communications)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11162499/)

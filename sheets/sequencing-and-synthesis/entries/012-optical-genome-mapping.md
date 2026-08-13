@@ -30,3 +30,7 @@ Adoption in hematological malignancy workups, where it has been compared directl
 
 ## Economic profile
 A niche instrument business competing against both an entrenched conventional workflow and an improving alternative. The value proposition against cytogenetics is real, consolidating three assays into one with better resolution, and reimbursement and laboratory practice change slowly, which has made adoption gradual. The longer-term pressure comes from long-read sequencing, which is closing the gap on structural variant detection while also providing base-level sequence, and which would make a structure-only assay harder to justify. The durable case is where molecule length beyond even long reads is what matters, which is a real but narrow requirement.
+
+## Further reading
+
+[Multisite Assessment of Optical Genome Mapping for Analysis of Structural Variants in Constitutional Postnatal Cases (Journal of Molecular Diagnostics)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10851778/) · [Comparative Benchmarking of Optical Genome Mapping and Chromosomal Microarray Reveals High Technological Concordance in CNV Identification and Additional Structural Variant Refinement (Genes)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10667989/)

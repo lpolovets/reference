@@ -30,3 +30,7 @@ Recombinant human insulin (Humulin) and the analogs insulin glargine, lispro, an
 
 ## Economic profile
 A mature category with genuine price competition, which makes it unusual on this sheet. Insulin in particular has been the subject of sustained political attention over pricing, and biosimilar entry plus policy pressure have compressed margins substantially. Cost of goods matters here in a way it does not for oncology biologics, because the products compete partly on price and the volumes are enormous. The strategic lesson from hemophilia is worth generalizing: a well-established replacement business was disrupted first by a bispecific antibody offering better dosing and then by gene therapy offering a single treatment, and the incumbent's manufacturing advantage protected it from neither. For a startup, entering an established replacement category only makes sense with a step change in dosing interval or immunogenicity.
+
+## Further reading
+
+[Treatment Options in Hemophilia (Deutsches Ärzteblatt International)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6937545/)

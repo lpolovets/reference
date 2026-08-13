@@ -30,3 +30,7 @@ The Human Cell Atlas and the many tissue atlases built on this technology; tumor
 
 ## Economic profile
 A large and profitable consumables business built on a proprietary microfluidic cartridge, and one that has been the subject of extensive patent litigation, which is worth noting because it has shaped which alternatives are available. Cost per experiment remains high enough to constrain experimental design, and that constraint distorts the science toward underpowered studies. The trend is toward higher cell numbers at lower cost per cell, through combinatorial indexing and through cheaper sequencing, and the practical effect is that experiments are gradually shifting from a few samples with many cells toward many samples with fewer cells each, which is the statistically correct direction.
+
+## Further reading
+
+[Pitfalls in analysis and interpretation of single-cell RNA-seq data in cancer (Neuro-Oncology Advances)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12946769/)

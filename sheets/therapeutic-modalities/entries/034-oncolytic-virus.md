@@ -30,3 +30,7 @@ Talimogene laherparepvec (Imlygic), a herpes simplex virus encoding GM-CSF, appr
 
 ## Economic profile
 Manufacturing is viral production at moderate cost, in the low thousands per dose, so the economics would work if efficacy were stronger. The commercial history is sobering: Amgen paid roughly a billion dollars for the company behind the first US approval, and the product never became a significant commercial franchise, largely because intratumoral injection into accessible lesions is a narrow use case and the monotherapy benefit was modest. The bladder cancer route is the most encouraging current direction because the anatomy solves the delivery problem. For a startup, the honest framing is that this modality has a two-decade history of scientific plausibility outrunning clinical benefit, and the differentiating question is whether a program has solved delivery or is relying on intratumoral injection to sidestep it.
+
+## Further reading
+
+[Oncolytic viruses for cancer immunotherapy (Journal of Hematology & Oncology)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7325106/)

@@ -30,3 +30,7 @@ The Cepheid GeneXpert platform, widely deployed including for tuberculosis and r
 
 ## Economic profile
 A high-margin consumable business with a placed-instrument model, where the cartridge is the product and the instrument is the distribution channel. Margins on cartridges are substantial, which has drawn regulatory and public health attention in global health contexts, and tuberculosis cartridge pricing in particular has been the subject of sustained public campaigning that produced price reductions. The format's economics work because the alternative is often no testing at all rather than cheaper testing, which gives pricing power. Supply concentration is a real vulnerability, demonstrated when pandemic demand outstripped cartridge manufacturing capacity for a format that cannot be produced by a generic supplier.
+
+## Further reading
+
+[Advances in tuberculosis diagnostics: the Xpert MTB/RIF assay and future prospects for a point-of-care test (The Lancet Infectious Diseases)](https://pmc.ncbi.nlm.nih.gov/articles/PMC4844338/)

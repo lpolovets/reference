@@ -30,3 +30,7 @@ Clinical metagenomic sequencing of cerebrospinal fluid for undiagnosed encephali
 
 ## Economic profile
 An expensive second-line test whose economics depend on being ordered for the right patients, which has been the main commercial challenge rather than the technology. Reimbursement has been inconsistent, and the value case rests on avoided costs from shortened diagnostic odysseys and stopped empirical therapy rather than on the test price itself, which is a harder argument to make to a payer. Falling sequencing costs improve the picture steadily. The most defensible commercial positions have been in specific well-validated indications rather than in general-purpose pathogen detection, because a test that could find anything is difficult to define a reimbursable use for.
+
+## Further reading
+
+[Clinical Metagenomic Next-Generation Sequencing for Pathogen Detection (Annual Review of Pathology)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6345613/) · [Metagenomic Next-Generation Sequencing for Diagnosis of Pediatric Meningitis and Encephalitis: A Review (Journal of the Pediatric Infectious Diseases Society)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8703254/)

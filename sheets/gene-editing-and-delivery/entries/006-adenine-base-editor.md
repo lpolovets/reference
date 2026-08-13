@@ -30,3 +30,7 @@ VERVE-101 and VERVE-102, which base-edit the PCSK9 gene in the liver to lower ch
 
 ## Economic profile
 The delivery route determines the economics entirely. Base editing to the liver by lipid nanoparticle is cheap in manufacturing terms, a few thousand dollars a dose, off the shelf, and scalable to large populations, which is why the cardiovascular programs are the most commercially ambitious gene editing efforts in existence. Base editing anywhere else requires either ex vivo manufacturing, with cell therapy economics, or dual AAV, with gene therapy economics and a doubled vector cost. The intellectual property is concentrated and has been licensed at high value, which matters more here than for the older nucleases because the platform is newer and the patents are less contested.
+
+## Further reading
+
+[Precise genome editing with base editors (Medical Review)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10471085/) · [Cytosine base editor 4 but not adenine base editor generates off-target mutations in mouse embryos (Communications Biology)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6952419/)

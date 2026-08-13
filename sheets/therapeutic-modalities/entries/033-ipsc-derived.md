@@ -30,3 +30,7 @@ Clinical programs in Parkinson's disease using induced pluripotent stem cell-der
 
 ## Economic profile
 The most attractive theoretical cost structure in cell therapy, because the starting material is free after the bank is made and manufacturing scales like a conventional biologic. Projected cost of goods in the tens of thousands per dose would put cell therapy within reach of common diseases rather than only rare ones, which is the reason for the sustained investment. Against that, no product has been approved and several well-funded programs have been discontinued, so the modality has consumed a lot of capital over two decades with limited commercial return so far. The strongest near-term candidates are diseases where the cell type is unobtainable otherwise and the site is immune-privileged, since those avoid the two hardest problems at once. For an investor, differentiation yield and purity data are the operationally meaningful numbers, and they are frequently not disclosed.
+
+## Further reading
+
+[Hurdles to clinical translation of human induced pluripotent stem cells (Journal of Clinical Investigation)](https://pmc.ncbi.nlm.nih.gov/articles/PMC4563685/)

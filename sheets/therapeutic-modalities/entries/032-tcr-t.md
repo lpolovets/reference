@@ -30,3 +30,7 @@ Afamitresgene autoleucel (Tecelra), targeting MAGE-A4 in synovial sarcoma, the f
 
 ## Economic profile
 Cost structure matches autologous CAR-T, with a smaller eligible population because of HLA restriction, which makes the per-patient price higher and the total market narrower. The strategic value is target space rather than cost: intracellular antigens are where tumor-specific biology mostly lives, and a modality that reaches them has little competition. Companies in the space are pursuing several routes to widen the population, including receptors against additional HLA alleles and receptors targeting peptides from public neoantigens such as mutant KRAS, which would apply across many patients and tumor types. HLA-restricted products also raise a real access equity problem that is likely to attract regulatory and payer attention as the category grows.
+
+## Further reading
+
+[Engineered T Cell Receptor for Cancer Immunotherapy (Biomolecules & Therapeutics)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11214961/)

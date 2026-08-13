@@ -30,3 +30,7 @@ Casgevy manufacturing, which electroporates Cas9 ribonucleoprotein into hematopo
 
 ## Economic profile
 Almost free relative to what it replaces. A device and a cuvette against viral vector at 20–40% of cell therapy manufacturing cost is the single largest cost lever available in ex vivo cell engineering, and it is why the field standardized on it for editing payloads even while continuing to use viral vectors for gene addition. The strategic consequence is that editing itself has become a cheap step in an expensive process: the money in cell therapy is in apheresis, culture, release testing and logistics, not in the editor or its delivery. Anyone claiming a cost advantage from a better editing delivery method in an ex vivo process is optimizing a small line item.
+
+## Further reading
+
+[Strategies in the delivery of Cas9 ribonucleoprotein for CRISPR/Cas9 genome editing (Theranostics)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7738854/)

@@ -30,3 +30,7 @@ Caplacizumab (Cablivi), a nanobody against von Willebrand factor for acquired th
 
 ## Economic profile
 The cheapest antibody-derived format to manufacture by a wide margin, because microbial fermentation replaces mammalian cell culture and Protein A. That matters most where price sensitivity is real: large chronic populations, global health indications, and markets outside the US. It matters less in oncology, where cost of goods is a rounding error against price. The commercial history of the format is a caution: the technical advantages are genuine but the approvals are few, and several well-funded platform companies built on fragments have struggled to convert the platform into products. The most durable value has come from fragments used as components, in CAR constructs, bispecifics, and imaging agents, rather than as standalone drugs.
+
+## Further reading
+
+[Nanobodies in biomedicine: from molecular characteristics to fabrication and clinical translation (Military Medical Research)](https://pmc.ncbi.nlm.nih.gov/articles/PMC13127154/)

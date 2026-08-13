@@ -30,3 +30,7 @@ Tisagenlecleucel (Kymriah), the first approval in 2017, against CD19; axicabtage
 
 ## Economic profile
 The most expensive manufacturing model on this sheet: one batch per patient, no economies of scale within a dose, a multi-week process, and a failure rate that wastes both the batch and the patient's time. Cost of goods of $100,000–200,000 against prices of $400,000–500,000 leaves a much thinner margin than pharmaceutical norms, and the centralized manufacturing network is a large fixed cost. The competitive pressure from bispecific T-cell engagers is substantial and growing, since an off-the-shelf drug at a few thousand dollars a dose addresses the same antigens. The strategic responses are allogeneic products, faster manufacturing, and decentralized point-of-care production, and all three are attempts to fix the same structural problem, which is that per-patient manufacturing does not scale the way drug manufacturing does.
+
+## Further reading
+
+[Riding the storm: managing cytokine-related toxicities in CAR-T cell therapy (Seminars in Immunopathology)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11252192/) · [Approved Cellular and Gene Therapy Products (FDA)](https://www.fda.gov/vaccines-blood-biologics/cellular-gene-therapy-products/approved-cellular-and-gene-therapy-products)

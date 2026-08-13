@@ -30,3 +30,7 @@ Pembrolizumab (Keytruda) and nivolumab (Opdivo) for checkpoint blockade; adalimu
 
 ## Economic profile
 Cost of goods sits at roughly 5–15% of revenue for a successful antibody, which is high enough to matter and low enough not to drive strategy. Drug substance capacity is no longer scarce at moderate scale, with Lonza, Samsung Biologics, WuXi Biologics, Boehringer Ingelheim and Fujifilm Diosynth all selling it, so building a plant is a choice rather than a necessity. The structural feature of the modality is that the platform is a commodity and the value is in the molecule, the indication, and the clinical data. That has two consequences. A startup should not expect manufacturing to be a moat. And because the platform is so well trodden, the competitive risk is that three other companies have an antibody against your target and the winner is decided on trial design and speed rather than on molecule quality.
+
+## Further reading
+
+[IgG Fc engineering to modulate antibody effector functions (Protein & Cell)](https://pmc.ncbi.nlm.nih.gov/articles/PMC5777978/) · [Pharmacokinetics of monoclonal antibodies and Fc-fusion proteins (Protein & Cell)](https://pmc.ncbi.nlm.nih.gov/articles/PMC5777971/)

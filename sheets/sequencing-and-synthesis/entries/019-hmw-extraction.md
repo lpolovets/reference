@@ -30,3 +30,7 @@ The telomere-to-telomere human genome assembly, which depended on ultra-long rea
 
 ## Economic profile
 A small consumables and instrument market with outsized influence on the value of a much larger one, since it determines whether an expensive long-read platform delivers what it promised. The cost of getting extraction right is trivial next to the cost of the sequencing it enables, which makes it one of the highest-return investments in a genomics workflow and one that is routinely underfunded because it looks like sample preparation rather than like the assay. For a service provider, extraction expertise is a genuine differentiator that is hard to copy quickly, because it is process knowledge rather than a purchasable kit.
+
+## Further reading
+
+[Improved high-molecular-weight DNA extraction, nanopore sequencing and metagenomic assembly from the human gut microbiome (Nature Protocols)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8750633/) · [An optimized toolkit for high-molecular-weight DNA extraction and ultra-long-read nanopore sequencing using glass beads and hexamminecobalt(III) chloride (Genome Research)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12047533/)
