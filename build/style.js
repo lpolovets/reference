@@ -89,6 +89,17 @@ const RULES = [
 function units(only) {
   const dir = path.join(__dirname, '..', 'sheets');
   const out = [];
+  // Landing-page category intros. They are not part of any sheet, so they are
+  // collected only on a full run — asking for one slug should not report a hit
+  // in a file that slug does not own.
+  if (!only) {
+    const cf = path.join(__dirname, '..', 'shared', 'categories.json');
+    const raw = fs.readFileSync(cf, 'utf8');
+    for (const c of JSON.parse(raw)) {
+      const at = raw.split('\n').findIndex(l => l.includes(c.intro.slice(0, 40)));
+      out.push({ file: 'shared/categories.json', line: at >= 0 ? at + 1 : 1, text: c.intro });
+    }
+  }
   for (const slug of fs.readdirSync(dir).sort()) {
     if (only && slug !== only) continue;
     const sheetDir = path.join(dir, slug);

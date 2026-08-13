@@ -274,9 +274,23 @@ footer.site{margin-top:60px;padding-top:16px;border-top:1px solid var(--line);fo
 .ghit .gname{font-weight:600;font-size:13.5px}
 .ghit .gctx{font-size:12px;color:var(--ink3);margin-left:auto}
 .sheetcard .sq{font-size:13px;font-style:italic;color:var(--accent);margin-top:4px}
+/* --ink2, not --ink3. ink3 is the metadata gray (the "52 chemistries" line) and
+   at 13.5px it measures 2.80:1 on the light background, under the 4.5:1 AA needs
+   for text this size. The card blurb is the same size and the same kind of thing
+   to read, so it uses the same color and gets 5.65:1. */
+.catlede{font-size:13.5px;color:var(--ink2);margin:9px 0 0;max-width:74ch;line-height:1.5}
 .sheets{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px;margin:14px 0 8px}
 a.sheetcard{display:block;text-decoration:none;color:inherit;background:var(--surface);border:1px solid var(--line);border-top:3px solid var(--accent);border-radius:8px;padding:16px 18px 14px;box-shadow:var(--shadow);transition:background .12s}
 a.sheetcard:hover{background:var(--surface2)}
+/* The glyph and the title share a baseline-independent flex row, so a long title
+   wraps under itself instead of under the icon. flex:none keeps the svg from
+   being squeezed when it does. */
+.sheetcard .sh{display:flex;align-items:center;gap:9px}
+/* No opacity dimming. The glyph takes --accent, the same color as the .sq
+   question line beside it, which is 2.38:1 on the card in dark mode; a 1.5px
+   stroke has less to give up than text does, so knocking it back another 15%
+   made it the faintest thing on the card. */
+.sheetcard .sg{flex:none;color:var(--accent)}
 .sheetcard .st{font-weight:650;font-size:16px;letter-spacing:-.005em}
 .sheetcard .sd{font-size:13.5px;color:var(--ink2);margin-top:5px;line-height:1.5}
 .sheetcard .sc{font-family:var(--mono);font-size:11px;color:var(--ink3);margin-top:10px;font-variant-numeric:tabular-nums}

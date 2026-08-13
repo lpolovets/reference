@@ -9,6 +9,7 @@
 const fs = require('fs');
 const path = require('path');
 const { writeIcons } = require('./icons.js');
+const { glyph } = require('./glyphs.js');
 
 const ROOT = path.join(__dirname, '..');
 const SHARED = path.join(ROOT, 'shared');
@@ -265,6 +266,7 @@ function loadSheet(dir) {
 const esc = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 const THEME = fs.readFileSync(path.join(SHARED, 'theme.css'), 'utf8');
 const LOGO = fs.readFileSync(path.join(SHARED, 'logo.html'), 'utf8');
+const CATEGORY_DATA = JSON.parse(fs.readFileSync(path.join(SHARED, 'categories.json'), 'utf8'));
 // The logo links to the reference-sheets landing page; the href depends on where
 // the page lives (sheet pages sit one level below the landing, the artifact is
 // off-site so it gets the absolute URL in a new tab).
@@ -558,17 +560,26 @@ if (ARTIFACT_SLUG) {
     console.log('site/' + sheet.slug + '/index.html:', entries.length, 'entries,', html.length, 'bytes (+ data.json)');
   }
 
+  // The glyph rides inside the title line rather than above it, so a card with
+  // no glyph (a new sheet before one is drawn) loses the icon and nothing else —
+  // no reserved gap, no shifted baseline.
   const card = ({ sheet, entries }) =>
     '    <a class="sheetcard" href="' + sheet.slug + '/">' +
-    '<span class="st" style="display:block">' + esc(sheet.shortTitle || sheet.docTitle) + '</span>' +
+    // No inline display here, unlike its siblings: an inline style outranks the
+    // stylesheet, so style="display:block" would silently beat .sh{display:flex}
+    // and drop the icon back inline against the title.
+    '<span class="sh">' + glyph(sheet.slug) +
+    '<span class="st">' + esc(sheet.shortTitle || sheet.docTitle) + '</span></span>' +
     (sheet.question ? '<span class="sq" style="display:block">' + esc(sheet.question) + '</span>' : '') +
     '<span class="sd" style="display:block">' + esc(sheet.blurb || '') + '</span>' +
     '<span class="sc" style="display:block">' + entries.length + ' ' + esc(sheet.unit[1]) + '</span></a>';
-  // Sheets group into high-level categories (sheet.json "category"). CATEGORIES
-  // fixes the running order, biggest and most-linked first; anything not listed
-  // falls in after them in order of first appearance.
-  const CATEGORIES = ['Energy', 'Robotics and Manufacturing', 'Materials',
-    'Semiconductors', 'Computing and Photonics', 'Defense and Aerospace', 'Bioprocessing'];
+  // Sheets group into high-level categories (sheet.json "category"). The order
+  // and the one-line intros live in shared/categories.json, not here: the intros
+  // are reader-facing prose, and prose sitting in a .js file is prose build/style.js
+  // never sees. Order is biggest and most-linked first; anything not listed falls
+  // in after them in order of first appearance, with no intro.
+  const CATEGORIES = CATEGORY_DATA.map(c => c.name);
+  const CATEGORY_INTRO = new Map(CATEGORY_DATA.map(c => [c.name, c.intro]));
   const catOrder = [];
   const byCat = new Map();
   for (const s of all) {
@@ -581,8 +592,16 @@ if (ARTIFACT_SLUG) {
   const seenAt = new Map(catOrder.map((c, i) => [c, i]));
   const rank = c => CATEGORIES.includes(c) ? CATEGORIES.indexOf(c) : CATEGORIES.length + seenAt.get(c);
   catOrder.sort((a, b) => rank(a) - rank(b));
+  // A listed category must carry an intro. Same reasoning as groupBlurbs: the
+  // failure is silent otherwise, and one category quietly missing its line looks
+  // like a rendering bug rather than a missing string.
+  const missingIntro = CATEGORY_DATA.filter(c => !c.intro || !c.intro.trim()).map(c => c.name);
+  if (missingIntro.length)
+    throw new Error('shared/categories.json: no intro for ' + missingIntro.join(', '));
   const sections = catOrder.map(cat =>
-    '<h2 class="cathdr">' + esc(cat) + '</h2>\n<div class="sheets">\n' +
+    '<h2 class="cathdr">' + esc(cat) + '</h2>\n' +
+    (CATEGORY_INTRO.has(cat) ? '<p class="catlede">' + esc(CATEGORY_INTRO.get(cat)) + '</p>\n' : '') +
+    '<div class="sheets">\n' +
     byCat.get(cat).map(card).join('\n') + '\n</div>').join('\n');
   const totalEntries = all.reduce((n, s) => n + s.entries.length, 0);
   const LANDING_JS = fs.readFileSync(path.join(SHARED, 'landing.js'), 'utf8');

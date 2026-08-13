@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Energy",
+    "intro": "How electricity gets generated, stored, and moved, and what happens to the carbon."
+  },
+  {
+    "name": "Robotics and Manufacturing",
+    "intro": "How parts get made, and the actuators, grippers, and sensors that robots are built from."
+  },
+  {
+    "name": "Materials",
+    "intro": "Where raw materials come from, how ore becomes metal, and which material to specify."
+  },
+  {
+    "name": "Semiconductors",
+    "intro": "The process steps that turn a blank silicon wafer into a finished chip."
+  },
+  {
+    "name": "Computing and Photonics",
+    "intro": "The hardware computing runs on: data center power and cooling, optical components, and quantum platforms."
+  },
+  {
+    "name": "Defense and Aerospace",
+    "intro": "How vehicles get to orbit, how they know where they are, and how unwanted ones get stopped."
+  },
+  {
+    "name": "Bioprocessing",
+    "intro": "How living cells get grown at scale and the product gets purified out of them."
+  }
+]
