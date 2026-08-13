@@ -303,7 +303,17 @@ const SITE_NAME = 'Humba Ventures Reference Sheets';
 // no consent banner, which is the whole reason for choosing it. Pageviews are
 // per sheet URL; app.js adds events for entry opens and tab switches, because
 // every entry on a sheet shares one URL.
-const GOATCOUNTER = '';
+const GOATCOUNTER = 'humbaventures';
+// Custom event paths are prefixed with wherever the site is mounted, so reference
+// events sort under "reference/" in a dashboard shared with the main humbaventures
+// site rather than mixing into it. Pageviews need no help: count.js reads the
+// canonical link, which already carries /reference/<slug>/.
+//
+// Derived from SITE rather than written out again, so moving the site cannot
+// leave the events pointing at the old mount point. '' when the site is served
+// from a domain root, which is the correct prefix there.
+const GC_MOUNT = new URL(SITE).pathname.replace(/^\/+|\/+$/g, '');
+const GC_PREFIX = GC_MOUNT ? GC_MOUNT + '/' : '';
 const escAttr = s => esc(s).replace(/"/g, '&quot;');
 // path is the page's location under SITE ('' for the landing page); up is the
 // prefix back to the site root, since sheet and about pages sit one level below
@@ -485,6 +495,7 @@ function composeBody(sheetData, artifact) {
   const dataJs = [
     'const EMBED_OK = ' + String(!artifact) + ';',
     'const PRERENDERED = ' + String(!artifact) + ';',
+    'const GC_PREFIX = ' + JSON.stringify(GC_PREFIX) + ';',
     'const SHEET = ' + JSON.stringify(clientSheet) + ';',
     'const P = ' + JSON.stringify(entries) + ';',
   ].join('\n');

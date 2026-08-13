@@ -29,7 +29,9 @@ function gcEvent(kind, name){
   // The sheet slug is the last path segment; taking it from the URL avoids
   // shipping the slug in SHEET on every sheet just to name an event.
   const sheet = location.pathname.split("/").filter(Boolean).pop() || "index";
-  const path = kind+"/"+sheet+"/"+name;
+  // GC_PREFIX is where the site is mounted ("reference/"), so these sort under
+  // that in a dashboard shared with the main site instead of mixing into it.
+  const path = GC_PREFIX+kind+"/"+sheet+"/"+name;
   // Once per page load. A reader opening the same card five times read it once,
   // and counting five would overstate the exact number this exists to measure.
   if(gcSeen.has(path)) return;
