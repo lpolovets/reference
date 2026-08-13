@@ -15,6 +15,28 @@ const $ = id => document.getElementById(id);
 const R = makeRenderer(SHEET, EMBED_OK);
 const esc = R.esc, slug = R.slug;
 
+// ----- analytics events -----
+// Pageviews arrive on their own, one per sheet URL. These two events are the
+// part that answers "which entries actually get read": every entry on a sheet
+// shares one URL, so without them a 212-entry sheet is a single number.
+//
+// No-op unless the page loaded GoatCounter, which covers the artifact flavor
+// (no external requests) and any build with no site code set. count.js also
+// declines to fire on localhost and private IPs, so previewing does not count.
+const gcSeen = new Set();
+function gcEvent(kind, name){
+  if(!window.goatcounter || !window.goatcounter.count) return;
+  // The sheet slug is the last path segment; taking it from the URL avoids
+  // shipping the slug in SHEET on every sheet just to name an event.
+  const sheet = location.pathname.split("/").filter(Boolean).pop() || "index";
+  const path = kind+"/"+sheet+"/"+name;
+  // Once per page load. A reader opening the same card five times read it once,
+  // and counting five would overstate the exact number this exists to measure.
+  if(gcSeen.has(path)) return;
+  gcSeen.add(path);
+  try{ window.goatcounter.count({path:path, title:path, event:true}); }catch(e){}
+}
+
 // Precompute search haystack
 P.forEach(x => {
   x._hay = (x.n+" "+x.name+" "+x.g+" "+x.d+" "+x.sw+" "+
@@ -322,11 +344,14 @@ $("list").addEventListener("click", e=>{
   const card = h.parentElement;
   const open = card.classList.toggle("open");
   h.setAttribute("aria-expanded", open ? "true" : "false");
+  if(open) gcEvent("entry", card.id);
   try{
     if(open) history.replaceState(null,"","#"+card.id);
     else if(location.hash==="#"+card.id) history.replaceState(null,"",location.pathname+location.search);
   }catch(err){}
 });
+// Deliberately not instrumented: one click here opens every card on the sheet,
+// and 212 "entry" events would drown the ones a reader actually chose to open.
 $("expandAll").addEventListener("click", ()=>{
   document.querySelectorAll("#list .card").forEach(c=>{c.classList.add("open");c.querySelector(".chead").setAttribute("aria-expanded","true");});
 });
@@ -366,8 +391,12 @@ function showTab(tid, setHash){
     $(t2).setAttribute("aria-selected", t2===tid ? "true" : "false");
     $(v2).classList.toggle("active", t2===tid);
   });
+  // setHash is true only for a click on the tab bar, false when restoring a tab
+  // from the URL on load, so this counts tabs a reader chose and not tabs a
+  // shared link opened for them.
   if(setHash){
     try{ history.replaceState(null,"",location.pathname+location.search+"#"+tab[2]); }catch(e){}
+    gcEvent("tab", tab[2].replace(/^tab-/, ""));
   }
   window.scrollTo({top:0});
   updBar();

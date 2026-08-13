@@ -294,6 +294,16 @@ const PREPAINT = '<script>(function(){var t;try{t=localStorage.getItem("theme")}
 // Where the site actually lives, needed absolute for canonical and og:url.
 const SITE = 'https://humbaventures.com/reference/';
 const SITE_NAME = 'Humba Ventures Reference Sheets';
+// GoatCounter site code, the subdomain of <code>.goatcounter.com. It is public by
+// definition — it ships in the page source — so it belongs here and not in a
+// secret. Empty disables analytics everywhere, which is what a fork of this repo
+// wants: nobody else's traffic should land in this account.
+//
+// GoatCounter sets no cookies and stores no cross-site identifier, so this needs
+// no consent banner, which is the whole reason for choosing it. Pageviews are
+// per sheet URL; app.js adds events for entry opens and tab switches, because
+// every entry on a sheet shares one URL.
+const GOATCOUNTER = '';
 const escAttr = s => esc(s).replace(/"/g, '&quot;');
 // path is the page's location under SITE ('' for the landing page); up is the
 // prefix back to the site root, since sheet and about pages sit one level below
@@ -322,7 +332,11 @@ function head({ title, description, path: p, up, ld }) {
     '<meta name="twitter:card" content="summary">\n' +
     '<meta name="twitter:title" content="' + t + '">\n' +
     '<meta name="twitter:description" content="' + d + '">\n' +
-    (ld ? ldScript(ld) : '');
+    (ld ? ldScript(ld) : '') +
+    // Async and last: analytics must never be on the path to first paint. The
+    // artifact flavor emits no head at all, so it cannot pick this up.
+    (GOATCOUNTER ? '<script data-goatcounter="https://' + GOATCOUNTER +
+      '.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>\n' : '');
 }
 
 // ---- structured data ----
