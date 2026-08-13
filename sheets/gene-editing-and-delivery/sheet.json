@@ -1,0 +1,127 @@
+{
+  "slug": "gene-editing-and-delivery",
+  "docTitle": "Gene Editing and Delivery Reference",
+  "shortTitle": "Gene Editing & Delivery",
+  "blurb": "Nucleases, base and prime editors, RNA and epigenetic editing, programmable insertion, and the viral and non-viral carriers that have to get them into the right cells.",
+  "category": "Biotechnology",
+  "question": "Which editor, and how does it get there?",
+  "title": "Gene Editing and Delivery: A Practical Reference",
+  "lede": "Almost every gene editing program fails on delivery rather than on editing. The editors work: the question is whether the machinery fits in the carrier, whether the carrier reaches the tissue, and whether you can prove it did not cut anywhere else. This guide catalogs {{N_ENTRIES}} editors and delivery systems across six classes, with the cargo sizes, editing efficiencies, off-target profiles, and tissue reach that decide between them.",
+  "unit": ["tool", "tools"],
+  "groupLabel": "Family",
+  "explorerTab": "Tool explorer",
+  "guideTab": "Selection guide",
+  "h2hTab": "Head-to-head",
+  "searchPlaceholder": "Search editors, carriers, tissues…",
+  "stats": [
+    { "count": "entries", "label": "tools" },
+    { "count": "parts", "label": "classes" },
+    { "count": "groups", "label": "families" }
+  ],
+  "parts": [
+    { "id": 1, "roman": "I", "name": "Cutting Nucleases", "blurb": "break the DNA and let the cell repair it", "color": "var(--p1)" },
+    { "id": 2, "roman": "II", "name": "Base and Prime Editing", "blurb": "rewrite letters without cutting both strands", "color": "var(--p2)" },
+    { "id": 3, "roman": "III", "name": "RNA and Epigenetic Editing", "blurb": "change the output, leave the gene alone", "color": "var(--p3)" },
+    { "id": 4, "roman": "IV", "name": "Large-Cargo Insertion", "blurb": "put a whole gene at a chosen site", "color": "var(--p4)" },
+    { "id": 5, "roman": "V", "name": "Viral Delivery", "blurb": "let a virus carry the machinery in", "color": "var(--p5)" },
+    { "id": 6, "roman": "VI", "name": "Non-Viral Delivery", "blurb": "particles, pulses, and conjugates instead", "color": "var(--p6)" }
+  ],
+  "groupBlurbs": {
+    "Cas nucleases": "RNA-guided cutters, the default since 2012",
+    "Protein-guided nucleases": "engineered proteins that read DNA directly",
+    "Base editors": "convert one letter to another, no break",
+    "Templated editing": "supply the sequence you want written",
+    "RNA editing": "act on the transcript, nothing inherited",
+    "Expression control": "turn genes down or up without changing them",
+    "Programmable insertion": "place kilobases at a chosen address",
+    "Viral vectors": "engineered viruses that deliver a payload",
+    "Virus-derived particles": "viral machinery without the viral genome",
+    "Particle delivery": "wrap the cargo and let cells take it up",
+    "Physical and conjugate delivery": "force it in, or attach a homing group"
+  },
+  "facets": [
+    {
+      "id": "acts",
+      "key": "acts",
+      "label": "Acts on",
+      "type": "single",
+      "color": "--fa",
+      "required": true,
+      "tagPrefix": "Acts on",
+      "tip": "What the tool actually changes. DNA sequence means the genome is permanently different afterwards. Expression means the gene is unchanged but how much protein it makes is not, which can persist through cell division without any sequence edit. RNA means the transcript only, so the effect fades and nothing is inherited. Carrier means the entry does no editing at all and exists to get something else into the cell.",
+      "order": ["seq", "expr", "rna", "carrier"],
+      "options": { "seq": "DNA sequence", "expr": "Gene expression", "rna": "RNA", "carrier": "Nothing (carrier)" }
+    },
+    {
+      "id": "cargo",
+      "key": "cargo",
+      "label": "Cargo size",
+      "type": "range",
+      "color": "--fb",
+      "required": true,
+      "tagPrefix": "Cargo",
+      "tip": "Measured in kilobases of genetic payload, and read two ways depending on the entry. For an editor it is how much coding space the machinery occupies, which is what decides whether it fits in a carrier. For a carrier it is how much it can hold. Matching these two numbers is the single most common failure point in a program: SpCas9 alone is about 4.2 kb and AAV holds about 4.7 kb, so a base editor at 5.2 kb or a prime editor at 6.3 kb does not fit without splitting it.",
+      "order": ["tiny", "small", "mid", "large", "vast"],
+      "options": { "tiny": "Under 1 kb", "small": "1–4.7 kb", "mid": "4.7–8 kb", "large": "8–30 kb", "vast": "Over 30 kb" },
+      "chipLabels": {
+        "tiny": "Under 1 kb",
+        "small": "1-4.7 kb",
+        "mid": "4.7-8 kb",
+        "large": "8-30 kb",
+        "vast": "30 kb+"
+      }
+    },
+    {
+      "id": "reach",
+      "key": "reach",
+      "label": "Works in",
+      "type": "multi",
+      "color": "--fe",
+      "required": true,
+      "tagRow": 2,
+      "tip": "Where the tool has actually been shown to work, not where it could work in principle. Ex vivo means cells taken out, treated, and returned. The tissue tags mark in vivo use with published animal or human data. Research only means it works in cultured cells and has no credible in vivo delivery route yet, which is true of more editing tools than the literature makes obvious.",
+      "order": ["exvivo", "liver", "cns", "muscle", "eye", "research"],
+      "options": {
+        "exvivo": "Ex vivo",
+        "liver": "Liver",
+        "cns": "CNS",
+        "muscle": "Muscle",
+        "eye": "Eye",
+        "research": "Research only"
+      }
+    },
+    {
+      "id": "mat",
+      "key": "maturity",
+      "label": "Maturity",
+      "type": "single",
+      "color": "--fc",
+      "required": true,
+      "tagPrefix": "Maturity",
+      "tip": "How settled the tool is: Early = published and reproducible, but few groups depend on it · Emerging = used widely in research and entering the clinic · Proven = clinical data exists and the behavior is well characterized · Default = what a new program reaches for unless there is a specific reason not to.",
+      "order": ["early", "emerging", "proven", "default"],
+      "options": { "early": "Early", "emerging": "Emerging", "proven": "Proven", "default": "Default" }
+    },
+    {
+      "id": "clin",
+      "key": "clinical",
+      "label": "In humans",
+      "type": "single",
+      "color": "--fd",
+      "required": true,
+      "tagPrefix": "Clinical",
+      "tip": "How far the tool has gone in people: None = no human dosing · Trials = dosed in clinical trials, including single-patient bespoke treatments · Approved = part of a licensed product. This is the cheapest proxy for regulatory predictability, and the gap between a tool working in cells and a tool having been given to a person is where most of the risk in this field lives.",
+      "order": ["none", "trials", "approved"],
+      "options": { "none": "None", "trials": "In trials", "approved": "Approved" }
+    }
+  ],
+  "videosAfter": "Economic profile",
+  "extraSections": [
+    ["when to use", "When to use"],
+    ["key numbers", "Key numbers"],
+    ["off-target and safety", "Off-target and safety"],
+    ["examples", "Examples"],
+    ["economic profile", "Economic profile"],
+    ["further reading", "Further reading"]
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "slug": "diagnostics-and-assays",
+  "docTitle": "Diagnostics and Assays Reference",
+  "shortTitle": "Diagnostics & Assays",
+  "blurb": "Amplification and immunoassays, mass spectrometry, culture and cytometry, molecular oncology and screening, and the continuous and at-home tests, compared on detection limit, turnaround, setting and cost.",
+  "category": "Biotechnology",
+  "question": "Which assay answers this question?",
+  "title": "Diagnostics and Assays: A Practical Reference",
+  "lede": "A diagnostic is only as useful as the decision it changes, and the assay that changes a decision is usually the one that gives an adequate answer in the setting where the decision is made. A perfect result that arrives three days late, or from a laboratory the patient will not return to, is often worth less than a rougher answer while they are still in the room. This guide catalogs {{N_ENTRIES}} assay types across six classes, with the detection limits, turnaround times, settings, and costs per test that decide between them.",
+  "unit": ["assay", "assays"],
+  "groupLabel": "Family",
+  "explorerTab": "Assay explorer",
+  "guideTab": "Selection guide",
+  "h2hTab": "Head-to-head",
+  "searchPlaceholder": "Search assays, analytes, settings…",
+  "stats": [
+    { "count": "entries", "label": "assays" },
+    { "count": "parts", "label": "classes" },
+    { "count": "groups", "label": "families" }
+  ],
+  "parts": [
+    { "id": 1, "roman": "I", "name": "Nucleic Acid Detection", "blurb": "find and amplify a specific sequence", "color": "var(--p1)" },
+    { "id": 2, "roman": "II", "name": "Immunoassays", "blurb": "use an antibody to find a protein", "color": "var(--p2)" },
+    { "id": 3, "roman": "III", "name": "Mass Spectrometry and Chemistry", "blurb": "measure the molecule itself", "color": "var(--p3)" },
+    { "id": 4, "roman": "IV", "name": "Cells, Culture and Tissue", "blurb": "look at the cells or grow the organism", "color": "var(--p4)" },
+    { "id": 5, "roman": "V", "name": "Oncology and Screening", "blurb": "find disease before it declares itself", "color": "var(--p5)" },
+    { "id": 6, "roman": "VI", "name": "Continuous and Decentralized", "blurb": "testing outside the laboratory", "color": "var(--p6)" }
+  ],
+  "groupBlurbs": {
+    "Amplification methods": "copy the target until it can be seen",
+    "Sequence-based detection": "read the sequence rather than probe for it",
+    "Rapid immunoassays": "antibody tests that run in minutes",
+    "Quantitative immunoassays": "antibody tests that give a number",
+    "Mass spectrometry": "identify by mass rather than by binding",
+    "Clinical chemistry": "the high-volume analyte panels",
+    "Cell analysis": "count and characterize individual cells",
+    "Culture and tissue": "grow the organism or read the slide",
+    "Cancer detection and monitoring": "tumor signal in blood or tissue",
+    "Population screening": "test people who feel well",
+    "Continuous monitoring": "measure repeatedly without a visit",
+    "Self and near-patient testing": "results where the patient is"
+  },
+  "facets": [
+    {
+      "id": "samp",
+      "key": "sample",
+      "label": "Sample",
+      "type": "multi",
+      "color": "--fa",
+      "required": true,
+      "tagRow": 2,
+      "tip": "What the assay runs on. Blood covers whole blood, serum and plasma. Swab covers nasal, throat and other collected surfaces. Tissue means a biopsy or surgical specimen, usually fixed. Other fluids covers urine, stool, saliva and cerebrospinal fluid. Non-invasive means nothing is collected at all, as with an implanted or worn sensor. Sample type constrains where a test can be run more often than the chemistry does.",
+      "order": ["blood", "swab", "tissue", "fluid", "noninv"],
+      "options": {
+        "blood": "Blood",
+        "swab": "Swab",
+        "tissue": "Tissue",
+        "fluid": "Other fluids",
+        "noninv": "Non-invasive"
+      }
+    },
+    {
+      "id": "tat",
+      "key": "tat",
+      "label": "Turnaround",
+      "type": "range",
+      "color": "--fb",
+      "required": true,
+      "tagPrefix": "Result in",
+      "tip": "Time from sample to result for the assay itself, not counting transport, batching or reporting, which frequently dominate real-world turnaround in a central laboratory. The band that matters is whether the result arrives while the decision is still open: an assay that runs in 20 minutes but is shipped to a reference laboratory delivers a three-day answer in practice.",
+      "order": ["mins", "hour", "shift", "days", "week"],
+      "options": { "mins": "Minutes", "hour": "Under an hour", "shift": "Hours", "days": "1–3 days", "week": "Over 3 days" },
+      "chipLabels": {
+        "mins": "Minutes",
+        "hour": "Under 1 hour",
+        "shift": "Hours",
+        "days": "1-3 days",
+        "week": "3+ days"
+      }
+    },
+    {
+      "id": "set",
+      "key": "setting",
+      "label": "Runs in",
+      "type": "single",
+      "color": "--fc",
+      "required": true,
+      "tagPrefix": "Setting",
+      "tip": "Where the assay is actually performed. Home means the patient runs it themselves. Point of care means near the patient by a clinician, in a clinic, ward or ambulance. Hospital lab means an on-site laboratory with trained staff. Reference lab means a centralized facility that samples are shipped to, which adds transport and batching to turnaround and usually removes any chance of same-visit action.",
+      "order": ["home", "poc", "hospital", "reference"],
+      "options": { "home": "Home", "poc": "Point of care", "hospital": "Hospital lab", "reference": "Reference lab" }
+    },
+    {
+      "id": "reg",
+      "key": "reg",
+      "label": "Regulatory",
+      "type": "single",
+      "color": "--fd",
+      "required": true,
+      "tagPrefix": "Reg",
+      "tip": "The regulatory route the assay typically takes in the US. Research use only means it cannot be used for clinical decisions. Laboratory-developed test means a single certified laboratory validates and offers it themselves, which has historically been the fastest route to market and is the subject of ongoing regulatory attention. FDA-cleared means an approved in vitro diagnostic product. CLIA-waived means simple enough to be run outside a laboratory, which is what allows pharmacy and home use.",
+      "order": ["ruo", "ldt", "fda", "waived"],
+      "options": { "ruo": "Research use", "ldt": "Lab-developed", "fda": "FDA-cleared", "waived": "CLIA-waived" }
+    },
+    {
+      "id": "cost",
+      "key": "cost",
+      "label": "Cost/test",
+      "type": "single",
+      "color": "--fe",
+      "required": true,
+      "tagPrefix": "Cost",
+      "tip": "Roughly what one test costs to run at scale, counting reagents, consumables and the labor to perform it, but not the instrument's capital cost or the clinician's time. This is cost, not price or reimbursement, and the three differ enormously in diagnostics: a test costing a few dollars is routinely billed in the hundreds, which is why reimbursement rather than cost usually decides whether an assay is offered.",
+      "order": ["vlow", "low", "med", "high", "vhigh"],
+      "options": { "vlow": "Under $5", "low": "$5–50", "med": "$50–200", "high": "$200–1,000", "vhigh": "Over $1,000" }
+    }
+  ],
+  "videosAfter": "Economic profile",
+  "extraSections": [
+    ["when to use", "When to use"],
+    ["key numbers", "Key numbers"],
+    ["failure modes", "Failure modes"],
+    ["examples", "Examples"],
+    ["economic profile", "Economic profile"],
+    ["further reading", "Further reading"]
+  ]
+}

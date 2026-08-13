@@ -140,7 +140,7 @@ const GLYPHS = {
     '<circle cx="5.4" cy="18.6" r="2.6"/><circle cx="18.6" cy="18.6" r="2.6"/>' +
     '<rect x="9.8" y="9.8" width="4.4" height="4.4" rx="1"/>',
 
-  // ---- Bioprocessing ----
+  // ---- Biotechnology ----
   // Two impellers, not one. A single blade on a vertical shaft reads as an
   // exclamation mark inside a bag; the second one makes it a stirred tank.
   bioprocessing:
@@ -148,6 +148,47 @@ const GLYPHS = {
     '<path d="M12 3.5v9.5"/><path d="M9.2 9h5.6"/><path d="M9.2 13h5.6"/>' +
     '<circle cx="8.8" cy="16.8" r="0.95" ' + DOT + '/>' +
     '<circle cx="14.8" cy="17.8" r="0.8" ' + DOT + '/>',
+
+  // A capsule stood upright with the lower half filled. The first attempt put
+  // the same capsule on a 45-degree diagonal, and at 22px a rounded bar with a
+  // break across the middle is the standard hyperlink glyph — it read as "this
+  // card is a link", not as a drug. Vertical plus a solid half is a silhouette
+  // nothing else in the set has, and it cannot be confused with the battery,
+  // which is a horizontal rect with a terminal on the end.
+  'therapeutic-modalities':
+    '<rect x="8.5" y="2.5" width="7" height="19" rx="3.5"/>' +
+    '<path d="M8.5 12h7v6a3.5 3.5 0 0 1-7 0z" ' + DOT + '/>',
+
+  // Two strands that cross, plus two rungs. Straight rails read as the
+  // transmission pylon, which is also two uprights with crossbars. Curving them
+  // fixed that and introduced a worse problem: strands that merely pinch in the
+  // middle read as an hourglass, which at this size says "loading". The control
+  // points are pushed far enough out that the strands actually cross, and the
+  // crossing is what makes it a helix rather than a waist.
+  'gene-editing-and-delivery':
+    '<path d="M8.5 3C17 8 17 16 8.5 21"/>' +
+    '<path d="M15.5 3C7 8 7 16 15.5 21"/>' +
+    '<path d="M10.6 5.6h2.8"/><path d="M10.6 18.4h2.8"/>',
+
+  // Short reads stacked over a reference line: an alignment pileup. The reads
+  // have to start at different x positions or the glyph is the standard
+  // "lines of text" icon. Staggering is the whole difference, so keep the
+  // left edges ragged if this is ever redrawn, and keep the baseline, which
+  // is what says the bars are aligned to something.
+  'sequencing-and-synthesis':
+    '<path d="M5 5h6.5"/><path d="M13.5 5h5.5"/>' +
+    '<path d="M3 9.5h5"/><path d="M10 9.5h8.5"/>' +
+    '<path d="M6.5 14h9"/>' +
+    '<path d="M2.5 19.5h19"/>',
+
+  // A lateral flow strip: a rounded window with a filled test line and an open
+  // control line. A plain rectangle with two bars reads as a form field or a
+  // battery, so one line is filled and one is not — the asymmetry is what says
+  // "a result", and it is also what the strip actually looks like when positive.
+  'diagnostics-and-assays':
+    '<rect x="7.5" y="2.5" width="9" height="19" rx="2"/>' +
+    '<path d="M9.6 9h4.8v1.7H9.6z" ' + DOT + '/>' +
+    '<path d="M9.6 14.5h4.8"/>',
 };
 
 // aria-hidden because the sheet title sits right beside it and already says what

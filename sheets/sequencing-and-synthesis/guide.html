@@ -1,0 +1,83 @@
+    <h2>How to choose a method</h2>
+    <p class="muted">Two questions settle most of this. Are you counting things or looking at structure? And do you know in advance what you are looking for? Counting favors short reads, structure needs long ones, and knowing your targets in advance makes everything cheaper. Most disappointing sequencing experiments come from getting one of those two answers wrong at the design stage, not from the instrument.</p>
+
+    <h3>Technical factors</h3>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Factor</th><th>Why it matters</th></tr></thead>
+      <tbody>
+        <tr><td>Read length</td><td>Decides what is visible at all. A read shorter than a repeat cannot span it, so short reads simply do not see structural variants, repeat expansions, or which variants sit on the same chromosome. No amount of depth fixes this; it is a property of the molecule, not the coverage.</td></tr>
+        <tr><td>Error profile, not error rate</td><td>Substitution errors are easy to handle statistically; insertion and deletion errors in homopolymers are systematic and survive high coverage, because the same run is miscalled the same way every time. Ask which errors a platform makes, not just how many.</td></tr>
+        <tr><td>Input DNA quality</td><td>The most underestimated variable. Long-read platforms read whatever length they are given, so ordinary extraction that shears DNA turns a long-read instrument into an expensive short-read one. Fixed and archival material caps what is achievable regardless of instrument.</td></tr>
+        <tr><td>Amplification</td><td>Introduces bias against extreme base composition, creates duplicates, and makes early PCR errors look like real low-frequency variants. It is why molecular barcodes exist and why PCR-free protocols are worth the extra input where coverage uniformity matters.</td></tr>
+        <tr><td>Coverage uniformity</td><td>Usually more limiting than raw accuracy in a clinical assay. Regions that consistently under-cover are reported as negative rather than as untested, so a pipeline returns a confident answer about the regions it can handle and stays silent about the rest.</td></tr>
+        <tr><td>Targeted or untargeted</td><td>Panels and probes only find what was designed in. That makes them cheap and fast, and it makes a negative result meaningless outside the design. Untargeted methods cost more and can be reanalyzed as knowledge changes without touching the sample.</td></tr>
+        <tr><td>Detection limit against input</td><td>Sensitivity is bounded by how many original molecules were in the sample, not by sequencing depth. If a plasma tube holds 3,000 genome equivalents, nothing detects a variant at one in ten thousand. Assays are routinely oversold on this point.</td></tr>
+        <tr><td>Coupling efficiency, for synthesis</td><td>Full-length yield is per-step efficiency raised to the power of the length, which is why a chemistry a fraction of a percent worse per step is dramatically worse at 200 bases. This single arithmetic fact governs the entire synthesis field.</td></tr>
+        <tr><td>Repeats, for synthesis and assembly</td><td>Repetitive sequence makes assembly overlaps ambiguous and is the main reason a construct fails or is quoted at a premium. It is a design problem, and it is far cheaper to fix on the screen than at the bench.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h3>Economic and practical factors</h3>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Factor</th><th>Why it matters</th></tr></thead>
+      <tbody>
+        <tr><td>Cost per answer, not per base</td><td>The number that matters is what it costs to reach a confident conclusion. A platform with a better error rate needs less coverage, so a higher price per gigabase can still be cheaper per call. Panels look cheap until a second test is needed because the answer was outside the design.</td></tr>
+        <tr><td>Instrument utilization</td><td>High-throughput sequencers only make economic sense at steady high volume, because a partially filled flow cell costs the same as a full one. A laboratory with variable demand is usually better served by a smaller instrument or a service provider.</td></tr>
+        <tr><td>Ecosystem and validation</td><td>The incumbent's real moat has never been chemistry. Pipelines, reference datasets, trained staff and clinical validation all assume one data type, and switching platforms carries revalidation work that is routinely underestimated when comparing list prices.</td></tr>
+        <tr><td>Supplier concentration</td><td>Sequencing has been close to a monopoly for most of its history, and the alternatives each carry non-technical risk, from patent litigation to legislation. Anyone building a business on sequencing input costs should treat supply as a strategic exposure.</td></tr>
+        <tr><td>Library preparation as a cost line</td><td>When sequencing was expensive, library preparation was a rounding error. At current prices it can be a comparable line item for small genomes and targeted assays, which is what makes miniaturization onto liquid handlers pay back quickly.</td></tr>
+        <tr><td>Revalidation on content change</td><td>Adding genes to a panel is a new assay requiring validation; adding genes to an exome or genome analysis is a reanalysis. That difference pushes clinical laboratories slowly toward untargeted sequencing as actionable gene lists keep growing.</td></tr>
+        <tr><td>Specifications go stale</td><td>Instrument specifications in this field move faster than anything else in these sheets, and several platforms have changed accuracy or throughput by large factors across a couple of product generations. Treat any number older than a year as a band, not a value.</td></tr>
+        <tr><td>Screening obligations, for synthesis</td><td>Commercial synthesis providers screen orders and customers, largely voluntarily. Benchtop instruments move that control point into the laboratory, and the obligation moves with it, which is a purchase-decision question rather than an afterthought.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h3>Read length and what it buys</h3>
+    <div class="bands">
+      <div class="band"><div class="bt">Under 300 bases</div><div class="bv">Short-read platforms. Highest accuracy and lowest cost per base. Sees small variants and counts things. Cannot span repeats, phase, or detect structure.</div></div>
+      <div class="band"><div class="bt">700–900 bases</div><div class="bv">Sanger. One target, same day, human-readable trace, no informatics. Blind below roughly 15–20% allele fraction.</div></div>
+      <div class="band"><div class="bt">15–25 kilobases</div><div class="bv">HiFi long reads. Long enough to phase genes and span most repeats, accurate enough for confident small-variant calls. The single-assay answer, at several times the cost per base.</div></div>
+      <div class="band"><div class="bt">Tens to hundreds of kilobases</div><div class="bv">Nanopore. Read length set by extraction, not chemistry. Direct methylation, real-time output, portable. Systematic homopolymer errors persist at depth.</div></div>
+      <div class="band"><div class="bt">Hundreds of kilobases to megabases</div><div class="bv">Optical mapping and ultra-long nanopore. Sees rearrangements nothing else spans, and optical mapping produces no sequence at all.</div></div>
+    </div>
+
+    <h3>What a detection limit actually costs</h3>
+    <div class="bands">
+      <div class="band"><div class="bt">15–20% allele fraction</div><div class="bv">Sanger. Adequate for germline confirmation, blind to somatic and mosaic variants.</div></div>
+      <div class="band"><div class="bt">Roughly 1–5%</div><div class="bv">Ordinary sequencing without molecular barcodes. PCR errors and real variants become indistinguishable below this.</div></div>
+      <div class="band"><div class="bt">0.1% and below</div><div class="bv">Molecular barcodes with consensus calling. Requires sequencing each original molecule several times, so most of the run confirms what you already read.</div></div>
+      <div class="band"><div class="bt">Rare mutations in normal tissue</div><div class="bv">Duplex sequencing, requiring both strands of each original molecule. The lowest error rates available and dramatically the most expensive per informative molecule.</div></div>
+    </div>
+
+    <h2>Sample preparation decides more than the instrument</h2>
+    <p>The pattern that repeats across this sheet is that what happens before the instrument sets a ceiling the instrument cannot raise. Read length on a long-read platform is set by extraction, not by chemistry, and laboratories routinely spend months optimizing the wrong end of the workflow. Detection limit in a liquid biopsy is set by how many genome equivalents were in the tube. What a single-cell experiment sees is set by which cells survived dissociation, and the cell types that died are simply absent from the results with no indication that they ever existed. Coverage uniformity is set by library chemistry and amplification. In every one of these cases the instrument reports confidently on what it received and says nothing about what it never saw, which is why a clean-looking dataset is not evidence that the sample preparation worked. If a result is surprising, check the preparation before the analysis.</p>
+
+    <h2>Reading got cheap faster than writing</h2>
+    <p>Sequencing cost per base has fallen by something like six orders of magnitude since 2001, far outpacing semiconductor cost curves over the same period, and it has fallen fastest whenever a credible competitor appeared. Synthesis has not followed. Phosphoramidite chemistry is essentially the same process it was in the mid-1980s, the length ceiling around 200 bases has barely moved, and the cost reductions that did arrive came from parallelism on arrays rather than from better chemistry. The gap matters strategically: many of the ideas that motivate synthetic biology, including DNA data storage and large-scale genome writing, need synthesis costs several orders of magnitude below where they are, and no incremental improvement to the existing chemistry gets there. That is the case for enzymatic synthesis, and it is also why the field has consistently overestimated how quickly writing would catch up with reading.</p>
+
+    <h2>Core takeaway</h2>
+    <div class="callout">
+      <p>Pick the method from the question, not the specification sheet. Counting and small variants mean short reads; structure, phasing and repeats mean long reads; a known target list means a panel and a fraction of the cost. Then check the two things that quietly cap the result: how many original molecules the sample contains, which bounds sensitivity absolutely, and what the preparation does to the material before the instrument sees it. For synthesis, remember that yield is efficiency to the power of length, that repeats are the usual reason a construct fails, and that anything assembled needs whole-construct verification rather than a primer walk.</p>
+    </div>
+
+    <h3>Key questions for experimental decisions</h3>
+    <ul class="qlist">
+      <li>Is the answer a count or a structure, and does the read length support it?</li>
+      <li>How many original molecules are in the sample, and what detection limit does that allow?</li>
+      <li>Which errors does this platform make, and are they random or systematic?</li>
+      <li>What does the extraction and library chemistry do to the material before the instrument sees it?</li>
+      <li>If the answer is outside the targeted region, how would you know?</li>
+      <li>For synthesis: what is the per-cycle efficiency, and what full-length yield does that give at the length you need?</li>
+    </ul>
+
+    <h3>Key questions for investment and business analysis</h3>
+    <ul class="qlist">
+      <li>What does a confident answer cost, rather than what does a gigabase cost?</li>
+      <li>What utilization does the quoted cost per sample assume, and does the demand support it?</li>
+      <li>How much revalidation would switching platforms actually require?</li>
+      <li>Is the supplier's availability exposed to litigation, policy, or single-source risk?</li>
+      <li>Does the assay's content need revalidation when the actionable gene list changes?</li>
+      <li>How old are the specifications being compared, given how fast this field moves?</li>
+    </ul>
+
+    <p class="muted">The durable positions here have been in ecosystems rather than in chemistry. Incumbents held share for a decade after competitors matched their specifications, because pipelines, reference data and clinical validation are harder to replace than an instrument. That is worth remembering both when assessing a new platform's prospects and when estimating your own switching cost.</p>

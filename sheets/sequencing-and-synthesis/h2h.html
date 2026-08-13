@@ -1,0 +1,51 @@
+    <h2>Head-to-head: the sequencing platforms</h2>
+    <p class="muted">These seven are the instruments a laboratory actually chooses between. Read length is listed first because it decides which questions are answerable at all, and cost is banded rather than quoted because list prices move every year and real prices depend on contract volume. The three tables after this one cover how to target a subset of the genome, how to add spatial or single-cell resolution, and how to write DNA rather than read it.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Platform</th><th>Read length</th><th>Error profile</th><th>Cost</th><th>Pick it when</th></tr></thead>
+      <tbody>
+        <tr><td>Sequencing by synthesis</td><td>100–300 b</td><td>Above 99.9%, mostly substitutions</td><td>Very low per base</td><td>The question is counting or small variants and volume matters. The default, and its real advantage is the ecosystem: two decades of pipelines, reference datasets and trained people all assume this data type.</td></tr>
+        <tr><td>Avidity</td><td>100–300 b</td><td>Better than conventional sequencing by synthesis</td><td>Very low</td><td>Short reads are right and you are not locked into a validated pipeline. Better accuracy means fewer reads per confident call. Thinner tooling and reference data, so budget revalidation if migrating an assay.</td></tr>
+        <tr><td>High-density bead</td><td>Short</td><td>Higher indel rate in homopolymers</td><td>Very low, aimed at scale</td><td>Enormous volume of counting work: RNA quantification, single-cell, methylation surveys. Homopolymer errors are systematic, so extra coverage does not fix them, which rules it out for some clinical calling.</td></tr>
+        <tr><td>DNA nanoball</td><td>100–200 b</td><td>Linear amplification, so errors do not compound; very low duplicates</td><td>Very low</td><td>Low-frequency variant detection, where not propagating early amplification errors is a genuine advantage. Technically strong; the deciding factor for US laboratories is usually supply and litigation risk rather than performance.</td></tr>
+        <tr><td>Nanopore</td><td>Tens of kb to megabases</td><td>Below short reads; systematic in homopolymers</td><td>Low, with very low capital at the small end</td><td>Structure, phasing, repeat expansions, or a same-day answer. Reads the native molecule, so methylation comes free. Read length is set by your extraction, not by the instrument, which is where most disappointment originates.</td></tr>
+        <tr><td>HiFi</td><td>15–25 kb</td><td>Comparable to short reads after circular consensus</td><td>Moderate, several times short reads per base</td><td>You need length and accuracy in one dataset: reference assembly, clinical structural variants, comprehensive rare disease sequencing. Pushing insert length trades away the accuracy that justified the platform.</td></tr>
+        <tr><td>Optical mapping</td><td>Hundreds of kb to megabases</td><td>No sequence at all</td><td>Moderate</td><td>Large structural rearrangements, especially balanced translocations that microarrays cannot see. Replaces three cytogenetic assays with one. Needs ultra-high-molecular-weight DNA, so fixed material is out.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2>Looking at part of the genome</h2>
+    <p class="muted">Sequencing everything is often the wrong answer, and the three targeting approaches trade against each other on speed, uniformity and how easily the content can change. The crossover points move every year as sequencing gets cheaper.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Approach</th><th>Scale</th><th>Turnaround</th><th>Input</th><th>Pick it when</th></tr></thead>
+      <tbody>
+        <tr><td>Sanger</td><td>1 target</td><td>Same day</td><td>Low</td><td>You have a handful of things to check: a plasmid, a clone, an edited site, a variant to confirm. Below roughly ten to twenty targets it beats preparing a library. Blind under 15–20% allele fraction.</td></tr>
+        <tr><td>Amplicon panel</td><td>Tens to a few thousand targets</td><td>Hours</td><td>Very low, works on small biopsies</td><td>Known gene set, high depth, fast turnaround, low input. The workhorse of clinical molecular pathology. Watch for allele dropout, where a variant under a primer site produces a confident wrong answer.</td></tr>
+        <tr><td>Hybrid capture</td><td>Tens of genes to the whole exome</td><td>A day or more longer</td><td>Higher</td><td>Large or changing target sets, or when coverage uniformity and copy number matter. Preserves native fragment ends, so molecular barcodes and duplicate detection work properly.</td></tr>
+        <tr><td>Genotyping array</td><td>Hundreds of thousands to millions of known sites</td><td>Days</td><td>Low</td><td>Common variants across very large cohorts, where cost per sample dominates. Sees only designed positions, so it is useless for rare disease, and imputation accuracy is substantially worse for under-represented ancestries.</td></tr>
+        <tr><td>Whole genome</td><td>Everything</td><td>Days</td><td>Moderate</td><td>The answer might be anywhere, or the content will change and you want reanalysis rather than a new assay. Increasingly cheaper than capturing a large fraction of the genome.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2>Single-cell and spatial</h2>
+    <p class="muted">Four ways to stop averaging over a tissue. The choice turns on whether you know your gene list in advance and whether the tissue will dissociate, and those two questions usually settle it before any specification comparison.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Method</th><th>Resolution</th><th>Gene coverage</th><th>Sample type</th><th>Pick it when</th></tr></thead>
+      <tbody>
+        <tr><td>Single-cell RNA-seq</td><td>Single cell, no position</td><td>Whole transcriptome, sparse</td><td>Fresh, must dissociate</td><td>Composition and heterogeneity are the question. Dissociation bias is the failure that invalidates conclusions, because cell types that do not survive are simply absent with no trace in the data.</td></tr>
+        <tr><td>Single-nucleus and multiome</td><td>Single nucleus</td><td>Transcriptome plus accessibility</td><td>Frozen and difficult tissue</td><td>The tissue will not dissociate, or you need to link regulation to expression in the same cell. Accessibility data are near-binary per cell, so almost all analysis requires aggregating first.</td></tr>
+        <tr><td>Sequencing-based spatial</td><td>Spot, from tens of micrometers down to sub-micrometer</td><td>Whole transcriptome</td><td>Fresh frozen sections</td><td>You need spatial context and do not know which genes matter. At larger spot sizes every measurement mixes several cells, so colocalization claims need deconvolution rather than inspection.</td></tr>
+        <tr><td>Imaging-based spatial</td><td>Single molecule, sub-cellular</td><td>Hundreds to a few thousand chosen genes</td><td>Works on fixed archival tissue</td><td>You know the gene list, need true single-cell boundaries, or the samples are fixed. Cell segmentation errors create apparent co-expression, which is the artifact most often mistaken for a novel population.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2>Writing DNA</h2>
+    <p class="muted">Synthesis methods differ mainly in how many distinct sequences you get and how much of each. Nothing makes a gene directly, so anything above a few hundred bases is assembled from pieces and then has to be verified.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Method</th><th>Sequences</th><th>Quantity each</th><th>Length</th><th>Pick it when</th></tr></thead>
+      <tbody>
+        <tr><td>Column phosphoramidite</td><td>One per column</td><td>Usable to industrial</td><td>To roughly 150–200 b</td><td>You need one sequence at quality and quantity, or any chemical modification. The only practical route to phosphorothioate backbones, which is why every approved oligonucleotide drug uses it.</td></tr>
+        <tr><td>Array pools</td><td>Tens of thousands to millions</td><td>Femtomoles, must amplify</td><td>150–300 b, higher error</td><td>Many different sequences and small amounts of each: gene assembly fragments, guide libraries, capture probes. Uneven representation across the pool is the failure that quietly ruins screens.</td></tr>
+        <tr><td>Enzymatic</td><td>One to many depending on format</td><td>Varies</td><td>Comparable to chemical so far</td><td>Solvent-free operation matters, or a benchtop instrument fits the workflow. Judge it on per-cycle efficiency and full-length yield, since yield is efficiency to the power of length.</td></tr>
+        <tr><td>Assembly</td><td>Joins fragments into genes</td><td>Clonal after transformation</td><td>Kilobases to hundreds of kb</td><td>Anything longer than synthesis allows. Gibson for a few arbitrary fragments, Golden Gate for ordered multi-part builds, yeast recombination above about 20 kb. Repeats are the usual reason it fails.</td></tr>
+      </tbody>
+    </table></div>

@@ -1,0 +1,126 @@
+{
+  "slug": "sequencing-and-synthesis",
+  "docTitle": "Sequencing and Synthesis Reference",
+  "shortTitle": "Sequencing & Synthesis",
+  "blurb": "Short-read, long-read and targeted sequencing, single-cell and spatial methods, library preparation, and the chemistry for writing DNA from oligos up to whole genes.",
+  "category": "Biotechnology",
+  "question": "How should this DNA be read or written?",
+  "title": "Sequencing and Synthesis: A Practical Reference",
+  "lede": "Reading and writing DNA are now infrastructure, and the interesting choices are about fit rather than capability. Read length decides which variants you can see at all, error profile decides what you can call, and cost per sample decides how many you can run. This guide catalogs {{N_ENTRIES}} methods across six classes, with the read lengths, accuracies, throughputs and costs that decide between them. Instrument specifications move faster than anything else in this collection, so the numbers here are bands rather than datasheet values.",
+  "unit": ["method", "methods"],
+  "groupLabel": "Family",
+  "explorerTab": "Method explorer",
+  "guideTab": "Selection guide",
+  "h2hTab": "Head-to-head",
+  "searchPlaceholder": "Search platforms, chemistries, applications…",
+  "stats": [
+    { "count": "entries", "label": "methods" },
+    { "count": "parts", "label": "classes" },
+    { "count": "groups", "label": "families" }
+  ],
+  "parts": [
+    { "id": 1, "roman": "I", "name": "Short-Read Sequencing", "blurb": "high accuracy, high throughput, short fragments", "color": "var(--p1)" },
+    { "id": 2, "roman": "II", "name": "Long-Read Sequencing", "blurb": "whole molecules, structure, and modifications", "color": "var(--p2)" },
+    { "id": 3, "roman": "III", "name": "Targeted and Legacy Reading", "blurb": "look at part of the genome, cheaply", "color": "var(--p3)" },
+    { "id": 4, "roman": "IV", "name": "Single-Cell and Spatial", "blurb": "which cell, and where it was sitting", "color": "var(--p4)" },
+    { "id": 5, "roman": "V", "name": "Sample and Library Preparation", "blurb": "what happens before the instrument", "color": "var(--p5)" },
+    { "id": 6, "roman": "VI", "name": "Writing DNA", "blurb": "synthesize, assemble, and verify sequence", "color": "var(--p6)" }
+  ],
+  "groupBlurbs": {
+    "Short-read platforms": "the instruments that produce most of the world's bases",
+    "Long-read platforms": "single molecules read end to end",
+    "Targeted reading": "sequence a chosen slice instead of everything",
+    "Array and mapping methods": "genotype or map without sequencing",
+    "Single-cell methods": "resolve one cell at a time",
+    "Spatial methods": "keep the tissue coordinates",
+    "Library chemistry": "turn a sample into something an instrument can read",
+    "Accuracy and extraction": "protect the molecule and count it correctly",
+    "Oligo synthesis": "build short sequences base by base",
+    "Genes and verification": "join fragments and prove the sequence"
+  },
+  "facets": [
+    {
+      "id": "role",
+      "key": "role",
+      "label": "Role",
+      "type": "single",
+      "color": "--fa",
+      "required": true,
+      "tagPrefix": "Role",
+      "tip": "What the method does in a workflow. Reads DNA means it produces sequence from a sample. Writes DNA means it produces physical DNA from a specified sequence. Prepares samples means it sits in front of an instrument and decides what that instrument can see, which is where more experiments are won and lost than most people expect.",
+      "order": ["read", "write", "prep"],
+      "options": { "read": "Reads DNA", "write": "Writes DNA", "prep": "Prepares samples" }
+    },
+    {
+      "id": "len",
+      "key": "length",
+      "label": "Fragment length",
+      "type": "range",
+      "color": "--fb",
+      "required": true,
+      "tagPrefix": "Length",
+      "tip": "The length of molecule the method reads or produces, in bases. For a sequencer this is read length, which decides which variants are visible at all: short reads cannot span a repeat, so structural variation and phasing need long ones. For a synthesis method it is product length. For a preparation method it is the fragment size the library ends up with, which caps what the sequencer can do regardless of the instrument.",
+      "order": ["vshort", "short", "mid", "long", "ultra"],
+      "options": { "vshort": "Under 300 b", "short": "300 b–2 kb", "mid": "2–20 kb", "long": "20–100 kb", "ultra": "Over 100 kb" },
+      "chipLabels": {
+        "vshort": "Under 300 b",
+        "short": "300 b-2 kb",
+        "mid": "2-20 kb",
+        "long": "20-100 kb",
+        "ultra": "100 kb+"
+      }
+    },
+    {
+      "id": "apps",
+      "key": "apps",
+      "label": "Used for",
+      "type": "multi",
+      "color": "--fe",
+      "required": true,
+      "tagRow": 2,
+      "tip": "What the method is routinely used for in practice, rather than everything it could be adapted to. Whole genome means sequencing everything. Targeted means a chosen gene set or region. Transcriptome means RNA. Epigenome means methylation and chromatin. Structure means large rearrangements, repeats and phasing. Build means making DNA for synthetic biology and cloning rather than analyzing it.",
+      "order": ["wgs", "targeted", "rna", "epi", "struct", "build"],
+      "options": {
+        "wgs": "Whole genome",
+        "targeted": "Targeted",
+        "rna": "Transcriptome",
+        "epi": "Epigenome",
+        "struct": "Structure",
+        "build": "Build"
+      }
+    },
+    {
+      "id": "cost",
+      "key": "cost",
+      "label": "Relative cost",
+      "type": "single",
+      "color": "--fd",
+      "required": true,
+      "tagPrefix": "Cost",
+      "tip": "Cost per unit of useful output, banded rather than quoted, because list prices move every year and real prices depend on contract volume. For sequencing the unit is a gigabase of usable data; for synthesis it is a base of finished verified sequence; for preparation it is a sample. Compare within a class rather than across classes, since a gigabase and a base are not the same thing.",
+      "order": ["vlow", "low", "med", "high", "vhigh"],
+      "options": { "vlow": "Very low", "low": "Low", "med": "Moderate", "high": "High", "vhigh": "Very high" }
+    },
+    {
+      "id": "mat",
+      "key": "maturity",
+      "label": "Maturity",
+      "type": "single",
+      "color": "--fc",
+      "required": true,
+      "tagPrefix": "Maturity",
+      "tip": "How settled the method is: Early = works and is published, but few laboratories depend on it and the specifications are still moving · Emerging = real adoption, still gaining share and improving quickly · Proven = widely deployed with well-understood behavior · Default = what a laboratory reaches for unless there is a specific reason not to.",
+      "order": ["early", "emerging", "proven", "default"],
+      "options": { "early": "Early", "emerging": "Emerging", "proven": "Proven", "default": "Default" }
+    }
+  ],
+  "videosAfter": "Economic profile",
+  "extraSections": [
+    ["when to use", "When to use"],
+    ["key numbers", "Key numbers"],
+    ["failure modes", "Failure modes"],
+    ["examples", "Examples"],
+    ["economic profile", "Economic profile"],
+    ["further reading", "Further reading"]
+  ]
+}

@@ -1,0 +1,51 @@
+    <h2>Head-to-head: detecting an infection</h2>
+    <p class="muted">The commonest diagnostic question in medicine, and six approaches answer it with very different trade-offs. Turnaround is listed before sensitivity because for infection the result usually has to arrive before the antibiotic decision, and an excellent answer after that decision has already been made changes much less than it appears to. The tables after this one compare protein measurement, cancer testing, and testing outside the laboratory.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Approach</th><th>Turnaround</th><th>Sensitivity</th><th>Cost</th><th>Pick it when</th></tr></thead>
+      <tbody>
+        <tr><td>Lateral flow antigen</td><td>10–20 minutes</td><td>Well below PCR; roughly 60–80% in symptomatic use</td><td>Under $1</td><td>Access matters more than sensitivity. A test someone actually takes, immediately and repeatedly, finds more infection in a population than a better test requiring a clinic visit. A negative does not exclude infection.</td></tr>
+        <tr><td>Point-of-care cartridge</td><td>20–90 minutes</td><td>Laboratory-grade PCR</td><td>Tens of dollars</td><td>A same-visit answer changes management: antibiotics started or stopped, isolation decided, treatment given before the patient leaves. The cartridge premium buys the setting, not better chemistry.</td></tr>
+        <tr><td>Real-time PCR</td><td>1–2 hours</td><td>A few to tens of copies per reaction</td><td>A few dollars</td><td>You know what you are looking for and have a laboratory. The default for targeted infectious disease testing. Include an internal control, because inhibition produces a silent false negative.</td></tr>
+        <tr><td>Isothermal amplification</td><td>10–30 minutes</td><td>Approaching PCR for well-designed assays</td><td>Low</td><td>Molecular sensitivity without a thermal cycler, which is what makes field and home molecular testing possible. Non-specific amplification is the main risk, and a colorimetric readout cannot distinguish it from a real product.</td></tr>
+        <tr><td>Culture and susceptibility</td><td>1–3 days, weeks for mycobacteria</td><td>Depends on growth; suppressed by prior antibiotics</td><td>A few dollars</td><td>You need to know which antibiotic works, which is the question that actually determines treatment. Molecular tests find genes; culture integrates every resistance mechanism including uncharacterized ones.</td></tr>
+        <tr><td>Metagenomic sequencing</td><td>1–3 days</td><td>Below a targeted assay for the same organism</td><td>High hundreds of dollars</td><td>Conventional testing has failed and infection is still suspected. Finds organisms nobody suspected and ones that will not culture. Distinguishing pathogen from contaminant is a clinical judgment the assay cannot make.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2>Measuring a protein</h2>
+    <p class="muted">Five ways to quantify a protein, differing mostly in sensitivity, throughput and whether you trust the antibody. The specificity question is the one that decides between immunoassay and mass spectrometry, and it has a clear answer for some analytes.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Method</th><th>Sensitivity</th><th>Throughput</th><th>Analytes per run</th><th>Pick it when</th></tr></thead>
+      <tbody>
+        <tr><td>Lateral flow</td><td>Lowest</td><td>Immediate, one at a time</td><td>1–3</td><td>A yes or no answer is enough and it has to happen where the person is. Qualitative only, and the hook effect means an extremely positive sample can read negative.</td></tr>
+        <tr><td>ELISA</td><td>Picogram to nanogram per milliliter range</td><td>A plate in 3–5 hours</td><td>1</td><td>You need a quantitative number at moderate throughput on equipment every laboratory owns. Still the reference against which newer protein assays are compared. Bridge every new antibody lot against the old one.</td></tr>
+        <tr><td>Automated chemiluminescent</td><td>Better than ELISA</td><td>Hundreds per hour, walk-away</td><td>1 per test, wide menu</td><td>Clinical volume. What makes high-sensitivity troponin and same-shift hormone results possible. Results are not comparable between manufacturers for many analytes, which matters when following a patient across hospitals.</td></tr>
+        <tr><td>Multiplex bead</td><td>Similar to ELISA</td><td>A plate in 3–5 hours</td><td>20–100</td><td>Sample volume is the constraint and you need many analytes. Excellent for comparing samples within a study, unreliable for absolute values against published concentrations.</td></tr>
+        <tr><td>Single-molecule</td><td>Roughly 1,000-fold below conventional</td><td>Modest</td><td>1–4</td><td>The target is below conventional detection and the measurement matters, which today means neurological biomarkers in plasma. Better sensitivity does not fix specificity: the antibodies are the same ones.</td></tr>
+        <tr><td>LC-MS/MS</td><td>Analyte-dependent, excellent for small molecules</td><td>Low, hours per batch</td><td>Dozens</td><td>Antibody specificity is inadequate or unavailable. The right answer for steroid hormones, vitamin D and immunosuppressants, where immunoassays cross-reacted badly enough to mislead for years.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2>Cancer testing</h2>
+    <p class="muted">Four different jobs that get conflated: establishing what a lesion is, choosing a therapy, monitoring for recurrence, and finding disease in well people. They have different evidence requirements, and the fourth is far harder than the other three.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Test</th><th>Job</th><th>Sample</th><th>Turnaround</th><th>Pick it when</th></tr></thead>
+      <tbody>
+        <tr><td>Histopathology</td><td>What is this lesion</td><td>Tissue</td><td>1–3 days</td><td>Diagnosis. Still the definitive answer for most cancers, because spatial architecture is diagnostic information no dissociated assay preserves. Companion diagnostic scores gate access to specific drugs.</td></tr>
+        <tr><td>Comprehensive profiling</td><td>Which therapy</td><td>Tissue, or blood if tissue is inadequate</td><td>1–3 weeks</td><td>Targetable alterations determine treatment, which is now most advanced solid tumors. One assay covers everything currently actionable plus what may become actionable, and can be reanalyzed without re-biopsy.</td></tr>
+        <tr><td>Circulating tumor DNA</td><td>Therapy selection, resistance, recurrence</td><td>Blood</td><td>1–2 weeks</td><td>Tissue is unavailable, or you need serial measurement. Samples every tumor site rather than one needle track. A negative never excludes disease, and clonal hematopoiesis mimics tumor variants.</td></tr>
+        <tr><td>Multi-cancer early detection</td><td>Find cancer in well people</td><td>Blood</td><td>1–2 weeks</td><td>Not yet established practice. Specificity above 99% is what makes the arithmetic workable at all, sensitivity in stage I is low, and no mortality benefit has been demonstrated. Do not substitute for proven screening.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2>Testing outside the laboratory</h2>
+    <p class="muted">Four decentralized formats. The deciding question is rarely analytical performance; it is whether the person will be present to receive the result and whether anything can be done about it when they are.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Format</th><th>Who runs it</th><th>Result in</th><th>Cost</th><th>Pick it when</th></tr></thead>
+      <tbody>
+        <tr><td>At-home direct read</td><td>The patient</td><td>10–20 minutes</td><td>Under $1 to make</td><td>Access is the binding constraint. Reaches people who will not attend a clinic, which is often worth more than sensitivity. Build the follow-up pathway first, because a positive with nowhere to go is worse than no test.</td></tr>
+        <tr><td>Home collection, laboratory test</td><td>Patient collects, laboratory runs</td><td>2–5 days</td><td>Moderate</td><td>You want laboratory-grade performance with home-level access and immediacy is not required. The model behind mailed colorectal screening, which raises participation enough to beat colonoscopy referral at population level.</td></tr>
+        <tr><td>Point-of-care cartridge</td><td>Clinician, no laboratory training</td><td>20–90 minutes</td><td>Tens of dollars</td><td>A molecular answer must arrive during the visit. Closed cartridges make contamination control possible outside a laboratory, which is what allows waived status.</td></tr>
+        <tr><td>Continuous sensor</td><td>Worn by the patient</td><td>Continuous</td><td>$30–80 per sensor</td><td>The analyte changes fast enough that a trace beats a point, and the patient can act on it. Glucose monitoring is the one clear success; most other continuous measurements have not cleared that bar.</td></tr>
+      </tbody>
+    </table></div>

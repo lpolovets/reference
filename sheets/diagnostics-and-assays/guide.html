@@ -1,0 +1,82 @@
+    <h2>How to choose an assay</h2>
+    <p class="muted">The useful question is not which assay is most accurate but which one changes a decision. That depends on three things the specification sheet does not mention: whether the result arrives while the decision is still open, whether the person will still be there to receive it, and whether anything different happens when it comes back positive. An assay that fails any of those is not a better test with a caveat; it is a test that does nothing.</p>
+
+    <h3>Analytical factors</h3>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Factor</th><th>Why it matters</th></tr></thead>
+      <tbody>
+        <tr><td>Detection limit against input</td><td>Sensitivity is bounded by how much target was in the sample, not by how good the assay is. A plasma tube holds a few thousand genome equivalents, so no assay detects a variant at one in ten thousand from it. Claims below what the sample contains are arithmetic errors, not performance.</td></tr>
+        <tr><td>Turnaround that counts</td><td>Assay time is not turnaround. Transport, batching and reporting usually dominate, so a 20-minute assay sent to a reference laboratory delivers a three-day answer. The number that matters is time from sample to a clinician who can act.</td></tr>
+        <tr><td>Sensitivity against participation</td><td>A less sensitive test that people actually take can find more disease in a population than a better test they avoid. Mailed stool testing beats colonoscopy referral on population outcomes for exactly this reason, and the effect is large enough to reverse the ranking.</td></tr>
+        <tr><td>Specificity at low prevalence</td><td>Screening well people inverts the usual intuition. At low prevalence, even 99% specificity produces mostly false positives among all positives, so a test that performs beautifully in sick patients can be useless as a screen. Always compute the positive predictive value at the prevalence you are actually testing.</td></tr>
+        <tr><td>What the antibody binds</td><td>Immunoassays report what the antibody bound, not what you named the assay after. Cross-reactivity produces results that are precise, reproducible and wrong, and the assay has no way to tell you. Mass spectrometry measures the molecule itself, which is why it replaced immunoassay for steroids.</td></tr>
+        <tr><td>Pre-analytical handling</td><td>Causes more clinical laboratory errors than the chemistry does. Hemolysis falsely raises potassium, delayed processing lets glucose fall, delayed fixation destroys antigens and nucleic acid. These variables are frequently unrecorded, so a wrong result cannot be distinguished from a right one.</td></tr>
+        <tr><td>Targeted or open</td><td>Panels find only what was designed in, which makes them cheap, fast and silent about everything else. A negative respiratory panel does not mean no infection. Open methods cost more and can be reanalyzed later without touching the sample.</td></tr>
+        <tr><td>Interference</td><td>Heterophile antibodies, biotin supplements and macro-analyte complexes all produce plausible wrong numbers on immunoassays, and biotin interference has caused falsely normal troponin in patients having heart attacks. An implausible result should prompt a method check before a clinical conclusion.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h3>Operational and commercial factors</h3>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Factor</th><th>Why it matters</th></tr></thead>
+      <tbody>
+        <tr><td>Where it can run</td><td>The regulatory complexity level determines the setting, and the setting determines whether the result arrives in time. A CLIA-waived test in a clinic beats a better test in a reference laboratory whenever the patient will not come back.</td></tr>
+        <tr><td>Cost against price against reimbursement</td><td>Three different numbers, and the third decides whether an assay is offered. A test costing a few dollars is routinely billed in the hundreds, and a test with no reimbursement code does not get run however good it is.</td></tr>
+        <tr><td>Placed instrument contracts</td><td>Most laboratory analyzers are supplied at little upfront cost under multi-year reagent commitments. That makes the reagent stream the product and creates switching costs measured in years, which is the most durable business model in diagnostics.</td></tr>
+        <tr><td>Menu lock-in</td><td>Closed platforms only run the vendor's assays. A laboratory needing something off-menu must send it out, and results between manufacturers are not comparable for many analytes, so a patient followed across two hospitals can appear to change when nothing did.</td></tr>
+        <tr><td>Laboratory-developed test exposure</td><td>Much of clinical flow cytometry, mass spectrometry and molecular oncology runs as laboratory-developed tests rather than cleared products. Regulatory attention to that route is a live business risk for anyone whose assay depends on it.</td></tr>
+        <tr><td>Downstream cost of a positive</td><td>Every positive triggers confirmation, imaging or a procedure, and in screening most of those are false. The cost and harm of the workup belong in the assessment of the test, not to someone else's budget.</td></tr>
+        <tr><td>Scarce operators</td><td>Mass spectrometry needs mass spectrometrists, flow cytometry needs analysts, histopathology needs pathologists, and all three are in shortage. Capability that depends on scarce staff scales differently from capability that depends on instruments.</td></tr>
+        <tr><td>Emergency demand is not a market</td><td>Pandemic volumes produced enormous manufacturing investment and then a sharp contraction. Diagnostic demand driven by a public health emergency does not persist, and capacity built for it strands.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h3>Turnaround, and what it makes possible</h3>
+    <div class="bands">
+      <div class="band"><div class="bt">Minutes</div><div class="bv">Lateral flow, MALDI-TOF identification, continuous sensors. Fast enough to act during the encounter, which is the only reason to pay a point-of-care premium.</div></div>
+      <div class="band"><div class="bt">Under an hour</div><div class="bv">Point-of-care molecular cartridges, isothermal amplification, automated immunoassay. Laboratory-grade answers while the patient is still present.</div></div>
+      <div class="band"><div class="bt">Hours</div><div class="bv">Real-time PCR, ELISA, flow cytometry, chemistry panels. Same-shift results for admitted patients, and the workhorse band for hospital laboratories.</div></div>
+      <div class="band"><div class="bt">1–3 days</div><div class="bv">Culture and susceptibility, histopathology, metagenomics, liquid biopsy. Long enough that empirical treatment starts first, which is where most of the cost of delay sits.</div></div>
+      <div class="band"><div class="bt">Over 3 days</div><div class="bv">Comprehensive tumor profiling, karyotype, mycobacterial culture. Acceptable only when the decision genuinely waits, which for a rapidly progressing patient it often does not.</div></div>
+    </div>
+
+    <h3>Cost per test, at scale</h3>
+    <div class="bands">
+      <div class="band"><div class="bt">Under $5</div><div class="bv">Clinical chemistry, lateral flow, MALDI-TOF identification, bacterial culture. High volume, thin margin, and the quiet backbone of laboratory medicine.</div></div>
+      <div class="band"><div class="bt">$5–50</div><div class="bv">Real-time PCR, ELISA, automated immunoassay, isothermal tests. Cheap enough that reimbursement rather than cost decides whether they run.</div></div>
+      <div class="band"><div class="bt">$50–200</div><div class="bv">Digital PCR, mass spectrometry, flow cytometry panels, point-of-care cartridges. The cartridge premium buys a setting, not better chemistry.</div></div>
+      <div class="band"><div class="bt">$200–1,000</div><div class="bv">Liquid biopsy, comprehensive profiling, metagenomics, multi-cancer detection. Send-out tests whose value case rests on avoided costs elsewhere.</div></div>
+    </div>
+
+    <h2>Prevalence decides more than performance</h2>
+    <p>The most common analytical mistake in diagnostics is judging a test by sensitivity and specificity without asking who is being tested. Those two numbers are properties of the assay; what a clinician needs is the probability that a positive result means disease, and that depends on how common the disease is in the population being tested. A test with 99% specificity applied to a population where one person in a thousand has the condition produces roughly ten false positives for every true one, so most positives are wrong even though the test is excellent. This is why an assay that performs well in a symptomatic clinic can be useless as a population screen, why expanded prenatal panels for rare microdeletions produce mostly false positives, and why every multi-cancer detection program lives or dies on specificity rather than sensitivity. Before comparing two assays, work out the positive predictive value at the prevalence you will actually encounter, because that number frequently reverses the ranking that the headline performance figures suggest.</p>
+
+    <h2>The result has to reach someone who acts</h2>
+    <p>A diagnostic produces value only when it changes what happens next, and the chain from sample to changed decision has more failure points than the assay does. Culture gives an excellent susceptibility answer one to three days after the antibiotic decision was made, so the patient is treated empirically and the result mostly confirms or corrects in retrospect. A home HIV test delivers a life-changing positive to someone alone in their kitchen with no counseling and no appointment, and a substantial fraction of those people never complete confirmatory testing. A comprehensive tumor profile finds an actionable alteration for a drug the patient cannot get. In each case the analytical performance was fine and the value leaked out further down the chain. When evaluating a diagnostic, trace that whole path explicitly: who receives the result, when, what they can do about it, and what fraction actually do it. That analysis usually identifies a bigger improvement opportunity than making the assay more sensitive.</p>
+
+    <h2>Core takeaway</h2>
+    <div class="callout">
+      <p>Choose the assay from the decision it has to change, then check three things in order. Does the result arrive while the decision is open, counting transport and batching rather than assay time. Is the detection limit achievable given how much target the sample actually contains. And at the prevalence you are testing, what fraction of positives will be real. Those three questions eliminate more candidate assays than any comparison of analytical performance, and they are the ones most often skipped. For anything used in well people, the specificity arithmetic dominates everything else.</p>
+    </div>
+
+    <h3>Key questions for clinical and technical decisions</h3>
+    <ul class="qlist">
+      <li>What decision does this result change, and would anything be different without it?</li>
+      <li>How much target is in the sample, and does that support the claimed detection limit?</li>
+      <li>What is the positive predictive value at the prevalence in this population?</li>
+      <li>Does the result arrive before the decision is made, counting transport and batching?</li>
+      <li>What does a negative result actually exclude, given the assay's sensitivity?</li>
+      <li>Which pre-analytical variables could produce a plausible wrong answer here?</li>
+    </ul>
+
+    <h3>Key questions for investment and business analysis</h3>
+    <ul class="qlist">
+      <li>Is there a reimbursement pathway, and what does it pay relative to cost?</li>
+      <li>Does the assay require a setting, an instrument, or an operator that limits where it can run?</li>
+      <li>Is this a laboratory-developed test, and what happens if that route is restricted?</li>
+      <li>Who bears the cost of working up the false positives this test generates?</li>
+      <li>Is demand structural, or is it driven by an emergency that will end?</li>
+      <li>Is the durable asset the assay, the instrument contract, the database, or the antibody?</li>
+    </ul>
+
+    <p class="muted">The most profitable positions in diagnostics have rarely been the most innovative assays. Placed-instrument reagent contracts, well-characterized antibody pairs, and the genomic databases accumulated from routine testing have all produced more durable businesses than novel chemistry, because they are harder to replace than a better measurement.</p>

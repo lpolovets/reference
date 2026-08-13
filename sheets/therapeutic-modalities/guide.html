@@ -1,0 +1,86 @@
+    <h2>How to choose a modality</h2>
+    <p class="muted">Modality choice is usually made early, on incomplete information, and it is hard to reverse once a program has built a manufacturing process and a clinical package around it. Two questions settle most of it. Where is the target, and how long does the effect need to last? Everything else, including cost of goods, dosing interval, and how much regulatory precedent you inherit, follows from those two answers more than most teams expect.</p>
+
+    <h3>Biological factors</h3>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Factor</th><th>Why it matters</th></tr></thead>
+      <tbody>
+        <tr><td>Target location</td><td>The single biggest constraint. Antibodies and peptides work outside the cell and nowhere else. Small molecules, degraders and macrocycles get inside. Oligonucleotides act on RNA. Only TCR-T reaches intracellular proteins with a cell therapy, and it does so by reading peptides on MHC rather than the protein itself.</td></tr>
+        <tr><td>Druggable pocket</td><td>Roughly 10–15% of human proteins have a pocket a small molecule can bind. Degraders, glues and oligonucleotides exist because of the other 85%, and each one addresses it differently: bind a handle instead of a pocket, or skip the protein and drug the transcript.</td></tr>
+        <tr><td>Increase or decrease</td><td>Most modalities reduce a protein. Only gene therapy, mRNA, protein replacement and splice modulation increase one. If the disease comes from too little of something, more than half of this sheet is unavailable before you start.</td></tr>
+        <tr><td>Tissue reach</td><td>Systemic delivery is a solved problem for the liver and almost nothing else. Oligonucleotides and lipid nanoparticles go to liver, antibodies stay in circulation and reach about 0.1% into the brain, AAV reaches liver, muscle, retina and neurons. Anything outside that list is a delivery program, not a drug program.</td></tr>
+        <tr><td>Cell division in the target tissue</td><td>Decides whether a genetic medicine lasts. AAV stays episomal, so a dividing tissue dilutes it away; integrating vectors and genome edits survive division. This is why blood diseases are treated ex vivo and retinal diseases in vivo.</td></tr>
+        <tr><td>Antigen specificity</td><td>For anything that kills cells, the target must be absent from tissue you need. T-cell engagers, CAR-T and radioligands are all indifferent to context and will destroy healthy cells carrying the marker, which is why target selection matters more than potency.</td></tr>
+        <tr><td>Pre-existing immunity</td><td>Excludes patients before they enroll. Roughly 30–60% of adults have neutralizing antibodies to common AAV serotypes, most have immunity to common adenovirus serotypes, and a substantial fraction carry anti-Cas9 antibodies. Measure it early, because it sets the addressable population.</td></tr>
+        <tr><td>Redosing</td><td>AAV and viral vector vaccines generate immunity against themselves, so there is one attempt. Anything permanent, including gene edits, cannot be titrated or withdrawn. Modalities that clear are worth a great deal when the safety picture is uncertain.</td></tr>
+        <tr><td>Immunogenicity of the product</td><td>Anti-drug antibodies neutralize the therapy and are worst where the patient makes none of the native protein: roughly 30% of severe hemophilia A patients develop factor VIII inhibitors, and infantile Pompe patients almost universally develop antibodies to infused enzyme.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h3>Development and commercial factors</h3>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Factor</th><th>Why it matters</th></tr></thead>
+      <tbody>
+        <tr><td>Cost of goods per dose</td><td>Spans six orders of magnitude on this sheet, from under a dollar for a subunit vaccine or a pill to $100,000–500,000 for a systemic AAV dose. It is irrelevant in oncology and decisive in vaccines, chronic disease, and global health.</td></tr>
+        <tr><td>Approval precedent</td><td>The cheapest proxy for how predictable a review will be. Filing the fourth product of a modality is a different exercise from filing the first, and first filings routinely spend a year answering questions that later programs get for free.</td></tr>
+        <tr><td>Batch size versus patient count</td><td>Autologous cell therapy has a batch size of one, so unit cost does not fall with volume the way every other manufacturing curve does. This one fact explains most of the difference between cell therapy economics and everything else.</td></tr>
+        <tr><td>Dosing interval</td><td>Drives adherence, total cost per patient-year, and how much of the price a payer will accept up front. Twice-yearly siRNA against a daily pill is a commercial argument rather than a pharmacological one, and it has worked.</td></tr>
+        <tr><td>Exclusivity mechanism</td><td>Small molecules and synthetic peptides face ANDA generics, which remove 80–90% of revenue quickly. Biologics face biosimilars, which take longer and remove less because the manufacturing barrier is real. This changes what a franchise is worth before any clinical data exists.</td></tr>
+        <tr><td>Manufacturing as a barrier</td><td>Antibody manufacturing is a commodity with many qualified suppliers. Conjugation, viral vector, and cell therapy manufacturing are not, and securing capacity is a genuine constraint that has delayed approved products.</td></tr>
+        <tr><td>Site of care</td><td>A pill is dispensed anywhere. CAR-T needs a certified center, radioligand therapy needs nuclear medicine facilities, and T-cell engagers need step-up dosing with monitoring. The number of sites that can deliver a therapy caps revenue independently of demand.</td></tr>
+        <tr><td>Payer mechanics for one-time therapy</td><td>A durable single treatment produces a revenue curve that shrinks as the prevalent population is treated, and payers resist paying millions up front for durability that is not yet proven. Several approved gene therapies have been withdrawn for commercial rather than clinical reasons.</td></tr>
+        <tr><td>Platform reuse</td><td>Some modalities get cheaper with each program: an siRNA company reuses a conjugate and a safety profile, an mRNA facility switches products in weeks. Others do not. Ask how much of the second product's package comes free with the first.</td></tr>
+        <tr><td>Cold chain and distribution</td><td>Refrigerator-stable protein against frozen mRNA against a radioligand dose with a shelf life measured in hours. Distribution constraints decide which markets and which care settings are reachable, and they are usually assessed too late.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h3>What each modality can reach</h3>
+    <div class="bands">
+      <div class="band"><div class="bt">Cell surface and secreted</div><div class="bv">Antibodies, bispecifics, conjugates, traps, peptides, radioligands, CAR-T. The most crowded territory, and the easiest.</div></div>
+      <div class="band"><div class="bt">Intracellular, with a pocket</div><div class="bv">Small molecules and covalent inhibitors. Cheap, oral, and available to roughly 10–15% of the proteome.</div></div>
+      <div class="band"><div class="bt">Intracellular, no pocket</div><div class="bv">PROTACs, molecular glues, macrocyclic peptides, and TCR-T through peptide-MHC. This is where most of the interesting current work sits.</div></div>
+      <div class="band"><div class="bt">RNA transcripts</div><div class="bv">Antisense and siRNA, in liver and central nervous system. Any transcript is addressable; reaching the tissue is the whole problem.</div></div>
+      <div class="band"><div class="bt">The genome itself</div><div class="bv">AAV, lentiviral ex vivo therapy, and in vivo editing. Permanent, one attempt, and priced accordingly.</div></div>
+    </div>
+
+    <h3>Cost of goods per dose</h3>
+    <div class="bands">
+      <div class="band"><div class="bt">Under $1</div><div class="bv">Small molecules, subunit and whole-pathogen vaccines, live biotherapeutics. Manufacturing is not a strategic question at this level.</div></div>
+      <div class="band"><div class="bt">$100–1,000</div><div class="bv">Peptides, oligonucleotides, antibody fragments. Chemical synthesis or microbial fermentation.</div></div>
+      <div class="band"><div class="bt">$1,000–10,000</div><div class="bv">Monoclonal antibodies, bispecifics, traps, mRNA therapeutics, oncolytic viruses. Mammalian cell culture territory.</div></div>
+      <div class="band"><div class="bt">$10,000–100,000</div><div class="bv">Antibody-drug conjugates, radioligands, in vivo editing, allogeneic cell therapy. Specialized facilities and short-dated inputs.</div></div>
+      <div class="band"><div class="bt">Above $100,000</div><div class="bv">Systemic AAV, autologous CAR-T, tumor-infiltrating lymphocytes. One batch per patient, or a batch consumed by one patient.</div></div>
+    </div>
+
+    <h2>The reachability ladder</h2>
+    <p>A useful way to think about this sheet is that every modality after the small molecule exists because of something the previous one could not reach. Small molecules drug pockets, which covers maybe 10–15% of proteins. Antibodies drug anything on the outside of a cell with far better selectivity, but nothing inside. Oligonucleotides skip the protein entirely and act on its transcript, which makes any gene addressable in principle and moves the whole problem to delivery. Degraders and glues get inside the cell without needing a pocket, because they only need a handle. Gene therapy changes the instruction rather than the product. Each step opens targets and costs something concrete: oral dosing, or manufacturing cost, or reversibility, or regulatory precedent. A good modality decision is usually the lowest rung on that ladder that reaches your target, because everything above it is more expensive in at least one dimension that will matter later.</p>
+
+    <h2>Durability against reversibility</h2>
+    <p>The other axis worth thinking about explicitly is how long the effect lasts, because it cuts in both directions and teams tend to treat durability as unambiguously good. A daily small molecule can be stopped the day a patient has a problem. A monthly antibody clears over a few weeks. An siRNA holds its effect for months regardless of what you learn. An AAV or a genome edit is permanent, cannot be titrated, and cannot be given twice. Durability is worth a great deal when the biology is well understood and the alternative is lifelong infusions, which is why gene therapy in hemophilia is a compelling argument. It is worth much less when the target is new, the population is not severely ill, or the safety picture is still forming, because the regulator, the payer, and the patient are all being asked to accept an irreversible intervention on the strength of a few years of follow-up. As a rule of thumb, match durability to the confidence you have in the target rather than to the convenience of the dosing schedule.</p>
+
+    <h2>Core takeaway</h2>
+    <div class="callout">
+      <p>Pick the modality from the target's location and the required duration, then check that the cost of goods and the site of care support the commercial case you actually have. The two mistakes that recur are choosing a durable modality for a target that is not yet validated, which makes an irreversible bet on uncertain biology, and choosing an expensive modality for a large population, which produces a drug that works and cannot be sold at scale. Cost of goods is irrelevant in oncology and decisive almost everywhere else, so decide which situation you are in before the process is frozen.</p>
+    </div>
+
+    <h3>Key questions for scientific decisions</h3>
+    <ul class="qlist">
+      <li>Where is the target, and does the modality physically reach that compartment in humans rather than in mice?</li>
+      <li>Does the therapy need to increase or decrease the protein, and does the modality do that direction at all?</li>
+      <li>Does the target tissue divide, and does that erode the effect over the timescale you are promising?</li>
+      <li>What fraction of patients are excluded by pre-existing immunity, HLA type, or antigen expression?</li>
+      <li>If something goes wrong in year two, what can you do about it?</li>
+      <li>Is the target genuinely absent from tissue you need, given that killing mechanisms do not check context?</li>
+    </ul>
+
+    <h3>Key questions for investment and business analysis</h3>
+    <ul class="qlist">
+      <li>What is the cost of goods per dose, and does it work at the population size the indication implies?</li>
+      <li>How many products of this exact modality have been approved, and what did the first one spend answering?</li>
+      <li>Does the batch scale with demand, or is the batch one patient?</li>
+      <li>How many treatment sites can actually deliver this, and does that cap revenue below the market size?</li>
+      <li>How much of the second program's package comes free with the first, and how much is built again?</li>
+      <li>For a one-time therapy: what happens to revenue after the prevalent population has been treated?</li>
+    </ul>
+
+    <p class="muted">The pattern worth remembering is that the modalities with the best economics are usually the ones with the worst target access, and the ones that reach the hardest targets cost the most to make and deliver. Programs get into trouble when they pick a modality for the target and then discover the commercial model does not survive it, which is a decision made in year one and discovered in year six.</p>

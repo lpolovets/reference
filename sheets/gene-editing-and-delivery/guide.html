@@ -1,0 +1,85 @@
+    <h2>How to choose an editor and a route</h2>
+    <p class="muted">Editing is close to a solved problem in a dish. Almost every program that fails in vivo fails on delivery, and the failure is usually visible in advance as an arithmetic problem: the machinery is bigger than the carrier, or the carrier only goes to the liver and the target is not in the liver. Work the delivery question first, then pick the editor that fits, rather than the other way round.</p>
+
+    <h3>Technical factors</h3>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Factor</th><th>Why it matters</th></tr></thead>
+      <tbody>
+        <tr><td>Cargo against capacity</td><td>The arithmetic that kills the most programs. SpCas9 is about 4.2 kb and AAV holds about 4.7 kb, so a base editor at 5.2 kb or a prime editor at 6.3 kb does not fit. Check this before choosing anything else, because it eliminates combinations rather than making them harder.</td></tr>
+        <tr><td>Target tissue</td><td>Systemic delivery is solved for the liver and unsolved everywhere else. Lipid nanoparticles and ligand conjugates go to liver. AAV reaches liver, muscle, retina and neurons. Everything else is ex vivo or preclinical. This constraint decides more programs than the choice of editor does.</td></tr>
+        <tr><td>Exposure duration</td><td>Off-target editing accumulates with how long the nuclease is present. Ribonucleoprotein by electroporation lasts hours, messenger RNA in a lipid nanoparticle a couple of days, AAV months to years. The same editor with the same guide has very different off-target totals depending only on this.</td></tr>
+        <tr><td>Double-strand break or not</td><td>A break brings large deletions, translocations when several sites are cut, and p53 activation. Base editors, prime editors and epigenetic editors avoid it, which is most of why the field moved toward them for therapeutic work.</td></tr>
+        <tr><td>Cell division in the target</td><td>Homology-directed repair only runs in dividing cells, so knock-in works ex vivo and fails in neurons, muscle and hepatocytes. Prime editing, base editing and integrases work regardless, which is why they matter for in vivo work.</td></tr>
+        <tr><td>PAM availability</td><td>Base editors act in a window a fixed distance from the PAM, so the base you need must land in that window. Roughly one position in eight is directly targetable with SpCas9. Confirm a usable site exists at your specific mutation before designing a program around a base editor.</td></tr>
+        <tr><td>Bystander edits</td><td>A base editor converts every matching base in its window, not only the one you want. If a second adenine or cytosine sits nearby, you get both changes, and every product species has to be characterized and justified.</td></tr>
+        <tr><td>Direction of the change</td><td>Base editors make two of twelve possible substitutions. Prime editing makes all twelve plus small insertions and deletions. Integrases and knock-in place whole genes. Match the tool to the change before comparing efficiencies.</td></tr>
+        <tr><td>Pre-existing immunity</td><td>A substantial fraction of adults carry anti-Cas9 antibodies from ordinary bacterial exposure, and 30–60% carry neutralizing antibodies to common AAV serotypes. Both exclude patients, and seroprevalence sets the addressable population before any trial starts.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h3>Development and commercial factors</h3>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Factor</th><th>Why it matters</th></tr></thead>
+      <tbody>
+        <tr><td>Cost of goods per dose</td><td>Spans two orders of magnitude across delivery routes: a lipid nanoparticle dose is $1,000–5,000, a systemic AAV dose is $100,000–500,000. Since the editing chemistry costs almost nothing either way, delivery is the entire manufacturing economics of an in vivo program.</td></tr>
+        <tr><td>Redosing</td><td>AAV cannot be given twice, because the first dose generates neutralizing antibodies. Lipid nanoparticles and conjugates can. That difference decides whether a partial response is recoverable or terminal, and it is worth more than most efficiency comparisons.</td></tr>
+        <tr><td>Off-target workload</td><td>The largest single workstream in a clinical editing program. Computational prediction is a starting point, unbiased experimental methods find real sites, and confirmation has to happen in the actual target cell type because chromatin changes accessibility. Budget it as a program, not a study.</td></tr>
+        <tr><td>Assay adequacy</td><td>Short-read amplicon sequencing misses large deletions, inversions, translocations and concatemers, all of which occur. Any program inserting DNA or cutting several sites needs long-read sequencing, and discovering this late is expensive.</td></tr>
+        <tr><td>Approval precedent</td><td>One approved CRISPR product exists and it is ex vivo. Every in vivo editing filing is still writing the guidance it follows, which costs calendar time that later programs will not spend.</td></tr>
+        <tr><td>Long-term follow-up</td><td>Integrating approaches carry 15-year follow-up obligations for insertional oncogenesis. That is a real cost, a real operational burden, and a reason non-integrating approaches are preferred where they work.</td></tr>
+        <tr><td>Vector supply</td><td>Viral vector is commonly 20–40% of cell therapy manufacturing cost and has been an industry-wide bottleneck. Removing it, via electroporation or transposons, is the largest cost lever available in ex vivo manufacturing.</td></tr>
+        <tr><td>Intellectual property</td><td>Unusually consequential here. The foundational nuclease patents have been contested for a decade, base and prime editing rights are concentrated, and ionizable lipid patents have been litigated extensively. Freedom to operate is a genuine diligence item rather than a formality.</td></tr>
+        <tr><td>Platform reuse</td><td>A company with an established delivery route and safety package moves each subsequent target through much faster. The reusable asset is almost always the delivery and manufacturing package, not the editor, which is close to a free input.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h3>Cargo size against carrier capacity</h3>
+    <div class="bands">
+      <div class="band"><div class="bt">Under 1 kb</div><div class="bv">Guide oligonucleotides and ADAR-recruiting editors. Conjugatable, chemically synthesized, no protein to deliver.</div></div>
+      <div class="band"><div class="bt">1–4.7 kb</div><div class="bv">SpCas9 at 4.2 kb, Cas12a at 3.9 kb, compact nucleases from 2 to 3.2 kb. Fits in AAV, with less room than the numbers suggest once promoters and guides are counted.</div></div>
+      <div class="band"><div class="bt">4.7–8 kb</div><div class="bv">Base editors at 5.2 kb, prime editors at 6.3 kb, TALEN pairs at 6 kb. Above AAV capacity. Needs lipid nanoparticle, electroporation, or a split dual-vector.</div></div>
+      <div class="band"><div class="bt">8–30 kb</div><div class="bv">Whole genes with regulatory elements. Lentivirus to 8 kb, adenovirus to 36 kb, integrases to tens of kb.</div></div>
+      <div class="band"><div class="bt">Over 30 kb</div><div class="bv">piggyBac transposons carry well past 100 kb, and lipid nanoparticles have no meaningful RNA limit. Neither places the cargo at a chosen site.</div></div>
+    </div>
+
+    <h3>How long the editor sticks around</h3>
+    <div class="bands">
+      <div class="band"><div class="bt">Hours</div><div class="bv">Ribonucleoprotein by electroporation, and engineered virus-like particles. The lowest off-target editing available, because the enzyme is gone before it can wander.</div></div>
+      <div class="band"><div class="bt">1–3 days</div><div class="bv">Messenger RNA in a lipid nanoparticle. Short enough to keep off-target editing low, long enough to reach useful efficiency.</div></div>
+      <div class="band"><div class="bt">Days to weeks</div><div class="bv">Adenovirus and integration-deficient lentivirus. Episomal DNA that is transcribed and then lost or cleared by the immune system.</div></div>
+      <div class="band"><div class="bt">Months to years</div><div class="bv">AAV. The editor keeps cutting long after the intended edit is made, so off-target editing accumulates. Self-limiting designs exist and should be built in.</div></div>
+      <div class="band"><div class="bt">Permanent</div><div class="bv">Integrating lentivirus. Correct for delivering a receptor or a therapeutic gene, wrong for delivering a nuclease.</div></div>
+    </div>
+
+    <h2>The delivery problem is the whole problem</h2>
+    <p>A useful way to read this sheet is that the editors have largely converged and the carriers have not. Any of the tools in the first four classes will make a clean edit in cultured cells at high efficiency, and the differences between them, while real, are second-order next to whether the machinery can be got into the right cells in a person. That is why the field's clinical progress maps almost exactly onto delivery: the liver has two good routes, so hepatic programs are in Phase 3, and blood cells can be taken out and put back, so ex vivo programs have produced the only approval. Muscle, heart, lung, kidney and brain have no route that both reaches the tissue and delivers transiently, which is why programs there use AAV and inherit its sustained-expression problem. When evaluating a program, the single most informative question is what fraction of target cells were edited in the intended tissue at a dose that could actually be manufactured. Everything else, including elegant editing chemistry, is downstream of that number.</p>
+
+    <h2>Permanence is a choice, not a default</h2>
+    <p>The tools on this sheet span a range from fully reversible to fully permanent, and it is worth choosing deliberately rather than treating permanence as the goal. RNA editing changes nothing inherited and stops when dosing stops. Epigenetic editing writes a mark that persists through cell division but leaves the sequence intact and can in principle be rewritten. A base or prime edit changes the sequence and cannot be undone. An integrating vector adds DNA at a semi-random site forever. Each step up that ladder buys durability and gives up the ability to correct a mistake, and the right position depends far more on how confident you are in the target than on what is technically available. A well-validated target in a severely ill population justifies permanence. A new target in a population that is not yet sick does not, which is the strongest argument for the epigenetic and RNA-level tools, and it is a strategic argument rather than a scientific one.</p>
+
+    <h2>Core takeaway</h2>
+    <div class="callout">
+      <p>Start from the tissue, not the editor. If it is the liver, you have lipid nanoparticles and conjugates, no size limit, redosing, and cost of goods in the low thousands, so use the most precise editor that does the job. If it is a tissue only AAV reaches, the 4.7 kb capacity and months of sustained nuclease expression are your real constraints, so pick a compact nuclease and design in a way to shut it off. If the cells can come out and go back, electroporate ribonucleoprotein and stop thinking about delivery. And in every case, budget off-target characterization as a program workstream, using unbiased methods in the actual target cell type, with long-read sequencing anywhere DNA is being inserted.</p>
+    </div>
+
+    <h3>Key questions for scientific decisions</h3>
+    <ul class="qlist">
+      <li>Does the editing machinery physically fit in the carrier, counting promoter and guide cassette?</li>
+      <li>Has functional editing been shown in the target tissue in vivo, or only particle biodistribution?</li>
+      <li>How long is the editor present, and what does the off-target total look like over that whole window?</li>
+      <li>Is there a PAM that places the target base in the editing window, and what else sits in that window?</li>
+      <li>Do the target cells divide, and does the chosen mechanism work if they do not?</li>
+      <li>Would short-read sequencing miss the failure modes this approach can produce?</li>
+    </ul>
+
+    <h3>Key questions for investment and business analysis</h3>
+    <ul class="qlist">
+      <li>What fraction of patients are excluded by pre-existing immunity to the vector or the nuclease?</li>
+      <li>Can the therapy be given twice if the first dose underperforms?</li>
+      <li>What does one dose cost to manufacture, and does that work at the population size the indication implies?</li>
+      <li>How much of the delivery and safety package carries over to the second program?</li>
+      <li>Whose patents cover the editor, the delivery lipid, and the capsid, and what does freedom to operate cost?</li>
+      <li>Does the program carry a 15-year follow-up obligation, and was that costed?</li>
+    </ul>
+
+    <p class="muted">The durable positions in this field have been in delivery and in specific validated targets rather than in editing chemistry. Nucleases became commodity inputs within a few years of publication, and the same is happening to base and prime editing as the patents license out. A carrier that reaches a new tissue would be worth more than any new editor.</p>

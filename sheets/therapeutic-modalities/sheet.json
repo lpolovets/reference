@@ -1,0 +1,134 @@
+{
+  "slug": "therapeutic-modalities",
+  "docTitle": "Therapeutic Modalities Reference",
+  "shortTitle": "Therapeutic Modalities",
+  "blurb": "Small molecules and degraders, antibodies, peptides and enzymes, oligonucleotides, vaccines, gene therapy, and cell therapy, with what each costs to develop, make, and dose.",
+  "category": "Biotechnology",
+  "question": "What should this therapy be?",
+  "title": "Therapeutic Modalities: A Practical Reference",
+  "lede": "Modality choice settles more of a drug program than target choice does. It decides which targets are reachable at all, whether a patient doses daily or once in a lifetime, whether cost of goods is $2 a dose or $200,000, and how much regulatory precedent comes free. This guide catalogs {{N_ENTRIES}} modalities across seven families, with the development costs, dosing intervals, manufacturing costs, and approval counts that decide between them.",
+  "unit": ["modality", "modalities"],
+  "groupLabel": "Family",
+  "explorerTab": "Modality explorer",
+  "guideTab": "Selection guide",
+  "h2hTab": "Head-to-head",
+  "searchPlaceholder": "Search modalities, targets, formats…",
+  "stats": [
+    { "count": "entries", "label": "modalities" },
+    { "count": "parts", "label": "classes" },
+    { "count": "groups", "label": "families" }
+  ],
+  "parts": [
+    { "id": 1, "roman": "I", "name": "Small Molecules and Targeted Agents", "blurb": "chemical matter that gets inside the cell", "color": "var(--p1)" },
+    { "id": 2, "roman": "II", "name": "Antibodies", "blurb": "large proteins that bind one thing tightly", "color": "var(--p2)" },
+    { "id": 3, "roman": "III", "name": "Proteins, Peptides and Enzymes", "blurb": "replace what is missing or signal directly", "color": "var(--p3)" },
+    { "id": 4, "roman": "IV", "name": "Oligonucleotides", "blurb": "drug the transcript instead of the protein", "color": "var(--p4)" },
+    { "id": 5, "roman": "V", "name": "Vaccines", "blurb": "teach the immune system before exposure", "color": "var(--p5)" },
+    { "id": 6, "roman": "VI", "name": "Gene Therapy", "blurb": "change the gene rather than treat the symptom", "color": "var(--p6)" },
+    { "id": 7, "roman": "VII", "name": "Cell and Living Therapies", "blurb": "living cells and organisms as the product", "color": "var(--p7)" }
+  ],
+  "groupBlurbs": {
+    "Small molecules": "chemical matter that crosses the membrane",
+    "Targeted degraders": "destroy the protein instead of blocking it",
+    "Radiopharmaceuticals": "deliver a radioisotope to the tumor",
+    "Whole antibodies": "full-length binders with Fc function",
+    "Engineered antibody formats": "reshaped for payload, size, or half-life",
+    "Peptides": "short chains between small molecule and protein",
+    "Replacement proteins": "supply a protein the patient cannot make",
+    "Immune modulators": "turn an immune response up or down",
+    "Gene silencing": "cut the amount of protein a cell makes",
+    "Coding and binding oligos": "supply a message or bind a target directly",
+    "Genetic vaccines": "deliver instructions and let the body make antigen",
+    "Protein and whole-pathogen vaccines": "deliver the antigen itself",
+    "In vivo gene therapy": "dose the patient and edit in place",
+    "Ex vivo gene therapy": "modify cells outside the body, then return them",
+    "Engineered T cells": "redirect T cells at a chosen target",
+    "Natural and derived cells": "expanded or differentiated rather than redirected",
+    "Living agents": "viruses and bacteria as the therapy"
+  },
+  "facets": [
+    {
+      "id": "tgt",
+      "key": "targets",
+      "label": "Reaches",
+      "type": "multi",
+      "color": "--fa",
+      "required": true,
+      "tagRow": 2,
+      "tip": "What the modality can act on. Cell surface covers receptors and secreted proteins, which any binder can reach. Intracellular means it gets through the membrane to a protein inside. RNA means it binds or destroys a transcript. Genome means it changes DNA the cell will keep. Whole cells means the target is a cell population rather than a molecule, and Pathogens means bacteria, viruses, or fungi. Directional: an antibody conjugated to something that internalizes is still tagged as surface, because the binding event is what has to happen outside.",
+      "order": ["surface", "intra", "rna", "gene", "cell", "path"],
+      "options": {
+        "surface": "Cell surface",
+        "intra": "Intracellular",
+        "rna": "RNA",
+        "gene": "Genome",
+        "cell": "Whole cells",
+        "path": "Pathogens"
+      }
+    },
+    {
+      "id": "dose",
+      "key": "dosing",
+      "label": "Dosing",
+      "type": "range",
+      "color": "--fb",
+      "required": true,
+      "tagPrefix": "Dose",
+      "tip": "How often a patient takes it once on maintenance, not during induction: Daily includes anything from once to several times a day · Weekly covers weekly to biweekly · Monthly covers monthly to quarterly · Yearly is once or twice a year · Once means a single administration intended to last for years. Dosing interval drives adherence, cost per patient-year, and how much of the price a payer will accept up front.",
+      "order": ["once", "yearly", "monthly", "weekly", "daily"],
+      "options": { "once": "Once", "yearly": "Yearly", "monthly": "Monthly", "weekly": "Weekly", "daily": "Daily" },
+      "chipLabels": {
+        "once": "Once (durable)",
+        "yearly": "1-2x a year",
+        "monthly": "Monthly-quarterly",
+        "weekly": "Weekly-biweekly",
+        "daily": "Daily"
+      }
+    },
+    {
+      "id": "cogs",
+      "key": "cogs",
+      "label": "COGS/dose",
+      "type": "single",
+      "color": "--fe",
+      "required": true,
+      "tagPrefix": "COGS",
+      "tip": "Roughly what one dose costs to manufacture and release at commercial scale, counting drug substance, fill-finish, QC, and amortized facility. This is cost of goods, not price, and the two are barely related in this industry: a $2 cost of goods routinely sells for $500, and a $200,000 cost of goods sells for $3M. Directional, and it moves a long way with batch size and how much of the plant sits idle.",
+      "order": ["vlow", "low", "med", "high", "vhigh"],
+      "options": { "vlow": "<$100", "low": "$100–1k", "med": "$1k–10k", "high": "$10k–100k", "vhigh": ">$100k" }
+    },
+    {
+      "id": "mat",
+      "key": "maturity",
+      "label": "Maturity",
+      "type": "single",
+      "color": "--fc",
+      "required": true,
+      "tagPrefix": "Maturity",
+      "tip": "How settled the modality is in drug development: Early = research and early clinical, nothing approved and the format is still moving · Emerging = approvals exist but the playbook is still being written · Proven = a well-understood path many programs have walked · Default = what a program picks for a suitable target unless there is a specific reason not to.",
+      "order": ["early", "emerging", "proven", "default"],
+      "options": { "early": "Early", "emerging": "Emerging", "proven": "Proven", "default": "Default" }
+    },
+    {
+      "id": "prec",
+      "key": "precedent",
+      "label": "Approvals",
+      "type": "single",
+      "color": "--fd",
+      "required": true,
+      "tagPrefix": "Approved",
+      "tip": "Roughly how many products of this exact modality FDA has approved, which is the cheapest available proxy for how predictable the review will be: None = no approval yet, so the first filing writes the guidance · Few = 1–4 products, enough to know the path exists · Several = 5–20, so reviewers have settled expectations · Many = more than 20, and the questions are known before you ask them. Counts move, so treat the band rather than the number as the fact.",
+      "order": ["none", "few", "several", "many"],
+      "options": { "none": "None", "few": "1–4", "several": "5–20", "many": "20+" }
+    }
+  ],
+  "videosAfter": "Economic profile",
+  "extraSections": [
+    ["when to use", "When to use"],
+    ["key numbers", "Key numbers"],
+    ["development path", "Development path"],
+    ["examples", "Examples"],
+    ["economic profile", "Economic profile"],
+    ["further reading", "Further reading"]
+  ]
+}

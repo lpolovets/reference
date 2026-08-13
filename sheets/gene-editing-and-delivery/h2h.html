@@ -1,0 +1,55 @@
+    <h2>Head-to-head: the editing tools</h2>
+    <p class="muted">These eight are the tools a program actually chooses between once it knows what change it needs to make. Cargo size is included in every row because it is the constraint that eliminates combinations rather than merely making them harder. The three tables after this one cover the delivery routes, the specific problem of making a point mutation, and the specific problem of inserting a whole gene.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Tool</th><th>What it does</th><th>Cargo</th><th>Break?</th><th>Pick it when</th></tr></thead>
+      <tbody>
+        <tr><td>SpCas9</td><td>Cuts both strands; the cell's repair makes the edit, usually a disruptive insertion or deletion</td><td>4.2 kb</td><td>Yes</td><td>You want to disable a gene and the delivery route can carry it. Still the default for knockouts, screens, and ex vivo manufacturing. Retargeting costs a new guide RNA, which is days and almost no money.</td></tr>
+        <tr><td>Compact Cas</td><td>Same cutting, from a smaller protein with a more restrictive PAM</td><td>2–3.2 kb</td><td>Yes</td><td>The delivery route is AAV and the cargo has to fit in one vector with a promoter and guide. This is almost always the deciding factor. Check PAM availability at your exact site before committing.</td></tr>
+        <tr><td>Cas12a</td><td>Cuts both strands, processes its own guides from one array, prefers T-rich PAMs</td><td>3.9 kb</td><td>Yes</td><td>You need several genes knocked out in the same cell, where one short guide array beats a cassette per guide. The standard choice for allogeneic cell therapy manufacturing. Screen more guides than for Cas9; the hit rate is lower.</td></tr>
+        <tr><td>ZFN / TALEN</td><td>Protein-guided cutting, as an obligate pair, with very long recognition sites</td><td>ZFN small; TALEN pair about 6 kb</td><td>Yes</td><td>Specificity is the priority and retargeting speed is not. Zinc fingers are human-derived and small, so they suit in vivo AAV work; TALENs recognize 30–40 bases and read methylated DNA well, so they suit ex vivo manufacturing by electroporation.</td></tr>
+        <tr><td>Base editor</td><td>Converts A to G or C to T chemically, within a window a fixed distance from the PAM</td><td>5.2 kb</td><td>No</td><td>The change is one of those two transitions, a PAM places the target base in the window, and no problematic bystander base sits beside it. Byproducts under 1% against 50% or more for a nuclease. Adenine editors have the better off-target profile.</td></tr>
+        <tr><td>Prime editor</td><td>Writes a sequence from the guide RNA using a reverse transcriptase</td><td>6.3 kb</td><td>No</td><td>The change is not one of the two transitions, no PAM places the base in a window, bystanders would be a problem, or the change is a small insertion or deletion. The only tool covering all of those. Expect real guide optimization work.</td></tr>
+        <tr><td>Epigenetic editor</td><td>Writes or erases chemical marks to silence a gene; sequence unchanged</td><td>5 kb or more</td><td>No</td><td>You want durable knockdown from one dose but permanence is a liability. The mark is copied through cell division while the machinery clears in days. Durability at human timescales is the open question, not efficiency.</td></tr>
+        <tr><td>ADAR recruitment</td><td>Guide oligonucleotide only; the cell's own enzyme makes an A-to-G change in RNA</td><td>Under 1 kb</td><td>No</td><td>An A-to-G change in a transcript is therapeutic and reversibility is wanted. No protein delivered at all, so it inherits the whole oligonucleotide toolkit including GalNAc and intrathecal routes. Check ADAR expression in the target cell first.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2>Delivery routes</h2>
+    <p class="muted">The choice that decides most programs. Capacity, tissue reach and exposure duration are the three numbers that matter, and they trade against each other: the route with the best tissue reach has the worst capacity and the longest exposure.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Route</th><th>Capacity</th><th>Reaches</th><th>Exposure</th><th>Pick it when</th></tr></thead>
+      <tbody>
+        <tr><td>Lipid nanoparticle</td><td>No meaningful RNA limit</td><td>Liver</td><td>1–3 days</td><td>The target is the liver. Best economics of any in vivo route at $1,000–5,000 a dose, carries any editor regardless of size, and can be redosed. This is why hepatic editing programs are ahead of everything else.</td></tr>
+        <tr><td>AAV</td><td>About 4.7 kb total</td><td>Liver, muscle, retina, CNS</td><td>Months to years</td><td>The tissue has no non-viral route, which is most tissues. Accept a compact nuclease, design in a self-limiting shutoff, and expect $100,000–500,000 per systemic dose with no possibility of a second one.</td></tr>
+        <tr><td>Electroporation</td><td>No limit</td><td>Ex vivo only</td><td>Hours</td><td>The cells can come out and go back. Delivers ribonucleoprotein, giving the shortest exposure and the lowest off-target editing of any method, at negligible reagent cost. The default in every approved ex vivo process.</td></tr>
+        <tr><td>Lentivirus</td><td>About 8 kb</td><td>Ex vivo</td><td>Permanent</td><td>You are adding a gene that must persist through cell division, such as a chimeric antigen receptor. Wrong for delivering a nuclease, since permanent expression is exactly what you do not want. Vector is 20–40% of manufacturing cost.</td></tr>
+        <tr><td>Adenovirus</td><td>Up to about 36 kb</td><td>Liver</td><td>Weeks</td><td>Cargo size is the binding constraint and transient expression is acceptable. The only vector that holds a full gene with its own regulatory sequence. Innate immune activation is dose-limiting and has killed a patient.</td></tr>
+        <tr><td>Ligand conjugate</td><td>Oligonucleotides only</td><td>Liver</td><td>Weeks to months</td><td>The payload is an oligonucleotide. Simplest product on this sheet: one defined molecule, subcutaneous injection, no particle, no infusion reactions, dosing intervals to six months. Cannot carry any protein-based editor.</td></tr>
+        <tr><td>Engineered VLP</td><td>Protein cargo</td><td>Liver, eye (preclinical)</td><td>Hours to days</td><td>Preclinical, and the most interesting thing in delivery. Carries ribonucleoprotein into tissue in vivo, combining AAV's reach with electroporation's short exposure. Judge it on editor molecules per particle and manufacturing yield.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2>Making one specific base change</h2>
+    <p class="muted">The most common therapeutic requirement, and four tools address it with quite different trade-offs. The choice usually comes down to which substitution is needed, whether a PAM cooperates, and whether permanence is wanted.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Approach</th><th>Which changes</th><th>Permanent</th><th>Byproducts</th><th>Pick it when</th></tr></thead>
+      <tbody>
+        <tr><td>Base editing</td><td>A to G, C to T only</td><td>Yes</td><td>Under 1% insertions and deletions, plus bystander edits in the window</td><td>The change is one of the two transitions and a PAM places it in the window with no problematic neighbors. Highest efficiency of the four and the most clinical experience.</td></tr>
+        <tr><td>Prime editing</td><td>All 12 substitutions, plus small insertions and deletions</td><td>Yes</td><td>Low single-digit percent, no bystanders</td><td>Base editing cannot make the change, or no PAM cooperates, or bystanders would matter. Structurally the most specific mechanism, since three separate events must all be correct.</td></tr>
+        <tr><td>HDR knock-in</td><td>Anything, given a template</td><td>Yes</td><td>Disruptive insertions and deletions on most other alleles</td><td>Only when the cells divide, which means ex vivo. Efficiency usually under 20%, and the majority outcome at the target site is a disrupted allele rather than the intended edit.</td></tr>
+        <tr><td>ADAR recruitment</td><td>A to G, in RNA only</td><td>No, repeat dosing</td><td>Bystander editing of nearby adenosines</td><td>The same chemistry as adenine base editing, reversibly. Prefer it when the target is new or the population is not severely ill, since an irreversible change is hardest to justify exactly there.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2>Inserting a whole gene</h2>
+    <p class="muted">Where the change is kilobases rather than bases, the options narrow sharply and the trade is between placing the cargo precisely and getting enough of it in at all.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Approach</th><th>Site control</th><th>Size</th><th>Works in non-dividing cells</th><th>Pick it when</th></tr></thead>
+      <tbody>
+        <tr><td>AAV gene addition</td><td>None, stays episomal</td><td>Under 4.7 kb</td><td>Yes</td><td>The tissue does not divide and the gene fits. Approved, well understood, and the practical answer today. The episome dilutes away in dividing tissue, which is its one structural weakness.</td></tr>
+        <tr><td>Lentiviral integration</td><td>Semi-random, favors active genes</td><td>About 8 kb</td><td>Yes, but used ex vivo</td><td>Permanent addition in a dividing tissue, which is what makes hematopoietic stem cell therapy work. Carries a 15-year follow-up obligation for insertional oncogenesis.</td></tr>
+        <tr><td>HDR knock-in</td><td>Precise</td><td>Several kb</td><td>No</td><td>Ex vivo placement at a chosen locus, such as putting a CAR at the T-cell receptor site. Removes viral vector from the process at the cost of low efficiency.</td></tr>
+        <tr><td>Transposon</td><td>Semi-random</td><td>Over 100 kb for piggyBac</td><td>Used ex vivo</td><td>Manufacturing cost or vector supply is the binding constraint, or the construct is too large for any virus. Weigh against the piggyBac malignancy signal and plan integration site analysis as a core activity.</td></tr>
+        <tr><td>Serine integrase</td><td>Precise, at an installed landing site</td><td>Tens of kb</td><td>Yes</td><td>Preclinical. The only approach that places a whole gene precisely in non-dividing tissue, and the mutation-agnostic argument is strong. Efficiency is the product of two imperfect steps and delivery of three components is unsolved.</td></tr>
+      </tbody>
+    </table></div>

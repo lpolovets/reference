@@ -3,7 +3,7 @@
   "docTitle": "Bioprocessing Reference",
   "shortTitle": "Bioprocessing",
   "blurb": "Expression hosts, bioreactors, the downstream purification train, fill-finish and release testing, plus mRNA, viral vectors, cell therapy, and precision fermentation.",
-  "category": "Bioprocessing",
+  "category": "Biotechnology",
   "question": "How should this biologic be manufactured?",
   "title": "Bioprocessing: A Practical Reference",
   "lede": "What a biologic costs is mostly settled in process development: which cell makes the molecule, how big the reactor has to be, and how much product survives each purification step. This guide catalogs {{N_ENTRIES}} processes across seven stages, from expression host to release testing, with the titers, step recoveries, batch sizes, and cost-of-goods numbers that decide between them.",
