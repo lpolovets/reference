@@ -238,8 +238,14 @@ function loadSheet(dir) {
   // sense — die, green, draft, flash, blank — and inferring matches would
   // underline half the page wrongly. No data-match, no underline.
   sheet.glossaryTerms = [];
+  // Every term, including the handful that deliberately declare no data-match
+  // (too common a word to underline, or a form \b cannot bound). Those are still
+  // real vocabulary, so they belong in the page's DefinedTermSet even though
+  // nothing in the prose links to them.
+  sheet.glossaryAll = [];
   if (sheet.glossary) {
     for (const m of sheet.glossary.matchAll(/<tr(?:\s+data-match="([^"]*)")?><td>([^<]+)<\/td><td>([\s\S]*?)<\/td><\/tr>/g)) {
+      sheet.glossaryAll.push(m[2]);
       if (!m[1]) continue;
       const key = m[2].toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
       sheet.glossaryTerms.push({
@@ -293,7 +299,7 @@ const escAttr = s => esc(s).replace(/"/g, '&quot;');
 // No og:image: a useful card would have to render the sheet's title as text, and
 // nothing in this repo can rasterize a font. A titled, described unfurl without
 // a picture beats a generic picture on all 18 sheets.
-function head({ title, description, path: p, up }) {
+function head({ title, description, path: p, up, ld }) {
   const t = escAttr(title), d = escAttr(description), url = SITE + p;
   return '<meta charset="utf-8">\n' + PREPAINT +
     '<meta name="viewport" content="width=device-width, initial-scale=1">\n' +
@@ -313,7 +319,70 @@ function head({ title, description, path: p, up }) {
     '<meta property="og:url" content="' + url + '">\n' +
     '<meta name="twitter:card" content="summary">\n' +
     '<meta name="twitter:title" content="' + t + '">\n' +
-    '<meta name="twitter:description" content="' + d + '">\n';
+    '<meta name="twitter:description" content="' + d + '">\n' +
+    (ld ? ldScript(ld) : '');
+}
+
+// ---- structured data ----
+// JSON-LD, website flavor only — the artifact has no head at all, so it is
+// excluded by construction. What this adds that the page did not already say:
+// every entry is addressable at #slug and nothing in the markup tells a crawler
+// those anchors are a list of named things, so the titles were the only surface.
+//
+// Escaping "<" is load-bearing. JSON.stringify does not escape it, and one
+// glossary definition or entry name containing "</script" would close the block
+// early and spill JSON into the document. < is valid inside a JSON string,
+// so the parsed value is unchanged.
+const ldScript = graph => '<script type="application/ld+json">' +
+  JSON.stringify({ '@context': 'https://schema.org', '@graph': graph }).replace(/</g, '\\u003c') +
+  '</script>\n';
+
+const WEBSITE_ID = SITE + '#website';
+const LD_SITE = {
+  '@type': 'WebSite', '@id': WEBSITE_ID, url: SITE, name: SITE_NAME,
+  publisher: { '@type': 'Organization', name: 'Humba Ventures', url: 'https://humbaventures.com/' },
+};
+const ldCrumbs = items => ({
+  '@type': 'BreadcrumbList',
+  itemListElement: items.map((x, i) => ({ '@type': 'ListItem', position: i + 1, name: x.name, item: x.url })),
+});
+
+// The anchor slug comes from the renderer rather than a second copy of the same
+// one-liner: these URLs are only useful if they match the ids the cards actually
+// carry, and two implementations would drift silently. makeRenderer needs no
+// sheet for this — slug closes over nothing.
+const anchorSlug = makeRenderer({}, false).slug;
+
+function sheetLD({ sheet, entries }) {
+  const url = SITE + sheet.slug + '/';
+  const graph = [
+    LD_SITE,
+    {
+      '@type': 'CollectionPage', '@id': url, url, inLanguage: 'en',
+      name: sheet.docTitle, description: sheet.blurb, isPartOf: { '@id': WEBSITE_ID },
+    },
+    ldCrumbs([{ name: 'Reference Sheets', url: SITE },
+      { name: sheet.shortTitle || sheet.docTitle, url }]),
+    {
+      '@type': 'ItemList', name: sheet.docTitle, numberOfItems: entries.length,
+      itemListOrder: 'https://schema.org/ItemListOrderAscending',
+      itemListElement: entries.map((e, i) => ({
+        '@type': 'ListItem', position: i + 1, name: e.name,
+        url: url + '#' + anchorSlug(e.name),
+      })),
+    },
+  ];
+  // Glossary terms are named but not defined here, deliberately. The definitions
+  // are already in the page as visible text in the glossary tab, so repeating
+  // them in JSON-LD would roughly double the largest text block on the page to
+  // tell a crawler something it can already read. Naming the vocabulary is the
+  // part the markup does not convey.
+  if (sheet.glossaryAll && sheet.glossaryAll.length) graph.push({
+    '@type': 'DefinedTermSet', '@id': url + '#glossary',
+    name: (sheet.shortTitle || sheet.docTitle) + ' glossary',
+    hasDefinedTerm: sheet.glossaryAll.map(t => ({ '@type': 'DefinedTerm', name: t })),
+  });
+  return graph;
 }
 
 function composeBody(sheetData, artifact) {
@@ -472,7 +541,8 @@ if (ARTIFACT_SLUG) {
   for (const sheetData of all) {
     const { sheet, entries } = sheetData;
     const html = '<!doctype html>\n<html lang="en">\n<head>\n' +
-      head({ title: sheet.docTitle, description: sheet.blurb, path: sheet.slug + '/', up: '../' }) +
+      head({ title: sheet.docTitle, description: sheet.blurb, path: sheet.slug + '/', up: '../',
+        ld: sheetLD(sheetData) }) +
       '</head>\n<body>\n' + composeBody(sheetData, false) +
       '</body>\n</html>\n';
     const out = path.join(ROOT, 'site', sheet.slug);
@@ -535,6 +605,20 @@ if (ARTIFACT_SLUG) {
           .reduce((s, c, i, a) => s + (i === 0 ? '' : i < a.length - 1 ? ', '
             : a.length === 2 ? ' and ' : ', and ') + c, '') + '.',
       path: '', up: './',
+      ld: [
+        LD_SITE,
+        {
+          '@type': 'CollectionPage', '@id': SITE, url: SITE, inLanguage: 'en',
+          name: 'Reference Sheets', description: LANDING_LEDE, isPartOf: { '@id': WEBSITE_ID },
+        },
+        {
+          '@type': 'ItemList', name: 'Reference Sheets', numberOfItems: all.length,
+          itemListElement: all.map(({ sheet }, i) => ({
+            '@type': 'ListItem', position: i + 1,
+            name: sheet.shortTitle || sheet.docTitle, url: SITE + sheet.slug + '/',
+          })),
+        },
+      ],
     }) +
     '<style>\n' + THEME + '</style>\n</head>\n<body>\n' +
     '<div class="wrap">\n<header class="site">\n<div class="hdr-top">\n' + logoFor('landing') + '</div>\n' +
@@ -559,7 +643,18 @@ if (ARTIFACT_SLUG) {
     .replace(/{{YEAR}}/g, YEAR);
   const ABOUT_LEDE = 'What is in the reference sheets, where the numbers come from, and how the links and videos get checked.';
   const aboutPage = '<!doctype html>\n<html lang="en">\n<head>\n' +
-    head({ title: 'How these sheets are made', description: ABOUT_LEDE, path: 'about/', up: '../' }) +
+    head({
+      title: 'How these sheets are made', description: ABOUT_LEDE, path: 'about/', up: '../',
+      ld: [
+        LD_SITE,
+        {
+          '@type': 'WebPage', '@id': SITE + 'about/', url: SITE + 'about/', inLanguage: 'en',
+          name: 'How these sheets are made', description: ABOUT_LEDE, isPartOf: { '@id': WEBSITE_ID },
+        },
+        ldCrumbs([{ name: 'Reference Sheets', url: SITE },
+          { name: 'How these sheets are made', url: SITE + 'about/' }]),
+      ],
+    }) +
     '<style>\n' + THEME + '</style>\n</head>\n<body>\n' +
     '<div class="wrap">\n<header class="site">\n<div class="hdr-top">\n' + logoFor('sheet') + '</div>\n' +
     '<h1>How these sheets are made</h1>\n' +
@@ -570,4 +665,26 @@ if (ARTIFACT_SLUG) {
   fs.mkdirSync(path.join(ROOT, 'site', 'about'), { recursive: true });
   fs.writeFileSync(path.join(ROOT, 'site', 'about', 'index.html'), aboutPage);
   console.log('site/about/index.html: methodology page');
+
+  // Sitemap. Only real pages go in it — entry anchors are fragments, and a
+  // sitemap entry ending in #slug is the same URL to every crawler, so listing
+  // 952 of them would submit 24 URLs 952 times. The anchors are exposed through
+  // the ItemList in each sheet's JSON-LD instead.
+  //
+  // No <lastmod>, deliberately. The honest value is when the sheet's content
+  // last changed, and nothing here knows that: file mtimes are checkout time in
+  // CI, so every URL would claim it changed on every deploy. An absent lastmod
+  // is ignored; a wrong one trains crawlers to ignore the real ones.
+  //
+  // This lives at /reference/sitemap.xml, which is fine (a sitemap may cover any
+  // URL at or below its own path) but is NOT auto-discovered: robots.txt is read
+  // only from the domain root, which this repo does not serve. Submit it in
+  // Search Console, or add a Sitemap: line to humbaventures.com/robots.txt.
+  const urls = [SITE, ...all.map(s => SITE + s.sheet.slug + '/'), SITE + 'about/'];
+  fs.writeFileSync(path.join(ROOT, 'site', 'sitemap.xml'),
+    '<?xml version="1.0" encoding="UTF-8"?>\n' +
+    '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
+    urls.map(u => '  <url><loc>' + esc(u) + '</loc></url>\n').join('') +
+    '</urlset>\n');
+  console.log('site/sitemap.xml:', urls.length, 'urls');
 }
