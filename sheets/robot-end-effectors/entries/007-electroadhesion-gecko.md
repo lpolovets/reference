@@ -36,4 +36,4 @@ The category has been promising for a long time and commercially fitful. Each me
 
 ## Further reading
 
-[Electroadhesion Technologies for Robotics: A Comprehensive Review (University of Bristol / IEEE T-RO)](https://research-information.bris.ac.uk/en/publications/electroadhesion-technologies-for-robotics-a-comprehensive-review/) · [Gecko Toe Pad-Inspired Gripper with Tunable Adhesion (PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12015100/)
+[Electroadhesion Technologies for Robotics: A Comprehensive Review (University of Bristol / IEEE T-RO)](https://research-information.bris.ac.uk/en/publications/electroadhesion-technologies-for-robotics-a-comprehensive-review/) · [Gecko Toe Pad-Inspired Robotic Gripper with Rapidly and Precisely Tunable Adhesion (PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12015100/)

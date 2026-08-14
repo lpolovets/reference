@@ -36,4 +36,4 @@ All-iron flow is the purest "cheapest possible molecule" thesis in storage. If e
 
 ## Further reading
 
-[Aqueous Iron-Based Redox Flow Batteries for Large-Scale Storage (National Science Review via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12247816/) · [Iron Flow Chemistry (ESS Inc.)](https://essinc.com/iron-flow-chemistry/)
+[Aqueous iron-based redox flow batteries for large-scale energy storage (National Science Review via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12247816/) · [Iron Flow Chemistry (ESS Inc.)](https://essinc.com/iron-flow-chemistry/)

@@ -36,4 +36,4 @@ Zinc-bromine has been commercialized several times and stalled each time. The ma
 
 ## Further reading
 
-[Scientific Issues of Zinc-Bromine Flow Batteries (Exploration via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10742200/) · [Zinc-Bromine Rechargeable Batteries: Configuration to Performance (Nano-Micro Letters via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10471567/)
+[Scientific Issues of Zinc-Bromine Flow Batteries (Exploration via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10742200/) · [Zinc-Bromine Rechargeable Batteries: From Device Configuration, Electrochemistry, Material to Performance Evaluation (Nano-Micro Letters via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10471567/)

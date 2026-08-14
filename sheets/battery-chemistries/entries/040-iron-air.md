@@ -36,4 +36,4 @@ The bet is that decarbonized grids will pay for multi-day firming that daily-cyc
 
 ## Further reading
 
-[Form Energy Iron-Air Technology (Form Energy)](https://formenergy.com/technology/) · [Silicon and Iron Anodes for Metal-Air Batteries: A Review (Materials via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6651549/)
+[Form Energy Iron-Air Technology (Form Energy)](https://formenergy.com/technology/) · [Silicon and Iron as Resource-Efficient Anode Materials for Ambient-Temperature Metal-Air Batteries: A Review (Materials via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6651549/)

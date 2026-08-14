@@ -36,4 +36,4 @@ Aircraft skins, etched panels, lightweight aerospace structures.
 
 ## Further reading
 
-[Laser Scribing and Chemical Milling of Aerospace Parts: Open Review (Micromachines via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8879944/)
+[Research Status and Prospect of Laser Scribing Process and Equipment for Chemical Milling Parts in Aviation and Aerospace (Micromachines via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8879944/)

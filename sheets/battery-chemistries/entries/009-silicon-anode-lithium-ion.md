@@ -36,4 +36,4 @@ Anode materials command large premiums today (tens of dollars per kg versus ~$5â
 
 ## Further reading
 
-[Towards High Energy Density Anodes: Silicon and Lithium (Chemical Science)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6686730/)
+[Towards high energy density lithium battery anodes: silicon and lithium (Chemical Science)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6686730/)

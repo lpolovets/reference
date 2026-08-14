@@ -30,4 +30,4 @@ On paper LNMO is the cheapest path to high-energy cobalt-free cells. In practice
 
 ## Further reading
 
-[Attenuation Mechanisms and Modification of Cobalt-Free Spinel LNMO (Advanced Science)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12442621/)
+[Progress on the Attenuation Mechanism and Modification of the Cobalt-Free Spinel LiNi0.5Mn1.5O4 (Advanced Science)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12442621/)

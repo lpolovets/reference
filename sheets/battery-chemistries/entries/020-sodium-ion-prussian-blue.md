@@ -36,4 +36,4 @@ The inputs (iron, carbon, nitrogen, sodium) make this potentially the cheapest c
 
 ## Further reading
 
-[Prussian Blue Analogues for Sodium- and Potassium-Ion Batteries: Lab Optimizations to Practical Applications (Small via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12921469/)
+[Prussian Blue Analogues for Non-Aqueous Sodium-Ion and Potassium-Ion Batteries: The Landscape From Lab-Scale Optimizations Toward Practical Applications (Small via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12921469/)

@@ -36,4 +36,4 @@ Pouch, prismatic, solid-state, and lithium-metal cells.
 
 ## Further reading
 
-[Advanced Li-Ion Battery Manufacturing Equipment for Gigafactories (iScience)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12268664/) · [Current and Future Lithium-Ion Battery Manufacturing (iScience)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8050716/)
+[Advanced lithium-ion battery process manufacturing equipment for gigafactories: Past, present, and future perspectives (iScience)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12268664/) · [Current and Future Lithium-Ion Battery Manufacturing (iScience)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8050716/)

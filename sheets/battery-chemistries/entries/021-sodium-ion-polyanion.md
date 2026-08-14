@@ -30,4 +30,4 @@ This is the chemistry most explicitly aimed at daily-cycled grid storage, where 
 
 ## Further reading
 
-[Strategies for Enhancing Polyanionic Sodium-Ion Battery Cathodes (ACS Omega via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11137717/)
+[A Comprehensive Review on Strategies for Enhancing the Performance of Polyanionic-Based Sodium-Ion Battery Cathodes (ACS Omega via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11137717/)

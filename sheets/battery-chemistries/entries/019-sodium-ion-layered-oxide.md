@@ -36,4 +36,4 @@ Its main economic role is as a hedge against lithium price spikes. Bill-of-mater
 
 ## Further reading
 
-[Sodium-Ion Batteries: Inexpensive and Sustainable Energy Storage (Faraday Institution)](https://www.faraday.ac.uk/insights/insight-11-sodium-ion-batteries-inexpensive-and-sustainable-energy-storage/) · [Layered Oxide Cathodes for Sodium-Ion Batteries: Microcracks and Countermeasures (Chemical Science via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC13122073/)
+[Sodium-Ion Batteries: Inexpensive and Sustainable Energy Storage (Faraday Institution)](https://www.faraday.ac.uk/insights/insight-11-sodium-ion-batteries-inexpensive-and-sustainable-energy-storage/) · [Layered oxide cathodes for sodium-ion batteries: origins of microcracks and countermeasures (Chemical Science via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC13122073/)

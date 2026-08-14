@@ -36,4 +36,4 @@ Cell-width electrode strips, tabbed electrodes.
 
 ## Further reading
 
-[Production Process of a Lithium-Ion Battery Cell (VDMA / RWTH Aachen PEM)](https://www.vdma.eu/documents/34570/35405938/Production_Process_of_a_Lithium-Ion_Battery_Cell_2026.pdf/72b475da-b7c6-3b59-1405-236ef0e9efeb?filename=Production_Process_of_a_Lithium-Ion_Battery_Cell_2026.pdf) · [Advanced Li-Ion Battery Manufacturing Equipment for Gigafactories (iScience)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12268664/)
+[Production Process of a Lithium-Ion Battery Cell (VDMA / RWTH Aachen PEM)](https://www.vdma.eu/documents/34570/35405938/Production_Process_of_a_Lithium-Ion_Battery_Cell_2026.pdf/72b475da-b7c6-3b59-1405-236ef0e9efeb?filename=Production_Process_of_a_Lithium-Ion_Battery_Cell_2026.pdf) · [Advanced lithium-ion battery process manufacturing equipment for gigafactories: Past, present, and future perspectives (iScience)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12268664/)

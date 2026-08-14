@@ -34,4 +34,4 @@ If the efficiency problem gets solved, anode-free wins on both density and cost,
 
 ## Further reading
 
-[Anode-Free Lithium-Metal Batteries: Progress and Perspective (Exploration via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11022618/)
+[Toward maximum energy density enabled by anode-free lithium metal batteries: Recent progress and perspective (Exploration via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11022618/)

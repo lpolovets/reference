@@ -35,4 +35,4 @@ Cell binning and pack matching.
 
 ## Further reading
 
-[Production Process of a Lithium-Ion Battery Cell (VDMA / RWTH Aachen PEM)](https://www.vdma.eu/documents/34570/35405938/Production_Process_of_a_Lithium-Ion_Battery_Cell_2026.pdf/72b475da-b7c6-3b59-1405-236ef0e9efeb?filename=Production_Process_of_a_Lithium-Ion_Battery_Cell_2026.pdf) · [High-Precision Detection of Cell-to-Cell Variation in Li-Ion Batteries (Scientific Reports)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7188792/)
+[Production Process of a Lithium-Ion Battery Cell (VDMA / RWTH Aachen PEM)](https://www.vdma.eu/documents/34570/35405938/Production_Process_of_a_Lithium-Ion_Battery_Cell_2026.pdf/72b475da-b7c6-3b59-1405-236ef0e9efeb?filename=Production_Process_of_a_Lithium-Ion_Battery_Cell_2026.pdf) · [A Facile Approach to High Precision Detection of Cell-to-Cell Variation for Li-ion Batteries (Scientific Reports)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7188792/)

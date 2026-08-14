@@ -36,4 +36,4 @@ The value proposition is mostly on the cost side: 24M-style processes remove dry
 
 ## Further reading
 
-[Gel Polymer Electrolytes: Advancing Solid-State Batteries (Gels via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10379277/) · [Quasi-Solid-State Lithium Batteries via In Situ Polymerized Gel Electrolytes (Chemical Science via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC13066942/)
+[Gel Polymer Electrolytes: Advancing Solid-State Batteries (Gels via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10379277/) · [High energy density quasi-solid-state lithium batteries using in situ polymerized gel electrolytes (Chemical Science via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC13066942/)

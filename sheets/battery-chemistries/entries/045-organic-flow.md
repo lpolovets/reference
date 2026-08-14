@@ -35,4 +35,4 @@ Organic flow is a materials-science venture bet layered on an already-hard syste
 
 ## Further reading
 
-[Family Tree of Aqueous Organic Redox Couples (Molecules via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8778144/) · [Benchmarking Organic Active Materials by Lifetime and Cost (Nature Communications)](https://www.nature.com/articles/s41467-023-42450-9)
+[Family Tree for Aqueous Organic Redox Couples for Redox Flow Battery Electrolytes: A Conceptual Review (Molecules via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8778144/) · [Benchmarking Organic Active Materials by Lifetime and Cost (Nature Communications)](https://www.nature.com/articles/s41467-023-42450-9)

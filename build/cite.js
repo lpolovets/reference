@@ -117,8 +117,10 @@ async function check(urls) {
 // E-utilities renders subscripts as parenthesized digits, so a paper titled with
 // CO₂ comes back as "CO(2)" and LiNi₀.₅Mn₁.₅O₄ as "LiNi(0.5)Mn(1.5)O(4)". Undo
 // that before comparing, or every chemistry citation reports a false mismatch.
+// The leading \s* matters: the spacing is inconsistent upstream, and "CO (2)"
+// against a correct "CO2" was still reported as a mismatch until it was added.
 const norm = s => (s || '')
-  .replace(/\((\d[\d.]*)\)/g, '$1')
+  .replace(/\s*\((\d[\d.]*)\)/g, '$1')
   .toLowerCase().replace(/[^a-z0-9 ]+/g, ' ').replace(/\s+/g, ' ').trim();
 
 // Reads every citation back out of the sheets and confirms the id exists and the

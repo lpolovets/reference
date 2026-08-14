@@ -39,4 +39,4 @@ MEMS is a semiconductor business rather than a motion-control one, and value tra
 
 ## Further reading
 
-[Mirrorcle MEMS Mirrors: Technical Overview (Mirrorcle Technologies, PDF)](https://www.mirrorcletech.com/pdf/Mirrorcle_MEMS_Mirrors_-_Technical_Overview.pdf) · [Electrostatically Actuated MEMS Resonators: A Review (Microsystems & Nanoengineering via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12780223/)
+[Mirrorcle MEMS Mirrors: Technical Overview (Mirrorcle Technologies, PDF)](https://www.mirrorcletech.com/pdf/Mirrorcle_MEMS_Mirrors_-_Technical_Overview.pdf) · [Electrostatically actuated MEMS resonators for magnetic and electric field sensing: a review (Microsystems & Nanoengineering via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12780223/)

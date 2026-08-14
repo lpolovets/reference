@@ -35,4 +35,4 @@ Axles, transmission shafts, stepped pins, connecting-rod preforms.
 
 ## Further reading
 
-[Analysis of a Cross Wedge Rolling Process for Producing Drive Shafts (Int J Adv Manuf Technol, open access)](https://d-nb.info/1120190398/34) · [Material Fracture Susceptibility in Cross-Wedge Rolling with Concave Tools (Materials, open access)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9570956/)
+[Analysis of a Cross Wedge Rolling Process for Producing Drive Shafts (Int J Adv Manuf Technol, open access)](https://d-nb.info/1120190398/34) · [Assessment of the Susceptibility to Material Fracture in the Cross-Wedge Rolling Process with Concave Tools (Materials, open access)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9570956/)

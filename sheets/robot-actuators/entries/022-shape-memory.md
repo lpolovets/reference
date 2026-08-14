@@ -39,4 +39,4 @@ Where strokes are sub-millimeter and duty is light, SMA has already won at consu
 
 ## Further reading
 
-[AI Control Methodologies for SMA Actuators: A Systematic Review (Micromachines via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12300600/) · [A Physics-Based Model of Hysteresis in SMA Wire Transducers (arXiv)](https://arxiv.org/abs/2305.13928)
+[Artificial Intelligence Control Methodologies for Shape Memory Alloy Actuators: A Systematic Review and Performance Analysis (Micromachines via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12300600/) · [A Physics-Based Model of Hysteresis in SMA Wire Transducers (arXiv)](https://arxiv.org/abs/2305.13928)

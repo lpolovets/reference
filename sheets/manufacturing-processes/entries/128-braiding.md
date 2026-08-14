@@ -36,4 +36,4 @@ Ropes, hose reinforcement, vascular stents, composite tubes.
 
 ## Further reading
 
-[Braid 101: Biaxial and Triaxial Braid Fundamentals (A&P Technology)](https://www.braider.com/braid-101) · [Effect of Braiding Architectures on 3D Braided Composites (Polymers, open access)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9102703/)
+[Braid 101: Biaxial and Triaxial Braid Fundamentals (A&P Technology)](https://www.braider.com/braid-101) · [Effect of Braiding Architectures on the Mechanical and Failure Behavior of 3D Braided Composites: Experimental Investigation (Polymers, open access)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9102703/)
