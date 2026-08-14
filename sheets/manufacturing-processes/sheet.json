@@ -53,6 +53,13 @@
     "Welding & Joining": "join parts by fusion, adhesion, or fasteners",
     "Wood, Paper & Textile": "convert fiber and wood into everyday goods"
   },
+  "presets": [
+    { "label": "Metal at high volume", "f": { "mat": ["metal"], "vol": ["high", "cont"] } },
+    { "label": "Prototypes, no tooling", "f": { "vol": ["proto"], "tool": ["min", "low"] } },
+    { "label": "Polymer molding", "f": { "mat": ["polymer"], "vol": ["med", "high"] } },
+    { "label": "Joining metal", "parts": [3], "f": { "mat": ["metal"] } },
+    { "label": "Semiconductor and microscale", "f": { "mat": ["semi"] } }
+  ],
   "facets": [
     {
       "id": "mat",

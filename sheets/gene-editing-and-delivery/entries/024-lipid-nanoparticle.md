@@ -8,6 +8,7 @@ cargo: [vast]
 reach: [liver]
 maturity: default
 clinical: approved
+related: [therapeutic-modalities#mrna-therapeutic]
 ---
 
 ## Description

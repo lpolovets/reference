@@ -47,6 +47,12 @@
     "Turbofans": "bypass air for efficiency, core for power",
     "Turbojets": "all flow through the core, best above Mach 1"
   },
+  "presets": [
+    { "label": "In-space, flight-proven", "f": { "reg": ["space"], "mtr": ["std", "common"] } },
+    { "label": "Under $1M a unit", "f": { "cost": ["vlow", "low"] } },
+    { "label": "Hypersonic", "f": { "reg": ["hyper"] } },
+    { "label": "Still research", "f": { "mtr": ["emerging", "rd"] } }
+  ],
   "facets": [
     {
       "id": "reg",

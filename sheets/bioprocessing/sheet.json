@@ -42,6 +42,12 @@
     "Cell therapy": "living cells as the finished product",
     "Food and materials": "fermentation aimed at commodity price points"
   },
+  "presets": [
+    { "label": "Upstream: hosts and reactors", "parts": [1, 2] },
+    { "label": "Purification and polishing", "parts": [3, 4] },
+    { "label": "Cell and gene therapy", "f": { "prod": ["vector"] } },
+    { "label": "Where the COGS sit", "f": { "cogs": ["high", "vhigh"] } }
+  ],
   "facets": [
     {
       "id": "prod",

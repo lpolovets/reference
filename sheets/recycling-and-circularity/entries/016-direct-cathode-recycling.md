@@ -8,6 +8,7 @@ economics: sub
 feed: clean
 drivers: [carbon, supply]
 maturity: pilot
+related: [battery-chemistries#lithium-iron-phosphate-lfp]
 ---
 
 ## Description

@@ -41,6 +41,12 @@
     "Transport": "vehicles that carry their own hydrogen",
     "Power": "turn hydrogen back into electricity"
   },
+  "presets": [
+    { "label": "Under $3 a kilogram", "f": { "cst": ["vlow", "low"] } },
+    { "label": "Deployed at scale", "f": { "mtr": ["mature", "comm"] } },
+    { "label": "Ammonia and chemicals", "f": { "sec": ["chem"], "mtr": ["mature", "comm"] } },
+    { "label": "Marine and aviation", "f": { "sec": ["mar"] } }
+  ],
   "facets": [
     {
       "id": "sec",

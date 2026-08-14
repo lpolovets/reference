@@ -8,6 +8,7 @@ scale: [hkg, t]
 autonomy: ground
 customer: [civ, def, com]
 maturity: ops
+related: [space-launch-and-satellites#on-orbit-refueling]
 ---
 
 ## Description

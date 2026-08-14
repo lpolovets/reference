@@ -48,6 +48,12 @@
     "Servicing": "extending and refueling what is already up",
     "Disposal": "getting dead hardware out of the way"
   },
+  "presets": [
+    { "label": "Small satellites in LEO", "f": { "orb": ["leo"], "mass": ["nano", "micro", "small"] } },
+    { "label": "Science missions", "f": { "buy": ["sci"] } },
+    { "label": "Under $10M", "f": { "cost": ["vlow", "low"] } },
+    { "label": "GEO and beyond", "f": { "orb": ["geo"] } }
+  ],
   "facets": [
     {
       "id": "orb",

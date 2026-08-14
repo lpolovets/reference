@@ -8,6 +8,7 @@ refining: dom
 mining: dom
 substitution: part
 volatility: high
+related: [battery-chemistries#lithium-iron-phosphate-lfp]
 ---
 
 ## Description

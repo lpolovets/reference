@@ -8,6 +8,7 @@ mass: [micro, med]
 buyer: [com, civ, def]
 maturity: dev
 cost: high
+related: [in-space-systems#active-debris-removal]
 ---
 
 ## Description

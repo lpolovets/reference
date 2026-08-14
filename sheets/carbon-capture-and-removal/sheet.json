@@ -40,6 +40,12 @@
     "Geologic storage": "pore space that holds CO2 for geologic time",
     "Utilization": "selling the carbon instead of burying it"
   },
+  "presets": [
+    { "label": "Point-source capture", "f": { "feed": ["flue"], "mat": ["comm", "foak"] } },
+    { "label": "Removal, not avoidance", "f": { "feed": ["air"] } },
+    { "label": "Under $100 a ton", "f": { "cost": ["u50", "m100"], "mat": ["comm", "foak"] } },
+    { "label": "Operating at megaton scale", "f": { "scale": ["mt1", "mt10", "mt10p"], "mat": ["comm"] } }
+  ],
   "facets": [
     {
       "id": "feed",

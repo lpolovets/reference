@@ -8,6 +8,7 @@ mass: [med]
 buyer: [com]
 maturity: emerging
 cost: med
+related: [communications-systems#direct-to-cell-and-non-terrestrial-standards]
 ---
 
 ## Description

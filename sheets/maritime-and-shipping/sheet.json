@@ -38,6 +38,12 @@
     "Digital & autonomy": "bridge systems, remote operation, and security",
     "Regulation & markets": "carbon rules, class, charters, and yards"
   },
+  "presets": [
+    { "label": "Retrofit an existing ship", "f": { "apply": ["retro"], "mat": ["std", "grow"] } },
+    { "label": "Cuts emissions over 10%", "f": { "co2": ["zero", "deep", "mid"] } },
+    { "label": "In service, low capital", "f": { "mat": ["std"], "capex": ["low"] } },
+    { "label": "Ports and shore side", "f": { "apply": ["shore"] } }
+  ],
   "facets": [
     {
       "id": "apply",

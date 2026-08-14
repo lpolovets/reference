@@ -8,6 +8,7 @@ dosing: [monthly, weekly]
 cogs: med
 maturity: early
 precedent: none
+related: [gene-editing-and-delivery#lipid-nanoparticle]
 ---
 
 ## Description

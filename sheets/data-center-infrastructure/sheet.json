@@ -37,6 +37,12 @@
     "Facility & siting": "building type, ownership model, and location",
     "Racks & operations": "standards, interconnect, and how it is run"
   },
+  "presets": [
+    { "label": "AI racks", "f": { "where": ["ai"], "dens": ["high", "ext"] } },
+    { "label": "Retrofit an existing hall", "f": { "retro": ["drop", "hall"], "mat": ["mature", "est"] } },
+    { "label": "Water-constrained site", "f": { "water": ["none", "low"] } },
+    { "label": "Not mature yet", "f": { "mat": ["emerg", "early"] } }
+  ],
   "facets": [
     {
       "id": "dens",

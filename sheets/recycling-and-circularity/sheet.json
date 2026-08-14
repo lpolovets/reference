@@ -38,6 +38,12 @@
     "Bulk streams & disposal": "glass, paper, aggregate, organics, and what is left",
     "Systems & policy": "who pays, what is mandated, and how it is designed"
   },
+  "presets": [
+    { "label": "Pays for itself", "f": { "econ": ["profit"], "mat": ["comm"] } },
+    { "label": "Closed loop", "f": { "output": ["closed"], "mat": ["comm", "scale"] } },
+    { "label": "Only regulation drives it", "f": { "drive": ["reg"], "econ": ["sub", "cost"] } },
+    { "label": "Handles contaminated feed", "f": { "feed": ["dirty"] } }
+  ],
   "facets": [
     {
       "id": "output",

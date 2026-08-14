@@ -37,6 +37,12 @@
     "Micro & special-purpose": "compact power for remote and mobile loads",
     "Fusion": "power from fusing nuclei, still pre-commercial"
   },
+  "presets": [
+    { "label": "Licensed and proven", "f": { "reg": ["proven"] } },
+    { "label": "Needs HALEU", "f": { "fuel": ["haleu"] } },
+    { "label": "2030s or later", "f": { "time": ["mid", "far"] } },
+    { "label": "Fusion", "f": { "fuel": ["dt"] } }
+  ],
   "facets": [
     {
       "id": "fuel",

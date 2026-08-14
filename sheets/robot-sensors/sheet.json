@@ -37,6 +37,12 @@
     "Radar": "velocity and range through fog, rain, and dust",
     "Time-of-flight LiDAR": "pulse-timed 3D point clouds of surroundings"
   },
+  "presets": [
+    { "label": "Navigation and state", "f": { "use": ["nav"], "mtr": ["std", "common"] } },
+    { "label": "Under $100", "f": { "cost": ["vlow", "low"] } },
+    { "label": "Manipulation feedback", "f": { "use": ["manip"] } },
+    { "label": "Needs heavy compute", "f": { "cmp": ["high", "vhigh"] } }
+  ],
   "facets": [
     {
       "id": "use",

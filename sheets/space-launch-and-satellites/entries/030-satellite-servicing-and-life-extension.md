@@ -8,6 +8,7 @@ mass: [med]
 buyer: [com, def]
 maturity: emerging
 cost: high
+related: [in-space-systems#life-extension-vehicles]
 ---
 
 ## Description

@@ -38,6 +38,12 @@
     "Surface & resources": "landers, mobility, and extracting what is there",
     "Return & disposal": "reentry, recovery, and end of life"
   },
+  "presets": [
+    { "label": "Flying today", "f": { "mat": ["ops"], "cust": ["com"] } },
+    { "label": "Cislunar", "f": { "orbit": ["cis"] } },
+    { "label": "Defense customers", "f": { "cust": ["def"], "mat": ["ops", "demo"] } },
+    { "label": "Still a concept", "f": { "mat": ["planned", "concept"] } }
+  ],
   "facets": [
     {
       "id": "orbit",

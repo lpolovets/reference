@@ -40,6 +40,12 @@
     "Continuous monitoring": "measure repeatedly without a visit",
     "Self and near-patient testing": "results where the patient is"
   },
+  "presets": [
+    { "label": "Answers in under an hour", "f": { "tat": ["mins", "hour"] } },
+    { "label": "Runs outside a lab", "f": { "set": ["home", "poc"] } },
+    { "label": "Under $50 a test", "f": { "cost": ["vlow", "low"] } },
+    { "label": "FDA-cleared", "f": { "reg": ["fda"] } }
+  ],
   "facets": [
     {
       "id": "samp",

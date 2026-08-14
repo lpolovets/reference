@@ -46,6 +46,12 @@
     "Vehicles": "truck and tank scale, still the hardest autonomy problem",
     "Vertical takeoff": "no runway, no catapult, no net"
   },
+  "presets": [
+    { "label": "Under $100k a unit", "f": { "cost": ["vlow", "low"] } },
+    { "label": "ISR for a day or more", "f": { "role": ["isr"], "end": ["day", "days", "weeks"] } },
+    { "label": "Strike and loitering", "f": { "role": ["strike"] } },
+    { "label": "Maritime and undersea", "parts": [5, 6] }
+  ],
   "facets": [
     {
       "id": "role",

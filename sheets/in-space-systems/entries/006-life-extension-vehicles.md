@@ -8,6 +8,7 @@ scale: [t]
 autonomy: ground
 customer: [com, def]
 maturity: ops
+related: [space-launch-and-satellites#satellite-servicing-and-life-extension]
 ---
 
 ## Description

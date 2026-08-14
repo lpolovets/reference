@@ -34,6 +34,11 @@
     "Process tools": "tools that work the part: weld, cut, spray, fasten",
     "Infrastructure": "tool changers and compliance behind the gripper"
   },
+  "presets": [
+    { "label": "Pick and place", "f": { "task": ["pick"], "mtr": ["std", "common"] } },
+    { "label": "Industrial-proven", "f": { "rel": ["proven"], "ver": ["broad", "univ"] } },
+    { "label": "Handles many part shapes", "f": { "ver": ["broad", "univ"] } }
+  ],
   "facets": [
     {
       "id": "task",

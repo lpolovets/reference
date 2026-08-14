@@ -8,6 +8,7 @@ apps: [metro, def, mfg, sense]
 form: comp
 cost: u1k
 maturity: mature
+related: [semiconductor-manufacturing#euv-lithography-0-33-na]
 ---
 
 ## Description

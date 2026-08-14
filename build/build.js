@@ -22,6 +22,10 @@ if (ai !== -1 && !ARTIFACT_SLUG) {
   process.exit(1);
 }
 
+// Card anchors are the entry name slugified, and render.js and landing.js both
+// compute them this way. Cross-sheet links have to agree with it exactly.
+const slugify = s => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+
 // ---- markdown parsing ----
 function parseFrontmatter(block, file) {
   const out = {};
@@ -139,7 +143,86 @@ function parseEntry(sheet, file, src) {
     if (sections[key]) extra.push([label, sections[key]]);
   }
   if (extra.length) entry.extra = extra;
+  // Cross-sheet pointers, written as `related: [other-sheet#entry-anchor, ...]`.
+  // The anchor is the target entry's own id, which is its name slugified, so a
+  // rename on the far sheet breaks this the same way it breaks a bookmark — which
+  // is why resolveRelated below fails the build rather than emitting a dead link.
+  if (fm.related) {
+    entry.rel = fm.related.map(r => {
+      const rm = String(r).match(/^([a-z0-9-]+)#([a-z0-9-]+)$/);
+      if (!rm) fail('related entries look like "sheet-slug#entry-anchor", got "' + r + '"');
+      if (rm[1] === sheet.slug) fail('related is for other sheets; "' + r + '" points at this one');
+      return { s: rm[1], a: rm[2] };
+    });
+    if (entry.rel.length > 3) fail('at most 3 related entries');
+    if (!entry.rel.length) delete entry.rel;
+  }
   return entry;
+}
+
+// Turns every `related` reference into the label and href the card renders, and
+// throws on one that does not resolve. This cannot run in loadSheet because it
+// needs the other sheets, so a cross-sheet typo is invisible until every sheet is
+// in memory — the one check in this file that is deliberately global.
+function resolveRelated(all) {
+  const index = new Map(all.map(({ sheet, entries }) => [sheet.slug, {
+    title: sheet.shortTitle || sheet.docTitle,
+    names: new Map(entries.map(e => [slugify(e.name), e.name])),
+  }]));
+  for (const { sheet, entries } of all) {
+    for (const e of entries) {
+      if (!e.rel) continue;
+      e.rel = e.rel.map(r => {
+        const target = index.get(r.s);
+        const where = sheet.slug + '/' + String(e.n).padStart(3, '0') + ' ' + e.name + ': related "' + r.s + '#' + r.a + '"';
+        if (!target) throw new Error(where + ' names a sheet that does not exist');
+        const name = target.names.get(r.a);
+        if (!name) throw new Error(where + ' names no entry on that sheet');
+        return { t: target.title, n: name, h: '../' + r.s + '/#' + r.a };
+      });
+    }
+  }
+}
+
+// Whether one entry falls inside a preset's view. The rules are the ones in
+// matchesExcept in app.js, and they have to stay identical: this number is what
+// the chip prints, and clicking the chip sets exactly this filter state, so a
+// disagreement would show as a chip promising 14 and delivering 9.
+function presetHas(sheet, preset, e) {
+  if (preset.parts && preset.parts.length && !preset.parts.includes(e.p)) return false;
+  for (const facet of sheet.facets) {
+    const keys = (preset.f || {})[facet.id];
+    if (!keys || !keys.length) continue;
+    const val = e.f[facet.id];
+    if (facet.type === 'single') { if (!(val && keys.includes(val))) return false; }
+    else if (facet.type === 'multi') { for (const k of keys) if (!(val && val.includes(k))) return false; }
+    else if (!(val && val.some(v => keys.includes(v)))) return false;
+  }
+  return true;
+}
+
+// What a preset actually does, in the sheet's own words, for the chip's title and
+// aria-label. Generated rather than authored: a hand-written gloss is one more
+// string to keep in step with the keys beside it, and this one cannot go stale.
+// "and" for a multi facet, "or" for the rest, which is the same distinction
+// COMBINE_NOTE explains for the facet rows. Serial comma at three or more, since
+// option labels contain "&" themselves and "grid & stationary and consumer"
+// otherwise reads as one thing.
+const listOf = (items, conj) => items.reduce((s, x, i, a) =>
+  s + (i === 0 ? '' : i < a.length - 1 ? ', ' : a.length === 2 ? ' ' + conj + ' ' : ', ' + conj + ' ') + x, '');
+function presetTitle(sheet, preset) {
+  const bits = [];
+  const parts = (preset.parts || []).map(id => sheet.parts.find(p => p.id === id).name);
+  if (parts.length) bits.push(listOf(parts, 'or'));
+  for (const facet of sheet.facets) {
+    const keys = (preset.f || {})[facet.id];
+    if (!keys || !keys.length) continue;
+    // chipLabels when the facet has them: the description has to name the chips
+    // the reader can see, and a cost facet's bare option label is "100–200".
+    const labels = facet.chipLabels || facet.options;
+    bits.push(facet.label + ': ' + listOf(keys.map(k => labels[k]), facet.type === 'multi' ? 'and' : 'or'));
+  }
+  return bits.join(' · ');
 }
 
 // A data-match form has to survive two steps to actually mark anything: the
@@ -222,13 +305,13 @@ function loadSheet(dir) {
     for (const g of groups)
       if (!sheet.groupBlurbs[g]) throw new Error(sheet.slug + ': groupBlurbs missing group "' + g + '"');
   }
-  // A facet that no entry tags ships a filter row whose chips all read 0 and
-  // which can never narrow anything. Individual empty options are
-  // fine and there are 15 across the sheets — a band nothing has reached yet is
-  // itself information. A facet empty all the way across is not: either the
-  // entries never got tagged, or their frontmatter key is not the one sheet.json
-  // reads. Nothing in the output says so, which is how carbon-capture published
-  // a Permanence row for 36 entries that wrote "perm:" against a facet keyed
+  // A facet no entry tags at all ships a filter row whose chips all read 0 and
+  // which can never narrow anything. Individual empty options are fine, and there
+  // are 15 of them across the sheets — a band nothing has reached yet is itself
+  // information. A facet empty all the way across is not: either the entries were
+  // never tagged, or their frontmatter key is not the one sheet.json reads.
+  // Nothing in the output says so, which is how carbon-capture published a
+  // Permanence row for 36 entries that wrote "perm:" against a facet keyed
   // "permanence". Only checked once a sheet's groups are all populated, since
   // mid-write a facet used by one class legitimately has nothing in it yet.
   if (!incomplete && !partial.length) {
@@ -240,6 +323,40 @@ function loadSheet(dir) {
       if (!tagged) throw new Error(sheet.slug + ': facet "' + facet.label + '" (id ' + facet.id +
         ') matches none of the ' + entries.length + ' entries, so every chip reads 0. Check that ' +
         'entry frontmatter uses "' + facet.key + '", or drop the facet from sheet.json.');
+    }
+  }
+  // Preset views: named filter combinations, authored per sheet and rendered as
+  // chips above the facet rows. Everything they name is checked here, because the
+  // failure is otherwise silent — a preset pointing at a renamed option key still
+  // renders as a chip and simply shows nothing when clicked. The count is computed
+  // and stored for the same reason: a view worth putting a name on has to actually
+  // hold entries, and the floor catches a preset that a later re-tagging emptied.
+  if (sheet.presets && !incomplete) {
+    if (sheet.presets.length > 5) throw new Error(sheet.slug + ': at most 5 presets (has ' + sheet.presets.length + ')');
+    const facetById = new Map(sheet.facets.map(f => [f.id, f]));
+    const classIds = new Set(sheet.parts.map(p => p.id));
+    const seenLabel = new Set();
+    for (const p of sheet.presets) {
+      if (!p.label) throw new Error(sheet.slug + ': every preset needs a "label"');
+      const where = sheet.slug + ': preset "' + p.label + '"';
+      if (seenLabel.has(p.label)) throw new Error(where + ' is named twice');
+      seenLabel.add(p.label);
+      for (const id of p.parts || [])
+        if (!classIds.has(id)) throw new Error(where + ' names unknown ' + sheet.groupLabel.toLowerCase() + ' ' + id);
+      for (const [fid, keys] of Object.entries(p.f || {})) {
+        const facet = facetById.get(fid);
+        if (!facet) throw new Error(where + ' names unknown facet "' + fid + '"');
+        if (!Array.isArray(keys) || !keys.length)
+          throw new Error(where + ': facet "' + fid + '" needs a non-empty list of option keys');
+        for (const k of keys)
+          if (!facet.options[k]) throw new Error(where + ' names unknown ' + fid + ' option "' + k + '"');
+      }
+      if (!(p.parts || []).length && !Object.keys(p.f || {}).length)
+        throw new Error(where + ' selects nothing');
+      p.n = entries.filter(e => presetHas(sheet, p, e)).length;
+      p.t = presetTitle(sheet, p);
+      if (p.n < 3 && !partial.length)
+        throw new Error(where + ' matches ' + p.n + ' ' + sheet.unit[1] + '; a view worth naming needs at least 3');
     }
   }
   if (sheet.videosAfter) {
@@ -293,6 +410,31 @@ const CATEGORY_DATA = JSON.parse(fs.readFileSync(path.join(SHARED, 'categories.j
 const logoFor = ctx => LOGO.replace(/\n$/, '')
   .replace('{{HOME_HREF}}', ctx === 'artifact' ? 'https://humbaventures.com/reference/' : ctx === 'sheet' ? '../' : './')
   .replace('{{HOME_EXTRA}}', ctx === 'artifact' ? ' target="_blank" rel="noopener"' : '');
+// The header's jump-to-another-sheet menu. It is a <details>, not a <select> or a
+// scripted popover, so it opens, takes focus and navigates with no JavaScript at
+// all; app.js only adds closing it on Esc or an outside click. Grouping and order
+// follow categories.json, the same source the landing page uses, so a reader who
+// knows the landing layout finds the same shape here. The artifact gets no menu:
+// it ships as one sheet with no siblings to reach.
+function switcherHTML(all, currentSlug) {
+  const rank = c => { const i = CATEGORY_DATA.findIndex(x => x.name === c); return i === -1 ? CATEGORY_DATA.length : i; };
+  const byCat = new Map();
+  for (const { sheet } of all) {
+    if (!byCat.has(sheet.category)) byCat.set(sheet.category, []);
+    byCat.get(sheet.category).push(sheet);
+  }
+  const cats = [...byCat.keys()].sort((a, b) => rank(a) - rank(b));
+  const groups = cats.map(cat =>
+    '          <div class="swgroup"><span class="swcat">' + esc(cat) + '</span>' +
+    byCat.get(cat).map(s => '<a href="../' + s.slug + '/"' +
+      (s.slug === currentSlug ? ' aria-current="page"' : '') + '>' + esc(s.shortTitle) + '</a>').join('') +
+    '</div>').join('\n');
+  return '      <details class="switch">\n' +
+    '        <summary aria-label="Jump to another reference sheet">All sheets' +
+    '<svg width="9" height="9" viewBox="0 0 10 10" aria-hidden="true"><path d="M1.5 3.5L5 7L8.5 3.5" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>' +
+    '</summary>\n        <div class="swmenu">\n' + groups + '\n        </div>\n      </details>';
+}
+
 // How picking more than one tag in a row behaves, appended to every facet's
 // tooltip so the reader never has to infer it. It follows from the data rather
 // than being a choice: a multi facet is a set of independent tags, while single
@@ -431,7 +573,7 @@ function sheetLD({ sheet, entries }) {
   return graph;
 }
 
-function composeBody(sheetData, artifact) {
+function composeBody(sheetData, artifact, siblings) {
   const { sheet, entries } = sheetData;
   const groups = new Set(entries.map(x => x.p + '|' + x.g));
   const counts = { entries: entries.length, parts: sheet.parts.length, groups: groups.size };
@@ -449,6 +591,19 @@ function composeBody(sheetData, artifact) {
       '<span class="fchips" id="facet-' + f.id + '"></span></div>';
   }).join('\n');
 
+  // Preset chips are built here rather than by app.js, unlike the facet chips:
+  // their label, count and description are all fixed at build time, so rendering
+  // them at runtime would only move constants into JavaScript. The client is left
+  // the two things that are not constant — the click and the pressed state.
+  const presetRow = !(sheet.presets || []).length ? '' :
+    '        <div class="facet presets"><span class="flabel">Common views</span>' +
+    '<span class="fchips" id="presets">' + sheet.presets.map((p, i) =>
+      '<button class="fchip pchip" data-i="' + i + '" aria-pressed="false"' +
+      ' title="' + escAttr(p.t) + '"' +
+      ' aria-label="' + escAttr(p.label + ', ' + p.t + ', ' + p.n + ' ' + sheet.unit[p.n === 1 ? 0 : 1]) + '">' +
+      esc(p.label) + '<span class="fn" aria-hidden="true">' + p.n + '</span></button>').join(' ') +
+    '</span></div>';
+
   const clientSheet = {
     unit: sheet.unit, groupLabel: sheet.groupLabel,
     // The artifact blocks external requests, so it never renders class images. Strip the
@@ -463,6 +618,10 @@ function composeBody(sheetData, artifact) {
       return cf;
     }),
   };
+  // The client needs only what it takes to apply one: the label rides along for
+  // the analytics event, and the count and description are already in the markup.
+  if ((sheet.presets || []).length) clientSheet.presets =
+    sheet.presets.map(p => ({ label: p.label, parts: p.parts || [], f: p.f || {} }));
   if (sheet.videosAfter) {
     clientSheet.videosAfter = sheet.videosAfter;
     clientSheet.extraOrder = (sheet.extraSections || []).map(e => e[1]);
@@ -477,7 +636,10 @@ function composeBody(sheetData, artifact) {
   // entries are already in the page once as JSON — prerendering doubles the file
   // for no reader who benefits. The client is told which it got, because a page
   // built without it must render on load or the list stays empty.
-  const listHTML = artifact ? '' : makeRenderer(clientSheet, !artifact).listHTML(entries, true);
+  // The artifact is one sheet on a host that has no siblings to link to, so its
+  // cross-sheet pointers are dropped from the data rather than rendered dead.
+  const cardEntries = artifact ? entries.map(({ rel, ...e }) => e) : entries;
+  const listHTML = artifact ? '' : makeRenderer(clientSheet, !artifact).listHTML(cardEntries, true);
 
   // Every value goes in through a function replacer. String.prototype.replace
   // substitutes $$, $& and $' even when the search pattern is a plain string, so
@@ -489,12 +651,14 @@ function composeBody(sheetData, artifact) {
     .replace('{{STYLE}}', () => THEME)
     .replace('{{LIST}}', () => listHTML)
     .replace('{{LOGO}}', () => logoFor(artifact ? 'artifact' : 'sheet'))
+    .replace('{{SWITCHER}}', () => artifact ? '' : switcherHTML(siblings, sheet.slug))
     .replace('{{TITLE}}', () => esc(sheet.title))
     .replace('{{LEDE}}', () => esc(sheet.lede).replace('{{N_ENTRIES}}', String(counts.entries)))
     .replace('{{STATS}}', () => stats)
     .replace('{{EXPLORER_TAB}}', () => esc(sheet.explorerTab))
     .replace('{{GUIDE_TAB}}', () => esc(sheet.guideTab))
     .replace('{{SEARCH_PLACEHOLDER}}', () => esc(sheet.searchPlaceholder))
+    .replace('{{PRESETS}}', () => presetRow)
     .replace('{{FACETS}}', () => facetRows)
     .replace('{{UNIT_PLURAL}}', () => esc(sheet.unit[1]))
     .replace('{{GUIDE}}', () => sheet.guide)
@@ -517,7 +681,7 @@ function composeBody(sheetData, artifact) {
     'const PRERENDERED = ' + String(!artifact) + ';',
     'const GC_PREFIX = ' + JSON.stringify(GC_PREFIX) + ';',
     'const SHEET = ' + JSON.stringify(clientSheet) + ';',
-    'const P = ' + JSON.stringify(entries) + ';',
+    'const P = ' + JSON.stringify(cardEntries) + ';',
   ].join('\n');
 
   // RENDER before APP: app.js calls makeRenderer at the top level.
@@ -533,9 +697,11 @@ if (CHECK_ONLY) {
   // broken file doesn't mask everyone else's status, and sheets with no entries
   // yet report as pending rather than failing.
   let bad = 0, ok = 0, pending = 0, n = 0;
+  const loaded = [];
   for (const slug of slugs) {
     try {
       const s = loadSheet(path.join(sheetsDir, slug));
+      loaded.push(s);
       if (s.incomplete) { pending++; console.log('pending  ' + slug + ' (no entries yet)'); }
       else if (s.partial.length) {
         pending++; n += s.entries.length;
@@ -546,6 +712,12 @@ if (CHECK_ONLY) {
       console.log('FAIL     ' + slug + ': ' + e.message);
     }
   }
+  // Cross-sheet links can only be checked once every sheet is in memory, and a
+  // sheet still being written has no entries to point at yet, so a failure here
+  // is reported rather than thrown: --check exists to tell parallel editors what
+  // is wrong, not to stop at the first problem.
+  try { resolveRelated(loaded.filter(s => !s.incomplete)); }
+  catch (e) { bad++; console.log('FAIL     related: ' + e.message); }
   console.log(ok + ' sheets ok, ' + n + ' entries' +
     (pending ? ', ' + pending + ' pending' : '') + (bad ? ', ' + bad + ' FAILING' : ''));
   if (bad) process.exit(1);
@@ -564,6 +736,8 @@ const all = slugs.map(slug => loadSheet(path.join(sheetsDir, slug))).filter(s =>
     : ' (' + s.entries.length + ' entries so far, groups still empty: ' + s.partial.join(', ') + ')'));
   return false;
 });
+
+resolveRelated(all);
 
 if (ARTIFACT_SLUG) {
   // Fragment for the Artifact tool (it supplies doctype/head/body). ASCII-escape
@@ -590,7 +764,7 @@ if (ARTIFACT_SLUG) {
     const html = '<!doctype html>\n<html lang="en">\n<head>\n' +
       head({ title: sheet.docTitle, description: sheet.blurb, path: sheet.slug + '/', up: '../',
         ld: sheetLD(sheetData) }) +
-      '</head>\n<body>\n' + composeBody(sheetData, false) +
+      '</head>\n<body>\n' + composeBody(sheetData, false, all) +
       '</body>\n</html>\n';
     const out = path.join(ROOT, 'site', sheet.slug);
     fs.mkdirSync(out, { recursive: true });

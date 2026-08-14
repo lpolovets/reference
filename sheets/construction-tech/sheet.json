@@ -38,6 +38,12 @@
     "Workforce & safety": "the people on site and what protects them",
     "Rules & existing buildings": "code, permitting, and retrofit"
   },
+  "presets": [
+    { "label": "Built in a factory", "f": { "where": ["offsite"], "mat": ["std", "grow"] } },
+    { "label": "Cuts the schedule", "f": { "gain": ["speed"], "mat": ["std", "grow"] } },
+    { "label": "Low capital to try", "f": { "capital": ["low"], "mat": ["std", "grow"] } },
+    { "label": "Cuts embodied carbon", "f": { "gain": ["carbon"] } }
+  ],
   "facets": [
     {
       "id": "where",

@@ -8,6 +8,7 @@ energy: med
 cycles: high
 cost: vlow
 maturity: mass
+related: [energy-storage#lithium-ion-grid-storage-incumbent-baseline, recycling-and-circularity#hydrometallurgical-battery-recycling, critical-minerals#battery-grade-lithium-chemicals]
 ---
 
 ## Description

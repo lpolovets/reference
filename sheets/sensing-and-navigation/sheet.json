@@ -50,6 +50,12 @@
     "Terrestrial radio": "ground transmitters as a GPS backstop",
     "Warning and support": "tell the crew they are being looked at"
   },
+  "presets": [
+    { "label": "Finds low-observable targets", "f": { "lo": ["good", "strong"], "fn": ["search"] } },
+    { "label": "Works without GPS", "f": { "fn": ["nav"], "jam": ["good", "strong"] } },
+    { "label": "Under $1M", "f": { "cost": ["vlow", "low", "med"] } },
+    { "label": "Terminal guidance", "f": { "fn": ["term"] } }
+  ],
   "facets": [
     {
       "id": "fn",

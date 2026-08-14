@@ -36,6 +36,12 @@
     "Micro & precision": "tiny strokes with nanometer-level control",
     "Artificial muscle": "soft materials that contract to produce force"
   },
+  "presets": [
+    { "label": "Legged robots", "f": { "app": ["legged"], "bdr": ["good", "exc"] } },
+    { "label": "Sub-micron precision", "f": { "prc": ["fine", "ufine"] } },
+    { "label": "Under $100", "f": { "cost": ["vlow", "low"] } },
+    { "label": "Industrial arms", "f": { "app": ["arm"], "den": ["med", "high", "vhigh"] } }
+  ],
   "facets": [
     {
       "id": "app",

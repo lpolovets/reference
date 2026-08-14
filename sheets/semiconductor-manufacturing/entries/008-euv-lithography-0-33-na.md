@@ -8,6 +8,7 @@ node: [adv, lead, front]
 wafer: [w300]
 toolcost: high
 suppliers: one
+related: [optics-and-photonics#mirrors]
 ---
 
 ## Description

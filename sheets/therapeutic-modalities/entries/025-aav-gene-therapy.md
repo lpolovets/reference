@@ -8,6 +8,7 @@ dosing: [once]
 cogs: vhigh
 maturity: proven
 precedent: few
+related: [gene-editing-and-delivery#aav-vector]
 ---
 
 ## Description

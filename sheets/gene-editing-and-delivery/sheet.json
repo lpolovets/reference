@@ -39,6 +39,12 @@
     "Particle delivery": "wrap the cargo and let cells take it up",
     "Physical and conjugate delivery": "force it in, or attach a homing group"
   },
+  "presets": [
+    { "label": "Approved in patients", "f": { "clin": ["approved"] } },
+    { "label": "Edits without cutting", "parts": [2, 3] },
+    { "label": "Delivery, not editing", "f": { "acts": ["carrier"] } },
+    { "label": "Large cargo", "f": { "cargo": ["large", "vast"] } }
+  ],
   "facets": [
     {
       "id": "acts",

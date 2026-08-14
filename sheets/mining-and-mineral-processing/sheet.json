@@ -37,6 +37,12 @@
     "Pyrometallurgy & refining": "heat, and the final purity step",
     "Tailings & closure": "storage, water, and the century after mining"
   },
+  "presets": [
+    { "label": "Battery metals", "f": { "feed": ["batt"] } },
+    { "label": "Low energy and water", "f": { "energy": ["low", "med"], "water": ["low"] } },
+    { "label": "Mature at scale", "f": { "mat": ["mature"], "scale": ["s100", "s100p"] } },
+    { "label": "Precious metals", "f": { "feed": ["prec"], "mat": ["mature"] } }
+  ],
   "facets": [
     {
       "id": "feed",

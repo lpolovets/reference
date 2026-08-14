@@ -153,7 +153,8 @@ function units(only) {
     const strings = [j.lede, j.blurb, j.question, j.title,
       ...(j.parts || []).map(p => p.blurb),
       ...Object.values(j.groupBlurbs || {}),
-      ...(j.facets || []).map(f => f.tip)].filter(Boolean);
+      ...(j.facets || []).map(f => f.tip),
+      ...(j.presets || []).map(p => p.label)].filter(Boolean);
     for (const s of strings) {
       const at = raw.split('\n').findIndex(l => l.includes(s.slice(0, 40)));
       out.push({ file: 'sheets/' + slug + '/sheet.json', line: at >= 0 ? at + 1 : 1, text: s });

@@ -38,6 +38,12 @@
     "Drives & traction": "variable-speed motors and vehicle charging",
     "Low-voltage delivery": "server, processor, and consumer power"
   },
+  "presets": [
+    { "label": "EV traction", "f": { "use": ["ev"], "power": ["mw"] } },
+    { "label": "Gallium nitride", "f": { "semi": ["gan"] } },
+    { "label": "Grid-scale converters", "f": { "use": ["grid"], "power": ["mw"] } },
+    { "label": "Commodity parts", "f": { "mat": ["comm"], "power": ["w"] } }
+  ],
   "facets": [
     {
       "id": "power",
