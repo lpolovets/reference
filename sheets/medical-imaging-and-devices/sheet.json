@@ -38,6 +38,12 @@
     "Implants & active devices": "powered hardware living inside a patient",
     "Regulation & software": "clearance, coding, sterility, and security"
   },
+  "presets": [
+    { "label": "Standard of care", "f": { "mat": ["std"], "use": ["diag"] } },
+    { "label": "Under $500k to buy", "f": { "capex": ["cheap", "mid"] } },
+    { "label": "Implanted", "f": { "inv": ["impl"] } },
+    { "label": "Guides a procedure", "f": { "use": ["guide"] } }
+  ],
   "facets": [
     {
       "id": "use",

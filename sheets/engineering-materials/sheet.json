@@ -45,6 +45,12 @@
     "Magnetic materials": "chosen for the shape of their B-H curve",
     "Thermal and optical materials": "move heat or pass light on spec"
   },
+  "presets": [
+    { "label": "High strength-to-weight", "f": { "sw": ["high", "vhigh"] } },
+    { "label": "Corrosion resistant", "f": { "prop": ["corr"], "cost": ["vlow", "low", "med"] } },
+    { "label": "Above 450 °C", "f": { "temp": ["vhigh", "ext"] } },
+    { "label": "Machines cheaply", "f": { "proc": ["mach"], "cost": ["vlow", "low"] } }
+  ],
   "facets": [
     {
       "id": "prop",

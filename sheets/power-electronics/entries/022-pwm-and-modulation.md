@@ -8,6 +8,7 @@ voltage: [lv, mv]
 semiconductor: [si, sic, gan]
 uses: [ind, ev, grid, it]
 maturity: comm
+related: [grid-and-transmission#vsc-hvdc]
 ---
 
 ## Description

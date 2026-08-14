@@ -37,6 +37,12 @@
     "Stability & grid services": "inertia, reactive power, and fast response",
     "Distribution & edge": "medium and low voltage out to the meter"
   },
+  "presets": [
+    { "label": "Under a year to build", "f": { "lead": ["fast"], "site": ["fence", "exist"] } },
+    { "label": "Bulk transfer at EHV", "f": { "role": ["bulk"], "volt": ["ehv", "uhv"] } },
+    { "label": "Inside the fence", "f": { "site": ["fence"] } },
+    { "label": "Stability and inertia", "f": { "role": ["stab"] } }
+  ],
   "facets": [
     {
       "id": "volt",

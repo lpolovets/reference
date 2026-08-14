@@ -40,6 +40,12 @@
     "Heterogeneous integration": "combine dies into one high-bandwidth package",
     "Test and metrology": "measure the process and sort the parts"
   },
+  "presets": [
+    { "label": "Leading-edge logic", "f": { "dev": ["logic"], "node": ["front"] } },
+    { "label": "Mature nodes", "f": { "node": ["mature"], "tool": ["low"] } },
+    { "label": "Memory", "f": { "dev": ["memory"], "node": ["lead", "front"] } },
+    { "label": "Sole source or duopoly", "f": { "sup": ["one", "duo"] } }
+  ],
   "facets": [
     {
       "id": "dev",

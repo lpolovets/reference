@@ -43,6 +43,12 @@
     "Distributed renewables": "generation on the customer's roof or land",
     "On-site generators": "engines and fuel cells behind the meter"
   },
+  "presets": [
+    { "label": "Cheapest per MWh", "f": { "lcoe": ["vlow", "low"] } },
+    { "label": "Runs when you need it", "f": { "disp": ["disp", "fast"] } },
+    { "label": "Built in under three years", "f": { "build": ["fast", "med"], "capex": ["low", "med"] } },
+    { "label": "Baseload", "f": { "disp": ["base"], "cf": ["high", "vhigh"] } }
+  ],
   "facets": [
     {
       "id": "disp",

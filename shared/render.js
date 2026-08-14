@@ -174,6 +174,15 @@ function makeRenderer(SHEET, EMBED_OK) {
       body += '<span class="lab">' + esc(e[0]) + '</span><p class="ex" style="margin-top:2px">' + fmt(e[1], seen) + '</p>';
       if (vids && i === vidPos) body += vids;
     });
+    // Cross-sheet pointers last, after the entry has said everything it has to
+    // say. Resolved to label and href at build time, so the client never needs to
+    // know anything about the other sheets, and absent entirely in the artifact,
+    // which has no siblings to reach.
+    if (x.rel && x.rel.length) {
+      body += '<span class="lab">Related entries</span><p class="rel">' +
+        x.rel.map(r => '<a href="' + r.h + '">' + esc(r.n) +
+          '<span class="relsheet">' + esc(r.t) + '</span></a>').join('') + '</p>';
+    }
     const tags = facetTags(x);
     return '<div class="card" id="' + slug(x.name) + '" style="--pc:' + part.color + '" data-n="' + x.n + '">' +
       '<button class="chead" aria-expanded="false">' +

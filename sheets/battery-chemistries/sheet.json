@@ -44,6 +44,12 @@
     "Room-temperature sodium-ion": "drop-in lithium-ion alternatives, no lithium needed",
     "Solid-state electrolytes": "swapping flammable liquid for solid conductors"
   },
+  "presets": [
+    { "label": "EV cells in production", "f": { "app": ["ev"], "mtr": ["mass"] } },
+    { "label": "Grid storage under $200/kWh", "f": { "app": ["grid"], "cost": ["vlow", "low"] } },
+    { "label": "Long life, moderate cost", "f": { "cyc": ["high", "vhigh"], "cost": ["vlow", "low", "med"] } },
+    { "label": "High energy, not yet mass market", "f": { "nrg": ["high", "vhigh"], "mtr": ["pilot", "rd"] } }
+  ],
   "facets": [
     {
       "id": "app",

@@ -8,6 +8,7 @@ capacity: [kbps, mbps]
 medium: rf
 latency: med
 maturity: early
+related: [space-launch-and-satellites#direct-to-device]
 ---
 
 ## Description

@@ -8,6 +8,7 @@ roles: [bulk, volt, stab]
 lead: yr5
 siting: corr
 maturity: mature
+related: [power-electronics#modular-multilevel-converter]
 ---
 
 ## Description

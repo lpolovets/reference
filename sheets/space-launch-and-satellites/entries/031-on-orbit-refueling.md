@@ -8,6 +8,7 @@ mass: [small, med]
 buyer: [com, sci, def]
 maturity: dev
 cost: med
+related: [in-space-systems#storable-propellant-transfer]
 ---
 
 ## Description

@@ -167,6 +167,7 @@ function render(){
   $("empty").hidden = hits.length>0;
   $("resCount").textContent = $("rbCount").textContent = hits.length+" / "+P.length;
   $("rbReset").hidden = !filtered();
+  pchips.forEach((c,i)=>c.setAttribute("aria-pressed", presetOn(PRESETS[i]) ? "true" : "false"));
   updateChipCounts();
   syncURL();
   // part tile counts + pressed state
@@ -224,6 +225,58 @@ SHEET.facets.forEach(facet=>{
   });
 });
 
+// Pushes state back onto the facet chips. The chips are the one piece of filter
+// UI the render pass does not rebuild, so anything that sets several facets at
+// once — Reset, a preset — has to say so here or the chips keep the old look.
+function syncChips(){
+  SHEET.facets.forEach(facet=>{
+    const set = state.f[facet.id];
+    document.querySelectorAll("#facet-"+facet.id+" .fchip").forEach(c=>
+      c.setAttribute("aria-pressed", set.has(c.dataset.k) ? "true" : "false"));
+  });
+}
+
+// ----- preset views -----
+// A named combination of filters, authored per sheet. Clicking one replaces the
+// whole filter state rather than adding to it: a preset is a view, not another
+// filter, and replacing is what lets its chip be lit exactly when the reader is
+// looking at that view and go dark the moment they change anything. Nothing is
+// stored for it — presetOn() reads the same state the facet chips do, so a
+// shared filter link lights the matching preset with no extra parameter, and a
+// preset the reader has narrowed by hand stops claiming to be the whole view.
+// Sort is deliberately not part of a preset, for the same reason "Reset filters"
+// keeps it: sort is not a filter.
+const PRESETS = SHEET.presets || [];
+const pchips = [].slice.call(document.querySelectorAll("#presets .pchip"));
+function presetOn(p){
+  if(state.q) return false;
+  if(state.parts.size !== p.parts.length || !p.parts.every(id=>state.parts.has(id))) return false;
+  return SHEET.facets.every(f=>{
+    const want = p.f[f.id] || [], set = state.f[f.id];
+    return set.size === want.length && want.every(k=>set.has(k));
+  });
+}
+if(pchips.length) $("presets").addEventListener("click", e=>{
+  const c = e.target.closest(".pchip"); if(!c) return;
+  const p = PRESETS[+c.dataset.i];
+  // Pressing the lit one goes back to everything, the way a pressed facet chip
+  // releases. Otherwise there is no way out of a preset except Reset.
+  if(presetOn(p)){ clearFilters(); return; }
+  state.q = ""; $("q").value = "";
+  state.parts.clear();
+  p.parts.forEach(id=>state.parts.add(id));
+  // Mutated, not replaced: the facet chip handlers close over these Set objects,
+  // so assigning a new one would leave every chip toggling a set nothing reads.
+  SHEET.facets.forEach(f=>{
+    const set = state.f[f.id];
+    set.clear();
+    (p.f[f.id] || []).forEach(k=>set.add(k));
+  });
+  syncChips();
+  render();
+  gcEvent("view", slug(p.label));
+});
+
 // ----- facet tooltips: open upward when there is no room below -----
 // The longest tips run past 300px, and the filter panel sits low enough on a
 // laptop that the bottom rows would otherwise open off the screen. CSS cannot
@@ -276,7 +329,7 @@ function clearFilters(){
   state.q=""; $("q").value="";
   state.parts.clear();
   Object.values(state.f).forEach(s=>s.clear());
-  document.querySelectorAll(".fchip[aria-pressed='true']").forEach(c=>c.setAttribute("aria-pressed","false"));
+  syncChips();
   render();
 }
 $("clearAll").addEventListener("click", clearFilters);
@@ -494,6 +547,15 @@ lightbox.addEventListener("click", e=>{ if(!e.target.closest(".lbinner") || e.ta
 // help. What this adds is a list cursor: j/k step between headers from anywhere,
 // and the arrow keys join in only once a header holds focus, so they keep
 // scrolling the page the rest of the time.
+// The header's sheet menu is a <details>: it already opens, takes focus and
+// navigates on its own, so this only adds the two things native <details> does
+// not do — close on Esc (in the chain below) and close when the reader clicks
+// somewhere else. Absent in the artifact flavor, hence the null guard everywhere.
+const switcher = document.querySelector("details.switch");
+if(switcher) document.addEventListener("click", e=>{
+  if(switcher.open && !switcher.contains(e.target)) switcher.open = false;
+});
+
 const kbdModal = $("kbdModal");
 let kbdReturn = null;
 function showHelp(on){
@@ -532,6 +594,7 @@ document.addEventListener("keydown", e=>{
     if(!lightbox.hidden){ e.preventDefault(); closeLightbox(); }
     else if(gtipFor){ e.preventDefault(); hideTip(); }
     else if(!kbdModal.hidden){ e.preventDefault(); showHelp(false); }
+    else if(switcher && switcher.open){ e.preventDefault(); switcher.open=false; switcher.querySelector("summary").focus(); }
     else if(document.activeElement===$("q")){
       e.preventDefault();
       if($("q").value){ $("q").value=""; state.q=""; render(); }

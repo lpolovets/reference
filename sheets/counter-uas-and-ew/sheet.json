@@ -46,6 +46,12 @@
     "Radar jamming": "protect aircraft and ships from radar-guided weapons",
     "Small arms": "what people actually have when a drone arrives"
   },
+  "presets": [
+    { "label": "Cheap enough to keep firing", "f": { "cost": ["vlow"], "cx": ["good", "best"] } },
+    { "label": "Small drones, low collateral", "f": { "thr": ["g12"], "coll": ["none", "low"] } },
+    { "label": "Works on Group 3–5", "f": { "thr": ["g35"], "eff": ["good", "best"] } },
+    { "label": "Stops cruise missiles", "f": { "thr": ["cm"], "eff": ["good", "best"] } }
+  ],
   "facets": [
     {
       "id": "thr",

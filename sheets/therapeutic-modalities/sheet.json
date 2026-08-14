@@ -46,6 +46,12 @@
     "Natural and derived cells": "expanded or differentiated rather than redirected",
     "Living agents": "viruses and bacteria as the therapy"
   },
+  "presets": [
+    { "label": "One dose", "f": { "dose": ["once"], "mat": ["proven", "default"] } },
+    { "label": "Under $1,000 a dose", "f": { "cogs": ["vlow", "low"] } },
+    { "label": "Reaches inside the cell", "f": { "tgt": ["intra"] } },
+    { "label": "Few approvals so far", "f": { "prec": ["none", "few"], "mat": ["early", "emerging"] } }
+  ],
   "facets": [
     {
       "id": "tgt",

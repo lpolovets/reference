@@ -8,6 +8,7 @@ scale: [hkg, t]
 autonomy: auto
 customer: [civ, def]
 maturity: demo
+related: [space-launch-and-satellites#debris-removal-and-end-of-life-disposal]
 ---
 
 ## Description

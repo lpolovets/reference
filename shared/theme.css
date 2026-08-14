@@ -122,6 +122,14 @@ nav.tabs button:hover{color:var(--ink)}
    so a pressed chip can always be pressed again to get back. */
 .fchip .fn{margin-left:6px;opacity:.62;font-variant-numeric:tabular-nums}
 .fchip.zero:not([aria-pressed="true"]){opacity:.42}
+/* Preset views sit in the same label column as the facet rows they set, so the
+   two line up and it reads as the shortcut for the rows underneath. Accent, not
+   a facet color: a preset sets several facets at once, so borrowing any one of
+   their colors would misstate what it does. Dashed until pressed, which keeps
+   them distinct from the facet chips at a glance without a second shape. */
+.facet.presets{--fcol:var(--accent);padding-bottom:11px;border-bottom:1px solid var(--line)}
+.pchip{border-style:dashed}
+.pchip[aria-pressed="true"]{border-style:solid}
 .fnote{font-size:12px;color:var(--ink3);margin-top:10px}
 
 /* ---------- entry list ---------- */
@@ -294,3 +302,31 @@ a.sheetcard:hover{background:var(--surface2)}
 .sheetcard .st{font-weight:650;font-size:16px;letter-spacing:-.005em}
 .sheetcard .sd{font-size:13.5px;color:var(--ink2);margin-top:5px;line-height:1.5}
 .sheetcard .sc{font-family:var(--mono);font-size:11px;color:var(--ink3);margin-top:10px;font-variant-numeric:tabular-nums}
+
+/* ---- header sheet switcher ---- */
+/* A <details>, so it opens and navigates with no JavaScript; app.js only adds
+   closing it on Esc or an outside click. margin-right:auto puts it at the left
+   of a .hdr-top that is otherwise flex-end for the logo. */
+.switch{margin-right:auto;position:relative;flex:none}
+.switch summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:6px;height:28px;padding:0 10px;background:var(--surface2);border:1px solid var(--line2);border-radius:7px;color:var(--ink2);font-family:var(--mono);font-size:11px;letter-spacing:.05em;text-transform:uppercase}
+.switch summary::-webkit-details-marker{display:none}
+.switch summary:hover,.switch[open] summary{color:var(--ink)}
+.switch summary svg{transition:transform .15s}
+.switch[open] summary svg{transform:rotate(180deg)}
+/* z-index sits above the sticky tab bar (30) so the menu is not clipped by it. */
+.swmenu{position:absolute;top:34px;left:0;z-index:40;min-width:260px;max-height:min(70vh,520px);overflow-y:auto;background:var(--surface);border:1px solid var(--line2);border-radius:9px;padding:8px;box-shadow:0 8px 28px rgba(0,0,0,.14)}
+.swgroup{display:flex;flex-direction:column;margin-bottom:6px}
+.swgroup:last-child{margin-bottom:0}
+.swcat{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink3);padding:6px 8px 3px}
+.swmenu a{display:block;padding:5px 8px;border-radius:6px;font-size:13.5px;color:var(--ink2);text-decoration:none}
+.swmenu a:hover,.swmenu a:focus-visible{background:var(--surface2);color:var(--ink)}
+.swmenu a[aria-current="page"]{color:var(--ink);font-weight:600}
+@media (max-width:640px){.swmenu{min-width:min(88vw,320px)}}
+
+/* ---- cross-sheet related entries ---- */
+/* Each pointer is a two-line link: the entry it goes to, then the sheet it lives
+   on in metadata gray, so the destination reads without a hover. */
+.cbody .rel{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px}
+.cbody .rel a{display:block;padding:7px 11px;border:1px solid var(--line);border-radius:8px;background:var(--surface2);color:var(--ink2);text-decoration:none;font-size:13.5px;line-height:1.35}
+.cbody .rel a:hover,.cbody .rel a:focus-visible{border-color:var(--accent);color:var(--ink)}
+.cbody .rel .relsheet{display:block;font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink3);margin-top:2px}

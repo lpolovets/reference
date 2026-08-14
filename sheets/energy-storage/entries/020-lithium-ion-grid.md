@@ -8,6 +8,7 @@ duration: [hrs]
 rte: vhigh
 cost: med
 maturity: mature
+related: [battery-chemistries#lithium-iron-phosphate-lfp]
 ---
 
 ## Description

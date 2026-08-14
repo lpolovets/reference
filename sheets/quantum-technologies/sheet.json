@@ -37,6 +37,12 @@
     "Communication & security": "key distribution, repeaters, and the cryptographic response",
     "Enabling stack": "the hardware and mathematics everything else runs on"
   },
+  "presets": [
+    { "label": "Shipping products", "f": { "mat": ["comm"], "horizon": ["now"] } },
+    { "label": "Room temperature", "f": { "temp": ["room"] } },
+    { "label": "Needs millikelvin", "f": { "temp": ["mk"] } },
+    { "label": "Sensing and timing", "f": { "use": ["sense"] } }
+  ],
   "facets": [
     {
       "id": "temp",

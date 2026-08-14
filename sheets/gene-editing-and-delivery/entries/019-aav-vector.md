@@ -8,6 +8,7 @@ cargo: [small]
 reach: [liver, cns, muscle, eye]
 maturity: default
 clinical: approved
+related: [therapeutic-modalities#aav-in-vivo-gene-therapy]
 ---
 
 ## Description

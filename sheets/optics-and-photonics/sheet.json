@@ -37,6 +37,12 @@
     "Imaging & spectroscopy": "systems that answer a measurement question",
     "Integrated photonics": "waveguides on silicon and the links they carry"
   },
+  "presets": [
+    { "label": "Off-the-shelf components", "f": { "form": ["comp"], "mat": ["mature"] } },
+    { "label": "Thermal infrared", "f": { "band": ["lwir"] } },
+    { "label": "Under $1,000", "f": { "cost": ["u10", "u100", "u1k"] } },
+    { "label": "Sensing and LiDAR", "f": { "app": ["sense"], "mat": ["mature"] } }
+  ],
   "facets": [
     {
       "id": "band",

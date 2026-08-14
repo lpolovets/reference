@@ -38,6 +38,12 @@
     "Equipment & timing": "modems, base stations, sites, and synchronization",
     "Networking & operations": "routing, encryption, resilience, and licensing"
   },
+  "presets": [
+    { "label": "Terabit backbone", "f": { "cap": ["tbps"] } },
+    { "label": "Reaches anywhere", "f": { "reach": ["global"], "mat": ["dep"] } },
+    { "label": "Under 10 ms", "f": { "lat": ["sub"], "mat": ["dep"] } },
+    { "label": "Not deployed yet", "f": { "mat": ["scale", "early", "res"] } }
+  ],
   "facets": [
     {
       "id": "reach",

@@ -38,6 +38,12 @@
     "Oligo synthesis": "build short sequences base by base",
     "Genes and verification": "join fragments and prove the sequence"
   },
+  "presets": [
+    { "label": "Long reads", "f": { "len": ["mid", "long", "ultra"] } },
+    { "label": "Whole genome", "f": { "apps": ["wgs"] } },
+    { "label": "Writing DNA", "f": { "role": ["write"] } },
+    { "label": "Proven and cheap", "f": { "mat": ["proven", "default"], "cost": ["vlow", "low"] } }
+  ],
   "facets": [
     {
       "id": "role",

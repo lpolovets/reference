@@ -37,6 +37,12 @@
     "Electrical": "instant power for seconds, near-unlimited cycles",
     "Virtual & distributed": "software turning demand and EVs into storage"
   },
+  "presets": [
+    { "label": "Frequency and ancillary", "f": { "role": ["anc"] } },
+    { "label": "Multi-day firming", "f": { "role": ["firm"] } },
+    { "label": "Seasonal", "f": { "role": ["seas"] } },
+    { "label": "Cheap per kWh", "f": { "cost": ["vlow", "low"], "mtr": ["mature", "comm"] } }
+  ],
   "facets": [
     {
       "id": "role",

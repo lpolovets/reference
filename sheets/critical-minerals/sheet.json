@@ -45,6 +45,12 @@
     "Battery recycling": "recovering cathode metals from spent cells",
     "Magnet & catalyst recovery": "pulling rare earths and platinum back out of scrap"
   },
+  "presets": [
+    { "label": "Near-monopoly refining", "f": { "ref": ["mono"] } },
+    { "label": "No substitute", "f": { "sub": ["none", "poor"], "ref": ["dom", "mono"] } },
+    { "label": "Battery supply chain", "f": { "use": ["bat"] } },
+    { "label": "Prices swing over 4x", "f": { "vol": ["high", "vhigh"], "ref": ["dom", "mono"] } }
+  ],
   "facets": [
     {
       "id": "use",
