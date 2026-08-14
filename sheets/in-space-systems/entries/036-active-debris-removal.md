@@ -1,0 +1,38 @@
+---
+number: 36
+name: Active Debris Removal
+part: 7
+group: Return & disposal
+orbit: [leo]
+scale: [hkg, t]
+autonomy: auto
+customer: [civ, def]
+maturity: demo
+---
+
+## Description
+Active debris removal means flying to an object you did not build, which is not cooperating and is probably tumbling, holding onto it, and bringing it down. Target selection is the settled part: NASA's LEGEND modeling picks the objects with the highest mass times collision probability, and a 2008–2009 study concluded that good post-mission disposal plus removal of about five such objects a year would stabilize the low Earth orbit population over 200 years, with anything above five improving it. Those five are large intact bodies, mostly spent rocket stages, not the fragment clouds that dominate the object count. Capture is where the concepts diverge. A rigid clamp or a set of arms grips a known feature such as a launch adapter ring, which is what ClearSpace-1 does with four arms on a 95 kg PROBA-1 measuring 0.6 by 0.6 by 0.8 m; a magnetic docking plate works only on a client fitted with one before launch; a net or a harpoon tolerates an unknown shape but leaves the chaser attached to a flexible, hard-to-control stack; and ion-beam shepherding never touches the target at all, at the cost of months of thrusting and a large power system. Then you still have to move it. Deorbiting from 800 km costs about 194 m/s applied to the combined mass, so a three-tonne upper stage plus a 300 kg chaser on a 220 s system needs roughly 280 kg of propellant for the final burn alone, before any of the phasing and rendezvous, which is arithmetic done here rather than a published figure. That is why every mission flown or funded so far removes exactly one object.
+
+## Strengths and weaknesses
+Removal reaches the part of the problem that mitigation cannot, because a spacecraft that died before it could deorbit itself will not comply with any rule written afterwards. The engineering strength is leverage: removing five well-chosen objects a year does more for the environment than sweeping up thousands of fragments, and those targets are large, tracked, and well-characterized. The weakness is that nobody has removed anything yet. Astroscale's ELSA-d captured a prepared client with a magnetic plate in 2021 and suffered thruster failures during the harder non-cooperative approach; ADRAS-J flew to within 15 m of a Japanese H-IIA upper stage in 2024, imaged it and characterized its motion, and completed operations without attempting capture; RemoveDEBRIS fired a net and a harpoon in 2018 at targets it had deployed itself. Tumble rate is the binding constraint, since above a few degrees per second the chaser has to spin up to match, which spends propellant and attitude authority and puts the capture mechanism at risk. And the failure mode is self-defeating: a botched grab on a multi-tonne body produces far more debris than it removes, so every mission is slow and cautious, which keeps the cost per object high.
+
+## When to use
+Do not build a business plan around selling removal as a service today, because the customers are agencies buying single demonstrations of their own countries' debris. If you are that agency and you are responsible for a large object in a congested shell, buy the removal as a program with a named target and expect a program price. If you are building a spacecraft that will fly above 700 km, fit a capture interface at build: a docking plate or grapple fixture costs a couple of kilograms and converts a research problem into a procedure, which is the single highest-leverage thing anyone can do for this field. When you do have to capture something uncooperative, choose by tumble rate and geometry: arms or a clamp when the target is slow and its interface is known, a net when the shape is irregular, a contactless method when the object is too massive to grab safely. And never target another state's object without written consent, because Article VIII of the Outer Space Treaty leaves jurisdiction and control with the state of registry indefinitely and the Liability Convention puts the consequences of a failed attempt on the remover's launching state.
+
+## Key numbers
+About five objects a year with the highest mass times collision probability stabilizes the low orbit population, on top of good post-mission disposal · roughly 194 m/s to deorbit from 800 km, so about 280 kg of propellant for a three-tonne stage plus a 300 kg chaser at 220 s · ADRAS-J approached to 15 m in 2024 with no capture attempt · ClearSpace-1 at €86M for one 95 kg target, launch planned 2029 · ADRAS-J2 at around ¥13.2B for one object · objects removed by anyone to date: zero
+
+## Examples
+Astroscale is the most advanced operator, with ELSA-d demonstrating magnetic capture of a prepared client in 2021, ADRAS-J performing rendezvous and fly-around inspection of an H-IIA upper stage in 2024 under Phase I of JAXA's Commercial Removal of Debris Demonstration, and ADRAS-J2 contracted under Phase II at around ¥13.2B to go back and remove it. ESA contracted ClearSpace-1 in 2020 for €86M, changed targets in 2024 after the original one was struck by debris, and now aims a four-armed capture vehicle at the 95 kg PROBA-1 with OHB SE leading the industrial team and launch planned for 2029. The Surrey Space Centre's RemoveDEBRIS tested a net, a harpoon, vision-based navigation and a drag sail in 2018. The only object anyone has actually moved is Chinese: Shijian-21 docked with a defunct BeiDou navigation satellite in 2022 and towed it above the geostationary belt.
+
+## Economic profile
+Cost per object removed is currently the whole story, and it sits near $80–100M: €86M contracted for ClearSpace-1 to remove one 95 kg satellite, and around ¥13.2B for ADRAS-J2 to remove one upper stage. Nothing works commercially at that price, because the benefit is spread across every operator sharing the orbit while the cost falls on one payer, which is the standard shape of a problem markets do not fund. Getting to single-digit millions per object needs several objects per mission, and the propellant arithmetic blocks that directly: carrying the delta-v to deorbit five three-tonne bodies means carrying five times 280 kg of propellant plus the phasing between them. The architecture that escapes this is a chaser that attaches a small deorbit package to each target and leaves it behind, so the vehicle carries kits rather than delta-v, and after that it needs refueling to keep going. The buyer today is a national program removing its own debris, and that is also the legal ceiling, since removing anyone else's object requires that state's consent. The dual-use problem cuts both ways commercially. A vehicle that can rendezvous with and grip an uncooperative satellite is operationally a co-orbital anti-satellite weapon, which makes an open service market politically hard and at the same time gives the same hardware a defense customer with a much larger budget, which is where several of these companies actually get paid.
+
+## Videos
+
+- https://www.youtube.com/watch?v=PIfRPTIgXuw — RemoveDEBRIS’s net captures space debris (SciNews, 2 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=4ZFAkBMtcPo — RemoveDEBRIS Active Debris Removal demonstration mission (SSTLTV, 3 minutes, 5k+ views)
+
+## Further reading
+
+[ClearSpace-1 (European Space Agency)](https://www.esa.int/Space_Safety/ClearSpace-1) · [Threats to U.S. National Security Interests in Space: Orbital Debris Mitigation and Removal (Congressional Research Service)](https://www.everycrsreport.com/reports/R43353.html)

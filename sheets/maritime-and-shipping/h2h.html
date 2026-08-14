@@ -1,0 +1,59 @@
+    <h2>Head-to-head: which fuel</h2>
+    <p class="muted">Compare on the cut you actually get from the fuel available today, not the cut the molecule would deliver if it were made from renewable power. Energy per cubic meter is the second column because it decides how much cargo or range the tank costs. The third column is what stops most plans: a fuel the ship cannot buy on its own route gets burned as diesel instead.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Fuel</th><th>Well-to-wake cut today</th><th>Energy per m³</th><th>Bunkering ports</th><th>Pick it when</th></tr></thead>
+      <tbody>
+        <tr><td>VLSFO</td><td>0%, the 91 gCO2e/MJ baseline</td><td>~39 GJ/m³</td><td>Roughly 1,000</td><td>The default, and every number on this sheet is measured against it. It traded around $830/t on the global 20-port average in August 2026, roughly $20/GJ, having ranged between about $400 and $900 over three years. The payback arithmetic in the entries is worked at $550/t, so rescale it to the price you actually pay.</td></tr>
+        <tr><td>HSFO with scrubber</td><td>None; scrubber power adds 1–2% fuel</td><td>~40 GJ/m³</td><td>Most large bunker ports</td><td>The high-sulfur spread holds near $80–150/t and the trade avoids carbon pricing and open-loop discharge bans. Pays back $2–6M in 1–3 years and cuts no CO2.</td></tr>
+        <tr><td>Marine gas oil</td><td>3–4% per unit of energy</td><td>~36 GJ/m³</td><td>Roughly 1,000</td><td>Emission control areas, auxiliary engines, and the pilot fuel every dual-fuel engine still needs. Runs $150–250/t above VLSFO.</td></tr>
+        <tr><td>LNG</td><td>10–20% Otto cycle, 20–23% diesel cycle</td><td>~21 GJ/m³, near 2.3x the space with tank</td><td>About 185, with 60 bunker vessels</td><td>Fixed routes through ports that already supply it and gas under about $12/GJ. Ask which combustion cycle before believing the cut.</td></tr>
+        <tr><td>Methanol</td><td>Fossil: none, slightly worse. Bio or e-methanol: 60–95%</td><td>~16 GJ/m³, 2.4x the tank</td><td>About 30</td><td>A liner route where a supplier will sign a green offtake. Liquid at ambient temperature and the easiest alternative to handle, but green molecules cost $50–80/GJ.</td></tr>
+        <tr><td>Ammonia</td><td>Conventional: worse than fuel oil. Green: 85–95% before N2O slip</td><td>~13 GJ/m³, about 3x the tank</td><td>Pilot transfers only</td><td>A dedicated trade with a producer at one end, or a gas carrier already handling it as cargo. Toxic at low ppm, so crew and port acceptance set the schedule.</td></tr>
+        <tr><td>Biofuel blends</td><td>B24 about 20%; B100 FAME or HVO 65–90%. B24 is a carriage limit, not a blending one: above 25% the cargo falls under MARPOL Annex II, so barges stop just short</td><td>33–36 GJ/m³</td><td>20–30, led by Singapore and Rotterdam</td><td>A cut is needed this year and there is no capital to spend. Costs 1.5–2.5x fuel oil per GJ and sustainable feedstock is capped, so it will not cover the whole fleet.</td></tr>
+        <tr><td>Liquid hydrogen</td><td>Green: near zero. Conventional: worse than fuel oil</td><td>8.5 GJ/m³, 7–8x the space with tank</td><td>A few demonstration berths</td><td>Short-sea vessels returning daily to one berth. The volume rules it out on deep-sea legs with today's tanks.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2>Which engine or powertrain</h2>
+    <p class="muted">Two constraints do most of the work: the engine has to exist in this ship's power range, and the ship has to keep trading when the fuel is unavailable. Both favor dual-fuel over dedicated designs, which is why nearly every alternative-fuel ship on order keeps full diesel capability.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Powertrain</th><th>Power range</th><th>Retrofittable</th><th>Fuel flexibility</th><th>Pick it when</th></tr></thead>
+      <tbody>
+        <tr><td>Two-stroke diesel</td><td>2–80 MW</td><td>The baseline</td><td>Any residual or distillate, plus bio-blends</td><td>The route has no alternative fuel and the ship must be able to trade anywhere. Still the most efficient heat engine in production at 50–52%.</td></tr>
+        <tr><td>LNG, Otto cycle</td><td>5–35 MW two-stroke, 1–20 MW four-stroke</td><td>Rare, a few conversions</td><td>LNG plus pilot, full liquid fallback</td><td>Gas is cheap per GJ and the trade sits inside EU ETS. The low-pressure gas train costs less than the diesel cycle, and 1.5–3.5% methane slip is the price.</td></tr>
+        <tr><td>LNG, diesel cycle</td><td>5–80 MW</td><td>Rare and expensive</td><td>LNG plus 1–3% pilot</td><td>The emissions claim has to survive 20-year methane accounting. Slip of 0.2–0.4% buys a real 20% cut, for a 300-bar supply system costing roughly $3–5M more.</td></tr>
+        <tr><td>Methanol dual-fuel</td><td>5–70 MW</td><td>Yes: $10–20M, about 3 months</td><td>Methanol plus 3–5% pilot, full diesel fallback</td><td>Green methanol can be contracted on this route. The only alternative fuel with a demonstrated two-stroke conversion in service.</td></tr>
+        <tr><td>Ammonia dual-fuel</td><td>5–70 MW, first units running</td><td>Not demonstrated</td><td>Ammonia plus about 5% pilot</td><td>Newbuild on a dedicated trade, usually a gas carrier or a bulker with a producer at one end. Budget for N2O and ammonia slip abatement in the exhaust.</td></tr>
+        <tr><td>Fuel cell</td><td>0.1–5 MW</td><td>Yes, as auxiliary</td><td>Hydrogen direct; methanol or ammonia through a reformer</td><td>Auxiliary and harbor power on short-sea vessels, or a hotel load that has to be silent at berth. Costs $2,000–5,000/kW against $200–400/kW for a genset.</td></tr>
+        <tr><td>Battery-electric</td><td>0.5–10 MWh typical</td><td>Yes, as hybrid</td><td>Electricity only</td><td>Crossings under one to two hours with charging at both ends, or loads that swing hard such as dynamic positioning. Hybrid peak shaving cuts 10–25% without changing fuel.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2>Which efficiency measure</h2>
+    <p class="muted">These need no new fuel and no new engine, so they reach ships already trading and they stack. Ordered roughly by cost per percent saved: cleaning and appendages first, then the ones that need a capital case.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Measure</th><th>Fuel saved</th><th>Capital cost</th><th>Retrofittable</th><th>Pick it when</th></tr></thead>
+      <tbody>
+        <tr><td>Coating and cleaning</td><td>3–8%</td><td>$200–500k premium</td><td>Yes, routine</td><td>Always. Fouling adds 10–30% to the power needed for the same speed, and hull cleaning plus propeller polishing costs tens of thousands.</td></tr>
+        <tr><td>Energy-saving devices</td><td>2–6%</td><td>$100–500k</td><td>Yes, at drydock</td><td>Almost always. Pre-swirl stators, ducts and rudder bulbs are the cheapest capital here and they fit at a scheduled docking.</td></tr>
+        <tr><td>Hull form design</td><td>2–8%</td><td>Design hours only</td><td>Newbuild; bow retrofit 2–5%</td><td>At specification, run for the speed the ship will actually operate at. A bulbous bow optimized for 22 knots is wrong at 16.</td></tr>
+        <tr><td>Air lubrication</td><td>4–8% net</td><td>$1.5–3.5M</td><td>Yes, in drydock</td><td>Wide flat-bottomed hulls: LNG carriers, large boxships, cruise. The 5–10% gross claim loses about a third to blower power, so ask for the net number.</td></tr>
+        <tr><td>Wind propulsion</td><td>5–20%, route dependent</td><td>$1–3.5M per set</td><td>Yes, if the deck allows</td><td>Bulkers and tankers on trades with a favorable wind rose. Deck rigs conflict with container stacks and tanker manifolds, which rules out most liner tonnage.</td></tr>
+        <tr><td>Slow steaming</td><td>About 27% a day for a 10% speed cut, 19% per tonne-mile</td><td>None</td><td>Operations</td><td>Freight rates are weak, or a CII rating has to move this year. Costs service frequency, and holding the same schedule takes more ships.</td></tr>
+        <tr><td>Just-in-time arrival</td><td>5–25% on the approach leg</td><td>None</td><td>Operations</td><td>The port will commit to a berth window. Most charterparties still require utmost dispatch, so the clause changes before the practice does.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2>Which segment can commit to a fuel</h2>
+    <p class="muted">A ship can commit to a fuel only when someone knows which ports it will call at and the company holding the fuel bill also holds the capital decision. That combination is rare, and it explains the alternative-fuel order book better than any technical argument.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Segment</th><th>Route predictability</th><th>Who pays for fuel</th><th>Alt-fuel share of orders</th><th>Pick it when</th></tr></thead>
+      <tbody>
+        <tr><td>Container liner</td><td>Published rotation, same ports weekly</td><td>The operator, on its own account</td><td>Roughly half of TEU on order</td><td>Commit to methanol or LNG. Fixed calls make a bunker contract possible, and the operator keeps the fuel saving it paid for.</td></tr>
+        <tr><td>Car carrier</td><td>Fixed round-trip trades</td><td>Operator or long-term charterer</td><td>Around 80% of tonnage on order</td><td>Commit to LNG now and specify ammonia-ready. Car makers set targets on their own supply chains and will pay for the compliance.</td></tr>
+        <tr><td>Dry bulk tramp</td><td>None; the next fixture decides</td><td>Charterer, on a time charter</td><td>Roughly 10–15%</td><td>Do not commit to a fuel. Spend on hull, energy-saving devices and speed, and take the fuel decision at the next newbuild.</td></tr>
+        <tr><td>Tanker</td><td>Partly fixed; cargo follows price</td><td>Charterer on time, owner on voyage</td><td>Roughly 10–20%</td><td>Dual-fuel only under a long charter to a major with its own target. Otherwise efficiency measures and certified biofuel blends.</td></tr>
+        <tr><td>Ferry and short sea</td><td>Fixed, often the same berth twice a day</td><td>Operator, usually under a public contract</td><td>Battery or hybrid on most new orders</td><td>Go battery-electric under about two hours with charging at both ends. The one segment where full electrification works today.</td></tr>
+        <tr><td>Offshore and workboat</td><td>One field, one base port</td><td>Charterer, usually the field operator</td><td>Hybrid on most new orders</td><td>Hybrid battery for dynamic positioning and peak shaving, 10–25% fuel. Methanol or a fuel cell where the charterer will fund it.</td></tr>
+      </tbody>
+    </table></div>

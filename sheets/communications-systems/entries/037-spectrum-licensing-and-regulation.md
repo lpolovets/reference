@@ -1,0 +1,37 @@
+---
+number: 37
+name: Spectrum Licensing and Regulation
+part: 7
+group: Networking & operations
+reach: [short, global]
+capacity: [kbps, tbps]
+medium: rf
+maturity: dep
+---
+
+## Description
+Spectrum reaches a user through one of three regimes, and they are three different businesses rather than three prices for the same thing. An exclusive license is a transferable right to transmit in a band over a geography for a term, usually 10 to 15 years with a strong expectation of renewal, carrying interference protection with legal force and buildout conditions that typically require covering a set share of the population within six years and more by twelve. A shared regime keeps the band open to several classes of user at once and arbitrates between them with a database: in the US CBRS band at 3550–3700 MHz, federal radar and satellite earth stations sit in tier one, 70 MHz of auctioned Priority Access Licenses in ten 10 MHz channels sit in tier two, and free General Authorized Access users take the remaining 80 MHz plus whatever priority spectrum is unused, with a Spectrum Access System assigning channels and coastal sensors telling it to clear the band within roughly five minutes when naval radar appears. Unlicensed spectrum has no license at all, only power limits and coexistence rules, and it is where Wi-Fi lives; the FCC opened 1,200 MHz at 5.925–7.125 GHz on that basis in 2020, with an automated coordination system protecting the fixed microwave links already there. Sitting above all three, the ITU Radio Regulations are a treaty that divides the spectrum by service and Region, and they are revised at a World Radiocommunication Conference held every three to four years. WRC-23 ran in Dubai from 20 November to 15 December 2023, and a conference of that kind is where a band gets identified for a use, not where any operator gets a license.
+
+## Strengths and weaknesses
+Exclusive licensing produces the one thing a capital-intensive network needs, which is a noise floor an engineer can plan against and a bank can lend against. The cost is that the money is spent years before the first customer and the supply cannot be increased on any useful timescale, because creating a new band means moving whoever is in it. Shared licensing is far cheaper, with CBRS priority licenses clearing around $0.21 per MHz-POP against $0.68 to $2.72 for exclusive mid-band, and it let enterprises and small operators hold spectrum for the first time, but the right is conditional: a general-access user can be displaced with no compensation and no notice beyond the database message, and the whole regime depends on sensors and a database staying correct. Unlicensed spectrum costs nothing to acquire and carries the largest device ecosystem in the world, and in exchange the capacity available at any moment depends on who else shows up, which is a hope rather than a specification. Harmonization through the ITU is what makes any of it cheap, since a band allocated the same way in most countries gets one chipset instead of one per market, and a band identified for mobile in only one Region gets devices late and expensive. The weakness of the treaty process is speed: a WRC decision starts a national proceeding that then takes years on its own.
+
+## When to use
+If your business needs a guaranteed noise floor and you can raise capital years ahead of revenue, buy an exclusive license and treat it as the largest line item in the plan. If you need spectrum at one site or across a few counties, buy a CBRS priority license, and use general authorized access only where being moved off a channel is an inconvenience rather than an outage. If you control the building and are willing to own the interference risk yourself, use unlicensed spectrum at 5 and 6 GHz, which is the cheapest capacity available anywhere. If the plan depends on a band being reallocated, assume a decade and assume the incumbents get paid, because that is what every recent clearing has cost. If you need spectrum in orbit rather than on the ground, the mechanism is an ITU filing through an administration rather than a national auction, and this sheet's satellite spectrum and orbital filings entry covers it.
+
+## Key numbers
+CBRS spans 3550–3700 MHz in three tiers: 70 MHz of priority licenses in 10 MHz channels, 80 MHz of general access · CBRS priority licenses cleared about $0.21 per MHz-POP against $0.68–2.72 for exclusive mid-band · 1,200 MHz opened for unlicensed use at 5.925–7.125 GHz in 2020 · exclusive licenses run 10 to 15 years with buildout conditions at six and twelve years · a World Radiocommunication Conference is held every three to four years, WRC-23 in Dubai from 20 November to 15 December 2023 · US incumbents were paid $10.1 billion to leave 600 MHz and $9.7 billion to clear C-band early.
+
+## Examples
+The CBRS three-tier band, with Spectrum Access Systems operated by Google, Federated Wireless, CommScope and Sony, and the 20,625 county-level priority licenses sold in FCC Auction 105; the FCC's 2020 order opening 1,200 MHz at 6 GHz for unlicensed use with automated frequency coordination; WRC-23, which identified parts of the 6 GHz band for mobile broadband in Region 1 covering Europe, Africa and the Middle East, the same spectrum the United States had already made unlicensed; the C-band and 600 MHz clearings in the United States, which are the two reference cases for what moving an incumbent costs.
+
+## Economic profile
+Spectrum is an asset with no maintenance cost and no ordinary depreciation, which is why carriers borrow against it and why the licenses can be worth more than the network built on them: Verizon carries roughly $150 billion of licenses against about $110 billion of net plant. That value is created by exclusion, so the regulator's real product is the clearing, and clearing is expensive because the incumbent has to be paid to move and has every reason to be slow. US broadcasters received $10.1 billion to vacate 600 MHz and then a 39-month repack schedule to actually do it; satellite operators received $9.7 billion in accelerated relocation payments for C-band on top of the auction price, in a process that opened in 2018, auctioned in early 2021 and finished clearing at the end of 2023. Federal bands are harder still, because the incumbent is an agency with a mission rather than a balance sheet, and money is not what it wants. Against that, shared and unlicensed spectrum are nearly free to acquire, and the costs move to operations: a CBRS deployment pays a spectrum access system a small recurring fee per device, and an unlicensed deployment pays in congestion it cannot control. For an operator the practical consequence is that the three regimes are three different capital structures, and the choice usually follows how much certainty the revenue needs rather than how much bandwidth the radio can use.
+
+## Videos
+
+- https://www.youtube.com/watch?v=5SIawaRwuIE — Introduction to CBRS and Spectrum Sharing (Google's Spectrum Access System, 7 minutes, 5k+ views)
+- https://www.youtube.com/watch?v=WbGcf_YiBKk — Spectrum auctions, spectrum liberalization and the incomplete triumph of Coase (Marginal Revolution University, 12 minutes, under 1k views)
+
+## Further reading
+
+[3.5 GHz Band Overview (Federal Communications Commission)](https://www.fcc.gov/35-ghz-band-overview) · [Provisional Final Acts WRC-23 (International Telecommunication Union)](https://www.itu.int/pub/R-ACT-WRC.15-2023)

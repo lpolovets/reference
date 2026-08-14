@@ -1,0 +1,132 @@
+{
+  "slug": "maritime-and-shipping",
+  "docTitle": "Maritime and Shipping Reference",
+  "shortTitle": "Maritime and Shipping",
+  "blurb": "Ship types and trades, two-stroke diesels and the dual-fuel engines replacing them, LNG, methanol and ammonia bunkering, wind assist and hull efficiency, port automation and shore power, plus the IMO and EU rules that now price the carbon — compared on emissions cut, capital cost, and how much of the fleet can actually take it.",
+  "category": "Infrastructure and Transport",
+  "question": "What moves this cargo, on what fuel, and what does the regulation cost?",
+  "title": "Maritime and Shipping: A Practical Reference",
+  "lede": "Shipping moves about 80% of world trade on roughly 3% of global CO2 emissions, and it is the sector where decarbonization is hardest to fake, because a ship burns one fuel for 25 years and there is nowhere to plug it in mid-ocean. This guide catalogs {{N_ENTRIES}} vessels, engines, fuels and practices across seven classes, with what each one cuts, what it costs to fit, and whether the fuel it needs exists in the ports the ship actually calls at.",
+  "unit": ["technology", "technologies"],
+  "groupLabel": "Class",
+  "explorerTab": "Technology explorer",
+  "guideTab": "Selection guide",
+  "h2hTab": "Head-to-head",
+  "searchPlaceholder": "Search vessels, engines, fuels, ports…",
+  "stats": [
+    { "count": "entries", "label": "technologies" },
+    { "count": "parts", "label": "classes" },
+    { "count": "groups", "label": "families" }
+  ],
+  "parts": [
+    { "id": 1, "roman": "I", "name": "Vessels & Trades", "blurb": "what the ship is and what it carries", "color": "var(--p1)" },
+    { "id": 2, "roman": "II", "name": "Propulsion & Machinery", "blurb": "the engine, and what replaces it", "color": "var(--p2)" },
+    { "id": 3, "roman": "III", "name": "Fuels & Bunkering", "blurb": "the molecule, and whether the port has it", "color": "var(--p3)" },
+    { "id": 4, "roman": "IV", "name": "Efficiency & Wind", "blurb": "burn less for the same voyage", "color": "var(--p4)" },
+    { "id": 5, "roman": "V", "name": "Ports & Cargo Handling", "blurb": "the half of the trip that happens alongside", "color": "var(--p5)" },
+    { "id": 6, "roman": "VI", "name": "Autonomy, Digital & Crew", "blurb": "who is watching, and from where", "color": "var(--p6)" },
+    { "id": 7, "roman": "VII", "name": "Regulation & Economics", "blurb": "the rules that now price the carbon", "color": "var(--p7)" }
+  ],
+  "groupBlurbs": {
+    "Vessels & trades": "the ship types and the markets they serve",
+    "Main engines": "combustion, from residual fuel to ammonia",
+    "Alternative powertrains": "fuel cells, batteries, and reactors",
+    "Fuels & bunkering": "supply, storage, and port availability",
+    "Hull & efficiency": "resistance, coatings, and appendages",
+    "Wind & operations": "free propulsion and how the voyage is run",
+    "Ports & terminals": "automation, electrification, and turnaround",
+    "Digital & autonomy": "bridge systems, remote operation, and security",
+    "Regulation & markets": "carbon rules, class, charters, and yards"
+  },
+  "facets": [
+    {
+      "id": "apply",
+      "key": "applies",
+      "label": "Where it applies",
+      "type": "multi",
+      "color": "--fa",
+      "required": true,
+      "tagRow": 2,
+      "tip": "Whether it can reach the existing fleet. A ship lasts 20–30 years, so anything that only works on a newbuild cannot touch most of the fleet before 2040. Retrofit reaches ships already trading, shore side means the change happens in the port rather than on the vessel, and operations means it needs no hardware at all.",
+      "order": ["new", "retro", "shore", "ops"],
+      "options": {
+        "new": "Newbuild",
+        "retro": "Retrofit",
+        "shore": "Shore side",
+        "ops": "Operations"
+      }
+    },
+    {
+      "id": "co2",
+      "key": "emissions",
+      "label": "Emissions cut",
+      "type": "single",
+      "color": "--fb",
+      "required": true,
+      "tip": "Well-to-wake CO2-equivalent reduction against conventional very low sulfur fuel oil, on the fuel pathway the technology actually gets today rather than the one it could get. That distinction is the whole argument about methanol and ammonia: the engine is near zero on green fuel and roughly conventional on fossil-derived fuel, and almost all supply today is the second kind.",
+      "order": ["zero", "deep", "mid", "small", "none"],
+      "options": {
+        "zero": "Near zero",
+        "deep": "Over 40%",
+        "mid": "10–40%",
+        "small": "Under 10%",
+        "none": "Not the point"
+      }
+    },
+    {
+      "id": "seg",
+      "key": "segments",
+      "label": "Vessel segment",
+      "type": "multi",
+      "color": "--fc",
+      "tip": "Which trades it suits. Segment decides more than it looks: a container ship on a fixed liner route can commit to a fuel because it knows which ports it will call at, while a tramp bulk carrier taking whatever cargo is offered cannot, which is why the first alternative-fuel orders were nearly all liner and car-carrier tonnage.",
+      "order": ["cont", "bulk", "tank", "gas", "roro", "off"],
+      "options": {
+        "cont": "Container",
+        "bulk": "Dry bulk",
+        "tank": "Tanker",
+        "gas": "Gas carrier",
+        "roro": "Ro-ro & ferry",
+        "off": "Offshore & workboat"
+      }
+    },
+    {
+      "id": "capex",
+      "key": "capex",
+      "label": "Capital cost",
+      "type": "single",
+      "color": "--fd",
+      "tip": "What it adds to a vessel or a terminal, as a share of the thing it is fitted to. Low is under a few percent of a newbuild price or a routine drydock item · Medium is a noticeable line on the specification, roughly 5–15% · High means it changes the financing case, which for a $150M container ship means tens of millions.",
+      "order": ["low", "med", "high"],
+      "options": {
+        "low": "Low",
+        "med": "Medium",
+        "high": "High"
+      }
+    },
+    {
+      "id": "mat",
+      "key": "maturity",
+      "label": "Readiness",
+      "type": "single",
+      "color": "--fe",
+      "required": true,
+      "tip": "In service = ordinary equipment with a service network and class approval · Scaling = in commercial operation with an order book behind it · Early = first vessels or first terminals, rules still being written · Research = demonstrations and design studies, nothing trading.",
+      "order": ["std", "grow", "early", "res"],
+      "options": {
+        "std": "In service",
+        "grow": "Scaling",
+        "early": "Early",
+        "res": "Research"
+      }
+    }
+  ],
+  "videosAfter": "Economic profile",
+  "extraSections": [
+    ["when to use", "When to use"],
+    ["key numbers", "Key numbers"],
+    ["examples", "Examples"],
+    ["economic profile", "Economic profile"],
+    ["further reading", "Further reading"]
+  ]
+}

@@ -58,6 +58,12 @@ const GLYPHS = {
     '<path d="M7 20.5c0-6 2.2-8 2.8-13h4.4c.6 5 2.8 7 2.8 13z"/>' +
     '<path d="M9.8 7.5h4.4"/>' +
     '<path d="M9.5 4.2c1-1.4 4-1.4 5 0"/>',
+  // A switching waveform. Nothing else in the set is an orthogonal stepped line,
+  // so it stays distinct next to the battery rectangle and the grid pylon even
+  // though all three sit in the Energy group. Drawn as one path with square
+  // corners rather than a sine, because a sine at 22px is a wobble.
+  'power-electronics':
+    '<path d="M2.5 16.5v-9h5v9h5v-9h5v9h4"/>',
 
   // ---- Robotics and Manufacturing ----
   'manufacturing-processes':
@@ -89,6 +95,15 @@ const GLYPHS = {
   'mining-and-mineral-processing':
     '<path d="M2.5 6.5h19L14.5 20h-5z"/>' +
     '<path d="M6.2 11h11.6"/><path d="M8.9 15.5h6.2"/>',
+  // Two arcs with a gap at each side rather than the three-arrow Mobius triangle,
+  // which turns into a filled blob once the arrowheads are big enough to see.
+  // A broken ring is a silhouette nothing else in the set has; the full circles
+  // (manufacturing, counter-UAS) all close.
+  'recycling-and-circularity':
+    '<path d="M4.5 9.3A8 8 0 0 1 19.5 9.3"/>' +
+    '<path d="M16.8 7.5 19.5 9.3 20.4 6.2"/>' +
+    '<path d="M19.5 14.7A8 8 0 0 1 4.5 14.7"/>' +
+    '<path d="M7.2 16.5 4.5 14.7 3.6 17.8"/>',
 
   // ---- Semiconductors ----
   // Arc closed with a straight chord: that flat is what makes it a wafer and
@@ -116,12 +131,47 @@ const GLYPHS = {
     '<circle cx="12" cy="12" r="8.5"/>' +
     '<ellipse cx="12" cy="12" rx="8.5" ry="3.3"/>' +
     '<path d="M12 12 17 7"/><circle cx="17" cy="7" r="1.5" ' + DOT + '/>',
+  // Broadcast arcs anchored at a corner, not centered. Centered arcs over a box
+  // are already the robot-sensors glyph, and at 22px the two would be the same
+  // picture; hanging them off one corner with the source dot there changes the
+  // silhouette from a dome to a quarter fan.
+  'communications-systems':
+    '<circle cx="5" cy="19" r="1.4" ' + DOT + '/>' +
+    '<path d="M5 13.5A5.5 5.5 0 0 1 10.5 19"/>' +
+    '<path d="M5 8.5A10.5 10.5 0 0 1 15.5 19"/>' +
+    '<path d="M5 3.5A15.5 15.5 0 0 1 20.5 19"/>',
+
+  // ---- Infrastructure and Transport ----
+  // A tower crane. The counter-jib on the short side is what stops it reading as
+  // a plain letter L, and the hook line hanging off the long jib is what says
+  // crane rather than bracket.
+  'construction-tech':
+    '<path d="M7.5 21.5V4.5"/>' +
+    '<path d="M3.5 4.5h16"/>' +
+    '<path d="M16 4.5v5.5"/>' +
+    '<path d="M4.5 21.5h6"/>',
+  // Hull, deckhouse, and two waves. The hull alone is a wide trapezoid, which is
+  // the mining glyph upside down; the waterline underneath is what makes it a
+  // ship, so keep it if this is ever redrawn.
+  'maritime-and-shipping':
+    '<path d="M2.5 12.5h19l-3 6H5.5z"/>' +
+    '<path d="M9 12.5V8h4.5v4.5"/>' +
+    '<path d="M3 21c2-1.5 4-1.5 6 0s4 1.5 6 0 4-1.5 6 0"/>',
 
   // ---- Defense and Aerospace ----
   'counter-uas-and-ew':
     '<circle cx="12" cy="12" r="6.5"/>' +
     '<path d="M12 2v3.5M12 18.5V22M2 12h3.5M18.5 12H22"/>' +
     '<circle cx="12" cy="12" r="1.6" ' + DOT + '/>',
+  // A jointed arm off a base. The satellite glyph next door is already a body
+  // with two panels, so this sheet cannot also be a spacecraft; the arm is what
+  // it does rather than what it is, and no other glyph in the set is a bent line
+  // with a joint on it.
+  'in-space-systems':
+    '<rect x="2.5" y="18.5" width="5.5" height="3" rx="1"/>' +
+    '<path d="M5.2 18.5 10 11.5 18.5 8"/>' +
+    '<circle cx="10" cy="11.5" r="1.3" ' + DOT + '/>' +
+    '<path d="M17.3 5.3 20.5 6.8 19.3 10.2"/>',
   'propulsion-systems':
     '<path d="M9.8 2.5h4.4L18 15.5H6z"/>' +
     '<path d="M9.2 6.8h5.6"/>' +
@@ -189,6 +239,15 @@ const GLYPHS = {
     '<rect x="7.5" y="2.5" width="9" height="19" rx="2"/>' +
     '<path d="M9.6 9h4.8v1.7H9.6z" ' + DOT + '/>' +
     '<path d="M9.6 14.5h4.8"/>',
+
+  // A scanner gantry seen head on: the bore inside the housing, with the couch
+  // crossing it. Nothing else in the set nests a circle inside a square, which
+  // is what keeps it apart from the assay strip and the bioreactor beside it.
+  // The couch line is load-bearing — without it the shape is a camera lens.
+  'medical-imaging-and-devices':
+    '<rect x="2.8" y="2.8" width="18.4" height="18.4" rx="3.5"/>' +
+    '<circle cx="12" cy="12" r="5.4"/>' +
+    '<path d="M7.6 15.6h8.8"/>',
 };
 
 // aria-hidden because the sheet title sits right beside it and already says what

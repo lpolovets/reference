@@ -1,0 +1,132 @@
+{
+  "slug": "construction-tech",
+  "docTitle": "Construction Technology Reference",
+  "shortTitle": "Construction Technology",
+  "blurb": "Structural systems from cast-in-place concrete to mass timber, off-site modular and panelized building, on-site robots and 3D-printed concrete, low-carbon cement, BIM and delivery models — compared on where the work happens, what it actually changes, and how much capital it takes to start.",
+  "category": "Infrastructure and Transport",
+  "question": "What actually gets built faster or cheaper, and where does the saving come from?",
+  "title": "Construction Technology: A Practical Reference",
+  "lede": "Construction is one of the few large industries whose measured productivity has barely moved in fifty years, and most attempts to fix it have failed on the same two things: the work is a one-off project, and the money is spent before anyone knows whether it worked. This guide catalogs {{N_ENTRIES}} methods and systems across seven classes, with where the work happens, what each one actually changes, and what it takes in capital before the first unit ships.",
+  "unit": ["method", "methods"],
+  "groupLabel": "Class",
+  "explorerTab": "Method explorer",
+  "guideTab": "Selection guide",
+  "h2hTab": "Head-to-head",
+  "searchPlaceholder": "Search methods, materials, systems…",
+  "stats": [
+    { "count": "entries", "label": "methods" },
+    { "count": "parts", "label": "classes" },
+    { "count": "groups", "label": "families" }
+  ],
+  "parts": [
+    { "id": 1, "roman": "I", "name": "Structural Systems", "blurb": "what holds the building up", "color": "var(--p1)" },
+    { "id": 2, "roman": "II", "name": "Off-Site Manufacturing", "blurb": "build it in a factory and ship it", "color": "var(--p2)" },
+    { "id": 3, "roman": "III", "name": "On-Site Automation", "blurb": "machines doing trade work on the job", "color": "var(--p3)" },
+    { "id": 4, "roman": "IV", "name": "Envelope & Building Systems", "blurb": "the skin and the services inside it", "color": "var(--p4)" },
+    { "id": 5, "roman": "V", "name": "Materials & Carbon", "blurb": "the embodied emissions of the structure", "color": "var(--p5)" },
+    { "id": 6, "roman": "VI", "name": "Design, Data & Delivery", "blurb": "the model, the schedule, and the contract", "color": "var(--p6)" },
+    { "id": 7, "roman": "VII", "name": "Site Operations & Constraints", "blurb": "labor, code, and everything that slows it", "color": "var(--p7)" }
+  ],
+  "groupBlurbs": {
+    "Structural systems": "concrete, steel, and timber frames",
+    "Off-site production": "factories, panels, pods, and the trucks between",
+    "Site robotics": "automation that shows up at the job",
+    "Envelope & services": "facade, insulation, mechanical, and electrical",
+    "Low-carbon materials": "cement chemistry and what replaces clinker",
+    "Design & data": "models, capture, and computational design",
+    "Delivery & commercial": "contracts, estimating, and who carries the risk",
+    "Workforce & safety": "the people on site and what protects them",
+    "Rules & existing buildings": "code, permitting, and retrofit"
+  },
+  "facets": [
+    {
+      "id": "where",
+      "key": "where",
+      "label": "Where the work is",
+      "type": "single",
+      "color": "--fa",
+      "required": true,
+      "tip": "The single biggest structural difference in construction. Factory work is repeatable, weather-independent, and can be inspected once for a whole run, but it needs volume to fill a plant · On site absorbs variation for free and pays for it in productivity · Both means the method splits the work · Design phase means it happens before anyone breaks ground, which is where the cheapest changes are made.",
+      "order": ["offsite", "both", "site", "design"],
+      "options": {
+        "offsite": "Factory",
+        "both": "Both",
+        "site": "On site",
+        "design": "Design phase"
+      }
+    },
+    {
+      "id": "btype",
+      "key": "building",
+      "label": "Building type",
+      "type": "multi",
+      "color": "--fb",
+      "required": true,
+      "tagRow": 2,
+      "tip": "Where the method is used. This matters more than it looks: repetitive multifamily and hotel work is where off-site manufacturing has succeeded, one-off commercial is where it usually has not, and infrastructure runs on entirely different procurement.",
+      "order": ["res", "mf", "com", "ind", "infra"],
+      "options": {
+        "res": "Single-family",
+        "mf": "Multifamily & hotel",
+        "com": "Commercial",
+        "ind": "Industrial & data center",
+        "infra": "Infrastructure"
+      }
+    },
+    {
+      "id": "gain",
+      "key": "gains",
+      "label": "What it changes",
+      "type": "multi",
+      "color": "--fc",
+      "required": true,
+      "tip": "The claim being made. Ask which of these a vendor is actually selling, because the trade is usually explicit: modular buys schedule and pays in capital, low-carbon cement buys emissions and pays in cost, and site robots buy labor hours and pay in mobilization. A method claiming all five is worth a second look.",
+      "order": ["speed", "cost", "carbon", "labor", "quality"],
+      "options": {
+        "speed": "Schedule",
+        "cost": "Cost",
+        "carbon": "Carbon",
+        "labor": "Labor",
+        "quality": "Quality"
+      }
+    },
+    {
+      "id": "capital",
+      "key": "capital",
+      "label": "Capital to start",
+      "type": "single",
+      "color": "--fd",
+      "tip": "What it takes before the first job. Low means tools and training a subcontractor can buy · Medium means equipment on the order of a piece of plant · High means a factory, and a factory needs a pipeline of work to fill it, which is what has bankrupted most modular builders rather than any failure of the buildings themselves.",
+      "order": ["low", "med", "high"],
+      "options": {
+        "low": "Low",
+        "med": "Medium",
+        "high": "High"
+      }
+    },
+    {
+      "id": "mat",
+      "key": "maturity",
+      "label": "Maturity",
+      "type": "single",
+      "color": "--fe",
+      "required": true,
+      "tip": "Standard = ordinary practice, priced in every estimate · Growing = proven and spreading, with code and insurance mostly settled · Early = real projects built, still unusual and still carrying a novelty premium · Research = demonstrations only.",
+      "order": ["std", "grow", "early", "res"],
+      "options": {
+        "std": "Standard",
+        "grow": "Growing",
+        "early": "Early",
+        "res": "Research"
+      }
+    }
+  ],
+  "videosAfter": "Economic profile",
+  "extraSections": [
+    ["when to use", "When to use"],
+    ["key numbers", "Key numbers"],
+    ["examples", "Examples"],
+    ["economic profile", "Economic profile"],
+    ["further reading", "Further reading"]
+  ]
+}

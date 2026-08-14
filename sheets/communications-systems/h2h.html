@@ -1,0 +1,51 @@
+    <h2>Head-to-head: which link carries these bits</h2>
+    <p class="muted">The first question is which physical link moves the traffic at all. Options are ordered roughly by capacity per dollar once installed, and the usual answer is the cheapest one that clears the application's latency requirement and can actually be built on the schedule you have. The tables after it cover which band to hold, which orbit to buy capacity from, and what to put behind a cell site.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Link</th><th>Capacity</th><th>One-way latency</th><th>Time and cost to deploy</th><th>Pick it when</th></tr></thead>
+      <tbody>
+        <tr><td>Fiber</td><td>10–400 Gbps per wavelength typical, 800G and 1.6T shipping; 20–100+ Tbps per pair</td><td>5 microseconds per km, about 28 ms New York to London</td><td>6–24 months; roughly $30k per mile aerial, past $200k per mile buried in a city</td><td>The route will carry traffic for a decade and the right of way is obtainable. Everything else on this table is what you use until then.</td></tr>
+        <tr><td>Microwave and E-band</td><td>100 Mbps–1 Gbps at 6–38 GHz, 1–25 Gbps at 70/80 GHz</td><td>Under 100 microseconds per hop</td><td>2–6 weeks; $10k–50k per hop plus a link license</td><td>Line of sight exists, the span is under 5 km at E-band or 30 km lower down, and the link is needed this quarter.</td></tr>
+        <tr><td>5G fixed wireless</td><td>100–400 Mbps per subscriber</td><td>10–30 ms</td><td>Days to install a receiver; near zero marginal cost where the sector has headroom</td><td>The cell already covers the address and has spare capacity. It monetizes idle mid-band spectrum, which is also why it stops once the sector fills.</td></tr>
+        <tr><td>GEO satellite</td><td>5–200 Mbps per site, 100 Gbps–1 Tbps per satellite</td><td>About 120 ms per hop, 550–650 ms round trip in service</td><td>Terminal in days; $1,000–5,000 hardware, $100–500 per Mbps per month</td><td>A fixed site anywhere inside the beam and the traffic tolerates half a second. Broadcast and batch transfer are the natural fits.</td></tr>
+        <tr><td>LEO constellation</td><td>50–300 Mbps per terminal</td><td>10–25 ms, 20–50 ms round trip</td><td>Terminal in days; $350–2,500 hardware, $65–500 a month</td><td>You need broadband where fiber does not reach and latency matters, or the user is moving.</td></tr>
+        <tr><td>Free-space optical</td><td>1–10 Gbps terrestrial, 10–100 Gbps space to ground</td><td>Under 100 microseconds per hop</td><td>Days; $30k–100k per link pair</td><td>A short hop where no spectrum is available, or where the beam being hard to intercept is worth something. Budget an RF backup for fog.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2>Which spectrum band to hold</h2>
+    <p class="muted">Every wireless option above depends on holding spectrum, and the band decides how many sites a given coverage area needs. Auction clearing prices sit in the licensing column because they are the market's own statement of what a band is worth, and the spread across the ladder runs close to 100 to 1.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Band</th><th>Typical capacity</th><th>Range and penetration</th><th>Licensing</th><th>Pick it when</th></tr></thead>
+      <tbody>
+        <tr><td>Sub-1 GHz</td><td>10–150 Mbps per sector on 10–20 MHz</td><td>5–15 km rural cells, goes through walls</td><td>Exclusive national licenses, $0.90–1.30 per MHz-POP</td><td>Coverage per site is what drives the cost: rural build-out, in-building service, and low-rate IoT.</td></tr>
+        <tr><td>1–3 GHz</td><td>50–300 Mbps per sector on 20–40 MHz</td><td>2–5 km cells, workable penetration</td><td>Exclusive; AWS-3 cleared $2.72 per MHz-POP, the highest on record</td><td>You want one band that does coverage and capacity at once. The most contested rung of the ladder, and priced like it.</td></tr>
+        <tr><td>3–6 GHz</td><td>400 Mbps–1 Gbps per sector on 100 MHz</td><td>1–3 km cells, loses 15–25 dB through coated glass</td><td>Exclusive at $0.70–0.94 per MHz-POP; the CBRS shared tier cleared $0.21</td><td>Capacity is the constraint and a lower band already provides the coverage layer. The default 5G capacity band worldwide.</td></tr>
+        <tr><td>Millimeter wave</td><td>1–4 Gbps per sector, to 25 Gbps on a fixed link, on 400–800 MHz channels</td><td>150–300 m cells, no meaningful penetration</td><td>Exclusive, roughly $0.01–0.02 per MHz-POP</td><td>Traffic is concentrated in a bounded place: a stadium, a downtown block, or a fixed hop between two roofs.</td></tr>
+        <tr><td>Unlicensed</td><td>100 Mbps–5 Gbps per access point at 2.4, 5 and 6 GHz</td><td>10–50 m indoors</td><td>None. Power limits and coexistence rules instead</td><td>You control the building and will own the interference risk. The cheapest capacity available, with nothing guaranteeing it.</td></tr>
+        <tr><td>Optical</td><td>20–100+ Tbps per fiber pair across roughly 10 THz</td><td>80 km between amplifiers, thousands of km with them</td><td>No spectrum license; you buy right of way and permits</td><td>The requirement is measured in terabits. Nothing in radio competes at that scale, which is why nearly all traffic ends up here.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2>Which satellite orbit to buy from</h2>
+    <p class="muted">Altitude sets latency and coverage at the same time and in opposite directions: coverage per satellite falls roughly with the square of altitude, so a lower orbit means better latency and many more spacecraft to fund before the operator earns anything. This table is about buying the link and the service; the spacecraft side, meaning bus, payload, launch mass and constellation design, is on the space launch and satellites sheet.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Orbit</th><th>Latency</th><th>Coverage per satellite</th><th>Constellation size</th><th>Pick it when</th></tr></thead>
+      <tbody>
+        <tr><td>GEO</td><td>About 120 ms per hop, 550–650 ms round trip in service</td><td>About a third of the globe, no polar coverage</td><td>1–3 satellites for near-global service</td><td>Fixed sites, broadcast, or one large beam over a busy region, and half a second of delay is acceptable. One satellite is a whole business.</td></tr>
+        <tr><td>MEO</td><td>About 30 ms per hop, 100–150 ms round trip</td><td>Continental, roughly a sixth of the globe</td><td>8–20 satellites for global service</td><td>You want most of GEO's coverage economics with latency a video call survives. Cruise ships, offshore rigs and remote enterprise sites are the market.</td></tr>
+        <tr><td>LEO</td><td>2–5 ms per hop, 20–50 ms round trip</td><td>A moving footprint about 1,000 km across, visible from a given point for minutes</td><td>300–3,000+ for continuous global service</td><td>Latency matters or the user is moving, and there is capital to fund the whole constellation before the first dollar of revenue arrives.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2>Which backhaul for a cell site</h2>
+    <p class="muted">A cell is only as fast as the circuit behind it, and backhaul is where a large share of a mobile network's recurring cost lives. The decision is mostly about whether fiber already passes the site, because building it is the expensive answer and everything else on this table is a way of avoiding that.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Backhaul</th><th>Capacity</th><th>Install time</th><th>Monthly cost</th><th>Pick it when</th></tr></thead>
+      <tbody>
+        <tr><td>Dark fiber</td><td>Whatever your own optics do, 10–400 Gbps</td><td>6–18 months if it has to be built, weeks if it is already there</td><td>Roughly $500–1,500 per site on a long lease, or an IRU paid up front</td><td>The site will carry 10 Gbps or more for a decade and you want to control the upgrade path yourself.</td></tr>
+        <tr><td>Leased Ethernet</td><td>1–10 Gbps</td><td>60–120 days where fiber already passes</td><td>$500–4,000 depending on committed rate</td><td>Fiber passes the site and buying a circuit beats building one. The default in dense US and European markets.</td></tr>
+        <tr><td>Microwave</td><td>100 Mbps–1 Gbps at 6–38 GHz</td><td>2–6 weeks including the link license</td><td>License fees and rooftop rent only, usually a few hundred dollars</td><td>No fiber within reach and 1 Gbps covers the site for the length of the lease. Still carries most cell sites outside North America.</td></tr>
+        <tr><td>E-band</td><td>1–25 Gbps at 70/80 GHz</td><td>1–4 weeks, light-touch registration</td><td>Registration is nominal; rooftop rent dominates</td><td>There is 1–5 km of line of sight to a fiber point of presence and the site needs multiple gigabits now rather than next year.</td></tr>
+        <tr><td>Satellite</td><td>5–200 Mbps</td><td>Days</td><td>$500–3,000</td><td>The site is genuinely unreachable: an island, a mountain, or restoration after a cut. Use a low-orbit service if the cell carries interactive traffic.</td></tr>
+      </tbody>
+    </table></div>

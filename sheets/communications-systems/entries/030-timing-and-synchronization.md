@@ -1,0 +1,37 @@
+---
+number: 30
+name: Timing and Synchronization
+part: 6
+group: Equipment & timing
+reach: [short, global]
+capacity: [kbps]
+latency: sub
+maturity: dep
+---
+
+## Description
+A network needs two different things from a clock, and they cost different amounts to deliver. Frequency synchronization means every transmitter runs at the same rate, and 3GPP asks for ±0.05 parts per million at a macro base station and ±0.1 at a micro or pico cell. Phase and time synchronization means every transmitter agrees on when a moment is, and that is the hard one: 5G time-division duplex needs neighboring cells aligned to within about 3 microseconds of each other, which operators build as ±1.5 microseconds against a common reference. GPS is where nearly all of that reference comes from, because a $50 to $300 receiver module recovers UTC to tens of nanoseconds anywhere with a view of the sky, and no other source is remotely that cheap. Two mechanisms distribute it once you have it. Synchronous Ethernet, defined in ITU-T G.8262, carries frequency in the physical line rate itself, so it does not degrade under traffic load but carries no notion of time of day. Precision Time Protocol, IEEE 1588 in the telecom profile ITU-T G.8275.1, carries phase and time in timestamped packets, and it works only because every switch and router in the path acts as a boundary clock that removes its own queuing delay; the partial-support profile G.8275.2, which tolerates nodes that do not participate, is far harder to hold inside budget.
+
+## Strengths and weaknesses
+GPS timing is close to free, globally available, and traceable to national timescales, which is why it displaced the older practice of distributing frequency down the transmission hierarchy from a cesium standard in a central office. Its weakness is the received signal, which arrives around −160 dBW and is trivially jammed or spoofed; the sensing and navigation sheet covers the receiver and its defenses in detail. When GPS goes away, a site runs on its own oscillator, and holdover is arithmetic: time error equals fractional frequency offset times elapsed time, so an oven-controlled crystal holding 1 part in 10¹⁰ drifts 1.5 microseconds in 15,000 seconds, about four hours, while a rubidium at 1 part in 10¹¹ lasts around 42 hours and a cesium at 1 part in 10¹³ lasts months (derived here). The second weakness is that phase synchronization is a property of the whole path, not of a box: one switch in the chain that is not a boundary clock can add hundreds of nanoseconds of variable delay and there is no way to calibrate it out. The third is that timing failures are quiet. A cell whose phase has drifted does not stop; it interferes with its neighbors, throughput falls, and the alarm that fires is usually about capacity.
+
+## When to use
+If you run a frequency-division network or a transport network, Synchronous Ethernet plus a GPS reference at a few sites is usually enough, and you can leave phase alone. If you run 5G time-division duplex, you need phase, and the decision is where the reference lives: put a GPS receiver at every site if the antenna placement is easy and you accept a jamming exposure at every site, or run G.8275.1 from a small number of grandmasters if every node between them and the cells is already a boundary clock. If any node in the path is not, do not plan on the partial-support profile as a first choice; upgrade the path during the next hardware refresh instead, because retrofitting boundary clocks one node at a time is the expensive way to do it. Size holdover against the outage you actually expect to ride out: an oven-controlled oscillator for four hours of margin, rubidium if you need to survive a day or two of jamming or a fiber cut, and a cesium primary reference only where a site is meant to be autonomous. Outside telecom the questions are the same and only the tolerance changes, since MiFID II requires trading systems to hold 100 microseconds of UTC and synchrophasors in a substation need about a microsecond. And test the failure explicitly, because a network that has never lost GPS has never demonstrated holdover.
+
+## Key numbers
+Frequency accuracy ±0.05 ppm at a macro base station, ±0.1 ppm at micro and pico (3GPP TS 38.104) · 5G TDD needs neighboring cells within about 3 microseconds, built as ±1.5 microseconds to a common reference · GPS recovers UTC to tens of nanoseconds from a $50–300 receiver module · holdover to 1.5 microseconds is about 4 hours at 1 part in 10¹⁰, 42 hours at 1 part in 10¹¹, months at 1 part in 10¹³ (derived here) · G.8275.1 assumes every node is a boundary clock; G.8275.2 tolerates nodes that are not · GPS signals arrive at roughly −160 dBW · MiFID II requires 100 microseconds of UTC for high-frequency trading and synchrophasors need about 1 microsecond.
+
+## Examples
+ITU-T G.8275.1 and G.8262, the two recommendations nearly every mobile operator's synchronization plan is written against; IEEE 1588-2019 as the underlying protocol; the GPS receiver on almost every macro cell site, substation and trading venue; the UK Government Office for Science Blackett review, which cataloged national dependence on satellite time; MiFID II RTS 25, which forced timestamping to 100 microseconds of UTC across European trading; IEEE C37.118 synchrophasors, which need about a microsecond; and alternative sources sold against GPS outage, including eLoran, Satelles satellite time and location, and White Rabbit fiber time transfer.
+
+## Economic profile
+Timing is a small line item that gates a large one, which is the whole reason it gets underfunded. A GPS timing module is $50 to $300, a site grandmaster with an oven-controlled oscillator runs a few thousand dollars, one with rubidium runs into the tens of thousands, and a cesium primary reference is a six-figure purchase before installation. Against that, the asset being protected is a macro site carrying revenue-generating traffic and the spectrum license behind it, so the sensible way to think about the spend is as insurance priced against hours of degraded capacity. The expensive part is never the clock itself; it is the distribution path, because G.8275.1 requires boundary-clock support in every switch and router between the grandmaster and the cell, and upgrading a transport network node by node costs far more than the timing equipment. That is why operators do phase synchronization as part of a hardware refresh rather than as a project. Governments pay for GPS and every network consumes it free, which has left almost no commercial market for alternatives: eLoran, satellite time services and fiber time transfer all sell at thousands of dollars per site per year against a receiver that costs a hundred dollars once, so buyers so far are the few operators of critical infrastructure with a regulator asking about the failure.
+
+## Videos
+
+- https://www.youtube.com/watch?v=Forh3XfD_Ec — How a PTP slave syncs with a PTP master (David Gessner, 15 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=pCNvHlhcGJU — Introduction to Precision Time Protocol (PTP) for Network Synchronization (Cisco Industrial IoT, 18 minutes, 10k+ views)
+
+## Further reading
+
+[G.8275.1: Precision time protocol telecom profile for phase/time synchronization with full timing support from the network (ITU-T)](https://www.itu.int/rec/T-REC-G.8275.1) · [Satellite-derived time and position: Blackett review (UK Government Office for Science)](https://www.gov.uk/government/publications/satellite-derived-time-and-position-blackett-review)

@@ -1,0 +1,74 @@
+    <h2>How to choose a power converter</h2>
+    <p class="muted">Two questions settle most of it. <b>Voltage class picks the device technology</b> before anything else does, because on-resistance and switching behavior both change character as the blocking voltage rises. Then <b>the balance between conduction loss and switching loss sets the switching frequency</b>, frequency sets the size of the magnetics, and the magnetics usually set the size of the box. Most other arguments in power electronics reduce to one of those two.</p>
+
+    <h3>Voltage class decides the device</h3>
+    <p>A silicon MOSFET's on-resistance per unit die area rises roughly as the 2.5 power of its blocking voltage, and the penalty compounds fast: 600 V to 1,200 V costs about six times the die area for the same resistance, and 100 V to 1,200 V costs roughly five hundred times. That is why the silicon part sold above roughly 600–900 V is an IGBT rather than a MOSFET: it injects minority carriers to hold the forward drop near 1.5–2 V whatever the rating, at the cost of a slow tail current at turn-off. Silicon carbide's critical breakdown field is about ten times silicon's, and on-resistance scales with the cube of that field, so the theoretical limit at 1,200 V sits two to three orders of magnitude lower. Real devices land well short of the theory, but a SiC MOSFET still conducts like a resistor where an IGBT has a knee voltage that never goes away.</p>
+    <div class="bands">
+      <div class="band"><div class="bt">Under 100 V</div><div class="bv">Silicon MOSFET, or GaN where size is worth paying for. On-resistance is cheap here, so frequency runs from 100 kHz into the megahertz. Battery packs, 48 V rails, processor power.</div></div>
+      <div class="band"><div class="bt">100–1,000 V</div><div class="bv">The contested band, and most of the market by revenue. Superjunction silicon, 650 V GaN, 650–1,200 V SiC and IGBTs all compete for solar, EV traction and offline supplies.</div></div>
+      <div class="band"><div class="bt">1–35 kV</div><div class="bv">1.7 and 3.3 kV IGBT modules, 1.7 kV SiC. Past about 3.3 kV a single device gets slow and expensive, so designs divide the voltage across more devices instead.</div></div>
+      <div class="band"><div class="bt">Above 35 kV</div><div class="bv">No device blocks it alone. Series strings, IGCTs and thyristors in press-pack stacks, or a modular multilevel converter with hundreds of cells per arm.</div></div>
+    </div>
+
+    <h3>Conduction loss against switching loss</h3>
+    <p>Loss in a switch is conduction plus switching, and only one of the two depends on frequency. Conduction loss is I²R in a MOSFET and roughly current times a fixed knee voltage in an IGBT, and it is there whether you switch at 2 kHz or 200 kHz. Switching loss is the energy burned in each transition multiplied by how many transitions you make per second, so it is linear in frequency. You raise the frequency until total loss hits what the heatsink and the junction temperature allow, then stop. The device sets where you stop: a silicon IGBT drive runs at 2–16 kHz because the tail current makes each turn-off expensive, a SiC MOSFET has no tail and sits comfortably at 20–100 kHz, and a GaN HEMT has no body diode and no reverse recovery charge at all, so several hundred kilohertz is ordinary at low power.</p>
+    <p>Frequency matters because it sizes the magnetics. A transformer or inductor is sized by the volt-seconds it absorbs in one switching cycle, so raising the frequency 5x shrinks the core by roughly 2–3x rather than the full 5x, because core loss climbs faster than frequency and you have to run a smaller flux swing to compensate. The DC-link capacitor shrinks with frequency too. Magnetics, capacitors and heatsink are usually most of the volume of a converter, which is why "we switch faster" and "our box is a third the size" are the same claim. Switching faster costs you EMI and dv/dt: SiC edges of 10–20 V/ns will degrade motor winding insulation and push current through bearings unless the design handles it, and the filter that fixes it gives back some of the volume you just saved.</p>
+
+    <h3>Technical factors</h3>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Factor</th><th>Why it matters</th></tr></thead>
+      <tbody>
+        <tr><td>Voltage margin</td><td>Cosmic-ray-induced failure rates climb steeply near the rated voltage, so devices usually run at 60–70% of it. A 1,200 V part is an 800 V bus part in practice.</td></tr>
+        <tr><td>Switching frequency</td><td>Sets magnetics and capacitor volume, and with them most of the size, weight and cooling. It is the first number to fix after the device.</td></tr>
+        <tr><td>Gate drive</td><td>SiC needs about +15/−3 V held to tight tolerance and GaN needs roughly 6 V with very little margin above it. Isolated drivers need 100 kV/µs common-mode immunity to survive the edges they create.</td></tr>
+        <tr><td>Loop inductance</td><td>20 nH of commutation loop at 1,000 A/µs is a 20 V overshoot, and SiC reaches 5–10 kA/µs. Layout and module internals decide how fast the design is allowed to switch.</td></tr>
+        <tr><td>Thermal path</td><td>Junction-to-coolant resistance sets how much of the rating is usable. A smaller SiC die makes this harder, not easier, because the same watts leave through less area.</td></tr>
+        <tr><td>Short-circuit withstand</td><td>Silicon IGBTs are specified for 10 µs, SiC MOSFETs for 2–3 µs, GaN for under a microsecond. Detection and turn-off have to get faster as the device gets better.</td></tr>
+        <tr><td>Reverse recovery</td><td>A superjunction MOSFET's body diode recovers badly, which is why it lives in resonant topologies. GaN has no body diode at all, but reverse conduction costs 2–3 V, so dead time is expensive.</td></tr>
+        <tr><td>dv/dt and EMI</td><td>Fast edges couple into motor insulation, bearings, common-mode chokes and the conducted emissions limit you have to pass. Filter volume is part of the trade, not an afterthought.</td></tr>
+        <tr><td>DC-link capacitors</td><td>Sized by ripple current and lifetime rather than capacitance. Film parts dominate traction because they self-heal and take ripple; electrolytics are cheaper and age faster.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h3>Commercial and strategic factors</h3>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Factor</th><th>Why it matters</th></tr></thead>
+      <tbody>
+        <tr><td>Automotive qualification</td><td>AEC-Q101 plus PPAP takes a device from sample to production in roughly 2–4 years, and the design win then holds for a 5–8 year platform. That is a moat for incumbents and a funding problem for entrants.</td></tr>
+        <tr><td>SiC substrate cost</td><td>A SiC boule grows by vapor transport at a fraction of a millimeter an hour and gives a few dozen wafers per run. A silicon boule is pulled at 1–2 mm a minute and gives thousands. Substrate is a large share of SiC die cost and it falls slowly.</td></tr>
+        <tr><td>150 to 200 mm transition</td><td>A 200 mm wafer has 1.8x the area and close to twice the usable die once edge exclusion is counted. Whoever reaches yield there first has a structural cost advantage, and the move has run later than announced.</td></tr>
+        <tr><td>Capacity commitments</td><td>Multi-year wafer prepayments were signed against EV growth forecasts that did not arrive. Ask what a long-term supply agreement obliges the buyer to take, at what price, and what happens if it does not.</td></tr>
+        <tr><td>Where margin sits</td><td>Semiconductors are typically 15–25% of an inverter's bill of materials. Device makers hold the highest gross margins, module makers and integrators lower ones on more revenue, so a 30% device price cut moves the system price under 10%.</td></tr>
+        <tr><td>Interconnection rules</td><td>Nothing grid-facing sells in the US without certification to IEEE 1547-2018 through UL 1741 SB. Requalification after a firmware change is a schedule item, and the rules differ by country.</td></tr>
+        <tr><td>Efficiency regulations</td><td>80 PLUS Titanium asks for 96% at half load, and EU ecodesign sets floors for external supplies and servers. These create demand for GaN and SiC that price alone would not.</td></tr>
+        <tr><td>Warranty term</td><td>Solar inverters carry 10–25 years and EV powertrains 8–10, which makes reliability a balance-sheet number. A 1% annual field failure rate across 100,000 units is 1,000 service calls a year, priced into the reserve.</td></tr>
+        <tr><td>Second sourcing</td><td>Volume buyers will not design in a part with one supplier. A device business that cannot be second sourced stays in niches however good the device is.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2>Where the wide-bandgap premium comes back</h2>
+    <p>A SiC die costs several times a silicon die of the same rating, so the premium has to be recovered somewhere else in the system or the design does not ship. In practice there are four places it comes back. Smaller magnetics and a smaller DC link, because the converter switches faster. A smaller heatsink or a simpler coolant loop, because the losses are lower. A smaller battery for the same range, because inverter loss over a drive cycle is worth kilowatt-hours of cells. And fewer cabinets on a site, because each enclosure carries more power. The EV case is the clearest one: vendors usually claim 5–10% more range for the same pack, and even at the low end 5% of a 75 kWh pack is close to 4 kWh, or $300–500 of cells against roughly $100–250 of extra device cost, and it compounds because a lighter car then needs less energy again.</p>
+    <p>Where none of those four apply, silicon still wins, and that covers most of the market by unit volume. A 400 V industrial drive switching at 4 kHz spends most of its loss on conduction, so a faster device buys almost nothing. A consumer supply decided on bill of materials will not pay a premium for two points of efficiency. A central inverter sitting in a field has no size constraint worth money. A good test is to name the specific part that gets smaller or cheaper and put a dollar figure on it. If the answer is efficiency in the abstract, the premium does not come back.</p>
+
+    <h2>Core takeaway</h2>
+    <div class="callout">
+      <p>Fix the voltage class first, because it decides the device and most of what follows from it. Then set the switching frequency from where conduction loss and switching loss balance at the temperature you can actually cool to, and accept that the magnetics falling out of that number are most of the size of the box. Reach for silicon carbide or gallium nitride when you can name the part of the system that gets smaller or cheaper as a result and price it, and use silicon everywhere else, which is still most places.</p>
+    </div>
+
+    <h3>Key questions for technical decisions</h3>
+    <ul class="qlist">
+      <li>What does the device have to block including transients, and how much margin is left after derating?</li>
+      <li>At the intended switching frequency, what fraction of the loss is conduction and what fraction is switching?</li>
+      <li>How large are the magnetics and the DC-link capacitor, and what would doubling the frequency do to them?</li>
+      <li>What is the commutation loop inductance, and what dv/dt does the design produce at the load terminals?</li>
+      <li>How long can this device hold a short circuit, and how fast does the protection detect one and turn it off?</li>
+    </ul>
+
+    <h3>Key questions for investment and business analysis</h3>
+    <ul class="qlist">
+      <li>Which part of the system gets smaller or cheaper because of the wide-bandgap device, and what is that worth?</li>
+      <li>Is the part AEC-Q101 qualified and through PPAP, and how many years of the platform's life remain?</li>
+      <li>What does a usable die cost off the substrate today, and what does the plan assume it costs in three years?</li>
+      <li>Has this converter been certified to IEEE 1547 through UL 1741 SB, or is that gate still ahead of it?</li>
+      <li>What is the warranty term, what field failure rate does the reserve assume, and who is the second source?</li>
+    </ul>

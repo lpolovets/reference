@@ -1,0 +1,85 @@
+    <h2>How to judge a medical device</h2>
+    <p class="muted">Medical hardware is judged on two axes that barely interact: whether the physics works, and whether a hospital can bill for it. Two rules cover most of it. First, <b>a modality is chosen by contrast mechanism rather than by resolution</b>. PET resolves only 4–5 mm and is still the right answer for cancer staging, because it detects tracer at picomolar concentrations and nothing else does. Second, <b>a device with no payment pathway does not get bought</b>, however well it images, while a mediocre device with a usable predicate and an established code often does.</p>
+
+    <h3>What a modality resolves, and what it cannot see</h3>
+    <p>Every modality measures one physical property and is blind to everything else. X-ray and CT measure electron density, so bone, air, and iodinated contrast separate cleanly, and two soft tissues differing by 1% in attenuation do not. MRI measures proton relaxation, which varies enormously between soft tissues, so it separates gray from white matter and marrow from tumor. It sees essentially nothing in cortical bone or aerated lung, where there are no mobile protons to relax. Ultrasound measures acoustic impedance changes and stops dead at bone or gas, which is why the abdomen is easy and the adult brain and the lung are not. Nuclear imaging measures where an injected molecule went, and gives up spatial resolution to do it: PET resolves 4–5 mm and SPECT 8–10 mm, roughly ten times worse than CT, in exchange for detecting concentrations a million times lower than MRI contrast needs. Optical methods resolve micrometers and reach 1–3 mm. Ask which property the clinical question depends on before asking which scanner is best.</p>
+
+    <h3>The dose ladder</h3>
+    <p>Radiation dose is the most misquoted set of numbers in the field, usually because someone compares a single projection against a whole CT study, or quotes an organ dose as if it were an effective dose. The useful anchor is natural background, about 3 mSv per year in the US from radon, cosmic rays, and the ground. The figures below are effective dose for a typical adult study. A large patient or an extra contrast phase can double them, and pediatric protocols cut them substantially.</p>
+    <div class="bands">
+      <div class="band"><div class="bt">Zero</div><div class="bv">Ultrasound and MRI. No ionizing radiation at all, which is why both are the default in pregnancy and in young patients.</div></div>
+      <div class="band"><div class="bt">0.1 mSv</div><div class="bv">Chest radiograph, two views. About 10 days of background. A dental bitewing is roughly 20 times lower again.</div></div>
+      <div class="band"><div class="bt">0.4 mSv</div><div class="bv">Screening mammogram, both breasts. About seven weeks of background, given to healthy women every one or two years.</div></div>
+      <div class="band"><div class="bt">5–7 mSv</div><div class="bv">Chest CT. Two years of background in about ten seconds of scanning. Low-dose lung screening CT runs 1–2 mSv.</div></div>
+      <div class="band"><div class="bt">8–10 mSv</div><div class="bv">Abdomen and pelvis CT. Three years of background, and more again if the study runs with and without contrast.</div></div>
+      <div class="band"><div class="bt">10–15 mSv</div><div class="bv">PET/CT and cardiac SPECT. The tracer contributes roughly 7 mSv and the CT the rest, depending on whether it is a low-dose attenuation scan or a diagnostic one.</div></div>
+    </div>
+
+    <h3>Two routes to market: a predicate or a trial</h3>
+    <p>Almost every device in the US reaches the market one of two ways. A 510(k) argues that the device is substantially equivalent to something already cleared, which means bench testing, biocompatibility, and a comparison table; clinical data appears in roughly one submission in ten. FDA's review clock is 90 days and calendar time to a decision is usually 4–8 months once holds are counted. The user fee is around $25,000 and a realistic all-in program cost is $100,000 to $500,000. A PMA argues from evidence instead: a pivotal trial, typically 300 to 1,000 patients, randomized or run against a performance goal, plus a manufacturing inspection. That is 3 to 7 years and $10–100M, and the user fee alone is roughly $540,000. About 3,000 devices clear by 510(k) each year and a few dozen get a PMA. The route follows the risk class rather than how novel the technology feels, so which classification a company aims at is often its single largest cost decision. De Novo sits between the two, for a device with no predicate but genuinely moderate risk; it takes 9–18 months and creates the classification that every follower then uses as a predicate.</p>
+
+    <h3>Clearance is not payment</h3>
+    <p>FDA decides whether a device may be sold. Medicare and the private payers decide whether anyone gets paid for using it, and those are separate processes on separate clocks. The mechanism is the CPT code. A new procedure usually starts with a Category III code, which is a tracking code: it carries no assigned value, payment is left to each payer's discretion, and in practice most claims are denied or paid at a token amount. Category III codes sunset after five years unless converted. Converting to a Category I code requires FDA clearance for the indication, use by many providers across many locations, and published peer-reviewed evidence, and the AMA panel that decides meets three times a year. Three to five years from first Category III code to a valued Category I code is a normal timeline, and plenty of codes never make it. The distinction that matters for a new device is whether it slots into an existing payment or needs a new one. A better stent that bills under the existing stent code sells on its merits from day one. A device that creates a new procedure has a revenue problem with nothing to do with whether it works.</p>
+
+    <h3>What it costs to own, and who signs for it</h3>
+    <p>Capital cost matters less as a number than as a threshold, because the price band decides who approves the purchase. Under about $50,000 a department head buys it out of an operating budget. Between roughly $50,000 and $500,000 it needs a business case and a department budget cycle. Above about $500,000 it goes to the hospital capital committee, which meets on an annual budget and ranks every request across the whole institution against a capital budget that is typically 4–8% of net revenue at an organization running a 1–4% operating margin. Anything needing a room rather than a cart adds a construction project: an MRI needs RF shielding, a quench pipe, and a floor that carries the magnet, commonly $500,000 to $1.5M on top of the scanner. That threshold is why portable versions of expensive modalities keep getting funded, and why a $3,000 handheld ultrasound spreads through a hospital in a year while a $2M scanner takes three.</p>
+    <p>Then the machine has to run. A service contract costs 8–12% of capital per year, so a $2M scanner carries $160,000–240,000 annually before staff, and over a ten-year life the hospital pays roughly as much for service as for the equipment. Service is where the imaging manufacturers make most of their margin, which is why third-party service and parts access are a persistent fight. On the revenue side, utilization is the number that turns a scanner into a business: an MRI at 30–60 minutes per study does 8–16 patients on one shift and 25 or more with short protocols and extended hours, while a CT at 5–15 minutes of room time does 20–40. Both cost almost the same per day whether they scan four patients or twenty-four, so the difference between a profitable scanner and a bad purchase is usually referral volume and scheduling rather than the technology.</p>
+
+    <h3>Screening is a different product from diagnosis</h3>
+    <p>A diagnostic claim says the device measures something accurately in patients who already have a reason to be tested, and a few hundred patients against a reference standard will support it. A screening claim says that testing healthy people changes their outcome, and the only evidence that settles it is a trial in an asymptomatic population, powered on mortality, run for years. The National Lung Screening Trial enrolled about 53,000 people and ran eight years to show a 20% reduction in lung cancer mortality from low-dose CT. That is the most expensive trial in medicine, and it is why so few screening tests exist. The payoff in the US is specific: a USPSTF grade A or B recommendation obliges commercial plans to cover the test with no cost sharing, which turns a screening indication into a very large recurring market. Anyone claiming a screening use with only diagnostic-accuracy data is describing a study they have not run.</p>
+
+    <h3>Technical factors</h3>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Factor</th><th>Why it matters</th></tr></thead>
+      <tbody>
+        <tr><td>Contrast mechanism</td><td>Each modality measures one property. Pick by whether the disease changes that property, not by which scanner has the finest pixels.</td></tr>
+        <tr><td>Resolution against sensitivity</td><td>PET resolves 4–5 mm and detects tracer at picomolar concentration; MRI resolves 1 mm and needs millimolar. Every modality trades these two against each other.</td></tr>
+        <tr><td>Depth against frequency</td><td>In ultrasound and optics, resolution improves with frequency and penetration falls with it. A 15 MHz probe resolves 0.1 mm and reaches 4 cm; a 3 MHz probe reaches 25 cm and resolves 0.5 mm. No setting does both.</td></tr>
+        <tr><td>Scan time and motion</td><td>A CT freezes the heart in one rotation; an MRI sequence lasting minutes needs breath-holds or gating. Study time also sets throughput, which sets the economics.</td></tr>
+        <tr><td>Dose accumulation</td><td>The question is rarely one scan. Repeat imaging in a young patient, or annual screening across a population, is where dose actually matters.</td></tr>
+        <tr><td>Contrast agents</td><td>Iodinated CT contrast carries renal and allergic risk, gadolinium is retained in tissue, and both add cost, a consent conversation, and an IV line. Answering the question without contrast is a real advantage.</td></tr>
+        <tr><td>Siting and infrastructure</td><td>MRI needs RF shielding, a quench pipe, and floor loading. PET needs a hot lab and a supply route sized to a 110-minute half-life. A linac needs a concrete vault. The install is often a bigger project than the purchase.</td></tr>
+        <tr><td>Operator dependence</td><td>Ultrasound and endoscopy record whatever the operator found. Cross-sectional imaging produces a dataset another reader can review later, which changes training, liability, and how well a study travels.</td></tr>
+        <tr><td>Workflow integration</td><td>A result that does not land in PACS and the EHR inside the radiologist's normal reading workflow gets used for a few months and then stops. This kills more good software than accuracy does.</td></tr>
+        <tr><td>Implant longevity</td><td>For anything left inside a patient, design life comes from battery capacity, lead fracture, and the tissue response at the interface, measured over 5 to 15 years rather than on the bench.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h3>Commercial and strategic factors</h3>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Factor</th><th>Why it matters</th></tr></thead>
+      <tbody>
+        <tr><td>Installed base</td><td>The US has roughly 14,000 CT scanners and 13,000 MRI systems on a 7–12 year replacement cycle. A new entrant is arguing that a hospital should scrap a working machine early, or that it should wait for the cycle. Both are slow.</td></tr>
+        <tr><td>Who actually buys</td><td>Purchasing runs through group purchasing organizations (Vizient, Premier, HealthTrust) and integrated delivery networks negotiating for hundreds of hospitals at once. Most US hospital supply spend flows through a GPO contract, with the supplier paying a 1–3% admin fee. A product that is not on contract usually never reaches an evaluation.</td></tr>
+        <tr><td>Razor and blade</td><td>Where the model works, the consumable carries the margin and the capital sale is close to a placement. Intuitive Surgical takes roughly four fifths of its revenue from instruments, accessories, and service rather than from systems. Ablation, endoscopy, and glucose monitoring have the same shape; CT and MRI do not, which is why those vendors lean on service instead.</td></tr>
+        <tr><td>Service contracts</td><td>8–12% of capital per year at gross margins well above the equipment. Over a ten-year life it roughly doubles what the hospital pays, and it is why manufacturers resist third-party service and independent parts access.</td></tr>
+        <tr><td>Reimbursement history</td><td>Medicare imaging payment has been cut repeatedly since 2005: the Deficit Reduction Act capped office imaging rates, the multiple-procedure reduction cut second and subsequent scans, and the assumed equipment utilization rate rose from 50% to 90%, which mechanically cut the technical component. Payment per study is far below its 2006 peak in real terms, and a model assuming today's rate holds for ten years is optimistic.</td></tr>
+        <tr><td>Staff supply</td><td>About 38,000 US radiologists read a volume growing 3–5% a year while their own number grows 1–2%, and technologist vacancy rates have run 15–18%. Volume is limited by staff rather than by scanners, which is the strongest argument for anything that raises reads per hour and the reason anything adding work to a radiologist's day is a hard sell.</td></tr>
+        <tr><td>Who pays for an algorithm</td><td>FDA has authorized more than 1,000 AI-enabled devices, about three quarters of them in radiology, and only a handful have payment of their own. The default is that software is bundled into the existing procedure payment, so the vendor is selling the hospital a new cost and has to show a saving somewhere else. Per-study pricing is the exception.</td></tr>
+        <tr><td>Capital committees</td><td>Large purchases are approved once a year against a fixed budget, ranked against everything else the institution wants. A sales cycle that misses the budget window waits twelve months, so timing matters as much as price, and an operating-expense model that avoids the committee is often worth a lower headline price.</td></tr>
+        <tr><td>Vendor concentration</td><td>GE HealthCare, Siemens Healthineers, and Philips take most of the global imaging equipment revenue, with Canon, Fujifilm, and Hologic strong in specific segments and United Imaging pricing hard into new markets. A startup usually sells a subsystem to one of them or gets acquired, because a direct hospital channel is expensive to build for a single product.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2>Core takeaway</h2>
+    <div class="callout">
+      <p>Pick the modality by which physical property the disease changes, then check the two numbers that decide whether it can be used at all: dose per study, and minutes of room time. On the business side, work the payment question first. Ask which CPT code the procedure bills under today, what that pays, and whether the device fits inside it or needs a new code, because needing a new one adds three to five years and a body of published evidence before revenue starts. The devices that spread fastest improve a procedure that is already being done and already paid for. The ones that stall are usually good technology attached to a procedure nobody has agreed to pay for yet.</p>
+    </div>
+
+    <h3>Key questions for technical decisions</h3>
+    <ul class="qlist">
+      <li>Which physical property does this measure, and does the disease actually change it?</li>
+      <li>What is the effective dose per study, and how many studies will one patient in this pathway get?</li>
+      <li>How many minutes of room time does a study take, start to finish, including patient handling?</li>
+      <li>What does the site need before install: shielding, a quench pipe, floor loading, a hot lab, a vault?</li>
+      <li>Where does the result land, and does the radiologist have to leave the reading workflow to see it?</li>
+    </ul>
+
+    <h3>Key questions for investment and business analysis</h3>
+    <ul class="qlist">
+      <li>Which risk class, which predicate, and what evidence did that predicate's own submission contain?</li>
+      <li>Which CPT code does this bill under today, what does it pay, and who assigned that value?</li>
+      <li>What is the consumable revenue per procedure, and what share of total revenue is it at scale?</li>
+      <li>Which GPO contracts is it on, and what is the replacement cycle of the equipment it displaces?</li>
+      <li>Whose budget does the money come from, and does the purchase need capital committee approval?</li>
+    </ul>

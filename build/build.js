@@ -623,6 +623,17 @@ if (ARTIFACT_SLUG) {
   const missingIntro = CATEGORY_DATA.filter(c => !c.intro || !c.intro.trim()).map(c => c.name);
   if (missingIntro.length)
     throw new Error('shared/categories.json: no intro for ' + missingIntro.join(', '));
+  // Same reasoning one step further: glyph() returns '' for an unknown slug and
+  // the card simply loses its icon, which is the right runtime behavior for a
+  // sheet whose glyph has not been drawn yet and a silent regression the rest of
+  // the time. It caught a real one on 2026-08-14: inserting a new entry into
+  // GLYPHS overwrote the quantum-technologies key, and 28 icons where there
+  // should be 29 is not something anyone notices by looking. The reverse check
+  // is deliberately absent — a glyph with no sheet is what an in-progress sheet
+  // looks like, and failing on it would block exactly the workflow it describes.
+  const missingGlyph = all.map(({ sheet }) => sheet.slug).filter(s => !glyph(s));
+  if (missingGlyph.length)
+    throw new Error('build/glyphs.js: no glyph for ' + missingGlyph.join(', '));
   const sections = catOrder.map(cat =>
     '<h2 class="cathdr">' + esc(cat) + '</h2>\n' +
     (CATEGORY_INTRO.has(cat) ? '<p class="catlede">' + esc(CATEGORY_INTRO.get(cat)) + '</p>\n' : '') +

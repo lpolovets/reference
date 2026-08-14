@@ -1,0 +1,132 @@
+{
+  "slug": "power-electronics",
+  "docTitle": "Power Electronics Reference",
+  "shortTitle": "Power Electronics",
+  "blurb": "Silicon, silicon carbide and gallium nitride switches, the converter topologies built from them, and the inverters, drives, chargers and power supplies they end up in — compared on voltage class, power level, switching loss, and what each one costs per kilowatt.",
+  "category": "Energy",
+  "question": "Which switch, which topology, and what does it cost per kilowatt?",
+  "title": "Power Electronics: A Practical Reference",
+  "lede": "Almost every electron between a solar panel and a motor passes through a switching converter, and the choice of switch sets most of the system's cost, size and efficiency. This guide catalogs {{N_ENTRIES}} devices, topologies and converters across seven classes, with the voltage and power each one suits, where silicon is still the cheap answer, and where silicon carbide or gallium nitride pays for its premium.",
+  "unit": ["device", "devices"],
+  "groupLabel": "Class",
+  "explorerTab": "Device explorer",
+  "guideTab": "Selection guide",
+  "h2hTab": "Head-to-head",
+  "searchPlaceholder": "Search devices, topologies, converters…",
+  "stats": [
+    { "count": "entries", "label": "devices" },
+    { "count": "parts", "label": "classes" },
+    { "count": "groups", "label": "families" }
+  ],
+  "parts": [
+    { "id": 1, "roman": "I", "name": "Switching Devices", "blurb": "the transistor that does the work", "color": "var(--p1)" },
+    { "id": 2, "roman": "II", "name": "Packaging & Passives", "blurb": "everything around the die", "color": "var(--p2)" },
+    { "id": 3, "roman": "III", "name": "Converter Topologies", "blurb": "how the switches are arranged", "color": "var(--p3)" },
+    { "id": 4, "roman": "IV", "name": "Control & Protection", "blurb": "the firmware and the safety margin", "color": "var(--p4)" },
+    { "id": 5, "roman": "V", "name": "Grid-Facing Converters", "blurb": "the interface between generation and the grid", "color": "var(--p5)" },
+    { "id": 6, "roman": "VI", "name": "Drives & Traction", "blurb": "spinning motors and charging vehicles", "color": "var(--p6)" },
+    { "id": 7, "roman": "VII", "name": "Low-Voltage Delivery", "blurb": "watts and kilowatts inside the box", "color": "var(--p7)" }
+  ],
+  "groupBlurbs": {
+    "Silicon switches": "the incumbent devices, cheap and well understood",
+    "Wide bandgap switches": "silicon carbide and gallium nitride, and what they buy",
+    "Packaging & passives": "the module, the capacitors, the magnetics, the heat path",
+    "Non-isolated converters": "no transformer between input and output",
+    "Isolated converters": "a transformer for safety, ratio, or ground separation",
+    "Control & protection": "modulation, motor and grid control, faults, and EMI",
+    "Grid converters": "solar, storage, and wind onto the network",
+    "Drives & traction": "variable-speed motors and vehicle charging",
+    "Low-voltage delivery": "server, processor, and consumer power"
+  },
+  "facets": [
+    {
+      "id": "power",
+      "key": "power",
+      "label": "Power level",
+      "type": "range",
+      "color": "--fa",
+      "required": true,
+      "tip": "The power the device or converter handles in its usual job. Watts covers anything under about 1 kW, from a phone charger to a processor rail · Kilowatts covers roughly 1–100 kW, which is most drives, chargers and string inverters · Megawatts covers 0.1 MW and up, where the hardware becomes a cabinet or a container. Entries spanning several bands show the whole span.",
+      "order": ["w", "kw", "mw"],
+      "options": {
+        "w": "Watts",
+        "kw": "Kilowatts",
+        "mw": "Megawatts"
+      }
+    },
+    {
+      "id": "voltage",
+      "key": "voltage",
+      "label": "Voltage class",
+      "type": "range",
+      "color": "--fb",
+      "required": true,
+      "tip": "The voltage the part has to block or work at, which decides the device technology more than anything else. Low is under 100 V · Mains is 100–1,000 V, where most of the market sits · Medium is 1–35 kV, the range where series connection and multilevel topologies start · High is above 35 kV, meaning transmission-class equipment.",
+      "order": ["lv", "mains", "mv", "hv"],
+      "options": {
+        "lv": "Low",
+        "mains": "Mains",
+        "mv": "Medium",
+        "hv": "High"
+      }
+    },
+    {
+      "id": "semi",
+      "key": "semiconductor",
+      "label": "Semiconductor",
+      "type": "multi",
+      "color": "--fc",
+      "tip": "Which switch technology the entry is built from, or built for. Topology and control entries list the materials they are usually implemented in, so filtering on gallium nitride returns the converters where it actually changes the design. Passive and packaging entries carry no material tag because they are used with all of them.",
+      "order": ["si", "sic", "gan", "uwbg"],
+      "options": {
+        "si": "Silicon",
+        "sic": "Silicon carbide",
+        "gan": "Gallium nitride",
+        "uwbg": "Ultra-wide bandgap"
+      }
+    },
+    {
+      "id": "use",
+      "key": "uses",
+      "label": "Application",
+      "type": "multi",
+      "color": "--fd",
+      "required": true,
+      "tagRow": 2,
+      "tip": "Where the entry actually gets bought. These markets have very different price sensitivities and qualification burdens: a consumer charger is decided on bill of materials, an automotive part carries AEC-Q101 and a decade of warranty exposure, and a grid inverter has to pass utility interconnection rules before anyone can install it.",
+      "order": ["grid", "ev", "ind", "it", "cons", "aero"],
+      "options": {
+        "grid": "Grid & renewables",
+        "ev": "Electric vehicles",
+        "ind": "Industrial & motors",
+        "it": "Computing & telecom",
+        "cons": "Consumer",
+        "aero": "Aerospace & defense"
+      }
+    },
+    {
+      "id": "mat",
+      "key": "maturity",
+      "label": "Maturity",
+      "type": "single",
+      "color": "--fe",
+      "required": true,
+      "tip": "Commodity = second-sourced, priced by the reel or the megawatt, no technical risk · Scaling = in volume production and taking share, with supply and price still moving · Early = shipping to first customers or in qualification · Research = demonstrated in a laboratory, no product to buy.",
+      "order": ["comm", "scale", "early", "res"],
+      "options": {
+        "comm": "Commodity",
+        "scale": "Scaling",
+        "early": "Early",
+        "res": "Research"
+      }
+    }
+  ],
+  "videosAfter": "Economic profile",
+  "extraSections": [
+    ["when to use", "When to use"],
+    ["key numbers", "Key numbers"],
+    ["examples", "Examples"],
+    ["economic profile", "Economic profile"],
+    ["further reading", "Further reading"]
+  ]
+}

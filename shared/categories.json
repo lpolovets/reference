@@ -1,15 +1,19 @@
 [
   {
     "name": "Energy",
-    "intro": "How electricity gets generated, stored, and moved, and what happens to the carbon."
+    "intro": "How electricity gets generated, stored, moved, and converted, and what happens to the carbon."
   },
   {
     "name": "Robotics and Manufacturing",
     "intro": "How parts get made, and the actuators, grippers, and sensors that robots are built from."
   },
   {
+    "name": "Infrastructure and Transport",
+    "intro": "How buildings get put up, and how cargo crosses the ocean."
+  },
+  {
     "name": "Materials",
-    "intro": "Where raw materials come from, how ore becomes metal, and which material to specify."
+    "intro": "Where raw materials come from, how ore becomes metal, which material to specify, and what happens at end of life."
   },
   {
     "name": "Semiconductors",
@@ -25,6 +29,6 @@
   },
   {
     "name": "Biotechnology",
-    "intro": "What a therapy is, how it gets manufactured, and the tools for reading and writing biology."
+    "intro": "What a therapy is, how it gets manufactured, the tools for reading and writing biology, and the hardware that images and repairs the body."
   }
 ]

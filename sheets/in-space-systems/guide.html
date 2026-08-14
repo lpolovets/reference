@@ -1,0 +1,82 @@
+    <h2>How to judge an in-space system</h2>
+    <p class="muted">Almost everything launched today is built to work alone, run out of propellant, and be thrown away, because for sixty years that was cheaper than the alternative. Launch prices have fallen roughly tenfold since the Shuttle era, which is why that assumption is being reopened, and the honest question for every system here is whether it is cheap enough yet. Two rules cover most of the answers. <b>Mass is the currency and power is the constraint</b>: every kilogram carries a price set by where it is going, and once it is up there the binding limit is usually watts and the ability to get rid of waste heat. <b>Flight heritage is the only credential worth much</b>, and this field routinely presents a concept as though it were a product. Whether these services have a market is covered on the space launch and satellites sheet; this one is about the engineering underneath them.</p>
+
+    <h3>What it costs to put a kilogram somewhere</h3>
+    <p>Most of this sheet follows from one table. Where a system operates decides what it costs to deliver, how much radiation it absorbs over a life, how hard it is to hold at temperature, and whether a human can be in the control loop at all. A servicing robot in geostationary orbit and the same robot on the Moon are different products with different customers.</p>
+    <div class="bands">
+      <div class="band"><div class="bt">Low Earth orbit</div><div class="bv">$2,000–6,000/kg, and rideshare sells 50 kg slots. Trapped protons in the South Atlantic Anomaly, a few krad(Si) over five years, and 16 eclipses a day cycling external surfaces by 100 °C or more. Signals take 5 ms round trip, but one ground station sees a satellite for about 10 minutes per pass.</div></div>
+      <div class="band"><div class="bt">GEO and high orbits</div><div class="bv">$15,000–30,000/kg delivered on station. Relativistic electrons charge internal dielectrics, and 15-year designs are specified to 50–100 krad(Si). Sunlight is nearly continuous, with eclipses only near the equinoxes, so thermal design is stable. Round trip 0.24 s, which is slow enough to matter during a docking approach.</div></div>
+      <div class="band"><div class="bt">Cislunar</div><div class="bv">Roughly $10,000–40,000/kg to lunar orbit on marginal launch pricing. Outside the magnetosphere, so galactic cosmic rays plus solar particle events rather than trapped belts. No Earth albedo to complicate radiators. Round trip 2.6 s, which is where a human stops being able to close a control loop.</div></div>
+      <div class="band"><div class="bt">Planetary surface</div><div class="bv">$0.5–1.2M/kg to the lunar surface at CLPS task-order prices. Dust that is sharp, charged, and electrostatically mobile. Equatorial swings from +120 °C to about -180 °C across a 14-day night, and permanently shadowed craters sit near 40 K. Mars adds 6–45 minutes of round-trip delay.</div></div>
+      <div class="band"><div class="bt">Deep space</div><div class="bv">No price per kilogram exists, because the mission is the cost: New Horizons was $780M for a 478 kg spacecraft. Solar flux falls with the square of distance, to 50 W/m² at Jupiter, which is why radioisotope power starts there. Round trips run hours and nothing can be replaced.</div></div>
+    </div>
+
+    <h3>Mass is the currency and power is the constraint</h3>
+    <p>Every system on this sheet trades against launch mass, so the first question about any of them is what it weighs and what it displaces. The second question is power, because that is what usually runs out first. Solar arrays deliver about 400 W/m² at Earth distance with 30% triple-junction cells, and 30–150 W/kg at the array depending on whether the panels are rigid or a roll-out blanket. Batteries carry 100–130 Wh/kg at the pack, and in low orbit they take 5,500 charge cycles a year, so depth of discharge is held near 20–30% and the pack is sized several times larger than the eclipse energy alone would suggest.</p>
+    <p>Getting rid of the heat is the part that surprises people. Nothing convects, so every watt that goes in has to leave as radiation. A radiator at about 300 K can shed 300–400 W/m² into deep space in theory and 100–250 W/m² in practice, once it sees the Earth, the Sun, and the rest of its own spacecraft. That is why a 20 kW communications satellite is a small box with two large wings for power and two large flat panels for heat, and why the shape scales with area rather than volume. Cold radiators are far worse: the same surface at 100 K sheds about 5 W/m², and at 40 K about 0.15 W/m², which is the reason a cryogenic telescope needs a sunshield the size of a tennis court and a reactor needs radiators bigger than the reactor.</p>
+
+    <h3>Servicing has to beat replacement</h3>
+    <p>The arithmetic is simple and it is the reason so little servicing happens. A geostationary communications satellite costs $200–400M with its launch and is designed for 15 years, so it depreciates at roughly $15–25M a year. Anything that extends it has to come in well under that, cover the servicer's own cost, and leave a margin, which puts the ceiling on a life-extension service somewhere around $10–15M a year. Public reporting put the first Mission Extension Vehicle service near $13M a year against a replacement, which is exactly at that ceiling and explains why the product exists at all.</p>
+    <p>GEO is the only place the arithmetic has closed commercially, for four reasons that do not hold elsewhere. The assets are expensive and there are only a few hundred of them. They sit in one plane, so moving between clients costs a few meters per second instead of the 130 m/s per degree that an inclination change costs in low orbit. Nearly all of them share the same geometry at the aft end, a liquid apogee engine nozzle inside a launch adapter ring, which is what a docking probe grips. And they usually die with a working payload and an empty tank, so propellant is the thing worth replacing. In low orbit almost none of that is true: the satellites are cheap, often under $1M each in a large constellation, and replacing one is cheaper than visiting it.</p>
+
+    <h3>Flight heritage is the currency of credibility</h3>
+    <p>The gap between demonstrated and operational is wider here than in most fields, and it lasts longer. Orbital Express docked autonomously, transferred hydrazine, and swapped a battery and a flight computer in 2007, and nothing commercial followed for more than a decade. The Robotic Refueling Mission showed on the ISS that a robot can cut lock wire and open a fill-and-drain valve that was never meant to be opened in orbit. Both worked. Neither turned into a service. When reading any claim on this sheet, ask how many times the thing has flown, and if the answer is once, say once.</p>
+    <p>The maturity facet in the explorer is built on that distinction. Operational means flown repeatedly and sold as a product, which today covers solar arrays, batteries, radiators, docking mechanisms, robotic arms, large deployable apertures, storable propellant transfer, reentry capsules and one servicing vehicle, among others. Demonstrated means it flew and worked at least once. Flight-planned means a funded mission with a date, which in this field slips. Concept means studies and renderings. Most of this sheet is agency-funded, and the handful of entries with a commercial buyer paying its own money are the ones worth watching.</p>
+
+    <h3>Technical factors</h3>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Factor</th><th>Why it matters</th></tr></thead>
+      <tbody>
+        <tr><td>Delta-v budget</td><td>The only currency that buys a change of orbit. 3,900 m/s from low orbit to GEO, 130 m/s per degree of inclination in low orbit, 50 m/s a year for GEO station-keeping, 11 m/s to the graveyard orbit. Every capability a servicer offers comes out of the same tank.</td></tr>
+        <tr><td>Specific impulse against trip time</td><td>The same maneuver is 70% propellant at a chemical 320 s and 20% at an electric 1,800 s, but the electric version takes months instead of days. Trip time is not free, because the payload is out of service the whole way.</td></tr>
+        <tr><td>Specific power</td><td>Solar arrays give 30–150 W/kg, a radioisotope unit about 2.4 W/kg, a lunar fission unit roughly 7 W/kg at the 40 kWe class. This single number decides what a system can do more than any other.</td></tr>
+        <tr><td>Heat rejection area</td><td>Radiator area scales with power, and area needs deployment mechanisms. Check that the thermal budget was sized at end of life with degraded coatings, not at day one.</td></tr>
+        <tr><td>Radiation dose and upsets</td><td>Total dose sets part selection and shielding mass, and the single-event upset rate sets how often the computer reboots. A part qualified for low orbit is not qualified for GEO or for a belt transit.</td></tr>
+        <tr><td>Relative navigation handover</td><td>Relative GPS works to about 10 m, lidar from several kilometers down to a meter, visual pose estimation inside 10 m. The handovers between sensors are where rendezvous goes wrong, not the sensors themselves.</td></tr>
+        <tr><td>Cooperative or not</td><td>A grapple fixture and a navigation marker turn a research problem into a procedure. On a target with neither, tumble rate is the binding constraint, and above a few degrees per second most capture concepts stop working.</td></tr>
+        <tr><td>Plume impingement</td><td>A thruster firing toward a client deposits propellant on its optics and solar cells and pushes it away. Approach corridors, keep-out spheres, and passively safe abort trajectories exist mainly because of this.</td></tr>
+        <tr><td>Deployment mechanisms</td><td>Anything folded has to unfold exactly once with no repair. Single-point failures cluster in hinges, latches, and pyrotechnics, which is why deployment is where large apertures and arrays actually fail.</td></tr>
+        <tr><td>Autonomy against light time</td><td>A 2.6 s round trip to the Moon means no operator can close a fast control loop, so anything faster has to run onboard. Teleoperation needs a relay and a delay budget stated up front.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h3>Commercial and strategic factors</h3>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Factor</th><th>Why it matters</th></tr></thead>
+      <tbody>
+        <tr><td>Who is actually paying</td><td>Agency, defense, commercial, or science, and they buy differently. An agency buys a milestone, defense buys a capability it will not describe, a commercial operator buys a return it can model. Ask which of the four is on the contract today.</td></tr>
+        <tr><td>Cost-plus against fixed-price</td><td>Cost-plus reimburses spending and pays a fee on top, so the supplier carries little overrun risk and has no reason to cut scope. Firm-fixed-price moves that risk onto the supplier, which is why NASA paid nothing extra for the CLPS landers that tipped over. Fixed-price only works when the product repeats and there are several credible bidders.</td></tr>
+        <tr><td>The anchor tenant problem</td><td>A depot needs customers before it exists and customers need a depot before they design for it. The same loop holds for commercial stations, where the gap between what NASA says it will buy and what a station costs to operate is the whole business risk.</td></tr>
+        <tr><td>Export control</td><td>Most commercial communications satellites moved off the US Munitions List in 2014, but spacecraft providing space-based logistics, assembly, or servicing stayed on it. So this sheet is largely ITAR-controlled even though ordinary satellites are not, and every foreign partnership carries a license.</td></tr>
+        <tr><td>Launch cost as an input</td><td>It fell about tenfold and may not fall much further without a high flight rate on a fully reusable vehicle. It is also only 10–25% of a typical program, so another tenfold cut changes program cost by a fifth unless the spacecraft is redesigned to spend mass freely.</td></tr>
+        <tr><td>Insurance</td><td>Launch and in-orbit cover exists and has been unprofitable, with 2023 claims near $1B against roughly $560M of premium, so capacity has contracted. There is no product covering damage you do to someone else's satellite while docking with it, which means proximity operations run uninsured.</td></tr>
+        <tr><td>Who sets the standard</td><td>Refueling ports and docking interfaces are worth nothing unless both sides agree. In practice a large government customer picks, as the US Space Force did by endorsing two refueling interfaces, and the rest of the market follows.</td></tr>
+        <tr><td>A demonstration is not a market</td><td>The list of capabilities demonstrated in orbit is long and the list sold as recurring services is short. Before treating a demonstration as a product, ask who bought the second one, at what price, and with their own money.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2>Why cheaper launch does not automatically change the answer</h2>
+    <p>Launch is usually 10–25% of a space program's cost, so cutting the launch price by a factor of ten cuts the program by about a fifth. That is worth having and it is not transformative on its own. What actually changes the calculus is designing differently once mass is cheap: flying more spacecraft instead of one exquisite spacecraft, accepting a heavier and simpler design instead of qualifying a lighter one, testing in orbit instead of testing on the ground. Those choices cut the expensive part, which is engineering labor and qualification. A program that books the cheaper launch and keeps the same spacecraft has captured almost none of the benefit, and most of them do exactly that. The corollary matters for this sheet: as launch gets cheaper, replacement gets cheaper too, so servicing has to keep beating a target that is moving in its favor only slowly.</p>
+
+    <h2>Core takeaway</h2>
+    <div class="callout">
+      <p>Start with where it operates, because that fixes the delivered cost, the radiation dose, the thermal problem, and whether a human can be in the loop. Then check the mass and the power budget, since those are what the system spends and what usually runs out. Then check flight heritage honestly, counting flights rather than announcements. A system that has flown once has proven the physics and nothing about the cost. On the commercial side, the entries worth attention are the few with a customer spending their own money on a second unit, and everything else on this sheet is an agency program that may or may not become a business.</p>
+    </div>
+
+    <h3>Key questions for technical decisions</h3>
+    <ul class="qlist">
+      <li>What is the delta-v budget at end of life, after margins, and what does it buy in years or maneuvers?</li>
+      <li>How many watts does the system need, and how many square meters of radiator does that imply at end of life?</li>
+      <li>Is the target cooperative, and if not, what tumble rate can the capture mechanism actually handle?</li>
+      <li>Where does each navigation sensor hand over to the next, and what happens if one hands over late?</li>
+      <li>Which functions have to be autonomous because of light time, and which can wait for a ground operator?</li>
+    </ul>
+
+    <h3>Key questions for investment and business analysis</h3>
+    <ul class="qlist">
+      <li>Who is paying for the next unit, and is it the same customer who paid for the demonstration?</li>
+      <li>Is the contract cost-plus or fixed-price, and does the supplier have a repeatable product to price against?</li>
+      <li>What does the client spacecraft have to carry for this to work, and who pays for that hardware?</li>
+      <li>Does the business case beat replacing the asset outright, at the replacement cost five years from now?</li>
+      <li>Which regulator or program office decides the interface standard, and has it decided yet?</li>
+    </ul>

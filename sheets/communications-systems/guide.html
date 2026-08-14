@@ -1,0 +1,79 @@
+    <h2>How to choose a communications link</h2>
+    <p class="muted">Every link is the same three trade-offs in a different order: <b>how far it reaches</b>, <b>how much it carries</b>, and <b>how much of the cost is fixed before the first bit moves</b>. The third one is the least understood and usually the most decisive. A submarine cable is a construction project with almost no marginal cost per bit once it is wet. A satellite is a fixed block of capacity that cannot be moved after launch. A cellular network is mostly site leases, civil works and spectrum fees rather than radios. Work out where the money is committed and most of the rest of the choice follows.</p>
+
+    <h3>Where the cost sits, and who owns it</h3>
+    <p>Nearly every link here is expensive to create and close to free to use, but the fraction differs enough to change who can build one at all. A transatlantic submarine cable runs a few hundred million dollars and 2–3 years, and essentially 100% of that is fixed: survey, permits, the cable, and the ship time to lay it. Once it is wet, another terabit costs the electricity to run the terminal equipment. A geostationary satellite is $150–400M including launch and insurance, and it buys a fixed amount of capacity pointed at a fixed part of the earth for about 15 years; capacity sitting over open ocean serves no customers and cannot be recovered. A cellular network inverts what most people assume. The radios and antennas are roughly a quarter of what a new macro site costs to build, and the rest is land, steel, power, permits, backhaul and the crew that installs it. Fiber to the home is the same shape: $800–1,500 per home passed in a typical US build, mostly labor and permitting, against $150–250 of optics per subscriber.</p>
+    <p>Ownership follows the same split, and it is usually more fragmented than the org chart suggests. US carriers sold most of their towers to American Tower, Crown Castle and SBA and now rent them back at roughly $2,000–5,000 a month per tenancy. New submarine cable is increasingly owned by Google, Meta, Microsoft and Amazon rather than by carrier consortia. Spectrum belongs to whoever won it at auction and sits on the balance sheet at a number that often exceeds the network built with it. When someone tells you what a network cost, ask which of those buckets the number covers.</p>
+
+    <h3>Spectrum is the input nobody can manufacture</h3>
+    <p>Spectrum is fixed in supply and handed out by regulators, so an operator either wins it at auction, buys it from someone who did, or works in a shared band on somebody else's terms. Physics decides what each rung of the ladder is good for. Free-space path loss rises with the square of frequency, so a 28 GHz signal arrives about 20 dB weaker than a 2.8 GHz signal over the same distance, and modern low-emissivity window glass takes another 15–25 dB out of anything above roughly 3 GHz. Bandwidth moves the opposite way: there is no room for a 400 MHz channel below 1 GHz and plenty of it at 28 GHz.</p>
+    <div class="bands">
+      <div class="band"><div class="bt">Below 1 GHz</div><div class="bv">Coverage and building penetration. 5–15 km rural cells, 10–20 MHz of bandwidth, 10–150 Mbps per sector. US auctions cleared $0.90–1.30 per MHz-POP.</div></div>
+      <div class="band"><div class="bt">1–6 GHz</div><div class="bv">The capacity workhorse. 1–3 km cells, 40–100 MHz channels, 400 Mbps–1 Gbps per sector. C-band cleared $0.94, AWS-3 $2.72 per MHz-POP.</div></div>
+      <div class="band"><div class="bt">Millimeter wave</div><div class="bv">Short high-capacity hops. 150–300 m cells, or fixed links of 1–5 km. 400–800 MHz channels, 1–25 Gbps. Cleared about $0.01–0.02 per MHz-POP.</div></div>
+      <div class="band"><div class="bt">Optical</div><div class="bv">Anything that has to carry terabits. Roughly 10 THz of usable bandwidth in one fiber pair, 20–100+ Tbps delivered. No spectrum license; you buy a right of way instead.</div></div>
+    </div>
+    <p>Auction prices are the honest way to say a band is valuable, and the spread across that ladder is close to 100 to 1. Everything below 6 GHz has cleared between about $0.70 and $2.70 per MHz-POP in US auctions since 2015 — the C-band auction alone raised $81B for 280 MHz in 2021 — while every millimeter wave auction has cleared near a cent. Bidders were not confused about capacity, since mmWave offers ten times the bandwidth of anything below it. They were pricing how many sites it takes to cover a market, and at 28 GHz that count is 50–100 times what it is at 700 MHz.</p>
+
+    <h3>Latency has a floor set by physics</h3>
+    <p>Light moves through glass at about two-thirds of its speed in vacuum, roughly 200,000 km/s, or 5 microseconds per kilometer. New York to London is about 5,600 km great circle and around 6,000 km by cable route, so one-way delay is roughly 28 ms in the glass and no equipment on either end changes it. The fastest transatlantic routes advertise round trips just under 59 ms, which is that floor plus the terminals. A geostationary satellite sits 35,786 km up, so the hop alone is about 120 ms one way; a ground-to-ground path through it is 240 ms each way, a round trip cannot beat 477 ms, and in service users see 550–650 ms. The same hop to a satellite at 550 km costs about 2 ms. That is why a low-orbit constellation and a geostationary satellite can cover the same continent and only one of them can carry a video call.</p>
+    <p>Two things follow. Latency is the one specification you cannot buy your way out of, which is why a trading firm pays for a shorter path rather than a faster modem. And when a link measures far above its floor, the excess is queuing, retransmission or a bad route, all of which are fixable.</p>
+
+    <h3>Technical factors</h3>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Factor</th><th>Why it matters</th></tr></thead>
+      <tbody>
+        <tr><td>Link budget</td><td>Every wireless link is the same arithmetic: transmit power plus antenna gains, minus path loss, minus the margin held back for weather. A vendor who will not show it is hiding the margin.</td></tr>
+        <tr><td>Bandwidth versus power</td><td>Capacity rises linearly with bandwidth and only logarithmically with power. The band you hold matters far more than the radio you buy.</td></tr>
+        <tr><td>Penetration</td><td>Path loss goes as the square of frequency, and coated glass costs another 15–25 dB above 3 GHz. Indoor coverage is usually a low-band or small-cell problem, not a power problem.</td></tr>
+        <tr><td>Latency floor</td><td>5 microseconds per kilometer in fiber, 120 ms per geostationary hop. Fixed by geometry, and everything measured above it is queuing or routing.</td></tr>
+        <tr><td>Availability target</td><td>99.9% is 8.8 hours of outage a year; 99.999% is 5 minutes. Rain fade at Ka band and fog on optical links are what set the number, and each nine costs real margin.</td></tr>
+        <tr><td>Spectral efficiency</td><td>Coherent optical runs 3–8 bits per hertz against a Shannon limit near 10–11, and 5G mid-band is in the same territory. Most of the easy coding gains are already taken.</td></tr>
+        <tr><td>Timing</td><td>GPS is the timing source for most of the world's networks. TDD cells need phase held to about 1.5 microseconds, and holdover after a GPS loss is hours on an oven-controlled oscillator, days on rubidium.</td></tr>
+        <tr><td>Backhaul behind the site</td><td>A cell is only as fast as the circuit behind it. A 1 Gbps microwave link behind a sector that can produce 2 Gbps wastes the spectrum the operator paid for.</td></tr>
+        <tr><td>Interference and sharing</td><td>In an unlicensed or shared band, capacity depends on who else shows up, and that changes without notice. It is the difference between a specification and a hope.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h3>Commercial and strategic factors</h3>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Factor</th><th>Why it matters</th></tr></thead>
+      <tbody>
+        <tr><td>Spectrum licenses</td><td>Often the largest single asset on the balance sheet. Verizon carries roughly $150B of licenses against about $110B of net plant. Spectrum is bought once, does not wear out, and is the main thing that limits entry.</td></tr>
+        <tr><td>Tower and site leases</td><td>US carriers sold their towers and rent them back at roughly $2,000–5,000 a month per tenancy, on initial terms of five to ten years with renewal options that commonly carry a tenant past twenty, and escalators near 3% a year. That converts capital into a fixed obligation that does not shrink when subscribers do.</td></tr>
+        <tr><td>Capital intensity</td><td>Access networks absorb 15–20% of revenue in capital spending indefinitely. At $800–1,500 per home passed, a 40% take rate and $60–70 a month, fiber returns its capital over roughly 6–10 years, so it is financed like infrastructure.</td></tr>
+        <tr><td>Who funds subsea now</td><td>Hyperscalers have displaced carrier consortia on most new routes, and Google owns several systems outright. A consortium has to presell capacity to raise the money; a hyperscaler builds against its own traffic and sells none of it.</td></tr>
+        <tr><td>Vendor concentration</td><td>After the Huawei restrictions, the practical choices outside China are Ericsson, Nokia and Samsung. The FCC rip-and-replace program was funded at $1.9B, priced by carriers near $5B, and topped up by Congress in 2023.</td></tr>
+        <tr><td>Open interfaces</td><td>Open RAN was meant to widen that field by splitting the radio from the baseband. Greenfield operators have shipped it; for everyone else the integration work has landed on the operator rather than the vendor, and feature velocity has been slower.</td></tr>
+        <tr><td>Universal service</td><td>The US fund distributes about $8B a year, levied on interstate telecom revenue at a rate that has climbed from roughly 5% in 2000 to past 30%. BEAD put $42.45B toward unserved locations and turned technology-neutral in 2025, moving money from fiber toward fixed wireless and satellite.</td></tr>
+        <tr><td>Interconnection and peering</td><td>Decides who pays whom for traffic. IP transit fell from over $1,000 per Mbps per month in the late 1990s to roughly $0.05–0.15 today, and most large content traffic now arrives settlement-free or from a cache inside the ISP. Whether content providers should pay access networks is a live fight in both the EU and the US.</td></tr>
+        <tr><td>The worst hour</td><td>Networks are judged on their peak, not their average. A mobile network that averages 150 Mbps and delivers 3 Mbps in a stadium at 6pm is remembered for the 3, and the FCC measures broadband speeds between 7 and 11 pm. Capacity has to be bought for that hour and sits idle the rest of the day.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2>Why nearly all the traffic goes over fiber</h2>
+    <p>Submarine cables carry about 99% of intercontinental data traffic, and satellite carries a fraction of a percent. That reads backwards to anyone who follows announcements, because coverage and traffic move in opposite directions: satellite covers the whole planet and carries almost nothing, while fiber covers a thin set of routes and carries almost everything. The reason is capacity per dollar. A recent transatlantic cable delivers 200–400 Tbps across its fiber pairs for a few hundred million dollars. The largest geostationary satellite ever built is designed for about 1 Tbps at a comparable price, and a LEO constellation spreads its capacity over an entire planet, most of which is ocean and empty land where nobody is paying for it.</p>
+    <p>Satellite is still the right answer in specific places, and they are the places where the marginal cost of a trench or a cell site is enormous: ships, aircraft, remote industrial sites, rural households at $30,000 a location, and disaster restoration where the fiber has just been cut. Part III of this sheet treats satellite as capacity you buy and a service you sell, covering what a megabit per month costs, how spectrum and orbital slots are obtained, and how an operator blends satellite with terrestrial. The spacecraft itself, meaning the bus, payload, launch mass and constellation design, is on the space launch and satellites sheet.</p>
+
+    <h2>Core takeaway</h2>
+    <div class="callout">
+      <p>Start with the three numbers the application actually requires: how far, how many bits, and how much delay it tolerates. Usually only one or two options clear all three, and the choice between those comes down to where the cost sits: a fixed asset you build once and then use nearly free, or a service you rent by the month. Fiber wins wherever traffic justifies a trench, which is why it carries nearly all of it, and wireless and satellite are how you reach everything else. If a plan depends on spectrum the company does not hold or a right of way it has not secured, the technology choice is not where the risk is.</p>
+    </div>
+
+    <h3>Key questions for technical decisions</h3>
+    <ul class="qlist">
+      <li>What is the one-way latency floor for this path, and how far above it does the link actually run?</li>
+      <li>How much spectrum do you hold in each band, and what does that deliver per sector at the cell edge?</li>
+      <li>What is the availability target, and is the rain or fog margin in the link budget sized for it?</li>
+      <li>Does the backhaul circuit behind each site clear the peak the radios can produce?</li>
+      <li>If GPS goes away for 24 hours, does the network hold phase, and on what oscillator?</li>
+    </ul>
+
+    <h3>Key questions for investment and business analysis</h3>
+    <ul class="qlist">
+      <li>What are the spectrum licenses worth, how was that number arrived at, and when do they renew?</li>
+      <li>What fraction of the cost is fixed before the first customer, and how many customers cover it?</li>
+      <li>Are the towers, rooftops and conduit owned or leased, and what are the escalators on the leases?</li>
+      <li>Who pays whom at each interconnection point, and how does that change if the traffic mix shifts?</li>
+      <li>What does this network deliver in its worst hour in its busiest market, rather than on average?</li>
+    </ul>

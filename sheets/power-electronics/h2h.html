@@ -1,0 +1,53 @@
+    <h2>Head-to-head: which switch</h2>
+    <p class="muted">Voltage class narrows this to two or three candidates and then frequency and cost settle it. Die cost in the third column is relative to a plain silicon device of the same rating, so it reads as the premium for that switch technology rather than an absolute price; each cell names its own comparison. Packaged module prices compress these ratios, because the substrate, the assembly and the test are the same work whatever die is inside.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Device</th><th>Voltage range</th><th>Usual frequency</th><th>Relative die cost</th><th>Pick it when</th></tr></thead>
+      <tbody>
+        <tr><td>Silicon MOSFET</td><td>20–250 V</td><td>50 kHz–1 MHz</td><td>1x, the reference</td><td>The default under 100 V. Cheap, second sourced everywhere, and good enough that nothing else gets a hearing without a size argument.</td></tr>
+        <tr><td>Superjunction MOSFET</td><td>500–900 V</td><td>50–250 kHz</td><td>2–3x a planar MOSFET</td><td>Offline mains from a few hundred watts to a few kW, in a soft-switched topology. The body diode recovers badly, so keep it out of hard switching.</td></tr>
+        <tr><td>Silicon IGBT</td><td>600 V–6.5 kV</td><td>2–20 kHz</td><td>1x above 900 V</td><td>High current at low frequency: industrial drives, welders, central inverters. The forward drop stays near 2 V whatever the rating, which is why it exists at all.</td></tr>
+        <tr><td>SiC MOSFET</td><td>650 V–3.3 kV</td><td>20–100 kHz</td><td>4–6x an IGBT</td><td>Lower loss or higher frequency pays back through a smaller battery, smaller magnetics or less cooling. 800 V EV traction is the anchor market.</td></tr>
+        <tr><td>GaN HEMT</td><td>15–650 V</td><td>100 kHz–3 MHz</td><td>2–4x a superjunction part</td><td>Size matters below about 5 kW: adapters, server supplies, onboard chargers. No body diode and no recovery charge, so hard switching is fine.</td></tr>
+        <tr><td>IGCT and thyristor</td><td>4.5–8.5 kV</td><td>50 Hz–1 kHz</td><td>Priced per wafer</td><td>Thousands of amps at line frequency. HVDC classic, soft starters, crowbars, and MV drives where nothing else carries the current.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2>Which isolated topology</h2>
+    <p class="muted">Safety standards require isolation whenever the output can be touched, and ground separation requires it whenever the two sides sit at different potentials. After that, power level decides, then whether the input voltage moves, then whether power has to flow both ways. The efficiency column is peak at nominal input; light-load efficiency separates these topologies much further than peak does.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Topology</th><th>Power range</th><th>Bidirectional</th><th>Peak efficiency</th><th>Pick it when</th></tr></thead>
+      <tbody>
+        <tr><td>Flyback</td><td>1–100 W</td><td>No</td><td>80–90%</td><td>The cheapest isolated supply that exists, and the sensible answer for standby and auxiliary rails. A wide input range comes free with it.</td></tr>
+        <tr><td>Forward converter</td><td>50–500 W</td><td>No</td><td>85–92%</td><td>More power than a flyback holds, with the same simple control loop. Largely displaced by LLC above about 200 W.</td></tr>
+        <tr><td>LLC resonant</td><td>100 W–5 kW</td><td>Only as CLLC</td><td>95–98%</td><td>A PFC stage ahead of it regulates the input, so the conversion ratio barely moves. Zero-voltage switching over most of the load range is what allows the high frequency.</td></tr>
+        <tr><td>Phase-shifted bridge</td><td>1–10 kW</td><td>No</td><td>93–96%</td><td>Output voltage has to swing over a wide range at kilowatts, as in a battery charger. Soft switching at high load, lost at light load.</td></tr>
+        <tr><td>Dual active bridge</td><td>5 kW–1 MW</td><td>Yes</td><td>95–98%</td><td>Power flows both ways, or an isolated DC-DC stage has to be controlled inside a storage system, fast charger or solid-state transformer.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2>Which inverter structure</h2>
+    <p class="muted">Two-level is the answer below about 1,000 V and the only real question is whether you can stay there. Above it, either the device blocks more voltage or the topology divides the voltage across more devices. Device counts are per phase leg. The output filter shrinks roughly in proportion to the number of levels, because the voltage step is what the filter has to smooth, and that is what buys back the extra parts.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Structure</th><th>Voltage</th><th>Devices per phase</th><th>Filter and harmonics</th><th>Pick it when</th></tr></thead>
+      <tbody>
+        <tr><td>Two-level</td><td>Up to 1,000 V DC</td><td>2 switches</td><td>Largest filter, highest THD</td><td>Almost always below 1 kV. Cheapest, best understood, and what most drive and inverter platforms actually ship.</td></tr>
+        <tr><td>T-type</td><td>600–1,200 V DC</td><td>4 switches, 2 at full bus</td><td>About half the two-level filter</td><td>1,000 V solar strings and drives at low switching frequency. Lower conduction loss than NPC because current passes through fewer devices.</td></tr>
+        <tr><td>NPC</td><td>1,000–1,500 V DC</td><td>4 half-bus switches, 2 clamp diodes</td><td>About half the two-level filter</td><td>1,500 V solar and MV drives. Beats T-type as switching frequency rises, since the loss spreads over more devices.</td></tr>
+        <tr><td>Flying capacitor</td><td>1,000 V DC and up</td><td>2 switches and 1 capacitor per level</td><td>Falls with level count</td><td>You want many levels without a large DC link and can manage capacitor voltage balancing. Increasingly common in GaN designs at low power.</td></tr>
+        <tr><td>MMC</td><td>10 kV–800 kV</td><td>Hundreds of submodules per arm</td><td>Near-sinusoidal, almost no filter</td><td>HVDC and STATCOM. Scale by adding cells, tolerate faults by making cells redundant. Every cell carries a capacitor, a controller and a communications link.</td></tr>
+        <tr><td>Cascaded H-bridge</td><td>2.3–13.8 kV</td><td>4 per cell, 5–20 cells</td><td>Very low THD</td><td>Medium-voltage drives fed from a phase-shifting multi-winding transformer, and utility STATCOMs. Needs an isolated DC source per cell.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2>Which grid-facing converter</h2>
+    <p class="muted">All of these clear the same interconnection rules, so the choice comes down to plant size, how uniform the array is, and who does the maintenance. Prices are US equipment cost per watt, not installed cost, and they move with volume and tariffs. Efficiency differences look small on paper and are worth real money over a 25-year plant life.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Converter</th><th>Power</th><th>Equipment cost</th><th>Peak efficiency</th><th>Pick it when</th></tr></thead>
+      <tbody>
+        <tr><td>String inverter</td><td>3–350 kW</td><td>$0.05–0.12/W</td><td>98–99%</td><td>Commercial and most new utility PV. Several MPPT inputs handle an uneven array, and a failed unit is a two-person swap rather than a crane.</td></tr>
+        <tr><td>Central inverter</td><td>1–5 MW</td><td>$0.03–0.06/W</td><td>98.5–99%</td><td>Large uniform unshaded arrays with a crew on site. Lowest cost per watt, and one failure takes out a megawatt.</td></tr>
+        <tr><td>Microinverter</td><td>250–800 W per module</td><td>$0.25–0.45/W</td><td>96–97%</td><td>Residential roofs with shade or several orientations. Rapid shutdown and per-module data come with it, and so does one converter per module to maintain.</td></tr>
+        <tr><td>Storage PCS</td><td>100 kW–5 MW</td><td>$0.05–0.15/W</td><td>97–98.5%</td><td>Batteries. Bidirectional, and increasingly required to run grid-forming, which is a control and certification question more than a hardware one.</td></tr>
+        <tr><td>Solid-state transformer</td><td>100 kW–10 MW</td><td>$0.50–2/W, few units</td><td>96–98%</td><td>The medium-voltage transformer itself is the problem: megawatt charging, traction, MV feeds into a data center. A 60 Hz transformer is 99.5% efficient and lasts 40 years, so the case has to be size, weight or control.</td></tr>
+      </tbody>
+    </table></div>

@@ -55,8 +55,17 @@ const RULES = [
 
   // --- dramatic vocabulary. Domain terms are deliberately absent: "seismic" and
   //     "unlock" both earn their place in these sheets. ---
-  { id: 'dramatic', re: /\b(?:ferocious|brutal|razor-thin|staggering|breathtaking|game[- ]changers?|holy grail|silver bullet|no-brainer|sea change|double-edged sword|achilles heel|perfect storm|paradigm shift|supercharges?|revolutioni[sz]e[sd]?)\b/gi,
+  { id: 'dramatic', re: /\b(?:ferocious|brutal|razor-thin|staggering|breathtaking|game[- ]changers?|holy grail|silver bullet|no-brainer|double-edged sword|achilles heel|perfect storm|paradigm shift|supercharges?|revolutioni[sz]e[sd]?)\b/gi,
     say: 'dramatic vocabulary. Use the neutral word.' },
+  // "sea change" is dramatic vocabulary in lowercase and a ship in title case. MV
+  // Sea Change is a real hydrogen fuel-cell ferry on San Francisco Bay and it
+  // belongs in the marine fuel cell entry's Examples list beside MF Hydra. This
+  // rule is therefore case-sensitive and lowercase-only, the same compromise the
+  // british-spelling rule makes for Emirates Global Aluminium: a capitalized use
+  // at a sentence start escapes, which is a small price for not firing on every
+  // vessel, company or product that shares a word with the wordlist.
+  { id: 'sea-change', re: /\bsea change\b/g,
+    say: 'dramatic vocabulary. Use the neutral word. (Vessel and product names are exempt; this rule only matches lowercase.)' },
   { id: 'is-fiction', re: /\bis fiction\b/gi,
     say: 'rhetorical dismissal. Say what is wrong with it.' },
   { id: 'seam', re: /\b(?:attacks?|exploits?) the seam\b/gi,

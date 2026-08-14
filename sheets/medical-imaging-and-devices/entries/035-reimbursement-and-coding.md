@@ -1,0 +1,36 @@
+---
+number: 35
+name: Reimbursement and Coding
+part: 7
+group: Regulation & software
+uses: [diag, treat]
+invasiveness: [ext, impl]
+maturity: std
+---
+
+## Description
+Getting paid in the US is three separate problems, and none of them is solved by an FDA clearance. Coding asks whether a code exists that describes what was done, coverage asks whether the payer will pay for it in this patient, and payment asks how much. Procedure codes come from the American Medical Association rather than the government: a Category I CPT code requires that every device and drug needed has FDA clearance or approval, that many physicians across the country perform the service, that the volume matches the intended clinical use, and that clinical efficacy is documented in the literature. A Category III code is a temporary tracking code for emerging technology and requires only that the service is performed in humans plus one of an advisor's sponsorship, peer-reviewed literature, or an IRB-approved protocol. The difference in the money is total: a Category III code carries no relative value units, so payment is at each Medicare contractor's discretion or is simply denied, and the code is archived five years after publication unless someone requests conversion or extension. The timelines are slow and fixed. Category III codes accepted at the AMA panel's September 2025 meeting became effective on July 1, 2026 after a six-month implementation period, and a Category I code has to clear the panel, then be valued by the RUC, then survive CMS rulemaking before it is worth anything.
+
+## Strengths and weaknesses
+Once a technology has a valued Category I code and a settled coverage position, the revenue is predictable and the sales conversation turns into a purchasing decision. Everything before that point is the weakness. MR-guided focused ultrasound of the brain is still billed under 0398T, a Category III code, nearly a decade after the FDA approved the device in July 2016: Medicare's 2024 Physician and Other Practitioners data shows roughly 1,600 services nationally, and because the code is carrier-priced rather than nationally valued, the allowed amount was about $880 in California against about $1,670 in Florida for the same procedure. Inpatient devices face a different failure. Medicare pays the hospital a fixed amount per admission set by the MS-DRG, so a better device that costs $10,000 more comes straight out of hospital margin unless the DRG weight moves, which takes years of claims data. A new technology add-on payment softens that and does not fix it: the payment is the lesser of 65% of the cost of the technology or 65% of the amount by which the case exceeds the DRG payment, so the hospital absorbs at least 35% of the difference, and the technology stops being "new" after two to three years.
+
+## When to use
+Decide the coding strategy before the pivotal trial, because the endpoints that satisfy the FDA are usually not the endpoints a payer will pay against, and adding a health-economic arm afterwards means running a second study. If an existing Category I code plausibly describes your procedure, use it and spend the effort on coverage instead. If nothing fits, apply for a Category III code as early as the criteria allow, and treat the utilization it generates as the evidence you will need for conversion. If the device is used on inpatients and costs more than the DRG covers, get the ICD-10-PCS procedure code first and then apply for NTAP, remembering that an application due in October pays out starting the following October and that FDA authorization must be in hand by May 1. In the hospital outpatient setting, apply for transitional pass-through within three years of FDA authorization, which pays the device cost on top of the procedure rate for two to three years and then folds into it. If you hold a Breakthrough designation on a Class III device heading for PMA, look at CMS's RAPID coverage pathway, announced in April 2026 and out for comment since August 11, 2026, which proposes to post a proposed national coverage determination on the day of FDA authorization and finalize it as soon as 60 days later; the older TCET pathway is paused for new candidates.
+
+## Key numbers
+Category III codes carry no RVUs and are archived 5 years after publication · 0398T still Category III nearly a decade after the July 2016 PMA approval, roughly 1,600 Medicare services in 2024, allowed amounts about $880 in California against about $1,670 in Florida · NTAP pays the lesser of 65% of technology cost or 65% of the excess over the DRG, so the hospital absorbs at least 35% · NTAP newness window 2 to 3 years, applications due in October for payment the following October, FDA authorization required by May 1 · outpatient pass-through runs 2 to 3 years and must be applied for within 3 years of FDA authorization · RAPID proposes a proposed NCD on the day of authorization with a final NCD as early as 60 days later.
+
+## Examples
+CPT 0398T for MR-guided focused ultrasound, a Category III code with no national value nearly a decade after approval; Viz.ai's ContaCT, the first AI product to receive an NTAP, capped at $1,040 per case for FY2021 and dependent on a new ICD-10-PCS code (4A03X5D) issued first; CMS's Transitional Coverage for Emerging Technologies pathway, finalized August 2024 and paused for new candidates in August 2026 in favor of the RAPID coverage pathway.
+
+## Economic profile
+A reimbursement program is a real line item and it is usually underfunded: a specialty society sponsor, a health economics dossier, claims analyses, and a reimbursement lead working the AMA and CMS cycles for two to four years. A useful rule of thumb is to budget the same order of magnitude for coding and coverage work as for the clinical evidence itself, and to assume no meaningful US revenue until a valued code exists. Who pays decides who buys. Under a DRG the hospital captures the payment and absorbs the device cost, so you sell on shortening length of stay, avoiding a readmission, or displacing a more expensive disposable, and a purely clinical improvement with no cost offset gets stalled at the value analysis committee. In the physician office the practice buys the device out of its own margin against a professional fee, so a code without RVUs means the practice funds the equipment and gets paid nothing extra for using it. The consequence is blunt: hospitals buy the mediocre device that has an established Category I code and a favorable predicate ahead of the better device that has neither, and the delay can run five to ten years, which is longer than most startups can fund.
+
+## Videos
+
+- https://www.youtube.com/watch?v=RohDrDVkMmg — Payment Methodologies for Hospital Inpatient Services (Greg Palmer, 6 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=ucgyj--mzyA — 4.3 Reimbursement Basics for Medical Devices (Luis R Soenksen, 19 minutes, 1k+ views)
+
+## Further reading
+
+[New Medical Services and New Technologies (CMS)](https://www.cms.gov/medicare/payment/prospective-payment-systems/acute-inpatient-pps/new-medical-services-and-new-technologies) · [Criteria for CPT® codes (American Medical Association)](https://www.ama-assn.org/practice-management/cpt/criteria-cpt-codes)

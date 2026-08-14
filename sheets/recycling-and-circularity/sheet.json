@@ -1,0 +1,130 @@
+{
+  "slug": "recycling-and-circularity",
+  "docTitle": "Recycling and Circularity Reference",
+  "shortTitle": "Recycling and Circularity",
+  "blurb": "Sorting, metal and battery recycling, e-waste and solar panels, mechanical and chemical plastics routes, and the policy machinery underneath — compared on what comes out the other end, whether it pays without a subsidy, and how clean the feed has to be.",
+  "category": "Materials",
+  "question": "What actually happens to this at end of life, and does it pay?",
+  "title": "Recycling and Circularity: A Practical Reference",
+  "lede": "Recycling is a materials business with a logistics problem in front of it, and most of what decides whether a route works happens before anything is melted or dissolved. This guide catalogs {{N_ENTRIES}} processes and policies across seven classes, with what each one actually recovers, how contaminated a feed it can take, and whether it makes money on its own or only with a regulation behind it.",
+  "unit": ["process", "processes"],
+  "groupLabel": "Class",
+  "explorerTab": "Process explorer",
+  "guideTab": "Selection guide",
+  "h2hTab": "Head-to-head",
+  "searchPlaceholder": "Search processes, materials, policies…",
+  "stats": [
+    { "count": "entries", "label": "processes" },
+    { "count": "parts", "label": "classes" },
+    { "count": "groups", "label": "families" }
+  ],
+  "parts": [
+    { "id": 1, "roman": "I", "name": "Collection & Sorting", "blurb": "get the material there, and separated", "color": "var(--p1)" },
+    { "id": 2, "roman": "II", "name": "Metals", "blurb": "the streams that already pay for themselves", "color": "var(--p2)" },
+    { "id": 3, "roman": "III", "name": "Batteries", "blurb": "the newest stream and the most contested", "color": "var(--p3)" },
+    { "id": 4, "roman": "IV", "name": "Electronics & Complex Products", "blurb": "things built to be assembled, not taken apart", "color": "var(--p4)" },
+    { "id": 5, "roman": "V", "name": "Plastics", "blurb": "mechanical, dissolved, or broken back to monomer", "color": "var(--p5)" },
+    { "id": 6, "roman": "VI", "name": "Bulk Streams & Disposal", "blurb": "high tonnage, low value, and the baseline", "color": "var(--p6)" },
+    { "id": 7, "roman": "VII", "name": "Systems, Policy & Design", "blurb": "what makes any of it happen at all", "color": "var(--p7)" }
+  ],
+  "groupBlurbs": {
+    "Collection & sorting": "the front end that decides everything downstream",
+    "Bulk metals": "steel, aluminum, and copper at high tonnage",
+    "Specialty metal recovery": "small volumes worth chasing per gram",
+    "Battery recycling": "lithium-ion from collection to cathode",
+    "Electronics & complex products": "boards, magnets, panels, and blades",
+    "Mechanical plastics": "wash, grind, and remelt without changing the polymer",
+    "Chemical plastics": "dissolve or depolymerize back toward feedstock",
+    "Bulk streams & disposal": "glass, paper, aggregate, organics, and what is left",
+    "Systems & policy": "who pays, what is mandated, and how it is designed"
+  },
+  "facets": [
+    {
+      "id": "output",
+      "key": "output",
+      "label": "Recovered as",
+      "type": "single",
+      "color": "--fa",
+      "required": true,
+      "tip": "What comes out, which is the question that decides whether a route is worth anything. Same material means it can go back into the application it came from · Lower grade means it is usable but has fallen a rung, like bottle PET becoming fiber · Chemical feedstock means what comes out is an input to somebody else's plant rather than a finished material — a pyrolysis oil, a smelter concentrate, a black mass · Energy only means the material is gone and the heat was the product.",
+      "order": ["closed", "open", "feed", "energy"],
+      "options": {
+        "closed": "Same material",
+        "open": "Lower grade",
+        "feed": "Chemical feedstock",
+        "energy": "Energy only"
+      }
+    },
+    {
+      "id": "econ",
+      "key": "economics",
+      "label": "Economics",
+      "type": "single",
+      "color": "--fb",
+      "required": true,
+      "tip": "Whether the route stands up on the value of what it recovers. Profitable means processors do it for the margin, with no policy behind it · Marginal means it works at some commodity prices and not others · Needs support means it runs on gate fees, extended producer responsibility payments, or a mandate · Net cost means somebody pays to make it happen and nobody would otherwise.",
+      "order": ["profit", "thin", "sub", "cost"],
+      "options": {
+        "profit": "Profitable",
+        "thin": "Marginal",
+        "sub": "Needs support",
+        "cost": "Net cost"
+      }
+    },
+    {
+      "id": "feed",
+      "key": "feed",
+      "label": "Feed tolerance",
+      "type": "single",
+      "color": "--fc",
+      "tip": "How clean the input has to be. Sorted means a single material at high purity, so the cost sits in the sorting rather than the process · Mixed means several materials together, separated as part of the process · Contaminated means it tolerates dirt, food residue, laminates, and mixed polymers, which is usually the argument for chemical routes over mechanical ones.",
+      "order": ["clean", "mixed", "dirty"],
+      "options": {
+        "clean": "Sorted",
+        "mixed": "Mixed",
+        "dirty": "Contaminated"
+      }
+    },
+    {
+      "id": "drive",
+      "key": "drivers",
+      "label": "What drives it",
+      "type": "multi",
+      "color": "--fd",
+      "required": true,
+      "tagRow": 2,
+      "tip": "Why the material gets collected at all. Material value means the scrap is worth money · Regulation means a landfill ban, a collection target, or a producer responsibility scheme · Carbon means recycled production emits far less than primary · Supply security means a government wants the material inside its own borders · Brand commitments means a consumer company promised recycled content and now has to buy it.",
+      "order": ["val", "reg", "carbon", "supply", "brand"],
+      "options": {
+        "val": "Material value",
+        "reg": "Regulation",
+        "carbon": "Carbon",
+        "supply": "Supply security",
+        "brand": "Brand commitments"
+      }
+    },
+    {
+      "id": "mat",
+      "key": "maturity",
+      "label": "Maturity",
+      "type": "single",
+      "color": "--fe",
+      "required": true,
+      "tip": "Commodity = a century-old industry with published prices · Scaling = first commercial plants running and more financed · Pilot = demonstration scale, economics not yet proven at size.",
+      "order": ["comm", "scale", "pilot"],
+      "options": {
+        "comm": "Commodity",
+        "scale": "Scaling",
+        "pilot": "Pilot"
+      }
+    }
+  ],
+  "videosAfter": "Economic profile",
+  "extraSections": [
+    ["when to use", "When to use"],
+    ["key numbers", "Key numbers"],
+    ["examples", "Examples"],
+    ["economic profile", "Economic profile"],
+    ["further reading", "Further reading"]
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "slug": "communications-systems",
+  "docTitle": "Communications Systems Reference",
+  "shortTitle": "Communications Systems",
+  "blurb": "Spectrum and propagation, 5G and Open RAN, satellite links and direct-to-cell, fiber and submarine cable, free-space optical and tactical radio, plus the routing, encryption and licensing underneath — compared on reach, capacity, latency, and cost per bit.",
+  "category": "Computing and Photonics",
+  "question": "Which link carries these bits, at what latency and what cost per bit?",
+  "title": "Communications Systems: A Practical Reference",
+  "lede": "Every link is the same three trade-offs in a different order: how far it reaches, how much it carries, and how much of the cost is fixed before the first bit moves. This guide catalogs {{N_ENTRIES}} links, systems and practices across seven classes, with the reach and capacity each one delivers, the latency it cannot get below, and where the money actually goes — which in most networks is civil works and spectrum rather than radios.",
+  "unit": ["link", "links"],
+  "groupLabel": "Class",
+  "explorerTab": "Link explorer",
+  "guideTab": "Selection guide",
+  "h2hTab": "Head-to-head",
+  "searchPlaceholder": "Search links, bands, networks…",
+  "stats": [
+    { "count": "entries", "label": "links" },
+    { "count": "parts", "label": "classes" },
+    { "count": "groups", "label": "families" }
+  ],
+  "parts": [
+    { "id": 1, "roman": "I", "name": "Spectrum & Physical Layer", "blurb": "what every link is made of", "color": "var(--p1)" },
+    { "id": 2, "roman": "II", "name": "Terrestrial Wireless", "blurb": "towers, cells, and radios on the ground", "color": "var(--p2)" },
+    { "id": 3, "roman": "III", "name": "Satellite Links", "blurb": "buying capacity from orbit", "color": "var(--p3)" },
+    { "id": 4, "roman": "IV", "name": "Fiber & Subsea", "blurb": "where nearly all the traffic actually goes", "color": "var(--p4)" },
+    { "id": 5, "roman": "V", "name": "Free-Space & Specialized", "blurb": "links for places fiber and cellular do not reach", "color": "var(--p5)" },
+    { "id": 6, "roman": "VI", "name": "Equipment & Timing", "blurb": "the boxes and the clock they share", "color": "var(--p6)" },
+    { "id": 7, "roman": "VII", "name": "Networking, Security & Rules", "blurb": "moving, protecting, and licensing the traffic", "color": "var(--p7)" }
+  ],
+  "groupBlurbs": {
+    "Spectrum & physical layer": "bands, propagation, coding, and antennas",
+    "Cellular networks": "the mobile network and how it is being unbundled",
+    "Fixed & tactical wireless": "point-to-point, unlicensed, and radios that move",
+    "Satellite links": "capacity, coverage, and filings from orbit",
+    "Fiber networks": "glass, wavelengths, and coherent transport",
+    "Subsea": "the cables carrying nearly all intercontinental traffic",
+    "Free-space & specialized": "laser, ionosphere, and underwater",
+    "Equipment & timing": "modems, base stations, sites, and synchronization",
+    "Networking & operations": "routing, encryption, resilience, and licensing"
+  },
+  "facets": [
+    {
+      "id": "reach",
+      "key": "reach",
+      "label": "Reach",
+      "type": "range",
+      "color": "--fa",
+      "required": true,
+      "tip": "How far one hop of this link goes. Meters covers in-building and short-range · Kilometers covers a cell, a campus, or a metro span · Continental covers long-haul terrestrial and regional satellite beams · Global covers intercontinental cable and constellations. Reach and cost per bit move in opposite directions for almost every technology here.",
+      "order": ["short", "metro", "long", "global"],
+      "options": {
+        "short": "Meters",
+        "metro": "Kilometers",
+        "long": "Continental",
+        "global": "Global"
+      }
+    },
+    {
+      "id": "cap",
+      "key": "capacity",
+      "label": "Capacity",
+      "type": "range",
+      "color": "--fb",
+      "required": true,
+      "tip": "Throughput of one link or one system, per user where that is the meaningful number and per fiber pair or per satellite where it is not. Kilobits covers telemetry and messaging · Megabits covers ordinary consumer and enterprise service · Gigabits covers modern access and backhaul · Terabits covers submarine cable and long-haul optical transport.",
+      "order": ["kbps", "mbps", "gbps", "tbps"],
+      "options": {
+        "kbps": "Kilobits",
+        "mbps": "Megabits",
+        "gbps": "Gigabits",
+        "tbps": "Terabits"
+      }
+    },
+    {
+      "id": "med",
+      "key": "medium",
+      "label": "Medium",
+      "type": "single",
+      "color": "--fc",
+      "tip": "What carries the signal, which decides what can interfere with it and who has to license it. Radio needs spectrum rights and shares its band with everyone else in it · Fiber needs a right of way and a trench · Laser needs line of sight and clear air · Acoustic is the only thing that works underwater and pays for it in bandwidth. Entries about networking practice carry no medium, because they apply to all of them.",
+      "order": ["rf", "fiber", "laser", "sound"],
+      "options": {
+        "rf": "Radio",
+        "fiber": "Fiber",
+        "laser": "Laser",
+        "sound": "Acoustic"
+      }
+    },
+    {
+      "id": "lat",
+      "key": "latency",
+      "label": "Latency",
+      "type": "single",
+      "color": "--fd",
+      "tip": "One-way delay a user sees in normal operation, including the processing the link cannot skip. This is the number that separates otherwise similar options: a geostationary satellite and a low-orbit constellation both cover a continent, and only one of them can carry a video call.",
+      "order": ["sub", "low", "med", "high"],
+      "options": {
+        "sub": "Under 10 ms",
+        "low": "10–50 ms",
+        "med": "50–200 ms",
+        "high": "Over 200 ms"
+      }
+    },
+    {
+      "id": "mat",
+      "key": "maturity",
+      "label": "Maturity",
+      "type": "single",
+      "color": "--fe",
+      "required": true,
+      "tip": "Deployed = carrying commercial traffic at scale, with a supply chain and trained installers · Scaling = commercial and growing fast, with the standard settled · Early = first commercial systems, standards still moving · Research = demonstrated, no commercial service.",
+      "order": ["dep", "scale", "early", "res"],
+      "options": {
+        "dep": "Deployed",
+        "scale": "Scaling",
+        "early": "Early",
+        "res": "Research"
+      }
+    }
+  ],
+  "videosAfter": "Economic profile",
+  "extraSections": [
+    ["when to use", "When to use"],
+    ["key numbers", "Key numbers"],
+    ["examples", "Examples"],
+    ["economic profile", "Economic profile"],
+    ["further reading", "Further reading"]
+  ]
+}

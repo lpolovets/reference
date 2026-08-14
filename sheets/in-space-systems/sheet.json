@@ -1,0 +1,132 @@
+{
+  "slug": "in-space-systems",
+  "docTitle": "In-Space Systems Reference",
+  "shortTitle": "In-Space Systems",
+  "blurb": "Rendezvous and docking, satellite servicing and refueling, propellant depots and cryogenic transfer, solar arrays and radiators, in-space assembly and manufacturing, lunar resource extraction, and the reentry and disposal end — compared on orbit, mass, power, and whether anyone is paying for it yet.",
+  "category": "Defense and Aerospace",
+  "question": "What keeps a spacecraft working once it is up there, and who is paying for it?",
+  "title": "In-Space Systems: A Practical Reference",
+  "lede": "Almost everything launched today is built to work alone, run out of propellant, and be thrown away, because for sixty years that was cheaper than the alternative. Falling launch prices are the reason that assumption is being reopened. This guide catalogs {{N_ENTRIES}} systems across seven classes, from docking mechanisms and propellant transfer to lunar oxygen and controlled reentry, with what each one needs in mass and power, how far it has actually flown, and which ones have a customer rather than a study contract.",
+  "unit": ["system", "systems"],
+  "groupLabel": "Class",
+  "explorerTab": "System explorer",
+  "guideTab": "Selection guide",
+  "h2hTab": "Head-to-head",
+  "searchPlaceholder": "Search systems, orbits, missions…",
+  "stats": [
+    { "count": "entries", "label": "systems" },
+    { "count": "parts", "label": "classes" },
+    { "count": "groups", "label": "families" }
+  ],
+  "parts": [
+    { "id": 1, "roman": "I", "name": "Rendezvous & Docking", "blurb": "getting two spacecraft to touch on purpose", "color": "var(--p1)" },
+    { "id": 2, "roman": "II", "name": "Servicing & Life Extension", "blurb": "doing work on something already in orbit", "color": "var(--p2)" },
+    { "id": 3, "roman": "III", "name": "Propellant Logistics", "blurb": "moving fuel to where the mission needs it", "color": "var(--p3)" },
+    { "id": 4, "roman": "IV", "name": "Power & Thermal", "blurb": "watts in, watts out, and nothing to convect into", "color": "var(--p4)" },
+    { "id": 5, "roman": "V", "name": "Assembly & Manufacturing", "blurb": "building structures too large to launch", "color": "var(--p5)" },
+    { "id": 6, "roman": "VI", "name": "Resources & Surface Systems", "blurb": "living off what is already there", "color": "var(--p6)" },
+    { "id": 7, "roman": "VII", "name": "Return, Reentry & Disposal", "blurb": "coming down, deliberately or otherwise", "color": "var(--p7)" }
+  ],
+  "groupBlurbs": {
+    "Proximity operations": "sensing, approach, and capture",
+    "Interfaces & mechanisms": "docking rings, arms, and grapple fixtures",
+    "Servicing missions": "extending, repairing, and upgrading spacecraft",
+    "Propellant transfer": "storable and cryogenic fluid handling in orbit",
+    "Power generation & storage": "arrays, batteries, and reactors",
+    "Thermal control": "radiators, loops, and heat rejection",
+    "In-space assembly": "structures built or made on orbit",
+    "Surface & resources": "landers, mobility, and extracting what is there",
+    "Return & disposal": "reentry, recovery, and end of life"
+  },
+  "facets": [
+    {
+      "id": "orbit",
+      "key": "orbit",
+      "label": "Where it operates",
+      "type": "multi",
+      "color": "--fa",
+      "required": true,
+      "tagRow": 2,
+      "tip": "The regime the system works in, which decides radiation dose, thermal cycling, communication delay, and how expensive it is to get there. LEO is cheap to reach and full of traffic · GEO holds high-value assets worth servicing · Cislunar covers transfer orbits and the Moon's vicinity · Surface means landed on the Moon or Mars · Deep space means beyond, where nothing can be replaced.",
+      "order": ["leo", "geo", "cis", "surf", "deep"],
+      "options": {
+        "leo": "Low Earth orbit",
+        "geo": "GEO & high orbits",
+        "cis": "Cislunar",
+        "surf": "Planetary surface",
+        "deep": "Deep space"
+      }
+    },
+    {
+      "id": "scale",
+      "key": "scale",
+      "label": "System mass",
+      "type": "range",
+      "color": "--fb",
+      "required": true,
+      "tip": "Roughly what the system weighs as flown, which is the number that turns into launch cost. Under 100 kg is a hosted payload or a small mechanism · Hundreds of kilograms is a subsystem or a small free-flyer · Tonnes is a servicing vehicle or a depot · Tens of tonnes is a station module or a landed plant, and needs a heavy-lift launch to exist at all.",
+      "order": ["kg", "hkg", "t", "ht"],
+      "options": {
+        "kg": "Kilograms",
+        "hkg": "Hundreds",
+        "t": "Tonnes",
+        "ht": "Many"
+      }
+    },
+    {
+      "id": "auto",
+      "key": "autonomy",
+      "label": "Who operates it",
+      "type": "single",
+      "color": "--fc",
+      "tip": "How the system is run, which sets both cost and what it can attempt. Autonomous means onboard decisions inside a control loop too fast for the ground · Ground-commanded means an operator in the loop with a light-time delay measured in seconds · Teleoperated means an operator flying it in near real time, which needs a relay · Crewed means people present, the most capable and by far the most expensive option.",
+      "order": ["auto", "ground", "tele", "crew"],
+      "options": {
+        "auto": "Autonomous",
+        "ground": "Ground-commanded",
+        "tele": "Teleoperated",
+        "crew": "Crewed"
+      }
+    },
+    {
+      "id": "cust",
+      "key": "customer",
+      "label": "Who pays",
+      "type": "multi",
+      "color": "--fd",
+      "required": true,
+      "tip": "Where the money comes from today, not where a business plan hopes it will come from. Almost everything on this sheet is currently funded by a space agency or a defense customer, and the entries with a commercial buyer are the ones worth watching. Say which it is.",
+      "order": ["civ", "def", "com", "sci"],
+      "options": {
+        "civ": "Civil agency",
+        "def": "Defense",
+        "com": "Commercial",
+        "sci": "Science"
+      }
+    },
+    {
+      "id": "mat",
+      "key": "maturity",
+      "label": "Flight heritage",
+      "type": "single",
+      "color": "--fe",
+      "required": true,
+      "tip": "How far it has actually flown, which in this field diverges from how often it is announced. Operational = flown repeatedly and bought as a service or a product · Demonstrated = flown at least once and worked · Flight-planned = a funded mission exists with a launch date · Concept = studies, ground tests, and renderings.",
+      "order": ["ops", "demo", "planned", "concept"],
+      "options": {
+        "ops": "Operational",
+        "demo": "Demonstrated",
+        "planned": "Flight-planned",
+        "concept": "Concept"
+      }
+    }
+  ],
+  "videosAfter": "Economic profile",
+  "extraSections": [
+    ["when to use", "When to use"],
+    ["key numbers", "Key numbers"],
+    ["examples", "Examples"],
+    ["economic profile", "Economic profile"],
+    ["further reading", "Further reading"]
+  ]
+}

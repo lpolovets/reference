@@ -1,0 +1,129 @@
+{
+  "slug": "medical-imaging-and-devices",
+  "docTitle": "Medical Imaging and Devices Reference",
+  "shortTitle": "Medical Imaging and Devices",
+  "blurb": "CT, MRI, PET, ultrasound and optical imaging, surgical robots and catheters, pacemakers and neuromodulation, plus the FDA pathways and reimbursement codes that decide whether any of it reaches a patient — compared on capital cost, invasiveness, and how a new entrant actually gets in.",
+  "category": "Biotechnology",
+  "question": "Which instrument sees this, and what does it take to get it into a hospital?",
+  "title": "Medical Imaging and Devices: A Practical Reference",
+  "lede": "Medical hardware is judged on two axes that have almost nothing to do with each other: whether the physics works, and whether a hospital can bill for it. This guide catalogs {{N_ENTRIES}} instruments, implants and procedures across seven classes, with what each one costs to buy, how invasive it is, which regulatory class it falls into, and where a new entrant has actually displaced an incumbent.",
+  "unit": ["device", "devices"],
+  "groupLabel": "Class",
+  "explorerTab": "Device explorer",
+  "guideTab": "Selection guide",
+  "h2hTab": "Head-to-head",
+  "searchPlaceholder": "Search scanners, implants, procedures…",
+  "stats": [
+    { "count": "entries", "label": "devices" },
+    { "count": "parts", "label": "classes" },
+    { "count": "groups", "label": "families" }
+  ],
+  "parts": [
+    { "id": 1, "roman": "I", "name": "X-Ray & CT", "blurb": "transmission imaging with ionizing radiation", "color": "var(--p1)" },
+    { "id": 2, "roman": "II", "name": "Magnetic Resonance", "blurb": "soft-tissue contrast, no ionizing dose", "color": "var(--p2)" },
+    { "id": 3, "roman": "III", "name": "Nuclear Medicine", "blurb": "inject the signal and watch where it goes", "color": "var(--p3)" },
+    { "id": 4, "roman": "IV", "name": "Ultrasound & Optical", "blurb": "real time, at the bedside, no dose", "color": "var(--p4)" },
+    { "id": 5, "roman": "V", "name": "Interventional & Surgical", "blurb": "hardware that goes in and does something", "color": "var(--p5)" },
+    { "id": 6, "roman": "VI", "name": "Implants & Active Devices", "blurb": "electronics that stay in the body", "color": "var(--p6)" },
+    { "id": 7, "roman": "VII", "name": "Regulation, Software & Money", "blurb": "the part that decides whether it ships", "color": "var(--p7)" }
+  ],
+  "groupBlurbs": {
+    "X-ray & CT": "the workhorse of every emergency department",
+    "Magnetic resonance": "the most expensive room in the hospital",
+    "Nuclear medicine": "molecular imaging, and the isotope supply behind it",
+    "Ultrasound": "cheap, portable, and operator-dependent",
+    "Optical imaging": "micron resolution, millimeters deep",
+    "Surgical robotics": "instruments held by a machine instead of a hand",
+    "Interventional & radiotherapy": "catheters, ablation, and delivered dose",
+    "Implants & active devices": "powered hardware living inside a patient",
+    "Regulation & software": "clearance, coding, sterility, and security"
+  },
+  "facets": [
+    {
+      "id": "use",
+      "key": "uses",
+      "label": "Clinical role",
+      "type": "multi",
+      "color": "--fa",
+      "required": true,
+      "tagRow": 2,
+      "tip": "What the device is for in the care pathway, which decides who buys it and how it gets paid for. Screening and diagnosis are reimbursed differently and carry very different evidence requirements: a screening claim needs outcome data in an asymptomatic population, which is the most expensive trial in medicine.",
+      "order": ["screen", "diag", "guide", "treat", "monitor"],
+      "options": {
+        "screen": "Screening",
+        "diag": "Diagnosis",
+        "guide": "Procedure guidance",
+        "treat": "Treatment",
+        "monitor": "Monitoring"
+      }
+    },
+    {
+      "id": "inv",
+      "key": "invasiveness",
+      "label": "Invasiveness",
+      "type": "range",
+      "color": "--fb",
+      "required": true,
+      "tip": "How far into the patient the device goes, which sets the regulatory burden more directly than the technology does. External means nothing crosses the skin · Injected means a tracer or contrast agent is given · Catheter means access through a vessel or natural orifice · Implanted means it stays in.",
+      "order": ["ext", "inj", "cath", "impl"],
+      "options": {
+        "ext": "External",
+        "inj": "Injected",
+        "cath": "Catheter",
+        "impl": "Implanted"
+      }
+    },
+    {
+      "id": "capex",
+      "key": "capex",
+      "label": "Capital cost",
+      "type": "single",
+      "color": "--fc",
+      "tip": "List price of one unit, before the service contract, the siting work and the staff. The step from a cart to a room is the one that matters: anything above roughly half a million dollars needs a capital committee, a business case, and usually a construction project, which is why portable versions of expensive modalities keep getting funded.",
+      "order": ["cheap", "mid", "high", "vhigh"],
+      "options": {
+        "cheap": "Under $50k",
+        "mid": "$50k–500k",
+        "high": "$0.5–3M",
+        "vhigh": "Above $3M"
+      }
+    },
+    {
+      "id": "reg",
+      "key": "regclass",
+      "label": "FDA class",
+      "type": "single",
+      "color": "--fd",
+      "tip": "The US risk class, which decides the evidence a new entrant has to produce. Class II clears through 510(k) against a predicate device, usually with bench and limited clinical data, and takes months · Class III needs a premarket approval with a pivotal trial and takes years. Picking a category with a usable predicate is one of the largest cost decisions a device company makes.",
+      "order": ["c2", "c3"],
+      "options": {
+        "c2": "Class II",
+        "c3": "Class III"
+      }
+    },
+    {
+      "id": "mat",
+      "key": "maturity",
+      "label": "Adoption",
+      "type": "single",
+      "color": "--fe",
+      "required": true,
+      "tip": "Standard of care = in guidelines, reimbursed, and present in most hospitals · Growing = reimbursed and spreading, with the clinical argument mostly settled · Early = cleared and selling into early adopters, evidence still accumulating · Research = investigational, no routine clinical use.",
+      "order": ["std", "grow", "early", "res"],
+      "options": {
+        "std": "Standard of care",
+        "grow": "Growing",
+        "early": "Early",
+        "res": "Research"
+      }
+    }
+  ],
+  "videosAfter": "Economic profile",
+  "extraSections": [
+    ["when to use", "When to use"],
+    ["key numbers", "Key numbers"],
+    ["examples", "Examples"],
+    ["economic profile", "Economic profile"],
+    ["further reading", "Further reading"]
+  ]
+}

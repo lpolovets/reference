@@ -100,7 +100,13 @@ async function check(urls) {
     }
     const type = (res.headers.get('content-type') || '').split(';')[0];
     const m = /<title[^>]*>([\s\S]{0,300}?)<\/title>/i.exec(body);
-    const flag = res.ok ? 'OK ' : 'BAD';
+    // An empty body is not a verified document. eur-lex.europa.eu answers 202
+    // with zero bytes to every client, and escholarship.org does the same; both
+    // used to print OK here, which is the one word an agent reads before pasting
+    // a citation. A server that answers without returning anything has told you
+    // nothing, so grade it BAD rather than letting the status code speak.
+    const empty = body.length === 0;
+    const flag = res.ok && !empty ? 'OK ' : 'BAD';
     console.log(`${flag} ${res.status}  ${type.padEnd(26)} ${String(body.length).padStart(8)}B  ${url}`);
     if (m) console.log(`            title: ${clean(m[1]).slice(0, 140)}`);
     if (res.url && res.url.replace(/\/$/, '') !== url.replace(/\/$/, '')) {
@@ -110,6 +116,12 @@ async function check(urls) {
     // HTML-sized "PDF" is a lying server. Both are in CLAUDE.md's trap list.
     if (/\.pdf($|\?)/i.test(url) && type.includes('html')) {
       console.log('            NOTE: .pdf served as HTML — likely a bot wall, not the file');
+    }
+    if (empty) {
+      console.log('            NOTE: empty body — the server answered and sent nothing, so');
+      console.log('                  there is no document here to verify. Cite something else.');
+    } else if (type.includes('html') && body.length < 1000 && !m) {
+      console.log(`            NOTE: ${body.length}-byte HTML with no title — usually a bot wall`);
     }
   }
 }
