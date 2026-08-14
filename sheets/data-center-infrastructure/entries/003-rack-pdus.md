@@ -35,4 +35,4 @@ Rack PDUs are among the cheapest items in the power chain, and the metering is w
 
 ## Further reading
 
-[Data Center Energy Efficiency Toolkit (Berkeley Lab Center of Expertise)](https://datacenters.lbl.gov/tools) · [Considerations for a Highly Available Intelligent Rack Power Distribution Unit (Vertiv)](https://www.vertiv.com/globalassets/documents/white-papers/white-paper-rack-pdu-en_7014_0.pdf)
+[Best Practices Guide for Energy-Efficient Data Center Design (Federal Energy Management Program)](https://www.energy.gov/sites/default/files/2024-07/best-practice-guide-data-center-design.pdf) · [Considerations for a Highly Available Intelligent Rack Power Distribution Unit (Vertiv)](https://www.vertiv.com/globalassets/documents/white-papers/white-paper-rack-pdu-en_7014_0.pdf)

@@ -36,4 +36,4 @@ DPSS lost the continuous-wave industrial market to fiber lasers and kept the two
 
 ## Further reading
 
-[Lamp-pumped Lasers (RP Photonics Encyclopedia)](https://www.rp-photonics.com/lamp_pumped_lasers.html) · [Diode-pumped Nd:YVO4 Laser and Nonlinear Optics (University of New Mexico)](https://msbahae.unm.edu/Courses/Optics%20Lab/DPSS%20Nd-YVO4%20Laser.pdf)
+[μ-MOPA Architecture for Photonic Integrated Solid State Laser (arXiv)](https://arxiv.org/abs/2606.19768) · [Diode-pumped Nd:YVO4 Laser and Nonlinear Optics (University of New Mexico)](https://msbahae.unm.edu/Courses/Optics%20Lab/DPSS%20Nd-YVO4%20Laser.pdf)

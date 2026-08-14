@@ -35,4 +35,4 @@ Commercial revenue today comes from gravimeters for geophysics and civil survey 
 
 ## Further reading
 
-[UK National Quantum Technologies Programme](https://uknqt.ukri.org/) · [Quantum Flagship](https://qt.eu/)
+[Atom Interferometers (arXiv)](https://arxiv.org/abs/0712.3703) · [Mobile and remote inertial sensing with atom interferometers (arXiv)](https://arxiv.org/abs/1311.7033)

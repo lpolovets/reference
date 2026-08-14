@@ -35,4 +35,4 @@ Most of the cost sits onshore. Liquefaction takes 90–120 kWh/t and both termin
 
 ## Further reading
 
-[What we do (Northern Lights)](https://norlights.com/what-we-do/) · [The Status and Challenges of CO2 Shipping Infrastructures (IEAGHG)](https://ieaghg.org/publications/2020-10%20The%20Status%20and%20Challenges%20of%20CO2%20Shipping%20Infrastructures.pdf)
+[U.S. Japan CO2 Shipping Feasibility Study: Screening Assessment (National Energy Technology Laboratory)](https://www.energy.gov/sites/default/files/2025-01/U.S.%20Japan%20CO2%20Shipping%20Feasibility%20Study_Screening%20Assessment.pdf) · [The Status and Challenges of CO2 Shipping Infrastructures (IEAGHG)](https://ieaghg.org/publications/2020-10%20The%20Status%20and%20Challenges%20of%20CO2%20Shipping%20Infrastructures.pdf)

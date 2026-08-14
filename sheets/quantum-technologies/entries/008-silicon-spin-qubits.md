@@ -36,4 +36,4 @@ The case here is amortization. If a spin qubit can be made in a CMOS fab on 300 
 
 ## Further reading
 
-[Quantum information science (NIST)](https://www.nist.gov/quantum-information-science) · [Semiconductor Spin Qubits (arXiv)](https://arxiv.org/abs/2112.08863)
+[Universal control of a six-qubit quantum processor in silicon (arXiv)](https://arxiv.org/abs/2202.09252) · [Semiconductor Spin Qubits (arXiv)](https://arxiv.org/abs/2112.08863)

@@ -36,4 +36,4 @@ Two different arguments get made for dense medium separation, and they are worth
 
 ## Further reading
 
-[Mineral Processing Engineering (911 Metallurgist)](https://www.911metallurgist.com/blog/) · [AMIT 145: Lesson 3 Dense Medium Separation (University of Alaska Fairbanks)](https://millops.community.uaf.edu/amit-145/amit-145-lesson-3/)
+[Dense Medium Cyclone Separation of Fine Coal: A Discussion on the Separation Lower Limit (Minerals)](https://doi.org/10.3390/min13091115) · [AMIT 145: Lesson 3 Dense Medium Separation (University of Alaska Fairbanks)](https://millops.community.uaf.edu/amit-145/amit-145-lesson-3/)

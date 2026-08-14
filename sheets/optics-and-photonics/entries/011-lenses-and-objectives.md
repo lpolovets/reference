@@ -36,4 +36,4 @@ Two things set what a lens costs, and neither of them is the glass. The first is
 
 ## Further reading
 
-[Lenses (RP Photonics Encyclopedia)](https://www.rp-photonics.com/lenses.html) · [Optics (Laser Focus World)](https://www.laserfocusworld.com/optics)
+[Lenses (RP Photonics Encyclopedia)](https://www.rp-photonics.com/lenses.html) · [Introduction to Microscope Objectives (Nikon MicroscopyU)](https://www.microscopyu.com/microscopy-basics/introduction-to-microscope-objectives)

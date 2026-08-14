@@ -107,7 +107,7 @@ async function probe(url) {
   // shorteners, so the host that decides how to read the response is the one at
   // the end of the redirect chain.
   const landed = (() => { try { return new URL(res.url).hostname.replace(/^www\./, ''); } catch (e) { return ''; } })();
-  if (landed === 'openknowledge.fao.org') return checkFAO(res.url);
+  if (landed === 'openknowledge.fao.org' && !isFAOBitstream(res.url)) return checkFAO(res.url);
   if (landed && isBlockedHost(landed)) return { grade: 'BLOCKED', why: 'redirects to ' + landed + ', which refuses automated clients' };
 
   const type = (res.headers.get('content-type') || '').toLowerCase();
@@ -163,6 +163,14 @@ async function probe(url) {
 // openknowledge.fao.org serves a ~945-byte client-rendered shell for every item,
 // so fetching one proves nothing. Its DSpace API answers for a real handle and
 // 404s for an invented one, which is the check that means something.
+//
+// The exception is a bitstream: fao.org/3/<id>/<id>.pdf, FAO's own canonical
+// document URL, now redirects into /server/api/core/bitstreams/<uuid>/content,
+// which returns the actual file. Those have no handle in the URL and used to be
+// graded SUSPECT for it, which failed a link that downloads a real PDF. Judge
+// them on their bytes like any other file instead.
+const isFAOBitstream = url => /\/server\/api\/core\/bitstreams\/[^/]+\/content\b/.test(url);
+
 async function checkFAO(url) {
   const m = url.match(/handle\/([\d.]+\/\d+\/[^/?#]+)/) || url.match(/handle\/([^?#]+)/);
   if (!m) return { grade: 'SUSPECT', why: 'not a /handle/ URL' };
@@ -175,6 +183,36 @@ async function checkFAO(url) {
   } catch (e) {
     return { grade: 'BLOCKED', why: 'FAO DSpace API did not answer' };
   }
+}
+
+// A doi.org link redirects to the publisher, and several large publishers —
+// mdpi.com, sciencedirect.com, wiley — answer a script with a challenge page,
+// so following the redirect proves nothing and grades a good citation BLOCKED.
+// Crossref holds the registration itself: it 404s an invented DOI and returns
+// the registered title for a real one, which is the check worth making. It also
+// means a paper behind a wall can still be cited by DOI and still be verified.
+async function checkDOI(url) {
+  const doi = (url.match(/doi\.org\/(10\.[^\s?#]+)/) || [])[1];
+  if (!doi) return { grade: 'SUSPECT', why: 'not a /10.xxxx/ DOI URL' };
+  // A sheet can hold a dozen DOIs, and the queue asks for them back to back, so
+  // Crossref answers 429 to the tail of the burst. That is throttling, not a bad
+  // citation, and one pause clears it.
+  for (let attempt = 0; attempt < 2; attempt++) {
+    try {
+      const r = await fetch('https://api.crossref.org/works/' + encodeURI(doi),
+        { headers: { 'user-agent': UA, accept: 'application/json' }, signal: AbortSignal.timeout(TIMEOUT) });
+      if (r.status === 404) return { grade: 'DEAD', why: 'Crossref has no such DOI' };
+      if (r.status === 429 && attempt === 0) { await new Promise(s => setTimeout(s, 3000)); continue; }
+      if (!r.ok) return { grade: 'BLOCKED', why: 'Crossref returned ' + r.status };
+      const j = await r.json();
+      const title = j?.message?.title?.[0];
+      return title ? { grade: 'OK' } : { grade: 'SUSPECT', why: 'Crossref record has no title' };
+    } catch (e) {
+      if (attempt === 0) { await new Promise(s => setTimeout(s, 3000)); continue; }
+      return { grade: 'BLOCKED', why: 'Crossref did not answer' };
+    }
+  }
+  return { grade: 'BLOCKED', why: 'Crossref rate limited twice' };
 }
 
 // ---- the two hosts that need their API ----
@@ -239,7 +277,8 @@ async function checkNTRS(url) {
     const h = host(url);
     if (isBlockedHost(h)) return { grade: 'BLOCKED', why: 'host refuses automated clients (see CLAUDE.md)' };
     if (h === 'ntrs.nasa.gov') return checkNTRS(url);
-    if (h === 'openknowledge.fao.org') return checkFAO(url);
+    if (h === 'doi.org') return checkDOI(url);
+    if (h === 'openknowledge.fao.org' && !isFAOBitstream(url)) return checkFAO(url);
     return probe(url);
   };
 

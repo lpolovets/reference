@@ -36,4 +36,4 @@ Removing the cryocooler is what took thermal imaging from tens of thousands of d
 
 ## Further reading
 
-[Thermal Detectors (RP Photonics Encyclopedia)](https://www.rp-photonics.com/thermal_detectors.html) · [Low-Cost Microbolometer Type Infrared Detectors (Micromachines)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7570331/)
+[Readout IC Architectures and Strategies for Uncooled Micro-Bolometers Infrared Focal Plane Arrays: A Review (Sensors via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10007274/) · [Low-Cost Microbolometer Type Infrared Detectors (Micromachines)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7570331/)

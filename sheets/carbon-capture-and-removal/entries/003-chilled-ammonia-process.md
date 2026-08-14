@@ -35,4 +35,4 @@ Three cost lines move in opposite directions here, so the case has to be built s
 
 ## Further reading
 
-[Technology Centre Mongstad (TCM)](https://tcmda.com/) · [AEP Mountaineer Fact Sheet (MIT Carbon Capture and Sequestration Technologies)](https://sequestration.mit.edu/tools/projects/aep_alstom_mountaineer.html)
+[Chilled Ammonia Process at Technology Center Mongstad - First Results (Energy Procedia)](https://doi.org/10.1016/j.egypro.2014.07.004) · [AEP Mountaineer Fact Sheet (MIT Carbon Capture and Sequestration Technologies)](https://sequestration.mit.edu/tools/projects/aep_alstom_mountaineer.html)

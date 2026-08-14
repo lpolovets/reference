@@ -36,4 +36,4 @@ Removing cryogenics changes what kind of product this can be. With no fridge and
 
 ## Further reading
 
-[Quantum information science (NIST)](https://www.nist.gov/quantum-information-science) · [Sensitivity Optimization for NV-Diamond Magnetometry (arXiv)](https://arxiv.org/abs/1903.08176)
+[The nitrogen-vacancy colour centre in diamond (arXiv)](https://arxiv.org/abs/1302.3288) · [Sensitivity Optimization for NV-Diamond Magnetometry (arXiv)](https://arxiv.org/abs/1903.08176)

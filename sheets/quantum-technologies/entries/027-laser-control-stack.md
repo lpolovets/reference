@@ -30,4 +30,4 @@ For an atomic platform the laser subsystem is usually the largest line in the bi
 
 ## Further reading
 
-[Quantum Flagship](https://qt.eu/) · [UK National Quantum Technologies Programme](https://uknqt.ukri.org/)
+[Multi-zone trapped-ion qubit control in an integrated photonics QCCD device (arXiv)](https://arxiv.org/abs/2401.18056) · [Multi-site Integrated Optical Addressing of Trapped Ions (arXiv)](https://arxiv.org/abs/2308.14918)

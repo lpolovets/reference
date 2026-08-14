@@ -36,4 +36,4 @@ The value of a rejected ton is unusually large here, because it never consumes g
 
 ## Further reading
 
-[Home (International Mining)](https://im-mining.com/) · [Pre-Concentration – More than Bulk Ore Sorting (CEEC)](https://www.ceecthefuture.org/resources/pre-concentration-more-than-bulk-ore-sorting)
+[Sensor-Based Ore Sorting Technology in Mining—Past, Present and Future (Minerals)](https://doi.org/10.3390/min9090523) · [Pre-Concentration – More than Bulk Ore Sorting (CEEC)](https://www.ceecthefuture.org/resources/pre-concentration-more-than-bulk-ore-sorting)

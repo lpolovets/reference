@@ -36,4 +36,4 @@ A buyer pays more per megawatt than a well-executed stick-built project and gets
 
 ## Further reading
 
-[Uptime Institute Reports (Uptime Institute)](https://uptimeinstitute.com/resources/research-and-reports) · [Types of Prefabricated Modular Data Centers, White Paper 165 (Schneider Electric)](https://download.schneider-electric.com/files?p_Doc_Ref=SPD_WTOL-97GLP9_EN)
+[Exploring the Efficiency of Renewable Energy-based Modular Data Centers at Scale (arXiv)](https://arxiv.org/abs/2406.02252) · [Types of Prefabricated Modular Data Centers, White Paper 165 (Schneider Electric)](https://download.schneider-electric.com/files?p_Doc_Ref=SPD_WTOL-97GLP9_EN)

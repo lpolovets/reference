@@ -36,4 +36,4 @@ In an industrial system the scanner is rarely the expensive part. A galvo pair a
 
 ## Further reading
 
-[Lasers & Sources (Laser Focus World)](https://www.laserfocusworld.com/lasers-sources) · [MEMS Mirrors for LiDAR: A Review (Micromachines via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7281653/)
+[MEMS Micromirror Actuation Techniques: A Comprehensive Review of Trends, Innovations, and Future Prospects (Micromachines)](https://doi.org/10.3390/mi15101233) · [MEMS Mirrors for LiDAR: A Review (Micromachines via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7281653/)

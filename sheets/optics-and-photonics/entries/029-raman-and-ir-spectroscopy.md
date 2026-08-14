@@ -36,4 +36,4 @@ Cost follows the weakness of the signal. Raman returns roughly one shifted photo
 
 ## Further reading
 
-[Raman Spectroscopy (RP Photonics Encyclopedia)](https://www.rp-photonics.com/raman_spectroscopy.html) · [Vibrational Spectroscopy (Chemistry LibreTexts)](https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_%28Physical_and_Theoretical_Chemistry%29/Spectroscopy/Vibrational_Spectroscopy)
+[Raman spectroscopy for in-line water quality monitoring: instrumentation and potential (Sensors via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC4208224/) · [Vibrational Spectroscopy (Chemistry LibreTexts)](https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_%28Physical_and_Theoretical_Chemistry%29/Spectroscopy/Vibrational_Spectroscopy)

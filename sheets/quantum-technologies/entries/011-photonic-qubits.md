@@ -36,4 +36,4 @@ The chip itself is a wafer cost shared with the silicon photonics that goes into
 
 ## Further reading
 
-[Quantum Flagship](https://qt.eu/) · [A manufacturable platform for photonic quantum computing (Nature via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12095036/)
+[Photonic quantum information processing: a concise review (arXiv)](https://arxiv.org/abs/1907.06331) · [A manufacturable platform for photonic quantum computing (Nature via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12095036/)

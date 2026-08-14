@@ -36,4 +36,4 @@ The sensor is usually the smallest line item. Systems run from about $25,000 for
 
 ## Further reading
 
-[Hyperspectral Imaging (RP Photonics Encyclopedia)](https://www.rp-photonics.com/hyperspectral_imaging.html) · [AVIRIS: Airborne Visible/Infrared Imaging Spectrometer (NASA JPL)](https://aviris.jpl.nasa.gov/)
+[Modern Trends and Recent Applications of Hyperspectral Imaging: A Review (Technologies)](https://doi.org/10.3390/technologies13050170) · [AVIRIS - Airborne Visible / Infrared Imaging Spectrometer: General Overview (NASA Jet Propulsion Laboratory)](https://aviris.jpl.nasa.gov/aviris/index.html)

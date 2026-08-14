@@ -36,4 +36,4 @@ Phone volume pays for everything else. A sensor with tens of millions of pixels 
 
 ## Further reading
 
-[Image Sensors (RP Photonics Encyclopedia)](https://www.rp-photonics.com/image_sensors.html) · [A Review of the Pinned Photodiode for CCD and CMOS Image Sensors (Dartmouth Digital Commons)](https://digitalcommons.dartmouth.edu/facoa/2423/)
+[CMOS Image Sensors for High Speed Applications (Sensors via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC3280755/) · [A Review of the Pinned Photodiode for CCD and CMOS Image Sensors (Dartmouth Digital Commons)](https://digitalcommons.dartmouth.edu/facoa/2423/)

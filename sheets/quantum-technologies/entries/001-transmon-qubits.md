@@ -36,4 +36,4 @@ Superconducting qubits attract the most capital because they look like a semicon
 
 ## Further reading
 
-[Quantum Computing: Progress and Prospects (National Academies)](https://nap.nationalacademies.org/catalog/25196/quantum-computing-progress-and-prospects) · [Quantum information science (NIST)](https://www.nist.gov/quantum-information-science)
+[Quantum Computing: Progress and Prospects (National Academies)](https://nap.nationalacademies.org/catalog/25196/quantum-computing-progress-and-prospects) · [A Quantum Engineer's Guide to Superconducting Qubits (arXiv)](https://arxiv.org/abs/1904.06560)

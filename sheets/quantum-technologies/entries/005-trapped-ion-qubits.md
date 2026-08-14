@@ -36,4 +36,4 @@ There is no dilution refrigerator in a trapped-ion machine, which takes several 
 
 ## Further reading
 
-[Benchmarking a trapped-ion quantum computer with 30 qubits (Quantum)](https://quantum-journal.org/papers/q-2024-11-07-1516/) · [Quantum information science (NIST)](https://www.nist.gov/quantum-information-science)
+[Benchmarking a trapped-ion quantum computer with 30 qubits (Quantum)](https://quantum-journal.org/papers/q-2024-11-07-1516/) · [Trapped-Ion Quantum Computing: Progress and Challenges (arXiv)](https://arxiv.org/abs/1904.04178)

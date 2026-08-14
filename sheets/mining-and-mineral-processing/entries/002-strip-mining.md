@@ -36,4 +36,4 @@ The dragline is where both the cost advantage and the risk sit. It moves overbur
 
 ## Further reading
 
-[Our Work (ICMM)](https://www.icmm.com/our-work) · [Reclamation of Mined Lands in the Western Coal Region (USGS)](https://pubs.usgs.gov/circ/1983/0872/report.pdf)
+[Surface-mining modeling for USGS coal assessments (US Geological Survey)](https://pubs.usgs.gov/of/2021/1059/ofr20211059.pdf) · [Reclamation of Mined Lands in the Western Coal Region (USGS)](https://pubs.usgs.gov/circ/1983/0872/report.pdf)

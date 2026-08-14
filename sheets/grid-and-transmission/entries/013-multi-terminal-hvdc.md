@@ -36,4 +36,4 @@ The savings are real, but they land on a different party than the costs. A meshe
 
 ## Further reading
 
-[System Operations Reports (ENTSO-E)](https://www.entsoe.eu/publications/system-operations-reports/) · [Atlantic Offshore Wind Transmission Study (National Laboratory of the Rockies)](https://www.osti.gov/biblio/2327027)
+[Protection of Multi-Terminal HVDC Grids: A Comprehensive Review (Energies)](https://doi.org/10.3390/en15249552) · [Atlantic Offshore Wind Transmission Study (National Laboratory of the Rockies)](https://www.osti.gov/biblio/2327027)

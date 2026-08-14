@@ -36,4 +36,4 @@ Unit economics work because there are three revenue lines: the char itself as a 
 
 ## Further reading
 
-[Biochar as a carbon dioxide removal strategy in integrated long-run mitigation scenarios (Environmental Research Letters)](https://docs.nlr.gov/docs/fy24osti/89438.pdf) · [International Biochar Initiative](https://biochar-international.org/)
+[Biochar as a carbon dioxide removal strategy in integrated long-run mitigation scenarios (Environmental Research Letters)](https://docs.nlr.gov/docs/fy24osti/89438.pdf) · [A systematic review of biochar research, with a focus on its stability in situ and its promise as a climate mitigation strategy (PLOS ONE via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC3786913/)

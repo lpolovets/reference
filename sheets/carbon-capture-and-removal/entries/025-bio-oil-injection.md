@@ -36,4 +36,4 @@ At $400–600/t this is among the most expensive removals anyone actually buys, 
 
 ## Further reading
 
-[Charm | Carbon removal technology (Charm Industrial)](https://charmindustrial.com/) · [Verification Confidence Levels for carbon dioxide removal (CarbonPlan)](https://carbonplan.org/research/cdr-verification-explainer)
+[Nonenergy Biomass Carbon Removal and Storage (BiCRS): Assessing Durability of Nongaseous Carbon Products Across Terrestrial Storage Fates (Chemical Reviews via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC13107467/) · [Verification Confidence Levels for carbon dioxide removal (CarbonPlan)](https://carbonplan.org/research/cdr-verification-explainer)

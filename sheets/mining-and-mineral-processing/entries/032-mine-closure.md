@@ -36,4 +36,4 @@ Closure is the one large cost with no revenue against it, which distorts every i
 
 ## Further reading
 
-[Our Work (ICMM)](https://www.icmm.com/our-work) · [Abandoned Mine Drainage (US EPA)](https://www.epa.gov/nps/abandoned-mine-drainage)
+[Integrated Mine Closure: Good Practice Guide, 3rd Edition (ICMM)](https://pimcore.icmm.com/website/publications/pdfs/environmental-stewardship/2025/guidance_mine-closure_update.pdf) · [Abandoned Mine Drainage (US EPA)](https://www.epa.gov/nps/abandoned-mine-drainage)

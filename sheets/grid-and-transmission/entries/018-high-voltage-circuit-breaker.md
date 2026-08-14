@@ -36,4 +36,4 @@ A single breaker is a small line item next to the transformer beside it, so the 
 
 ## Further reading
 
-[Electric Power Systems Partnership (US EPA)](https://www.epa.gov/eps-partnership) · [Current interruption in SF6-free switchgear (CIGRE)](https://electra.cigre.org/322-june-2022/technical-brochures/871-current-interruption-in-sf6-free-switchgear.html)
+[Moving Toward SF6-Free High Voltage Circuit Breakers (US Environmental Protection Agency)](https://www.epa.gov/sites/default/files/2020-09/documents/sf6_partnership_moving_toward_sf6-free_high_voltage_circuit_breakers.pdf) · [Current interruption in SF6-free switchgear (CIGRE)](https://electra.cigre.org/322-june-2022/technical-brochures/871-current-interruption-in-sf6-free-switchgear.html)

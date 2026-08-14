@@ -36,4 +36,4 @@ Crushing is cheap per ton crushed and expensive to install, so the real decision
 
 ## Further reading
 
-[Mineral Processing Engineering (911 Metallurgist)](https://www.911metallurgist.com/blog/) · [Crushing and Screening Handbook, Seventh Edition (Metso)](https://www.metso.com/globalassets/insights/ebooks/metso-crushing-and-screening-handbook-edition7-en-web.pdf)
+[AMIT 135: Lesson 5 Crushing (University of Alaska Fairbanks)](https://millops.community.uaf.edu/amit-135/amit-135-lesson-5/) · [Crushing and Screening Handbook, Seventh Edition (Metso)](https://www.metso.com/globalassets/insights/ebooks/metso-crushing-and-screening-handbook-edition7-en-web.pdf)

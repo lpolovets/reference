@@ -36,4 +36,4 @@ This is a fixed-cost decision. Raising recovery from roughly 30% to above 90% tr
 
 ## Further reading
 
-[Mineral Processing Engineering (911 Metallurgist)](https://www.911metallurgist.com/blog/) · [Recovery of gold from refractory ore employing pressure oxidation (REM: International Engineering Journal)](https://www.scielo.br/j/remi/a/6TffCgkhjCCvJTfZ55KZJ9j/?lang=en)
+[Pretreatment and Extraction of Gold from Refractory Gold Ore in Acidic Conditions (Minerals)](https://doi.org/10.3390/min15040340) · [Recovery of gold from refractory ore employing pressure oxidation (REM: International Engineering Journal)](https://www.scielo.br/j/remi/a/6TffCgkhjCCvJTfZ55KZJ9j/?lang=en)

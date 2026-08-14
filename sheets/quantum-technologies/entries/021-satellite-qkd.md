@@ -36,4 +36,4 @@ Nearly all the cost is fixed and sits in two places: building and launching the 
 
 ## Further reading
 
-[Quantum Flagship](https://qt.eu/) · [Free-space and Satellite-Based Quantum Communication: Principles, Implementations, and Challenges (arXiv)](https://arxiv.org/abs/2602.01426)
+[Satellite-to-ground quantum key distribution (arXiv)](https://arxiv.org/abs/1707.00542) · [Free-space and Satellite-Based Quantum Communication: Principles, Implementations, and Challenges (arXiv)](https://arxiv.org/abs/2602.01426)

@@ -36,4 +36,4 @@ Sold prices of $400–1,000/t are the highest in the removal market, and the pla
 
 ## Further reading
 
-[State of Carbon Dioxide Removal (SoCDR)](https://www.stateofcdr.org/) · [Verification Confidence Levels for carbon dioxide removal (CarbonPlan)](https://carbonplan.org/research/cdr-verification-explainer)
+[Nanomaterials for Direct Air Capture of CO2: Current State of the Art, Challenges and Future Perspectives (Molecules via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12299464/) · [Verification Confidence Levels for carbon dioxide removal (CarbonPlan)](https://carbonplan.org/research/cdr-verification-explainer)

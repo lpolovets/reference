@@ -36,4 +36,4 @@ The cost question is not which device to buy but how many MVAr have to be dynami
 
 ## Further reading
 
-[System Operations Reports (ENTSO-E)](https://www.entsoe.eu/publications/system-operations-reports/) · [Reliability Guideline: Reactive Power Planning (NERC)](https://www.nerc.com/globalassets/who-we-are/standing-committees/rstc/sams/reliability-guideline---reactive-power-planning.pdf)
+[Comparative Analysis of Reactive Power Compensation Devices in a Real Electric Substation (Energies)](https://doi.org/10.3390/en15124453) · [Reliability Guideline: Reactive Power Planning (NERC)](https://www.nerc.com/globalassets/who-we-are/standing-committees/rstc/sams/reliability-guideline---reactive-power-planning.pdf)

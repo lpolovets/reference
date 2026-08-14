@@ -35,4 +35,4 @@ The case is made over 20 years, not at purchase. A rotor lasts about 20 years wi
 
 ## Further reading
 
-[Uptime Institute Reports (Uptime Institute)](https://uptimeinstitute.com/resources/research-and-reports) · [Comparison of Static and Rotary UPS, White Paper 92 (Schneider Electric)](https://download.schneider-electric.com/files?p_File_Name=DBOY-78KRZE_R2_EN.pdf&p_Doc_Ref=SPD_DBOY-78KRZE_EN)
+[Reliability Assessment of the Configuration of Dynamic Uninterruptible Power Sources: A Case of Data Centers (Energies)](https://doi.org/10.3390/en16031419) · [Comparison of Static and Rotary UPS, White Paper 92 (Schneider Electric)](https://download.schneider-electric.com/files?p_File_Name=DBOY-78KRZE_R2_EN.pdf&p_Doc_Ref=SPD_DBOY-78KRZE_EN)

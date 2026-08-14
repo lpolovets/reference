@@ -36,4 +36,4 @@ An isolator is usually the cheapest insurance in a laser system. A part in the h
 
 ## Further reading
 
-[Faraday Isolators (RP Photonics Encyclopedia)](https://www.rp-photonics.com/faraday_isolators.html) · [Waveplates (RP Photonics Encyclopedia)](https://www.rp-photonics.com/waveplates.html)
+[Selection of Magneto-Optical Material for a Faraday Isolator Operating in High-Power Laser Radiation (Magnetochemistry)](https://doi.org/10.3390/magnetochemistry8120168) · [Recent progress in metasurface-enabled optical waveplates (Nanophotonics via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11636399/)

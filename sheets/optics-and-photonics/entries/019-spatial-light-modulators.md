@@ -36,4 +36,4 @@ The panel inside a scientific SLM is close to the panel inside a projector, and 
 
 ## Further reading
 
-[Optipedia, free optics information (SPIE Publications)](https://spie.org/publications/spie-publication-resources/optipedia-free-optics-information) · [Liquid Crystal Modulators (RP Photonics Encyclopedia)](https://www.rp-photonics.com/liquid_crystal_modulators.html)
+[Fringe-Based Structured-Light 3D Reconstruction: Principles, Projection Technologies, and Deep Learning Integration (Sensors via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12567414/) · [Metasurface-enabled polarization-independent LCoS spatial light modulator for 4K resolution and beyond (Light: Science and Applications via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10277279/)

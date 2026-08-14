@@ -35,4 +35,4 @@ There is no product and no revenue here, so the money question is who funds the 
 
 ## Further reading
 
-[Quantum information science (NIST)](https://www.nist.gov/quantum-information-science) · [Quantum repeaters: From quantum networks to the quantum internet (arXiv)](https://arxiv.org/abs/2212.10820)
+[Quantum repeaters: From quantum networks to the quantum internet (arXiv)](https://arxiv.org/abs/2212.10820) · [Experimental demonstration of memory-enhanced scaling for entanglement connection of quantum repeater segments (arXiv)](https://arxiv.org/abs/2101.08541)

@@ -35,4 +35,4 @@ This is the cheapest large gain available in an air-cooled hall, and it is cheap
 
 ## Further reading
 
-[Data Center Energy Efficiency Toolkit (Berkeley Lab Center of Expertise)](https://datacenters.lbl.gov/tools) · [Implementing Hot and Cold Air Containment in Existing Data Centers, White Paper 153 (Schneider Electric)](https://download.schneider-electric.com/files?p_File_Name=VAVR-8K6P9G_R0_EN.pdf&p_Doc_Ref=SPD_VAVR-8K6P9G_EN)
+[Data Center Airflow Management Retrofit (Federal Energy Management Program)](https://datacenters.lbl.gov/sites/default/files/airflow-doe-femp.pdf) · [Implementing Hot and Cold Air Containment in Existing Data Centers, White Paper 153 (Schneider Electric)](https://download.schneider-electric.com/files?p_File_Name=VAVR-8K6P9G_R0_EN.pdf&p_Doc_Ref=SPD_VAVR-8K6P9G_EN)

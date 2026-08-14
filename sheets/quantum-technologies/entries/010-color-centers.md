@@ -35,4 +35,4 @@ Each of these fixes one of the NV center's weaknesses and costs something else i
 
 ## Further reading
 
-[Quantum Flagship](https://qt.eu/) · [Surveying optically addressable spin qubits for quantum information and sensing technology (arXiv)](https://arxiv.org/abs/2412.11232)
+[Qubit guidelines for solid-state spin defects (arXiv)](https://arxiv.org/abs/2010.16395) · [Surveying optically addressable spin qubits for quantum information and sensing technology (arXiv)](https://arxiv.org/abs/2412.11232)

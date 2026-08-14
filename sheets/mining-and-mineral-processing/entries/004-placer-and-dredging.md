@@ -35,4 +35,4 @@ Skipping blasting and grinding removes the largest energy cost in the flowsheet,
 
 ## Further reading
 
-[Mineral Processing Engineering (911 Metallurgist)](https://www.911metallurgist.com/blog/) · [Gold in Placer Deposits (USGS)](https://pubs.usgs.gov/bul/1857g/report.pdf)
+[Gold in placer deposits (US Geological Survey)](https://pubs.usgs.gov/bul/1857g/report.pdf) · [Deposit model for heavy-mineral sands in coastal environments (US Geological Survey)](https://pubs.usgs.gov/sir/2010/5070/l/pdf/sir2010-5070l.pdf)

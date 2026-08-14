@@ -35,4 +35,4 @@ This is a storage service and it is priced like one: $25–35/t at scale against
 
 ## Further reading
 
-[Review of CO2 Storage Basalts (IEAGHG)](https://ieaghg.org/publications/review-of-co2-storage-basalts/) · [Carbfix](https://www.carbfix.com/)
+[Review of CO2 Storage Basalts (IEAGHG)](https://ieaghg.org/publications/review-of-co2-storage-basalts/) · [Rapid CO2 mineralisation into calcite at the CarbFix storage site quantified using calcium isotopes (Nature Communications via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6491611/)

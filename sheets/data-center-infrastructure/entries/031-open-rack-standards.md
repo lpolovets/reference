@@ -35,4 +35,4 @@ The savings are per rack and small, so they only count multiplied out: one fewer
 
 ## Further reading
 
-[Data Center Energy Efficiency Toolkit (Berkeley Lab Center of Expertise)](https://datacenters.lbl.gov/tools) · [Facebook announces next-generation Open Rack frame (Engineering at Meta)](https://engineering.fb.com/2019/03/15/data-center-engineering/open-rack/)
+[Toward Next-Generation AI Data Centers: Power Delivery Architecture Shifts, Emerging Technologies, and Challenges (arXiv)](https://arxiv.org/abs/2606.25095) · [Facebook announces next-generation Open Rack frame (Engineering at Meta)](https://engineering.fb.com/2019/03/15/data-center-engineering/open-rack/)

@@ -36,4 +36,4 @@ HVDC pays back the cost of two converter stations by saving on line, losses, and
 
 ## Further reading
 
-[High-Voltage Direct Current (HVDC) (Hitachi Energy)](https://www.hitachienergy.com/products-and-solutions/hvdc) · [National Transmission Needs Study (US Department of Energy)](https://www.energy.gov/oe/national-transmission-needs-study)
+[Review of hybrid HVDC systems combining line communicated converter and voltage source converter (International Journal of Electrical Power and Energy Systems via OSTI)](https://www.osti.gov/pages/biblio/1835208) · [National Transmission Needs Study (US Department of Energy)](https://www.energy.gov/oe/national-transmission-needs-study)

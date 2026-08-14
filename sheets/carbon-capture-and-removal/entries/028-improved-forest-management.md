@@ -36,4 +36,4 @@ Cost per ton is low because what the owner gives up is timber revenue rather tha
 
 ## Further reading
 
-[State of Carbon Dioxide Removal (SoCDR)](https://www.stateofcdr.org/) · [Systematic over-crediting in California's forest carbon offsets program (PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9299598/)
+[Optimizing sequestered carbon in forest offset programs: balancing accounting stringency and participation (Carbon Balance and Management via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7227184/) · [Systematic over-crediting in California's forest carbon offsets program (PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9299598/)

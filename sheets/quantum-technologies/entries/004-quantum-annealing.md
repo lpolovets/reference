@@ -36,4 +36,4 @@ Annealing is the only platform in this class with paying customers and a price, 
 
 ## Further reading
 
-[Quantum Computing Applications (D-Wave)](https://www.dwavequantum.com/learn/quantum-computing/) · [Quantum Computing: Progress and Prospects (National Academies)](https://nap.nationalacademies.org/catalog/25196/quantum-computing-progress-and-prospects)
+[Perspectives of quantum annealing: Methods and implementations (arXiv)](https://arxiv.org/abs/1903.06559) · [Quantum Computing: Progress and Prospects (National Academies)](https://nap.nationalacademies.org/catalog/25196/quantum-computing-progress-and-prospects)

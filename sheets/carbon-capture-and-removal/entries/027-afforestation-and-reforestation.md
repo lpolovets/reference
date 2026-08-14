@@ -36,4 +36,4 @@ Land, labor, and seedlings dominate cost, so prices track wages and land values 
 
 ## Further reading
 
-[Global Forest Resources Assessments (FAO)](https://www.fao.org/forest-resources-assessment/en/) · [Special Report on Climate Change and Land (IPCC)](https://www.ipcc.ch/srccl/)
+[Global Forest Resources Assessment 2020: Key findings (FAO)](https://www.fao.org/3/ca8753en/ca8753en.pdf) · [Special Report on Climate Change and Land (IPCC)](https://www.ipcc.ch/srccl/)

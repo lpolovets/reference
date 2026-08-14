@@ -36,4 +36,4 @@ The instrument is rarely the whole purchase. Air index changes by roughly 1 part
 
 ## Further reading
 
-[Interferometers (RP Photonics Encyclopedia)](https://www.rp-photonics.com/interferometers.html) · [OPTI 513: Optical Testing (University of Arizona)](https://wp.optics.arizona.edu/jcwyant/courses/opti-513-optical-testing/)
+[A Review of Optical Interferometry for High-Precision Length Measurement (Micromachines via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11767278/) · [OPTI 513: Optical Testing (University of Arizona)](https://wp.optics.arizona.edu/jcwyant/courses/opti-513-optical-testing/)

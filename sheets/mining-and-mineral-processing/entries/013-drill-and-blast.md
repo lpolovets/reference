@@ -36,4 +36,4 @@ Explosive is one of the cheapest inputs on the site, at a fraction of a cent per
 
 ## Further reading
 
-[Mineral Processing Engineering (911 Metallurgist)](https://www.911metallurgist.com/blog/) · [Information Circular 8925: Explosives and Blasting Procedures Manual (US Bureau of Mines)](https://stacks.cdc.gov/view/cdc/206002)
+[Surface-Blast Design (Office of Surface Mining Reclamation and Enforcement)](https://www.osmre.gov/sites/default/files/inline-files/Module3_0.pdf) · [Information Circular 8925: Explosives and Blasting Procedures Manual (US Bureau of Mines)](https://stacks.cdc.gov/view/cdc/206002)

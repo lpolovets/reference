@@ -36,4 +36,4 @@ The price of a research microscope is set mostly by two items, the objectives an
 
 ## Further reading
 
-[Optical medical imaging (NIST)](https://www.nist.gov/programs-projects/optical-medical-imaging) · [MicroscopyU (Nikon Instruments)](https://www.microscopyu.com/)
+[Optical medical imaging (NIST)](https://www.nist.gov/programs-projects/optical-medical-imaging) · [The Microscope Optical Train (Nikon MicroscopyU)](https://www.microscopyu.com/microscopy-basics/components)

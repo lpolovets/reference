@@ -36,4 +36,4 @@ The die is the cheap part. A silicon photonic chip costs tens of dollars in volu
 
 ## Further reading
 
-[Photonic Integrated Circuits (RP Photonics Encyclopedia)](https://www.rp-photonics.com/photonic_integrated_circuits.html) · [Roadmapping the next generation of silicon photonics (Nature Communications)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10811194/)
+[Ultra-wideband integrated photonic devices on silicon platform: from visible to mid-IR (Nanophotonics via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11501867/) · [Roadmapping the next generation of silicon photonics (Nature Communications)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10811194/)

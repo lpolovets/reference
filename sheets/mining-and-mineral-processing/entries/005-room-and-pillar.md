@@ -36,4 +36,4 @@ The economics turn on what the ore left in the pillars is worth. Leaving 25–50
 
 ## Further reading
 
-[Our Work (ICMM)](https://www.icmm.com/our-work) · [Pillar and Roof Span Design Guidelines for Underground Stone Mines (NIOSH)](https://www.cdc.gov/niosh/publications/numbered/2011-171.html)
+[Pillar and Roof Span Design Guidelines for Underground Stone Mines (NIOSH)](https://www.cdc.gov/niosh/publications/numbered/2011-171.html) · [Design concerns of room and pillar retreat panels (International Journal of Mining Science and Technology via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC5472218/)

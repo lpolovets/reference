@@ -36,4 +36,4 @@ Electricity is the visible cost and the smaller one: 1,000–2,000 kWh/t at $50/
 
 ## Further reading
 
-[Carbon Dioxide Removal Primer (CDR Primer)](https://cdrprimer.org/read) · [A Research Strategy for Ocean-based Carbon Dioxide Removal and Sequestration (National Academies)](https://nap.nationalacademies.org/catalog/26278/a-research-strategy-for-ocean-based-carbon-dioxide-removal-and-sequestration)
+[Ocean Carbon Dioxide Removal and Storage (Chemical Reviews via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12856841/) · [A Research Strategy for Ocean-based Carbon Dioxide Removal and Sequestration (National Academies)](https://nap.nationalacademies.org/catalog/26278/a-research-strategy-for-ocean-based-carbon-dioxide-removal-and-sequestration)

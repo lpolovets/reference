@@ -36,4 +36,4 @@ GIL costs several times XLPE per meter, so comparing the two per meter gets the 
 
 ## Further reading
 
-[Gas-Insulated Transmission Lines: Underground Power Transmission Achieving a Maximum of Operational Safety and Reliability (Jicable)](http://www.jicable.org/2007/Actes/Session_A3/JIC07_A36.pdf) · [Electric Power Systems Partnership (US EPA)](https://www.epa.gov/eps-partnership)
+[Gas-Insulated Transmission Lines: Underground Power Transmission Achieving a Maximum of Operational Safety and Reliability (Jicable)](http://www.jicable.org/2007/Actes/Session_A3/JIC07_A36.pdf) · [Replacing SF6 in Electrical Gas-Insulated Switchgear: Technological Alternatives and Potential Life Cycle Greenhouse Gas Savings in an EU-28 Perspective (Energies)](https://doi.org/10.3390/en13071807)

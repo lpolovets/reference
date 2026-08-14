@@ -36,4 +36,4 @@ The recovery and speed advantages come with operating costs that ponds do not ha
 
 ## Further reading
 
-[Home (International Mining)](https://im-mining.com/) · [Technology for Lithium Extraction in the Context of Hybrid Geothermal Power (Berkeley Lab)](https://pangea.stanford.edu/ERE/pdf/IGAstandard/SGW/2021/Stringfellow.pdf)
+[Lithium resources and novel strategies for their extraction and purification (npj Materials Sustainability)](https://www.nature.com/articles/s44296-025-00069-5) · [Technology for Lithium Extraction in the Context of Hybrid Geothermal Power (Berkeley Lab)](https://pangea.stanford.edu/ERE/pdf/IGAstandard/SGW/2021/Stringfellow.pdf)

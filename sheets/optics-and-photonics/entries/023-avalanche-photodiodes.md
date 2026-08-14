@@ -35,4 +35,4 @@ The die inside an APD is not much more expensive to make than a photodiode's, an
 
 ## Further reading
 
-[Avalanche Photodiodes (RP Photonics Encyclopedia)](https://www.rp-photonics.com/avalanche_photodiodes.html) · [Technical Note: Si APD (Hamamatsu Photonics)](https://www.hamamatsu.com/content/dam/hamamatsu-photonics/sites/documents/99_SALES_LIBRARY/ssd/si-apd_kapd9007e.pdf)
+[Silicon-Based Avalanche Photodiodes: Advancements and Applications in Medical Imaging (Nanomaterials)](https://doi.org/10.3390/nano13233078) · [Technical Note: Si APD (Hamamatsu Photonics)](https://www.hamamatsu.com/content/dam/hamamatsu-photonics/sites/documents/99_SALES_LIBRARY/ssd/si-apd_kapd9007e.pdf)

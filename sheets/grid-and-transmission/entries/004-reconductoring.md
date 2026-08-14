@@ -35,4 +35,4 @@ Reconductoring runs roughly 30–60% of the cost per MW of a new line and lands 
 
 ## Further reading
 
-[WATT Coalition](https://watt-transmission.org/) · [Advanced Conductor Scan Report (Idaho National Laboratory)](https://inl.gov/content/uploads/2024/10/23-50856_R12a_-AdvConductorsScanProjectReportCompressed.pdf)
+[Accelerating transmission capacity expansion by using advanced conductors in existing right-of-way (Proceedings of the National Academy of Sciences via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11459140/) · [Advanced Conductor Scan Report (Idaho National Laboratory)](https://inl.gov/content/uploads/2024/10/23-50856_R12a_-AdvConductorsScanProjectReportCompressed.pdf)

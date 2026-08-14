@@ -36,4 +36,4 @@ At roughly a tenth of a STATCOM per MVAr, banks are the cheapest reactive suppor
 
 ## Further reading
 
-[Substations (T&D World)](https://www.tdworld.com/substations) · [Reliability Guideline: Reactive Power Planning (NERC)](https://www.nerc.com/globalassets/who-we-are/standing-committees/rstc/sams/reliability-guideline---reactive-power-planning.pdf)
+[Improving Angle Stability by Switching Shunt Reactors in Mixed Overhead Cable Lines. An Italian 400 kV Case Study (Energies)](https://doi.org/10.3390/en12071187) · [Reliability Guideline: Reactive Power Planning (NERC)](https://www.nerc.com/globalassets/who-we-are/standing-committees/rstc/sams/reliability-guideline---reactive-power-planning.pdf)

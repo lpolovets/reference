@@ -36,4 +36,4 @@ Telecom volume pays for this part. Mach-Zehnder modulators at 1,310 and 1,550 nm
 
 ## Further reading
 
-[Electro-optic Modulators (RP Photonics Encyclopedia)](https://www.rp-photonics.com/electro_optic_modulators.html) · [Optical Modulators (RP Photonics Encyclopedia)](https://www.rp-photonics.com/optical_modulators.html)
+[Integrated lithium niobate electro-optic modulators: when performance meets scalability (Optica)](https://doi.org/10.1364/OPTICA.415762) · [High-Speed Electro-Optic Modulators Based on Thin-Film Lithium Niobate (Nanomaterials via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11124123/)

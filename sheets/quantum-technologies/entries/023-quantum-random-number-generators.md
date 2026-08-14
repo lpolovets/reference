@@ -36,4 +36,4 @@ The physics is cheap. A vacuum-fluctuation generator needs a laser, a beamsplitt
 
 ## Further reading
 
-[Quantum information science (NIST)](https://www.nist.gov/quantum-information-science) · [SP 800-90B, Recommendation for the Entropy Sources Used for Random Bit Generation (NIST Computer Security Resource Center)](https://csrc.nist.gov/pubs/sp/800/90/b/final)
+[Quantum Random Number Generators (arXiv)](https://arxiv.org/abs/1604.03304) · [SP 800-90B, Recommendation for the Entropy Sources Used for Random Bit Generation (NIST Computer Security Resource Center)](https://csrc.nist.gov/pubs/sp/800/90/b/final)

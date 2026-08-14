@@ -36,4 +36,4 @@ Structures and foundations are typically 30–50% of what a line costs, so this 
 
 ## Further reading
 
-[Substations (T&D World)](https://www.tdworld.com/substations) · [Guide Specifications for Steel Single Pole and H-Frame Structures (USDA Rural Utilities Service)](https://www.rd.usda.gov/sites/default/files/UEP_Bulletin_1724E-204.pdf)
+[Improved Performance of Electrical Transmission Tower Structure Using Connected Foundation in Soft Ground (Energies)](https://doi.org/10.3390/en8064963) · [Guide Specifications for Steel Single Pole and H-Frame Structures (USDA Rural Utilities Service)](https://www.rd.usda.gov/sites/default/files/UEP_Bulletin_1724E-204.pdf)

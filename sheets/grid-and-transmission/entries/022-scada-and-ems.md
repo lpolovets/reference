@@ -36,4 +36,4 @@ Buying the system is the small part of this. An EMS is installed once, then depe
 
 ## Further reading
 
-[System Operations Reports (ENTSO-E)](https://www.entsoe.eu/publications/system-operations-reports/) · [Final Report on the August 14, 2003 Blackout in the United States and Canada: Causes and Recommendations (US-Canada Power System Outage Task Force)](https://www.energy.gov/sites/prod/files/oeprod/DocumentsandMedia/BlackoutFinal-Web.pdf)
+[NERC Energy Management System Performance Special Assessment (2018-2019) (NERC)](https://www.nerc.com/globalassets/our-work/assessments/ems_special_assessment_march2021.pdf) · [Final Report on the August 14, 2003 Blackout in the United States and Canada: Causes and Recommendations (US-Canada Power System Outage Task Force)](https://www.energy.gov/sites/prod/files/oeprod/DocumentsandMedia/BlackoutFinal-Web.pdf)

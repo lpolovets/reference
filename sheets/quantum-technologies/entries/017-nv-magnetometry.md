@@ -35,4 +35,4 @@ Almost every part of an NV sensor is commodity hardware: a laser diode, a microw
 
 ## Further reading
 
-[UK National Quantum Technologies Programme](https://uknqt.ukri.org/) · [Sensitivity Optimization for NV-Diamond Magnetometry (arXiv)](https://arxiv.org/abs/1903.08176)
+[Magnetometry with nitrogen-vacancy defects in diamond (arXiv)](https://arxiv.org/abs/1311.5214) · [Sensitivity Optimization for NV-Diamond Magnetometry (arXiv)](https://arxiv.org/abs/1903.08176)

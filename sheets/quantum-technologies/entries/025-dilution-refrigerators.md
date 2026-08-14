@@ -36,4 +36,4 @@ A system runs from several hundred thousand dollars to over a million, and that 
 
 ## Further reading
 
-[Quantum Computers Glossary (QuEra)](https://www.quera.com/glossary) · [How Does a Dilution Refrigerator Work? (Bluefors)](https://bluefors.com/stories/how-does-a-dilution-refrigerator-work/)
+[Thermal Capacity Mapping of Cryogenic Platforms for Quantum Computers (arXiv)](https://arxiv.org/abs/2503.10775) · [How Does a Dilution Refrigerator Work? (Bluefors)](https://bluefors.com/stories/how-does-a-dilution-refrigerator-work/)

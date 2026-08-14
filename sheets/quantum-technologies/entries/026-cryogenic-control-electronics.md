@@ -35,4 +35,4 @@ The cost of a superconducting machine sits in the refrigerator and the control e
 
 ## Further reading
 
-[Quantum Computers Glossary (QuEra)](https://www.quera.com/glossary) · [Enabling Technologies for Scalable Superconducting Quantum Computing (arXiv)](https://arxiv.org/abs/2512.15001)
+[Cryogenic Control Architecture for Large-Scale Quantum Computing (arXiv)](https://arxiv.org/abs/1409.2202) · [Enabling Technologies for Scalable Superconducting Quantum Computing (arXiv)](https://arxiv.org/abs/2512.15001)

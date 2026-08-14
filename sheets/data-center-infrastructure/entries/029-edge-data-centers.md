@@ -36,4 +36,4 @@ Almost every cost here is per site, and the sites are small, so overhead that a 
 
 ## Further reading
 
-[Data Center Equipment (ENERGY STAR)](https://www.energystar.gov/products/data_center_equipment) · [A Comprehensive Survey of Micro Datacenter: Current Technologies and Future Possibilities (Frontiers of Computer Science, via Shanghai Jiao Tong University)](https://www.cs.sjtu.edu.cn/~lichao/publications/A_Comprehensive_FCS-2025-Guo.pdf)
+[Energy Efficient Deployment and Orchestration of Computing Resources at the Network Edge: a Survey on Algorithms, Trends and Open Challenges (arXiv)](https://arxiv.org/abs/2209.14141) · [A Comprehensive Survey of Micro Datacenter: Current Technologies and Future Possibilities (Frontiers of Computer Science, via Shanghai Jiao Tong University)](https://www.cs.sjtu.edu.cn/~lichao/publications/A_Comprehensive_FCS-2025-Guo.pdf)

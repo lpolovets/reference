@@ -36,4 +36,4 @@ Gravity is the cheapest concentration in this class: no reagents, very low energ
 
 ## Further reading
 
-[Mineral Processing Engineering (911 Metallurgist)](https://www.911metallurgist.com/blog/) · [Physical beneficiation of heavy minerals - Part 1: A state of the art literature review on gravity concentration techniques (Heliyon)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10447942/)
+[AMIT 145: Lesson 4 Gravity Separation (University of Alaska Fairbanks)](https://millops.community.uaf.edu/amit-145/amit-145-lesson-4/) · [Physical beneficiation of heavy minerals - Part 1: A state of the art literature review on gravity concentration techniques (Heliyon)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10447942/)

@@ -36,4 +36,4 @@ Diode lasers follow semiconductor economics: cost per watt has fallen by more th
 
 ## Further reading
 
-[Laser Diodes (RP Photonics Encyclopedia)](https://www.rp-photonics.com/laser_diodes.html) · [Lasers & Sources (Laser Focus World)](https://www.laserfocusworld.com/lasers-sources)
+[Progress of Edge-Emitting Diode Lasers Based on Coupled-Waveguide Concept (Micromachines via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10302073/) · [High Brightness Diode Lasers Based on Beam Splitting and Polarization Combining (Applied Sciences)](https://doi.org/10.3390/app12167980)

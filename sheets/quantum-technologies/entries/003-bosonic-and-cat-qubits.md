@@ -35,4 +35,4 @@ The case for bosonic encodings is capital avoided rather than revenue earned. A 
 
 ## Further reading
 
-[Quantum Computers Glossary (QuEra)](https://www.quera.com/glossary) · [Quantum computation with cat qubits (arXiv)](https://arxiv.org/abs/2203.03222)
+[Demonstrating Quantum Error Correction that Extends the Lifetime of Quantum Information (arXiv)](https://arxiv.org/abs/1602.04768) · [Quantum computation with cat qubits (arXiv)](https://arxiv.org/abs/2203.03222)

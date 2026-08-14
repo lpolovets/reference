@@ -36,4 +36,4 @@ A fluxonium machine costs about what a transmon machine costs, because it needs 
 
 ## Further reading
 
-[About (Quantum, the open journal for quantum science)](https://quantum-journal.org/about/) · [The high-coherence fluxonium qubit (arXiv)](https://arxiv.org/abs/1810.11006)
+[Millisecond coherence in a superconducting qubit (arXiv)](https://arxiv.org/abs/2103.08578) · [The high-coherence fluxonium qubit (arXiv)](https://arxiv.org/abs/1810.11006)

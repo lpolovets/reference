@@ -36,4 +36,4 @@ Capital per ton is higher than a ball mill's, so the case rests on the operating
 
 ## Further reading
 
-[Home (International Mining)](https://im-mining.com/) · [Real and Potential Metallurgical Benefits of HPGR in Hard Rock Ore Processing (CEEC)](https://www.ceecthefuture.org/wp-content/uploads/2013/02/HvM-HPGR-paper-for-Randol-Perth-2005.pdf)
+[Optimization of High-Pressure Grinding Roll (HPGR) Performance in an Industrial-Scale HPGR/Tower Mill Comminution Circuit (Minerals)](https://doi.org/10.3390/min15101065) · [Real and Potential Metallurgical Benefits of HPGR in Hard Rock Ore Processing (CEEC)](https://www.ceecthefuture.org/wp-content/uploads/2013/02/HvM-HPGR-paper-for-Randol-Perth-2005.pdf)

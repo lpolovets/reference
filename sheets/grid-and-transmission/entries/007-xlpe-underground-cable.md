@@ -36,4 +36,4 @@ The 5–15x multiple over an overhead line is the whole economic story, and most
 
 ## Further reading
 
-[Energy Infrastructure (Europacable)](https://europacable.eu/energy-infrastructure/) · [An Introduction to Medium and Low Voltage Cables in Distribution Networks (Europacable)](https://europacable.eu/wp-content/uploads/2021/01/Introduction-to-Distribution-Networks-2014-06-16.pdf)
+[Performance Evaluation of Cross-Linked Polyethylene Insulation of Operating 110 kV Power Cables (Polymers via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9182923/) · [An Introduction to Medium and Low Voltage Cables in Distribution Networks (Europacable)](https://europacable.eu/wp-content/uploads/2021/01/Introduction-to-Distribution-Networks-2014-06-16.pdf)

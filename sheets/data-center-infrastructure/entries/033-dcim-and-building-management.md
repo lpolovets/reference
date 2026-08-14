@@ -35,4 +35,4 @@ The payback is deferred capital rather than energy. A facility with 10–30% of 
 
 ## Further reading
 
-[Uptime Institute Reports (Uptime Institute)](https://uptimeinstitute.com/resources/research-and-reports) · [Avoiding Common Pitfalls of Evaluating and Implementing DCIM Solutions, White Paper 170 (Schneider Electric)](https://download.schneider-electric.com/files?p_Doc_Ref=SPD_PDON-8PGK8J_EN)
+[Intelligent Monitoring of Data Center Physical Infrastructure (Applied Sciences)](https://doi.org/10.3390/app9234998) · [Avoiding Common Pitfalls of Evaluating and Implementing DCIM Solutions, White Paper 170 (Schneider Electric)](https://download.schneider-electric.com/files?p_Doc_Ref=SPD_PDON-8PGK8J_EN)

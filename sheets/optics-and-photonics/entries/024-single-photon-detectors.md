@@ -36,4 +36,4 @@ These two technologies sit four orders of magnitude apart on price, and neither 
 
 ## Further reading
 
-[Sensor Science Division (NIST)](https://www.nist.gov/pml/sensor-science) · [Superconducting nanowire single-photon detectors: physics and applications (arXiv)](https://arxiv.org/abs/1204.5560)
+[Superconducting nanowire single-photon detectors: physics and applications (arXiv)](https://arxiv.org/abs/1204.5560) · [Superconducting Nanowire Single-Photon Detectors for Quantum Information (arXiv)](https://arxiv.org/abs/2006.00411)

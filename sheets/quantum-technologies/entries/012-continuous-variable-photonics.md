@@ -34,4 +34,4 @@ Component cost is the lowest in photonic quantum computing, because homodyne det
 
 ## Further reading
 
-[About (Quantum, the open journal for quantum science)](https://quantum-journal.org/about/) · [Integrated photonic source of Gottesman-Kitaev-Preskill qubits (Nature via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12176634/)
+[Gaussian Quantum Information (arXiv)](https://arxiv.org/abs/1110.3234) · [Integrated photonic source of Gottesman-Kitaev-Preskill qubits (Nature via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12176634/)

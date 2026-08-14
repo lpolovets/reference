@@ -36,4 +36,4 @@ The unit of cost in coating is a chamber run, not a part. One run coats every su
 
 ## Further reading
 
-[Dielectric Coatings (RP Photonics Encyclopedia)](https://www.rp-photonics.com/dielectric_coatings.html) · [Anti-reflection Coatings (RP Photonics Encyclopedia)](https://www.rp-photonics.com/anti_reflection_coatings.html)
+[High-performance near- and mid-infrared crystalline coatings (Optica)](https://doi.org/10.1364/OPTICA.3.000647) · [Development of ion-beam sputtered silicon nitride thin films for low-noise mirror coatings of gravitational-wave detectors (arXiv)](https://arxiv.org/abs/2409.07147)

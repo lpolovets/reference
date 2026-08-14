@@ -35,4 +35,4 @@ You pay full HVDC converter cost and save nothing on line, so the whole case has
 
 ## Further reading
 
-[Transmission (ERCOT)](https://www.ercot.com/gridinfo/transmission) · [The Value of Increased HVDC Capacity Between Eastern and Western U.S. Grids: The Interconnections Seam Study (National Laboratory of the Rockies)](https://www.osti.gov/biblio/1696787)
+[ERCOT Grid Insights: Electricity Connection and Transfer (ERCOT)](https://www.ercot.com/files/docs/2025/05/12/ERCOT-Grid-Insights-Electricity-Connection-and-Transfer.pdf) · [The Value of Increased HVDC Capacity Between Eastern and Western U.S. Grids: The Interconnections Seam Study (National Laboratory of the Rockies)](https://www.osti.gov/biblio/1696787)

@@ -36,4 +36,4 @@ Silicon is the reason photodiodes are cheap. A silicon detector is made by ordin
 
 ## Further reading
 
-[Photodiodes (RP Photonics Encyclopedia)](https://www.rp-photonics.com/photodiodes.html) · [Detectors & Imaging (Laser Focus World)](https://www.laserfocusworld.com/detectors-imaging)
+[Reduction in Dark Current in Photodiodes: A Review (Micromachines via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC13117859/) · [Infrared avalanche photodiodes from bulk to 2D materials (Light: Science and Applications via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10471776/)
