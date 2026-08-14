@@ -31,6 +31,12 @@ Ervebo, the vesicular stomatitis virus-vectored Ebola vaccine, given as a single
 ## Economic profile
 Cost of goods is low, a few dollars a dose, though higher than protein or RNA because the process involves cell culture and purification of an infectious particle. Capital intensity is moderate. The commercial history is a caution about vaccine businesses generally rather than about the technology: the adenoviral COVID-19 vaccines were manufactured at enormous scale, distributed largely at cost or through donation programs, and then withdrawn from several markets after a rare safety signal, which is close to a worst case for return on a very large investment. The durable commercial niche is outbreak response and stockpiling, which is government-funded and does not behave like a normal market, and where single-dose potency and field stability are worth more than they are in routine immunization.
 
+## Videos
+
+- https://www.youtube.com/watch?v=GMoW-2HTVII — Adenovirus-Based Vaccine for COVID-19 (ASGCT, 4 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=B_CiP4QO0rg — What is a Viral Vector Vaccine? (Museum of Science, 2 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=F47Lbb9MVbE — How does the Ebola Vaccine (Ervebo) Work? (Dr. Rob Swanda, 2 minutes, 1k+ views)
+
 ## Further reading
 
 [Adenovirus Vectors: Excellent Tools for Vaccine Development (Immune Network)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7937504/)

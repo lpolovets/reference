@@ -31,6 +31,12 @@ Commercial gene synthesis, essentially all of which assembles genes from array-d
 ## Economic profile
 The cost structure that made synthetic biology possible. Reducing the price of a distinct sequence by four orders of magnitude changed which experiments are conceivable, and the entire field of high-throughput library-based biology rests on it. Commercially, array synthesis is mostly sold indirectly, embedded in gene synthesis and library products rather than as chips, and the suppliers with proprietary array platforms have a genuine cost advantage in those downstream markets. The main competitive pressure now comes from enzymatic synthesis, which promises comparable parallelism without organic solvents and with potentially longer and cleaner products, and which is the technology most likely to reset this market.
 
+## Videos
+
+- https://www.youtube.com/watch?v=UbH9xPVlmeQ — SDC2021: From DNA Synthesis on Chips to DNA Data Storage (SNIAVideo, 16 minutes, 1k+ views)
+- https://www.youtube.com/watch?v=YXkK-QuBU7s — Writing DNA - Emily Leproust, CEO of Twist Bioscience (Hello Tomorrow, 19 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=piVOIxDfcS8 — Creation of a Pooled Library (Broad Institute, 3 minutes, 5k+ views)
+
 ## Further reading
 
 [DNA synthesis technologies to close the gene writing gap (Nature Reviews Chemistry)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9869848/) · [Oligo Pools as an Affordable Source of Synthetic DNA for Cost-Effective Library Construction in Protein- and Metabolic Pathway Engineering (ChemBioChem)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9300125/)

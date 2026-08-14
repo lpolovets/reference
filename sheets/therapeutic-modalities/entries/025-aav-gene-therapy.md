@@ -31,6 +31,12 @@ Luxturna for RPE65 retinal dystrophy, the first US in vivo gene therapy; Zolgens
 ## Economic profile
 The highest cost of goods on this sheet and the highest prices in medicine, and the two are related but not proportional. Manufacturing genuinely costs six figures per systemic dose, so the margin structure is unlike any other biologic. The commercial difficulty has been more severe than the technical one: several approved gene therapies have been withdrawn or discontinued for commercial reasons, because a one-time treatment for a small population produces a revenue curve that shrinks as the prevalent population is treated, and payers resist paying millions up front for durability that is not yet proven. Outcomes-based agreements and installment payment models exist and remain awkward. For a company, the practical lesson is that addressable population, seroprevalence exclusion, and payer mechanics deserve as much diligence as the vector, since those are what have killed approved products.
 
+## Videos
+
+- https://www.youtube.com/watch?v=hYHbfQe5h-Q — 1) Adeno Associated Virus (AAV) - An Introduction (Applied Biological Materials - abm, 7 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=iBmyXr_o1hU — SMA Type 1: How Gene Therapy Works (NationwideChildrens, 2 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=m1GC3RZ1Y9E — Immune Responses to AAV-Based Gene Therapy (ASGCT, 4 minutes, 1k+ views)
+
 ## Further reading
 
 [Adeno-Associated Virus (AAV) as a Vector for Gene Therapy (BioDrugs)](https://pmc.ncbi.nlm.nih.gov/articles/PMC5548848/) · [Anti-AAV Antibodies in AAV Gene Therapy: Current Challenges and Possible Solutions (Frontiers in Immunology)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8010240/)

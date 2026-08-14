@@ -31,6 +31,12 @@ Cytokine and biomarker measurement across biomedical research; hepatitis B surfa
 ## Economic profile
 A mature commodity market with many suppliers and low differentiation, in which the value has moved from the assay to the antibody. Kit prices are competitive and manufacturing is straightforward, so the durable positions belong to whoever owns well-characterized antibody pairs for commercially important targets. In clinical laboratories the manual plate format has largely been displaced by automated chemiluminescent analyzers for high-volume work, and ELISA survives in research, in lower-volume clinical testing, and in regulated applications where the method is written into a guideline. The research kit market remains large and is notably unreliable in quality, since many kits are sold with minimal validation.
 
+## Videos
+
+- https://www.youtube.com/watch?v=RRbuz3VQ100 — Enzyme-Linked Immunosorbent Assay (ELISA) - Multi-Lingual Captions (openmichigan, 2 minutes, 1m+ views)
+- https://www.youtube.com/watch?v=ERk0hwqhyDw — ELISA (Enzyme-linked Immunosorbent Assay) (Henrik's Lab, 3 minutes, 500k+ views)
+- https://www.youtube.com/watch?v=ojYHnZZbwz8 — Sandwich ELISA Protocol (BioLegend from Revvity, 3 minutes, 50k+ views)
+
 ## Further reading
 
 [The enzyme-linked immunosorbent assay (ELISA) (Bulletin of the World Health Organization)](https://pmc.ncbi.nlm.nih.gov/articles/PMC2366430/) · [Haemolysis and lipemia interfere with resistin and myeloperoxidase BioVendor ELISA assays (Biochemia Medica)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6457919/)

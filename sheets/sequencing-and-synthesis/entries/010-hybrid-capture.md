@@ -31,6 +31,12 @@ Clinical exome sequencing, which is the largest single application; comprehensiv
 ## Economic profile
 Sits in the middle of the targeted sequencing market and is squeezed from both sides. Amplicon panels are cheaper and faster for small stable target sets, and falling whole-genome costs erode the case for capture at the large end, since capturing an increasingly large fraction of the genome eventually costs more than sequencing all of it. The probe pool is the recurring consumable and where suppliers make their margin. The long-term direction is clear even if the timing is not: as sequencing gets cheaper, enrichment becomes harder to justify, and the industry drifts toward sequencing everything and filtering computationally, which also removes the revalidation burden that comes with changing an assay's content.
 
+## Videos
+
+- https://www.youtube.com/watch?v=tKis4xKH_VA — Illumina Target Enrichment Workflow (Illumina, 4 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=Qx8-rrdYuS4 — myBaits Hybridization Capture for Targeted NGS Sequencing (Daicel Arbor Biosciences, 4 minutes, 5k+ views)
+- https://www.youtube.com/watch?v=kq8KcvDKXmY — What is the difference between hybrid capture and multiplex PCR-based target enrichment for NGS? (Paragon Genomics, 2 minutes, 5k+ views)
+
 ## Further reading
 
 [Target Enrichment Approaches for Next-Generation Sequencing Applications in Oncology (Diagnostics)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9318977/)

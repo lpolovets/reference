@@ -31,6 +31,11 @@ Polyethylenimine, the long-standing laboratory transfection reagent and the refe
 ## Economic profile
 Materials are cheap and manufacturing is straightforward, so the economics would be attractive if the technology worked in vivo. The persistent commercial reality is that a large research literature has not produced a clinical product, and the most plausible explanation is that endosomal escape is a genuinely hard physical problem that formulation tuning does not solve. The intellectual property argument, avoiding the contested ionizable lipid patents, is real but is not sufficient reason to build a program on a delivery system that does not yet deliver. For an investor, this category needs functional in vivo data in the specific target tissue before anything else is worth discussing.
 
+## Videos
+
+- https://www.youtube.com/watch?v=SZIBFWmQqBc — Nanoparticle Gene Delivery (Johns Hopkins Institute for NanoBioTechnology, 1 minute, 10k+ views)
+- https://www.youtube.com/watch?v=vxLuPvS7yx4 — How do cationic cell-penetrating peptides enter cells? (Science Animated, 4 minutes, 5k+ views)
+
 ## Further reading
 
 [Delivery of therapeutic oligonucleotides with cell penetrating peptides (Advanced Drug Delivery Reviews)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7102600/)

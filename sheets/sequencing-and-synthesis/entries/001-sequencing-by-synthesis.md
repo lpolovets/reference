@@ -31,6 +31,12 @@ The Illumina instrument line, which has dominated the market for over a decade, 
 ## Economic profile
 The clearest example in life sciences of a razor-and-blade model, and one of the most profitable. Instruments are sold at moderate margin and consumables at high margin, with the flow cell as the recurring purchase, and the installed base plus the software ecosystem makes switching genuinely expensive even when a competitor's specifications are better. That position held for roughly fifteen years and has recently come under real pressure from several new entrants, which has moved list prices more in the last few years than in the decade before. For a buyer, the important consequence is that cost per gigabase quotes are contract-dependent and the list price is not the price; for anyone building a business on sequencing, the input cost is falling but the supplier concentration is a genuine risk.
 
+## Videos
+
+- https://www.youtube.com/watch?v=fCd6B5HRaZ8 — Overview of Illumina Sequencing by Synthesis Workflow | Standard SBS chemistry (Illumina, 5 minutes, 1m+ views)
+- https://www.youtube.com/watch?v=WKAUtJQ69n8 — NGS Explained: Next Generation Sequencing Step-by-Step (ClevaLab, 8 minutes, 500k+ views)
+- https://www.youtube.com/watch?v=CZeN-IgjYCo — Next Generation Sequencing (Illumina) - An Introduction (Henrik's Lab, 5 minutes, 500k+ views)
+
 ## Further reading
 
 [Performance assessment of DNA sequencing platforms in the ABRF Next-Generation Sequencing Study (Nature Biotechnology)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8985210/) · [DNA Sequencing Costs: Data (NHGRI)](https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Costs-Data)

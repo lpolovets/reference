@@ -31,6 +31,12 @@ Leukemia and lymphoma immunophenotyping, the largest clinical application; minim
 ## Economic profile
 An instrument and reagent business where the reagents, meaning conjugated antibodies, carry the margin and the antibody suppliers are the durable beneficiaries. Clinical flow is mostly performed as laboratory-developed tests, which has made it a target of regulatory attention over laboratory-developed test oversight, and any tightening there would fall heavily on this category since so little of clinical flow uses cleared kits. High-parameter spectral instruments have expanded what is measurable and raised both capital cost and analytical complexity, and the practical bottleneck in most laboratories is now trained analysts rather than instruments.
 
+## Videos
+
+- https://www.youtube.com/watch?v=B2zreF2dnWk — Flow Cytometry Animation (Cell Signaling Technology, Inc., 3 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=gLVouQhSv7Y — Flow Cytometry Basics: How To Use Gates (floreada.io) (Floreada Cytometry, 9 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=L7R7NpUpQME — Understanding Flow Cytometry in Acute Leukemia: The Blast Gate (Bits of Pathology, 12 minutes, under 1k views)
+
 ## Further reading
 
 [Immunophenotyping myelodysplastic neoplasms: the role of flow cytometry in the molecular classification era (Frontiers in Oncology)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11560873/)

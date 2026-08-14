@@ -31,6 +31,11 @@ Semaglutide (Ozempic, Wegovy) and tirzepatide (Mounjaro, Zepbound), the GLP-1 an
 ## Economic profile
 Unusual among modalities in that manufacturing capacity, not development or approval, has been the constraint on revenue. GLP-1 demand exceeded global peptide synthesis capacity, which drove multi-billion-dollar capital programs and made contract synthesis capacity genuinely scarce. Cost of goods per dose is low in absolute terms, often a few dollars, but the volumes are enormous, so total manufacturing spend is large and vertical integration pays. The other structural feature is the regulatory path: because synthetic peptides can face ANDA generics rather than biosimilars, the revenue cliff is steeper than for an antibody. For a startup, peptide chemistry is accessible and contract discovery is mature, so the differentiation has to come from the biology and from the half-life engineering rather than from the ability to make peptides.
 
+## Videos
+
+- https://www.youtube.com/watch?v=VmEU_fJWhdc — Solid Phase Peptide Synthesis (SPPS) Explained: A Beginner’s Guide | CEM Corporation (CEM Corporation, 11 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=g-Pe9XgAccc — Oral Peptide Therapeutics - A Holy Grail or Quixotic Quest? (Drug Discovery World, 18 minutes, under 1k views)
+
 ## Further reading
 
 [Peptide Drug: Design and Clinical Applications (MedComm)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12290310/)

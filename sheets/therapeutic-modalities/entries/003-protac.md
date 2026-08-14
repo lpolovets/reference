@@ -31,6 +31,12 @@ Vepdegestrant against the estrogen receptor and BMS-986365 against the androgen 
 ## Economic profile
 Cost of goods behaves like a small molecule, so the economics rest on development risk and target access. The strategic argument is the interesting one: degraders open targets that competitors cannot address at all, so a successful program starts with an unusually defensible position rather than as one of six inhibitors chasing the same kinase. Against that, the field has absorbed well over a decade of investment without an approval, and the clinical attrition so far has come from pharmacokinetics and tolerability rather than from the mechanism failing. For a company, the practical question is whether you have chemistry that can deliver oral exposure at 900 daltons, because that capability, and not the biology, is what has separated programs that reached Phase 3 from programs that stalled.
 
+## Videos
+
+- https://www.youtube.com/watch?v=37SewuExJns — How it Works: Proteolysis Targeting Chimeras (PROTAC® degraders) (ArvinasInc, 2 minutes, 1k+ views)
+- https://www.youtube.com/watch?v=slA4s5oaAQk — What Is Protein Degradation? (Dana-Farber Cancer Institute, 3 minutes, 5k+ views)
+- https://www.youtube.com/watch?v=hx2p3-tfVHQ — Best Practices for Proteolysis Targeting Chimeras PROTACs (European Federation for Medicinal Chemistry, 14 minutes, under 1k views)
+
 ## Further reading
 
 [Targeted protein degradation: elements of PROTAC design (Current Opinion in Chemical Biology)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6930012/) · [Induced protein degradation for therapeutics: past, present, and future (Journal of Clinical Investigation)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10760958/)

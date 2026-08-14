@@ -31,6 +31,12 @@ The at-home and point-of-care molecular COVID-19 tests, several of which used is
 ## Economic profile
 The chemistry that makes decentralized molecular testing economically possible, because removing the thermal cycler removes both the instrument cost and the requirement for a laboratory. That has opened markets that PCR cannot serve at all: pharmacy testing, home testing, and diagnostics in settings with no laboratory infrastructure. The commercial pattern in this category is closed cartridge systems that hide the chemistry's fragility behind engineering, which raises the cost per test well above the reagent cost but is what makes CLIA-waived operation possible. Reimbursement for point-of-care molecular testing has been the main determinant of adoption, more than the technology.
 
+## Videos
+
+- https://www.youtube.com/watch?v=L5zi2P4lggw — Loop Mediated Isothermal Amplification (LAMP) Tutorial (New England Biolabs, 1 minute, 100k+ views)
+- https://www.youtube.com/watch?v=UJE9SBMrh20 — Loop mediated isothermal amplification (LAMP protocol explained) (Henrik's Lab, 4 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=VMR6Lz_M2hk — TwistDX: What is Recombinase Polymerase Amplification? (CAMBRIDGE FILMWORKS, 4 minutes, 5k+ views)
+
 ## Further reading
 
 [TB-LAMP (loop-mediated isothermal amplification) for diagnosing pulmonary tuberculosis in children (Cochrane Database of Systematic Reviews)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10483929/)

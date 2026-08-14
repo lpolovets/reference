@@ -31,6 +31,12 @@ Oxford Nanopore's device range from the pocket-sized MinION to high-throughput P
 ## Economic profile
 A genuinely different business model from the razor-and-blade instrument market: low capital cost, flow cells sold in a range from very cheap to production scale, and no large instrument purchase required to start. That has made sequencing accessible to laboratories and countries that could not justify a production sequencer, which is a real democratizing effect and a large part of the platform's strategic significance. Cost per gigabase remains above the highest-throughput short-read platforms, so it competes on capability and on turnaround rather than on bulk price. The company's independence in a market otherwise consolidated around a single supplier is itself commercially important.
 
+## Videos
+
+- https://www.youtube.com/watch?v=VxGliKyYuFQ — How Oxford Nanopore sequencing works (Oxford Nanopore Technologies, 1 minute, 5k+ views)
+- https://www.youtube.com/watch?v=bS3NiFLwPqE — Oxford Nanopore ONT Sequencing (RobEdwards, 5 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=CyJWeVMFPSU — Nanopore sequencing (Quick Biochemistry Basics, 2 minutes, 50k+ views)
+
 ## Further reading
 
 [The Oxford Nanopore MinION: delivery of nanopore sequencing to the genomics community (Genome Biology)](https://pmc.ncbi.nlm.nih.gov/articles/PMC5124260/) · [The evolution of nanopore sequencing (Frontiers in Genetics)](https://pmc.ncbi.nlm.nih.gov/articles/PMC4285804/)

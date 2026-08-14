@@ -31,6 +31,11 @@ Commercial gene synthesis providers, who run error correction and clonal verific
 ## Economic profile
 Verification is a small cost that prevents large ones, and its economics improved dramatically when whole-plasmid sequencing arrived: reading an entire construct for a few dollars removed the reason to verify selectively. The service market for plasmid sequencing has grown quickly for exactly that reason and has taken share from Sanger providers. For gene synthesis companies, error correction and verification are where much of the real process know-how sits, since anyone can order oligos but delivering a guaranteed perfect multi-kilobase construct at a competitive price depends on how efficiently the errors are removed.
 
+## Videos
+
+- https://www.youtube.com/watch?v=RJmBxwEoFHw — Whole plasmid sequencing with nanopore technology (ONT) (the bumbling biochemist, 7 minutes, under 1k views)
+- https://www.youtube.com/watch?v=HxZcjX5WByc — Sequencing your plasmids (emphasis on Sanger sequencing) (the bumbling biochemist, 21 minutes, 1k+ views)
+
 ## Further reading
 
 [Error correction in gene synthesis technology (Trends in Biotechnology)](https://pmc.ncbi.nlm.nih.gov/articles/PMC3933390/) · [Sequence verification of synthetic DNA by assembly of sequencing reads (Nucleic Acids Research)](https://pmc.ncbi.nlm.nih.gov/articles/PMC3592409/)

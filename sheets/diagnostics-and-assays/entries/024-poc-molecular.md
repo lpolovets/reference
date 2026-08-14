@@ -31,6 +31,12 @@ The Cepheid GeneXpert platform, widely deployed including for tuberculosis and r
 ## Economic profile
 A high-margin consumable business with a placed-instrument model, where the cartridge is the product and the instrument is the distribution channel. Margins on cartridges are substantial, which has drawn regulatory and public health attention in global health contexts, and tuberculosis cartridge pricing in particular has been the subject of sustained public campaigning that produced price reductions. The format's economics work because the alternative is often no testing at all rather than cheaper testing, which gives pricing power. Supply concentration is a real vulnerability, demonstrated when pandemic demand outstripped cartridge manufacturing capacity for a format that cannot be produced by a generic supplier.
 
+## Videos
+
+- https://www.youtube.com/watch?v=mIsBLmjus6Q — Cepheid Xpert® Test Cartridge, A Look Inside (Cepheid, 2 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=2szsStb3uIQ — Learn How Cepheid's Xpert(R) Xpress SARS-CoV-2 Test Cartridge is Made & How it Works (Cepheid, 2 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=V5fUwjodmz4 — The BioFire® FilmArray® System - How It Works (bioMérieux USA, 5 minutes, 100k+ views)
+
 ## Further reading
 
 [Advances in tuberculosis diagnostics: the Xpert MTB/RIF assay and future prospects for a point-of-care test (The Lancet Infectious Diseases)](https://pmc.ncbi.nlm.nih.gov/articles/PMC4844338/)

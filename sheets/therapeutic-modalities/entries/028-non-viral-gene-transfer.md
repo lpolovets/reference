@@ -31,6 +31,12 @@ Sleeping Beauty transposon CAR-T programs, including academic and point-of-care 
 ## Economic profile
 This is a cost-structure play rather than a therapeutic one: the biology is the same as a lentiviral product, and the argument is manufacturing. That argument is real, since viral vector is expensive and supply-constrained, and a meaningful reduction in cell therapy cost of goods would widen access substantially. The commercial question is whether the savings survive the additional regulatory scrutiny and the longer follow-up requirements that the malignancy signal has created. The most credible near-term value is in decentralized and academic manufacturing, particularly outside the US, where the alternative is not a cheaper commercial product but no product at all, and where several groups have delivered CAR-T at costs far below commercial prices using non-viral methods.
 
+## Videos
+
+- https://www.youtube.com/watch?v=XYZHMGUGq6o — DNA cut-and-paste transposition (Oxford Academic (Oxford University Press), 1 minute, 100k+ views)
+- https://www.youtube.com/watch?v=dWbQMiYKf2k — Sleeping Beauty, Sleeping Giant: a breakthrough treatment in the fight against cancer (University of Minnesota, 5 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=n1irT3qc1dI — Generating CAR-T cells with PiggyBac transposons (VJHemOnc – Video Journal of Hematology & HemOnc, 2 minutes, under 1k views)
+
 ## Further reading
 
 [The piggyBac transposon holds promise for human gene therapy (Proceedings of the National Academy of Sciences)](https://pmc.ncbi.nlm.nih.gov/articles/PMC1622765/)

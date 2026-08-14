@@ -31,6 +31,12 @@ The UCART19 program, which used TALENs to knock out the T-cell receptor and CD52
 ## Economic profile
 A platform with a real technical advantage that lost the broader market to CRISPR on convenience, and then found a defensible niche in allogeneic cell therapy where its specificity and messenger RNA delivery fit the manufacturing model. The intellectual property is held by a small number of parties, which supports a licensing business but limits adoption. The commercial lesson generalizes: in tool markets, ease of use routinely beats performance, and a tool that takes weeks to retarget loses to one that takes days even when it is more accurate. TALENs survive commercially where the target is fixed, the volume is clinical rather than experimental, and specificity is worth paying for.
 
+## Videos
+
+- https://www.youtube.com/watch?v=YkVVkzA7QpA — TALENs - TALE NUCLEASES - GENE EDITING EXPLAINED! (Genomics Gurus, 10 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=fPNyCUgvNmY — TALEN-mediated genome editing (The Physiological Society, 10 minutes, 1k+ views)
+- https://www.youtube.com/watch?v=zDkUFzZoQAs — Method of the Year 2011: Gene-editing nucleases - by Nature Video (nature video, 4 minutes, 100k+ views)
+
 ## Further reading
 
 [Genome Editing with mRNA Encoding ZFN, TALEN, and Cas9 (Molecular Therapy)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6453514/)

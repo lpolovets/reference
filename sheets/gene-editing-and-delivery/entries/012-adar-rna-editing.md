@@ -31,6 +31,11 @@ Clinical programs in alpha-1 antitrypsin deficiency, where a single G-to-A mutat
 ## Economic profile
 Attractive because it borrows a mature manufacturing and delivery base rather than building one. Synthesis is solid-phase oligonucleotide chemistry at a few hundred to a couple of thousand dollars per gram, contract capacity is available, and the regulatory path resembles an antisense drug rather than a gene therapy, which is faster and cheaper. The commercial question is the competition with base editing for the same mutations. A one-time treatment is a stronger patient proposition and a harder payer proposition, and a repeat-dosed oligonucleotide is a more conventional pharmaceutical business with recurring revenue. Both models are viable, and which wins per indication will probably depend on disease severity more than on technology.
 
+## Videos
+
+- https://www.youtube.com/watch?v=Hac_yg_KnX4 — ProQR's Axiomer technology explained - How does ADAR work? (ProQR Therapeutics, 5 minutes, 1k+ views)
+- https://www.youtube.com/watch?v=7q_Nu55sGPs — RNA editing: adenosine to inosine (Shomu's Biology, 11 minutes, 10k+ views)
+
 ## Further reading
 
 [Novel Engineered Programmable Systems for ADAR-Mediated RNA Editing (Molecular Therapy: Nucleic Acids)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7015837/) · [Emerging clinical applications of ADAR based RNA editing (Stem Cells Translational Medicine)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12105611/)

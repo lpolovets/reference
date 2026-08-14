@@ -31,6 +31,12 @@ Donor-derived cell-free DNA testing for organ transplant rejection, which quanti
 ## Economic profile
 A premium instrument and consumable business serving applications where the absolute number justifies several times the cost of real-time PCR. Growth has come mainly from clinical applications that did not exist a decade ago, particularly transplant monitoring and cell-free DNA measurement, which found a real clinical need that only absolute quantification could serve. Competition among instrument vendors has increased and consumable prices have come down somewhat. The technology's role as a reference method for certifying standards gives it a durable position beyond its direct clinical use, since it underpins the calibration of cheaper assays.
 
+## Videos
+
+- https://www.youtube.com/watch?v=Qqdmw3wvMFo — Digital PCR Principle & Advantages (Stilla Technologies, 4 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=R92_RwoRSTk — Digital PCR vs. Real-time PCR - Ask TaqMan #30 (Thermo Fisher Scientific, 4 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=KE8nhJSkG_4 — Foundational: Counting in ddPCR (Bio-Rad Laboratories, 10 minutes, 10k+ views)
+
 ## Further reading
 
 [Droplet digital PCR of viral DNA/RNA, current progress, challenges, and future perspectives (Journal of Medical Virology)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8013307/)

@@ -31,6 +31,12 @@ The COVID-19 vaccines from BioNTech and Pfizer (Comirnaty) and Moderna (Spikevax
 ## Economic profile
 Cost of goods is genuinely low, a few dollars a dose, and the facility footprint is small relative to any cell-culture vaccine, so capital intensity is modest and a single suite serves many products. The pandemic left substantial global capacity, so the constraint is demand rather than supply. The commercially distinctive property is changeover speed, which supports two business models nothing else can: rapid pandemic response, and individualized cancer vaccines where the product is made per patient. The main commercial risks are not technical. Public acceptance of the modality is meaningfully worse than for established vaccine types in several markets, and vaccine businesses generally are exposed to policy and procurement decisions in a way therapeutic businesses are not.
 
+## Videos
+
+- https://www.youtube.com/watch?v=S8Wd-NMqvno — How Do mRNA Vaccines Work? | Vaccine Education Center at CHOP (The Children's Hospital of Philadelphia, 2 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=z0kfdZ8o_j4 — How mRNA Vaccines Actually Work | Inside the Vaccine (SciShow, 6 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=SpvhJSGddL0 — Cancer-busting vaccines are coming: here's how they work (nature video, 4 minutes, 100k+ views)
+
 ## Further reading
 
 [Advances in mRNA vaccines (International Review of Cell and Molecular Biology)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9214710/)

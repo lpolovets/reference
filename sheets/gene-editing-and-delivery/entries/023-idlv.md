@@ -30,3 +30,7 @@ Use as a donor template carrier in homology-directed repair protocols, where non
 
 ## Economic profile
 Carries lentiviral manufacturing costs without the durable-expression benefit that justifies them in cell therapy, which is an awkward economic position and explains why adoption has been limited. The competitor is electroporation of ribonucleoprotein, which costs almost nothing and achieves a shorter exposure window, and which has become the standard for ex vivo editing precisely because it is cheap and effective. Integration-deficient vectors survive in situations where cell viability after electroporation is unacceptable, which is a real problem for stem cells and some primary cells but is a narrow commercial base.
+
+## Videos
+
+- https://www.youtube.com/watch?v=i0nHe4OG3ns — Integrase-deficient Lentiviral Vectors for CRISPR Gene Editing | Protocol Preview (JoVE (Journal of Visualized Experiments), 2 minutes, 1k+ views)

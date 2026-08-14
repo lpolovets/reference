@@ -31,6 +31,12 @@ The Galleri test from Grail, the most prominent multi-cancer detection product, 
 ## Economic profile
 Very large addressable population, very high development cost, and a value proposition that depends entirely on trial outcomes that have not yet reported. The commercial history has been turbulent, with substantial capital raised and deployed against a long evidence timeline, and the field is a good illustration of how screening differs from diagnosis commercially: a diagnostic test needs to be accurate in sick people, while a screening test needs to change mortality in well people, and the second is a far higher and more expensive bar. Reimbursement will follow mortality evidence, and until then the market is self-pay and limited.
 
+## Videos
+
+- https://www.youtube.com/watch?v=DEPVaCE2kRY — Clinical validation of a targeted methylation-based multi-cancer early detection test (ecancer, 6 minutes, under 1k views)
+- https://www.youtube.com/watch?v=dEk_d9tQNBo — Galleri Blood Test for Early Cancer Detection…is it ready for prime time? (Eleonora Teplinsky, MD, 4 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=BtvWMRUALeg — SCREENING BIAS EXPLAINED - Learn all about lead time bias, length time bias & selection bias (Nienke de Glas, MD PhD, 6 minutes, 5k+ views)
+
 ## Further reading
 
 [Multicancer early detection tests: where are we? (JNCI Cancer Spectrum)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9825312/) · [Multicancer Early Detection: Learning From the Past to Meet the Future (Journal of the National Cancer Institute)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8902333/)

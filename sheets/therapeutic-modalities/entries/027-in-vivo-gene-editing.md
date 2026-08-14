@@ -31,6 +31,12 @@ Nexiguran ziclumeran (nex-z) and earlier NTLA-2001 for transthyretin amyloidosis
 ## Economic profile
 The most attractive economics of any durable genetic medicine, which is why so much capital has moved here. Manufacturing is a lipid nanoparticle and synthetic RNA, so cost of goods is thousands rather than hundreds of thousands, and the product is off-the-shelf, so there is no per-patient manufacturing slot and no cold-chain-limited distribution model. That combination makes large indications plausible in a way it is not for AAV or cell therapy: a one-time treatment for cardiovascular risk would address tens of millions of people, and the manufacturing could supply them. The unresolved questions are pricing a one-time therapy in a large population, where the payer arithmetic that works for a rare disease at $2M does not transfer, and whether regulators will accept a permanent edit in patients who are not severely ill.
 
+## Videos
+
+- https://www.youtube.com/watch?v=EPTeaXMVcyY — Gene Editing Inside the Body Using CRISPR (JAMA Network, 5 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=NyRrMCkPZbA — How to deliver CRISPR machinery in patients? (in vivo approaches) | Prof David Liu (The Sheekey Science Show, 4 minutes, 1k+ views)
+- https://www.youtube.com/watch?v=r8gR9wnDQPE — Intellia and the #NewEraOfMedicine (in vivo CRISPR) (The Sheekey Science Show, 10 minutes, 5k+ views)
+
 ## Further reading
 
 [In vivo delivery strategies for therapeutic CRISPR genome editing (International Journal of Biological Sciences)](https://pmc.ncbi.nlm.nih.gov/articles/PMC13412194/)

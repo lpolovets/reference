@@ -31,6 +31,12 @@ The Element Biosciences AVITI platform, which introduced the chemistry commercia
 ## Economic profile
 The most consequential thing about this platform may be its effect on prices rather than its own market share. A credible short-read competitor with better raw accuracy forced list price movement in a market that had been stable for a decade, which benefits every buyer regardless of what they purchase. The business model is the same razor-and-blade structure, and the strategic question is whether an alternative can accumulate enough ecosystem, pipeline validation and clinical acceptance to displace an incumbent whose real moat was never the chemistry. History in instrument markets suggests that takes longer than the specification advantage alone would predict.
 
+## Videos
+
+- https://www.youtube.com/watch?v=LfkBfxMjstM — 2 of 4 | Sequencing on the AVITI™ - Unique Chemistry (Element Biosciences, 10 minutes, 1k+ views)
+- https://www.youtube.com/watch?v=HnQdcaBeUQM — Let's Talk Sequencing wth Mike Previte (Part 2 of 3) (Element Biosciences, 7 minutes, under 1k views)
+- https://www.youtube.com/watch?v=cWr4m7fCnzc — Element Biosciences: Avidity Sequencing – Accuracy and Applications (Element Biosciences, 19 minutes, 1k+ views)
+
 ## Further reading
 
 [Comparative analysis of 7 short-read sequencing platforms using the Korean Reference Genome: MGI and Illumina sequencing benchmark for whole-genome sequencing (GigaScience)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7953489/)

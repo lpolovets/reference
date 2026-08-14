@@ -30,3 +30,9 @@ The Ultima Genomics platform, which introduced this architecture with an explici
 
 ## Economic profile
 A pure cost-per-base play, and it has moved the market's expectations even where it has not won the sale. The strategy is to serve the highest-volume buyers, whose economics are dominated by consumable cost and who have the pipeline sophistication to handle a different error profile, and to leave clinical and low-volume segments to incumbents. That is a coherent position and it targets the segment where switching costs are lowest relative to the saving. The broader effect on the industry is the same as any credible competitor entering a long-stable market: prices move for everyone, and buyers benefit whether or not they switch.
+
+## Videos
+
+- https://www.youtube.com/watch?v=8zkvedGQvGU — Inside Ultima Genomics: Flow-Based, Mostly Natural Sequencing By Synthesis (OmicsQuest, 4 minutes, 1k+ views)
+- https://www.youtube.com/watch?v=2WhlYgswoTg — Inside Ultima Genomics: Flow Chemistry, CRAM Format, and Q30 Quality Scores (OmicsQuest, 5 minutes, under 1k views)
+- https://www.youtube.com/watch?v=-vTP0WV6QwY — Inside Ultima Genomics: Whole Genome Sequencing with Low Substitution Errors (OmicsQuest, 5 minutes, under 1k views)

@@ -31,6 +31,12 @@ Guardant360 and FoundationOne Liquid, cleared comprehensive genomic profiling as
 ## Economic profile
 The most commercially dynamic segment of molecular diagnostics, with substantial venture and public market capital deployed and a mix of cleared products and laboratory-developed tests. Therapy selection is reimbursed and established. Minimal residual disease is where the growth is, because the addressable population is every surgically treated cancer patient and the testing is serial rather than one-time, which produces recurring revenue that single-use diagnostics never do. The unresolved question is clinical utility: detecting recurrence earlier is only valuable if acting on it improves outcomes, and the trials establishing that are still reading out.
 
+## Videos
+
+- https://www.youtube.com/watch?v=D8Y6jnnmT3o — Cell-free DNA Analysis and Cancer Treatment (NEJM Group, 4 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=tDXfZtw48O4 — Understand ctDNA Testing (Princess Margaret Cancer Centre, 3 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=btZvcambbM8 — Blood cell mutations confound prostate cancer liquid biopsy (UW Medicine, 3 minutes, under 1k views)
+
 ## Further reading
 
 [Circulating tumor DNA: current challenges for clinical utility (Journal of Clinical Investigation)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9197509/) · [Clinical Applications of Minimal Residual Disease Assessments by Tumor-Informed and Tumor-Uninformed Circulating Tumor DNA in Colorectal Cancer (Cancers)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8471730/)

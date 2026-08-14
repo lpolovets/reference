@@ -31,6 +31,12 @@ Home pregnancy tests, the format's oldest and most successful application; SARS-
 ## Economic profile
 Low unit cost, direct-to-consumer distribution, and a business model that depends on volume and brand rather than on clinical relationships. The pandemic demonstrated both the scale achievable and the volatility, with enormous manufacturing investment followed by sharp contraction. The mail-in laboratory model has better economics for the operator, since it captures a laboratory fee rather than a consumable margin, and it has grown steadily with consumer willingness to pay out of pocket. Public health programs that mail tests to populations have shown the best outcome data, and they work because the test is free at the point of use, which is a purchasing decision rather than a technological one.
 
+## Videos
+
+- https://www.youtube.com/watch?v=aOfWTscU8YM — How do pregnancy tests work? - Tien Nguyen (TED-Ed, 5 minutes, 5m+ views)
+- https://www.youtube.com/watch?v=2B-iZGNiPA0 — Chemist Breaks Down How At-Home Covid Tests Work | WIRED (WIRED, 6 minutes, 500k+ views)
+- https://www.youtube.com/watch?v=MU0nSa5f8WQ — Fecal Immunochemical Test (FIT) for Colon Cancer Screening | UCLA Digestive Diseases (UCLA Health, 2 minutes, 100k+ views)
+
 ## Further reading
 
 [Uptake and Acceptability of Oral HIV Self-Testing among Community Pharmacy Clients in Kenya: A Feasibility Study (PLoS ONE)](https://pmc.ncbi.nlm.nih.gov/articles/PMC5268447/)

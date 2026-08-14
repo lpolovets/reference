@@ -31,6 +31,12 @@ CAR-T products with the receptor inserted at the T-cell receptor locus, which si
 ## Economic profile
 Not a platform in itself so much as a technique used inside cell therapy manufacturing, so its economics are the economics of the cell process it sits in. The commercially interesting point is what it replaces: putting a CAR at a defined site by knock-in avoids lentiviral vector, which is typically 20–40% of cell therapy manufacturing cost and a recurring supply constraint. That saving is real but is partly given back by the low efficiency, since more starting cells and longer culture are needed to reach the same dose. Whether the trade is worth it depends on the specific process, and it is one of the more consequential manufacturing decisions in a cell therapy program.
 
+## Videos
+
+- https://www.youtube.com/watch?v=Rv6-RB20f0s — Homology-Directed Repair: How the Cell Edits DNA After a CRISPR-Induced Break (Science Communication Lab, 3 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=PlVy1oupFxw — How to perform a CRISPR Knockin Experiment (Applied Biological Materials - abm, 6 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=Xe-83tBcxhs — DNA Break Repair by Homologous Recombination (2024) Drew Berry wehi.tv (WEHImovies, 4 minutes, 500k+ views)
+
 ## Further reading
 
 [Methods for Enhancing Clustered Regularly Interspaced Short Palindromic Repeats/Cas9-Mediated Homology-Directed Repair Efficiency (Frontiers in Genetics)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6590329/)

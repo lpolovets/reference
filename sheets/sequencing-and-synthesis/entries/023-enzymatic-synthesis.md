@@ -31,6 +31,12 @@ DNA Script's benchtop synthesizers, which put overnight oligo production in a la
 ## Economic profile
 A technology that has attracted substantial investment on a clear thesis, replacing a forty-year-old chemistry with a cleaner and potentially longer one, and has consistently taken longer to deliver than expected. The environmental argument is strengthening as oligonucleotide therapeutics scale and solvent waste becomes a real manufacturing cost. The market it would unlock, DNA data storage, needs cost reductions of several orders of magnitude that no current approach achieves. For an investor, the discriminating question is per-cycle efficiency and full-length yield at a stated length, not cost per base in isolation, because those two numbers determine whether the technology can address any of the applications that matter.
 
+## Videos
+
+- https://www.youtube.com/watch?v=bkkhsUXAKGk — Enzymatic DNA Synthesis Technology | Ansa Bio (Ansa Biotechnologies, 2 minutes, 500k+ views)
+- https://www.youtube.com/watch?v=tFumRX1fbPg — Faster, Cheaper, Better: A New Way to Synthesize DNA (JointBioenergyInst, 2 minutes, 1k+ views)
+- https://www.youtube.com/watch?v=BSMmF_aXUCA — Enzymatic DNA Synthesis EDS for Data Storage (Wyss Institute, 4 minutes, 1k+ views)
+
 ## Further reading
 
 [Evolving a terminal deoxynucleotidyl transferase for commercial enzymatic DNA synthesis (Nucleic Acids Research)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11840559/) · [Mini review: Enzyme-based DNA synthesis and selective retrieval for data storage (Computational and Structural Biotechnology Journal)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8113751/)

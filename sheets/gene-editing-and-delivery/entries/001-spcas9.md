@@ -31,6 +31,12 @@ Exagamglogene autotemcel (Casgevy), the first approved CRISPR therapy, which use
 ## Economic profile
 The reagents are commodities. Guide RNA synthesis costs tens of dollars, recombinant Cas9 protein is cheap, and no part of the editing step is a meaningful line item next to delivery, cell manufacturing, or clinical development. That is the important economic fact about this tool: it created enormous value and captures very little of it directly, and the intellectual property fights over the foundational patents have been more commercially consequential than the cost of the material. For a company, the durable position is in delivery, in a specific validated target, or in manufacturing, rather than in the nuclease itself, which is now close to a free input.
 
+## Videos
+
+- https://www.youtube.com/watch?v=2pp17E4E-O8 — Genome Editing with CRISPR-Cas9 (McGovern Institute, 4 minutes, 1m+ views)
+- https://www.youtube.com/watch?v=IiPL5HgPehs — CRISPR-Cas9 Genome Editing Technology (Professor Dave Explains, 14 minutes, 1m+ views)
+- https://www.youtube.com/watch?v=iSEEw4Vs_B4 — What is the PAM? - A CRISPR Whiteboard Lesson (Innovative Genomics Institute – IGI, 5 minutes, 100k+ views)
+
 ## Further reading
 
 [CRISPR/Cas9 in Genome Editing and Beyond (Annual Review of Biochemistry)](https://pmc.ncbi.nlm.nih.gov/articles/PMC13384723/) · [Methods for Optimizing CRISPR-Cas9 Genome Editing Specificity (Molecular Cell)](https://pmc.ncbi.nlm.nih.gov/articles/PMC4976696/)

@@ -31,6 +31,12 @@ The Visium platform and its higher-resolution successors, which made spatial tra
 ## Economic profile
 An expensive consumables business in rapid technical flux, which makes purchasing decisions difficult: resolution has improved by more than an order of magnitude across a few product generations, so an instrument or workflow bought today may be superseded quickly. Competition between sequencing-based and imaging-based approaches is active and has not resolved, and they are converging on similar capabilities from different directions. For a laboratory, the practical implication is to favor service providers over capital purchases until the field settles, and for an investor, the platform question is whether either approach establishes a durable advantage before the other closes the gap.
 
+## Videos
+
+- https://www.youtube.com/watch?v=VwNk4d-0RJc — How it Works | Visium Spatial Gene Expression Solution (10x Genomics, 2 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=ULfdOEhGvzs — The ST Protocol (Spatial Transcriptomics, 14 minutes, 5k+ views)
+- https://www.youtube.com/watch?v=mQXr7ZsojpE — Sam Rodriques - Slide-seq: Spatial RNA sequencing with single-cell resolution (CPM Oxford, 21 minutes, 1k+ views)
+
 ## Further reading
 
 [Technical Advances and Applications of Spatial Transcriptomics (GEN Biotechnology)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11562938/)

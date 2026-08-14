@@ -31,6 +31,12 @@ Blinatumomab (Blincyto) against CD19, the first T-cell engager and still adminis
 ## Economic profile
 The commercially important comparison is against autologous CAR-T for the same target. A T-cell engager costs $1,000–5,000 a dose to make against $100,000 or more for an autologous cell product, needs no per-patient manufacturing slot, and can be given at any oncology center rather than at a certified one. That has already moved market share in myeloma and lymphoma. The countervailing factor is duration: a single CAR-T infusion can produce years of remission, while an engager is given continuously, so total cost per patient converges more than the per-dose numbers suggest and adherence matters. For a company, the bispecific is the more scalable business, and the manufacturing complexity is real but is a solved problem rather than a differentiator.
 
+## Videos
+
+- https://www.youtube.com/watch?v=w4iCian4tnQ — Drawn to Science | T-cell bispecific antibodies (Roche, 3 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=SZlvJbCTJts — Bispecific T-Cell Engagers (BiTEs) as Treatment of B-Cell Lymphoma (ASCOcancer, 2 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=MDqLWaxH_RE — Engineering of Bispecific Antibodies (Cambridge Healthtech Institute, 4 minutes, 1k+ views)
+
 ## Further reading
 
 [Bispecific antibody therapies (Hematology: ASH Education Program)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10727051/) · [Bispecific antibody toxicities (CMAJ)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11867601/)

@@ -31,6 +31,11 @@ Aflibercept (Eylea), a VEGF trap and one of the largest-selling ophthalmology pr
 ## Economic profile
 Manufacturing economics sit close to a monoclonal antibody, a little worse because titers are lower and purification recovers less. The distinctive commercial feature is speed of discovery: a trap can go from concept to candidate faster than an antibody because there is no binder to find, which shortens the earliest and least fundable part of a program. Aflibercept demonstrates the ceiling, having become one of the highest-revenue biologics in the world. The competitive risk is the same as for antibodies, since biosimilars arrive on a predictable schedule and the manufacturing barrier is real but not insurmountable. For a startup, the practical attraction is that the format converts a known piece of receptor biology into a drug candidate quickly, which is a good position when the biology is already validated and a poor one when it is not.
 
+## Videos
+
+- https://www.youtube.com/watch?v=e6bMz5qEgEE — How does Enbrel (Etanercept) Work for Autoimmune & Inflammatory Conditions? (Dr. Rob Swanda, 2 minutes, 1k+ views)
+- https://www.youtube.com/watch?v=8cXnCgEjpzk — FcRn and the Long Half-Life of IgG Antibodies (The Jackson Laboratory, 2 minutes, 10k+ views)
+
 ## Further reading
 
 [Fc-fusion proteins: new developments and future perspectives (EMBO Molecular Medicine)](https://pmc.ncbi.nlm.nih.gov/articles/PMC3491832/)

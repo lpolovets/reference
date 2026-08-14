@@ -31,6 +31,12 @@ Plasma neurofilament light chain as a marker of neuronal injury across multiple 
 ## Economic profile
 A research instrument business that is being pulled into clinical diagnostics by the neurological biomarker field, which is the most important development in the category. If blood-based Alzheimer's biomarkers become routine, the volume implications are large and the requirements change: clinical use demands standardization, regulatory clearance and much higher throughput than current research platforms provide, which favors the large automated immunoassay manufacturers who are developing their own high-sensitivity versions. The likely outcome is that the technology's clinical value accrues substantially to the incumbent platform vendors rather than to the specialist instrument companies that pioneered it.
 
+## Videos
+
+- https://www.youtube.com/watch?v=Bv58mBJD7X8 — Simoa Technology (Quanterix, 2 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=gNxHqxZeg9A — Ultrasensitive Single Molecule Array Digital ELISA | Protocol Preview (JoVE (Journal of Visualized Experiments), 2 minutes, 1k+ views)
+- https://www.youtube.com/watch?v=HtAKyfhfRmw — Neurofilament light chain: Bjorn Oskarsson, M.D. (Mayo Clinic Laboratories, 15 minutes, 1k+ views)
+
 ## Further reading
 
 [An Update on Blood-Based Markers of Alzheimer's Disease Using the SiMoA Platform (Neurology and Therapy)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6908531/)

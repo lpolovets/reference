@@ -31,6 +31,11 @@ The approved GalNAc-conjugated siRNA drugs including inclisiran, givosiran, luma
 ## Economic profile
 Cheap to make and cheap to give, which is an unusual combination in genetic medicine. Synthesis is solid-phase oligonucleotide chemistry with a conjugation step, contract capacity is mature, and there is no particle manufacturing at all. Subcutaneous administration removes infusion chair costs and makes the product deliverable in primary care, which widens the addressable market considerably. The platform effect is strong: once a company has an approved conjugate and its safety profile, each additional hepatic target reuses most of the package, which is close to genuine repeatability. The limitation is concentration risk, since a platform that reaches one organ is dependent on either staying in that organ or solving a delivery problem nobody has solved.
 
+## Videos
+
+- https://www.youtube.com/watch?v=ROEW38w1BxU — Inclisiran The First SiRNA Therapeutic (Demystifying Research McMaster, 7 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=tjAm8xCG0Dk — GalNAc conjugates with Marie Wikström Lindholm, Silence Therapeutics (Informa Connect Life Sciences, 5 minutes, under 1k views)
+
 ## Further reading
 
 [Delivery of Oligonucleotides to the Liver with GalNAc: From Research to Registered Therapeutic Drug (Molecular Therapy)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7403466/) · [GalNAc-siRNA Conjugates: Leading the Way for Delivery of RNAi Therapeutics (Nucleic Acid Therapeutics)](https://pmc.ncbi.nlm.nih.gov/articles/PMC5994659/)

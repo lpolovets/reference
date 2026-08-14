@@ -31,6 +31,12 @@ Somatic oncology panels used routinely in clinical pathology; circulating tumor 
 ## Economic profile
 The workhorse of clinical sequencing economics. Panels are what make routine molecular pathology affordable, since they turn an expensive sequencing run into a cheap per-sample test by only reading what matters, and reimbursement structures have grown up around them. The commercial tension is that panels have to be revalidated whenever the gene content changes, while the clinically actionable gene list keeps growing, so laboratories face repeated revalidation costs and a slow drift toward exome or genome sequencing, where content changes are a reanalysis rather than a new assay. That drift is real but slow, because reimbursement and turnaround still favor panels.
 
+## Videos
+
+- https://www.youtube.com/watch?v=D3Dv7QHpLcs — What is Ion AmpliSeq Chemistry? - Seq It Out #6 (Thermo Fisher Scientific, 5 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=kq8KcvDKXmY — What is the difference between hybrid capture and multiplex PCR-based target enrichment for NGS? (Paragon Genomics, 2 minutes, 5k+ views)
+- https://www.youtube.com/watch?v=LkEXcnkZM-U — Sequencing Of 16S Ribosomal RNA Gene Amplicons (JoVE (Journal of Visualized Experiments), 2 minutes, 5k+ views)
+
 ## Further reading
 
 [Target Enrichment Approaches for Next-Generation Sequencing Applications in Oncology (Diagnostics)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9318977/)

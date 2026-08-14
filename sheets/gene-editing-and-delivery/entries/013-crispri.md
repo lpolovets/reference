@@ -31,6 +31,12 @@ Genome-scale CRISPR interference screens, which are now standard in functional g
 ## Economic profile
 Primarily a research tools market rather than a therapeutic one, and a large and healthy one: guide libraries, screening services, and the associated sequencing are a real business, and the technology has become infrastructure for target discovery across the industry. The therapeutic value is mostly indirect, through the targets that screens identify, rather than through CRISPR interference itself becoming a drug. Companies positioning it as a therapeutic platform generally end up moving toward epigenetic editing, because a hit-and-run mechanism that leaves nothing behind is a far better product than one requiring permanent expression of a foreign protein.
 
+## Videos
+
+- https://www.youtube.com/watch?v=iXgU--ugLqY — CRISPR Toolkit: CRISPRi and CRISPRa Explained (UC San Francisco (UCSF), 2 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=ATSegvJEUkw — 4) CRISPR Cas9 - Gene Regulation with dCas9 (Applied Biological Materials - abm, 10 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=bRlQcIAtThk — CRISPRi and CRISPRa using dCas9 | CRISPR-ON and CRISPR-OFF | Beyond Cas9 gene editing (theCrux, 12 minutes, 5k+ views)
+
 ## Further reading
 
 [CRISPR interference (CRISPRi) for sequence-specific control of gene expression (Nature Protocols)](https://pmc.ncbi.nlm.nih.gov/articles/PMC3922765/)

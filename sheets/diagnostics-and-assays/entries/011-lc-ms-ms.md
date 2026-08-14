@@ -31,6 +31,12 @@ Steroid hormone measurement, where mass spectrometry replaced immunoassays that 
 ## Economic profile
 Instrument-heavy with low consumable cost per test, which inverts the usual diagnostics economics: the capital and the skilled labor dominate, and the reagents are cheap. That structure favors high-volume reference laboratories and works badly for small ones, which is why mass spectrometry testing has concentrated in a relatively small number of laboratories that offer it as a send-out service. Vendors have pushed toward simplified, more automated clinical systems with cleared assays to broaden the market beyond specialist operators, and that transition is the main commercial dynamic in the category. The scarcity of trained mass spectrometrists is a genuine constraint on how fast it can happen.
 
+## Videos
+
+- https://www.youtube.com/watch?v=og2DUvF29zI — How it works - Agilent 6495C triple quadrupole LC/MS (Agilent Technologies, 4 minutes, 500k+ views)
+- https://www.youtube.com/watch?v=iZH-oxP-OJ0 — LC-MS/MS Education Series: Quadrupole Theory and Use (Waters Corporation, 7 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=grcWAZ_gmlA — Mass Spectrometry (Association for Diagnostics & Laboratory Medicine, 8 minutes, 1k+ views)
+
 ## Further reading
 
 [Steroid hormone analysis by tandem mass spectrometry (Clinical Chemistry)](https://pmc.ncbi.nlm.nih.gov/articles/PMC3634331/)

@@ -31,6 +31,12 @@ Lenalidomide (Revlimid) and pomalidomide in multiple myeloma, which degrade the 
 ## Economic profile
 The best cost profile of any modality that reaches undruggable targets: ordinary small-molecule manufacturing at under a dollar a dose, oral administration, no cold chain. Revlimid was among the highest-revenue drugs in the world for years, which demonstrates that the commercial ceiling is as high as any small molecule. The bottleneck is discovery throughput rather than development or manufacturing, so the companies in the space compete on screening platforms and on the ability to determine structures of ternary complexes quickly. For an investor, the relevant question is whether a company has a repeatable way of finding glues or has found one good molecule, because those are very different businesses and they look similar early on.
 
+## Videos
+
+- https://www.youtube.com/watch?v=PCcQXE8Vcxc — Protein Degradation with Molecular Glue (Bristol Myers Squibb, 2 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=Z8AwV78-HbM — Molecular Glues as Medicine (Novartis, 2 minutes, 5k+ views)
+- https://www.youtube.com/watch?v=wKE2G-6vRH0 — Next-Generation Drugs Targeting the Cereblon Ubiquitin Ligase (ASCOcancer, 2 minutes, 1k+ views)
+
 ## Further reading
 
 [Induced protein degradation for therapeutics: past, present, and future (Journal of Clinical Investigation)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10760958/) · [Key Considerations in Targeted Protein Degradation Drug Discovery and Development (Frontiers in Chemistry)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9376879/)

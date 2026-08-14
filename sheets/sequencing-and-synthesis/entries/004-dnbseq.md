@@ -31,6 +31,12 @@ The MGI and Complete Genomics instrument lines, which use this chemistry across 
 ## Economic profile
 Aggressively priced and technically credible, and its commercial trajectory has been shaped as much by law and policy as by performance. The platform has taken substantial share in markets where it can compete freely and has been constrained in the largest market by litigation and legislative scrutiny of Chinese biotechnology. For buyers, the effect of its existence has been to put sustained pressure on prices everywhere. For anyone planning a sequencing-dependent business, the lesson generalizes beyond this platform: supplier concentration in sequencing is a real strategic exposure, and the alternatives to the incumbent each carry their own non-technical risk.
 
+## Videos
+
+- https://www.youtube.com/watch?v=xUVdJN0m38c — MGI's Proprietary DNBSEQ™ Technology (MGI, 1 minute, 10k+ views)
+- https://www.youtube.com/watch?v=0bqIBtMS3xw — MGI's CoolMPS Sequencing Chemistry (MGI, 2 minutes, 5k+ views)
+- https://www.youtube.com/watch?v=XO1YHfF8VJw — Changing the norms of NGS, what’s so special about MGI’s DNBSEQ technology? (Technology Networks, 11 minutes, under 1k views)
+
 ## Further reading
 
 [Comparative analysis of 7 short-read sequencing platforms using the Korean Reference Genome: MGI and Illumina sequencing benchmark for whole-genome sequencing (GigaScience)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7953489/)

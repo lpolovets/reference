@@ -31,6 +31,12 @@ Pegaptanib (Macugen), approved in 2004 for macular degeneration and the first ap
 ## Economic profile
 Discovery is cheap and fast, which is the modality's real economic argument, and manufacturing is inexpensive chemical synthesis with no biological facility required. Neither advantage has translated into commercial success, and the honest summary is that aptamers have been a better technology than a business for three decades. The pattern is worth understanding rather than dismissing: cheap discovery matters less than it seems when the dominant costs are clinical, and an advantage that disappears by Phase 2 does not create a company. The strongest remaining case is where a property no antibody has, particularly antidote reversibility or ocular delivery of a small stable molecule, is worth more than the affinity and half-life an antibody would bring.
 
+## Videos
+
+- https://www.youtube.com/watch?v=uZPq5PG8U9Q — Aptamers and a quick comparison of small nucleic acid tools/therapeutics (RNAi-based & ASOs) (the bumbling biochemist, 13 minutes, under 1k views)
+- https://www.youtube.com/watch?v=QOJShtWtstw — Modified Aptamers as Replacement for Antibodies in Diagnostics and Therapeutics (TAUVOD, 18 minutes, 1k+ views)
+- https://www.youtube.com/watch?v=ZQujMqXm2wQ — Aptamers and SELEX: The Past, The Present, and The Future (Oligonucleotide Therapeutics Society, 32 minutes, 10k+ views)
+
 ## Further reading
 
 [Aptamers as Therapeutics (Annual Review of Pharmacology and Toxicology)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6035745/)

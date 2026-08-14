@@ -31,6 +31,12 @@ Blood culture for bloodstream infection and sepsis, the highest-stakes applicati
 ## Economic profile
 Very cheap in reagents and expensive in labor and time, which is the opposite of most modern diagnostics and is why it has survived competition from faster methods that cost more. Its economic weakness is indirect: the one to three day delay drives broad-spectrum empirical antibiotic use, which carries real costs in length of stay, adverse events and resistance that do not appear on the laboratory's budget. That gap is the commercial opportunity that rapid phenotypic susceptibility platforms are pursuing, and it is a better-justified target than faster identification, since identification is no longer the rate-limiting step.
 
+## Videos
+
+- https://www.youtube.com/watch?v=fusNqTgct4I — Microbiology - Blood Cultures (setrustMedia, 6 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=Np87w5kCL-4 — ID Laboratory Videos: Antibiotic susceptibility testing (TUSM Center for Science Education, 9 minutes, 500k+ views)
+- https://www.youtube.com/watch?v=aYxpA0GL8Ss — Minimum Inhibitory Concentration (MIC) Testing Overview (Emery Pharma, 3 minutes, 100k+ views)
+
 ## Further reading
 
 [Rapid microbial identification and antimicrobial susceptibility testing to drive better patient care: an evolving scenario (Journal of Antimicrobial Chemotherapy)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6382029/) · [Evaluating the impact of rapid antimicrobial susceptibility testing for bloodstream infections: a review of actionability, antibiotic use and patient outcome metrics (Journal of Antimicrobial Chemotherapy)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11412245/)

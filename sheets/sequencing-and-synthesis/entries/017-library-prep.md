@@ -31,6 +31,12 @@ Nextera and related tagmentation kits, which made high-throughput library constr
 ## Economic profile
 Library preparation kits are a substantial and profitable consumables market, and one where the instrument vendors compete directly with independent suppliers. Cost per library has fallen and matters increasingly as sequencing itself gets cheaper: when sequencing was the dominant cost, library preparation was a rounding error, and at current prices it can be a comparable line item for small genomes and targeted assays. That has driven miniaturization onto acoustic liquid handlers and nanoliter-scale reactions, which cut reagent cost by an order of magnitude for laboratories with the automation to run them, and it is one of the few places where capital investment in automation pays back quickly.
 
+## Videos
+
+- https://www.youtube.com/watch?v=_yC0Bzw3WbQ — Next Generation Sequencing Library Preparation - Seq It Out #10 (Thermo Fisher Scientific, 5 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=PFwSe09dJX0 — Next Generation Sequencing 2: Illumina NGS Sample Preparation - Eric Chow (UCSF) (iBiology Techniques, 25 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=C7juaX5WP1o — NEBNext Ultra II DNA Library Prep Protocol (New England Biolabs, 10 minutes, 10k+ views)
+
 ## Further reading
 
 [Comparison of the sequencing bias of currently available library preparation kits for Illumina sequencing of bacterial genomes and metagenomes (DNA Research)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6796507/)

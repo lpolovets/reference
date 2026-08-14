@@ -31,6 +31,12 @@ Plasmid and construct verification, which is still overwhelmingly done this way;
 ## Economic profile
 A mature commodity service business with very thin margins and enormous volume, sustained by the fact that molecular biology still generates a constant stream of single constructs that need checking. Instrument sales have declined for years while sample volumes have not, because the work moved to service providers who run capillary instruments at scale. The interesting recent development is competitive pressure from cheap targeted next-generation sequencing and from nanopore-based plasmid sequencing services, both of which read a whole plasmid in one pass rather than requiring several primer walks, and which are eroding the one application that kept Sanger indispensable.
 
+## Videos
+
+- https://www.youtube.com/watch?v=e2G5zx-OJIw — How does Sanger Sequencing Work? – Seq It Out #1 (Thermo Fisher Scientific, 3 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=X9566yI2cBo — Sanger Sequencing Explained: The Original Method to Modern DNA Sequencing (ClevaLab, 15 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=Wpww8bb63zU — When do I use Sanger Sequencing vs. NGS? - Seq It Out #7 (Thermo Fisher Scientific, 3 minutes, 100k+ views)
+
 ## Further reading
 
 [Sanger sequencing is no longer always necessary based on a single-center validation of 1109 NGS variants in 825 clinical exomes (Scientific Reports)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7952542/)

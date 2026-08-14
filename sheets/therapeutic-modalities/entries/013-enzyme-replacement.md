@@ -31,6 +31,12 @@ Imiglucerase (Cerezyme) for Gaucher disease, the first and the template for the 
 ## Economic profile
 The archetypal ultra-orphan business: tiny populations, very high prices, and durable revenue because patients stay on therapy for life and there is rarely a competing product. Cost of goods is high in absolute terms but small relative to price. The economics have been stable for three decades, which is unusual, and the reason is that these are hard products to copy and the populations are too small to attract many entrants. The structural threat now is gene therapy. A one-time treatment that makes the patient's own cells produce the enzyme attacks exactly the burden and cost that define this modality, and several such programs are in late clinical development for these same indications. For an incumbent, the question is whether to cannibalize; for a startup, enzyme replacement is usually the comparator to beat rather than the product to build.
 
+## Videos
+
+- https://www.youtube.com/watch?v=AZ3WUzkpD4M — Enzyme Replacement Therapy (NORD) (Osmosis from Elsevier, 5 minutes, 1k+ views)
+- https://www.youtube.com/watch?v=8jBm1uoWWhg — Mannose 6-Phosphate - Hudson Freeze, Ph.D. (Sanford Burnham Prebys, 6 minutes, 1k+ views)
+- https://www.youtube.com/watch?v=2LYxqKTpEY8 — Gene Therapy vs Enzyme Replacement Therapy for Fabry Disease (CheckRare, 5 minutes, 1k+ views)
+
 ## Further reading
 
 [Enzyme replacement therapy: conception, chaos and culmination (Philosophical Transactions of the Royal Society B)](https://pmc.ncbi.nlm.nih.gov/articles/PMC1693186/)

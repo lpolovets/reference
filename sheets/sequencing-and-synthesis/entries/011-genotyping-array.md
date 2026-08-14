@@ -31,6 +31,12 @@ The UK Biobank genotyping of roughly half a million participants, which underpin
 ## Economic profile
 A mature, low-margin, high-volume business, and one of the few places in genomics where the incumbent's cost advantage comes from manufacturing scale rather than from chemistry. The strategic question is how long arrays remain rational as sequencing prices fall. Low-coverage whole genome sequencing with imputation already competes on cost in some settings and gives a superset of the information, including novel variants and better performance across ancestries. Consumer genomics has been the most visible commercial application and also the most volatile, since the business model depends on repeat engagement that a one-time test does not naturally produce.
 
+## Videos
+
+- https://www.youtube.com/watch?v=lVG04dAAyvY — Illumina Infinium Assay: An Overview (Illumina, 4 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=DHcCv6u0I3M — Illumina BeadChip genotypes - The basics (Genomics Boot Camp, 8 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=G2d5qaJ_g3w — The pros and cons of GWAS (The Sheekey Science Show, 10 minutes, 10k+ views)
+
 ## Further reading
 
 [SNP Arrays (Microarrays)](https://pmc.ncbi.nlm.nih.gov/articles/PMC5197946/) · [Imputation-based genomic coverage assessments of current human genotyping arrays (G3)](https://pmc.ncbi.nlm.nih.gov/articles/PMC3789804/)

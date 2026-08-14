@@ -31,6 +31,10 @@ The Type I-F and Type V-K CRISPR-associated transposase systems characterized in
 ## Economic profile
 Not yet a business. The intellectual property is real and held by a small number of academic institutions and their spinouts, and the strategic value would be significant if mammalian efficiency were solved, because targeted large-cargo insertion without a double-strand break is a genuinely valuable capability. The realistic assessment is that this competes with serine integrases for the same application, is behind them, and would need a step change in mammalian performance to become the preferred route. Bacterial genome engineering is a real but small market that does not on its own justify a therapeutics valuation.
 
+## Videos
+
+- https://www.youtube.com/watch?v=rdVLeDNmjGc — Targeted DNA integration without double strand breaks using CRISPR RNA guided transposons (GenScript USA Inc., 30 minutes, 1k+ views)
+
 ## Further reading
 
 [Integration of therapeutic cargo into the human genome with programmable type V-K CAST (Nature Communications)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11906591/) · [Genome editing using CRISPR, CAST, and Fanzor systems (Molecules and Cells)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11278801/)

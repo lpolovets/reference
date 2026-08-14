@@ -31,6 +31,12 @@ Luxturna, Zolgensma, Hemgenix, Roctavian and Elevidys among approved gene therap
 ## Economic profile
 The most expensive delivery route on this sheet by a wide margin, and the cost is genuine rather than a pricing artifact: low yields, empty capsid separation, and doses measured in the hundreds of trillions of vector genomes per patient add up to six figures of manufacturing cost. Capacity is available from specialized contract manufacturers and is a real constraint for a company without its own. The strategic implication for an editing program is that AAV should be the choice when no alternative reaches the tissue, not the default, because every other delivery route on this sheet is at least an order of magnitude cheaper and most of them can be redosed.
 
+## Videos
+
+- https://www.youtube.com/watch?v=hYHbfQe5h-Q — 1) Adeno Associated Virus (AAV) - An Introduction (Applied Biological Materials - abm, 7 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=KDGM8YVCioU — AAV Transfer Plasmids - Viral Vectors 101 (Addgene, 5 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=CMFUbSfUEYk — How AAV Gene Transfer Works - Expert Audience (uniQure, 3 minutes, 10k+ views)
+
 ## Further reading
 
 [AAV vector development, back to the future (Molecular Therapy)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12126818/) · [Redirecting AAV vectors to extrahepatic tissues (Molecular Therapy)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10727976/)

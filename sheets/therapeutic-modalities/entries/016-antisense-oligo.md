@@ -31,6 +31,12 @@ Nusinersen (Spinraza) for spinal muscular atrophy, given intrathecally and one o
 ## Economic profile
 Manufacturing is chemical synthesis at modest cost, and the doses are small, so cost of goods is a few hundred to a few thousand dollars per dose at most, with prices in rare disease running orders of magnitude above that. The distinctive commercial feature is development speed and cost: a candidate can be identified quickly and the class safety profile is largely known in advance, so the cost of reaching the clinic is lower than for most modalities. That supports business models targeting very small populations, including single patients, which is not viable anywhere else on this sheet. The competitive pressure comes from siRNA, which has taken over the liver and offers longer dosing intervals, leaving antisense with central nervous system indications and splice modulation as the durable territory.
 
+## Videos
+
+- https://www.youtube.com/watch?v=p8KFtND911A — Fixing Genes with Antisense Oligonucleotides (ASOs) (Harvard Medical School, 2 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=wrN-BRrzZ5E — Cut and Paste: Treating Spinal Muscular Atrophy with Nusinersen (YourekaScience, 4 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=KJGsTNmU_2M — ASOs - AntiSense Oligonucleotides: what they are and how they work (the bumbling biochemist, 25 minutes, 5k+ views)
+
 ## Further reading
 
 [Antisense oligonucleotides: A primer (Neurology Genetics)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6501637/)

@@ -31,6 +31,12 @@ Aldesleukin (Proleukin), recombinant interleukin-2, approved in 1992 and still t
 ## Economic profile
 Manufacturing is ordinary recombinant protein work at modest cost, so the economics are entirely about clinical risk, and that risk has been high. This is a modality where a great deal of capital has been deployed against a compelling rationale with few approvals to show for it, and the failures have generally come in Phase 2 and Phase 3 rather than early, which makes them expensive. The colony-stimulating factors are the counterexample and a large business, but they work because the biology is supportive rather than because the window was engineered. For an investor, the discriminating question is whether a program has human data showing the intended receptor selectivity on human cells, since that is the step where the field has repeatedly failed to translate.
 
+## Videos
+
+- https://www.youtube.com/watch?v=N1aoA2IKuMs — Drugging the IL-12 pathway - Deborah Charych (Deborah Charych, 11 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=Wmns7EWMVVI — How Interleukin-2 Helps Treat Autoimmune Disease (Benaroya Research Institute at Virginia Mason, 3 minutes, 5k+ views)
+- https://www.youtube.com/watch?v=5IzVZNu_mr0 — Interleukin-10: An Immune-Activating Cytokine in Cancer Immunotherapy (ASCOcancer, 3 minutes, 10k+ views)
+
 ## Further reading
 
 [Insights into cytokine-receptor interactions from cytokine engineering (Annual Review of Immunology)](https://pmc.ncbi.nlm.nih.gov/articles/PMC4445396/)

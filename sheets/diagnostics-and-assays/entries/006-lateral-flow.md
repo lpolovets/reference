@@ -31,6 +31,12 @@ Home pregnancy tests, the format's original mass application; SARS-CoV-2 antigen
 ## Economic profile
 Extremely cheap per unit and enormously scalable, which makes it the only format that works for global-scale testing programs. The commercial pattern is boom and collapse: pandemic demand produced vast manufacturing investment and then a sharp contraction, and several manufacturers that expanded during COVID-19 were left with stranded capacity. Margins are thin outside emergencies, differentiation is difficult because the technology is well understood and widely licensed, and the durable businesses are those with regulatory clearances, distribution and brand rather than better strips. Reimbursement for point-of-care testing determines clinical volume more than performance does.
 
+## Videos
+
+- https://www.youtube.com/watch?v=z07CK-4JoFo — See how a lateral flow immunoassay works (Abingdon Health, 2 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=AERyetmR7FY — Lateral Flow Test Teardown (Chemistry at Hull, 4 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=oYYTAPlwDE4 — How Lateral Flow Assays Work (Hardy Diagnostics, 6 minutes, 10k+ views)
+
 ## Further reading
 
 [Rapid antigen tests for SARS-CoV-2 (CMAJ)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8099168/)

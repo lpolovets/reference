@@ -31,6 +31,12 @@ The Human Cell Atlas and the many tissue atlases built on this technology; tumor
 ## Economic profile
 A large and profitable consumables business built on a proprietary microfluidic cartridge, and one that has been the subject of extensive patent litigation, which is worth noting because it has shaped which alternatives are available. Cost per experiment remains high enough to constrain experimental design, and that constraint distorts the science toward underpowered studies. The trend is toward higher cell numbers at lower cost per cell, through combinatorial indexing and through cheaper sequencing, and the practical effect is that experiments are gradually shifting from a few samples with many cells toward many samples with fewer cells each, which is the statistically correct direction.
 
+## Videos
+
+- https://www.youtube.com/watch?v=6UVOdCc1Q7I — Single-cell sequencing explained in 2 minutes (Sanbomics, 3 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=vL7ptq2Dcf0 — Drop-seq: Droplet barcoding of single cells (Harvard Medical School, 5 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=k9VFNLLQP8c — Single Cell Sequencing - Eric Chow (UCSF) (iBiology Techniques, 25 minutes, 100k+ views)
+
 ## Further reading
 
 [Pitfalls in analysis and interpretation of single-cell RNA-seq data in cancer (Neuro-Oncology Advances)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12946769/)

@@ -31,6 +31,12 @@ The Hib conjugate vaccines, which effectively eliminated a leading cause of chil
 ## Economic profile
 Among the most expensive vaccines to manufacture, because valency multiplies the process, and among the most valuable in public health terms. Pneumococcal conjugate vaccines have been one of the largest vaccine franchises in the world by revenue, which is unusual for the category and reflects both the manufacturing barrier and the difficulty of copying a twenty-valent product. That barrier is real: biosimilar-style entry is hard here in a way it is not for a single-antigen protein vaccine. MenAfriVac is the counterexample worth knowing, developed through a product development partnership to a fixed price target for a market that commercial developers had ignored, which is a model that has since been applied elsewhere. For a new entrant, the opportunity is usually in higher valency, in cheaper conjugation chemistry, or in the protein-based vaccines that would end the serotype replacement cycle.
 
+## Videos
+
+- https://www.youtube.com/watch?v=aaJaBnLOzbo — How the Pneumococcal Vaccines (Prevnar 13 & PPSV23) Work (Dr. Rob Swanda, 2 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=1ABjlMM9ooI — The Genius of Conjugate Vaccine. A Tribute to John Robbins (European Society for Paediatric Infectious Diseases, 7 minutes, under 1k views)
+- https://www.youtube.com/watch?v=nokvTLNDJWc — Conjugate vaccines (Joe DeMasi, 10 minutes, 10k+ views)
+
 ## Further reading
 
 [Conjugate vaccines (Clinical and Experimental Immunology)](https://pmc.ncbi.nlm.nih.gov/articles/PMC1905528/)

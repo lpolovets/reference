@@ -31,6 +31,12 @@ Hematological malignancy workup, where karyotype remains a core part of risk str
 ## Economic profile
 Labor-intensive, dependent on a shrinking pool of trained cytogeneticists, and steadily being displaced from the edges by molecular methods that are faster and higher-resolution. Karyotyping survives because nothing else combines genome-wide coverage with detection of balanced rearrangements at a price laboratories can afford, and because clinical guidelines and risk stratification schemes are written around it. Optical genome mapping and long-read sequencing both threaten that position technically, and the transition has been slow for the usual reasons: guidelines, reimbursement codes and validated evidence bases are all built on the incumbent method, and replacing them takes longer than replacing the technology.
 
+## Videos
+
+- https://www.youtube.com/watch?v=X9tRGdlA_20 — Cytogenetics II Chromosome Analysis & Karyotypes (ETSU Online, 11 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=O8pkKt_u2UE — Conventional Cytogenetics Chromosome Preparation Brief Workflow (Kanay Yararbas, 7 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=pU6gr8DC-oc — Fluorescence In Situ Hybridization (FISH): Methodology and Clinical Utility (AMPforyou, 13 minutes, 10k+ views)
+
 ## Further reading
 
 [Cytogenetics of Pediatric Acute Myeloid Leukemia: A Review of the Current Knowledge (Genes)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8233729/)

@@ -132,9 +132,15 @@ async function line(id) {
   // oEmbed carries the display title and channel name; videoDetails can lag on renames.
   let title = String(oe.title).replace(/\s+/g, ' ').trim();
   if (title.length > MAX_TITLE) title = title.slice(0, MAX_TITLE - 1).trimEnd() + '…';
+  // Channel names get the same whitespace normalization as titles. Some channels
+  // carry a trailing space in YouTube's own metadata ("Luminex ", "Anduril Industries "),
+  // which renders as a space before the comma in the caption and reads as a typo.
+  // Collapsing whitespace is not paraphrasing, so it does not break the paste-verbatim
+  // rule; audit compares titles only, so normalizing here cannot report a false rename.
+  const chan = String(oe.author_name).replace(/\s+/g, ' ').trim();
   const warn = (secs < SOFT_MIN || secs > SOFT_MAX) ? '   # check length' : '';
   console.log('- https://www.youtube.com/watch?v=' + id + ' — ' + title +
-    ' (' + oe.author_name + ', ' + mins + (mins === 1 ? ' minute, ' : ' minutes, ') + bandLabel(views) + ')' + warn);
+    ' (' + chan + ', ' + mins + (mins === 1 ? ' minute, ' : ' minutes, ') + bandLabel(views) + ')' + warn);
 }
 
 // Re-checks every video already stored in the entry files. Videos rot: channels

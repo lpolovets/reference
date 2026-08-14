@@ -31,6 +31,12 @@ Zynteglo for beta-thalassemia and Lyfgenia for sickle cell disease; Skysona for 
 ## Economic profile
 The same structural problem as AAV, with per-patient manufacturing on top. Cost of goods runs into the hundreds of thousands, prices into the millions, and the addressable population shrinks as prevalent patients are treated. Several approved products in this category have been withdrawn from markets or discontinued for commercial reasons, which is the clearest evidence that the economics are unresolved rather than merely difficult. Manufacturing capacity for lentiviral vector has been a genuine constraint and is a real asset for companies that own it. The competitive threat is gene editing: for sickle cell disease specifically, an edited product and a lentiviral product were approved at nearly the same time for the same indication, which is an unusually direct test of whether adding a gene or fixing one wins.
 
+## Videos
+
+- https://www.youtube.com/watch?v=kJSsZMdA8Sk — The Basics of the Recombinant Lentivirus System (Applied Biological Materials - abm, 7 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=89GeJOHhAP4 — How Ex-Vivo Gene Therapy Works | Boston Children's Hospital (Boston Children's Hospital, 3 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=LDHkXWNHghM — Hematopoietic Stem Cell Gene Therapy for Primary Immune Deficiencies - Don Kohn (University of California Television (UCTV), 14 minutes, 1k+ views)
+
 ## Further reading
 
 [Lentiviral hematopoietic stem cell gene therapy in inherited metabolic disorders (Human Gene Therapy)](https://pmc.ncbi.nlm.nih.gov/articles/PMC4179920/) · [Approved Cellular and Gene Therapy Products (FDA)](https://www.fda.gov/vaccines-blood-biologics/cellular-gene-therapy-products/approved-cellular-and-gene-therapy-products)

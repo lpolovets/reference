@@ -31,6 +31,12 @@ The adenoviral COVID-19 vaccines from Oxford-AstraZeneca and Johnson & Johnson, 
 ## Economic profile
 Cheap and scalable relative to other viral vectors, which is why it dominates genetic vaccines where billions of doses were needed at a few dollars each. Manufacturing is mature and capacity is broadly available. For therapeutic gene delivery the economics are less relevant than the biology, since transient expression limits the applications regardless of cost. The interesting current use is as a delivery vehicle for large editing payloads to the liver, where its capacity and its transience are both advantages, and where the vector's poor reputation for durable gene therapy does not apply because durability is not what is wanted.
 
+## Videos
+
+- https://www.youtube.com/watch?v=WX39LTVIEXQ — 2) Cell Culture - Recombinant Adenovirus Expression System (Applied Biological Materials - abm, 9 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=GMoW-2HTVII — Adenovirus-Based Vaccine for COVID-19 (ASGCT, 4 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=N-qHQpPX8bw — High-Capacity Adenoviral Vectors Based On Human Adenovirus Type 5 l Protocol Preview (JoVE (Journal of Visualized Experiments), 2 minutes, under 1k views)
+
 ## Further reading
 
 [Strategies for Modifying Adenoviral Vectors for Gene Therapy (International Journal of Molecular Sciences)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11595218/)

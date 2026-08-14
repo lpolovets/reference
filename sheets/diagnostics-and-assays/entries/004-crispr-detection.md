@@ -31,6 +31,12 @@ The SHERLOCK and DETECTR platforms, which established the approach and were amon
 ## Economic profile
 A technology whose scientific profile has run well ahead of its commercial footprint. Substantial investment followed the initial publications and the pandemic authorizations, and the deployed clinical volume remains small relative to conventional molecular testing. The honest assessment is that the diagnostics market rewards workflow and reimbursement far more than it rewards elegant chemistry, and an assay that requires amplification anyway has to justify its extra layer against an incumbent that is cheap, fast and already installed. The clearest durable niche is genotyping at the point of care, where single-base discrimination in a simple format is a real capability that conventional rapid tests do not offer.
 
+## Videos
+
+- https://www.youtube.com/watch?v=ZOoUIlLmxf4 — SHERLOCK: A CRISPR Tool to Detect Disease (McGovern Institute, 3 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=e7SfWhfKf9s — CRISPR-Based Diagnostic Tools - A CRISPR Whiteboard Lesson (Innovative Genomics Institute – IGI, 3 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=22F85FOAyik — Science explains: CRISPR diagnostics (Science Magazine, 3 minutes, 10k+ views)
+
 ## Further reading
 
 [Towards deployable CRISPR-based nucleic acid detection (Progress in Biomedical Engineering)](https://pmc.ncbi.nlm.nih.gov/articles/PMC13227110/)

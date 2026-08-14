@@ -31,6 +31,12 @@ Circulating tumor DNA assays for treatment selection and minimal residual diseas
 ## Economic profile
 Barcoding is cheap to add and expensive to use, because the cost lands in sequencing depth rather than in reagents. That structure has shaped an entire diagnostics segment: liquid biopsy assays are priced on the sequencing burden their sensitivity requires, and the competitive question between vendors is how few molecules and how little depth can achieve a clinically acceptable limit of detection. As sequencing prices fall, assays that were uneconomic become viable, which is why minimal residual disease monitoring has moved from research to commercial reality over the last few years, and it is one of the clearest examples of falling sequencing cost creating a new market rather than just reducing an old cost.
 
+## Videos
+
+- https://www.youtube.com/watch?v=I0wHb3Ol6IY — VIB Tech Training: UMIs allow to detect PCR copies in single cell sequencing (janick mathys, 4 minutes, under 1k views)
+- https://www.youtube.com/watch?v=39bgOS2baLo — Barcodes vs. UMIs: How NGS Antibody Data Gets Processed (Geneious, 3 minutes, 5k+ views)
+- https://www.youtube.com/watch?v=Tf9UQdgWJV0 — Duplex sequencing: Detecting ultra rare variants (MHSc Medical Genomics, 16 minutes, under 1k views)
+
 ## Further reading
 
 [UMI-tools: modeling sequencing errors in Unique Molecular Identifiers to improve quantification accuracy (Genome Research)](https://pmc.ncbi.nlm.nih.gov/articles/PMC5340976/) · [Correcting PCR amplification errors in unique molecular identifiers to generate accurate numbers of sequencing molecules (Nature Methods)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10927542/)

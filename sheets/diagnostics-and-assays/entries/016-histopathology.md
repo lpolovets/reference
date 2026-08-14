@@ -31,6 +31,12 @@ Cancer diagnosis and subtyping across essentially all solid tumors; HER2 scoring
 ## Economic profile
 Labor-dominated, and the labor is a pathologist, which makes it one of the few diagnostics where the binding constraint is a specific scarce professional rather than an instrument or a reagent. Pathologist shortages are real in many health systems and worsening with retirement demographics. That is the economic driver behind digital pathology and algorithmic assistance, which aim to increase throughput per pathologist rather than to replace the reading, and it is a more compelling business case than most artificial intelligence applications in medicine because the shortage is documented and quantifiable. The reagent and instrument business around staining platforms is mature and consolidated.
 
+## Videos
+
+- https://www.youtube.com/watch?v=bat0uVxNUJ4 — From Biopsy to Diagnosis: How Pathologists Diagnose Cancer and Other Diseases (umichpath, 5 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=XMjGZHEG4cY — Immunohistochemistry Protocol for Paraffin embedded Tissue Sections (Cell Signaling Technology, Inc., 10 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=EPDx8jBfpfo — The Concept of HER2 IHC 0+ in Breast Cancer (ASCP, 3 minutes, 1k+ views)
+
 ## Further reading
 
 [A Consortium for Analytic Standardization in Immunohistochemistry (Archives of Pathology & Laboratory Medicine)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11681772/)

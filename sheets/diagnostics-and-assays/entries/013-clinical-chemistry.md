@@ -31,6 +31,12 @@ The basic and comprehensive metabolic panels, among the most frequently ordered 
 ## Economic profile
 Very high volume at very low margin per test, sold through the same placed-instrument reagent contract model as immunoassay and usually as part of an integrated system covering both. A handful of global manufacturers dominate. Because the assays are standardized and commoditized, competition is on instrument throughput, uptime, integration with laboratory automation, and contract terms rather than on assay performance. This segment funds much of the diagnostics industry quietly and attracts almost none of the attention or investment that novel assays do, which is a reasonable summary of how diagnostics economics differ from diagnostics research.
 
+## Videos
+
+- https://www.youtube.com/watch?v=XjizS2_oESg — Automation in Clinical Chemistry: Steps in Automated Analysis (Dr. A's Clinical Lab Videos, 18 minutes, 5k+ views)
+- https://www.youtube.com/watch?v=XlbXXAH8RdQ — ELECTROLYTES BY ISE METHOD (LabsforLifeProject, 16 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=sRrddvQIBlo — Utility of HIL in Clinical Chemistry (Association for Diagnostics & Laboratory Medicine, 13 minutes, 5k+ views)
+
 ## Further reading
 
 [Avoiding Unnecessary Repeat Laboratory Testing (Cureus)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6834110/)

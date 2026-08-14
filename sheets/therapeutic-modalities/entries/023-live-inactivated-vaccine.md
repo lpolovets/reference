@@ -31,6 +31,12 @@ Measles, mumps and rubella (MMR) and varicella vaccines, all live attenuated; th
 ## Economic profile
 The lowest cost per dose of any modality, and the backbone of global immunization. Prices in procurement programs are frequently under a dollar, sometimes far under, which makes these among the most cost-effective health interventions ever measured. The commercial reality is that this is a volume business with negotiated pricing, dominated by a small number of large manufacturers plus significant capacity in India, and it does not support venture-scale returns. New entrants are rare because the incumbents are efficient, the products work, and the regulatory and facility barriers are high relative to the margin. The interesting opportunities are in replacing specific legacy processes, such as moving influenza off eggs onto cell culture or recombinant production, where speed and strain match are worth a price premium.
 
+## Videos
+
+- https://www.youtube.com/watch?v=G0-98gJsVR0 — WHO: The Two Polio Vaccines (World Health Organization (WHO), 2 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=VnrJZ2_YZvE — Episode 4: How to attenuate viruses (Nina M. Martin, PhD (Dr. Scicomm), 7 minutes, 1k+ views)
+- https://www.youtube.com/watch?v=Eq9JIq9HvMg — How we grow flu inside an egg (McMaster Alumni, 2 minutes, 100k+ views)
+
 ## Further reading
 
 [Vaccine Types (NIAID)](https://www.niaid.nih.gov/research/vaccine-types)

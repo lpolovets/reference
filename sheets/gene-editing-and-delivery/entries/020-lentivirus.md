@@ -31,6 +31,12 @@ The approved hematopoietic stem cell gene therapies Zynteglo, Lyfgenia, Skysona 
 ## Economic profile
 Vector manufacturing is the story. Producing clinical-grade lentivirus requires large-scale transient transfection of packaging cells, purification of a fragile enveloped particle, and extensive release testing, and the resulting cost and lead time have been a genuine industry constraint that has delayed clinical programs. Contract capacity expanded substantially through the 2020s and the shortage eased, but vector remains the largest single input cost in cell therapy manufacturing. That fact is what drives interest in transposons, targeted knock-in and non-viral methods, and it is the main economic lever anyone trying to reduce cell therapy cost is pulling on.
 
+## Videos
+
+- https://www.youtube.com/watch?v=kJSsZMdA8Sk — The Basics of the Recombinant Lentivirus System (Applied Biological Materials - abm, 7 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=LzgsgVO5WYI — The Basics of Lentivirus Production/Packaging: Protocol, Tips, and more! (Applied Biological Materials - abm, 6 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=LVsBMm0rX-c — Lentivirus Transduction Protocol: Infecting your target cells (Applied Biological Materials - abm, 10 minutes, 50k+ views)
+
 ## Further reading
 
 [Clinical use of lentiviral vectors (Leukemia)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6035154/) · [Lentiviral Vector Bioprocessing (Viruses)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7916122/)
