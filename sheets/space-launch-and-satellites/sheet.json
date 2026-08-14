@@ -4,7 +4,7 @@
   "shortTitle": "Space Launch and Satellites",
   "blurb": "Launch vehicles from small lift to super heavy, the orbits worth flying, spacecraft buses, communications and sensing payloads, ground segment, and in-space logistics — compared on mass, cost, orbit, and maturity.",
   "category": "Defense and Aerospace",
-  "question": "How does this get to orbit, and what does it cost once it is there?",
+  "question": "How does this get to orbit, and what spacecraft does it need?",
   "title": "Space Launch and Satellites: A Practical Reference",
   "lede": "Launch used to be the constraint. A kilogram to low Earth orbit now costs around $3,000 on a Falcon 9, several times less than a Western expendable rocket charged fifteen years ago, and the hard problems have moved to picking an orbit, building spacecraft at rate, and getting spectrum and ground time. This guide covers {{N_ENTRIES}} launch vehicles, orbits, spacecraft buses, payload types, ground systems, and in-space services, with the mass, cost, and maturity behind each choice.",
   "unit": ["option", "options"],

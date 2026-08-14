@@ -94,7 +94,11 @@ const RULES = [
   // list form silently missed millilitre, because \blitres?\b needs a boundary
   // that "milli" removes. Same reason catalogue is spelled out with its endings
   // — \bcatalogue\b does not match catalogued.
-  { id: 'british-spelling', re: /\b(?:aluminium|fibres?|(?:milli|centi|kilo|micro|nano|deci)?(?:met|lit)res?|centres?|centred|sulph(?:ur|ide|ate|uric)|defence|offence|licence|analyse|analysed|analysing|catalogu(?:e|es|ed|ing)|programme|grey|moulds?|moulding|moulded|draught|tyres?|ageing|judgement|modell(?:ing|ed)|labell(?:ing|ed)|travelling|fuelled|signalling|cancelled|manoeuvr(?:e|es|ing)|armour|vapour|colour|behaviour|favour|honour|organis(?:e|ed|ation)|optimis(?:e|ed)|utilise|minimise|maximise|recognise|specialise|standardis(?:e|ed)|stabilis(?:e|ed)|storey|kerb)\b/g,
+  // The same boundary problem hid every plural: "licences" shipped twice on two
+  // different sheets because \blicence\b cannot match a word that continues with
+  // an s. Every countable noun in this list now carries s?, which is why the
+  // verbs do not — "analyses" is also the correct US plural of analysis.
+  { id: 'british-spelling', re: /\b(?:aluminium|fibres?|(?:milli|centi|kilo|micro|nano|deci)?(?:met|lit)res?|centres?|centred|sulph(?:ur|ide|ate|uric)|defences?|offences?|licences?|analyse|analysed|analysing|catalogu(?:e|es|ed|ing)|programmes?|grey|moulds?|moulding|moulded|draughts?|tyres?|ageing|judgements?|modell(?:ing|ed)|labell(?:ing|ed)|travelling|fuelled|signalling|cancelled|manoeuvr(?:e|es|ing)|armours?|vapours?|colours?|behaviours?|favours?|honours?|organis(?:e|ed|ation)|optimis(?:e|ed)|utilise|minimise|maximise|recognise|specialise|standardis(?:e|ed)|stabilis(?:e|ed)|storeys?|kerbs?)\b/g,
     say: 'British spelling. Use the US form.' },
 ];
 
