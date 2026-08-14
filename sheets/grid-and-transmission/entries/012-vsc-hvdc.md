@@ -28,7 +28,7 @@ The German offshore grid connections at 320 and 525 kV, which made VSC the stand
 ## Videos
 
 - https://www.youtube.com/watch?v=sTe9EyN6bt8 — HVDC Showdown LCC vs VSC Converter Technology Explained (ABDELAZIM SAID, 7 minutes, under 1k views)
-- https://www.youtube.com/watch?v=96MRJiXG_9I — VSC-HVDC for Beginners | Modern Grid Technology Explained (Powertech simplified , 3 minutes, under 1k views)
+- https://www.youtube.com/watch?v=96MRJiXG_9I — VSC-HVDC for Beginners | Modern Grid Technology Explained (Powertech simplified, 3 minutes, under 1k views)
 - https://www.youtube.com/watch?v=eQE6nt3BaEc — Mitsubishi Electric HVDC Diamond Promotion Video (Mitsubishi Electric Power Products Inc., 4 minutes, 1k+ views)
 
 ## Further reading

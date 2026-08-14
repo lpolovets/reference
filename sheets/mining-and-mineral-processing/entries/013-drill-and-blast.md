@@ -29,7 +29,7 @@ Mine-to-mill programs at large copper operations that raised powder factor and c
 
 - https://www.youtube.com/watch?v=6nyoLCuL0rQ — Drilling and Blasting Introduction (BenHiggins28, 4 minutes, 100k+ views)
 - https://www.youtube.com/watch?v=G2Hs51QDszc — Underground Drilling and Blasting Training Video - ACG (Australian Centre for Geomechanics, 3 minutes, 1m+ views)
-- https://www.youtube.com/watch?v=vnrbiyuJX_k — 💥 How to do a Blast 💥 Step-by-Step (Holtmeier Construction, Inc. , 5 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=vnrbiyuJX_k — 💥 How to do a Blast 💥 Step-by-Step (Holtmeier Construction, Inc., 5 minutes, 10k+ views)
 
 ## Further reading
 

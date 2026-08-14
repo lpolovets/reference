@@ -33,7 +33,7 @@ The metal itself is close to free by engineering-material standards: scrap and p
 
 ## Videos
 
-- https://www.youtube.com/watch?v=GPuX9WncHfE — Types Of Cast Iron And Their Differences | An Overview. (James Sword Engineering , 8 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=GPuX9WncHfE — Types Of Cast Iron And Their Differences | An Overview. (James Sword Engineering, 8 minutes, 50k+ views)
 - https://www.youtube.com/watch?v=zn5QMt-byyY — How to Identify Cast Iron, Ductile or Grey Iron (Fireball Tool, 7 minutes, 100k+ views)
 - https://www.youtube.com/watch?v=nk7LUcy3mlg — What is Ductile Iron? || THORS Ductile Iron Fundamentals Course Preview (THORS eLearning Solutions, 4 minutes, 10k+ views)
 

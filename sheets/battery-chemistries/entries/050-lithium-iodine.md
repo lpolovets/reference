@@ -29,8 +29,8 @@ Unit volumes are small, margins are extreme, and qualification barriers are very
 
 ## Videos
 
-- https://www.youtube.com/watch?v=NBNUE-aNqjE — Chemistry Behind the Pacemaker Battery: A Beginner's Guide (IBHRE-CCDS, CEPS & RCEP) (Medfoxes , 6 minutes, under 1k views)
-- https://www.youtube.com/watch?v=pFhwZrg-a0I — Pacemaker Battery Technology (Medfoxes , 14 minutes, under 1k views)
+- https://www.youtube.com/watch?v=NBNUE-aNqjE — Chemistry Behind the Pacemaker Battery: A Beginner's Guide (IBHRE-CCDS, CEPS & RCEP) (Medfoxes, 6 minutes, under 1k views)
+- https://www.youtube.com/watch?v=pFhwZrg-a0I — Pacemaker Battery Technology (Medfoxes, 14 minutes, under 1k views)
 
 ## Further reading
 

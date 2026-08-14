@@ -33,8 +33,8 @@ Software is a small fraction of system cost and a large fraction of system value
 
 ## Videos
 
-- https://www.youtube.com/watch?v=KX0ji1sAXl8 — Anduril Lattice Counter Drone System (Anduril Industries , 2 minutes, 500k+ views)
-- https://www.youtube.com/watch?v=RpFFScTovII — Lattice for Mission Autonomy: An Unfair Advantage for Unrivaled Deterrence (Anduril Industries , 8 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=KX0ji1sAXl8 — Anduril Lattice Counter Drone System (Anduril Industries, 2 minutes, 500k+ views)
+- https://www.youtube.com/watch?v=RpFFScTovII — Lattice for Mission Autonomy: An Unfair Advantage for Unrivaled Deterrence (Anduril Industries, 8 minutes, 100k+ views)
 - https://www.youtube.com/watch?v=5Gmzxjibu6M — AiON: A revolutionary new Counter-UAS Command and Control System (Northrop Grumman, 1 minute, 5k+ views)
 
 ## Further reading

@@ -34,7 +34,7 @@ This is one of the fastest-growing segments in air defense, funded by the recogn
 ## Videos
 
 - https://www.youtube.com/watch?v=nPMqgVFNMTQ — The Coyote: This $100K drone is outgunning $2M missiles (Task & Purpose, 16 minutes, 100k+ views)
-- https://www.youtube.com/watch?v=al9ITeP4fUA — Anduril Unveils Roadrunner & Roadrunner-M (Anduril Industries , 2 minutes, 1m+ views)
+- https://www.youtube.com/watch?v=al9ITeP4fUA — Anduril Unveils Roadrunner & Roadrunner-M (Anduril Industries, 2 minutes, 1m+ views)
 - https://www.youtube.com/watch?v=fwshoSzWciU — How Reusable Missile Works | Anduril Roadrunner (AiTelly, 5 minutes, 100k+ views)
 
 ## Further reading

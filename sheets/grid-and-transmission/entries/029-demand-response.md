@@ -28,7 +28,7 @@ PJM's emergency and economic demand response programs, the largest in North Amer
 ## Videos
 
 - https://www.youtube.com/watch?v=4jTzExD-xQM — The Basics of Demand Response (Enel X, 3 minutes, 10k+ views)
-- https://www.youtube.com/watch?v=6XpuBibev4A — What is Demand Response? | Sympower (Sympower , 3 minutes, 5k+ views)
+- https://www.youtube.com/watch?v=6XpuBibev4A — What is Demand Response? | Sympower (Sympower, 3 minutes, 5k+ views)
 - https://www.youtube.com/watch?v=aoqfqD3iyos — What is Demand Response? (Rob Freeman | Insuring The Built Environment, 5 minutes, 1k+ views)
 
 ## Further reading

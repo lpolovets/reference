@@ -34,7 +34,7 @@ Almost all of the cost is labor, sales, and paperwork, so it does not fall when 
 ## Videos
 
 - https://www.youtube.com/watch?v=62UmQoKUBR4 — How Does Net Metering Work? (SolarReviews, 4 minutes, 10k+ views)
-- https://www.youtube.com/watch?v=-qNRMwWwvt8 — Why SOLAR Panels Cost 3X MORE in USA vs Europe - The Hidden Truth About Solar Pricing 2025 (Solartime with Martyna , 11 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=-qNRMwWwvt8 — Why SOLAR Panels Cost 3X MORE in USA vs Europe - The Hidden Truth About Solar Pricing 2025 (Solartime with Martyna, 11 minutes, 50k+ views)
 
 ## Further reading
 

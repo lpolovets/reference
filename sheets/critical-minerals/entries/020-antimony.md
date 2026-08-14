@@ -33,7 +33,7 @@ Antimony is a price-reporting-agency market with assessments in Rotterdam and Ch
 
 ## Videos
 
-- https://www.youtube.com/watch?v=0sZdbTJUYRw — Antimony metal Extraction Element Series: 12 (Wheeler Scientific , 8 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=0sZdbTJUYRw — Antimony metal Extraction Element Series: 12 (Wheeler Scientific, 8 minutes, 10k+ views)
 - https://www.youtube.com/watch?v=tm37Ybya1ts — Antimony: Essential Uses and Impact on Modern Industries (Stanford Advanced Materials, 2 minutes, 10k+ views)
 
 ## Further reading

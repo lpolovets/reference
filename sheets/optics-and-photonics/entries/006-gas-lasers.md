@@ -29,7 +29,7 @@ CO2 laser cutters across sign making and packaging; ArF excimer sources inside e
 
 - https://www.youtube.com/watch?v=dz7A_pGVqJQ — What is Co2 Laser? How does it work? | Physics | Explained with animation (VROOK Learning, 8 minutes, 100k+ views)
 - https://www.youtube.com/watch?v=mDJaXkhO5pw — The principle of CO2 lasers (Luxinar, 1 minute, 10k+ views)
-- https://www.youtube.com/watch?v=MkeiZ2tNv7E — How a CO2 Laser Works *in up to 22 available languages. (Inventors Workshop , 16 minutes, 5k+ views)
+- https://www.youtube.com/watch?v=MkeiZ2tNv7E — How a CO2 Laser Works *in up to 22 available languages. (Inventors Workshop, 16 minutes, 5k+ views)
 
 ## Further reading
 

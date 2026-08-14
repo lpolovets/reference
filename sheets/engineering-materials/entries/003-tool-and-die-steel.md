@@ -33,7 +33,7 @@ Tool steel is a small-tonnage, high-value corner of the steel industry, made by 
 
 ## Videos
 
-- https://www.youtube.com/watch?v=TkzkdvEMC7I — 7 TYPES OF TOOL STEEL AND THEIR APPLICATIONS (James Sword Engineering , 9 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=TkzkdvEMC7I — 7 TYPES OF TOOL STEEL AND THEIR APPLICATIONS (James Sword Engineering, 9 minutes, 10k+ views)
 - https://www.youtube.com/watch?v=-fZQ9ElnymI — The Four Types of Steel (Part 5: Tool Steel) | Metal Supermarkets (Metal Supermarkets, 4 minutes, 100k+ views)
 - https://www.youtube.com/watch?v=a3TWILPPeYM — H13 vs P20 Tool Steel Comparison | Die & Mould Material Selection Explained (CNC CAD CAM ACADEMY of SIGMA YOUTH ENGINEERS, 4 minutes, 1k+ views)
 
