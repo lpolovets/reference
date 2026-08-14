@@ -5,7 +5,7 @@ part: 3
 group: Direct air capture
 feed: [air]
 cost: h500
-perm: mil
+permanence: mil
 maturity: foak
 scale: kt10
 ---

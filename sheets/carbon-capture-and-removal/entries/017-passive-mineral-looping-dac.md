@@ -5,7 +5,7 @@ part: 3
 group: Direct air capture
 feed: [air]
 cost: m500
-perm: mil
+permanence: mil
 maturity: pilot
 scale: kt10
 ---

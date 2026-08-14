@@ -5,7 +5,7 @@ part: 4
 group: Mineral & ocean removal
 feed: [any]
 cost: m200
-perm: mil
+permanence: mil
 maturity: comm
 scale: kt100
 ---

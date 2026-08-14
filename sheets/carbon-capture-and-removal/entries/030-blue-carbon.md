@@ -5,7 +5,7 @@ part: 6
 group: Land sinks
 feed: [land, sea]
 cost: m100
-perm: cent
+permanence: cent
 maturity: comm
 scale: mt1
 ---

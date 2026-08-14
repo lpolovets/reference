@@ -5,7 +5,7 @@ part: 5
 group: Biomass removal
 feed: [bio, flue]
 cost: m200
-perm: mil
+permanence: mil
 maturity: foak
 scale: mt1
 ---

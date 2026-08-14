@@ -222,6 +222,26 @@ function loadSheet(dir) {
     for (const g of groups)
       if (!sheet.groupBlurbs[g]) throw new Error(sheet.slug + ': groupBlurbs missing group "' + g + '"');
   }
+  // A facet that no entry tags ships a filter row whose chips all read 0 and
+  // which can never narrow anything. Individual empty options are
+  // fine and there are 15 across the sheets — a band nothing has reached yet is
+  // itself information. A facet empty all the way across is not: either the
+  // entries never got tagged, or their frontmatter key is not the one sheet.json
+  // reads. Nothing in the output says so, which is how carbon-capture published
+  // a Permanence row for 36 entries that wrote "perm:" against a facet keyed
+  // "permanence". Only checked once a sheet's groups are all populated, since
+  // mid-write a facet used by one class legitimately has nothing in it yet.
+  if (!incomplete && !partial.length) {
+    for (const facet of sheet.facets) {
+      const tagged = entries.some(x => {
+        const v = x.f[facet.id];
+        return Array.isArray(v) ? v.length > 0 : v !== null;
+      });
+      if (!tagged) throw new Error(sheet.slug + ': facet "' + facet.label + '" (id ' + facet.id +
+        ') matches none of the ' + entries.length + ' entries, so every chip reads 0. Check that ' +
+        'entry frontmatter uses "' + facet.key + '", or drop the facet from sheet.json.');
+    }
+  }
   if (sheet.videosAfter) {
     const labels = (sheet.extraSections || []).map(e => e[1]);
     if (!labels.includes(sheet.videosAfter))

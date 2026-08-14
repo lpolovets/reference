@@ -5,7 +5,7 @@ part: 7
 group: Utilization
 feed: [any]
 cost: h500
-perm: rev
+permanence: rev
 maturity: foak
 scale: mt1
 ---

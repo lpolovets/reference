@@ -5,7 +5,7 @@ part: 7
 group: Utilization
 feed: [any]
 cost: m100
-perm: mil
+permanence: mil
 maturity: comm
 scale: mt1
 ---

@@ -5,7 +5,7 @@ part: 5
 group: Biomass removal
 feed: [bio]
 cost: m100
-perm: cent
+permanence: cent
 maturity: pilot
 scale: kt100
 ---

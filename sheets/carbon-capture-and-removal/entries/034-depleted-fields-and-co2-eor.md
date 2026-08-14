@@ -5,7 +5,7 @@ part: 7
 group: Geologic storage
 feed: [any]
 cost: u50
-perm: mil
+permanence: mil
 maturity: comm
 scale: mt10p
 ---

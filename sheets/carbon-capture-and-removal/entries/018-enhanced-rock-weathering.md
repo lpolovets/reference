@@ -5,7 +5,7 @@ part: 4
 group: Mineral & ocean removal
 feed: [air, land]
 cost: m200
-perm: mil
+permanence: mil
 maturity: pilot
 scale: mt1
 ---

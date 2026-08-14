@@ -5,7 +5,7 @@ part: 6
 group: Land sinks
 feed: [land, air]
 cost: u50
-perm: rev
+permanence: rev
 maturity: comm
 scale: mt10p
 ---

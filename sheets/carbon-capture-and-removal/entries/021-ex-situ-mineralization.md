@@ -5,7 +5,7 @@ part: 4
 group: Mineral & ocean removal
 feed: [air, flue]
 cost: m200
-perm: mil
+permanence: mil
 maturity: pilot
 scale: kt100
 ---
