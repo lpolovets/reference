@@ -25,6 +25,9 @@ Pulses from about 10 fs to tens of ps · peak powers of megawatts to gigawatts a
 ## Examples
 Femtosecond lasers cutting corneal flaps in LASIK; stent and injector nozzle machining; multiphoton microscopy in neuroscience; the chirped pulse amplification technique that won the 2018 Nobel Prize in Physics and made high-energy ultrafast systems possible.
 
+## Economic profile
+The premium buys pulse duration, and it has to come back either as an outcome no other process delivers or as scrap the customer stops making. Throughput is the weak point: average power is modest, so removal rates are low, and at $50,000–500,000 a system the cost per part only works out when the part is small, valuable, or currently failing at another process. That is why the durable markets are medical devices, where a stent or a corneal flap is worth a great deal per square millimeter, rather than general machining. The number to watch is average power, since throughput is pulses per second and every increment of average power lowers cost per part and brings a wider class of parts into range. If you are evaluating a purchase, work out parts per year first and divide the system and service cost by it, because a comparison on pulse duration alone says nothing about whether the machine is worth buying.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=eqc2u0MuPe8 — The Incredible Femtosecond Laser (Asianometry, 20 minutes, 100k+ views)
@@ -33,4 +36,4 @@ Femtosecond lasers cutting corneal flaps in LASIK; stent and injector nozzle mac
 
 ## Further reading
 
-[Mode Locking (RP Photonics Encyclopedia)](https://www.rp-photonics.com/mode_locking.html)
+[Mode Locking (RP Photonics Encyclopedia)](https://www.rp-photonics.com/mode_locking.html) · [Scientific background: Groundbreaking inventions in laser physics (Nobel Prize)](https://www.nobelprize.org/prizes/physics/2018/advanced-information/)

@@ -25,6 +25,9 @@ Recovery typically 50–80% against 90%+ for milling · leach cycles of 60 days 
 ## Examples
 Nevada's low-grade oxide gold heaps, which built the modern industry; Chilean oxide copper heaps feeding solvent extraction and electrowinning; the Eagle Gold heap leach in Yukon and its 2024 failure, which sharpened regulatory attention on heap stability; agglomeration with cement to keep clay-rich ores permeable.
 
+## Economic profile
+A heap costs a fraction of a mill per ton treated and recovers 50–80% against 90%+, so the question for an operator is whether the metal given up is worth more than the cost saved. Grade decides it. Thirty points of recovery on 0.3 g/t ore is 0.09 g/t of gold, which is not much metal to give up, while the same thirty points on high-grade ore is a lot, and that is why many operations run both routes and send only the low-grade half of the orebody to the pad. Time is the second cost, since a leach cycle of 60 days to several years holds metal as working capital, so a high cost of capital counts against a heap in a way it does not against a mill. The liability is a pad and a pond rather than a dam, and it does not end when leaching does, because a lined heap with cyanide in it has to be rinsed, drained, and monitored afterward. The 2024 Eagle Gold failure made stack stability a permitting question in its own right, so expect more engineering and more bonding on new heaps than the last generation carried.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=X7mIXsr3LGc — How Gold is Extracted from Ore | Heap Leaching Explained Step-by-Step (CommodityGuy, 6 minutes, 10k+ views)
@@ -33,4 +36,4 @@ Nevada's low-grade oxide gold heaps, which built the modern industry; Chilean ox
 
 ## Further reading
 
-[Heap Leaching (911 Metallurgist)](https://www.911metallurgist.com/blog/heap-leaching/)
+[Heap Leaching (911 Metallurgist)](https://www.911metallurgist.com/blog/heap-leaching/) · [Eagle Gold Mine June 2024 Heap Leach Failure (Independent Review Board)](https://www.pwc.com/ca/en/car/victoria-gold/assets/victoria-gold-117_020725.pdf)

@@ -25,6 +25,9 @@ Roughly 1.5–2.5 tons of alkaline mineral per ton of CO2, depending on the mate
 ## Examples
 Planetary Technologies dosing magnesium hydroxide through a power station outfall in Nova Scotia; Vesta's coastal olivine sand projects; Ebb Carbon's electrochemical acid-base splitting on seawater; the Carbon to Sea Initiative and Woods Hole's field program, which fund most of the independent measurement work.
 
+## Economic profile
+Materials are the cheap part. At 1.5–2.5 tons of alkaline mineral per ton of CO2, with quarry rock or industrial residue as the feedstock, the input bill is small next to a $50–300/t estimate. What costs money is everything around the dose: a monitoring program able to defend uptake that is modeled over weeks across a moving water mass, and permission under the London Protocol and similar rules, which gets negotiated per campaign rather than filed. The cheapest version is the one bolted onto an outfall that already moves seawater, since it inherits the pumping and often the site permission. Until buyers settle on how to credit a modeled ton, the price reflects what a research funder will pay more than what the rock costs.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=5obQ6aGSyHY — Ocean Alkalinity Enhancement (OAE) - a ClimateWorks production (Ocean carbon dioxide removal, 4 minutes, 10k+ views)

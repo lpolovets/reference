@@ -25,6 +25,9 @@ Raman scattering yields roughly one shifted photon in 10^7 · common Raman excit
 ## Examples
 Handheld Raman analyzers used by first responders to identify unknown substances through a bag; pharmaceutical raw material verification at goods receipt; Fourier-transform infrared as the standard organic identification tool in every analytical lab; Raman microscopy mapping composition across a sample.
 
+## Economic profile
+Cost follows the weakness of the signal. Raman returns roughly one shifted photon in 10^7, so the instrument has to combine a wavelength-stabilized laser, filters that reject the laser line by many orders of magnitude, and a low-noise detector, and every one of those is a specialty part bought in small volume. Infrared has no such problem: a Fourier-transform instrument is a Michelson interferometer with a moving mirror, the design has been competed on for decades, and that is why FTIR sits in every analytical lab while Raman does not. On a handheld Raman unit at $20,000–50,000, the hardware is only part of what the buyer is paying for. A first responder is buying an identification, which means the spectral library, the matching software, and the validation behind them, and those take years to build rather than a bill of materials. If you are evaluating a Raman company, ask what share of the price is the box and what share is the library, because the box gets cheaper and the library does not get copied.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=57hRNhefXPg — Raman Basics | Principles of Raman Spectroscopy | 7 Minute Tutorial (Bruker, 7 minutes, 100k+ views)
@@ -33,4 +36,4 @@ Handheld Raman analyzers used by first responders to identify unknown substances
 
 ## Further reading
 
-[Raman Spectroscopy (RP Photonics Encyclopedia)](https://www.rp-photonics.com/raman_spectroscopy.html)
+[Raman Spectroscopy (RP Photonics Encyclopedia)](https://www.rp-photonics.com/raman_spectroscopy.html) · [Vibrational Spectroscopy (Chemistry LibreTexts)](https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_%28Physical_and_Theoretical_Chemistry%29/Spectroscopy/Vibrational_Spectroscopy)

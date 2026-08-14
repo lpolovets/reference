@@ -25,6 +25,9 @@ Medium density adjustable between roughly 1.3 and 3.5 using magnetite or ferrosi
 ## Examples
 Coal preparation plants worldwide, the largest application by tonnage; diamond recovery, where dense medium cyclones concentrate before final sorting; iron ore beneficiation; base metal projects using dense medium pre-concentration to raise mill head grade.
 
+## Economic profile
+Two different arguments get made for dense medium separation, and they are worth keeping apart. In coal and diamonds it is not a cost saving at all, since the product has to meet an ash or a size specification before anyone will buy it, so the plant is part of the cost of having a salable product. In base metals it is a waste-rejection argument, and the value of a rejected ton is what that ton no longer consumes: 10–25 kWh of grinding power, water, reagents, and a permanent slot in the tailings facility. Against that sit ferrosilicon losses, which are the main operating cost, plus the medium recovery circuit and the capital for the plant itself. What decides it is liberation at the coarse size, because a composite particle carries an intermediate density and reports to the wrong product no matter how well the circuit is run, so run sink-float testwork on real core before modeling any head grade uplift.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=WKbYZQrz6J4 — Dense Media Separation Testwork | Sepro Labs (Sepro Systems, 3 minutes, 10k+ views)
@@ -33,4 +36,4 @@ Coal preparation plants worldwide, the largest application by tonnage; diamond r
 
 ## Further reading
 
-[Mineral Processing Engineering (911 Metallurgist)](https://www.911metallurgist.com/blog/)
+[Mineral Processing Engineering (911 Metallurgist)](https://www.911metallurgist.com/blog/) · [AMIT 145: Lesson 3 Dense Medium Separation (University of Alaska Fairbanks)](https://millops.community.uaf.edu/amit-145/amit-145-lesson-3/)

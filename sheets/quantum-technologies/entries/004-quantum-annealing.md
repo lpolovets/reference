@@ -25,6 +25,9 @@ Thousands of flux qubits on a chip, with limited fixed connectivity · operates 
 ## Examples
 D-Wave's Advantage and Advantage2 systems; logistics and scheduling pilots at Volkswagen, Denso, and several utilities; the long series of academic papers testing and often deflating specific speedup claims.
 
+## Economic profile
+Annealing is the only platform in this class with paying customers and a price, and it has had both since 2011, which makes it the honest benchmark for what quantum computing revenue currently looks like. The cost base is the same as any superconducting machine: a dilution refrigerator at several hundred thousand dollars to over a million, plus control electronics, plus the chip. Most users reach it over the cloud rather than installing a system, so a trial costs very little, and that low trial cost is the main reason to run one. The difficulty is on the value side. Embedding a densely connected problem consumes many physical qubits per logical variable, so the usable problem size sits far below the qubit count, and the classical baseline keeps improving, repeatedly fast enough to erase a reported advantage. If a pilot does not beat simulated annealing and a modern solver on the same instances, what you are really pricing against is a classical cluster, and that price keeps falling.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=zvfkXjzzYOo — What is Quantum Annealing? (D-Wave, 6 minutes, 100k+ views)

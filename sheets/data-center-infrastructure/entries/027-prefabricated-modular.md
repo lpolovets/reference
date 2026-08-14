@@ -25,6 +25,9 @@ Deployment in roughly 6–12 months against 18–24 for conventional constructio
 ## Examples
 Vertiv and Schneider Electric prefabricated power and cooling modules; Aligned's modular builds in Ohio; the containerized data centers that Microsoft and Google used a decade ago and that returned in a different form for AI capacity; edge modules deployed at cell tower sites.
 
+## Economic profile
+A buyer pays more per megawatt than a well-executed stick-built project and gets capacity in 6–12 months instead of 18–24. Whether that premium is worth it comes down to what a year of earlier revenue is worth: where tenants are waiting on power it usually clears the premium comfortably, and where the capacity would sit idle it does not. Local labor moves the comparison as much as the vendor's price does, because where electrical trades are scarce the conventional schedule runs at the long end of 18–24 months or past it, and the saving is larger than the headline numbers suggest. The cheapest way to capture most of it is prefabricated power and cooling skids inside a conventional building, which keeps the schedule benefit without committing the whole building to one vendor's mechanical and electrical ecosystem. The item to price carefully is the design freeze at order, since changes after it are made at factory change-order rates and module dimensions are fixed at 12–14 m by road transport. If the program is large enough to amortize a bespoke design and cost per MW is the metric being optimized, stick-build.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=kib1XLGmsLk — Prefabricated Modular Data Center Tour | Vertiv™ SmartMod™ Max (Vertiv, 3 minutes, 5k+ views)
@@ -33,4 +36,4 @@ Vertiv and Schneider Electric prefabricated power and cooling modules; Aligned's
 
 ## Further reading
 
-[Uptime Institute Reports (Uptime Institute)](https://uptimeinstitute.com/resources/research-and-reports)
+[Uptime Institute Reports (Uptime Institute)](https://uptimeinstitute.com/resources/research-and-reports) · [Types of Prefabricated Modular Data Centers, White Paper 165 (Schneider Electric)](https://download.schneider-electric.com/files?p_Doc_Ref=SPD_WTOL-97GLP9_EN)

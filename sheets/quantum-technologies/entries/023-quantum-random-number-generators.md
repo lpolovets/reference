@@ -25,6 +25,9 @@ Entropy from an inherently indeterminate quantum measurement rather than from a 
 ## Examples
 ID Quantique's chip-scale generators, shipped in Samsung phones; Quantinuum and Quside commercial units; QRNG modules inside hardware security modules used by banks; NIST's Randomness Beacon, which publishes public random values.
 
+## Economic profile
+The physics is cheap. A vacuum-fluctuation generator needs a laser, a beamsplitter and a fast photodiode, which is a chip-scale bill of materials, and the price has fallen far enough that the part ships inside consumer phones. What a buyer actually pays for is the assurance: certification under a scheme such as NIST SP 800-90B, continuous health testing and a documented extractor, since those are what separate a product from the word quantum on a label. That also bounds the market, because the alternative is the operating system's entropy pool, which is free and adequate for most uses, so demand concentrates where an auditor or a regulator requires a hardware entropy source: hardware security modules, banking, gaming and lottery systems. Selling an uncertified module means competing on price with something that costs nothing, which is not a business. For an investor the rate in gigabits per second is the least interesting spec; what matters is certification plus a volume design win at a chip or handset customer, because those are the parts a competitor cannot copy in a quarter.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=KXDxFCRgPoQ — Quantum Random Number Generation - Do we really need it? (Cryptosense, 9 minutes, 5k+ views)
@@ -33,4 +36,4 @@ ID Quantique's chip-scale generators, shipped in Samsung phones; Quantinuum and 
 
 ## Further reading
 
-[Quantum information science (NIST)](https://www.nist.gov/quantum-information-science)
+[Quantum information science (NIST)](https://www.nist.gov/quantum-information-science) · [SP 800-90B, Recommendation for the Entropy Sources Used for Random Bit Generation (NIST Computer Security Resource Center)](https://csrc.nist.gov/pubs/sp/800/90/b/final)

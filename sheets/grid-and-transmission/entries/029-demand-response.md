@@ -25,6 +25,9 @@ About 33 GW enrolled in US wholesale markets, roughly 6.5% of combined RTO and I
 ## Examples
 PJM's emergency and economic demand response programs, the largest in North America; ERCOT's load resources providing responsive reserve; UK Demand Flexibility Service payments to households; data center and crypto load curtailment agreements in Texas, and the flexible-load interconnection proposals that grew out of them.
 
+## Economic profile
+Cost per kW-year is far below new peaking capacity, and the reason is structural: paying a customer to stop for 10 to 20 events a year buys only the hours the system is short, while a peaker has to be built and kept available for all 8,760. That is also the limit. Push the program past a few hundred hours or into a multi-day event and participation falls off, so the cheap capacity turns out not to be there when the event is long. The real expense is measurement, since payment rests on a counterfactual baseline of what the customer would have used, and every program spends money on baseline methodology, auditing, and penalties. A program that skips that pays for reductions that did not happen. The larger prize now is interconnection: a data center that accepts curtailment during a handful of tight hours can connect years earlier than one demanding firm service, and for a load that size connecting early is worth far more than the demand response payment.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=4jTzExD-xQM — The Basics of Demand Response (Enel X, 3 minutes, 10k+ views)
@@ -33,4 +36,4 @@ PJM's emergency and economic demand response programs, the largest in North Amer
 
 ## Further reading
 
-[2024 Assessment of Demand Response and Advanced Metering (FERC)](https://www.ferc.gov/sites/default/files/2024-11/Annual%20Assessment%20of%20Demand%20Response_1119_1400.pdf)
+[2024 Assessment of Demand Response and Advanced Metering (FERC)](https://www.ferc.gov/sites/default/files/2024-11/Annual%20Assessment%20of%20Demand%20Response_1119_1400.pdf) · [Demand Response (PJM)](https://www.pjm.com/markets-and-operations/demand-response)

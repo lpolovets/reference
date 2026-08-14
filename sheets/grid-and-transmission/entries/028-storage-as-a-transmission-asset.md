@@ -25,6 +25,9 @@ Deployment in 12–24 months against 7–12 years for a new line · discharge re
 ## Examples
 Australia's Waratah Super Battery in New South Wales, explicitly procured to raise transfer limits on existing lines; the Escondido and Pomona batteries installed after the Aliso Canyon gas leak; ISO New England's transmission-only storage framework; several MISO and CAISO proceedings on cost recovery.
 
+## Economic profile
+The comparison is easy and the payment route is not. Twelve to twenty-four months of battery against seven to twelve years of line is a large saving in carrying cost and in the congestion paid for in the meantime, and no new corridor is needed. What decides the project is how the regulator lets the owner recover the cost. Rate-based as transmission, the owner recovers like any other wire owner but is usually barred from selling energy, which strands most of what the battery can do; bid into the market instead, the revenue is there but a planning study cannot count on the asset being available. Dual participation would fix that and is unresolved in most US markets, though ISO New England won FERC approval for a transmission-only storage asset in 2023. Check the regulator's position before writing one into a plan, because the battery price is rarely what makes or breaks the case, and none of this helps a line that is congested around the clock.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=yxK_lrH2Uds — How does the Waratah Super Battery Project work? (EnergyCo, 3 minutes, 1k+ views)

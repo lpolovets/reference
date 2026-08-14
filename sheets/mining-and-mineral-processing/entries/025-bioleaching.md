@@ -25,6 +25,9 @@ Runs near ambient temperature and pressure, against 200 °C and 30 bar for an au
 ## Examples
 BIOX tank plants treating refractory gold concentrate in Africa, Australia, and Asia; Chilean copper heap bioleaching, which produces a meaningful share of the country's cathode; Finnish Talvivaara, whose bioheap and water problems became a cautionary case; long-running research into chalcopyrite bioleaching.
 
+## Economic profile
+Bioleaching converts a capital problem into a time problem, which is a good trade only when capital is the real constraint. It costs a small fraction of an autoclave to build and very little energy to run, but heap cycles of months to years and a ramp-up measured in seasons push revenue out, and that shows up directly in a discounted cash flow. On refractory gold concentrate the split is usually deposit size: a large long-lived orebody can amortize an autoclave, while a smaller one is better served by a tank plant that oxidizes in days at much lower capital. For low-grade secondary copper sulfide there is often no competing process, because the alternative is leaving the material in the ground, which is why Chilean heap bioleaching produces a meaningful share of that country's cathode. Two things should make an investor cautious. Any chalcopyrite bioleach claim needs site-specific testwork, since decades of research have not produced a general commercial answer, and any bioheap plan needs a water balance that still works when the heap misbehaves, which is roughly what went wrong at Talvivaara.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=aSb5PNwrRx0 — Bioleaching: let's see how it works (brgmTV, 3 minutes, 50k+ views)
@@ -33,4 +36,4 @@ BIOX tank plants treating refractory gold concentrate in Africa, Australia, and 
 
 ## Further reading
 
-[Copper Statistics and Information (USGS)](https://www.usgs.gov/centers/national-minerals-information-center/copper-statistics-and-information)
+[Copper Statistics and Information (USGS)](https://www.usgs.gov/centers/national-minerals-information-center/copper-statistics-and-information) · [Progress in bioleaching: part B, applications of microbial processes by the minerals industries (Applied Microbiology and Biotechnology)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9424069/)

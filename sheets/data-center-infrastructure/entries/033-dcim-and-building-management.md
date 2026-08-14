@@ -24,6 +24,9 @@ Per-circuit power and per-rack inlet temperature are the two measurements that d
 ## Examples
 Nlyte, Sunbird, and Schneider EcoStruxure IT in enterprise and colocation; hyperscale operators running their own internal tooling rather than commercial DCIM; colocation providers exposing per-cabinet power data to tenants as a product feature.
 
+## Economic profile
+The payback is deferred capital rather than energy. A facility with 10–30% of its power or cooling stranded in the wrong row has already paid for capacity it cannot sell, and recovering part of that is worth far more than the software costs, because the alternative is building megawatts that already exist. That comparison is why DCIM keeps getting bought and why it so often disappoints: the license is the cheap part, and the expensive part is the process discipline that keeps asset records true, which never appears on the quote. A good rule of thumb is to budget more for automated data collection than for the software itself, since manual entry is where accuracy dies and an inaccurate system is worse than none because people act on it. Start with per-circuit power and per-rack inlet temperature, which is where nearly all the capacity decisions come from, and expand only once those are trustworthy.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=DlA2p5L_osM — Data Center Infrastructure Management (DCIM) Explained (Anixter, 3 minutes, 50k+ views)
@@ -32,4 +35,4 @@ Nlyte, Sunbird, and Schneider EcoStruxure IT in enterprise and colocation; hyper
 
 ## Further reading
 
-[Uptime Institute Reports (Uptime Institute)](https://uptimeinstitute.com/resources/research-and-reports)
+[Uptime Institute Reports (Uptime Institute)](https://uptimeinstitute.com/resources/research-and-reports) · [Avoiding Common Pitfalls of Evaluating and Implementing DCIM Solutions, White Paper 170 (Schneider Electric)](https://download.schneider-electric.com/files?p_Doc_Ref=SPD_PDON-8PGK8J_EN)

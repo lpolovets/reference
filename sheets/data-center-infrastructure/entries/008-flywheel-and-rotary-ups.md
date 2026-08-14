@@ -24,6 +24,9 @@ Ride-through 15–30 seconds at full load, against 5–15 minutes for batteries 
 ## Examples
 Active Power and Vycon flywheel systems in North American facilities; Hitec and Piller diesel rotary UPS installations across European data centers; Cisco's Texas facility, an early large rotary deployment; flywheels used as a bridge alongside batteries in hybrid designs.
 
+## Economic profile
+The case is made over 20 years, not at purchase. A rotor lasts about 20 years with no scheduled replacement, which spans four to six lead-acid replacement cycles at 3–5 years each, and it avoids the battery room with its own cooling and suppression. Floor space in a critical facility is expensive, so the small footprint is part of the return. Against that, standby loss of roughly 1–2% of rating runs continuously, so a comparison that counts only avoided battery spend overstates the saving. Two things narrow the market: fewer vendors serve it than serve static UPS, which shows up in price and in support terms, and the operator gives up the option of bidding stored energy into demand response, which a lithium plant of the same rating allows. A hot site with reliable, well-tested generators is where the numbers come out best, and anywhere else a static UPS with lithium is usually the better buy.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=JckymSbfVYk — Data Center World: Flywheel UPS Demonstration (Data Center Knowledge, 2 minutes, 50k+ views)
@@ -32,4 +35,4 @@ Active Power and Vycon flywheel systems in North American facilities; Hitec and 
 
 ## Further reading
 
-[Uptime Institute Reports (Uptime Institute)](https://uptimeinstitute.com/resources/research-and-reports)
+[Uptime Institute Reports (Uptime Institute)](https://uptimeinstitute.com/resources/research-and-reports) · [Comparison of Static and Rotary UPS, White Paper 92 (Schneider Electric)](https://download.schneider-electric.com/files?p_File_Name=DBOY-78KRZE_R2_EN.pdf&p_Doc_Ref=SPD_DBOY-78KRZE_EN)

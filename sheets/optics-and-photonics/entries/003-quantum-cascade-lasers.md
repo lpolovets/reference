@@ -25,6 +25,9 @@ Emits roughly 3–12 um in the mid-infrared and into the terahertz · one electr
 ## Examples
 Trace gas analyzers for methane, ammonia, and nitrous oxide; infrared countermeasure systems on aircraft; breath analysis and standoff explosives detection research; Alpes Lasers, Block Engineering, and Leonardo DRS as long-standing suppliers.
 
+## Economic profile
+The price sits in the epitaxy and in the volumes rather than in the materials. A device is a stack of 25 to 75 precisely grown stages, the yield on that is what it is, and nobody makes them by the million, so $5,000–30,000 is the normal range and the laser is usually the largest line item in the analyzer built around it. The consequence for anyone selling a QCL instrument is that the sensitivity has to be the product, because a thermal source and a filter cost a hundredth as much and answer most gas-detection questions well enough. So the market has mostly settled on regulatory emissions monitoring and defense countermeasures, where parts-per-billion sensitivity or a band nothing else reaches is the whole reason for the purchase. Wall-plug efficiency of 10–20% is a second-order cost, but it sets the cooler and the power budget, so it decides whether a product can be handheld and battery-powered. If QCL prices ever fall tenfold it will be because one high-volume application arrived, not because the epitaxy got cheaper on its own.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=96rlXLPx_zE — Quantum Cascade Laser (QCL) Technology (Leonardo DRS, 3 minutes, 5k+ views)
@@ -33,4 +36,4 @@ Trace gas analyzers for methane, ammonia, and nitrous oxide; infrared countermea
 
 ## Further reading
 
-[Quantum Cascade Lasers (RP Photonics Encyclopedia)](https://www.rp-photonics.com/quantum_cascade_lasers.html)
+[Quantum Cascade Lasers (RP Photonics Encyclopedia)](https://www.rp-photonics.com/quantum_cascade_lasers.html) · [Quantum cascade laser roadmap (arXiv)](https://arxiv.org/abs/2602.17042)

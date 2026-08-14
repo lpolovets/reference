@@ -24,6 +24,9 @@ Regeneration heat around 1.5–2.5 GJ/t · regeneration temperature 80–120 °C
 ## Examples
 Svante's rotary filter-bed contactor, in cement and hydrogen applications; TDA Research and RTI sorbents tested at the National Carbon Capture Center; Nuada's MOF-based vacuum-swing system on cement flue gas; Kawasaki's solid sorbent trials in Japan.
 
+## Economic profile
+The energy saving is easy to quantify: 1.5–2.5 GJ/t against 3.0–3.5 for MEA, at 80–120 °C rather than stripper temperature, so the heat can come from a grade the plant had no other buyer for. The uncertain line is sorbent replacement, and it is large enough to decide the comparison on its own. A sorbent that lasts one year and one that lasts five produce very different operating costs out of the same capital plant, and the record behind either number is thousands of pilot hours rather than years of service. A useful test is to rerun the vendor case at half the assumed sorbent life and see whether it still beats amines. Buyers are also paying for something that does not appear in a $/t figure: no amine emissions and no solvent water treatment, which on a congested or tightly permitted site can be worth more than the heat savings.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=c2bSQLRXHDs — About Svante Technology for Carbon Capture and Removal (Svante Solutions, 1 minute, 10k+ views)
@@ -31,4 +34,4 @@ Svante's rotary filter-bed contactor, in cement and hydrogen applications; TDA R
 
 ## Further reading
 
-[DOE's Carbon Capture and Storage (CCS) and Carbon Removal Programs (CRS)](https://www.everycrsreport.com/reports/IF11861.html)
+[DOE's Carbon Capture and Storage (CCS) and Carbon Removal Programs (CRS)](https://www.everycrsreport.com/reports/IF11861.html) · [Transformational Sorbent System for Post-Combustion Carbon Capture (TDA Research / OSTI)](https://www.osti.gov/servlets/purl/3001069)

@@ -25,6 +25,9 @@ Dense WDM channel spacing 50 or 100 GHz, giving 40–96 channels in the C band �
 ## Examples
 Dense WDM on every long-haul terrestrial and submarine route; coarse WDM in mobile fronthaul and enterprise links; reconfigurable optical add-drop multiplexers in metro rings; 400G ZR coherent pluggables putting WDM transport directly into router ports.
 
+## Economic profile
+The whole case is one comparison: a transceiver against a construction project. Lighting another wavelength on installed fiber costs a transceiver, while laying another fiber costs permits, trenching, and years, so dense WDM makes sense on any route where the civil work dominates, which is most long-haul and metro. Inside a campus the comparison flips, since pulling more fiber a few hundred meters is cheap and parallel fibers skip the wavelength control entirely. That control is most of the cost difference between the two flavors: coarse WDM at 20 nm spacing needs no temperature control and is cheap enough for enterprise links, while dense WDM at 50 or 100 GHz needs stabilized lasers, temperature-controlled filters, and a management system that understands the optical layer. One erbium amplifier boosting 40–96 channels at once is what makes cost per channel fall as channels are added, so an operator lighting only a handful of wavelengths on a dense WDM line is carrying most of the fixed cost and collecting little of the benefit.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=94Vg3pzjHNU — What is WDM (Wavelength Division Multiplexer)? - FO4SALE.COM (Fiber Optics For Sale Co., 5 minutes, 100k+ views)
@@ -33,4 +36,4 @@ Dense WDM on every long-haul terrestrial and submarine route; coarse WDM in mobi
 
 ## Further reading
 
-[Wavelength Division Multiplexing (RP Photonics Encyclopedia)](https://www.rp-photonics.com/wavelength_division_multiplexing.html)
+[Wavelength Division Multiplexing (RP Photonics Encyclopedia)](https://www.rp-photonics.com/wavelength_division_multiplexing.html) · [Spectral grids for WDM applications: DWDM frequency grid, G.694.1 (ITU-T)](https://www.itu.int/rec/T-REC-G.694.1)

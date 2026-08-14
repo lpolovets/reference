@@ -25,6 +25,9 @@ Operates at room temperature with optical initialization and readout · coherenc
 ## Examples
 Element Six and Adamas supplying engineered diamond material; SandboxAQ's NV magnetometry for navigation and medical sensing; Delft's entanglement of NV nodes over kilometers, a milestone toward a quantum network; scanning NV microscopes imaging currents in devices.
 
+## Economic profile
+Removing cryogenics changes what kind of product this can be. With no fridge and no vacuum system, an NV instrument is priced and sized like an instrument rather than like a facility, which is a large part of why NV magnetometry is one of the few quantum products with commercial customers today. The cost that remains is material. Diamond grown with controlled nitrogen and isotopic purity comes from a small number of suppliers such as Element Six and Adamas, and defect placement is still imperfect, so yield on the sensing element is a real line item. Against competing sensors the trade is sensitivity for access: a SERF magnetometer reaches femtotesla per root hertz but needs a shielded, field-nulled room, while NV sits at picotesla per root hertz and works pressed against a chip or a rock, so it is worth buying whenever the measurement has to happen at the sample and a shielded room is not available. The networking side has worse economics, because only a small fraction of NV photons are usable for entanglement, so the rate per node is low and a link costs more nodes and more time than the same link built from a telecom-band emitter.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=T2KQCOq1hRA — NV center qubits | QuTech Academy (QuTech Academy, 7 minutes, 10k+ views)
@@ -33,4 +36,4 @@ Element Six and Adamas supplying engineered diamond material; SandboxAQ's NV mag
 
 ## Further reading
 
-[Quantum information science (NIST)](https://www.nist.gov/quantum-information-science)
+[Quantum information science (NIST)](https://www.nist.gov/quantum-information-science) · [Sensitivity Optimization for NV-Diamond Magnetometry (arXiv)](https://arxiv.org/abs/1903.08176)

@@ -33,4 +33,4 @@ The economics are unusual because the CO2 removal already happened for process r
 
 ## Further reading
 
-[Special Report on Carbon Dioxide Capture and Storage (IPCC)](https://www.ipcc.ch/report/carbon-dioxide-capture-and-storage/)
+[Special Report on Carbon Dioxide Capture and Storage (IPCC)](https://www.ipcc.ch/report/carbon-dioxide-capture-and-storage/) · [Carbonate solutions for carbon capture: A summary (Lawrence Livermore National Laboratory)](https://www.osti.gov/servlets/purl/1097716)

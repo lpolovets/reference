@@ -25,6 +25,9 @@ Silicon responds 200–1,100 nm, InGaAs 900–1,700 nm, extended InGaAs to 2.6 u
 ## Examples
 InGaAs photodiodes in every fiber-optic receiver; silicon photodiodes as power monitors on laser systems and in cameras' exposure control; quadrant photodiodes in beam-position servos; large-area devices in pulse oximeters and other consumer medical sensors.
 
+## Economic profile
+Silicon is the reason photodiodes are cheap. A silicon detector is made by ordinary silicon processing in very high volume and sells for cents, while an InGaAs detector covering 900–1,700 nm is grown on small indium phosphide wafers in much lower volume and sells for tens of dollars to do the same job. That step at 1,100 nm is the largest single cost decision in a detection chain, and it is worth checking whether the measurement can be moved below it before accepting it. Past the die the money moves to the circuit, since a transimpedance amplifier, its board, and the shielding around it commonly cost more than the diode, and at low signal the noise of that front end rather than the detector sets what the system can measure. The exception is telecom, where InGaAs receivers at 1,310 and 1,550 nm are made in enough volume that a packaged photodiode there is far cheaper than a catalog InGaAs detector of the same area.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=KgKcbW77txY — Photodiodes (working & why it's reverse biased) | Class 12 | Semiconductors | Physics | Khan Academy (Khan Academy India - English, 12 minutes, 100k+ views)

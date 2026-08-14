@@ -25,6 +25,9 @@ Hard-coated interference filters transmit above 95% in band with blocking at opt
 ## Examples
 Fluorescence filter cubes pairing excitation, dichroic, and emission filters; Raman edge filters rejecting the laser line while passing shifted light a few wavenumbers away; near-infrared bandpass filters in front of LiDAR detectors to reject sunlight; color filters on camera sensors.
 
+## Economic profile
+Filter price tracks layer count, and layer count tracks how narrow and how steep you ask for. A wide bandpass with modest blocking is a short stack that runs quickly and yields well; a few-nanometer edge with optical density 6 needs a long deposition run and thickness control tight enough that part of every batch misses the spec, which is how the same size part goes from tens of dollars to over a thousand. So the cheapest move available is to specify the widest passband and the least blocking the measurement actually needs, since each step tighter moves the part up a price band. The other lever costs nothing: passband shifts with angle, so putting the filter in collimated space usually buys more real performance than buying a better filter and using it in a converging beam. At the far end of the volume curve the same physics is nearly free, since the color filters on a camera sensor are patterned lithographically at wafer scale rather than coated one substrate at a time.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=tnXDSCjNMJ8 — Optical Bandpass Filter Explained in 1 minute (SyronOptics, 2 minutes, under 1k views)
@@ -33,4 +36,4 @@ Fluorescence filter cubes pairing excitation, dichroic, and emission filters; Ra
 
 ## Further reading
 
-[Optical Filters (RP Photonics Encyclopedia)](https://www.rp-photonics.com/optical_filters.html)
+[Optical Filters (RP Photonics Encyclopedia)](https://www.rp-photonics.com/optical_filters.html) · [Handbook of Optical Filters for Fluorescence Microscopy (Chroma Technology)](https://www.chroma.com/assets/documents/chroma-handbook-of-optical-filters.pdf)

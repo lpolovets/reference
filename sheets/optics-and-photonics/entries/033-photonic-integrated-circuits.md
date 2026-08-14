@@ -25,6 +25,9 @@ Silicon waveguide loss around 1–2 dB/cm; silicon nitride below 0.1 dB/cm · fi
 ## Examples
 Intel and Cisco silicon photonics transceivers shipping in volume; Aeva and SiLC frequency-modulated LiDAR built on photonic chips; SMART Photonics and imec offering open foundry access; optical gyroscopes and biosensors implemented in silicon nitride.
 
+## Economic profile
+The die is the cheap part. A silicon photonic chip costs tens of dollars in volume, and packaging and test often exceed half the unit cost, because getting a single-mode fiber onto a submicron waveguide costs 1–3 dB and takes active alignment done one device at a time. Wafer-scale economics do not reach a step performed serially by a machine and an operator, so the cost curve of an integrated photonics product follows how far the packaging has been automated rather than how small the die is. Multi-project wafer runs make a first chip cheap, which is part of why there are many photonics startups with working devices and few with a shipping product: a demonstration costs a shuttle run, and a product costs a packaging line. Thermal control adds to the bill on every unit, since heaters and their control loops consume power and take test time. If you are evaluating one of these companies, ask for packaged cost at volume and test time per part, not die cost.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=29aTqLvRia8 — Silicon Photonics: The Next Silicon Revolution? (Asianometry, 16 minutes, 100k+ views)
@@ -33,4 +36,4 @@ Intel and Cisco silicon photonics transceivers shipping in volume; Aeva and SiLC
 
 ## Further reading
 
-[Photonic Integrated Circuits (RP Photonics Encyclopedia)](https://www.rp-photonics.com/photonic_integrated_circuits.html)
+[Photonic Integrated Circuits (RP Photonics Encyclopedia)](https://www.rp-photonics.com/photonic_integrated_circuits.html) · [Roadmapping the next generation of silicon photonics (Nature Communications)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10811194/)

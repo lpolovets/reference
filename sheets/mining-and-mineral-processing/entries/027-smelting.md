@@ -25,6 +25,9 @@ Flash smelting is autogenous, with sulfide oxidation supplying the heat · matte
 ## Examples
 Outotec flash smelting, the dominant copper technology worldwide; Kennecott's Utah smelter, among the highest sulfur capture rates anywhere; Chinese smelting capacity, which sets global treatment charges; Glencore and Aurubis in Europe, where energy cost has squeezed margins.
 
+## Economic profile
+A smelter is a fixed cost of billions that has to run continuously, so the economics are about keeping it full. The revenue comes from treatment and refining charges, the sulfuric acid, and the precious metals that report with the copper, rather than from any margin on the metal itself. Those charges are the same number the miner pays, so the two sides split the value between them, and the split moves with whichever is scarcer: when smelting capacity is tight, charges rise and miners take less; when capacity is overbuilt, charges fall and smelter margins go with them. Because capacity is concentrated in China, a Chinese build-out sets that price for everyone. Acid is the awkward line item, since it is heavy, low-value, and only worth hauling a short distance, so a smelter without a local acid market pays to dispose of a co-product it cannot stop making. Energy price is the other swing item, and it is why European smelter margins have been squeezed.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=_OIQ3P6BDOc — Inside America's Super Smelter (Atomic Frontier, 9 minutes, 100k+ views)
@@ -33,4 +36,4 @@ Outotec flash smelting, the dominant copper technology worldwide; Kennecott's Ut
 
 ## Further reading
 
-[Copper Statistics and Information (USGS)](https://www.usgs.gov/centers/national-minerals-information-center/copper-statistics-and-information)
+[Copper Statistics and Information (USGS)](https://www.usgs.gov/centers/national-minerals-information-center/copper-statistics-and-information) · [AP-42 Section 12.3: Primary Copper Smelting (US EPA)](https://www.epa.gov/sites/default/files/2020-11/documents/c12s03.pdf)

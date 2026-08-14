@@ -25,6 +25,9 @@ Screens practical down to a few hundred microns; cyclones handle finer separatio
 ## Examples
 Cyclone clusters on every ball mill circuit; Derrick fine screens replacing cyclones in iron ore and gold circuits to reduce over-grinding; dry screening in aggregate and coal plants; size-by-size assays used to diagnose whether a circuit is over-grinding its value.
 
+## Economic profile
+A cyclone is the cheapest thing in a grinding circuit, so its real cost never shows up on the equipment line. It classifies by settling velocity, which sends dense valuable minerals back to a mill they did not need to re-enter, and the cost shows up twice: grinding power spent on material that was already fine enough, and recovery lost in the slimes that over-grinding produces. Fine screens cost more in capital and floor space and separate on size alone, so the trade is one capital item against grinding energy plus recovery points, and recovery points are usually the larger number in a concentrator. This is an unusually testable decision, because a screen retrofit is small next to the mill it protects and the diagnostic is cheap: run a size-by-size assay on the mill product and look at where the value sits. If it is concentrated in the finest fractions, the circuit is paying for over-grinding whether or not anyone has priced it; if it is not, keep the cyclones, because the economics are hard to beat.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=TRUv0oeses4 — Hydrocyclone operation (Gravity Mining Ltd, 2 minutes, 1k+ views)
@@ -33,4 +36,4 @@ Cyclone clusters on every ball mill circuit; Derrick fine screens replacing cycl
 
 ## Further reading
 
-[Hydrocyclones (911 Metallurgist)](https://www.911metallurgist.com/equipment/hydrocyclones/)
+[Hydrocyclones (911 Metallurgist)](https://www.911metallurgist.com/equipment/hydrocyclones/) · [AMIT 145: Lesson 2 Classifying Cyclones (University of Alaska Fairbanks)](https://millops.community.uaf.edu/amit-145/amit-145-lesson-2/)

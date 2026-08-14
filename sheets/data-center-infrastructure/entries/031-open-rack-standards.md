@@ -24,6 +24,9 @@ Adopt Open Rack when buying at hyperscale volume with a uniform hardware fleet, 
 ## Examples
 Meta, which created the Open Compute Project and runs Open Rack across its fleet; NVIDIA's GB200 NVL72, built on an Open Rack-derived form factor; Microsoft's contributions of its own rack and cooling designs to OCP; the OCP specification library, which is the reference for interfaces and power.
 
+## Economic profile
+The savings are per rack and small, so they only count multiplied out: one fewer power supply in every server, one fewer conversion stage, and blind-mate busbars that cut install and swap labor. Across hundreds of racks of one configuration that adds up; across twenty mixed cabinets it does not cover the cost of running a second supply chain. The specifications are published rather than licensed, so no royalty is involved, but the supplier set is smaller and the equipment does not fit a standard 19-inch cabinet, which makes the switch close to all-or-nothing for a hall. For AI buyers the decision has largely been made upstream, since current accelerator racks such as the GB200 NVL72 ship in an Open Rack-derived form factor and the liquid cooling manifolds assume it. The cost that surprises people is structural: a fully populated liquid-cooled rack can pass 1,500 kg, and reinforcing a floor to take that is a building expense that usually costs more than the rack standard saves. If the fleet is mixed and arrives from many vendors, stay on 19-inch and spend the money elsewhere.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=A527jII5980 — OCP Gear Explained - What's inside an OCP Rack? (Open Compute Project, 19 minutes, 5k+ views)
@@ -32,4 +35,4 @@ Meta, which created the Open Compute Project and runs Open Rack across its fleet
 
 ## Further reading
 
-[Data Center Energy Efficiency Toolkit (Berkeley Lab Center of Expertise)](https://datacenters.lbl.gov/tools)
+[Data Center Energy Efficiency Toolkit (Berkeley Lab Center of Expertise)](https://datacenters.lbl.gov/tools) · [Facebook announces next-generation Open Rack frame (Engineering at Meta)](https://engineering.fb.com/2019/03/15/data-center-engineering/open-rack/)

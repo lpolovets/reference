@@ -25,6 +25,9 @@ Attenuation about 0.2 dB/km at 1,550 nm, the loss minimum for silica · single-m
 ## Examples
 Submarine cables carrying nearly all intercontinental traffic; erbium-doped fiber amplifiers spaced along those routes; distributed acoustic sensing turning a buried fiber into thousands of vibration sensors; hollow-core fiber now deployed on latency-critical financial routes.
 
+## Economic profile
+The glass is the cheap part. Standard single-mode fiber is drawn by the kilometer from a material that starts as sand, and in an installed link the cable is a small fraction of the cost next to trenching, duct, permits, and splicing labor. That is why operators pull far more fibers than they need on the first install: adding strands to a cable already going into the ground costs very little, and going back later means paying the whole civil cost twice. It also explains where the recurring cost sits, which is labor rather than parts, since connector contamination is the leading fault and cleaning and inspection are what prevent it. Specialty fiber inverts the picture. Polarization-maintaining, hollow-core, and rare-earth-doped fiber come from small specialty draws, so they are priced by the meter rather than by the kilometer, and a design that needs one should budget the fiber as a component rather than as cable.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=G1Ke-H8I1uk — How Does LIGHT Carry Data? - Fiber Optics Explained (Techquickie, 6 minutes, 1m+ views)
@@ -33,4 +36,4 @@ Submarine cables carrying nearly all intercontinental traffic; erbium-doped fibe
 
 ## Further reading
 
-[Fibers (RP Photonics Encyclopedia)](https://www.rp-photonics.com/fibers.html)
+[Fibers (RP Photonics Encyclopedia)](https://www.rp-photonics.com/fibers.html) · [G.652: Characteristics of a single-mode optical fibre and cable (ITU-T)](https://www.itu.int/rec/T-REC-G.652/en)

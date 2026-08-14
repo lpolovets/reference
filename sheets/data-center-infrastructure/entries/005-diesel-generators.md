@@ -25,6 +25,9 @@ Typical unit 2–3 MW, with dozens per campus · start to full load in about 10 
 ## Examples
 Generator yards at every large colocation and hyperscale campus; Manhattan data centers with generators on the roof and fuel in the basement; Irish and Dutch facilities where generator air permits became a public planning fight; demand-response programs that pay generator fleets to run at peak.
 
+## Economic profile
+Capital runs roughly $500–900 per kW installed, so a 100 MW site carries $50–90 million of engines that run a few hours a month. The operating cost is mostly testing rather than duty: monthly load-bank runs burn fuel to produce nothing, stored fuel goes stale and needs polishing, and engines run too lightly wet-stack and need repair. None of that is what decides projects. The air permit does, because permitted run hours are the binding constraint, and in a constrained district the generator plant is the hardest permit on the job, which lands as schedule risk rather than as a line in the capital budget. Where a demand-response program pays for the capacity, an operator can earn enough on the same fleet to change the business case, and that is the only common source of revenue from a fleet that is otherwise idle. For standby duty every alternative costs more per kW, so diesel is the sensible default unless the permit blocks it.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=LYncuYp0UVo — A DAY in the LIFE of the DATA CENTRE | GENERATOR TESTING with ASH! (Custodian Data Centres, 13 minutes, 100k+ views)
@@ -33,4 +36,4 @@ Generator yards at every large colocation and hyperscale campus; Manhattan data 
 
 ## Further reading
 
-[Uptime Institute Global Data Center Survey 2025 (Uptime Institute)](https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2025.Annual.Survey.Report.pdf?version=0)
+[Uptime Institute Global Data Center Survey 2025 (Uptime Institute)](https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2025.Annual.Survey.Report.pdf?version=0) · [Specifics about Provisions Related to Emergency Reciprocating Internal Combustion Engines (US Environmental Protection Agency)](https://www.epa.gov/stationary-engines/fact-sheet-specifics-about-provisions-related)

@@ -25,6 +25,9 @@ Clearing in about 2–5 ms, against 40–80 ms for AC breakers · on-state losse
 ## Examples
 ABB's hybrid HVDC breaker, the first demonstrated design; the Zhangbei project in China, the largest deployment of DC breakers in a meshed scheme; European research programs including PROMOTioN, which tested competing designs against a common specification.
 
+## Economic profile
+The choice is capital now against losses forever, and it is arithmetic a planner can do on one line. A DC breaker costs a meaningful fraction of a converter, a meshed scheme needs one at every line end, and the arrester banks take real space in the station. The alternative is a full-bridge fault-blocking converter, which needs no breakers and gives up roughly half a percentage point of efficiency for the life of the scheme: half a point of a 1 GW link is 5 MW lost continuously. The comparison is usually decided by the operating record rather than by that arithmetic. With commercial installations still in the low tens worldwide there are no failure statistics, so a utility pricing a first-of-a-kind meshed scheme has to carry that uncertainty itself. If the DC network is small, blocking converters are the cheaper answer; breakers are worth their capital once the terminal count is high enough that losing the whole scheme to one line fault is unacceptable.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=Uir-BPoTN88 — ABB's Hybrid HVDC breaker (ABB, 2 minutes, 10k+ views)
@@ -33,4 +36,4 @@ ABB's hybrid HVDC breaker, the first demonstrated design; the Zhangbei project i
 
 ## Further reading
 
-[Technical brochures (CIGRE)](https://www.cigre.org/GB/publications/technical-brochures)
+[Technical brochures (CIGRE)](https://www.cigre.org/GB/publications/technical-brochures) · [Design, test and application of HVDC circuit breaker (CIGRE)](https://electra.cigre.org/323-august-2022/technical-brochures/design-test-and-application-of-hvdc-circuit-breaker.html)

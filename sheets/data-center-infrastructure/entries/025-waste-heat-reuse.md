@@ -25,6 +25,9 @@ Nearly all electricity drawn becomes low-grade heat · air-cooled return air at 
 ## Examples
 Google's heat recovery project in Hamina, Finland, feeding a local network; Fortum's Espoo scheme taking heat from Microsoft datacenters; Stockholm Data Parks, which built the model; Danish and Dutch planning rules that now expect heat reuse from new facilities.
 
+## Economic profile
+Two capital items decide this: the heat pump that lifts return temperature to what the network wants, and the pipe run to the connection point. Pipe cost scales with distance, which is why the practical limit is a few kilometers and why a site outside that radius does not improve with a bigger heat pump. Lift is the recurring cost, so air-cooled return at 30–40 °C against a 60–80 °C network target is the expensive case and liquid-cooled return at 45–50 °C is the cheap one. Heat revenue is small next to compute revenue either way, so it should not carry the business case. The value that does appear is in permitting: Danish and Dutch rules now expect heat reuse from new facilities, so the connection is part of the price of building at all. If a hall is being converted to liquid cooling anyway, price the connection then, since adding it later means opening the plant a second time.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=NRQExK4mZrI — Finland’s Big Idea: Turning Data Center Waste Into Heat (Bloomberg Television, 11 minutes, 100k+ views)
@@ -33,4 +36,4 @@ Google's heat recovery project in Hamina, Finland, feeding a local network; Fort
 
 ## Further reading
 
-[AI: Five charts that put data-centre energy use - and emissions - into context (Carbon Brief)](https://www.carbonbrief.org/ai-five-charts-that-put-data-centre-energy-use-and-emissions-into-context)
+[AI: Five charts that put data-centre energy use - and emissions - into context (Carbon Brief)](https://www.carbonbrief.org/ai-five-charts-that-put-data-centre-energy-use-and-emissions-into-context) · [Data center waste heat for district heating networks: A review (Renewable and Sustainable Energy Reviews, via Aalto University)](https://research.aalto.fi/en/publications/data-center-waste-heat-for-district-heating-networks-a-review/)

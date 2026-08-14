@@ -25,6 +25,9 @@ Practical limit of raised-floor air delivery is roughly 5–15 kW per rack · fa
 ## Examples
 Raised-floor rooms in nearly every enterprise facility built between 1990 and 2015; CRAH-plus-chiller designs in colocation halls; ASHRAE's successive widening of the recommended inlet envelope, which allowed most sites to raise supply temperature and save compressor energy.
 
+## Economic profile
+The split is capital against energy. A CRAC unit is cheap to buy and needs no plant, so it is the right answer in a small room or an edge cabinet where the alternative is running chilled water to serve a few hundred kilowatts. Above that size a central chiller plant with economization beats many small compressors on operating cost by enough to pay for the piping, which is why almost everything larger is built with CRAH units. In a room that already exists, though, the cheapest capacity is the capacity already installed and being wasted: bypass air and recirculation consume a large fraction of airflow in an uncontained hall, fans are 10–20% of cooling energy, and blanking panels, sealed cutouts, and correctly placed tiles routinely recover more capacity than another CRAH would, for a fraction of the price. The trap is buying air capacity that cannot be delivered. Raised-floor air tops out around 5–15 kW per rack whatever the plant behind it can produce, so past roughly 20 kW per rack an operator adding units is paying for cooling the tiles cannot carry, and the money belongs in liquid instead.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=WNOyBdWZNwE — Computer Room Air Conditioning - How do CRAC units work? (The Engineering Mindset, 7 minutes, 100k+ views)

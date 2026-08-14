@@ -25,6 +25,9 @@ Sublevels typically 20–40 m apart with blastholes up to 30 m long · orebody d
 ## Examples
 Kidd Creek in Ontario, one of the deepest base metal mines; Australian and Canadian zinc and gold mines using long-hole open stoping with paste fill; Swedish iron mines using sublevel caving, the closely related method for weaker ground.
 
+## Economic profile
+Cost per ton is among the lowest underground, because the drilling happens in development headings rather than at the face and gravity does the ore handling, so what usually decides the economics is dilution rather than the mining cost itself. Dilution of 5–15% is normal, and every diluting ton takes up mill capacity, grinding power, and tailings space while contributing nothing, so on a throughput-limited plant it costs twice: once to treat and once in the ore ton it displaced. That is why money spent on hole accuracy and on defining the stope boundary usually returns more than money spent on faster mucking. Paste backfill is the other line worth arguing about. It costs real capital and cement, and the payback comes in three ways: pillars that can be taken instead of left standing, adjacent stopes that can be sequenced, and tailings that never reach the surface facility.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=BdU6-DvnpVU — Sublevel stoping mining method - Epiroc (Epiroc Underground Mining and Tunneling, 3 minutes, 100k+ views)
@@ -33,4 +36,4 @@ Kidd Creek in Ontario, one of the deepest base metal mines; Australian and Canad
 
 ## Further reading
 
-[Tailings Backfill (911 Metallurgist)](https://www.911metallurgist.com/blog/tailings-backfill/)
+[Tailings Backfill (911 Metallurgist)](https://www.911metallurgist.com/blog/tailings-backfill/) · [A Compilation of Dilution Graph Data for Open Stope Hangingwall Design (Australian Centre for Geomechanics)](https://papers.acg.uwa.edu.au/d/808_19_Capes/19_Capes.pdf)

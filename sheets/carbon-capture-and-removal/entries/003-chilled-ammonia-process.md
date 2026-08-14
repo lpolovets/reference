@@ -24,6 +24,9 @@ Absorber runs at 0–10 °C · regeneration heat roughly 2.0–2.7 GJ/t · CO2 d
 ## Examples
 Alstom's demonstrations at Mountaineer and Technology Centre Mongstad, which produced most of the public data; Baker Hughes now markets the process as Chilled Ammonia; Norwegian and Chinese cement pilots have run variants.
 
+## Economic profile
+Three cost lines move in opposite directions here, so the case has to be built site by site. Regeneration at 2.0–2.7 GJ/t is below MEA's 3.0–3.5, and CO2 leaving the stripper at 20–30 bar removes most of the compression train, but chilling the flue gas to 0–10 °C adds refrigeration duty that gives part of that saving back. Solvent cost is the cleanest advantage: ammonia is a commodity made at enormous scale and does not degrade in oxygen or SOx, so makeup is a small line item next to a licensed amine inventory that has to be replaced. Working against that, the wash section and the refrigeration plant are largely fixed costs, and the demonstrated units are 100–200 kt/yr, which spreads those costs over a tenth of the tons a 1 Mt/yr plant would. If the site already has chilled water and an exhaust dirty enough to eat amine, the arithmetic works; if it has neither, the extra equipment is hard to justify.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=w53Y-luzzhY — CCS Chilled Ammonia Process (Videos Powerday, 3 minutes, under 1k views)
@@ -32,4 +35,4 @@ Alstom's demonstrations at Mountaineer and Technology Centre Mongstad, which pro
 
 ## Further reading
 
-[Technology Centre Mongstad (TCM)](https://tcmda.com/)
+[Technology Centre Mongstad (TCM)](https://tcmda.com/) · [AEP Mountaineer Fact Sheet (MIT Carbon Capture and Sequestration Technologies)](https://sequestration.mit.edu/tools/projects/aep_alstom_mountaineer.html)

@@ -25,6 +25,9 @@ Typically 100–300 contiguous spectral bands per pixel · pushbroom scanning re
 ## Examples
 Airborne surveys for mineral exploration and pipeline monitoring; Pixxel and Planet hyperspectral satellites; plastic sorting lines separating polymer types optically; food inspection systems detecting bruising and foreign material before it is visible.
 
+## Economic profile
+The sensor is usually the smallest line item. Systems run from about $25,000 for an industrial line-scan camera to hundreds of thousands for an airborne one, but a survey produces terabytes, and the storage, the compute, and a trained classification pipeline generally cost more over a program's life than the instrument did. Multispectral is the competitor that decides most deals: five to ten well-chosen bands are cheaper to buy, cheaper to fly, and far cheaper to process, so if they separate the classes then 200 bands are an expensive way to reach the same answer. That leaves two business models with very different margins. Selling data cubes means competing against a cheaper sensor while leaving the hard part to the customer; selling the answer, meaning polymer type or crop stress or mineral class, is priced against what the decision is worth. If you are evaluating a company here, ask what fraction of revenue comes from the analysis rather than the hardware.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=ayp7hP0Xr8Q — What is hyperspectral imaging - Tutorial (SpecimSpectral, 3 minutes, 50k+ views)
@@ -33,4 +36,4 @@ Airborne surveys for mineral exploration and pipeline monitoring; Pixxel and Pla
 
 ## Further reading
 
-[Hyperspectral Imaging (RP Photonics Encyclopedia)](https://www.rp-photonics.com/hyperspectral_imaging.html)
+[Hyperspectral Imaging (RP Photonics Encyclopedia)](https://www.rp-photonics.com/hyperspectral_imaging.html) · [AVIRIS: Airborne Visible/Infrared Imaging Spectrometer (NASA JPL)](https://aviris.jpl.nasa.gov/)

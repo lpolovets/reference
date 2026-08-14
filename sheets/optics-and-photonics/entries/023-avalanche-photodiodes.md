@@ -25,6 +25,9 @@ Internal gain typically 10–100, giving 10–20 dB sensitivity improvement over
 ## Examples
 APD receivers in long-reach fiber links; automotive LiDAR detectors at 905 nm; silicon photomultipliers, which are arrays of Geiger-mode APDs, in medical imaging and particle physics; laser rangefinders in surveying and defense.
 
+## Economic profile
+The die inside an APD is not much more expensive to make than a photodiode's, and most of the price difference is selection and the electronics around it. Devices are binned for breakdown voltage and dark current, and the system has to supply 100–400 V and a temperature compensation loop, so the tens to hundreds of dollars on the datasheet understates what an APD adds to a board. Size that spend against the alternatives that buy the same 10–20 dB: more laser power, a larger receive aperture, or a lower data rate. On a long fiber span or a long-range LiDAR, 10–20 dB is usually cheaper to buy here than anywhere else in the link, which is why APDs stayed standard in both; at short range the arithmetic flips and a plain photodiode with a brighter source is the cheaper system. Silicon is where the volume is, pulled along by 905 nm automotive LiDAR and by silicon photomultipliers in medical imaging, while InGaAs APDs carry both the compound-semiconductor cost and worse excess noise, which is part of why long-range sensing at 1,550 nm is expensive.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=jFV9yJnPBIw — What is Avalanche Photodiode? (Fiber Optics For Sale Co., 4 minutes, 50k+ views)
@@ -32,4 +35,4 @@ APD receivers in long-reach fiber links; automotive LiDAR detectors at 905 nm; s
 
 ## Further reading
 
-[Avalanche Photodiodes (RP Photonics Encyclopedia)](https://www.rp-photonics.com/avalanche_photodiodes.html)
+[Avalanche Photodiodes (RP Photonics Encyclopedia)](https://www.rp-photonics.com/avalanche_photodiodes.html) · [Technical Note: Si APD (Hamamatsu Photonics)](https://www.hamamatsu.com/content/dam/hamamatsu-photonics/sites/documents/99_SALES_LIBRARY/ssd/si-apd_kapd9007e.pdf)

@@ -25,6 +25,9 @@ Typical EHV span 300–400 m, up to 1–2 km at major river crossings · lattice
 ## Examples
 The Big Eddy to Knight 500 kV river crossing in Oregon, built on lattice; monopole rebuilds along interstate corridors in the US northeast; China's Zhoushan crossing towers, the tallest transmission structures in the world at 380 m.
 
+## Economic profile
+Structures and foundations are typically 30–50% of what a line costs, so this is where most of the money in a line project sits. The lattice-versus-monopole choice trades material against labor and land: lattice uses less steel but takes several days per structure and a 45–60 m right of way, while a monopole costs more in steel and goes up in about a day inside 25–40 m. Where land or access is expensive, the narrower footprint is usually worth the steel premium; across open country it is not, which is why long EHV lines are still mostly lattice. The cost risk that actually shows up is geotechnical, because rock, wetland, and permafrost each need a different foundation and the design is settled only after the borings come back. Both types are commodity steel fabrication, so quotes move with tariff policy and shop capacity rather than with anything about the line, and a buyer should ask when the steel was priced.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=jLHCti71q7w — Lattice Tower Construction on Big Eddy - Knight 500kV River Crossing (Wilson Construction Co, 15 minutes, 50k+ views)
@@ -33,4 +36,4 @@ The Big Eddy to Knight 500 kV river crossing in Oregon, built on lattice; monopo
 
 ## Further reading
 
-[Substations (T&D World)](https://www.tdworld.com/substations)
+[Substations (T&D World)](https://www.tdworld.com/substations) · [Guide Specifications for Steel Single Pole and H-Frame Structures (USDA Rural Utilities Service)](https://www.rd.usda.gov/sites/default/files/UEP_Bulletin_1724E-204.pdf)

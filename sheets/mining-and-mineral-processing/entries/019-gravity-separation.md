@@ -25,6 +25,9 @@ Needs a concentration criterion above roughly 1.5 to separate reliably · effect
 ## Examples
 Knelson and Falcon centrifugal concentrators in nearly every gold plant; spiral banks in mineral sands and iron ore; jigs in coal washing and alluvial tin; shaking tables still used for final cleaning and for gravity testwork.
 
+## Economic profile
+Gravity is the cheapest concentration in this class: no reagents, very low energy per ton, and simple machines, so operating cost per ton is lower than anything it competes with. That is also why it scales down when nothing else does. A flotation plant needs throughput to carry its reagent regime, control system, and staffing, while a jig or a table stays viable at small tonnage, which is what keeps gravity in alluvial tin, small gold operations, and coal washing. Whether it applies at all is settled by physics rather than by price, since below a concentration criterion of roughly 1.5 the separation does not work at any capital level, so this is a cheap option to test rather than an investment case to build. Where it does apply, the highest-value version is a gravity circuit inside the grinding loop of a gold plant, which routinely recovers 20–40% of the gold before it can be over-ground and before the leach circuit has to work for it.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=P5DqXxiZRzU — Jig machine(Gravity separation) + shaking table(concentrate separation) video in gold ore (Desen Mining Equipment, 3 minutes, 5k+ views)
@@ -33,4 +36,4 @@ Knelson and Falcon centrifugal concentrators in nearly every gold plant; spiral 
 
 ## Further reading
 
-[Mineral Processing Engineering (911 Metallurgist)](https://www.911metallurgist.com/blog/)
+[Mineral Processing Engineering (911 Metallurgist)](https://www.911metallurgist.com/blog/) · [Physical beneficiation of heavy minerals - Part 1: A state of the art literature review on gravity concentration techniques (Heliyon)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10447942/)

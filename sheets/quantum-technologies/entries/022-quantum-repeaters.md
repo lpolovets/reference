@@ -25,6 +25,9 @@ Memory must hold coherence longer than the classical signaling time across a seg
 ## Examples
 Delft's entanglement between three network nodes, the first multi-node quantum network; Harvard's silicon-vacancy memory nodes on deployed Boston fiber; the Quantum Internet Alliance in Europe; erbium and rare-earth memories pursued specifically for telecom compatibility.
 
+## Economic profile
+There is no product and no revenue here, so the money question is who funds the work and what the result would have to beat. Funding is government and consortium: the Quantum Internet Alliance in Europe, national programs elsewhere, university groups. The bar is high, because trusted-node networks and satellite links already move keys today, and the agencies that would buy a quantum network mostly recommend post-quantum cryptography for the general case, so removing the trusted nodes has to be worth paying for on its own. The technical gap is a cost gap too: demonstrated entanglement rates between separated nodes are hertz or below against the megahertz a useful link needs, a factor of roughly a million, and closing it is a materials problem rather than an engineering scale-up. What is sellable in the meantime are the components, quantum memories and the frequency converters that move photons to a telecom wavelength, both of which have customers in other quantum work. Treat a repeater program as a science budget with a payoff in the 2040s, and if a network business plan depends on repeaters before then, it depends on something nobody controls.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=mr-kAG6KwMA — Quantum Repeaters (Mazzi, 4 minutes, 5k+ views)
@@ -32,4 +35,4 @@ Delft's entanglement between three network nodes, the first multi-node quantum n
 
 ## Further reading
 
-[Quantum information science (NIST)](https://www.nist.gov/quantum-information-science)
+[Quantum information science (NIST)](https://www.nist.gov/quantum-information-science) · [Quantum repeaters: From quantum networks to the quantum internet (arXiv)](https://arxiv.org/abs/2212.10820)

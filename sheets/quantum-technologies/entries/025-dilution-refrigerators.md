@@ -25,6 +25,9 @@ Base temperature 6–20 mK, with cooling power of roughly 10–500 microwatts at
 ## Examples
 Bluefors and Oxford Instruments as the dominant suppliers; IBM's Goldeneye, a large-volume fridge built for scaling; Fermilab and academic groups using them for dark matter detection as well as qubits; the multi-fridge halls now being built by every large quantum computing effort.
 
+## Economic profile
+A system runs from several hundred thousand dollars to over a million, and that price is close to fixed per refrigerator rather than per qubit, so cost per qubit falls only when more qubits fit inside one fridge. That makes the wiring limit a commercial problem as much as a technical one, since what caps a fridge is thermal load from the control lines rather than the chip, and the number worth tracking is dollars per usable control line rather than dollars per fridge. Supply is concentrated, with Bluefors and Oxford Instruments taking most of the market, and helium-3 comes from tritium decay in weapons stockpiles, so supply barely responds to demand at any price. The demand side is unusual: most buyers are research programs and quantum computing companies spending money raised against future results, so the supplier gets paid whether or not the machines inside the fridges ever work. Anything that lets a platform run at 1 K or above takes most of this line item out of a system's capital cost, which is a large part of why spin qubits above 1 K attract interest.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=F6FICjAvkUU — Working Principle of a Dilution Refrigerator. (QEL@UCL, 6 minutes, 10k+ views)
@@ -33,4 +36,4 @@ Bluefors and Oxford Instruments as the dominant suppliers; IBM's Goldeneye, a la
 
 ## Further reading
 
-[Quantum Computers Glossary (QuEra)](https://www.quera.com/glossary)
+[Quantum Computers Glossary (QuEra)](https://www.quera.com/glossary) · [How Does a Dilution Refrigerator Work? (Bluefors)](https://bluefors.com/stories/how-does-a-dilution-refrigerator-work/)

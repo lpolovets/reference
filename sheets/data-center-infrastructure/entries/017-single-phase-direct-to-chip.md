@@ -25,6 +25,9 @@ Removes roughly 70–90% of rack heat, with the balance still leaving as air · 
 ## Examples
 NVIDIA GB200 NVL72 racks, which ship liquid-cooled and set the current density benchmark; long-standing HPC deployments at Oak Ridge and LRZ, which proved warm-water operation years earlier; CoolIT, Vertiv, Motivair, and Supermicro cold-plate systems in production AI halls.
 
+## Economic profile
+The capital is a hall retrofit: piping to every rack, coolant distribution units, manifolds, and enough rework of the plant to supply 30–45 °C. Two operating lines pay for it. Warm supply water lets the site economize or reject heat dry for most of the year, which removes most compressor hours, and server fan power falls sharply, which lands on the IT side of the meter rather than the facility side. What actually decides the purchase is neither of those: current accelerator racks ship configured for cold plates, so anyone buying that hardware is buying the plumbing with it. Budget for the residual air path as well, since 10–30% of rack heat still leaves as air, so a converted hall carries two cooling systems and the air handling cannot be deleted to help pay for the water.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=QUYmcGS6I_k — Supermicro SuperMinute: Direct to Chip Liquid Cooling Solutions (Supermicro, 3 minutes, 5k+ views)

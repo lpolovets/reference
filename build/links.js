@@ -125,13 +125,17 @@ async function probe(url) {
   const text = head.toString('latin1');
   const isPdfBytes = text.startsWith('%PDF');
 
-  // Bot walls answer 200 with an HTML shell. Two signatures cover the ones in
-  // this corpus: the noindex interstitial Imperva-style filters return, and the
-  // no-cache meta refresh challenge in front of docs.nlr.gov. Node's fetch trips
-  // these where curl does not — same headers, different TLS fingerprint — so
-  // they say nothing about whether the link works in a browser.
+  // Bot walls answer 200 with an HTML shell. Node's fetch trips these where curl
+  // does not — same headers, different TLS fingerprint — so they say nothing
+  // about whether the link works in a browser.
+  //
+  // A bare `Pragma: no-cache` meta used to be one of the signatures here, added
+  // for the wall in front of docs.nlr.gov. It was removed on 2026-08-14: plenty
+  // of ordinary pages ship that tag (pjm.com serves a full 159 KB page with it),
+  // so it reported real documents as walls. Nothing was lost, because the
+  // docs.nlr.gov case is a `.pdf` URL answered with HTML and the check below
+  // already grades that BLOCKED on its own.
   const interstitial = /NAME=["']?ROBOTS["']?\s+CONTENT=["']?NOINDEX/i.test(text) ||
-    /<meta http-equiv="Pragma" content="no-cache"/i.test(text) ||
     // SiteGround and friends answer 202 with a meta refresh into a captcha path.
     /http-equiv=["']?refresh["']?[^>]*captcha/i.test(text);
   const title = (text.match(/<title[^>]*>([^<]*)<\/title>/i) || [])[1] || '';

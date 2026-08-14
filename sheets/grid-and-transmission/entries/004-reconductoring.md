@@ -25,6 +25,9 @@ Reconductor when a specific line is thermally constrained, its structures are so
 ## Examples
 Utility filings in Illinois, Minnesota, and Texas proposing advanced-conductor reconductoring in place of new corridors; the Netherlands' TenneT program of uprating existing 380 kV routes; numerous river-crossing spans reconductored to gain clearance rather than capacity.
 
+## Economic profile
+Reconductoring runs roughly 30–60% of the cost per MW of a new line and lands in 18–36 months instead of 7–12 years, so the argument is mostly about time and risk rather than unit price. What a regulator will actually weigh is the congestion cost avoided in the years before a new line could exist, plus the cancellation risk that goes away when the corridor is already approved. Two things move the number. Structure condition is the usual surprise, since a line built in the 1960s may need foundation or steel work that pushes a cheap job toward a rebuild. The outage matters as much, because replacement power bought while the line is down is a real cost and on a constrained system there may be no window at any price. There is also an incentive problem worth naming: utilities earn a return on the capital they spend, and the cheaper option is the one that adds less to rate base.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=K9ifqSDf3i0 — Reconductoring with advanced conductors can speed up the transmission growth needed for a clean grid (Energy Innovation: Policy and Technology, 1 minute, 1k+ views)
@@ -32,4 +35,4 @@ Utility filings in Illinois, Minnesota, and Texas proposing advanced-conductor r
 
 ## Further reading
 
-[WATT Coalition](https://watt-transmission.org/)
+[WATT Coalition](https://watt-transmission.org/) · [Advanced Conductor Scan Report (Idaho National Laboratory)](https://inl.gov/content/uploads/2024/10/23-50856_R12a_-AdvConductorsScanProjectReportCompressed.pdf)

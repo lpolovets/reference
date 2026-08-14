@@ -25,6 +25,9 @@ Footprint roughly 10% of an equivalent air-insulated substation at EHV · capita
 ## Examples
 Urban substations under buildings in Tokyo, London, and New York; offshore wind platform switchgear, where GIS is the only practical choice; Siemens Energy's clean-air Blue portfolio and Hitachi Energy's EconiQ, both marketed as SF6-free at transmission voltages.
 
+## Economic profile
+The 2–4x capital premium over an air-insulated substation is really a land purchase. At roughly 10% of the footprint at EHV, GIS is worth it wherever the site costs more than the equipment or does not exist at all: city substations, offshore platforms, and industrial plants with no spare yard. In rural transmission land is cheap and the premium is hard to justify, which is why most of the network is still air-insulated. The second cost is not capital. SF6 has about 23,500 times the warming potential of CO2, so a European operator carries leak monitoring below 0.5% per year, reporting, and end-of-life recovery for as long as the equipment is in service, and a phase-down can turn a leaking fleet into a retrofit program. Since SF6-free designs are now rated to 145 kV and above, anyone specifying new switchgear should price the fluorinated-gas obligation into the comparison rather than treating it as an environmental footnote.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=D_AYFKQkImU — What is a Gas Insulated Switchgear/GIS | TheElectricalGuy (Gaurav J - TheElectricalGuy, 9 minutes, 100k+ views)

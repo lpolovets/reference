@@ -25,6 +25,9 @@ Compressors are typically the largest mechanical load, so free-cooling hours tra
 ## Examples
 Facebook's Prineville, Oregon facility, which popularized air-side economization at hyperscale; Nordic sites running with almost no compressor hours; water-side economizers retrofitted into existing chilled water plants as the cheapest available efficiency project.
 
+## Economic profile
+Economization is a capital and controls cost bought against compressor kilowatt-hours, so the payback is close to a straight function of how many hours a year the outdoor air can do the work. In a cool climate that is several thousand hours, and some Nordic sites run essentially chillerless, which is most of the reason capacity keeps going to those regions rather than to cheaper land. In a hot humid climate the same equipment buys far fewer hours and often does not pay for itself. The order of spending matters more than the choice between air-side and water-side: containment and a raised set point cost very little, recover 20–40% of cooling energy in a legacy room, and raise the number of economizer hours the next project can claim. An economizer added to a hall still running 13 °C supply air delivers a fraction of the hours it would at 24 °C, so fix the set point first and size the economizer against the fixed room.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=2UCmNs8qGBk — Air Side Economizer (MEP Academy, 8 minutes, 10k+ views)
@@ -33,4 +36,4 @@ Facebook's Prineville, Oregon facility, which popularized air-side economization
 
 ## Further reading
 
-[ASHRAE Data Center Resources, Datacom series (ASHRAE)](https://www.ashrae.org/technical-resources/bookstore/datacom-series)
+[ASHRAE Data Center Resources, Datacom series (ASHRAE)](https://www.ashrae.org/technical-resources/bookstore/datacom-series) · [Energy Implications of Economizer Use in California Data Centers (Berkeley Lab)](https://www.osti.gov/biblio/937579)

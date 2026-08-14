@@ -25,6 +25,9 @@ Powder factor typically 0.2–0.8 kg of explosive per ton of rock · explosive e
 ## Examples
 Mine-to-mill programs at large copper operations that raised powder factor and cut total comminution cost; electronic initiation systems from Orica and Dyno Nobel; surface miners used in bauxite and limestone where the rock is soft enough to cut; blast vibration monitoring networks around pits near towns.
 
+## Economic profile
+Explosive is one of the cheapest inputs on the site, at a fraction of a cent per megajoule against several cents for grinding electricity, so the blast is rarely where a cost-cutting program should start. That gap is the whole basis of mine-to-mill work: pushing the powder factor up within the usual 0.2–0.8 kg per ton band raises the explosive bill by a noticeable fraction, and the mill usually saves more than that in power and throughput. Ammonium nitrate comes from ammonia, so the explosive bill tracks natural gas prices, and it can move a long way without changing that answer. What caps the powder factor is geotechnical and social rather than financial: over-energetic blasting damages the pit wall and forces flatter slopes and more stripping later, and vibration and flyrock limits near communities are permit conditions rather than prices. If a plant is constrained by mill throughput, test a higher powder factor before buying grinding capacity, since the change costs a small fraction of what mill capacity costs.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=6nyoLCuL0rQ — Drilling and Blasting Introduction (BenHiggins28, 4 minutes, 100k+ views)
@@ -33,4 +36,4 @@ Mine-to-mill programs at large copper operations that raised powder factor and c
 
 ## Further reading
 
-[Mineral Processing Engineering (911 Metallurgist)](https://www.911metallurgist.com/blog/)
+[Mineral Processing Engineering (911 Metallurgist)](https://www.911metallurgist.com/blog/) · [Information Circular 8925: Explosives and Blasting Procedures Manual (US Bureau of Mines)](https://stacks.cdc.gov/view/cdc/206002)

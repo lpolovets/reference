@@ -25,6 +25,9 @@ Rack-mounted units typically 40–100 kW; floor-standing units several hundred k
 ## Examples
 Row-scale CDUs feeding NVIDIA GB200 racks; in-rack units in colocation where the tenant brings liquid cooling into an air-cooled hall; Vertiv, CoolIT, Motivair, and Boyd units across current AI deployments.
 
+## Economic profile
+A CDU is unavoidable overhead on any liquid deployment beyond a single rack, so the question is what it costs per kilowatt served and across how many racks that cost spreads. Floor-standing units of several hundred kilowatts to over a megawatt cost less per kilowatt than a stack of 40–100 kW in-rack units and are easier to maintain, so a uniform row is the cheaper thing to build. Colocation tenants buy in-rack units anyway at the higher unit cost, because what they are paying for is the ability to bring liquid cooling into a hall they do not own and cannot modify. Two costs get left out of budgets: N+1 pumps, which are not optional when everything downstream depends on one unit, and a fluid chemistry and filtration program, which is a recurring operating cost data center teams have not historically carried. Skipping the second is the expensive mistake, because contamination shows up months later as blocked cold plates in hardware worth far more than the CDU.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=TH0IxtWfwUI — Revolutionizing AI & GPU Cooling: The Power of CDUs (Coolant Distribution Units) in Data Centers (HVAC TV, 12 minutes, 5k+ views)
@@ -33,4 +36,4 @@ Row-scale CDUs feeding NVIDIA GB200 racks; in-rack units in colocation where the
 
 ## Further reading
 
-[Liquid and Immersion Cooling Options for Data Centers (Vertiv)](https://www.vertiv.com/en-us/solutions/learn-about/liquid-cooling-options-for-data-centers/)
+[Liquid and Immersion Cooling Options for Data Centers (Vertiv)](https://www.vertiv.com/en-us/solutions/learn-about/liquid-cooling-options-for-data-centers/) · [Water-Cooled Servers: Common Designs, Components, and Processes (ASHRAE Technical Committee 9.9)](https://www.ashrae.org/file%20library/technical%20resources/bookstore/whitepaper_tc099-watercooledservers.pdf)

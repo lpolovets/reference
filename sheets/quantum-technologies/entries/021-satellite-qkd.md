@@ -25,6 +25,9 @@ Loss through the atmosphere is far below the equivalent fiber path, since most o
 ## Examples
 China's Micius satellite and the Beijing-Vienna video call it secured; the European Union's EuroQCI and IRIS2 programs; the UK and Singapore SpeQtral missions; several commercial ventures proposing constellations for key delivery.
 
+## Economic profile
+Nearly all the cost is fixed and sits in two places: building and launching the satellite, and the optical ground stations, which are tracking telescopes rather than antennas. Against that, a low-orbit pass delivers a few minutes of link time per station and nothing at all under cloud, so the number that matters is cost per delivered key bit over a year, and nobody publishes it. That is most of why every program flying today is a national one: Micius, EuroQCI and IRIS2, the UK and Singapore SpeQtral missions. Adding satellites and ground stations improves the ratio, since both add passes and both route around weather, so the economics only work at constellation scale. The comparison a buyer should make is against post-quantum cryptography, which is a software update and covers the whole internet, so an orbital asset is worth it only where a guarantee resting on physics rather than on mathematics has institutional value of its own.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=4QlcKuxDGrs — Quantum satellite achieves 'spooky action' at record distance (Science Magazine, 3 minutes, 100k+ views)
@@ -33,4 +36,4 @@ China's Micius satellite and the Beijing-Vienna video call it secured; the Europ
 
 ## Further reading
 
-[Quantum Flagship](https://qt.eu/)
+[Quantum Flagship](https://qt.eu/) · [Free-space and Satellite-Based Quantum Communication: Principles, Implementations, and Challenges (arXiv)](https://arxiv.org/abs/2602.01426)

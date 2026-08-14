@@ -25,6 +25,9 @@ Typically targets 50–200 hours of constraint per year · deferral value depend
 ## Examples
 Con Edison's Brooklyn-Queens Demand Management program, the best-documented US deferral case; National Grid's UK flexibility tenders; California's distribution deferral framework; the growing set of utilities running DERMS platforms to dispatch and settle these portfolios.
 
+## Economic profile
+Deferral value is straightforward arithmetic: the utility's cost of capital times the size of the avoided investment times the number of years it is pushed out. That makes the case strongest where a constraint binds for 50 to 200 hours a year and weakest where the deferral is short, since delaying a rebuild that happens anyway by two years saves only two years of carrying cost. The second source of value is optionality, because contracts are bought a year at a time and a wire is bought once, so a load forecast that turns out to be wrong costs much less. The obstacle is not the arithmetic. A utility earns a return on capital and not on contracted services, so a program that avoids capital reduces its own earnings, and until a regulator fixes that with shared savings or a performance incentive the incentive points at the wire. Con Edison's Brooklyn-Queens program is the best-documented US case, and what it mostly documents is the regulatory work rather than the technology. Price the performance gap honestly too, since contracted resources deliver at 90–99% against a wire's 99.99% and closing that gap means buying headroom.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=Hbn7KGKoBZg — Distributed energy resources (DERs) explained | Eaton PSEC (Eaton, 16 minutes, 10k+ views)
@@ -33,4 +36,4 @@ Con Edison's Brooklyn-Queens Demand Management program, the best-documented US d
 
 ## Further reading
 
-[BQDM program demonstrates benefits of non-traditional utility investments (Utility Dive)](https://www.utilitydive.com/news/bqdm-program-demonstrates-benefits-of-non-traditional-utility-investments/550110/)
+[BQDM program demonstrates benefits of non-traditional utility investments (Utility Dive)](https://www.utilitydive.com/news/bqdm-program-demonstrates-benefits-of-non-traditional-utility-investments/550110/) · [Locational Value of Distributed Energy Resources (Lawrence Berkeley National Laboratory)](https://www.osti.gov/biblio/1765585)

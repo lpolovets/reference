@@ -25,6 +25,9 @@ No water consumed in normal operation · fluid lands a few degrees above outdoor
 ## Examples
 Microsoft's closed-loop designs announced for new datacenter builds, which eliminate operational water use; Aligned's closed-loop cooling; European sites using dry coolers with adiabatic assist to hold water use near zero for most of the year; HPC facilities running warm-water loops rejected dry.
 
+## Economic profile
+Going dry buys out the whole water program: no makeup, no blowdown, no biocide, no Legionella obligation, and no water number to defend at a hearing. The price is land and fan energy, since a dry cooler is physically large for its capacity and moves much more air, and on a hot site it either derates on the design day or needs adiabatic assist to cover it. Whether that trade is a saving depends on how warm the IT loop runs. If the load still needs genuinely cold water, condensing against warm dry air drops chiller efficiency and the site pays in fan power and compressor power at once. If the loop accepts 35–45 °C, which direct-to-chip and immersion allow, the chillers can sit idle for most of the year and dry rejection is cheaper on energy as well as on water, which is why the new builds designed around liquid cooling are the ones going closed-loop.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=9f8Gnn1Q6Yk — What Is Closed-Loop Cooling? | That’s a Great Question. (Aligned Data Centers, 2 minutes, under 1k views)
@@ -33,4 +36,4 @@ Microsoft's closed-loop designs announced for new datacenter builds, which elimi
 
 ## Further reading
 
-[Best Practices Guide for Energy-Efficient Data Center Design (Berkeley Lab and FEMP)](https://datacenters.lbl.gov/sites/default/files/2025-07/best-practice-guide-data-center-design.pdf)
+[Best Practices Guide for Energy-Efficient Data Center Design (Berkeley Lab and FEMP)](https://datacenters.lbl.gov/sites/default/files/2025-07/best-practice-guide-data-center-design.pdf) · [Thermosyphon Cooler Hybrid System for Water Savings in an Energy-Efficient HPC Data Center: Results from 24 Months and the Impact on Water Usage Effectiveness (National Laboratory of the Rockies)](https://www.osti.gov/biblio/1471661)

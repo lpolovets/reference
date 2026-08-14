@@ -25,6 +25,9 @@ Qubits are single photons; the waveguides run at room temperature while the dete
 ## Examples
 PsiQuantum's foundry-based fusion architecture, built with GlobalFoundries; Xanadu's Aurora and its photonic error-correction demonstrations; Chinese Jiuzhang boson sampling experiments; the same silicon photonics platform used for datacenter transceivers.
 
+## Economic profile
+The chip itself is a wafer cost shared with the silicon photonics that goes into datacenter transceivers, so the marginal cost per component is low by the standards of this field. What is expensive is the process development needed to hit fractions of a dB per component, and the superconducting nanowire detectors, which bring back the cryogenics the platform is often said to avoid. The harder problem is financing: this architecture targets fault tolerance directly rather than a noisy intermediate machine, so there is no small system to sell along the way, and companies on this route have to raise against a milestone that arrives all at once. Teams on the gate-based platforms can charge for cloud access to imperfect hardware in the meantime, which funds part of the work and produces customers who learn the tools. If foundry yield on low-loss components arrives, the manufacturing base already exists and volume follows quickly; if it does not, there is no partial credit. Judge progress by published component loss and photon source efficiency, since those are the numbers the whole case rests on.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=v7iAqcFCTQQ — How Xanadu’s Photonic Quantum Computers Work (Xanadu, 2 minutes, 100k+ views)
@@ -33,4 +36,4 @@ PsiQuantum's foundry-based fusion architecture, built with GlobalFoundries; Xana
 
 ## Further reading
 
-[Quantum Flagship](https://qt.eu/)
+[Quantum Flagship](https://qt.eu/) · [A manufacturable platform for photonic quantum computing (Nature via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12095036/)

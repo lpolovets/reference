@@ -25,6 +25,9 @@ Runs on electricity alone, typically 1,000–2,500 kWh/t in demonstrated systems
 ## Examples
 MIT's electro-swing adsorption using quinone electrodes; Harvard and MIT pH-swing cells based on phenazine derivatives; Verdox, commercializing electro-swing; Mission Zero Technologies, using electrodialysis with a liquid sorbent and operating early commercial units.
 
+## Economic profile
+No one can quote a real cost per ton here, because nothing runs at a scale that would produce one. The demonstrated 1,000–2,500 kWh/t is the number to reason from: at $50/MWh that is $50–125/t of electricity, a fraction of the $500+/t band this sits in today, so the cost is in the hardware rather than the power bill. Electrode and membrane cost scales with area, and the area scales with how much air has to be processed, so the cell stack is the thing that has to get cheap. Cycle life decides whether that stack is a capital item or a consumable, and a chemistry that degrades in hundreds of cycles is a consumable. If someone quotes sub-$100/t, ask which component prices the number assumes and who manufactures them at that price today.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=7sGoU91RcEE — Electrochemical device captures carbon dioxide at the flick of a switch (Rice University, 3 minutes, 10k+ views)

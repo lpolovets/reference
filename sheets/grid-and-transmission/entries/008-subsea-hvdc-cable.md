@@ -25,6 +25,9 @@ Mass-impregnated to 600 kV; extruded XLPE DC to 525 kV and about 2,600 MW · rou
 ## Examples
 North Sea Link, 720 km between Norway and the UK; NordLink; Viking Link between the UK and Denmark; the NeuConnect interconnector; the many offshore wind export cables now being built in the North Sea and off the US east coast.
 
+## Economic profile
+Price per km, roughly $1.5–4M depending on rating and depth, matters less here than whether a factory and a vessel slot exist at all. A handful of manufacturers and even fewer laying vessels serve the whole world, and one project can absorb a factory's output for a year, so the 3–5 year lead time is set by the order book rather than by the design. That gives the cable makers pricing power the developers do not have, and it is why offshore wind schedules have slipped for reasons that had nothing to do with turbines. If you are buying, reserve the slot before the engineering is finished and treat the quote as informational until you have one. On the operating side, budget a spare length and a repair agreement before the link is energized: a repair takes months and costs tens of millions, and the transfer lost over those months is usually the larger number.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=sHJQsSK7M_0 — The Insane Engineering of a Global HVDC Grid (Engineering with Rosie, 21 minutes, 50k+ views)
@@ -33,4 +36,4 @@ North Sea Link, 720 km between Norway and the UK; NordLink; Viking Link between 
 
 ## Further reading
 
-[An Introduction to High Voltage Direct Current (HVDC) Subsea Cables Systems (Europacable)](https://europacable.eu/wp-content/uploads/2021/01/Introduction-to-HVDC-Subsea-Cables-16-July-2012_.pdf)
+[An Introduction to High Voltage Direct Current (HVDC) Subsea Cables Systems (Europacable)](https://europacable.eu/wp-content/uploads/2021/01/Introduction-to-HVDC-Subsea-Cables-16-July-2012_.pdf) · [Offshore Wind Submarine Cable Spacing Guidance (US Bureau of Safety and Environmental Enforcement)](https://www.boem.gov/sites/default/files/renewable-energy-program/Studies/TAP/722AA.pdf)

@@ -25,6 +25,9 @@ Retail sold by cabinet, wholesale from about 1 MW · priced on committed kW rath
 ## Examples
 Equinix and Digital Realty in the retail and interconnection market; CyrusOne, Vantage, and QTS in wholesale; the Ashburn and Slough interconnection clusters, where colocation exists mainly for who else is in the building; colocation halls now retrofitting rear-door heat exchangers to take AI tenants.
 
+## Economic profile
+Colocation is sold by the committed kilowatt, so the contract is a power lease with a building attached and floor area barely enters the price. That is why the crossover with self-build sits around 5–10 MW: below it, paying the operator's margin costs less than building and staffing a critical facility, and above it self-build wins on unit cost as long as the demand forecast holds. Two contract terms move the economics more than the headline rate does. Metered against committed billing decides who carries the cost of unused capacity, and a hall capped at 5–15 kW per rack can quote an attractive price per kW that means nothing if the hardware you want does not fit in it. Liquid cooling is also a contract term rather than a given, so a tenant who expects to run AI hardware in year three should get piping, water treatment, and leak response written in at signing. The one thing colocation sells that self-build cannot is interconnection: in Ashburn or Slough part of the rent is for who else is in the building, and no capital budget substitutes for that.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=kALRlKQ0mQY — What is Colocation & How Does It Work? (Interxion: A Digital Realty Company, 1 minute, 500k+ views)
@@ -33,4 +36,4 @@ Equinix and Digital Realty in the retail and interconnection market; CyrusOne, V
 
 ## Further reading
 
-[Uptime Institute Global Data Center Survey 2025 (Uptime Institute)](https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2025.Annual.Survey.Report.pdf?version=0)
+[Uptime Institute Global Data Center Survey 2025 (Uptime Institute)](https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2025.Annual.Survey.Report.pdf?version=0) · [Colocation Data Centers (Better Buildings, US Department of Energy)](https://betterbuildingssolutioncenter.energy.gov/data-center-toolkit/colocation)

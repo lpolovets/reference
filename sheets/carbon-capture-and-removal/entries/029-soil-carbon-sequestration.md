@@ -25,6 +25,9 @@ Typical gains of 0.1–0.5 t CO2 per hectare per year under improved management 
 ## Examples
 Indigo Ag and Agoro Carbon programs paying US growers for practice change; the EU's carbon farming framework; the 4 per 1000 initiative, which set the political ambition; peer-reviewed reassessments of saturation that revised earlier global estimates sharply downward.
 
+## Economic profile
+Revenue per hectare is the binding problem. Gains run 0.1–0.5 t CO2 per hectare per year and credits sell at $10–40/t, so gross credit revenue is roughly $1–20 per hectare per year (the two ranges multiplied), which does not cover the dense sampling that direct measurement requires. That gap is why most programs quantify with models, and why measured tons usually come in below modeled ones. Because one tillage season reverses the gain, payments have to continue indefinitely, so a buyer here is funding an operating expense rather than buying a stored ton.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=EQNi93raf1g — Keeping Carbon in the Soil (Ag PhD, 4 minutes, 10k+ views)

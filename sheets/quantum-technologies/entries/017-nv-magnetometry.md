@@ -25,6 +25,9 @@ Ensemble sensitivity of picotesla per root hertz, roughly a hundred times behind
 ## Examples
 Scanning NV microscopes imaging current distribution in integrated circuits; SandboxAQ's diamond magnetometers for navigation and cardiac sensing; Element Six supplying engineered diamond; geological and paleomagnetic imaging of rock samples at micron scale.
 
+## Economic profile
+Almost every part of an NV sensor is commodity hardware: a laser diode, a microwave source, a photodiode, and some optics. The cost that is not commodity is the diamond, which has to be grown with controlled nitrogen content and isotopic purity and comes from a short list of suppliers, Element Six being the one usually named. That makes diamond both the cost floor and the supply risk, and it is the line to watch, since the rest of the bill of materials falls with ordinary optoelectronics volumes. On sensitivity the platform sits roughly a hundred times behind a SERF magnetometer, so it loses any straight comparison and should not be sold into one. What buyers pay for is the absence of a shielded room and the ability to press the sensor against the sample, which is why the paying applications are chip failure analysis, in-place motor and battery diagnostics, and downhole tools, where the alternative is usually no measurement rather than a better one. If engineered diamond gets cheaper at volume the addressable set widens quickly; if it does not, this stays a specialty instrument business.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=CRfTe9gBOQA — Quantum Sensing With a Special Synthetic Diamond (Asianometry, 17 minutes, 50k+ views)
@@ -32,4 +35,4 @@ Scanning NV microscopes imaging current distribution in integrated circuits; San
 
 ## Further reading
 
-[UK National Quantum Technologies Programme](https://uknqt.ukri.org/)
+[UK National Quantum Technologies Programme](https://uknqt.ukri.org/) · [Sensitivity Optimization for NV-Diamond Magnetometry (arXiv)](https://arxiv.org/abs/1903.08176)

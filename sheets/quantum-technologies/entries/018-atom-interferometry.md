@@ -25,6 +25,9 @@ Gravimeter sensitivity in the microgal range with no long-term drift · a measur
 ## Examples
 Muquans and AOSense commercial atom gravimeters used in geophysical survey; UK National Quantum Technologies Programme trials of gravity sensing to find buried infrastructure; shipborne and airborne quantum inertial navigation trials by several navies; the 1997 Nobel Prize for laser cooling that made all of it possible.
 
+## Economic profile
+Commercial revenue today comes from gravimeters for geophysics and civil survey rather than from navigation, and the competitor is a spring gravimeter that costs far less and drifts. The quantum instrument is worth its price when a site is measured repeatedly over years, because absolute drift-free readings remove the recalibration and tie-in surveys a drifting instrument needs; for a one-off measurement the cheap instrument plus a survey crew is usually the better buy. Inertial navigation is the larger prize, and it is funded by governments through national quantum programs and navy trials, because the pacing items are laser packaging, vibration isolation, and power rather than physics, and that is a decade of engineering with nothing to sell along the way. Size is the other economic fact: roughly a cubic meter and tens of kilograms keeps the instrument off most platforms whatever it measures, so a business plan here is really a packaging roadmap. Ask a vendor what a unit weighs and what it does on a vibrating deck before asking what it achieves in a laboratory.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=X7Y7MikUS4M — How does Gravio, a quantum gravimeter, work? (Atomionics, 3 minutes, 10k+ views)

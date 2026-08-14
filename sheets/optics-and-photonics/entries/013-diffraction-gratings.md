@@ -25,6 +25,9 @@ Groove densities from about 300 to 3,600 lines per mm · dispersion far higher t
 ## Examples
 The dispersing element in nearly every laboratory spectrometer; grating pairs in chirped pulse amplification systems; echelle gratings in astronomical spectrographs; arrayed waveguide gratings performing the same function on a photonic chip.
 
+## Economic profile
+Almost all of a grating's cost sits in the master rather than in the part you buy. A ruling engine cuts one master mechanically and replicas are cast off it, so a catalog grating is mostly the master amortized over everything sold from it, while a custom groove density or blaze wavelength means paying for a new master. Ruling engines are rare enough that custom work goes to a short supplier list with long lead times, which is one reason holographic recording, done with interfering beams rather than a machine tool, is the more available route for new designs. The rest of the cost lands downstream: efficiency falls away from the blaze, so a grating specified for the wrong band gets paid for in a brighter source or a more sensitive detector. The same function made lithographically on a photonic chip, as an arrayed waveguide grating, follows semiconductor economics instead and is cheap per channel at telecom volume, which is why chip-scale multiplexing displaced free-space gratings in that application.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=5BoH1DLt1RI — How does a Grating work? | Raman for Beginners | Optical Gratings (Bruker, 2 minutes, 10k+ views)
@@ -33,4 +36,4 @@ The dispersing element in nearly every laboratory spectrometer; grating pairs in
 
 ## Further reading
 
-[Diffraction Gratings (RP Photonics Encyclopedia)](https://www.rp-photonics.com/diffraction_gratings.html)
+[Diffraction Gratings (RP Photonics Encyclopedia)](https://www.rp-photonics.com/diffraction_gratings.html) · [Diffraction Gratings Ruled and Holographic (HORIBA Scientific)](https://www.horiba.com/int/scientific/technologies/diffraction-gratings/diffraction-gratings-ruled-and-holographic/)

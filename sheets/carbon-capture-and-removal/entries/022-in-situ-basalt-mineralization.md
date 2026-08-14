@@ -25,6 +25,9 @@ Roughly 20–25 tons of water per ton of CO2 for the dissolution step · injecti
 ## Examples
 Carbfix in Iceland, which has injected CO2 since 2012 and now takes CO2 from Climeworks' Orca and Mammoth plants; the Wallula pilot in Washington State, which injected 1,000 tons into the Columbia River Basalt Group; Carbfix's Coda Terminal at Straumsvik, designed for imported CO2 by ship.
 
+## Economic profile
+This is a storage service and it is priced like one: $25–35/t at scale against $7–20/t for a saline formation. What the premium buys is the end of the monitoring obligation, since carbon that has turned to mineral needs no cap rock and no plume tracking, and about 95% of it mineralized within two years at Carbfix. Water is the cost with no substitute at 20–25 tons per ton of CO2, and per-well injection rates are lower than in a sedimentary basin, so a large project needs more wells for the same throughput. For a DAC operator selling removal at several hundred dollars a ton, storage at $25–35/t is a small share of the total, which is why the Iceland plants use it despite the premium. For imported CO2 the arithmetic changes, since shipping at $15–35/t can cost more than the storage.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=1L92GLDi9Y4 — Fixing Climate in Iceland | The New York Times (The New York Times, 2 minutes, 5k+ views)

@@ -25,6 +25,9 @@ Sensitivity of a few femtotesla per root hertz in SERF operation, comparable to 
 ## Examples
 Cerca Magnetics and QuSpin wearable magnetoencephalography systems; magnetic anomaly detection for submarine and unexploded ordnance survey; SandboxAQ's magnetic navigation work; the SERF technique developed at Princeton, which made the sensitivity possible.
 
+## Economic profile
+The saving is in operating cost more than in capital cost. A SQUID magnetoencephalography system needs liquid helium and the handling that goes with it, and an OPM system removes that line entirely, but both still need a magnetically shielded room or active compensation, because SERF operation requires the ambient field nulled to the nanotesla level, and that room is the large capital item. Sensor heads are small and cheap enough to array by the hundreds, so system price scales with channel count and a buyer can start with a partial array instead of one indivisible dewar. Cost is not the whole argument: a wearable helmet works on children and on people who move, which adds patients a fixed dewar could never scan, and that is where the revenue growth case sits. Magnetoencephalography is a small clinical market on its own, so most suppliers also sell into magnetic anomaly detection and non-destructive testing to keep volume up. If a proposal quotes sensor cost with no shielding line, the budget is wrong.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=BLfwZ1NPNKY — Magnetoencephalography: measuring brain activity with magnetism (Alt Shift X, 5 minutes, 100k+ views)
@@ -33,4 +36,4 @@ Cerca Magnetics and QuSpin wearable magnetoencephalography systems; magnetic ano
 
 ## Further reading
 
-[Atomic Devices and Instrumentation Group (NIST)](https://www.nist.gov/pml/time-and-frequency-division/atomic-devices-and-instrumentation)
+[Atomic Devices and Instrumentation Group (NIST)](https://www.nist.gov/pml/time-and-frequency-division/atomic-devices-and-instrumentation) · [Optically pumped magnetometers: From quantum origins to multi-channel magnetoencephalography (NeuroImage via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6988110/)

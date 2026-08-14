@@ -36,4 +36,4 @@ Cost per kilowatt has fallen roughly tenfold since 2010, driven by pump diode pr
 
 ## Further reading
 
-[Fiber Lasers (RP Photonics Encyclopedia)](https://www.rp-photonics.com/fiber_lasers.html)
+[Fiber Lasers (RP Photonics Encyclopedia)](https://www.rp-photonics.com/fiber_lasers.html) · [Transverse Mode Instability (arXiv)](https://arxiv.org/abs/2004.14752)

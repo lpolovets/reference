@@ -25,6 +25,9 @@ STATCOM response in about 2–5 ms; SVC in roughly one to two cycles · STATCOM 
 ## Examples
 STATCOMs installed across the UK and Australian networks specifically to firm up weak grids around wind and solar; SVCs on long-standing transmission corridors and at arc furnace sites; converter-based reactive support built into offshore wind export systems.
 
+## Economic profile
+The cost question is not which device to buy but how many MVAr have to be dynamic. A STATCOM runs about ten times a mechanically switched capacitor bank per MVAr and an SVC roughly five to seven times, so a design that puts the whole reactive requirement on power electronics costs several times what it needs to. Put the bulk on switched banks and buy only the dynamic increment. The SVC's price advantage is conditional, because its output falls with voltage squared and a voltage-support duty therefore needs it oversized, which eats into the gap. Converter losses of around 1% are the other ongoing item, paid as energy for the life of the installation, and they are a second reason to leave steady-state work on the mechanical layer. For a buyer the deciding number is the dynamic MVAr needed during the worst contingency, and that comes out of a dynamic study rather than a load flow.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=uJKBTKYQBrk — HOW STATCOM CAN SOLVE DYNAMIC GRID PROBLEMS (Amjad Marmash, 22 minutes, 50k+ views)
@@ -33,4 +36,4 @@ STATCOMs installed across the UK and Australian networks specifically to firm up
 
 ## Further reading
 
-[System Operations Reports (ENTSO-E)](https://www.entsoe.eu/publications/system-operations-reports/)
+[System Operations Reports (ENTSO-E)](https://www.entsoe.eu/publications/system-operations-reports/) · [Reliability Guideline: Reactive Power Planning (NERC)](https://www.nerc.com/globalassets/who-we-are/standing-committees/rstc/sams/reliability-guideline---reactive-power-planning.pdf)

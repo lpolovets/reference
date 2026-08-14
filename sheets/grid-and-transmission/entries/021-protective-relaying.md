@@ -25,6 +25,9 @@ Fault clearing in two to three cycles, roughly 40–50 ms, including breaker tim
 ## Examples
 The SEL-421 and equivalent transmission-class relays that define current practice; NERC's disturbance reports on inverter-based resource misoperation in the Western Interconnection, which drove new performance requirements; digital substations where relays exchange sampled values over Ethernet rather than copper.
 
+## Economic profile
+The relay is cheap and the engineering around it is not. A microprocessor relay packs line protection, metering, fault recording, and communications into one box, but a large utility maintains tens of thousands of settings files, and each one is a study someone has to do and redo. Line differential is the fastest and most selective scheme available, and its real cost is the fiber channel with sub-10 ms latency it depends on, which is a communications project rather than a protection purchase. Nearly all of this is operating expense in a business that earns a return on capital, so protection engineering tends to be staffed thinner than the risk justifies. Inverter-based resources are making that worse, since they contribute roughly 1.1–1.5 times rated current against 5–6 times for a synchronous machine, and settings that held for decades now need re-studying wherever a large inverter plant connects. If you are assessing a utility's exposure here, ask how many settings have been reviewed since the nearby generation mix changed; the age of the relays matters much less.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=DiHJ9ehpbNg — Protective relay basics | Eaton PSEC (Eaton, 10 minutes, 10k+ views)
@@ -33,4 +36,4 @@ The SEL-421 and equivalent transmission-class relays that define current practic
 
 ## Further reading
 
-[Reliability Guideline: BPS-Connected Inverter-Based Resource Performance (NERC)](https://www.nerc.com/globalassets/who-we-are/standing-committees/rstc/irpwg/inverter-based_resource_performance_guideline.pdf)
+[Reliability Guideline: BPS-Connected Inverter-Based Resource Performance (NERC)](https://www.nerc.com/globalassets/who-we-are/standing-committees/rstc/irpwg/inverter-based_resource_performance_guideline.pdf) · [Lesson Learned: Initiatives to Address and Reduce Misoperations (NERC)](https://www.nerc.com/globalassets/programs/event-analysis/lessons-learned/ll20181201_initiatives_to_address_and_reduce_misoperations.pdf)

@@ -25,6 +25,9 @@ Aluminum conductivity about 61% of copper at roughly one third the weight · con
 ## Examples
 Nearly every transmission line built in North America between 1930 and 2010; the standard Drake, Rail, and Bluebird sizes that utilities specify by codeword; ACSS variants used where a line has to run hotter without changing structures.
 
+## Economic profile
+Conductor is a small share of what a line costs; structures, foundations, and right of way are most of it. That ratio explains most of the buying behavior. Shaving 20% off the wire bill barely moves a project total, so a utility specifying ACSR is usually buying the thing its crews, hardware, and design standards already assume, and the saving it cares about is in engineering time rather than metal. The same ratio is why paying two to three times more per meter for an advanced conductor can still be rational: the right comparison is the cost of new structures or a new corridor, not the price of the wire. ACSR itself is a commodity drawn by many mills, so its price tracks aluminum and steel and there is no supplier position worth defending.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=YUcd8C5kr8Y — ACSR Conductor Explained | Best for Power Transmission (Electrology, 7 minutes, 1k+ views)
@@ -33,4 +36,4 @@ Nearly every transmission line built in North America between 1930 and 2010; the
 
 ## Further reading
 
-[Reconductoring with Advanced Conductors Can Accelerate the Rapid Transmission Expansion Required for a Clean Grid (GridLab and UC Berkeley)](https://www.2035report.com/wp-content/uploads/2024/04/GridLab_2035-Reconductoring-Technical-Report.pdf)
+[Reconductoring with Advanced Conductors Can Accelerate the Rapid Transmission Expansion Required for a Clean Grid (GridLab and UC Berkeley)](https://www.2035report.com/wp-content/uploads/2024/04/GridLab_2035-Reconductoring-Technical-Report.pdf) · [Design Manual for High Voltage Transmission Lines (USDA Rural Utilities Service)](https://www.rd.usda.gov/sites/default/files/UEP_Bulletin_1724E-200.pdf)

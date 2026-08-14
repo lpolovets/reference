@@ -24,6 +24,9 @@ Turbine inlet around 300 bar, combustion near 1,150 °C · CO2 delivered at 100�
 ## Examples
 NET Power's La Porte demonstration plant, which ran roughly 1,500 hours of testing and delivered power to the ERCOT grid in 2021; the Project Permian 300 MWe first commercial plant in west Texas; 8 Rivers, which developed the cycle, licensing variants for hydrogen and coal syngas.
 
+## Economic profile
+There is no capture cost to quote, because nothing is separated, so the comparison has to be made on delivered electricity against a combined cycle with post-combustion capture. On the projected numbers the case is good: net efficiency in the high 50s including the air separation unit, and CO2 delivered at 100–200 bar, which removes the compression train that normally takes 10–15% of a capture plant's parasitic load. The catch is that all of those numbers come from a 50 MWth demonstration and the first commercial unit is 300 MWe, a large step up in a plant built around a bespoke combustor and turbine. Someone pays for that risk, usually the offtaker in the power price or the equity holder in the return. The binding constraint is not the technology anyway: the CO2 has to go somewhere, which is why the first commercial plant is sited in west Texas rather than wherever power is worth most.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=vnmsHFpLt1I — What is the Allam Cycle? (Low Emission Technology Australia, 1 minute, 5k+ views)

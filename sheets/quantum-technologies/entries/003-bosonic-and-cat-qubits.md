@@ -25,6 +25,9 @@ Encodes a logical qubit in one resonator rather than in many two-level systems �
 ## Examples
 Alice & Bob's cat qubit processors and their published bit-flip lifetimes; AWS's Ocelot chip, which combines cat qubits with a repetition code; Yale's original bosonic code experiments, where the approach was invented.
 
+## Economic profile
+The case for bosonic encodings is capital avoided rather than revenue earned. A surface-code machine needs roughly 1,000 physical qubits per logical one, each with its own control line into a fridge that costs several hundred thousand dollars to over a million and accepts only so many lines, so overhead is what decides how many fridges a useful machine takes. If biasing the noise cuts that overhead by an order of magnitude, the same computation fits in a fraction of the hardware, which is worth funding even at research maturity. The offset is that every cat qubit needs a continuous stabilizing drive and harder readout, so part of the qubit saving comes back as control channels and calibration. That is why the number to ask for is physical qubits and control lines per logical qubit end to end, measured against a surface code on comparable hardware, rather than a bit-flip time on its own. There is nothing to buy here before the mid-2030s, so this is a research position, which is how AWS and Alice & Bob are treating it.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=nI0Yg-QRAns — Cat Qubits and LDPC Codes, a New Step Towards Quantum Error Correction (Alice & Bob, 5 minutes, 5k+ views)
@@ -32,4 +35,4 @@ Alice & Bob's cat qubit processors and their published bit-flip lifetimes; AWS's
 
 ## Further reading
 
-[Quantum Computers Glossary (QuEra)](https://www.quera.com/glossary)
+[Quantum Computers Glossary (QuEra)](https://www.quera.com/glossary) · [Quantum computation with cat qubits (arXiv)](https://arxiv.org/abs/2203.03222)

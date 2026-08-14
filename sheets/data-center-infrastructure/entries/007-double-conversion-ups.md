@@ -24,6 +24,9 @@ Efficiency 96–97% in double conversion, above 98% in eco mode · ride-through 
 ## Examples
 Modular UPS systems from Vertiv, Schneider, Eaton, and ABB in almost every colocation facility; eco-mode operation now common in hyperscale, where power quality is good and the efficiency point is worth chasing; Uptime Institute survey data showing average PUE stuck near 1.5, of which the UPS is a small but persistent contributor.
 
+## Economic profile
+Most of the cost is the plant and the room it sits in, but the losses run every hour. Modern units hold 96–97% in double conversion and above 98% in eco mode, and one to two points on a 100 MW IT load is 1–2 MW burned continuously, which is why hyperscale operators chase eco mode and sites with poor power quality usually do not. The recurring line item is batteries: valve-regulated lead-acid strings need replacing every 3–5 years against 8–10 for lithium, and each replacement is labor in a live building rather than just cells. Deploying modules N+1 multiplies the whole plant, so the redundancy target moves the capital number more than any efficiency decision does. Where the operator wants the stored energy to do something between outages, a lithium plant with grid-services capability gets two jobs out of the same capital, which is usually the better structure wherever demand response pays.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=uz6unYab6G0 — How Data Center UPS Systems Work (MEP Academy, 7 minutes, 10k+ views)
@@ -32,4 +35,4 @@ Modular UPS systems from Vertiv, Schneider, Eaton, and ABB in almost every coloc
 
 ## Further reading
 
-[Electrical Efficiency Measurement for Data Centers, White Paper 154 (Schneider Electric)](https://download.schneider-electric.com/files?p_File_Name=NRAN-72754V_R2_EN.pdf&p_Doc_Ref=SPD_NRAN-72754V_EN)
+[Electrical Efficiency Measurement for Data Centers, White Paper 154 (Schneider Electric)](https://download.schneider-electric.com/files?p_File_Name=NRAN-72754V_R2_EN.pdf&p_Doc_Ref=SPD_NRAN-72754V_EN) · [Eaton Energy Saver System: Facts and Principles (Eaton)](https://www.eaton.com/content/dam/eaton/markets/data-center/documents/Eaton_Energy_Saver_System_facts_and_principles_White_Paper.pdf)

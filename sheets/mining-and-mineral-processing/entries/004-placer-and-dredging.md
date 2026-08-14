@@ -25,6 +25,9 @@ No blasting or grinding needed, removing the largest energy cost in the flowshee
 ## Examples
 Yukon and Alaskan alluvial gold operations; Namibian and South African offshore diamond dredging; Australian and Indian mineral sands producing titanium and zircon; Indonesian and Brazilian artisanal operations, where the mercury problem is concentrated.
 
+## Economic profile
+Skipping blasting and grinding removes the largest energy cost in the flowsheet, so operating cost per ton is low and capital is modest, which is why placer is one of the few routes where a very small operator can still be viable. The financial risk moves to the resource estimate instead. Placer grade distributions are skewed enough that a bulk sample can be wrong by a factor rather than by a few percent, and that is what makes a placer deposit hard to finance even though the mining itself is cheap and well understood. Permitting is the other cost, and it is mostly about water and sediment rather than about the ore, so the schedule is set by a regulator rather than by the orebody. If you are looking at a placer project, weight the sampling program more heavily than the equipment list, because that is where the money is usually lost.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=jfKxpuU0DAg — Yukon Placer Mining 101 (KPMA101, 24 minutes, 1k+ views)
@@ -32,4 +35,4 @@ Yukon and Alaskan alluvial gold operations; Namibian and South African offshore 
 
 ## Further reading
 
-[Mineral Processing Engineering (911 Metallurgist)](https://www.911metallurgist.com/blog/)
+[Mineral Processing Engineering (911 Metallurgist)](https://www.911metallurgist.com/blog/) · [Gold in Placer Deposits (USGS)](https://pubs.usgs.gov/bul/1857g/report.pdf)

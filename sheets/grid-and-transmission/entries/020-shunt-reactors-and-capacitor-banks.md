@@ -25,6 +25,9 @@ Capacitor output falls with the square of voltage, so a 10% dip gives 19% less s
 ## Examples
 Capacitor banks on distribution feeders, the single most common reactive device on any grid; shunt reactors at both ends of long 400 and 500 kV lines and on nearly every EHV cable circuit; switched banks used seasonally to follow summer air-conditioning load.
 
+## Economic profile
+At roughly a tenth of a STATCOM per MVAr, banks are the cheapest reactive support available, and the usual costly mistake is buying speed for work that does not need it. Every MVAr moved from a dynamic device to a switched bank costs about a tenth as much, so the sizing question worth real study time is how many MVArs genuinely have to respond within a cycle. The counterweight is that a capacitor delivers least exactly when the system needs most, since output falls with the square of voltage and a 10% dip costs 19% of it, so a design that meets its reactive requirement entirely with banks can still fail during a voltage collapse. On cable circuits shunt reactors are not a discretionary purchase, and they belong in the cable project's budget rather than being priced later as an addition. The defensible answer is nearly always layered: banks for the bulk MVArs in 25–150 MVAr steps, and a dynamic device sized from a study for the fast increment.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=Rdl540lDIAM — Why Are Shunt Reactors Used in Power Systems? | TheElectricalGuy (Gaurav J - TheElectricalGuy, 19 minutes, 50k+ views)
@@ -33,4 +36,4 @@ Capacitor banks on distribution feeders, the single most common reactive device 
 
 ## Further reading
 
-[Substations (T&D World)](https://www.tdworld.com/substations)
+[Substations (T&D World)](https://www.tdworld.com/substations) · [Reliability Guideline: Reactive Power Planning (NERC)](https://www.nerc.com/globalassets/who-we-are/standing-committees/rstc/sams/reliability-guideline---reactive-power-planning.pdf)

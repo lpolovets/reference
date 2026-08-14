@@ -25,6 +25,9 @@ Requires millikelvin temperatures and a magnetic field applied to a semiconducto
 ## Examples
 Microsoft's Majorana 1 chip and the debate that followed it; Delft's retracted 2018 result and the reanalysis that followed; indium arsenide and aluminum hybrid nanowires as the material system; the theoretical work by Kitaev that started the field.
 
+## Economic profile
+There is no product to price, so the economics are about who can afford to wait. Two decades of work with no demonstrated braiding operation is a schedule only a corporate research budget or a national program can carry, which is why Microsoft rather than a venture-backed startup has been the main sponsor. The payoff is asymmetric. A topological machine would still need a dilution refrigerator, so its per-chip cost structure would look much like a superconducting one, and the entire saving comes from needing far fewer physical qubits per logical one, which is the factor that dominates every other roadmap. Against that, the foundational claim is still disputed: the 2018 Nature paper was retracted in 2021, and the 2025 Majorana 1 result drew immediate criticism. A reasonable position is one sized so that writing it off costs nothing important, and the trigger to increase it is an independent group reproducing a braiding result rather than another announcement.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=wSHmygPQukQ — Majorana 1 Explained: The Path to a Million Qubits (Microsoft, 12 minutes, 1m+ views)
@@ -33,4 +36,4 @@ Microsoft's Majorana 1 chip and the debate that followed it; Delft's retracted 2
 
 ## Further reading
 
-[Quantum Computing: Progress and Prospects (National Academies)](https://nap.nationalacademies.org/catalog/25196/quantum-computing-progress-and-prospects)
+[Quantum Computing: Progress and Prospects (National Academies)](https://nap.nationalacademies.org/catalog/25196/quantum-computing-progress-and-prospects) · [Realizing Majorana zero modes in superconductor-semiconductor heterostructures (arXiv)](https://arxiv.org/abs/1707.04899)

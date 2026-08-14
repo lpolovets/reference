@@ -25,6 +25,9 @@ Galvo small-signal bandwidth of a few kHz, with step-and-settle in the hundreds 
 ## Examples
 Galvo heads on every laser marking and cutting system; polygon scanners in laser printers and web inspection; MEMS mirrors in automotive LiDAR and pico-projectors; fast steering mirrors stabilizing beams in free-space optical links and telescopes.
 
+## Economic profile
+In an industrial system the scanner is rarely the expensive part. A galvo pair and an F-theta lens sit in the low thousands next to a fiber laser at $10k–500k, so the head is a small share of a marking or cutting machine and the decision is about throughput rather than purchase price: a few kilohertz of bandwidth and step-and-settle in the hundreds of microseconds set parts per hour on a machine whose capital cost is mostly the laser. For a job shop, that usually makes the faster head worth buying. Within galvos, price climbs with aperture, since a bigger mirror needs a bigger motor and a stiffer servo to hold the same bandwidth, so specifying a beam larger than the process needs raises the cost of the head and the F-theta lens together. MEMS mirrors are the opposite case, made lithographically in wafer volume and cheap enough for a consumer product, which is the only reason pico-projectors and low-cost automotive LiDAR exist. That cheapness has a price elsewhere in the system: a 1–5 mm aperture caps how much return light the receiver collects, so the saving comes back as shorter range or as a more sensitive detector.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=IigmZflvvRc — Laser Beam Stabilization with Fast Steering Mirrors (Newport Corp by MKS, 5 minutes, 10k+ views)
@@ -33,4 +36,4 @@ Galvo heads on every laser marking and cutting system; polygon scanners in laser
 
 ## Further reading
 
-[Lasers & Sources (Laser Focus World)](https://www.laserfocusworld.com/lasers-sources)
+[Lasers & Sources (Laser Focus World)](https://www.laserfocusworld.com/lasers-sources) · [MEMS Mirrors for LiDAR: A Review (Micromachines via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7281653/)

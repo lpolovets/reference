@@ -25,6 +25,9 @@ Low-intensity separators run below about 0.3 tesla; high-gradient units reach 1�
 ## Examples
 Magnetite iron ore concentrators in Sweden, Australia, and the US; mineral sands plants in Australia and Africa running gravity, magnetic, and electrostatic stages in sequence; high-gradient separators purifying kaolin and silica sand; drum separators in every dense medium circuit.
 
+## Economic profile
+Operating cost is unusually low here, since both routes run dry with no reagents and little power, so most of what a buyer pays for is capital and maintenance rather than consumption. One design choice does move the operating line: permanent rare-earth units draw no power to hold their field, while wound-coil high-gradient machines pay for theirs continuously, which matters at 1–2 tesla and not at 0.3. The value usually comes from the specification rather than from a recovery gain. Removing iron down to tenths of a percent is what lets a kaolin or silica producer sell into the high-purity market at all, and in mineral sands the magnetic and electrostatic stages are what split one gravity concentrate into separately salable ilmenite, rutile, and zircon products. The third role is medium recovery in dense medium plants, where ferrosilicon loss is the main operating cost, so this is the circuit that keeps that cost bounded rather than a revenue step of its own.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=PMxjordJ73o — How Magnetic Separators Work (Edison Tech Center, 2 minutes, 50k+ views)
@@ -33,4 +36,4 @@ Magnetite iron ore concentrators in Sweden, Australia, and the US; mineral sands
 
 ## Further reading
 
-[Magnetic Separation of Fine Mineral Sulphides (911 Metallurgist)](https://www.911metallurgist.com/blog/magnetic-separation/)
+[Magnetic Separation of Fine Mineral Sulphides (911 Metallurgist)](https://www.911metallurgist.com/blog/magnetic-separation/) · [Physical beneficiation of heavy minerals - Part 2: A state of the art literature review on magnetic and electrostatic concentration techniques (Heliyon)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11219336/)

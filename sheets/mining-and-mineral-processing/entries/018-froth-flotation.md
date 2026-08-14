@@ -36,4 +36,4 @@ Recovery is worth more than almost anything else in a concentrator: one percenta
 
 ## Further reading
 
-[Froth Flotation Process (911 Metallurgist)](https://www.911metallurgist.com/blog/froth-flotation-process/)
+[Froth Flotation Process (911 Metallurgist)](https://www.911metallurgist.com/blog/froth-flotation-process/) · [Froth Flotation of Chalcopyrite/Pyrite Ore: A Critical Review (Materials)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9572913/)

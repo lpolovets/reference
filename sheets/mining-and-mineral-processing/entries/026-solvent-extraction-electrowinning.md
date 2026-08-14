@@ -25,6 +25,9 @@ Electrowinning uses roughly 2,000 kWh per ton of copper cathode · produces cath
 ## Examples
 Chilean and Peruvian oxide copper operations, where SX-EW built the modern cathode business; Kazakh uranium ISR plants using ion exchange and solvent extraction; cobalt and lithium refineries adopting the same unit operations; Escondida's oxide plant alongside its sulfide concentrator.
 
+## Economic profile
+Electrowinning uses roughly 2,000 kWh per ton of cathode, so every cent per kWh on the power contract is $20 per ton of copper, which is why these plants get sited where electricity is cheap and reliable. Against that sits what the route avoids: no concentrate shipping, no smelter, and no treatment and refining charges, so the operator sells cathode at the metal price rather than a netback. The ceiling is geological rather than economic. An oxide cap is a finite part of an orebody, so an SX-EW plant usually has a shorter life than the mine beneath it, and the investment case should be run against oxide and secondary sulfide reserves rather than total reserves. That is also why the route has stayed around 15–20% of world copper: the binding constraint is chalcopyrite, and a leach that worked on it would move that number far more than any improvement in solvent extraction or electrowinning.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=CCFvsbHHqSc — Central Asia Metals - Focus on the SX-EW process 2021 (CentralAsiaMetals, 1 minute, 10k+ views)
@@ -33,4 +36,4 @@ Chilean and Peruvian oxide copper operations, where SX-EW built the modern catho
 
 ## Further reading
 
-[Copper Statistics and Information (USGS)](https://www.usgs.gov/centers/national-minerals-information-center/copper-statistics-and-information)
+[Copper Statistics and Information (USGS)](https://www.usgs.gov/centers/national-minerals-information-center/copper-statistics-and-information) · [Extraction and Beneficiation of Ores and Minerals, Volume 4: Copper (US EPA)](https://archive.epa.gov/epawaste/nonhaz/industrial/special/web/pdf/copper.pdf)

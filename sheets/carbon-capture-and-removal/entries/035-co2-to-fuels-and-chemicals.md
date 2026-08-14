@@ -25,6 +25,9 @@ Roughly 3 tons of CO2 and 0.5 tons of hydrogen per ton of methanol · about 10�
 ## Examples
 Norsk e-Fuel and Infinium producing synthetic kerosene from captured CO2 and green hydrogen; INERATEC's modular Fischer-Tropsch plants; Carbon Recycling International's methanol plant in Iceland, running since 2012; Twelve and Dioxycle developing CO2 electrolysis toward commercial current densities.
 
+## Economic profile
+Power price sets the whole business. At 10–15 MWh per ton of synthetic fuel, every $10/MWh on the electricity price adds $100–150 to the cost of a ton of product, which is why electricity is 60–80% of production cost and why plants get sited near cheap clean power rather than near CO2 supply. There is no removal credit in the revenue, because the carbon returns to the air when the fuel burns, so the money has to come from a fuel mandate or a buyer paying a premium over jet fuel that costs several times less. Chemicals are the better near-term market, since the product is worth more per ton of carbon and the volumes needed are smaller; non-energy CO2 use already runs over 200 Mt/yr, mostly urea.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=G1nDRqtbgew — How we turn CO₂ into e-Fuel – This is how it works (INERATEC, 3 minutes, 1k+ views)

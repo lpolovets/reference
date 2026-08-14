@@ -25,6 +25,9 @@ Optical transitions near 500 THz against 9.2 GHz for cesium, so roughly 50,000 t
 ## Examples
 NIST's aluminum ion quantum logic clock, the current accuracy record holder; strontium lattice clocks at JILA and PTB; the international effort toward redefining the SI second on an optical transition; transportable clocks used for relativistic geodesy field campaigns.
 
+## Economic profile
+The cost of a laboratory optical clock is mostly the laser stack: several stabilized lasers, an ultra-stable reference cavity, a frequency comb, and people who can keep all of it running. Those systems are not sold as products, because national metrology institutes build them and the funding is science funding rather than a purchase order. The commercial version is the compact optical clock, and it is sold against rubidium and cesium standards on one question, which is how much holdover accuracy a buyer gets per dollar and per watt when GPS is denied. Most timing requirements do not need anything close to 10^-19, so the addressable market is narrow (telecom, defense, and metrology) and a chip-scale or rubidium clock is orders of magnitude cheaper for everything else. The lever that would widen it is integrated photonics: putting the lasers, the cavity, and the comb onto chips is what takes the price from a laboratory number to an instrument number, so progress on those components predicts this market better than any new accuracy record does.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=Yr2Qo-PYJWw — How optical clocks are redefining time and physics (New Scientist, 5 minutes, 10k+ views)

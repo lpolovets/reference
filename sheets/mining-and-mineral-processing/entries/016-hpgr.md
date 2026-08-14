@@ -25,6 +25,9 @@ Operating pressure 50–150 bar between the rolls · energy saving of 15–30% a
 ## Examples
 The world's largest HPGR installation at Morenci in Arizona; standard practice in diamond liberation, where the gentle breakage preserves stones; iron ore pellet feed grinding; several recent copper projects choosing HPGR circuits specifically to cut water and power.
 
+## Economic profile
+Capital per ton is higher than a ball mill's, so the case rests on the operating side, and it has two separate halves. The energy half is arithmetic: grinding commonly runs 10–25 kWh per ton, so a 15–30% saving is roughly 1.5 to 7.5 kWh per ton, which is worth a lot where power is expensive and close to nothing where power is cheap and the ore is soft. Working against it are the studded rolls, a major consumable, so an abrasive ore can spend the whole energy saving on roll replacement. The recovery half is usually the larger number, because micro-cracking measurably raises heap leach recovery and a recovery point is worth more than an energy point on the same plant. Dry operation adds a third argument in arid districts, where water is a permitting constraint before it is a cost. If you are evaluating an HPGR circuit, get the power price, the roll wear rate on this ore, and the leach recovery uplift before anything else, since all three are ore-specific and together they decide it.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=siLP3b3LWok — HPGR Pro | High Pressure Grinding Rolls (FLSmidth, 3 minutes, 500k+ views)
@@ -33,4 +36,4 @@ The world's largest HPGR installation at Morenci in Arizona; standard practice i
 
 ## Further reading
 
-[Home (International Mining)](https://im-mining.com/)
+[Home (International Mining)](https://im-mining.com/) · [Real and Potential Metallurgical Benefits of HPGR in Hard Rock Ore Processing (CEEC)](https://www.ceecthefuture.org/wp-content/uploads/2013/02/HvM-HPGR-paper-for-Randol-Perth-2005.pdf)

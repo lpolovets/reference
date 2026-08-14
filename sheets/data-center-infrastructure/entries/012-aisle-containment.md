@@ -24,6 +24,9 @@ Cooling energy savings commonly 20–40% in a previously uncontained room · let
 ## Examples
 Universal in hyperscale design since the early 2010s; colocation retrofits where containment released stranded capacity without new mechanical plant; Berkeley Lab's data center best-practice guidance, which puts air management ahead of equipment upgrades.
 
+## Economic profile
+This is the cheapest large gain available in an air-cooled hall, and it is cheap in two ways: the capital is modest, and the work goes in rack by rack without taking the room out of service. Cooling energy typically falls 20–40% in a previously uncontained room, and payback is often under two years on the energy saving alone. The bigger number is usually capacity. Containment releases racks that were already built and paid for, so a colocation operator can sell more of an existing hall with no new mechanical plant, which is usually a better return than the same money spent on chillers. Blanking panels and sealed floor cutouts deliver much of the benefit for very little, so even the low-budget version pays. What does need budgeting is the review work: fire suppression and sprinkler coverage have to be re-examined with the barriers in place, and thermal ride-through shrinks to roughly a minute, so procedures written for an uncontained room need revisiting too.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=qzTpqpHnRdU — Hot Aisle vs Cold Aisle Containment Explained (MEP Academy, 5 minutes, 5k+ views)
@@ -32,4 +35,4 @@ Universal in hyperscale design since the early 2010s; colocation retrofits where
 
 ## Further reading
 
-[Data Center Energy Efficiency Toolkit (Berkeley Lab Center of Expertise)](https://datacenters.lbl.gov/tools)
+[Data Center Energy Efficiency Toolkit (Berkeley Lab Center of Expertise)](https://datacenters.lbl.gov/tools) · [Implementing Hot and Cold Air Containment in Existing Data Centers, White Paper 153 (Schneider Electric)](https://download.schneider-electric.com/files?p_File_Name=VAVR-8K6P9G_R0_EN.pdf&p_Doc_Ref=SPD_VAVR-8K6P9G_EN)

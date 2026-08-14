@@ -25,6 +25,9 @@ Closure cost commonly 5–15% of a mine's total capital, and much more where wat
 ## Examples
 The ICMM integrated mine closure guidance, now the reference document; Teck and Rio Tinto progressive rehabilitation programs; closed mines converted to solar generation and pumped storage; the US abandoned hardrock mine inventory, where responsible parties often no longer exist.
 
+## Economic profile
+Closure is the one large cost with no revenue against it, which distorts every incentive around it. At 5–15% of total capital, and more where water treatment continues, it is big enough to matter and far enough away that discounting makes it look small, so the temptation is always to leave it to the end. Progressive rehabilitation is the answer, and the reason is cash rather than ecology: rehabilitating during the producing years pays for it out of operating cash flow, and it lowers the assurance that has to be posted at the same time. That assurance is itself a real cost while the mine runs, because a surety bond or a letter of credit ties up credit capacity, which is why operators argue for lower estimates and part of why those estimates are frequently too low. For a buyer the conclusion is blunt. A late-life mine comes with its closure obligation attached, so what looks like a cheap producing asset can be a purchase of a liability with some ore in front of it, and the first thing to check is when the closure estimate was last updated against the current mine plan.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=uYw06osVLMI — Ep 3: What happens to a mine AFTER it is closed? (Mining2Me, 2 minutes, 10k+ views)

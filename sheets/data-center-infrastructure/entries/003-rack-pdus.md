@@ -24,6 +24,9 @@ Typical rack feeds 208 V or 415 V three-phase at 30–60 A, giving roughly 5–2
 ## Examples
 Metered and switched PDUs from Vertiv, Raritan, APC, and ServerTech in nearly every colocation cabinet; per-outlet data feeding DCIM capacity models; 415 V distribution in hyperscale halls, which delivers 240 V line-to-neutral to equipment and cuts conductor size.
 
+## Economic profile
+Rack PDUs are among the cheapest items in the power chain, and the metering is what a buyer is actually paying for. The step from basic to metered or per-outlet is small, and per-outlet data is the input to every capacity decision in a facility that typically has 10–30% of its installed power stranded in the wrong place. Switched units are justified on a different line: at an edge site or an unstaffed colocation cage, one avoided visit can easily cost more than the unit. The ceiling is what to plan around. Conventional 208 V strips run out somewhere near 40–50 kW per rack, so at AI density the spending moves to rack power shelves and higher-voltage distribution and the PDU stops being the interesting part of the chain. If a hall is being specified for a decade, buy per-outlet metering everywhere and assume the strips themselves get replaced along the way.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=DrK8wjePVO8 — Understanding Rack Power Distribution (PDU) (Critical Facilities Connect, 2 minutes, under 1k views)
@@ -32,4 +35,4 @@ Metered and switched PDUs from Vertiv, Raritan, APC, and ServerTech in nearly ev
 
 ## Further reading
 
-[Data Center Energy Efficiency Toolkit (Berkeley Lab Center of Expertise)](https://datacenters.lbl.gov/tools)
+[Data Center Energy Efficiency Toolkit (Berkeley Lab Center of Expertise)](https://datacenters.lbl.gov/tools) · [Considerations for a Highly Available Intelligent Rack Power Distribution Unit (Vertiv)](https://www.vertiv.com/globalassets/documents/white-papers/white-paper-rack-pdu-en_7014_0.pdf)

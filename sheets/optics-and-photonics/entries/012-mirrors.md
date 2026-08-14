@@ -25,6 +25,9 @@ Protected aluminum reflects about 90% across the visible; silver about 98%; gold
 ## Examples
 Off-axis parabolas focusing ultrafast pulses without adding dispersion; laser cavity mirrors with dielectric stacks; the 39-meter segmented primary of the Extremely Large Telescope; the ultra-low-loss coatings on LIGO's test masses.
 
+## Economic profile
+Cost sits in two places, the polish and the coating run, and both scale badly with the specification. Polishing time rises steeply as the flatness spec tightens, so a catalog flat at a quarter wave is inexpensive and tightening it to a twentieth of a wave usually multiplies the price with no change in material. Coating is a batch process: a chamber run has a fixed setup and a fixed load, so the price per mirror is that run divided by how many fit in it. That is why a standard diameter with a catalog dielectric coating is cheap while a custom design in a custom size pays for the whole run and waits weeks for it. The practical rule is to take a catalog coating and a catalog diameter unless the design genuinely cannot, since the substrate is rarely the expensive part. At the extreme end, the coatings on the Extremely Large Telescope's segments and on LIGO's test masses are supply questions rather than price ones, because only a few facilities in the world can deposit to that loss and uniformity.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=DqjO4HGk9ro — Refractor vs Reflector telescope explained for beginners (Alien Tech, 7 minutes, 50k+ views)
@@ -33,4 +36,4 @@ Off-axis parabolas focusing ultrafast pulses without adding dispersion; laser ca
 
 ## Further reading
 
-[Mirrors (RP Photonics Encyclopedia)](https://www.rp-photonics.com/mirrors.html)
+[Mirrors (RP Photonics Encyclopedia)](https://www.rp-photonics.com/mirrors.html) · [LIGO Optics (Caltech)](https://www.ligo.caltech.edu/page/optics)

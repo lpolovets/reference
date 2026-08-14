@@ -25,6 +25,9 @@ Credited volume is the difference against a modeled baseline, not a measured sto
 ## Examples
 California's compliance forest offset protocol, the largest program of its type and the subject of the best-known over-crediting analyses; the American Forest Foundation and Nature Conservancy Family Forest Carbon Program; Verra's VM0012 and related methodologies; CarbonPlan's public reanalysis of California project baselines.
 
+## Economic profile
+Cost per ton is low because what the owner gives up is timber revenue rather than capital equipment, so the price tracks stumpage values and the discount rate more than anything technical. That also caps supply: where timber is valuable, deferring harvest costs more than the credit pays, and where it is not, the baseline is hard to defend. At $5–25/t a buyer is paying for a counterfactual rather than a measured stock change, which is why several large projects have been reassessed downward, some by more than half. Check the buffer pool, usually 10–20%, before the price, because that pool is what covers a reversal and it is thin in a region that burns.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=2Q-iHyDhF9M — Explained: FFCP’s Forest Carbon Methodology (American Forest Foundation, 2 minutes, 10k+ views)
@@ -33,4 +36,4 @@ California's compliance forest offset protocol, the largest program of its type 
 
 ## Further reading
 
-[State of Carbon Dioxide Removal (SoCDR)](https://www.stateofcdr.org/)
+[State of Carbon Dioxide Removal (SoCDR)](https://www.stateofcdr.org/) · [Systematic over-crediting in California's forest carbon offsets program (PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9299598/)

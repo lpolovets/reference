@@ -25,6 +25,9 @@ Roughly 2–3 tons of silicate mineral or slag per ton of CO2 · passive tailing
 ## Examples
 Arca and the CarbMin Lab at UBC accelerating carbonation in nickel tailings at Mount Keith in Australia; Carbin Minerals; steel slag carbonation trials in Europe and Japan; Heirloom and CarbonCure moving captured CO2 into concrete, which is the same chemistry in a product rather than a waste pile.
 
+## Economic profile
+The $60–200/t figure assumes the feedstock is free, and that assumption is most of the business. At 2–3 tons of mineral per ton of CO2, haulage costs more than the rock is worth, so the numbers only close at a mine or a steel plant where reactive material is already crushed and already sitting next to power. Against geologic storage the saving is regulatory: no injection permit, no cap-rock characterization, and no monitoring obligation, which takes out both the 2–6 year Class VI timeline and the liability that trails it. What replaces that cost is reaction rate, since finishing in hours instead of months takes 100–185 °C and 20–150 bar, and that energy nets off the tons. A mine operator carbonating its own tailings has the best version: the material and the site are already paid for, and the tons either sell as durable removal or offset the operation's own emissions.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=yxUG7Hh3kpU — Using ultramafic mine tailings to capture carbon dioxide from the air (CarbMin Lab, UBC) (CarbMin Lab, 2 minutes, 1k+ views)
@@ -33,4 +36,4 @@ Arca and the CarbMin Lab at UBC accelerating carbonation in nickel tailings at M
 
 ## Further reading
 
-[Carbon Mineralization in Fractured Mafic and Ultramafic Rocks: A Review (PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11586057/)
+[Carbon Mineralization in Fractured Mafic and Ultramafic Rocks: A Review (PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11586057/) · [Open System Ex-situ Mineralization v1.0 (Isometric)](https://registry.isometric.com/protocol/open-system-ex-situ-mineralization/1.0)

@@ -25,6 +25,9 @@ Interval recording at 15 minutes to one hour · about 128.4 million advanced met
 ## Examples
 Full-territory rollouts by most US investor-owned utilities; Great Britain's national smart meter program; Italy's Enel deployment, the first at national scale; rural cooperatives using AMI voltage data to find failing transformers before they fail.
 
+## Economic profile
+The deployment is largely a sunk decision, with about 128.4 million advanced meters installed in the US and most utilities either finished or committed. Getting there was a large capital program, which under rate-of-return regulation is the kind of spending a utility is rewarded for, so approval usually turned on the benefit case rather than on the price. Those benefits split unevenly. Avoided truck rolls, faster restoration, and remote connect and disconnect accrue to the utility and are easy to count, while the customer-side benefit depends on the regulator approving time-of-use or critical-peak rates, without which the interval data changes nobody's bill. The common failure is timing rather than cost, since the head-end and meter data management systems and the analytics that justify the program often arrive years after the meters. For a utility still choosing, the decision worth the most analysis is mesh against cellular, because the communications network is harder to change than the meters and should be compared over 15 years rather than on installation price.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=WkKzXmwMDBE — Communication Technology for Smart Meters – AMR vs. AMI (TE Connectivity, 3 minutes, 10k+ views)

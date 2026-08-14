@@ -25,6 +25,9 @@ Cycles of concentration typically 3–6, and raising them cuts blowdown and tota
 ## Examples
 Google's use of reclaimed and industrial water at several US sites; Microsoft's Silicon Valley campus running on recycled water; Digital Realty and Equinix water use effectiveness reporting; municipal purple-pipe agreements now negotiated as part of data center siting deals.
 
+## Economic profile
+The chemicals and the labor are a small line item covering a large one, since fouled fill, scaled condensers, and a Legionella incident all cost far more than the program that prevents them. The cheapest improvement available is raising cycles of concentration: moving up within the usual range of 3–6 cuts blowdown and total draw for the price of tighter chemistry and no capital. Reclaimed municipal water is usually cheaper per gallon than potable, and it also removes the objection that actually gets raised, which is drinking water use rather than water use in the abstract, so a purple-pipe agreement is worth negotiating into the siting deal rather than after it. An on-site treatment plant is a different size of decision, since it comes with operators, permits, and discharge limits, and it pays only where campus volumes justify a real facility. Report water use effectiveness next to PUE, because a site that improved its PUE by moving to evaporative cooling moved a cost rather than removing one.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=tJYSzc7YkY0 — The Big Data Center Water Problem (Asianometry, 17 minutes, 100k+ views)
@@ -33,4 +36,4 @@ Google's use of reclaimed and industrial water at several US sites; Microsoft's 
 
 ## Further reading
 
-[2024 United States Data Center Energy Usage Report (Berkeley Lab)](https://eta-publications.lbl.gov/sites/default/files/2024-12/lbnl-2024-united-states-data-center-energy-usage-report_1.pdf)
+[2024 United States Data Center Energy Usage Report (Berkeley Lab)](https://eta-publications.lbl.gov/sites/default/files/2024-12/lbnl-2024-united-states-data-center-energy-usage-report_1.pdf) · [Cooling Water Efficiency Opportunities for Federal Data Centers (US Department of Energy Federal Energy Management Program)](https://www.energy.gov/cmei/femp/cooling-water-efficiency-opportunities-federal-data-centers)

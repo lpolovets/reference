@@ -25,6 +25,9 @@ Fast pyrolysis at about 500 °C with vapor residence under 2 seconds · roughly 
 ## Examples
 Charm Industrial, which has delivered bio-oil removal to Frontier, Stripe, Shopify, and Microsoft and operates its own pyrolyzer fleet; academic fast-pyrolysis work at Iowa State and NREL that established the oil chemistry.
 
+## Economic profile
+At $400–600/t this is among the most expensive removals anyone actually buys, and the reason is unit size rather than chemistry. Pyrolyzer capacity per machine is small, so more volume means more machines instead of one bigger plant, and the fixed cost per unit never spreads over many tons. Only 50–60% of feedstock mass leaves as oil, so the tons available to sell are well below the residue tonnage that had to be collected and paid for. Buyers accept the premium for an auditable chain, since the liquid can be weighed and the injection metered, which is why the customer list is the same handful of corporate buyers who fund DAC.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=h2jc28BIwlk — Carbon Removal: Putting Oil Underground with Charm (Angelbeat Events, 13 minutes, under 1k views)

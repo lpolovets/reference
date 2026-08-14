@@ -25,6 +25,9 @@ Passive uptake over roughly three days per cycle · no fans for the contactor, s
 ## Examples
 Heirloom's Tracy, California plant, the first US DAC facility to sell removal credits, and its larger Louisiana project; Heirloom's partnership with CarbonCure to lock captured CO2 into concrete; Calix's Leilac electric calciner, which supplies the kiln technology for lime-based approaches.
 
+## Economic profile
+The cost structure has almost no consumables, which is unusual for DAC. The sorbent is limestone-derived and does not degrade, and the contactor has no fans, so the recurring lines are kiln energy and the labor and machinery that move trays. Everything else is capital: land, racking, and the handling system, which are warehouse and construction costs rather than specialty chemistry. Three-day cycles are what makes that capital large, since a tray completes only about 120 cycles a year and annual output per square meter of racking is correspondingly small. In the US, 45Q pays $180/t for DAC with geologic storage, which covers part of a $200–500/t cost and leaves the rest to voluntary buyers; the step from 1,000 t/yr to the 17 kt/yr plant under construction is where the real number will show up.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=9IA950D2TsE — How Heirloom's Direct Air Capture facilities remove carbon dioxide from our atmosphere (Heirloom, 1 minute, 10k+ views)
@@ -33,4 +36,4 @@ Heirloom's Tracy, California plant, the first US DAC facility to sell removal cr
 
 ## Further reading
 
-[Negative Emissions Technologies and Reliable Sequestration: A Research Agenda (National Academies)](https://nap.nationalacademies.org/catalog/25259/negative-emissions-technologies-and-reliable-sequestration-a-research-agenda)
+[Negative Emissions Technologies and Reliable Sequestration: A Research Agenda (National Academies)](https://nap.nationalacademies.org/catalog/25259/negative-emissions-technologies-and-reliable-sequestration-a-research-agenda) · [Direct Air Capture Case Studies: Limestone Looping Screening-Level Analysis (NETL)](https://www.osti.gov/servlets/purl/2587275)

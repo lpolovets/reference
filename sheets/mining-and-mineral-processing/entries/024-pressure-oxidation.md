@@ -25,6 +25,9 @@ Operates at 200–230 °C and 20–35 bar with oxygen injection · raises refrac
 ## Examples
 Barrick's Goldstrike autoclaves in Nevada, the reference installation; Pueblo Viejo in the Dominican Republic; high-pressure acid leach plants for nickel laterite in the Philippines, Papua New Guinea, and Indonesia, several of which ran far over budget; Nevada roasters treating the arsenic-bearing ores autoclaves handle poorly.
 
+## Economic profile
+This is a fixed-cost decision. Raising recovery from roughly 30% to above 90% triples the gold that can be sold from the same ore, so the gain scales with head grade and tonnage while the autoclave costs hundreds of millions either way. That sets a minimum deposit size: enough contained ounces, at enough grade, over enough years to amortize a titanium-lined pressure vessel. Operating cost is more forgiving, because the reaction is autothermal once running, though the oxygen supply and the limestone for neutralizing the acidic residue are permanent line items. The comparison that decides most gold projects is against roasting, which is cheaper to build but needs sulfur dioxide and arsenic capture, and against bio-oxidation, which is cheaper still and much slower. For nickel laterite, treat published capital estimates with suspicion: several high-pressure acid leach plants in the Philippines, Papua New Guinea, and Indonesia ran far over budget, and the pattern is now old enough to be the base case rather than the exception.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=BA7QhVi20Yw — Outotec® Gold Processing Solutions (OutotecOyj, 5 minutes, 10k+ views)
@@ -33,4 +36,4 @@ Barrick's Goldstrike autoclaves in Nevada, the reference installation; Pueblo Vi
 
 ## Further reading
 
-[Mineral Processing Engineering (911 Metallurgist)](https://www.911metallurgist.com/blog/)
+[Mineral Processing Engineering (911 Metallurgist)](https://www.911metallurgist.com/blog/) · [Recovery of gold from refractory ore employing pressure oxidation (REM: International Engineering Journal)](https://www.scielo.br/j/remi/a/6TffCgkhjCCvJTfZ55KZJ9j/?lang=en)

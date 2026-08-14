@@ -25,6 +25,9 @@ Typical ratings 1–3 GW per link at 320–525 kV DC · converter losses about 1
 ## Examples
 The German offshore grid connections at 320 and 525 kV, which made VSC the standard for North Sea wind; Champlain Hudson Power Express into New York City; INELFE between France and Spain; Kriegers Flak, which links Danish and German grids through a wind farm.
 
+## Economic profile
+Two converter stations dominate the cost of a VSC link, and their price scales with rating rather than with route length, so a long link spreads its terminal cost over more distance and looks better per MW-mile than a short one. Against LCC, a buyer pays more per MW and loses about 1% per station instead of 0.7%, and the premium is paid for things LCC cannot do at any price: operating into a weak or passive grid, reactive support whether or not power is flowing, and a scheme that can grow past two terminals. The smaller footprint, roughly half an LCC station, also cuts what a developer pays for land and permitting in a city, which narrows the gap further than a per-MW comparison suggests. In practice price is rarely what decides the project. Converter slots run 3–5 years and stretch further when a supplier's order book is full, and converter transformers and IGBT supply are both bottlenecked, so the question to ask about a quote is whether a delivery slot has actually been reserved or only offered.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=sTe9EyN6bt8 — HVDC Showdown LCC vs VSC Converter Technology Explained (ABDELAZIM SAID, 7 minutes, under 1k views)
@@ -33,4 +36,4 @@ The German offshore grid connections at 320 and 525 kV, which made VSC the stand
 
 ## Further reading
 
-[Reliability Guideline: BPS-Connected Inverter-Based Resource Performance (NERC)](https://www.nerc.com/globalassets/who-we-are/standing-committees/rstc/irpwg/inverter-based_resource_performance_guideline.pdf)
+[Reliability Guideline: BPS-Connected Inverter-Based Resource Performance (NERC)](https://www.nerc.com/globalassets/who-we-are/standing-committees/rstc/irpwg/inverter-based_resource_performance_guideline.pdf) · [Review of VSC HVDC Connection for Offshore Wind Power Integration (Renewable and Sustainable Energy Reviews, via DTU Orbit)](https://backend.orbit.dtu.dk/ws/portalfiles/portal/119791019/Review_of_VSC_HVDC_Connection_for_Offshore_Wind.pdf)

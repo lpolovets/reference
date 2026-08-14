@@ -25,6 +25,9 @@ A buried log measured at about 3,775 years old had lost under 5% of its carbon �
 ## Examples
 Carbon Lockdown's Wood Vault work at the University of Maryland, which set out the burial designs and the archaeological evidence; Mast Reforestation's wood burial projects on post-fire salvage material; Kodama Systems, which pairs forest thinning with burial in dry sites; Rewind, sinking biomass in the Black Sea's anoxic layer.
 
+## Economic profile
+Published estimates of $30–100/t make this the cheapest durable route on paper, and the cost is earthmoving, a liner, land, and hauling bulky wood, none of which gets much cheaper with scale. Delivered prices today are higher, because volumes are small and every project pays for its own site characterization and monitoring plan. The weakness is on the revenue side: the credit is the only product, where biochar sells char and process heat alongside it, so a project here has nothing to fall back on if the buyer walks. Cutting the cost of verifying a closed pit would do more for the price than anything done to the digging.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=C8iGE7i2AnY — Burying Trees to Lock Carbon Underground (Mast Reforestation, 3 minutes, under 1k views)
@@ -33,4 +36,4 @@ Carbon Lockdown's Wood Vault work at the University of Maryland, which set out t
 
 ## Further reading
 
-[Wood Vault: remove atmospheric CO2 with trees, store wood for carbon sequestration for now and as biomass, bioenergy and carbon reserve for the future (PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8974091/)
+[Wood Vault: remove atmospheric CO2 with trees, store wood for carbon sequestration for now and as biomass, bioenergy and carbon reserve for the future (PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8974091/) · [Terrestrial Storage of Biomass (Puro.earth)](https://puro.earth/methodologies/terrestrial-storage-of-biomass/)

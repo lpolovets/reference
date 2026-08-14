@@ -25,6 +25,9 @@ An uncoated glass surface reflects about 4% per face · a good broadband antiref
 ## Examples
 Antireflection coatings on every camera and eyeglass lens; dielectric high reflectors in laser cavities; dichroic beamsplitters separating excitation from emission in fluorescence microscopes; the ultra-low-loss coatings developed for gravitational-wave detectors.
 
+## Economic profile
+The unit of cost in coating is a chamber run, not a part. One run coats every substrate that fits on the fixture, so the same recipe costs a fraction as much per piece on a tray of small lenses as on a handful of large ones, and a single first article carries the whole setup on its own. A custom design adds recipe development and a multi-week lead time, which is why a catalog coating is the right default whenever one exists for your band and angle of incidence. Ion beam sputtering costs more per run than evaporation largely because it deposits slowly, so what a buyer is paying for when specifying stability, low loss, and a high damage threshold is chamber hours. If a design genuinely needs a custom coating, the way to make it affordable is to order a year of demand in one lot rather than to negotiate the unit price.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=sGpUpB7rPPA — Antireflection coating (Physics Unlimitted, 8 minutes, 10k+ views)
@@ -33,4 +36,4 @@ Antireflection coatings on every camera and eyeglass lens; dielectric high refle
 
 ## Further reading
 
-[Dielectric Coatings (RP Photonics Encyclopedia)](https://www.rp-photonics.com/dielectric_coatings.html)
+[Dielectric Coatings (RP Photonics Encyclopedia)](https://www.rp-photonics.com/dielectric_coatings.html) · [Anti-reflection Coatings (RP Photonics Encyclopedia)](https://www.rp-photonics.com/anti_reflection_coatings.html)

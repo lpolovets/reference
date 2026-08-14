@@ -25,6 +25,9 @@ Output spanning roughly 400–2,400 nm from one source · spatially coherent, so
 ## Examples
 NKT Photonics SuperK systems, the reference product in this category; confocal microscopy and flow cytometry using a filtered supercontinuum instead of several lasers; broadband optical coherence tomography; fiber and coating characterization in photonics labs.
 
+## Economic profile
+The purchase case is substitution, so the comparison is against every laser the box replaces plus its controller and combining optics, not against one laser. That arithmetic works when an instrument genuinely needs many wavelengths and stops working at two or three, where a pair of diodes is cheaper and quieter. Most of the unit cost is the ultrafast pump laser and the photonic crystal fiber, so the price tracks what ultrafast sources cost (007) rather than anything specific to supercontinuum generation. Volumes are instrument-scale, spread across microscopy, flow cytometry, and optical coherence tomography rather than anything larger, which is why the $30,000–100,000 band has been stable and why no volume mechanism is in sight that would break it. Supply is concentrated enough to be worth asking about at design time, since NKT Photonics has been the reference product in this category for most of its commercial life.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=j5-vBxnt2kI — Robert Alfano on the supercontinuum: history and future applications (SPIETV, 10 minutes, 5k+ views)
@@ -33,4 +36,4 @@ NKT Photonics SuperK systems, the reference product in this category; confocal m
 
 ## Further reading
 
-[Supercontinuum Generation (RP Photonics Encyclopedia)](https://www.rp-photonics.com/supercontinuum_generation.html)
+[Supercontinuum Generation (RP Photonics Encyclopedia)](https://www.rp-photonics.com/supercontinuum_generation.html) · [Recent advances in supercontinuum generation in specialty optical fibers (arXiv)](https://arxiv.org/abs/2111.03719)

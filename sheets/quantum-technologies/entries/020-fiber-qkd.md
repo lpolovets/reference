@@ -25,6 +25,9 @@ Practical range 100–200 km of fiber without trusted nodes, with key rate falli
 ## Examples
 ID Quantique and Toshiba commercial systems; China's 2,000 km Beijing-Shanghai backbone, which relies on trusted relay nodes; banking and government links in Switzerland, Korea, and Singapore; the published guidance from NSA and NCSC recommending post-quantum cryptography over QKD for general use.
 
+## Economic profile
+The competition sets the price here, and the competition is a software update. Post-quantum cryptography costs one migration program and then covers every link an organization has, while QKD costs a pair of endpoint boxes, cooled single-photon detectors, and a dedicated fiber for each link protected. That fiber is usually the largest recurring line and it does not fall with volume, so total cost grows with the number of links while the software cost stays roughly flat. Past 100–200 km the bill grows again, because that is where range without a trusted node ends, and every trusted relay is a physically secured site with staff, which is both a cost and the assumption QKD was meant to remove. That leaves a narrow market: one or two short high-value links where the buyer owns both ends and a physics-based argument carries institutional or regulatory weight, plus national programs buying for reasons other than cost. Vendors have sold into that market for two decades without it widening, and the NSA and NCSC guidance recommending post-quantum cryptography for general use is a large part of why.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=V3WzH2up7Os — How Quantum Key Distribution Works (BB84 & E91) (Improbable Matter, 13 minutes, 50k+ views)
@@ -33,4 +36,4 @@ ID Quantique and Toshiba commercial systems; China's 2,000 km Beijing-Shanghai b
 
 ## Further reading
 
-[Quantum networking technologies (UK National Cyber Security Centre)](https://www.ncsc.gov.uk/paper/quantum-networking-technologies)
+[Quantum networking technologies (UK National Cyber Security Centre)](https://www.ncsc.gov.uk/paper/quantum-networking-technologies) · [Quantum Key Distribution (QKD) and Quantum Cryptography QC (NSA)](https://www.nsa.gov/Cybersecurity/Quantum-Key-Distribution-QKD-and-Quantum-Cryptography-QC/)

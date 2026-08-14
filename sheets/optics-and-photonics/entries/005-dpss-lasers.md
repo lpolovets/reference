@@ -25,6 +25,9 @@ Typically 1,064 nm from Nd:YAG or Nd:YVO4, doubled to 532 nm and tripled to 355 
 ## Examples
 355 nm DPSS lasers marking and drilling electronics; Nd:YAG rangefinders in military systems; TRUMPF thin-disk lasers in automotive welding; the green laser pointer, which is a tiny DPSS laser with a frequency-doubling crystal.
 
+## Economic profile
+DPSS lost the continuous-wave industrial market to fiber lasers and kept the two jobs fiber cannot do: high pulse energy at low repetition rate, and visible or ultraviolet output from frequency conversion. That split is largely about assembly cost. A DPSS head is free-space optics, so a large share of what a buyer pays for is alignment labor and the mounts that hold the alignment, and that content falls slowly with volume, while a fiber laser is spliced together and carries almost none of it. Ongoing cost matters too, since nonlinear crystals degrade under ultraviolet, so a 355 nm system carries a service and consumables budget a 1,064 nm fiber laser does not. The $10,000–100,000 range holds because nothing cheap emits at 355 nm directly, so the customer is paying for the conversion chain rather than for the photons. If a direct or fiber-based source ever reaches the same pulse energy in the ultraviolet, expect DPSS to lose that market the way it lost cutting.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=n43qd64TGow — Lasers - Direct Diode vs Diode-Pumped Solid-State (DPSS) (Laser Focus, 3 minutes, 10k+ views)
@@ -33,4 +36,4 @@ Typically 1,064 nm from Nd:YAG or Nd:YVO4, doubled to 532 nm and tripled to 355 
 
 ## Further reading
 
-[Lamp-pumped Lasers (RP Photonics Encyclopedia)](https://www.rp-photonics.com/lamp_pumped_lasers.html)
+[Lamp-pumped Lasers (RP Photonics Encyclopedia)](https://www.rp-photonics.com/lamp_pumped_lasers.html) · [Diode-pumped Nd:YVO4 Laser and Nonlinear Optics (University of New Mexico)](https://msbahae.unm.edu/Courses/Optics%20Lab/DPSS%20Nd-YVO4%20Laser.pdf)

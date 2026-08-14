@@ -25,6 +25,9 @@ Handles roughly 20–60 kW per rack, passive at the lower end and active at the 
 ## Examples
 Widely deployed in colocation halls upgrading density without rebuilding; university and research clusters using passive doors on standard servers; vendors including nVent, CoolIT, Motivair, and Vertiv shipping both passive and active designs.
 
+## Economic profile
+What a buyer gets from rear doors is avoided disruption rather than better thermal performance. An operator can add density cabinet by cabinet in a hall that is full and under contract, with no room taken out of service and no tenant migration, and in colocation that is worth more than the capital cost of the doors. The offsetting operating cost is that the coils need relatively cool water, so the chillers keep running and the efficiency gain is smaller than a warm direct-to-chip loop would deliver. The other risk is the 60 kW ceiling. An operator who pipes a hall for doors and later has to host 130 kW racks pays for the water distribution once and the cold plates afterwards, which is usually still the cheaper path, because the piping is the part that disrupts a live hall and doing it once is the point of the retrofit.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=vyhRG_dFqoA — Rear Door Data Centre Cooling (Aqua Cooling, 2 minutes, 10k+ views)
@@ -33,4 +36,4 @@ Widely deployed in colocation halls upgrading density without rebuilding; univer
 
 ## Further reading
 
-[Emergence and Expansion of Liquid Cooling in Mainstream Data Centers (ASHRAE Technical Committee 9.9)](https://www.ashrae.org/file%20library/technical%20resources/bookstore/emergence-and-expansion-of-liquid-cooling-in-mainstream-data-centers_wp.pdf)
+[Emergence and Expansion of Liquid Cooling in Mainstream Data Centers (ASHRAE Technical Committee 9.9)](https://www.ashrae.org/file%20library/technical%20resources/bookstore/emergence-and-expansion-of-liquid-cooling-in-mainstream-data-centers_wp.pdf) · [Data Center Rack Cooling with Rear-door Heat Exchanger (US Department of Energy Federal Energy Management Program)](https://datacenters.lbl.gov/sites/default/files/rdhx-doe-femp.pdf)

@@ -25,6 +25,9 @@ No DC line, so no distance-related loss · conversion loss roughly 1–2% total 
 ## Examples
 The ERCOT direct-current ties, which let Texas trade with its neighbors without joining them; Japan's Higashi-Shimizu and Sakuma converters between the 50 Hz and 60 Hz systems; the Eagle Pass tie between Texas and Mexico; several Indian regional seam stations installed before the national grid was synchronized.
 
+## Economic profile
+You pay full HVDC converter cost and save nothing on line, so the whole case has to be made on control. Where two systems cannot be synchronized there is no comparison to make, which is why the ERCOT ties and Japan's 50 Hz and 60 Hz converters were built regardless of price. Inside one synchronous system the case is harder, because the benefit is congestion cost avoided and it has to beat both the converter capital and the 1–2% conversion loss on everything that flows through. At 100–1,000 MW per station that loss is permanent, so a tie that runs loaded most of the year gives up real energy for control it may only need in a few hundred hours. In the US the binding problem has been cost allocation rather than economics: a seams project sits between two market footprints, and a scheme that looks good on a system basis still has no party obliged to pay for it.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=eAvY5y6u8e8 — HVDC - BACK TO BACK STATION (17E096 SHANMUGA PRIYA T, 10 minutes, under 1k views)
@@ -32,4 +35,4 @@ The ERCOT direct-current ties, which let Texas trade with its neighbors without 
 
 ## Further reading
 
-[Transmission (ERCOT)](https://www.ercot.com/gridinfo/transmission)
+[Transmission (ERCOT)](https://www.ercot.com/gridinfo/transmission) · [The Value of Increased HVDC Capacity Between Eastern and Western U.S. Grids: The Interconnections Seam Study (National Laboratory of the Rockies)](https://www.osti.gov/biblio/1696787)

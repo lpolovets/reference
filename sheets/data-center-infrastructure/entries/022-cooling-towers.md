@@ -25,6 +25,9 @@ Approaches the wet-bulb temperature, typically within 3–5 °C · consumes roug
 ## Examples
 Open towers on nearly every large water-cooled chiller plant; industry water use effectiveness reporting driven by Green Grid metrics; hyperscale operators publishing water figures alongside energy since about 2022, which changed how the trade-off is discussed.
 
+## Economic profile
+Towers are still the cheapest heat rejection to buy, with the lowest capital cost per ton of the options here, and they hold condenser water within 3–5 °C of wet bulb, which is what makes the most efficient large chillers practical. The operating cost has three parts: makeup water at roughly 1.8 liters per kWh of cooling, the chemistry and blowdown an open basin requires, and a Legionella control program that never ends. None of those usually stops a project. The published water total does, now that operators report water alongside energy, so in a drought-prone or contested market the cost that decides a site is a permitting delay rather than a utility bill. If water is cheap and uncontested and the climate is hot and humid, towers are still the right answer on both capital and energy; if not, raising the IT loop temperature enough to reject heat dry removes the tower and the water program with it.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=pXaK8_F8dn0 — Cooling Tower Basic Operation (Chem-Aqua, Inc., 2 minutes, 100k+ views)
@@ -33,4 +36,4 @@ Open towers on nearly every large water-cooled chiller plant; industry water use
 
 ## Further reading
 
-[ASHRAE Data Center Resources, Datacom series (ASHRAE)](https://www.ashrae.org/technical-resources/bookstore/datacom-series)
+[ASHRAE Data Center Resources, Datacom series (ASHRAE)](https://www.ashrae.org/technical-resources/bookstore/datacom-series) · [Controlling Legionella in Cooling Towers (US Centers for Disease Control and Prevention)](https://www.cdc.gov/control-legionella/php/toolkit/cooling-towers-module.html)

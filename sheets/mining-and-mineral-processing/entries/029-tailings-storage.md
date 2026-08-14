@@ -25,6 +25,9 @@ Tailings are typically 97–99.5% of concentrator feed by mass · upstream const
 ## Examples
 The Brumadinho and Mount Polley failures, which reshaped global practice; the Global Tailings Review convened after Brumadinho; Chilean and Brazilian regulations banning upstream dams; the ongoing inventory of legacy facilities with no responsible owner.
 
+## Economic profile
+Almost all of the plant feed ends up here, 97–99.5% of it, so the size of the facility is set by the mine plan rather than by anything decided about the facility itself. Cost per ton stored is low, and upstream construction is the lowest of all, which is why it was built for decades. The saving is small against the exposure. Brumadinho killed 270 people, and Brazil and Chile then banned upstream construction outright, so the cheapest option is no longer available at any price in two of the largest mining jurisdictions. Read this part of a project as a liability rather than a margin: the questions that decide financing are whether the mass can liquefy, whether the design would be permittable today, and whether holding it stable indefinitely is funded rather than assumed. Timing matters too, since a dam is raised repeatedly through the mine life and the last raise usually falls near the end, when there is the least revenue left to pay for it.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=NJamXOHy3-Q — What is the tailing and what is the tailings dams? (SERNAGEOMIN, 2 minutes, 10k+ views)

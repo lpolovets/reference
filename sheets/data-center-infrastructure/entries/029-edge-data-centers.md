@@ -25,6 +25,9 @@ Typical capacity 50 kW to a few MW · latency in the low single-digit millisecon
 ## Examples
 Cell tower compounds hosting telecom network functions; EdgeConneX and DataBank regional sites; content delivery caches inside internet exchanges; industrial edge cabinets on factory floors running control and vision workloads.
 
+## Economic profile
+Almost every cost here is per site, and the sites are small, so overhead that a large facility spreads over tens of megawatts gets spread over 50 kW. It shows up twice: PUE of 1.5–2.0 against roughly 1.1 at a large hyperscale site, and a per-kilowatt operating cost higher than any other facility type on this sheet. The case therefore has to come from somewhere other than unit cost, and there are only two places it comes from. One is bandwidth, since processing video where it is generated instead of backhauling it is a straightforward comparison of transport cost against the per-kilowatt premium. The other is revenue that does not exist without low latency, which is a much harder claim and the one most edge business cases lean on without testing. If the requirement is capacity rather than proximity, a regional colocation hall is cheaper on every line, and designing for zero site visits is the main lever an operator has on what remains.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=KsEq1xBKTuM — What are edge data centres and why are they essential for 5G? (Business Standard, 3 minutes, 10k+ views)
@@ -33,4 +36,4 @@ Cell tower compounds hosting telecom network functions; EdgeConneX and DataBank 
 
 ## Further reading
 
-[Data Center Equipment (ENERGY STAR)](https://www.energystar.gov/products/data_center_equipment)
+[Data Center Equipment (ENERGY STAR)](https://www.energystar.gov/products/data_center_equipment) · [A Comprehensive Survey of Micro Datacenter: Current Technologies and Future Possibilities (Frontiers of Computer Science, via Shanghai Jiao Tong University)](https://www.cs.sjtu.edu.cn/~lichao/publications/A_Comprehensive_FCS-2025-Guo.pdf)

@@ -25,6 +25,9 @@ NIST standardized ML-KEM, ML-DSA, and SLH-DSA in August 2024 · ML-KEM public ke
 ## Examples
 Chrome and Cloudflare deploying hybrid X25519 with ML-KEM at internet scale; Signal's PQXDH protocol; NSA's Commercial National Security Algorithm Suite 2.0 timeline; national migration mandates in the US and Europe.
 
+## Economic profile
+The algorithms are free. ML-KEM, ML-DSA and SLH-DSA are published standards anyone can implement, so almost none of a migration budget is licensing; it is labor. The expensive part is inventory, meaning finding every place an estate uses public-key cryptography, including embedded devices, vendor appliances and protocols nobody has looked at in a decade, which is why large migrations are planned over five to ten years. The size change shows up as engineering work rather than as a purchase, since ML-KEM public keys run about 1.2 kB against 32 bytes for X25519, and anything with a tight packet budget has to be re-engineered rather than reconfigured. That is where the vendors are: discovery and inventory tooling, crypto-agility layers, and consulting. For a buyer the deadline is set by how long the data has to stay confidential rather than by when a quantum computer arrives, so start with the long-lived secrets, deploy in hybrid mode, and treat the algorithm swap itself as the cheap part.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=crPe69NeTdk — NIST's Post-Quantum Cryptography Standardization Explained (SandboxAQ, 2 minutes, 1m+ views)
@@ -33,4 +36,4 @@ Chrome and Cloudflare deploying hybrid X25519 with ML-KEM at internet scale; Sig
 
 ## Further reading
 
-[Post-Quantum Cryptography (NIST Computer Security Resource Center)](https://csrc.nist.gov/projects/post-quantum-cryptography)
+[Post-Quantum Cryptography (NIST Computer Security Resource Center)](https://csrc.nist.gov/projects/post-quantum-cryptography) · [Timelines for migration to post-quantum cryptography (UK National Cyber Security Centre)](https://www.ncsc.gov.uk/guidance/pqc-migration-timelines)

@@ -25,10 +25,13 @@ Information encoded in field quadratures rather than photon number · homodyne d
 ## Examples
 Xanadu's Borealis and Aurora machines; the University of Tokyo and DTU cluster state experiments; squeezed light injection in LIGO and Virgo, which improved their range measurably; continuous-variable QKD systems using the same detection technique.
 
+## Economic profile
+Component cost is the lowest in photonic quantum computing, because homodyne detection runs on ordinary fast photodiodes at room temperature instead of superconducting nanowire detectors and their cryostat. That advantage does not decide the outcome, since the binding constraint is squeezing and GKP state quality, and cheaper detectors do not raise the squeezing figure. Revenue today comes from the adjacent uses rather than from computing: squeezed light for gravitational-wave detectors, which is a market of a handful of observatories, and continuous-variable QKD, which shares the same detection hardware. For the computing case the number that matters is squeezing in decibels, currently around 10–15 dB against a fault-tolerance requirement thought to be higher, and it has improved slowly. Treat a position here as an option on that number with a small instrumentation business underneath it, and size it so that slow progress on squeezing is survivable.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=vbkUSiWXikw — Quantum frontiers | Xanadu’s photonic approach to quantum computing (Xanadu, 1 minute, 1k+ views)
 
 ## Further reading
 
-[About (Quantum, the open journal for quantum science)](https://quantum-journal.org/about/)
+[About (Quantum, the open journal for quantum science)](https://quantum-journal.org/about/) · [Integrated photonic source of Gottesman-Kitaev-Preskill qubits (Nature via PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12176634/)

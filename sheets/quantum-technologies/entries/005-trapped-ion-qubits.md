@@ -25,6 +25,9 @@ Two-qubit gate fidelities above 99.9%, the best demonstrated on any platform · 
 ## Examples
 Quantinuum's H-series systems, which hold most fidelity records; IonQ's Forte and Tempo machines; the NIST and Innsbruck groups where ion trapping for computing was developed; the 2012 Nobel Prize in Physics for the underlying trapping and measurement techniques.
 
+## Economic profile
+There is no dilution refrigerator in a trapped-ion machine, which takes several hundred thousand dollars to over a million out of the capital bill, and the laser and optics stack takes its place: five or more stabilized wavelengths, filling several optical tables in research systems. That stack grows with ion count, since every ion needs its own precisely controlled beams, so cost per qubit falls more slowly here than on a chip platform where more qubits mostly means a bigger die. Two things push the other way. Two-qubit fidelity above 99.9% cuts error-correction overhead superlinearly, so a customer pays for fewer physical qubits per logical one, and ions of a given species are identical, which removes the per-device calibration labor that solid-state platforms require indefinitely. The line item that hurts an operator is speed: gates of tens to hundreds of microseconds are thousands of times slower than superconducting, so a machine sold by the hour finishes far fewer jobs a day, and that shows up directly in revenue per system.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=f80y85GGyfE — Learn Quantum: What is Trapped Ion Quantum Computing? (IonQ, 9 minutes, 10k+ views)

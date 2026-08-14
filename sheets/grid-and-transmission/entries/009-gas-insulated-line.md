@@ -25,6 +25,9 @@ Consider GIL for short high-power underground sections where a cable cannot carr
 ## Examples
 The Kelsterbach GIL at Frankfurt airport, one of the longest directly buried installations; the Limberg II pumped-storage connection in Austria; 420 kV fluoronitrile-insulated GIL sections installed in England and Scotland; tunnel installations at hydro plants where an overhead getaway is impossible.
 
+## Economic profile
+GIL costs several times XLPE per meter, so comparing the two per meter gets the decision wrong. A 420 kV GIL moves around 2,000 MVA, matching an overhead circuit, and matching that rating with cable means parallel circuits, more trench, and the reactive compensation that comes with them. Priced that way, the arithmetic closes only over short runs at high rating: the last kilometers into a city substation, a mountain tunnel, or a getaway from a hydro plant. Losses run roughly half a cable's at full load, so the saving is large on a heavily loaded circuit and small on a lightly loaded one; check the load factor before counting it. The other thing to price is the gas, since SF6 has about 23,500 times the warming potential of CO2 and leak monitoring, reporting, and end-of-life recovery are obligations for the asset's whole life. Any utility with a fluorinated-gas phase-down commitment should quote the nitrogen-mixture or fluoronitrile version and budget from that number.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=niY4rsaOhuk — Introduction to Gas Insulated Transmission Lines (GIL) | TheElectricalGuy (Gaurav J - TheElectricalGuy, 11 minutes, 1k+ views)

@@ -25,6 +25,9 @@ Fluid boils at around 50 °C, pinning component temperature to a narrow band · 
 ## Examples
 Microsoft's two-phase immersion pilot at Quincy, Washington, the best-documented hyperscale trial; Wiwynn and LiquidStack systems; the Open Compute Project's ongoing work on PFAS alternatives, which is where the future of the approach is being decided.
 
+## Economic profile
+The blocking cost is a consumable with no secure supply. The fluids that boil in the right range are PFAS compounds, 3M said it would leave PFAS manufacture by the end of 2025, and European restrictions are advancing, so a buyer is being asked to underwrite a facility on a fluid that may not be purchasable for the second half of that facility's life. Fluid cost is high enough that vapor loss is an operating expense, and every service event opens a vapor space. The thermal case is the strongest of any approach on this sheet and it is still hard to finance, because the risk sits in the chemistry rather than in the engineering. Underwrite it only after a non-PFAS fluid with the right boiling point and materials compatibility is in production and supported by the equipment vendors.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=9edXQKLlUZw — Two-Phase Immersion Cooling System (Wiwynn, 2 minutes, 10k+ views)
@@ -33,4 +36,4 @@ Microsoft's two-phase immersion pilot at Quincy, Washington, the best-documented
 
 ## Further reading
 
-[Immersion Cooling in Data Centers: A Comprehensive Review of Benefits, Challenges, and Future Directions (Thermal and Fluids Engineering Conference, via NSF PAR)](https://par.nsf.gov/servlets/purl/10654765)
+[Immersion Cooling in Data Centers: A Comprehensive Review of Benefits, Challenges, and Future Directions (Thermal and Fluids Engineering Conference, via NSF PAR)](https://par.nsf.gov/servlets/purl/10654765) · [Next Generation Heat Transfer Fluids for Two-Phase Immersion Cooling of Data Centers (Oak Ridge National Laboratory)](https://www.osti.gov/biblio/2583809)

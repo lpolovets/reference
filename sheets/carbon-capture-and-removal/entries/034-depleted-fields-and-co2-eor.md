@@ -25,6 +25,9 @@ Recovers an additional 5–15% of original oil in place · roughly 0.3–0.6 ton
 ## Examples
 The Permian Basin floods supplied by the McElmo Dome and Cortez pipeline; Weyburn-Midale in Saskatchewan, which took CO2 from the Great Plains Synfuels Plant and hosted a long monitoring program; Petra Nova, built around an EOR offtake; the K12-B project in the Dutch North Sea, injecting into a depleted gas field.
 
+## Economic profile
+Enhanced oil recovery is the only destination on this sheet with a customer already paying for the CO2, which is why nearly all commercial capture built before 2020 sold into it. At 0.3–0.6 tons of CO2 per barrel, one ton produces roughly 1.7–3.3 barrels (the inverse of that range), so what an operator will pay for CO2 moves with the oil price and demand thins out in a downturn. Against that, US 45Q pays $60/t here and $85/t for saline storage, and that $25/t gap has already moved new projects toward dedicated storage. Using a depleted field for dedicated storage keeps the cheap characterization and the existing wells, and the line item to budget carefully is checking and plugging legacy penetrations, which is the one most often underestimated.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=ImBif5DCfBw — Enhanced Oil Recovery Co2 Flooding (Oil Technology Group, 4 minutes, 10k+ views)

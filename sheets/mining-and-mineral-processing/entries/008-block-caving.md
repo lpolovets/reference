@@ -25,6 +25,9 @@ Production of 30,000–160,000 tons per day from a single cave · capital typica
 ## Examples
 El Teniente in Chile, the largest underground mine in the world; Grasberg's block cave in Indonesia, the successor to its open pit; Resolution Copper in Arizona and Oyu Tolgoi in Mongolia, both multi-billion-dollar cave developments; Chuquicamata's transition from pit to underground cave.
 
+## Economic profile
+Block caving puts nearly all of the risk into capital rather than into operating cost. Once the cave is running, cost per ton is close to an open pit's, but the billions that build the drawpoint level, the undercut, and the haulage system are spent five to ten years before the first ton is sold, and discounting works hard against money that leaves that early. So the method only makes sense on a very large tonnage, which is why the list of operating block caves is short and made up of the biggest orebodies in the world. The specific risk is that the cave does not propagate the way the model said it would, and by then the development is already built, so the error cannot be fixed by changing the plan. That combination is why block caving is usually undertaken by owners large enough to absorb a multi-year schedule slip, and why it is most often built under an exhausted pit where the orebody is already well drilled. If you are evaluating one, the cavability study and the capital schedule deserve more scrutiny than the head grade.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=MWqMD85MVO4 — Block caving mining method - Epiroc (Epiroc Underground Mining and Tunneling, 3 minutes, 100k+ views)
@@ -33,4 +36,4 @@ El Teniente in Chile, the largest underground mine in the world; Grasberg's bloc
 
 ## Further reading
 
-[Copper Statistics and Information (USGS)](https://www.usgs.gov/centers/national-minerals-information-center/copper-statistics-and-information)
+[Copper Statistics and Information (USGS)](https://www.usgs.gov/centers/national-minerals-information-center/copper-statistics-and-information) · [Strategic considerations in block caving (Australian Centre for Geomechanics)](https://papers.acg.uwa.edu.au/p/1002_14_butcher/)

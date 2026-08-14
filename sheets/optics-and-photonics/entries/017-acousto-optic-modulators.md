@@ -25,6 +25,9 @@ Rise time of tens to hundreds of nanoseconds, set by the acoustic transit across
 ## Examples
 Pulse picking in amplified ultrafast systems; laser cooling and trapping setups, where AOMs set the exact detuning of every beam; power stabilization loops in metrology; acousto-optic tunable filters used as electronically selectable bandpass elements.
 
+## Economic profile
+An AOM has no expensive physics in it, and the price mostly reflects how few get made. The parts are a crystal, a bonded piezoelectric transducer, and an impedance-matching network, made in small batches for laser labs and machining systems rather than in the volumes that make a diode cheap. Budget the radio-frequency driver as a second line item, since it often costs about as much as the head, and a laser cooling setup running a dozen AOMs usually spends more on RF electronics than on the optics they drive. The competitive question is what else could do the job: if millisecond switching is enough, a mechanical shutter costs one or two orders less and adds no loss, and above about 10 MHz an electro-optic modulator is the only option. So the AOM's market is the middle of that range, where the beam is powerful enough to put an electro-optic crystal at risk, the switching is in tens to hundreds of nanoseconds, and the frequency shift is wanted rather than merely tolerated.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=BqEaH6zJtQ4 — Modulation Of Light | Acousto Optic Modulation | Optoelectronics Devices And Systems (ENGINEERING TUTORIAL, 14 minutes, 10k+ views)
@@ -33,4 +36,4 @@ Pulse picking in amplified ultrafast systems; laser cooling and trapping setups,
 
 ## Further reading
 
-[Acousto-optic Modulators (RP Photonics Encyclopedia)](https://www.rp-photonics.com/acousto_optic_modulators.html)
+[Acousto-optic Modulators (RP Photonics Encyclopedia)](https://www.rp-photonics.com/acousto_optic_modulators.html) · [Acousto-Optic Modulation, Application Note AN0510 (Isomet)](https://isomet.com/App-Manual_pdf/AO%20Modulation.pdf)

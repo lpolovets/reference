@@ -25,6 +25,9 @@ Surface code threshold near 1% physical error rate, the highest of any practical
 ## Examples
 Google's Willow result showing logical error falling as the surface code distance grew; Quantinuum and Microsoft's logical qubit demonstrations on trapped ions; Harvard and QuEra's logical operations on neutral atoms; IBM's shift toward qLDPC codes in its published roadmap.
 
+## Economic profile
+Nobody buys error correction directly, and it still sets most of what a quantum computer costs. At roughly 1,000 physical qubits per logical qubit, one logical qubit means a thousand qubits' worth of chip, wiring, control channels and fridge capacity, which is how estimates for cryptographically relevant algorithms reach millions of physical qubits. So a dollar spent improving two-qubit fidelity buys more logical capability than a dollar spent adding qubits, because the overhead falls superlinearly as the physical error rate drops. qLDPC codes cut that overhead severalfold and move the cost to connectivity, which makes them worth a lot to a platform that can already reach past nearest neighbors and little to one that cannot. Every logical qubit also needs a decoder running in real time, within microseconds on superconducting hardware, so classical computing and its power draw belong in the system cost rather than in a footnote. Any timeline for useful quantum computing is a claim about the overhead ratio, so ask which ratio the estimate assumed and what would bring it down.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=dVkLNwSTBU0 — Suppressing quantum errors by scaling a surface code logical qubit (Google Quantum AI, 17 minutes, 5k+ views)
@@ -33,4 +36,4 @@ Google's Willow result showing logical error falling as the surface code distanc
 
 ## Further reading
 
-[Quantum Computing: Progress and Prospects (National Academies)](https://nap.nationalacademies.org/catalog/25196/quantum-computing-progress-and-prospects)
+[Quantum Computing: Progress and Prospects (National Academies)](https://nap.nationalacademies.org/catalog/25196/quantum-computing-progress-and-prospects) · [Surface codes: Towards practical large-scale quantum computation (arXiv)](https://arxiv.org/abs/1208.0928)

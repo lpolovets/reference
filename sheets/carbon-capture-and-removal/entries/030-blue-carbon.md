@@ -25,6 +25,9 @@ Mangroves and salt marshes bury carbon at roughly 6–8 t CO2 per hectare per ye
 ## Examples
 Mikoko Pamoja in Kenya, the first community mangrove carbon project; Delta Blue Carbon in Pakistan's Indus delta, the largest issued blue carbon project; Verra's VM0033 tidal wetland methodology; UNEP and IUCN assessments that set the global stock and loss numbers.
 
+## Economic profile
+Carbon density is what makes the unit economics work. At 6–8 t CO2 per hectare per year and $15–60/t, gross credit revenue from a hectare of mangrove or marsh is roughly $90–480 per year (the two ranges multiplied), far above forest or cropland and enough to fund community benefit sharing and decades of stewardship. Protection costs much less per delivered ton than restoration, because seagrass replanting fails often enough that the cost per surviving hectare runs well above the budgeted one. The constraint is area rather than price: global potential is a few hundred Mt CO2 a year, so a buyer who needs volume has to find it elsewhere.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=wkYRR9U-IkA — Blue carbon | How seagrass is our ocean's wonder plant and their role in fighting climate change (Environmental Justice Foundation (EJF), 5 minutes, 10k+ views)

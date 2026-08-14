@@ -25,6 +25,9 @@ Produces 99.99%+ copper cathode, the grade required for electrical conductors ·
 ## Examples
 Glencore's CCR refinery in Montreal; Aurubis in Hamburg, Europe's largest copper refinery; precious metal refineries that treat anode slimes from copper refining worldwide; electrolytic zinc plants, which use electrowinning rather than refining because the feed is already a purified solution.
 
+## Economic profile
+Smelted copper has to meet electrical-grade specification, so refining is a cost of doing business rather than a choice, and the interesting economics are in what comes out alongside the cathode. Energy is the easy part: 300–400 kWh per ton is about a fifth of what electrowinning uses, so the power contract matters far less here than at an SX-EW plant. Time and inventory are the real costs. An anode takes three to four weeks to dissolve, so a refinery holds roughly a month of throughput as metal it owns, and a higher copper price raises that working capital at the same time it raises revenue. Against that, the anode slimes carry the gold, silver, selenium, and platinum group metals, and for many mines those credits are a large share of revenue. That is also why anode passivation and short circuits get attention out of proportion to their apparent size: anything that raises current density shortens the cycle and releases working capital.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=wwN8lwpQVLk — WCLN - Electrorefining (WCLN, 10 minutes, 50k+ views)
@@ -32,4 +35,4 @@ Glencore's CCR refinery in Montreal; Aurubis in Hamburg, Europe's largest copper
 
 ## Further reading
 
-[Mineral Commodity Summaries (USGS)](https://www.usgs.gov/centers/national-minerals-information-center/mineral-commodity-summaries)
+[Mineral Commodity Summaries (USGS)](https://www.usgs.gov/centers/national-minerals-information-center/mineral-commodity-summaries) · [Energy and Environmental Profile of the U.S. Mining Industry: Copper (DOE)](https://www.energy.gov/sites/prod/files/2013/11/f4/copper.pdf)

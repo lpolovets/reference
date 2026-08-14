@@ -25,6 +25,9 @@ Chilled water typically supplied at 7–18 °C, and liquid-cooled loads accept f
 ## Examples
 Chilled water plants in essentially every large colocation campus; warm-water loops at 32 °C and above in HPC facilities, which allow year-round economization; ASHRAE's water temperature classes, which set the vocabulary for how warm a liquid loop may run.
 
+## Economic profile
+Most of the capital sits in the chillers, the pumps, and the distribution piping, and most of the operating cost sits in compressor kilowatt-hours, so the two numbers that move money are how large the plant is and how warm it runs. Large centrifugal machines at roughly 0.5 kW per ton at design, and better than that at part load, are why operators build a central plant above a few megawatts instead of packaged direct-expansion units. Supply temperature is the cheapest lever available, because every degree of higher supply water adds economizer hours and costs nothing to specify at design time. The expensive version of the same decision is making it late: adding a warm-water circuit to a hall piped for 7 °C means taking the room out of service, which is why new plants are increasingly sized and piped for liquid cooling before there is a liquid-cooled rack in the building. Below a few megawatts, or where the building rules out a plant, packaged units are usually cheaper all-in even though they are less efficient.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=rUiYdpODxJI — Data Center Chilled Water Systems Explained (MEP Academy, 7 minutes, 10k+ views)
@@ -33,4 +36,4 @@ Chilled water plants in essentially every large colocation campus; warm-water lo
 
 ## Further reading
 
-[Best Practices Guide for Energy-Efficient Data Center Design (Berkeley Lab and FEMP)](https://datacenters.lbl.gov/sites/default/files/2025-07/best-practice-guide-data-center-design.pdf)
+[Best Practices Guide for Energy-Efficient Data Center Design (Berkeley Lab and FEMP)](https://datacenters.lbl.gov/sites/default/files/2025-07/best-practice-guide-data-center-design.pdf) · [Chilled Water Plant Design Guide (Energy Design Resources, via Berkeley Lab)](https://datacenters.lbl.gov/sites/default/files/EDR_DesignGuidelines_CoolToolsChilledWater.pdf)

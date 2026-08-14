@@ -25,6 +25,9 @@ Gain of 10^6 to 10^7 across 8–12 dynode stages · quantum efficiency 20–40% 
 ## Examples
 Photomultipliers in gamma cameras and positron emission tomography scanners; the 20-inch tubes lining Super-Kamiokande's neutrino detector; detection channels in confocal microscopes and flow cytometers; silicon photomultipliers steadily replacing them in medical imaging.
 
+## Economic profile
+A photomultiplier is a hand-assembled glass vacuum tube, so there is no semiconductor learning curve underneath its price and it has been roughly flat for decades. The number that matters is cost per unit of sensitive area rather than cost per device: at $100–1k for a tube covering many square centimeters, and up to 20 inches across in the largest ones, nothing else is close when the job is watching a large area in the ultraviolet or visible. Silicon photomultipliers are on the opposite curve, falling with wafer volume, which is why they displaced tubes in the small-area applications first and why the large physics detectors are still full of glass. Budget for what the tube needs around it, too, since 1–2 kV bias, magnetic shielding, and the risk of destroying it by switching on the room lights all cost money the unit price does not show. A good rule of thumb: if a design calls for many small PMTs rather than a few large ones, quote it with silicon photomultipliers before committing.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=FBR1qGYnD0Q — What is a Photomultiplier Tube? [L19] (Molecular Imaging & Therapy, 8 minutes, 10k+ views)
@@ -33,4 +36,4 @@ Photomultipliers in gamma cameras and positron emission tomography scanners; the
 
 ## Further reading
 
-[Photomultipliers (RP Photonics Encyclopedia)](https://www.rp-photonics.com/photomultipliers.html)
+[Photomultipliers (RP Photonics Encyclopedia)](https://www.rp-photonics.com/photomultipliers.html) · [Photomultiplier Tubes: Basics and Applications, Fourth Edition (Hamamatsu Photonics)](https://www.hamamatsu.com/content/dam/hamamatsu-photonics/sites/documents/99_SALES_LIBRARY/etd/PMT_handbook_v4E.pdf)

@@ -25,6 +25,9 @@ A trapped-ion system typically needs five or more distinct wavelengths, each sta
 ## Examples
 Sandia and university trap chips with integrated waveguide delivery; Vescent, Toptica, and M Squared supplying stabilized laser systems to the field; QuEra and Pasqal's laser subsystems for tweezer arrays; the compact laser packages developed for chip-scale atomic clocks, which showed the path.
 
+## Economic profile
+For an atomic platform the laser subsystem is usually the largest line in the bill of materials and nearly all of the field service cost. Five or more stabilized wavelengths per trapped-ion system, each bought from a specialist such as Toptica, Vescent or M Squared, means the cost floor of the machine is set by somebody else's price list, and if a system needs a laser expert on site every morning, the customer pays that technician for as long as the system runs. Photonic integration is an attempt to turn that recurring labor into a manufactured part, which is the move compact laser packages already made for chip-scale atomic clocks. Integration improves gross margin and uptime together, and uptime is what lets a supplier sell to customers who do not employ physicists. If you are evaluating an ion or neutral-atom company, ask how many discrete lasers a system uses, whether beam delivery is free space or integrated, and what the demonstrated continuous operating time is, because those three answers predict service cost better than any qubit number.
+
 ## Further reading
 
 [Quantum Flagship](https://qt.eu/) · [UK National Quantum Technologies Programme](https://uknqt.ukri.org/)

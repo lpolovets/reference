@@ -25,6 +25,9 @@ Operates near 70 K with liquid nitrogen · roughly zero DC conductor resistance,
 ## Examples
 ComEd's Resilient Electric Grid project in downtown Chicago, commissioned in 2021 and the first permanent North American installation; the AmpaCity project in Essen, Germany, a 1 km medium-voltage cable replacing a 110 kV line; NEDO's demonstration in Japan; LS Cable's Korean installations.
 
+## Economic profile
+The case never closes on dollars per MW of cable. It has to come from what the installation makes unnecessary: a substation site in a downtown, a new duct bank under streets that cannot be dug, or a breaker replacement program when tying two substations would push fault duty past the existing ratings. Chicago's Resilient Electric Grid installation is the shape of it, at 200 m and 3,000 A at 12 kV for about 62 MVA, and it was justified on resilience and fault limiting rather than on cheaper transfer. Two costs are permanent: tape is expensive with small production volumes, so there is no volume curve to plan against, and the refrigeration plant runs continuously, which is an operating line item for the asset's life and a single point of failure. With a handful of installations worldwide, a utility also has no reliability record to put in front of a regulator, and that usually matters more than price when the spending goes into rate base. If land in the corridor is not extraordinarily expensive, conventional cable at a higher voltage wins.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=3gFUwGedayw — Superconducting Cables are Coming. I’m Not Joking (Sabine Hossenfelder, 7 minutes, 500k+ views)
@@ -33,4 +36,4 @@ ComEd's Resilient Electric Grid project in downtown Chicago, commissioned in 202
 
 ## Further reading
 
-[Nexans Installs and Commissions Superconducting Cable for Chicago's Resilient Electric Grid Project (T&D World)](https://www.tdworld.com/grid-innovations/distribution/article/21174343/nexans-nexans-installs-and-commissions-superconducting-cable-for-chicagos-resilient-electric-grid-project)
+[Nexans Installs and Commissions Superconducting Cable for Chicago's Resilient Electric Grid Project (T&D World)](https://www.tdworld.com/grid-innovations/distribution/article/21174343/nexans-nexans-installs-and-commissions-superconducting-cable-for-chicagos-resilient-electric-grid-project) · [High Temperature Superconducting Underground Cable (US Department of Energy, via OSTI)](https://www.osti.gov/biblio/975691)

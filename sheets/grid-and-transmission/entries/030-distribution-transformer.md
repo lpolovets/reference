@@ -25,6 +25,9 @@ Ratings from about 10 kVA to a few MVA · service life typically 30–40 years �
 ## Examples
 The pole-mounted cans on nearly every North American residential street; pad-mounted units in underground developments; utility replacement programs triggered by EV clusters in California and the UK; the US efficiency standards that reshaped core material choice.
 
+## Economic profile
+A single unit is cheap and the fleet is not, since there are millions of them in service, so a small change in unit price or in no-load loss moves a large number. Losses are why efficiency rules target this component: they run every hour for 30 to 40 years whether the unit is loaded or not, which is why utilities evaluate bids on purchase price plus capitalized losses rather than on price alone. What changed recently is availability. Lead times went from weeks to about a year and Wood Mackenzie modeled a 10% supply deficit for distribution units in 2025, so a failure now costs a long outage or an emergency swap out of inventory rather than the price of a replacement. That flips two long-standing habits: sizing to historical diversity is now expensive, because a street where several neighbors add an EV charger and a heat pump overloads a unit that was correctly sized a decade ago, and holding a thin spares inventory is expensive for the same reason. Standardizing on fewer designs so one spare fits many sites is the cheapest response available.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=ONOyvBx2bp8 — What's inside a Transformer? (Bobsdecline - Lineman blogger, 7 minutes, 500k+ views)
@@ -33,4 +36,4 @@ The pole-mounted cans on nearly every North American residential street; pad-mou
 
 ## Further reading
 
-[Power transformers and distribution transformers will face supply deficits of 30% and 10% in 2025 (Wood Mackenzie)](https://www.woodmac.com/press-releases/power-transformers-and-distribution-transformers-will-face-supply-deficits-of-30-and-10-in-2025/)
+[Power transformers and distribution transformers will face supply deficits of 30% and 10% in 2025 (Wood Mackenzie)](https://www.woodmac.com/press-releases/power-transformers-and-distribution-transformers-will-face-supply-deficits-of-30-and-10-in-2025/) · [Electricity Distribution Transformers: Supply, Tariffs, and Policy Options (Congressional Research Service)](https://www.everycrsreport.com/reports/R48933.html)

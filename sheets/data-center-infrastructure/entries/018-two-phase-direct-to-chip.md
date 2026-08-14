@@ -25,6 +25,9 @@ Boiling removes several times the heat per unit flow compared with a sensible-he
 ## Examples
 ZutaCore and Accelsius two-phase cold plate systems; Advanced Cooling Technologies' 200 kW two-phase coolant distribution unit; Open Compute Project working sessions on two-phase performance metrics and PFAS sustainability, which is where the fluid question is being argued out.
 
+## Economic profile
+The economics of two-phase direct-to-chip turn on the fluid rather than on the hardware. Engineered dielectrics cost far more per liter than water or a glycol mix, a sealed loop has to hold vapor rather than merely contain liquid, and anything lost is a purchase rather than a top-up from the tap. Sitting on top of that price is regulatory exposure: several of the candidate fluids are PFAS compounds facing restriction in Europe, so an operator who builds around one of them can end up with equipment that cannot legally be refilled. That is why deployments are pilots rather than fleets, and why the diligence question is the fluid's regulatory status and replacement path rather than its heat flux. Since single-phase cold plates already reach the densities shipping today at a known price, two-phase is worth committing to only if chip packages go past what a single-phase plate can hold and a fluid without the regulatory problem arrives with them.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=w_Us94JgYzc — A Closer Look at Two-Phase Liquid Cooling (Data Center Richness, 7 minutes, 10k+ views)
@@ -33,4 +36,4 @@ ZutaCore and Accelsius two-phase cold plate systems; Advanced Cooling Technologi
 
 ## Further reading
 
-[Immersion Cooling in Data Centers: A Comprehensive Review of Benefits, Challenges, and Future Directions (Thermal and Fluids Engineering Conference, via NSF PAR)](https://par.nsf.gov/servlets/purl/10654765)
+[Immersion Cooling in Data Centers: A Comprehensive Review of Benefits, Challenges, and Future Directions (Thermal and Fluids Engineering Conference, via NSF PAR)](https://par.nsf.gov/servlets/purl/10654765) · [Pumped Two-Phase Learning Center (Advanced Cooling Technologies)](https://www.1-act.com/resources/learning-center/pumped-two-phase/)

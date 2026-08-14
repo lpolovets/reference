@@ -25,6 +25,9 @@ Reaches depths well beyond conventional mining, over 1,500 m in some potash oper
 ## Examples
 K+S Bethune in Saskatchewan, a large greenfield solution potash mine; Gulf Coast salt caverns holding the US Strategic Petroleum Reserve; Teesside and Texas caverns proposed for hydrogen storage; trona solution mining in Wyoming for soda ash.
 
+## Economic profile
+Capital is modest next to a shaft mine, so the cost sits in energy: recovering solid from brine means evaporating water, and that is the largest operating cost. Cheap process heat is what makes a deposit work, and an operator paying industrial gas prices has a different cost structure from one paying spot power for the same duty. Recovering only 30–50% of the bed matters less here than it would in a metal mine, because salt and potash beds are large and the tons left behind are not what limits the business. The second revenue line is the cavern itself, since a salt cavern is the cheapest large-scale gas storage available, so an operator near a gas hub or a hydrogen project can sell storage capacity after the mineral is gone. If you are evaluating a project, price the process heat first and treat the cavern as a real asset rather than a leftover.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=Zc4rvjqWjVc — K+S’s Bethune Mine – How does solution mining work? (K+S Agrar, 2 minutes, 10k+ views)
@@ -33,4 +36,4 @@ K+S Bethune in Saskatchewan, a large greenfield solution potash mine; Gulf Coast
 
 ## Further reading
 
-[Mineral Commodity Summaries (USGS)](https://www.usgs.gov/centers/national-minerals-information-center/mineral-commodity-summaries)
+[Mineral Commodity Summaries (USGS)](https://www.usgs.gov/centers/national-minerals-information-center/mineral-commodity-summaries) · [Class III Injection Wells for Solution Mining (US EPA)](https://www.epa.gov/uic/class-iii-injection-wells-solution-mining)

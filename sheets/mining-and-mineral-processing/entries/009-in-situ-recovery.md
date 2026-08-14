@@ -25,6 +25,9 @@ Capital and operating cost a fraction of conventional mining, with no pit, dump,
 ## Examples
 Kazakh uranium operations, which made Kazakhstan the largest producer in the world; Wyoming and Texas ISR uranium fields; Australian ISR at Beverley and Honeymoon; in-situ copper leaching trials at Florence in Arizona, where permitting has been the long pole.
 
+## Economic profile
+ISR is the cheapest route on this sheet, because most of the conventional cost structure never gets built: no pit, no waste dump, no mill, no tailings facility. That is what made it the dominant uranium method worldwide, and it sets a cost floor that conventional uranium mines have to compete against even though most deposits cannot be mined this way. Recovering only 60–80% of the in-place resource is a cheap trade when the tons cost so little to treat, and permeability matters more here than grade does. The capital that does exist is mostly the well field, and it is spent continuously rather than once, since patterns deplete and new ones have to be drilled to hold production flat. The cost to look for is aquifer restoration, which runs for years after production stops, so a project that has not funded it has moved a real expense into a period with no revenue behind it.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=P5X3JucFczQ — Understanding In-Situ Recovery (ISR) (Thor Energy PLC, 3 minutes, 1k+ views)
@@ -33,4 +36,4 @@ Kazakh uranium operations, which made Kazakhstan the largest producer in the wor
 
 ## Further reading
 
-[In-Situ Leach Mining of Uranium (World Nuclear Association)](https://world-nuclear.org/information-library/nuclear-fuel-cycle/mining-of-uranium/in-situ-leach-mining-of-uranium)
+[In-Situ Leach Mining of Uranium (World Nuclear Association)](https://world-nuclear.org/information-library/nuclear-fuel-cycle/mining-of-uranium/in-situ-leach-mining-of-uranium) · [Groundwater Restoration at Uranium In-Situ Recovery Mines, South Texas Coastal Plain (USGS)](https://pubs.usgs.gov/of/2009/1143/pdf/OF09-1143.pdf)

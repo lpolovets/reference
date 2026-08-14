@@ -24,6 +24,9 @@ Busway ratings commonly 250–1,200 A, chosen at design and hard to change · ta
 ## Examples
 Overhead busway in nearly all colocation halls built since about 2010; underfloor cable distribution in legacy enterprise rooms and in halls that predate high density; busway rating limits now driving hall rebuilds as racks move from 5 kW to 30 kW.
 
+## Economic profile
+Busway is a small share of the power chain's capital and an expensive part to get wrong. Cable is cheaper for a fixed layout, which is the comparison that wins on day one, but the comparison that matters is what a rating change costs later: a tap-off box adds a circuit in minutes with no outage, while changing the busway itself means taking the row out of service. That asymmetry is why busway is the cheapest part of the chain to over-size, and why ratings chosen for 5 kW racks are now driving hall rebuilds as racks move to 30 kW. The metering is a separate argument. Per-tap data is what locates the 10–30% of installed power that sits stranded in the wrong place, and capacity a site already owns is cheaper than capacity it has to build. In colocation the flexibility is worth more again, because a hall whose circuits move with the tenants can be re-let without an electrician's project each time.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=dcPfYR2LR9I — Is a Busway System Right for Your Data Center? (Anixter, 2 minutes, 1k+ views)
@@ -31,4 +34,4 @@ Overhead busway in nearly all colocation halls built since about 2010; underfloo
 
 ## Further reading
 
-[Best Practices Guide for Energy-Efficient Data Center Design (Berkeley Lab and FEMP)](https://datacenters.lbl.gov/sites/default/files/2025-07/best-practice-guide-data-center-design.pdf)
+[Best Practices Guide for Energy-Efficient Data Center Design (Berkeley Lab and FEMP)](https://datacenters.lbl.gov/sites/default/files/2025-07/best-practice-guide-data-center-design.pdf) · [Comparing Data Center Power Distribution Architectures, White Paper 129 (Schneider Electric)](https://download.schneider-electric.com/files?p_File_Name=WTOL-7ANTKY_R3_EN.pdf&p_Doc_Ref=SPD_WTOL-7ANTKY_EN)

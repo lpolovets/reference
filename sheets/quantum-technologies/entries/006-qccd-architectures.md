@@ -25,6 +25,9 @@ Gate zones hold a small number of ions, keeping fidelity near single-pair perfor
 ## Examples
 Quantinuum's H2 system, the most developed QCCD machine; Sandia National Laboratories' surface trap fabrication, which supplies much of the field; university demonstrations of junction transport that showed ions can turn corners without losing coherence.
 
+## Economic profile
+The economics of a QCCD machine are mostly a utilization problem. Fidelity stays near single-pair performance as the machine grows, which is the reason to build one, but each transport takes tens to hundreds of microseconds and the ions have to be re-cooled afterward, so a large share of the machine's cycle goes to moving rather than computing. For a vendor selling machine time that is lost throughput, and the ratio of transport time to gate time in published results predicts revenue per system better than a qubit count does. On the capital side, the trap is a multi-layer chip with tens to hundreds of electrodes, made in low volume by a handful of suppliers, and every electrode needs its own carefully shaped voltage waveform, so control channel count grows with electrodes rather than with qubits. Scaling past a few hundred ions means paying for photonic interconnects between traps, which is a second development program rather than a larger version of the first.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=8p6P-QTQM2M — How to trap ions for quantum computing? (Professor Nano, 18 minutes, 10k+ views)
@@ -32,4 +35,4 @@ Quantinuum's H2 system, the most developed QCCD machine; Sandia National Laborat
 
 ## Further reading
 
-[Benchmarking a trapped-ion quantum computer with 30 qubits (Quantum)](https://quantum-journal.org/papers/q-2024-11-07-1516/)
+[Benchmarking a trapped-ion quantum computer with 30 qubits (Quantum)](https://quantum-journal.org/papers/q-2024-11-07-1516/) · [Demonstration of the trapped-ion quantum-CCD computer architecture (arXiv)](https://arxiv.org/abs/2003.01293)

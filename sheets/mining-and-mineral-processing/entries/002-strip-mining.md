@@ -25,6 +25,9 @@ Draglines with buckets of 60–130 cubic meters and booms up to about 100 m · o
 ## Examples
 Powder River Basin coal mines in Wyoming, the largest strip operations in the world; Saskatchewan lignite mines; Florida phosphate; the Appalachian surface mines whose spoil handling drove US mountaintop removal regulation.
 
+## Economic profile
+The dragline is where both the cost advantage and the risk sit. It moves overburden for a fraction of what truck-and-shovel costs, which is what makes cost per ton the lowest in mining, but it is a 10–15 year commitment to one deposit and it cannot be moved or resold. The savings only accumulate if the seam keeps running under it, so the thing to stress-test is what happens if the seam thins, the overburden deepens past the usual 50 m, or coal demand falls before the machine is paid off. Concurrent reclamation helps on the other side of the ledger, because rebuilding land a few strips behind the face keeps the bonded liability bounded instead of letting it build up to closure. For a buyer, most of the value in a strip mine is the remaining strippable tons within reach of the dragline already standing there.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=M5_QV3xTEVo — Coal Mining Explained | Inside Saskatchewan's Largest Coal Mines! (Earthmovers Media, 19 minutes, 100k+ views)
@@ -33,4 +36,4 @@ Powder River Basin coal mines in Wyoming, the largest strip operations in the wo
 
 ## Further reading
 
-[Our Work (ICMM)](https://www.icmm.com/our-work)
+[Our Work (ICMM)](https://www.icmm.com/our-work) · [Reclamation of Mined Lands in the Western Coal Region (USGS)](https://pubs.usgs.gov/circ/1983/0872/report.pdf)

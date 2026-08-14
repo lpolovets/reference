@@ -24,6 +24,9 @@ Low-pressure carriers operate at 6–9 bar and about -50 °C; medium pressure at
 ## Examples
 Northern Lights in Norway, which receives CO2 by ship at Oygarden and injects it beneath the North Sea; the CETO joint industry project, which established that low-pressure transport has no technical showstoppers; small medium-pressure carriers that have served the food and beverage CO2 trade for decades.
 
+## Economic profile
+Most of the cost sits onshore. Liquefaction takes 90–120 kWh/t and both terminals are capital-intensive, so the $15–35/t over 500–1,500 km is mostly terminal capital recovery and electricity rather than the voyage itself. That shapes the comparison with a pipeline: shipping cost rises slowly with distance and steeply with how little the terminals get used, so it wins on flexible or low-volume routes and loses once a few Mt/yr moves along a fixed corridor. The commercial model that works today is storage as a service, where the customer pays one per-ton fee covering transport and injection together, which is what Northern Lights sells.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=o2R-r4-lTMc — Pioneering cross-border Carbon Capture and Storage (CCS) with liquefied CO2 shipping (Shell, 2 minutes, 100k+ views)
@@ -32,4 +35,4 @@ Northern Lights in Norway, which receives CO2 by ship at Oygarden and injects it
 
 ## Further reading
 
-[What we do (Northern Lights)](https://norlights.com/what-we-do/)
+[What we do (Northern Lights)](https://norlights.com/what-we-do/) · [The Status and Challenges of CO2 Shipping Infrastructures (IEAGHG)](https://ieaghg.org/publications/2020-10%20The%20Status%20and%20Challenges%20of%20CO2%20Shipping%20Infrastructures.pdf)

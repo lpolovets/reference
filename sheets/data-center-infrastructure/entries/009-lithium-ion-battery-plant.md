@@ -24,6 +24,9 @@ Roughly a third the footprint and a quarter the weight of lead-acid for the same
 ## Examples
 Lithium iron phosphate UPS cabinets now standard in new hyperscale builds; Microsoft and Google installations using UPS batteries for grid services; Irish and Dutch facilities offering battery capacity to system operators in exchange for faster connection.
 
+## Economic profile
+Lithium costs more to buy than lead-acid and usually less over 10 years, because the strings last 8–10 years instead of 3–5 and each replacement is labor in a live building. Footprint is the other half of it: a third the space and a quarter the weight for the same energy frees floor area that could otherwise be white space, which is why the swap is attractive in a hall that already exists and not only in a new build. The cost that surprises people is code. NFPA 855 and the local fire code drive spacing, detection, and sometimes deflagration venting, and the permitting conversation is materially harder than for lead-acid, so bringing the fire marshal in late costs schedule rather than equipment. The upside case is sizing past ride-through: incremental cells are cheap relative to the rest of the plant, so where the local market pays for demand response or frequency service the operator can earn on capacity that would otherwise sit idle. The price risk is that the cells come from the same market as vehicles, so a buyer is bidding against automotive demand.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=OhawfHC7sMU — What's New with UPS Batteries? (Eaton, 8 minutes, 1k+ views)
@@ -31,4 +34,4 @@ Lithium iron phosphate UPS cabinets now standard in new hyperscale builds; Micro
 
 ## Further reading
 
-[2024 United States Data Center Energy Usage Report (Berkeley Lab)](https://eta-publications.lbl.gov/sites/default/files/2024-12/lbnl-2024-united-states-data-center-energy-usage-report_1.pdf)
+[2024 United States Data Center Energy Usage Report (Berkeley Lab)](https://eta-publications.lbl.gov/sites/default/files/2024-12/lbnl-2024-united-states-data-center-energy-usage-report_1.pdf) · [Energy Storage System Guide for Compliance with Safety Codes and Standards (PNNL and Sandia National Laboratories)](https://www.sandia.gov/ess-ssl/publications/SAND2016-5977R.pdf)

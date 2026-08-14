@@ -24,6 +24,9 @@ Operates above 74 bar to keep CO2 dense · about 5,000 miles in service in the U
 ## Examples
 Cortez Pipeline, 800 km from the McElmo Dome CO2 field to Denver City, Texas, operating since 1984; the Alberta Carbon Trunk Line; Denbury's Gulf Coast network; the canceled Navigator Heartland Greenway and scaled-back Summit projects in the midwest, both stopped by landowner opposition rather than engineering.
 
+## Economic profile
+Pipeline economics are capital recovery spread over contracted volume, which is why cost per ton falls sharply with diameter and why nothing gets built without long-term take-or-pay commitments from shippers. At $2–10/t per 100 km the tariff is a small share of a full-chain cost, so the question that decides a project is whether the line gets built rather than what it charges. That is a right-of-way and permitting question: Navigator Heartland Greenway and the scaled-back Summit project were stopped by landowners after both had spent heavily on route development. If you are underwriting a capture project that depends on a new multi-state line, the risk sits with the corridor and the contracts rather than with the pipe.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=cz2bntCmPw4 — CO2 pipeline explained (KELOLAND News, 2 minutes, 5k+ views)

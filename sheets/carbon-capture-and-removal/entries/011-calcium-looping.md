@@ -24,6 +24,9 @@ Carbonator 600–650 °C, calciner 900–950 °C · sorbent is limestone at roug
 ## Examples
 CLEANKER at the Buzzi Unicem cement plant in Vernasca, Italy, which ran nine campaigns on kiln flue gas; ITRI's HECLOT pilot in Taiwan; CaOling at La Pereda in Spain, a 1.7 MWth unit that produced most of the early cycle data.
 
+## Economic profile
+The sorbent is the reason to look at this, and the purge is the reason most sites cannot use it. Limestone at $10–30/t is cheap enough that a high makeup rate is affordable, which is not true of any solvent, and the carbonator runs at 600–650 °C, so its heat raises steam the plant can sell instead of being a parasitic loss. Both advantages are worth the most inside a cement plant, where limestone is already bought by the trainload and deactivated purge goes into the kiln feed rather than to a landfill. Outside cement, someone has to pay to dispose of hundreds of thousands of tons a year of spent lime, and that line item usually ends the discussion. The oxy-fired calciner also carries the same air separation cost as oxy-fuel combustion, so the real comparison inside a cement plant is against oxyfuel calcination, which needs the air separation unit but not the solids loop.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=b7rkNCX1gz4 — High-Efficiency Calcium Looping Technology (HECLOT) and Its Applications (ITRI Taiwan, 5 minutes, 1k+ views)
@@ -31,4 +34,4 @@ CLEANKER at the Buzzi Unicem cement plant in Vernasca, Italy, which ran nine cam
 
 ## Further reading
 
-[CLEANKER's calcium looping progress and prospects (International Cement Review)](https://www.cemnet.com/Articles/story/175483/cleanker-s-calcium-looping-progress-and-prospects.html)
+[CLEANKER's calcium looping progress and prospects (International Cement Review)](https://www.cemnet.com/Articles/story/175483/cleanker-s-calcium-looping-progress-and-prospects.html) · [Review on the modifications of natural and industrial waste CaO based sorbent of calcium looping with enhanced CO2 capture capacity (PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10912718/)

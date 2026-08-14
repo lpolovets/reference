@@ -25,6 +25,9 @@ Seawater holds roughly 100x the carbon per unit volume of air · about 1,000–2
 ## Examples
 Captura's pilots in California and Hawaii using electrodialysis on a seawater slipstream; Equatic, spun out of UCLA, which combines seawater electrolysis with mineral and hydrogen coproduction; Ebb Carbon's acid-base splitting systems on the Washington coast.
 
+## Economic profile
+Electricity is the visible cost and the smaller one: 1,000–2,000 kWh/t at $50/MWh is $50–100/t against a $200–500/t price today. The rest is the electrochemical stack, which is priced per unit of throughput and has to be replaced as membranes foul and scale in seawater, so stack life is the number that decides the business. Siting matters as much as either of those. Co-locating on a desalination or once-through cooling intake gets the water flow, the intake capital, and much of the permitting from the host, and a standalone intake means paying for all three. The product is also half-metered: the gas comes off at a pipe and can be counted, but the atmospheric removal completes over months of re-equilibration and is modeled, so a buyer is paying for one measured step and one modeled one.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=MtJ_24aJ210 — Ocean carbon dioxide removal (CDR) via electrochemistry - A ClimateWorks production (Ocean carbon dioxide removal, 5 minutes, 10k+ views)
@@ -33,4 +36,4 @@ Captura's pilots in California and Hawaii using electrodialysis on a seawater sl
 
 ## Further reading
 
-[Carbon Dioxide Removal Primer (CDR Primer)](https://cdrprimer.org/read)
+[Carbon Dioxide Removal Primer (CDR Primer)](https://cdrprimer.org/read) · [A Research Strategy for Ocean-based Carbon Dioxide Removal and Sequestration (National Academies)](https://nap.nationalacademies.org/catalog/26278/a-research-strategy-for-ocean-based-carbon-dioxide-removal-and-sequestration)

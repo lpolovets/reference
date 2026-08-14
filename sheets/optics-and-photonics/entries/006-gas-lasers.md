@@ -25,6 +25,9 @@ CO2 emits at 10.6 um with wall-plug efficiency around 10–20% and powers to sev
 ## Examples
 CO2 laser cutters across sign making and packaging; ArF excimer sources inside every deep ultraviolet lithography scanner; LASIK systems using 193 nm excimer; HeNe references in dimensional metrology and in classic interferometers.
 
+## Economic profile
+Three separate businesses hide under one heading and they have different economics. CO2 is a commodity: fiber lasers took the metal cutting, so what is left is non-metals, and that end is served by low-cost tubes going into sign-making and hobby machines where purchase price decides the sale. Excimer is the opposite, a small number of very expensive sources sold to a handful of lithography scanner makers, so the revenue tracks semiconductor capital spending rather than laser demand. HeNe survives on stability per dollar in metrology, in volumes that keep shrinking, because nothing cheaper holds a visible line that well. What all three share is that purchase price understates the cost: gas needs replacing, electrodes and optics erode, and wall-plug efficiency of 5–20% against 30–40% for a fiber laser means several times the electricity and cooling for the same output. If you are comparing a quote against a solid-state alternative, put consumables and service on the same line as the capital cost, or the comparison will favor the gas laser for the wrong reason.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=dz7A_pGVqJQ — What is Co2 Laser? How does it work? | Physics | Explained with animation (VROOK Learning, 8 minutes, 100k+ views)
@@ -33,4 +36,4 @@ CO2 laser cutters across sign making and packaging; ArF excimer sources inside e
 
 ## Further reading
 
-[Gas Lasers (RP Photonics Encyclopedia)](https://www.rp-photonics.com/gas_lasers.html)
+[Gas Lasers (RP Photonics Encyclopedia)](https://www.rp-photonics.com/gas_lasers.html) · [State-Of-The-Art and Trends in CO2 Laser Cutting of Polymeric Materials (Materials)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7503707/)

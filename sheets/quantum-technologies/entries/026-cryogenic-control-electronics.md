@@ -25,6 +25,9 @@ The 4 K stage offers watts of cooling against microwatts at 20 mK, which is why 
 ## Examples
 Intel's Horse Ridge cryogenic control chip; Google and QuTech cryo-CMOS demonstrations controlling transmons; SemiQon and other startups building cryogenic CMOS; multiplexed readout schemes that share one line among many qubits as the nearer-term alternative.
 
+## Economic profile
+The cost of a superconducting machine sits in the refrigerator and the control electronics rather than in the qubit chip, so cryogenic control goes after one of the two big items and reduces the load on the other. Replacing one coaxial line per qubit with a few digital fibers cuts the bill of materials, the heat carried into the fridge, and the assembly labor at the same time. The constraint is power, and the arithmetic is easy: at a few milliwatts per channel, a thousand channels comes to a few watts, which is roughly the whole cooling budget of a 4 K stage, so the design target is milliwatts per qubit rather than performance per qubit. Nobody buys this as a product today, since the work sits inside large vendors such as Intel, Google and QuTech or in startups selling to them, and the cheaper near-term answer is multiplexed readout, which shares one line among many qubits and needs no new chip. If you are assessing a roadmap, ask at what qubit count cryogenic control is worth its development cost, because below a few thousand qubits room-temperature racks do the job and the whole case rests on what comes after that.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=wgv6p51J2eg — Solving the Control Electronics Bottleneck for Quantum Computing: CryoCMOS (Ari Noori, 10 minutes, under 1k views)
@@ -32,4 +35,4 @@ Intel's Horse Ridge cryogenic control chip; Google and QuTech cryo-CMOS demonstr
 
 ## Further reading
 
-[Quantum Computers Glossary (QuEra)](https://www.quera.com/glossary)
+[Quantum Computers Glossary (QuEra)](https://www.quera.com/glossary) · [Enabling Technologies for Scalable Superconducting Quantum Computing (arXiv)](https://arxiv.org/abs/2512.15001)

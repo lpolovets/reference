@@ -25,6 +25,9 @@ Approaches the wet-bulb temperature rather than the dry-bulb, so it works best i
 ## Examples
 Hyperscale sites across Arizona, Nevada, and Spain built around evaporative cooling; Microsoft's shift toward closed-loop designs in water-stressed regions after public scrutiny; adiabatic dry coolers used widely in Europe to extend capacity on a handful of hot days.
 
+## Economic profile
+The trade is straightforward: a fan and a pump replace a compressor, so the electricity bill falls and the water bill rises. Water is cheap almost everywhere it is available, so the cost that decides projects is the permit rather than the tariff. A large evaporative site consumes on the order of millions of gallons a year, and in a drought-prone region that number can stall an approval or force a late redesign to closed-loop cooling, which is the expensive outcome. Adiabatic assist is the best-value version of the idea: spraying a dry cooler's coil only on the hottest days lets the plant be sized for average conditions rather than the design day, which is a real capital saving, while annual water use stays a small fraction of a fully evaporative site. If you are choosing in a water-stressed market, price the redesign risk alongside the water, because that is the line item that has actually hit projects.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=1auJsBfGvzk — Transtherm Adiabatic Coolers Basics & How it works (Transtherm Cooling Industries Limited, 4 minutes, 50k+ views)
@@ -33,4 +36,4 @@ Hyperscale sites across Arizona, Nevada, and Spain built around evaporative cool
 
 ## Further reading
 
-[2024 United States Data Center Energy Usage Report (Berkeley Lab)](https://eta-publications.lbl.gov/sites/default/files/2024-12/lbnl-2024-united-states-data-center-energy-usage-report_1.pdf)
+[2024 United States Data Center Energy Usage Report (Berkeley Lab)](https://eta-publications.lbl.gov/sites/default/files/2024-12/lbnl-2024-united-states-data-center-energy-usage-report_1.pdf) · [NSIDC Data Center: Energy Reduction Strategies (US Department of Energy Federal Energy Management Program)](https://www.energy.gov/sites/default/files/2013/10/f3/nsidc_dcstrategies.pdf)

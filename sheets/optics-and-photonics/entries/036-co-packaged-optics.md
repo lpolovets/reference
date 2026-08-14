@@ -25,6 +25,9 @@ Cuts electrical interface power by roughly 30–50% against front-panel pluggabl
 ## Examples
 Broadcom's Bailly co-packaged Tomahawk switch; NVIDIA's co-packaged silicon photonics switches announced for AI fabrics; Intel and Ayar Labs optical chiplet work; the Open Compute Project's co-packaged optics workstream defining interfaces.
 
+## Economic profile
+The trade is capital and yield against operating power. Cutting interface power by 30–50% is worth real money where an 800G pluggable dissipates 15–25 W and a switch carries dozens of them, but the saving has to cover a harder manufacturing problem: a package holding an expensive switch ASIC and several optical engines only ships if every piece in it is good, so a bad engine now puts the ASIC at risk instead of one pluggable module. Serviceability moves the same way, because the field-replaceable unit becomes the package and a failure that used to be a module swap taking seconds becomes a switch RMA. Operators also give up multi-vendor supply, which is much of why pluggables took over in the first place. That is why the economics work today only in the largest AI fabrics, where power per rack is the binding constraint and the buyer is large enough to negotiate a repair model. If package yield improves and external laser sourcing gets settled, the comparison changes for everyone else; until then, the power number on its own does not decide it.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=lC0i7_ilpf8 — Co Packaged Optics In The Data Center (Semiconductor Engineering, 13 minutes, 5k+ views)
@@ -33,4 +36,4 @@ Broadcom's Bailly co-packaged Tomahawk switch; NVIDIA's co-packaged silicon phot
 
 ## Further reading
 
-[Photonic Integrated Circuits (RP Photonics Encyclopedia)](https://www.rp-photonics.com/photonic_integrated_circuits.html)
+[Implementation Agreement for a 3.2Tb/s Co-Packaged (CPO) Module (Optical Internetworking Forum)](https://www.oiforum.com/wp-content/uploads/OIF-Co-Packaging-3.2T-Module-01.0.pdf) · [Co-Packaging Framework Document (Optical Internetworking Forum)](https://www.oiforum.com/wp-content/uploads/OIF-Co-Packaging-FD-01.0.pdf)

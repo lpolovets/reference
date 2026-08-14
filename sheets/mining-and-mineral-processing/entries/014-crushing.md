@@ -25,6 +25,9 @@ Reduction ratio about 6:1 per stage, so three stages take a meter to roughly 10 
 ## Examples
 Gyratory primary crushers at every large open-pit mine; in-pit crushing and conveying systems that replace truck haulage on long uphill routes; three-stage crushing plants feeding ball mills in older concentrators; the crushing and screening plant that constitutes an entire aggregate operation.
 
+## Economic profile
+Crushing is cheap per ton crushed and expensive to install, so the real decision is capital now against decades of grinding power later. Three-stage crushing feeding ball mills puts more capital in the crushing plant and less energy through the mill; single-stage crushing feeding a SAG mill takes the opposite trade, which is why it is common in large modern plants, where ore variability costs more than power does. Day to day, liner and wear-part consumption is the dominant maintenance cost, and it scales with abrasiveness as much as with tonnage, so a quartz-rich ore costs more per ton crushed than a soft limestone at the same throughput. The same capital-against-operating trade shows up in in-pit crushing and conveying, where a conveyor costs a lot to install and then removes diesel and truck fleet cost on a long uphill haul, which only pays back if the pit geometry stays put long enough to amortize it. As a rule of thumb, crush as far as the machinery sensibly allows, because a millimeter taken in a crusher costs less than the same millimeter taken in a mill.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=3np_Ipw3R-A — How A Jaw Crusher Works (McLanahan Corporation, 2 minutes, 100k+ views)
@@ -33,4 +36,4 @@ Gyratory primary crushers at every large open-pit mine; in-pit crushing and conv
 
 ## Further reading
 
-[Mineral Processing Engineering (911 Metallurgist)](https://www.911metallurgist.com/blog/)
+[Mineral Processing Engineering (911 Metallurgist)](https://www.911metallurgist.com/blog/) · [Crushing and Screening Handbook, Seventh Edition (Metso)](https://www.metso.com/globalassets/insights/ebooks/metso-crushing-and-screening-handbook-edition7-en-web.pdf)

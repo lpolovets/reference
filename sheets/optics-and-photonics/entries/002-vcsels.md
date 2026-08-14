@@ -25,6 +25,9 @@ Single aperture typically 1–10 mW, arrays to tens of watts · circular beam wi
 ## Examples
 Apple's Face ID dot projector and proximity sensors, which took VCSELs to billions of units; 850 nm arrays in short-reach datacenter links; automotive and consumer LiDAR illuminators; laser mice, the first mass consumer application.
 
+## Economic profile
+The cost advantage is wafer-level test, and it is worth being precise about why. An edge emitter has to be cleaved and diced before anyone can tell whether it lases, so a bad die has already absorbed its packaging cost; a VCSEL is probed on the wafer, so the yield loss lands before the expensive step. That is what gets commodity 850 and 940 nm parts to cents apiece, and it only works at consumer volume: the capacity built for face recognition and proximity sensing is what everyone else now buys from. A buyer ordering thousands rather than millions is really ordering a custom array, where mask and qualification costs dominate and the cents-per-part figure does not apply. Moving to 1,300 or 1,550 nm means a different material system and a much smaller market, which is why those devices stay expensive.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=C0XvoT0Kn1k — What is VCSEL Laser (Vertical Cavity Surface Emitting Laser)? (Fiber Optics For Sale Co., 5 minutes, 100k+ views)
@@ -33,4 +36,4 @@ Apple's Face ID dot projector and proximity sensors, which took VCSELs to billio
 
 ## Further reading
 
-[Vertical Cavity Surface-emitting Lasers (RP Photonics Encyclopedia)](https://www.rp-photonics.com/vertical_cavity_surface_emitting_lasers.html)
+[Vertical Cavity Surface-emitting Lasers (RP Photonics Encyclopedia)](https://www.rp-photonics.com/vertical_cavity_surface_emitting_lasers.html) · [Harnessing the capabilities of VCSELs: unlocking the potential for advanced integrated photonic devices and systems (Light: Science & Applications)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11372081/)

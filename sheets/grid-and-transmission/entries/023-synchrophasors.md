@@ -25,6 +25,9 @@ Deploy synchrophasors where dynamics matter: long interconnections prone to inte
 ## Examples
 The North American SynchroPhasor Initiative, which coordinated deployment and standards after the 2003 blackout; the 2016 Blue Cut fire event in California, whose inverter behavior was reconstructed from synchrophasor data; oscillation detection tools now running in several US control rooms.
 
+## Economic profile
+Hardware is the cheap part. A unit installs inside an existing substation in under a year, and the North American fleet went from a handful before 2009 to roughly 2,500 units, mostly on grant funding rather than on utility business cases. What the grants did not cover is the recurring side: one unit generates gigabytes a month, a modest deployment produces terabytes a year, and the storage and the analysts who use it are both operating expense. That is why archives nobody looks at are a common outcome, and why the honest way to value a deployment is by which control-room applications run on the stream (oscillation detection, model validation, event reconstruction) rather than by how many units are installed. Budget alternate timing too, since a fleet whose measurement validity rests entirely on GPS has one failure mode that covers all of it. If you are appraising a program, ask what it has changed in operations since it was commissioned.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=WiEbo62x2eQ — Understanding Synchrophasors (pjminterconnection, 4 minutes, 10k+ views)
@@ -33,4 +36,4 @@ The North American SynchroPhasor Initiative, which coordinated deployment and st
 
 ## Further reading
 
-[Time Synchronization in the Electric Power System (NASPI and PNNL)](https://www.naspi.org/sites/default/files/reference_documents/tstf_electric_power_system_report_pnnl_26331_march_2017_0.pdf)
+[Time Synchronization in the Electric Power System (NASPI and PNNL)](https://www.naspi.org/sites/default/files/reference_documents/tstf_electric_power_system_report_pnnl_26331_march_2017_0.pdf) · [Using Synchrophasor Data for Oscillation Detection (NASPI)](https://www.naspi.org/sites/default/files/reference_documents/crstt_oscillation_detection_20180129_final.pdf)

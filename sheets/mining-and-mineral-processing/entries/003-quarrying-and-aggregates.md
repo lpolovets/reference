@@ -36,4 +36,4 @@ Aggregates are a transport business with a mine attached. Reserves near a city a
 
 ## Further reading
 
-[Mineral Commodity Summaries (USGS)](https://www.usgs.gov/centers/national-minerals-information-center/mineral-commodity-summaries)
+[Mineral Commodity Summaries (USGS)](https://www.usgs.gov/centers/national-minerals-information-center/mineral-commodity-summaries) · [Natural Aggregates of the Conterminous United States (USGS)](https://pubs.usgs.gov/bul/b1594/Bulletin1594.pdf)

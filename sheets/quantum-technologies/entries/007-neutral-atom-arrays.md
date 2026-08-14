@@ -25,6 +25,9 @@ Arrays of thousands of atoms assembled in arbitrary two- and three-dimensional g
 ## Examples
 QuEra's Aquila analog simulator, available over the cloud; Harvard and MIT's logical qubit demonstrations; Atom Computing's arrays exceeding a thousand qubits; Pasqal's systems in Europe.
 
+## Economic profile
+Almost all of the cost is fixed and sits in the laser system. Once the tweezer optics exist, adding atoms is close to free: thousands of traps come from one spatial light modulator, and changing the array geometry is a software change rather than a fabrication run, so there is no per-qubit control line to pay for. No other platform on this sheet has that shape, and it is why neutral atom arrays reached thousands of sites while wired platforms sit in the hundreds. What the operator pays instead is uptime, since atoms last seconds in the traps and have to be reloaded, and a machine built around dozens of stabilized lasers behaves like a physics experiment until someone engineers it into a rack. Fidelity around 99.5% also means more physical qubits per logical one than a trapped-ion machine above 99.9% needs, so some of those cheap qubits go to error-correction overhead. So the bet is really on two things arriving: laser integration making the machine reliable enough to sell, and fidelity closing enough that the overhead does not eat the scaling advantage.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=JmnZVhQc-H8 — Neutral Atom Quantum Computers - Concept of Operation | QuEra (QuEra Computing, 3 minutes, 10k+ views)

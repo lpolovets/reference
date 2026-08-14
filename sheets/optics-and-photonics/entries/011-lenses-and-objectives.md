@@ -25,6 +25,9 @@ Common glass transmits roughly 350–2,500 nm; fused silica extends into the ult
 ## Examples
 Achromatic doublets as the workhorse of optical benches; molded aspheres collimating laser diodes in every optical drive and sensor; microscope objectives with a dozen elements and immersion; germanium lenses in thermal cameras, where material cost dominates.
 
+## Economic profile
+Two things set what a lens costs, and neither of them is the glass. The first is whether the surface can be molded, since a molded asphere costs under a dollar with one tool amortized over millions of parts and the same shape ground and polished individually costs hundreds, so the question at design time is whether annual volume justifies a mold. The second is element count, because every element is two surfaces to polish, coat, center, and mount, and assembly labor scales with it, which is how a research objective with a dozen elements reaches thousands of dollars while a doublet bought by the thousand does not. Material sits on top of both: staying inside roughly 350–2,500 nm keeps you in ordinary glass, and stepping out to fused silica, calcium fluoride, germanium, or zinc selenide costs money and lead time, far enough that in a thermal camera the lens often costs more than the sensor. If a design is drifting toward more elements or an exotic material, that is the point to check whether the specification really requires it, because both changes multiply cost rather than adding to it.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=EL9J3Km6wxI — How Lenses Function (Canon Imaging Asia, 3 minutes, 1m+ views)

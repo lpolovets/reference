@@ -25,6 +25,9 @@ Diffraction limits lateral resolution to roughly 200 nm in the visible · confoc
 ## Examples
 Confocal systems from Zeiss, Leica, and Nikon as laboratory standards; two-photon microscopy in neuroscience imaging of live brain tissue; light-sheet systems for developmental biology; the 2014 Nobel Prize in Chemistry for super-resolution fluorescence microscopy.
 
+## Economic profile
+The price of a research microscope is set mostly by two items, the objectives and the light source, and which one dominates depends on the method. A widefield or confocal system is priced by its objectives and scan head; a multiphoton system is priced by its ultrafast laser, which at $50k–500k can cost more than everything else on the table. That is the whole reason the same optical question is answered by an instrument in the tens of thousands or by one over half a million, depending on how deep into scattering tissue it has to look. The other half of the economics is utilization. These are capital purchases carrying service contracts, and an instrument booked all day in a shared core facility costs a small fraction per experiment of the identical instrument sitting in one lab and used a few hours a week. If you are specifying a system, work out how many hours a week it will actually run before arguing about resolution, because utilization usually moves cost per result more than any specification does.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=j1Krn0kkSUg — Widefield and Confocal Fluorescence Microscopy (Professor Dave Explains, 10 minutes, 50k+ views)
@@ -33,4 +36,4 @@ Confocal systems from Zeiss, Leica, and Nikon as laboratory standards; two-photo
 
 ## Further reading
 
-[Optical medical imaging (NIST)](https://www.nist.gov/programs-projects/optical-medical-imaging)
+[Optical medical imaging (NIST)](https://www.nist.gov/programs-projects/optical-medical-imaging) · [MicroscopyU (Nikon Instruments)](https://www.microscopyu.com/)

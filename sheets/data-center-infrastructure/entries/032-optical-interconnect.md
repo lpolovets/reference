@@ -24,6 +24,9 @@ Port rates now 400G and 800G, with 1.6T in development · single-mode reaches ki
 ## Examples
 Spine-and-leaf fabrics in every hyperscale facility; InfiniBand and Ethernet fabrics inside AI training clusters, where interconnect bandwidth limits scaling; co-packaged optics programs from Broadcom and NVIDIA aimed at the transceiver power problem; TIA-942 structured cabling practice, which defines the hierarchy most facilities follow.
 
+## Economic profile
+The money splits across two very different lifetimes. The cabling plant is a 15-year asset whose cost is mostly labor, and pulling fiber into a live hall later costs far more than over-specifying it at build, which is why single-mode is usually the right call even where multimode would reach today. Transceivers are the other half: they turn over every few years, they are a large share of network capital, and at 800G their power draw becomes a rack-level line item. That matters more here than in most buildings, because when power is the binding constraint every watt spent in an optical module is a watt not sold as compute, which is the whole argument behind co-packaged optics. Two smaller items are worth budgeting honestly. Direct-attach copper is cheaper and lower power for short intra-rack links, and connector cleaning discipline is one of the cheapest reliability measures in the building, since contamination causes more link faults than anything else.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=SyfWmbfWmds — Structured Cabling for Large Data Centers: An Inside Look (Ep. 49) (CABLExpress, 1 minute, 10k+ views)
@@ -32,4 +35,4 @@ Spine-and-leaf fabrics in every hyperscale facility; InfiniBand and Ethernet fab
 
 ## Further reading
 
-[2024 United States Data Center Energy Usage Report (Berkeley Lab)](https://eta-publications.lbl.gov/sites/default/files/2024-12/lbnl-2024-united-states-data-center-energy-usage-report_1.pdf)
+[2024 United States Data Center Energy Usage Report (Berkeley Lab)](https://eta-publications.lbl.gov/sites/default/files/2024-12/lbnl-2024-united-states-data-center-energy-usage-report_1.pdf) · [Co-packaged optics (CPO): status, challenges, and solutions (Frontiers of Optoelectronics)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10027985/)

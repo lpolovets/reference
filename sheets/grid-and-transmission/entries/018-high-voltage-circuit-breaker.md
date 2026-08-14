@@ -25,6 +25,9 @@ Clearing in two to three cycles, roughly 40–50 ms · interrupting ratings comm
 ## Examples
 The SF6 puffer breakers standard in transmission yards worldwide since the 1970s; Siemens Energy's vacuum breakers rated to 145 kV using clean air insulation; GE Vernova's g3 fluoronitrile breakers deployed by National Grid in the UK; distribution reclosers, which are now almost universally vacuum.
 
+## Economic profile
+A single breaker is a small line item next to the transformer beside it, so the money question is about the fleet rather than the unit. The expensive event is a fault duty that grows past the 40–63 kA rating the yard was built to, because then the fix is replacing every breaker in it, and the causes sit outside the substation: new generation, a stronger tie, more inverters. A fault current limiter is often cheaper than that fleet replacement and is worth pricing before anyone assumes replacement is the only route. On the gas side the arithmetic is life-cycle rather than purchase price. Vacuum needs no gas handling and is close to maintenance-free, which is why it became standard at distribution voltages on cost over life, and above 145 kV the SF6-free premium is paid up front against leak reporting, monitoring, and end-of-life recovery obligations that last as long as the asset. For a utility specifying new transmission breakers today, the fluorinated-gas phase-down usually decides it.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=unP1KUw8BTw — SF6 vs Vacuum Circuit Breaker: Which is Better? TheElectricalGuy (Gaurav J - TheElectricalGuy, 12 minutes, 10k+ views)
@@ -33,4 +36,4 @@ The SF6 puffer breakers standard in transmission yards worldwide since the 1970s
 
 ## Further reading
 
-[Electric Power Systems Partnership (US EPA)](https://www.epa.gov/eps-partnership)
+[Electric Power Systems Partnership (US EPA)](https://www.epa.gov/eps-partnership) · [Current interruption in SF6-free switchgear (CIGRE)](https://electra.cigre.org/322-june-2022/technical-brochures/871-current-interruption-in-sf6-free-switchgear.html)

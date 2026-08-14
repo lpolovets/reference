@@ -33,4 +33,4 @@ This is where capture is cheapest, and the reason is partial pressure rather tha
 
 ## Further reading
 
-[Physical solvents and techno-economic analysis for pre-combustion CO2 capture: A review (NETL / OSTI)](https://www.osti.gov/servlets/purl/1871949)
+[Physical solvents and techno-economic analysis for pre-combustion CO2 capture: A review (NETL / OSTI)](https://www.osti.gov/servlets/purl/1871949) · [Pre-combustion capture of CO2 in IGCC plants (IEA Clean Coal Centre)](https://usea.org/sites/default/files/122011_Pre-combustion%20capture%20of%20CO2%20in%20IGCC%20plants_ccc191.pdf)

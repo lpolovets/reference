@@ -25,6 +25,9 @@ Package volume of roughly 15–20 cm3 and power under 1 W · holdover typically 
 ## Examples
 Microchip's SA.45s chip-scale atomic clock, the first commercial device of this type, developed from DARPA-funded work at NIST and Sandia; undersea seismic and sonar nodes; military handheld radios needing timing without a GPS lock; timing holdover in telecom base stations.
 
+## Economic profile
+This is the one quantum device with ordinary product economics, and the numbers are simple: a few thousand dollars a unit against a few dollars for a good crystal oscillator, so the purchase only makes sense when losing GPS timing costs more than that difference. In an undersea node or a military radio it usually does, and in most equipment it does not, which is why the real market is smaller than the number of designs that specify atomic timing. The development cost was paid by DARPA through NIST and Sandia rather than by the first buyer, and that is much of why the product sells for a few thousand dollars instead of tens of thousands. The parts are microfabricated, so unit cost falls with volume, and a customer ordering large annual quantities moves the price for everyone. Vapor cell aging drifts performance over years, so suppliers get a replacement cycle and buyers should budget a maintenance line rather than treating the clock as fit-and-forget. If the requirement is really holdover through short outages, price a disciplined oscillator first; the atomic clock is the answer when the outage lasts a day.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=CogN630jUSs — TESTED: Chip Scale Atomic Clock (Precision Timing & Frequency Reference) (Baltic Lab, 20 minutes, 10k+ views)
@@ -33,4 +36,4 @@ Microchip's SA.45s chip-scale atomic clock, the first commercial device of this 
 
 ## Further reading
 
-[Atomic Devices and Instrumentation Group (NIST)](https://www.nist.gov/pml/time-and-frequency-division/atomic-devices-and-instrumentation)
+[Atomic Devices and Instrumentation Group (NIST)](https://www.nist.gov/pml/time-and-frequency-division/atomic-devices-and-instrumentation) · [Chip-scale atomic devices (Applied Physics Reviews)](https://tf.nist.gov/general/pdf/2949.pdf)

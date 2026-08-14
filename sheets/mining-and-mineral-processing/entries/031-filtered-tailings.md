@@ -25,6 +25,9 @@ Filtered cake at 15–20% moisture, unsaturated and non-liquefiable · recovers 
 ## Examples
 Eldorado Gold's Skouries project in Greece, permitted around dry stacking; Chilean and Peruvian projects adopting filtered tailings after regulatory change; Canadian and Nevada operations in cold or arid climates where water recovery pays; paste and thickened tailings as the intermediate option at larger operations.
 
+## Economic profile
+Filtered tailings cost the most per ton stored, and they buy down two things that do not show up in an operating cost comparison: the chance of a dam failure and the water bill. In an arid district the water is real money, since recovering 80–90% of process water against 50–70% for conventional thickening avoids desalinating and pumping the difference, and that can cover a good share of the filtration power on its own. The risk side shows up in the cost of capital, because insurers, lenders, and regulators now price liquefaction potential directly. For a new project in Chile or Peru the honest comparison is often not cost per ton at all, since the alternative design does not get permitted. Throughput is what limits the method: filter capacity per unit is fixed, so above roughly 30,000–50,000 tons per day the filter count and its capital get difficult, which is why a 100,000 ton per day copper operation looks at thickened or paste tailings instead. Run filtration testwork on real tailings early, since clay content can rule the method out after a design has already been built around it.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=MC0vz5wkDWY — Dry-stack Tailings at Skouries (Eldorado Gold, 4 minutes, 1k+ views)
@@ -33,4 +36,4 @@ Eldorado Gold's Skouries project in Greece, permitted around dry stacking; Chile
 
 ## Further reading
 
-[Global Industry Standard on Tailings Management (Global Tailings Review)](https://globaltailingsreview.org/global-industry-standard/)
+[Global Industry Standard on Tailings Management (Global Tailings Review)](https://globaltailingsreview.org/global-industry-standard/) · [Report on Mount Polley Tailings Storage Facility Breach (Independent Expert Engineering Investigation and Review Panel)](https://www.mountpolleyreviewpanel.ca/sites/default/files/report/ReportonMountPolleyTailingsStorageFacilityBreach.pdf)

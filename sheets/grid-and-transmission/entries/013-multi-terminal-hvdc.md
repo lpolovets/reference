@@ -25,6 +25,9 @@ Three or more converter terminals on a shared DC network · a DC fault spreads a
 ## Examples
 The Zhoushan and Zhangbei multi-terminal projects in China, the largest operating examples; Kriegers Flak, which links Denmark and Germany through an offshore wind farm; the North Sea Wind Power Hub and related European programs; the InterOPERA project, set up specifically to make multi-vendor HVDC work.
 
+## Economic profile
+The savings are real, but they land on a different party than the costs. A meshed scheme needs far fewer cables and converters than the radial links doing the same job, so the money is saved across a whole sea area over a decade, while the first developer pays a premium for a converter specified to be extended later and waits years for the second terminal to appear. That is why North Sea schemes are being required by regulators rather than proposed by developers: no single project sponsor captures enough of the benefit to volunteer for it. The second revenue stream is cross-border trade, since the same cables can carry power between countries when the wind is low, and that depends on market rules on both shores rather than on the hardware. For an investor the pacing item is interoperability testing rather than converter cost. A demonstrated multi-vendor scheme is what turns tens of GW of European plans into orders.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=EzuExGQSO2o — Offshore wind power plant with HVDC transmission (tutorial) (Mikel De Prada, 13 minutes, 1k+ views)
@@ -33,4 +36,4 @@ The Zhoushan and Zhangbei multi-terminal projects in China, the largest operatin
 
 ## Further reading
 
-[System Operations Reports (ENTSO-E)](https://www.entsoe.eu/publications/system-operations-reports/)
+[System Operations Reports (ENTSO-E)](https://www.entsoe.eu/publications/system-operations-reports/) · [Atlantic Offshore Wind Transmission Study (National Laboratory of the Rockies)](https://www.osti.gov/biblio/2327027)

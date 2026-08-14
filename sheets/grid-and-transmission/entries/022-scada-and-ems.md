@@ -25,6 +25,9 @@ SCADA scan rates of two to four seconds, against 30–60 samples per second for 
 ## Examples
 Regional control rooms at PJM, MISO, and National Grid ESO; the 2003 Northeast blackout, where a failed alarm system left operators without a working picture for over an hour; the 2015 Ukraine attack, in which intruders operated breakers through the utilities' own control systems.
 
+## Economic profile
+Buying the system is the small part of this. An EMS is installed once, then depends on a network model that has to be kept matching the field forever. A mis-keyed line impedance or an unreported switch position corrupts every state estimate and contingency result downstream and raises no alarm, which is what makes model maintenance a permanently staffed job rather than a project line. Security has the same shape, since NERC CIP compliance in North America is an ongoing obligation on people and process rather than a box that gets installed. Justifying any of it is awkward because the benefit is an avoided outage, and the reference cases are events rather than figures: the 2003 blackout, where operators went over an hour without a working picture, and the 2015 Ukraine attack, where intruders operated breakers through the utilities' own control systems. Extending telemetry down into distribution is the one part with a conventional business case, and it starts to pay once distributed generation makes the feeder something other than a passive load.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=M2TUCd_hyHQ — What is SCADA In Power System ? Explained | TheElectricalGuy (Gaurav J - TheElectricalGuy, 13 minutes, 50k+ views)
@@ -33,4 +36,4 @@ Regional control rooms at PJM, MISO, and National Grid ESO; the 2003 Northeast b
 
 ## Further reading
 
-[System Operations Reports (ENTSO-E)](https://www.entsoe.eu/publications/system-operations-reports/)
+[System Operations Reports (ENTSO-E)](https://www.entsoe.eu/publications/system-operations-reports/) · [Final Report on the August 14, 2003 Blackout in the United States and Canada: Causes and Recommendations (US-Canada Power System Outage Task Force)](https://www.energy.gov/sites/prod/files/oeprod/DocumentsandMedia/BlackoutFinal-Web.pdf)

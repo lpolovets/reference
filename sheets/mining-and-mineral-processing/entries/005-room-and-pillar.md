@@ -25,6 +25,9 @@ Recovery typically 50–75%, rising with pillar extraction on retreat · works b
 ## Examples
 Potash mines in Saskatchewan and New Mexico; limestone mines under Kansas City, whose worked-out rooms became warehouse space; coal mines using continuous miners across Appalachia; the abandoned workings that produce periodic subsidence events in old mining districts.
 
+## Economic profile
+The economics turn on what the ore left in the pillars is worth. Leaving 25–50% of the deposit underground is acceptable in coal, potash, salt, and limestone, where a ton is worth little and a more selective method would cost more than the recovered tons return. On a high-value ore the same loss is large enough that operators pay for a caving or stoping method instead. The offsetting advantage is timing: capital is low, development is short, and several faces can produce at once, so revenue starts years earlier, which usually matters more to a small company than the tons left in the pillars do. Depth is what eventually breaks the trade, because pillars have to grow with the load above them and recovery falls as the mine goes deeper. Pillar extraction on retreat recovers part of the loss and is usually worth doing, but it has to be in the panel layout from the start rather than added at the end.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=Oaxs7EEIp4k — Room and pillar mining method - Epiroc (Epiroc Underground Mining and Tunneling, 3 minutes, 100k+ views)
@@ -33,4 +36,4 @@ Potash mines in Saskatchewan and New Mexico; limestone mines under Kansas City, 
 
 ## Further reading
 
-[Our Work (ICMM)](https://www.icmm.com/our-work)
+[Our Work (ICMM)](https://www.icmm.com/our-work) · [Pillar and Roof Span Design Guidelines for Underground Stone Mines (NIOSH)](https://www.cdc.gov/niosh/publications/numbered/2011-171.html)

@@ -25,6 +25,9 @@ Efficacy 150–200 lm/W for white devices, against roughly 15 for incandescent �
 ## Examples
 General lighting, which LEDs took over almost completely between 2010 and 2020; machine vision ring lights and bar illuminators; UV-C LEDs for disinfection; 365–405 nm arrays curing adhesives and resins in manufacturing.
 
+## Economic profile
+General lighting is a commodity business now, and most of the improvement that drove it has already been taken: going from roughly 15 lm/W to 150–200 lm/W was better than a tenfold gain, and what is left comes a few percent at a time. Long life makes that harder for whoever is selling, since tens of thousands of hours means each customer buys again rarely, so the 2010–2020 replacement wave was a one-time market rather than a recurring one. Margin has moved to the parts of a luminaire that are not the emitter, and to specialty devices such as UV-C, horticultural, and automotive LEDs, where the specification and the reliability data are worth paying for and volumes are smaller. For a system designer the useful economic fact is the comparison against a laser: an LED plus a good excitation filter costs on the order of a hundredth of a laser source, so the question to settle before specifying a laser is whether the application needs a beam or only needs light.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=O8M2z2hIbag — How LED Works - Unravel the Mysteries of How LEDs Work! (The Engineering Mindset, 19 minutes, 1m+ views)
@@ -32,4 +35,4 @@ General lighting, which LEDs took over almost completely between 2010 and 2020; 
 
 ## Further reading
 
-[Light-emitting Diodes (RP Photonics Encyclopedia)](https://www.rp-photonics.com/light_emitting_diodes.html)
+[Light-emitting Diodes (RP Photonics Encyclopedia)](https://www.rp-photonics.com/light_emitting_diodes.html) · [LED Basics (US Department of Energy)](https://www.energy.gov/cmei/ssl/led-basics)

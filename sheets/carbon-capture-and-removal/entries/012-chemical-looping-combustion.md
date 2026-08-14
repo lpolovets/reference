@@ -24,6 +24,9 @@ Fuel reactor typically 900–1,000 °C · CO2 purity above 95% before cleanup, n
 ## Examples
 Chalmers University's 10 kW and 100 kW units, which produced much of the world's operating hours; the EU CHEERS project's 3 MWth demonstration in China; Ohio State's coal-direct chemical looping at 250 kWth; several Alstom and Total pilots in the 1 MWth class.
 
+## Economic profile
+Nothing here is a purchase decision yet, so the economics are an estimate of what the avoided energy penalty would be worth if scale-up works. A few percentage points instead of the 8–12 that oxy-fuel costs is a large number on a power plant, and it comes without an air separation unit, which is the single largest energy consumer in every other inherent-separation route. The offsetting cost is carrier attrition, and it is the number nobody can quote yet: the largest units run so far are 1–4 MWth against a 1,000 MWth target, so 4 MWth to 1,000 MWth is a 250-fold step, and attrition measured on a small unit over a few hundred hours does not predict what a commercial bed does over a decade. Nickel carriers show the trade cleanly, since the carriers that perform best are also the most expensive and the hardest to handle. For an investor the question that matters is who funds the intermediate-scale unit that has to exist before a cost per ton means anything.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=YD3LtbZohSc — What is chemical-looping combustion (CLC)? (Cheers CLC, 2 minutes, 5k+ views)
@@ -32,4 +35,4 @@ Chalmers University's 10 kW and 100 kW units, which produced much of the world's
 
 ## Further reading
 
-[Chemical-Looping Combustion and Gasification of Coals and Oxygen Carrier Development: A Brief Review (OSTI)](https://www.osti.gov/servlets/purl/1400240)
+[Chemical-Looping Combustion and Gasification of Coals and Oxygen Carrier Development: A Brief Review (OSTI)](https://www.osti.gov/servlets/purl/1400240) · [Performance and Cost Analysis of Natural Gas Combined Cycle Plants with Chemical Looping Combustion (PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8375084/)

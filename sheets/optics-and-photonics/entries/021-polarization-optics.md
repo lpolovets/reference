@@ -25,6 +25,9 @@ Isolation typically 30–40 dB for a single stage, 50–60 dB for a double stage
 ## Examples
 Isolators protecting every fiber laser and telecom transmitter; polarizing beamsplitters combining two diode bars into one beam; quarter-wave plates converting to circular polarization so that reflected light returns in the orthogonal state; polarization-maintaining fiber in interferometric sensors.
 
+## Economic profile
+An isolator is usually the cheapest insurance in a laser system. A part in the hundreds of dollars protects a source costing $10k–500k from its own back-reflection, which is why essentially every fiber laser and single-frequency system ships with one. Cost inside the isolator sits in two places, the Faraday crystal and the permanent magnet, and both scale badly with power: at high average power the crystal absorbs enough to lens and depolarize, so holding 30–40 dB of isolation forces a larger aperture, better material, and thermal management, and price climbs faster than the power rating. Wavelength is the other driver, and it is the familiar one, since isolators and waveplates at 1,550 nm are made in telecom volume and are commodity parts while the same function at 1,064 nm or in the visible comes from far smaller runs. Waveplate cost is mostly polishing labor, because a true zero-order plate is a very thin piece of quartz held to a fraction of a wavelength, which is why multi-order and compound versions exist at all.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=G9kl6-lRHNs — Optics: Optical isolator | MIT Video Demonstrations in Lasers and Optics (MIT OpenCourseWare, 5 minutes, 10k+ views)
@@ -33,4 +36,4 @@ Isolators protecting every fiber laser and telecom transmitter; polarizing beams
 
 ## Further reading
 
-[Faraday Isolators (RP Photonics Encyclopedia)](https://www.rp-photonics.com/faraday_isolators.html)
+[Faraday Isolators (RP Photonics Encyclopedia)](https://www.rp-photonics.com/faraday_isolators.html) · [Waveplates (RP Photonics Encyclopedia)](https://www.rp-photonics.com/waveplates.html)

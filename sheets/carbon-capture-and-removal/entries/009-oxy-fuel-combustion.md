@@ -24,6 +24,9 @@ Oxygen purity 95–99% · air separation consumes 160–250 kWh per ton of O2 ·
 ## Examples
 Vattenfall's Schwarze Pumpe pilot in Germany; the Callide Oxyfuel Project in Australia, which ran a 30 MWe unit on oxygen; several first-of-a-kind cement projects using oxyfuel calciners, including Heidelberg Materials at Slite and Buzzi's Vernasca line.
 
+## Economic profile
+The cost moves upstream rather than away. There is no absorber and no solvent, but the air separation unit consumes 160–250 kWh per ton of oxygen and takes 8–12 percentage points off a coal plant's net efficiency, which on a 40%-efficient plant works out to the same 20–30% of output an amine retrofit gives up. Air ingress makes a retrofit worse, because leaked nitrogen dilutes the product and has to be taken back out in a purification unit that is a substantial plant of its own. That combination is why oxy-fuel keeps losing the power retrofit comparison and why no large commercial power unit has been built. Cement is where the arithmetic changes: the calciner releases CO2 from limestone whatever the fuel is, so no amount of efficiency avoids it, and oxy-fuel calcination raises the exhaust concentration enough that purification alone finishes the job. That is why the first-of-a-kind projects are at Slite and Vernasca rather than at a power station.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=HJj-aFgvOS0 — Oxy Fuel Combustion (Jason Diedjomahor, 7 minutes, under 1k views)
@@ -31,4 +34,4 @@ Vattenfall's Schwarze Pumpe pilot in Germany; the Callide Oxyfuel Project in Aus
 
 ## Further reading
 
-[Oxyfuel Combustion of Pulverised Coal (IEAGHG)](https://ieaghg.org/publications/2010-07%20Oxyfuel%20Combustion%20of%20Pulverised%20Coal.pdf)
+[Oxyfuel Combustion of Pulverised Coal (IEAGHG)](https://ieaghg.org/publications/2010-07%20Oxyfuel%20Combustion%20of%20Pulverised%20Coal.pdf) · [Callide-A Oxyfuel Fact Sheet (MIT Carbon Capture and Sequestration Technologies)](https://sequestration.mit.edu/tools/projects/callide_a_oxyfuel.html)

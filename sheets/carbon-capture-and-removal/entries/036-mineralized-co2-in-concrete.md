@@ -25,6 +25,9 @@ Injection doses of roughly 1–5 kg CO2 per cubic meter of concrete, enabling a 
 ## Examples
 CarbonCure, deployed at over a thousand ready-mix plants; Solidia's carbonation-cured precast system; CarbonBuilt and Fortera, both carbonating residues into cementitious material; Heirloom's demonstration of DAC-sourced CO2 mineralized into concrete.
 
+## Economic profile
+The money comes from the cement saved, not from the CO2 stored. At 1–5 kg CO2 per cubic meter, storing one ton takes 200–1,000 cubic meters of concrete (1,000 kg divided by the dose), so the carbon revenue on any single pour is negligible while a few percent less cement is a real margin in a $400 billion market. That is why the business model is equipment and licensing paid for out of the producer's cement savings, and why it works with no carbon price at all. Carbonation curing fixes 5–15% of binder mass and is the version with meaningful tons in it, but it suits precast only, so read the split between the two routes before believing a plant-level number.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=6uFo_AKAJJA — CarbonCure's Concrete Technology: How it Works (CarbonCure Technologies, 2 minutes, 10k+ views)

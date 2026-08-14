@@ -25,6 +25,9 @@ Typical size 100 kW to tens of MW · islanding transition in under a second for 
 ## Examples
 The Borrego Springs microgrid in California, one of the earliest utility-scale examples; Alaskan and Canadian remote community systems displacing diesel; US military installation microgrids driven by mission assurance; hospital campuses that islanded successfully during hurricanes in Texas and Florida.
 
+## Economic profile
+One case is easy to price and the rest need a resilience number the owner has to supply. The easy one is remote: displacing diesel at $0.30–1.00/kWh gives a comparison anyone can run, which is why remote community systems in Alaska and Canada are the clearest case here. On a connected site a microgrid costs considerably more per kW than grid supply, and payback depends on stacking three revenue lines that are individually small: demand charge reduction, market participation between outages, and the avoided cost of an outage. That third one usually decides the project, and it is an internal number, so a hospital or a data center that has priced an hour of downtime can justify the premium and an office park generally cannot. Budget for the two items that overrun: the utility interconnection agreement, often the longest thing on the schedule, and the protection design, which is what usually delays commissioning. The newer driver is a different calculation entirely, where interconnection for a large new load will take years and on-site generation is worth its cost for starting earlier.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=6Bh6MXHqL7k — What Are Microgrids and How Do They Work? (Veolia | North America, 2 minutes, 50k+ views)
@@ -33,4 +36,4 @@ The Borrego Springs microgrid in California, one of the earliest utility-scale e
 
 ## Further reading
 
-[Microgrids (National Laboratory of the Rockies)](https://www.nlr.gov/grid/microgrids)
+[Microgrids (National Laboratory of the Rockies)](https://www.nlr.gov/grid/microgrids) · [Microgrid Conceptual Design Guidebook (Sandia National Laboratories)](https://www.sandia.gov/app/uploads/sites/273/2022/05/ETI_SNL_Microgrid_Guidebook_2022_SAND2022-4842-R_FINAL.pdf)

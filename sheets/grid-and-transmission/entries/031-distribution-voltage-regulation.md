@@ -25,6 +25,9 @@ Service voltage held to roughly 114–126 V on a 120 V nominal system · step re
 ## Examples
 Step voltage regulators on long rural feeders across North America; Hawaii's rules requiring advanced inverter functions after high rooftop solar caused voltage excursions; IEEE 1547-2018, which made volt-VAr capability a default expectation for new distributed generation; California Rule 21.
 
+## Economic profile
+The hardware is cheap and the wear is not. A step regulator rated for a few hundred thousand operations over a 30-year life is inexpensive if it taps a few times an hour, and the same unit following a cloudy day's solar output minute by minute uses that mechanical life up in a fraction of the time, so the cost arrives years later as an early replacement. That cost falls on the utility and its ratepayers while the benefit of the rooftop solar goes to the customer who installed it, which is why this turned into a regulatory argument rather than an engineering one. The cheap fix uses capability that is already installed, since IEEE 1547-2018 made volt-VAr a default expectation for new distributed generation and turning it on is a settings change rather than a purchase. What it does cost is coordination: feeder monitoring, a distribution model, and someone managing settings centrally. A utility without those usually ends up with inverters fighting the tap changer, which is more expensive than either approach done properly.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=I-h_9eMuT0c — Pole Top Equipment - Voltage Regulators [PREVIEW] (T&D PowerSkills, 3 minutes, 10k+ views)
@@ -32,4 +35,4 @@ Step voltage regulators on long rural feeders across North America; Hawaii's rul
 
 ## Further reading
 
-[Microgrids (National Laboratory of the Rockies)](https://www.nlr.gov/grid/microgrids)
+[Voltage/VAR Control and Optimization in Distribution Systems (Iowa State University)](https://wzy.ece.iastate.edu/PPT/EE653%20VVC%20and%20CVR.pdf) · [Impact of IEEE 1547 Standard on Smart Inverters and the Applications in Power Systems (IEEE Power & Energy Society)](https://www.nlr.gov/media/docs/libraries/grid/smart-inverters-applications-in-power-systems.pdf)

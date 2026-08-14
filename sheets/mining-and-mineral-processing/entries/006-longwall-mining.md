@@ -25,6 +25,9 @@ Faces 200–400 m wide, panels up to several kilometers long · output of 20,000
 ## Examples
 Bailey Mine in Pennsylvania, among the highest-output underground coal mines in the US; Australian longwalls in the Bowen and Hunter basins; Chinese longwall operations, which account for most of the world's underground coal; longwall top coal caving, a variant that recovers thick seams in one pass.
 
+## Economic profile
+A longwall set costs $50–100 million and produces 20,000–45,000 tons a day from one face, so nearly all of the cost is fixed and profitability comes down to how many days a year that face is cutting. A move takes weeks to months, and during it the set produces nothing while the capital and the crew stay on the books, which is why operators lay out panels several kilometers long and drill the geology out well ahead of the machine. A fault that stops a panel early is the expensive failure, because it forces an unplanned move and strands the coal behind it. The same arithmetic is why longwall has stayed a coal method: few other deposits are flat and continuous enough to keep equipment of that cost working. If you are valuing an operation, ask how many panels of uninterrupted geology sit in front of the equipment, since lease tonnage overstates what a longwall can actually take.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=HHaUypSqdzM — Longwall Mining Operation - F.T.I. Pty Ltd (F.T.I. Pty Ltd - Future Training Initiatives, 2 minutes, 100k+ views)
@@ -33,4 +36,4 @@ Bailey Mine in Pennsylvania, among the highest-output underground coal mines in 
 
 ## Further reading
 
-[Mineral Commodity Summaries (USGS)](https://www.usgs.gov/centers/national-minerals-information-center/mineral-commodity-summaries)
+[Mineral Commodity Summaries (USGS)](https://www.usgs.gov/centers/national-minerals-information-center/mineral-commodity-summaries) · [Longwall Mining (US Energy Information Administration)](https://www.osti.gov/servlets/purl/35268)

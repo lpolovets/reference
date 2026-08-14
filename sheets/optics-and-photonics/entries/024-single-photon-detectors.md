@@ -25,6 +25,9 @@ SPAD detection efficiency 30–50% in the visible, much lower at 1,550 nm · sup
 ## Examples
 SPAD arrays in smartphone time-of-flight sensors and in automotive LiDAR; superconducting nanowire detectors in quantum key distribution links and in NASA's deep-space optical communication receivers; fluorescence lifetime imaging systems built on SPAD arrays.
 
+## Economic profile
+These two technologies sit four orders of magnitude apart on price, and neither number is really about the detector. A SPAD is CMOS, so smartphone proximity sensing and time-of-flight paid for the process development and an array now costs tens of dollars; counting photons is not expensive once the counting happens on a silicon die. A superconducting nanowire is also a cheap piece of film, and the six figures a system costs are the closed-cycle cryostat holding it near 1 K, the bias and readout electronics, and the integration labor. That has a useful consequence for anyone budgeting one: the marginal cost of another channel is far below the cost of the first, which is why quantum networking testbeds and deep-space optical receivers are built with many channels rather than one. The economics improve only if cryocoolers get cheaper, so compare cooler options and channel count before comparing nanowire specifications. If the photons are visible rather than at 1,550 nm, a SPAD does the job for tens of dollars and the question does not arise.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=pea1Uftrujc — The Basics of Single Photon Avalanche Diodes (Kevin Zhang, 12 minutes, 10k+ views)
@@ -33,4 +36,4 @@ SPAD arrays in smartphone time-of-flight sensors and in automotive LiDAR; superc
 
 ## Further reading
 
-[Sensor Science Division (NIST)](https://www.nist.gov/pml/sensor-science)
+[Sensor Science Division (NIST)](https://www.nist.gov/pml/sensor-science) · [Superconducting nanowire single-photon detectors: physics and applications (arXiv)](https://arxiv.org/abs/1204.5560)

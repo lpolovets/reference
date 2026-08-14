@@ -25,6 +25,9 @@ Two-qubit gate fidelity, connectivity, and gate time together determine achievab
 ## Examples
 IBM's scale, quality, and speed framing with quantum volume and CLOPS; the QED-C and Metriq benchmark suites; DARPA's Quantum Benchmarking Initiative assessing vendor claims independently; the repeated pattern of quantum advantage claims later matched by improved classical simulation.
 
+## Economic profile
+Almost nobody sells benchmarking, for a straightforward reason: a benchmark the vendor pays for is worth less than one it does not control, so the work is funded by government and consortia such as DARPA's Quantum Benchmarking Initiative, QED-C and Metriq. Its economic function is diligence. A buyer evaluating on qubit count pays for capability that is not there, and finding out costs machine time plus people who can run an algorithmic benchmark end to end, including the compilation and calibration overhead that vendor numbers usually exclude. That expense is most of why component numbers get published and end-to-end numbers do not. If you are buying access, pay for a benchmark on your own problem before you pay for the machine; if you are investing, the independent assessments are the cheapest diligence available on this field, and a vendor's chosen metric mainly tells you which metric it leads on.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=UpKseR066DQ — Three Metrics for Quantum Computing Performance: Scale, Quality and Speed (IBM Research, 10 minutes, 5k+ views)
@@ -33,4 +36,4 @@ IBM's scale, quality, and speed framing with quantum volume and CLOPS; the QED-C
 
 ## Further reading
 
-[Benchmarking a trapped-ion quantum computer with 30 qubits (Quantum)](https://quantum-journal.org/papers/q-2024-11-07-1516/)
+[Benchmarking a trapped-ion quantum computer with 30 qubits (Quantum)](https://quantum-journal.org/papers/q-2024-11-07-1516/) · [Quantum Benchmarking Initiative (DARPA)](https://www.darpa.mil/research/programs/quantum-benchmarking-initiative)

@@ -25,6 +25,9 @@ One fringe corresponds to half a wavelength of path change, about 316 nm at 633 
 ## Examples
 Zygo and 4D Technology interferometers used throughout optical manufacturing; heterodyne laser interferometers as position feedback in lithography stages; LIGO, a 4 km Michelson interferometer that measures displacements smaller than a proton; Fourier-transform infrared spectrometers, which are Michelson interferometers with a moving mirror.
 
+## Economic profile
+The instrument is rarely the whole purchase. Air index changes by roughly 1 part per million per degree C, which is 1 um per meter of path, so a meter-scale measurement needs a temperature-controlled room, vibration isolation, and environmental compensation, and that installation can approach the cost of the interferometer itself. Against prices of tens of thousands to several hundred thousand dollars, that is the number a first-time buyer usually gets wrong. Two quite different businesses sell into this. A benchtop Fizeau goes to an optics shop as capital equipment bought once every several years, from a short list of vendors that compete on capability rather than price; heterodyne interferometers designed into lithography stages ship as OEM components in volumes that support serious engineering investment. For an optics manufacturer the right way to book it is as fixed overhead, since a surface that cannot be measured cannot be polished to specification, and the cost spreads over every part the shop makes.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=v8gaEqHa1r0 — Laser Interferometer - Part 1: The Optical Design. (Diffraction Limited, 17 minutes, 50k+ views)
@@ -33,4 +36,4 @@ Zygo and 4D Technology interferometers used throughout optical manufacturing; he
 
 ## Further reading
 
-[Interferometers (RP Photonics Encyclopedia)](https://www.rp-photonics.com/interferometers.html)
+[Interferometers (RP Photonics Encyclopedia)](https://www.rp-photonics.com/interferometers.html) · [OPTI 513: Optical Testing (University of Arizona)](https://wp.optics.arizona.edu/jcwyant/courses/opti-513-optical-testing/)

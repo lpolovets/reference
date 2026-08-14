@@ -25,6 +25,9 @@ Gas engine plants of 10–500 MW, built in 12–24 months against multi-year int
 ## Examples
 Texas data centers built with behind-the-meter gas generation while awaiting ERCOT interconnection; xAI's Memphis site, whose gas turbines drew air-permit scrutiny; VoltaGrid and similar modular gas fleets marketed specifically for bridge power; several announced projects pairing gas today with a grid connection later.
 
+## Economic profile
+Nobody buys this for the power price. Delivered cost sits above utility rates once fuel, maintenance, and capital are counted, but power is only 15–30% of a data center's total cost of ownership, so paying a premium on that share for a few years is a modest penalty against not being able to run at all. What the money buys is 12–24 months to a running plant against a multi-year interconnection wait, so the calculation is whether the operator earns more by starting that much earlier than the fuel premium costs over the life of the plant. The bridge structure improves it: keep the plant for backup and peak shaving after the grid connection lands, and the capital gets a second job instead of being stranded. Two things break the case in diligence. A gas pipeline connection carries its own multi-year lead time, and a continuous-run air permit is far harder to get than a standby permit, so either one can hand back the schedule advantage that justified the plant.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=vY70DYcDrJ0 — Inside Climate News: Data Centers Are Building Their Own Gas Power Plants in Texas (KXAN, 3 minutes, 5k+ views)

@@ -25,6 +25,9 @@ Group IV diamond defects emit a large fraction of photons into the zero-phonon l
 ## Examples
 Tin-vacancy centers in diamond demonstrating high-fidelity spin-photon interfaces; erbium-doped crystals and silicon devices for telecom-band memories; commercial silicon carbide wafers repurposed for defect qubits; Photonic Inc.'s silicon T centers, which emit near the telecom band.
 
+## Economic profile
+Each of these fixes one of the NV center's weaknesses and costs something else in exchange, and which cost is tolerable decides which one becomes a product. With erbium at 1,550 nm you buy no wavelength conversion and pay no extra loss for sitting off the fiber minimum, which matters because loss is what sets how far apart the nodes can be. Silicon carbide starts from a commodity substrate on existing 150 and 200 mm lines instead of specialty diamond growth, so the wafer is not the expensive part. Group IV diamond centers need 1–4 K, and a cryocooler at that temperature is far cheaper than a dilution refrigerator, but a network needs one per node, so that cost multiplies with node count rather than sitting in a single machine room. None of them has solved deterministic defect placement, and until that works, yield on a good emitter sets the cost of everything built from it. There is nothing to buy here yet, so judge progress by cost per entangled bit per second across a real link rather than by cost per node.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=72pprrSSDK0 — Quantum Color (Fermilab, 6 minutes, 100k+ views)
@@ -32,4 +35,4 @@ Tin-vacancy centers in diamond demonstrating high-fidelity spin-photon interface
 
 ## Further reading
 
-[Quantum Flagship](https://qt.eu/)
+[Quantum Flagship](https://qt.eu/) · [Surveying optically addressable spin qubits for quantum information and sensing technology (arXiv)](https://arxiv.org/abs/2412.11232)

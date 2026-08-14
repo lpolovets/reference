@@ -25,6 +25,9 @@ Provides real inertia, typically 2–6 MW-seconds per MVA of rating · short-cir
 ## Examples
 South Australia's four synchronous condensers with added flywheels, installed after the 2016 system black event; EirGrid's fleet in Ireland, driven by very high wind share; several UK stability contracts that pay for inertia and short-circuit level; retired coal units in the US converted rather than demolished.
 
+## Economic profile
+Per MVAr this is one of the most expensive ways to buy reactive power, roughly 8 to 12 times a mechanically switched capacitor bank, and the standing losses of 1–2% of rating are an energy bill that runs every hour for the machine's life. Comparing it per MVAr misses the point, because it is the only device here that also supplies real inertia and 5–6 times rated fault current, and an operator whose relays are misoperating because the system is too weak has no cheaper option. Converting a retiring coal or gas unit costs far less than a new machine and keeps the existing interconnection, which is why so many recent additions are conversions. How it gets paid for varies by market: several UK contracts buy inertia and short-circuit level explicitly, while in the US the cost is more often rate-based by the transmission owner, so it reaches ratepayers rather than a bidder. Grid-forming inverters are the thing that would change these economics, and so far they cover only part of the duty, since at 1.1–1.5 times rated current they do not supply the fault current.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=T29D2npCo5A — Synchronous Condensers Are Key To Enabling Renewable Growth - but what are they? (Energy Live News, 12 minutes, 10k+ views)
@@ -33,4 +36,4 @@ South Australia's four synchronous condensers with added flywheels, installed af
 
 ## Further reading
 
-[Long-Term Reliability Assessment (NERC)](https://www.nerc.com/globalassets/our-work/assessments/nerc_ltra_2025.pdf)
+[Long-Term Reliability Assessment (NERC)](https://www.nerc.com/globalassets/our-work/assessments/nerc_ltra_2025.pdf) · [2023 Inertia Report (Australian Energy Market Operator)](https://www.aemo.com.au/-/media/files/electricity/nem/security_and_reliability/system-strength-requirements/2023-inertia-report.pdf)

@@ -25,6 +25,9 @@ Silicon responds 200–1,100 nm; InGaAs arrays extend to 1,700 nm at roughly a t
 ## Examples
 Sony's stacked backside-illuminated sensors in most smartphones; scientific CMOS cameras that displaced electron-multiplying CCDs in microscopy; InGaAs arrays for short-wave infrared inspection and surveillance; event cameras, which report per-pixel changes instead of frames.
 
+## Economic profile
+Phone volume pays for everything else. A sensor with tens of millions of pixels sells for a few dollars because the fab, the process, and the stacking technology were all developed for the phone market, and scientific, machine-vision, and automotive cameras are built on processes somebody else's volume already paid to develop. The cost cliff is at 1,100 nm. InGaAs arrays run roughly a thousand times more per pixel, partly because indium phosphide has nothing like silicon's manufacturing base, and partly because the array has to be bonded to a separate readout chip instead of being made monolithically. That ratio is large enough that the first question on any short-wave infrared design should be whether an illuminator at a silicon-friendly wavelength solves the problem, since changing the wavelength is usually cheaper than changing the detector material. For a company, competing on volume silicon sensors is not realistic, so the value sits in the SWIR gap, in the optics, or in what gets done with the image.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=FKJFIzDfUNE — Image Sensors Explained: How CCD and CMOS Sensors works? CCD vs CMOS (ALL ABOUT ELECTRONICS, 9 minutes, 100k+ views)
@@ -33,4 +36,4 @@ Sony's stacked backside-illuminated sensors in most smartphones; scientific CMOS
 
 ## Further reading
 
-[Image Sensors (RP Photonics Encyclopedia)](https://www.rp-photonics.com/image_sensors.html)
+[Image Sensors (RP Photonics Encyclopedia)](https://www.rp-photonics.com/image_sensors.html) · [A Review of the Pinned Photodiode for CCD and CMOS Image Sensors (Dartmouth Digital Commons)](https://digitalcommons.dartmouth.edu/facoa/2423/)

@@ -25,6 +25,9 @@ Axial resolution of 1–15 um, set by source bandwidth rather than by the object
 ## Examples
 Retinal OCT in nearly every ophthalmology clinic, now the most common imaging procedure in the specialty; intravascular OCT guiding coronary stent placement; OCT-based inspection of pharmaceutical tablet coatings and multilayer films; art conservation imaging of varnish layers.
 
+## Economic profile
+Most of an OCT system is cheap by the standards of medical imaging. It works in the near-infrared and short-wave infrared, so the fiber, couplers, and detectors come out of the telecom supply chain at telecom prices, and the expensive items are the swept-source laser or the line camera. At $50,000–150,000 an ophthalmic system is a small fraction of what an MRI costs, and a clinic pays for it out of scan volume against a reimbursed procedure, which is why retinal OCT spread through the specialty within about a decade. Industrial OCT uses much the same hardware with none of that pull: the buyer is comparing it against confocal profilometry on a productivity case rather than a billing code, so the sales cycle is longer and the price ceiling is lower. Those are two different businesses that happen to share a physics, and when evaluating an OCT company the first thing to establish is which one it is in.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=UyZXJ3WjKwI — Optical Coherence Tomography: A New Way of Seeing (Albert and Mary Lasker Foundation, 3 minutes, 50k+ views)
@@ -33,4 +36,4 @@ Retinal OCT in nearly every ophthalmology clinic, now the most common imaging pr
 
 ## Further reading
 
-[Optical Coherence Tomography (RP Photonics Encyclopedia)](https://www.rp-photonics.com/optical_coherence_tomography.html)
+[Optical Coherence Tomography (RP Photonics Encyclopedia)](https://www.rp-photonics.com/optical_coherence_tomography.html) · [The Development, Commercialization, and Impact of Optical Coherence Tomography (Investigative Ophthalmology & Visual Science)](https://pmc.ncbi.nlm.nih.gov/articles/PMC4968928/)

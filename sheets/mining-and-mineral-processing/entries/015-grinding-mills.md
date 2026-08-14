@@ -36,4 +36,4 @@ Grinding is where the electricity bill lives, so a percentage point of energy ef
 
 ## Further reading
 
-[SAG Mill Animation (911 Metallurgist)](https://www.911metallurgist.com/blog/sag-mill-animation/)
+[SAG Mill Animation (911 Metallurgist)](https://www.911metallurgist.com/blog/sag-mill-animation/) · [Breaking Down Energy Consumption in Industry Grinding Mills (CEEC)](https://www.ceecthefuture.org/resources/breaking-energy-consumption-industry-grinding-mills)

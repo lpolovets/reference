@@ -25,6 +25,9 @@ Sorts individual particles typically 20–100 mm · X-ray transmission distingui
 ## Examples
 TOMRA X-ray transmission sorters in tungsten, tin, and base metal operations; diamond recovery, where sorting has been standard for decades; underground sorting installations that avoid hoisting waste to surface; lithium pegmatite projects using sorting to upgrade coarse spodumene feed.
 
+## Economic profile
+The value of a rejected ton is unusually large here, because it never consumes grinding power, water, reagents, or tailings capacity, and those savings arrive together rather than one at a time. What limits the business case is machine throughput. At roughly 100–300 tons per hour per unit, a 100,000 ton per day operation runs about 4,200 tons an hour and would need 14 sorters at the top of that range and over 40 at the bottom (arithmetic derived here, not a published figure), which is why sorting has landed first in mid-size vein-hosted and pegmatite operations rather than in large porphyries. The other limit is that material below the sorting size bypasses the machines entirely, so the addressable share of the feed is smaller than a nameplate rate suggests. Underground the argument changes shape, since hoisting capacity is usually the binding constraint and rejecting waste before it goes up the shaft turns sorter capital directly into extra ore production. If you are considering it, run a sorting test on real drill core early, because the answer is ore-specific and a positive result changes the whole flowsheet rather than one unit operation.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=SmyqXX99DrI — TOMRA Mining COM XRT 2.0 Process Animation (TOMRA, 2 minutes, 10k+ views)
@@ -33,4 +36,4 @@ TOMRA X-ray transmission sorters in tungsten, tin, and base metal operations; di
 
 ## Further reading
 
-[Home (International Mining)](https://im-mining.com/)
+[Home (International Mining)](https://im-mining.com/) · [Pre-Concentration – More than Bulk Ore Sorting (CEEC)](https://www.ceecthefuture.org/resources/pre-concentration-more-than-bulk-ore-sorting)

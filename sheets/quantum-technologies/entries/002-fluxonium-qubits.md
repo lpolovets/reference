@@ -25,6 +25,9 @@ Coherence times reaching 1 ms and beyond, roughly an order of magnitude above tr
 ## Examples
 Google's published comparison of transmon and fluxonium architectures; Atlantic Quantum and Alice & Bob among the startups pursuing non-transmon superconducting qubits; university groups at Maryland and Yale, where much of the fluxonium work originated.
 
+## Economic profile
+A fluxonium machine costs about what a transmon machine costs, because it needs the same dilution refrigerator at several hundred thousand dollars to over a million, and the same racks of control electronics. The chip is the cheap part either way. What changes is how much computing fits inside one fridge. At roughly 1,000 physical qubits per logical one, with overhead falling superlinearly as fidelity improves, you get more logical qubits from the same wiring budget at a two-qubit fidelity above 99.9% than at a transmon's 99.5%, and that is the whole economic argument for fluxonium. Against it, the junction array has to come out uniform and the larger parameter space has to be calibrated per device, which is an operating cost that does not fall with volume. Nobody has shown fluxonium above a handful of qubits, so an investor here is funding process development rather than buying a machine, and if transmon fidelities reach the same place first, that extra process risk was paid for nothing.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=Cnqh6QKTcnA — Qubit Types | Part 1 | Superconducting Qubits (Quantum Leap, 5 minutes, 10k+ views)
@@ -33,4 +36,4 @@ Google's published comparison of transmon and fluxonium architectures; Atlantic 
 
 ## Further reading
 
-[About (Quantum, the open journal for quantum science)](https://quantum-journal.org/about/)
+[About (Quantum, the open journal for quantum science)](https://quantum-journal.org/about/) · [The high-coherence fluxonium qubit (arXiv)](https://arxiv.org/abs/1810.11006)

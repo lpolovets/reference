@@ -25,6 +25,9 @@ PUE is total facility energy divided by IT energy; WUE is liters of water per kW
 ## Examples
 The Green Grid's original PUE definition and its later standardization in ISO/IEC 30134; Google's published fleet-wide trailing PUE, among the lowest reported; Uptime Institute survey data showing the industry average stalled; European regulations now requiring reporting of both energy and water for large facilities.
 
+## Economic profile
+Overhead shows up twice, as an electricity bill and as capacity that cannot be sold as compute. At 10 MW of IT load, moving from a PUE of 1.5 to 1.4 removes 1 MW of overhead (15 MW total against 14), and where power is the binding constraint the freed megawatt is usually worth more than the energy saved. That is what makes containment the best-returning spend in a legacy room, since it recovers 20–40% of cooling energy for very little capital. Past that the curve flattens, which is why the weighted industry average has sat near 1.54 for six years while new hyperscale sites report around 1.1: most of the fleet is old buildings where the constraint is the building itself. Anyone putting these ratios into a financial model should watch two things. A PUE target can be met by moving to evaporative cooling while the water bill and the local water politics get worse, and PUE improves when the servers get less efficient, so the ratio should never stand in for compute efficiency or be used to rank sites in different climates.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=DQ-SVFxE8lE — What is PUE? - Data Center Efficiency (FLUIXAI, 3 minutes, 5k+ views)

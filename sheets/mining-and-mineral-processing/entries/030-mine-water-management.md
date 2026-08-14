@@ -25,6 +25,9 @@ Acid generation continues for decades to centuries once established · sulfide o
 ## Examples
 The EPA's abandoned mine drainage program addressing legacy Appalachian sites; Iron Mountain in California, one of the most acidic waters measured anywhere; Chilean operations desalinating seawater and pumping it thousands of meters uphill; constructed wetlands treating low-flow drainage after closure.
 
+## Economic profile
+This is a liability question rather than a margin question, and the arithmetic that matters is the perpetuity. A treatment plant costing a million dollars a year forever has a present value of twenty million at a 5% discount rate and forty million at 2.5%, so the size of the obligation moves with the rate assumption more than with the engineering. That is why the operator's incentive is to prevent drainage rather than treat it. Characterizing the acid generation potential of every waste rock type before the pit is designed is cheap, and encapsulating or submerging the potentially acid-generating material while the trucks are already running costs a fraction of what treating the drainage for a century does. On the operating side, water is a capital and power cost in arid districts, which is why recycling 80%+ of process water is worth doing: the alternative is desalinating seawater and pumping it thousands of meters uphill. The number to interrogate in any closure plan is the assumed end date for treatment, because a plan that has one is usually wrong, and a perpetual cost needs an endowment rather than a bond.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=ZZUcTWsNwNc — Acid Mine Drainage: An Overview and Sustainability (Boat of Knowledge Ohio University, 4 minutes, 10k+ views)
@@ -33,4 +36,4 @@ The EPA's abandoned mine drainage program addressing legacy Appalachian sites; I
 
 ## Further reading
 
-[Abandoned Mine Drainage (US EPA)](https://www.epa.gov/nps/abandoned-mine-drainage)
+[Abandoned Mine Drainage (US EPA)](https://www.epa.gov/nps/abandoned-mine-drainage) · [Reference Guide to Treatment Technologies for Mining-Influenced Water (US EPA)](https://www.epa.gov/sites/default/files/2015-08/documents/reference_guide_to_treatment_technologies_for_miw.pdf)

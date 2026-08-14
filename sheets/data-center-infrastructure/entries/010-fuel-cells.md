@@ -25,6 +25,9 @@ Electrical efficiency 50–60% on natural gas · modules typically 200–500 kW,
 ## Examples
 Bloom Energy servers at Equinix, Apple, and several colocation campuses; Microsoft's hydrogen fuel cell demonstration replacing a diesel generator for backup duty; Korean and Japanese installations using fuel cells for both power and heat.
 
+## Economic profile
+The capital number does not compete: installed cost per kW runs several times a gas engine's, and stack replacement every few years is a scheduled operating cost an engine does not have. Some of that comes back as fuel, since 50–60% electrical efficiency against 40–45% for a reciprocating engine works out to roughly 10–30% less gas per kWh, but not enough to close the gap on its own. What the premium buys is a permit. Where NOx and particulate limits block engines, the choice is between a fuel cell plant and no site at all, and at that point almost any capital number clears. That is also why fuel cells make no sense for standby duty, since a diesel that runs a few hours a year costs a fraction as much and the emissions argument barely applies at that duty. The climate case depends entirely on the fuel, and biogas costs more than pipeline gas, so an operator buying the low-emission story should price the fuel contract before the hardware.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=wN4Z0iFifxc — How A Bloom Energy Server Works (Bloom Energy, 3 minutes, 100k+ views)
@@ -33,4 +36,4 @@ Bloom Energy servers at Equinix, Apple, and several colocation campuses; Microso
 
 ## Further reading
 
-[Key Questions on Energy and AI (IEA)](https://iea.blob.core.windows.net/assets/3179f7f8-01f6-4dd6-bffa-c9f7b73f1dc9/KeyQuestionsonEnergyandAI.pdf)
+[Key Questions on Energy and AI (IEA)](https://iea.blob.core.windows.net/assets/3179f7f8-01f6-4dd6-bffa-c9f7b73f1dc9/KeyQuestionsonEnergyandAI.pdf) · [Types of Fuel Cells (US Department of Energy)](https://www.energy.gov/cmei/fuels/types-fuel-cells)

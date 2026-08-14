@@ -25,6 +25,9 @@ Conductor rated to 90 °C continuous, 105 °C emergency · available to 500 kV A
 ## Examples
 London Power Tunnels, a multi-billion-pound program putting 400 kV circuits under the city; the Randstad 380 kV underground sections in the Netherlands; almost every substation getaway in a dense downtown; 35 kV distribution feeders, where XLPE has entirely replaced paper-insulated lead-covered cable.
 
+## Economic profile
+The 5–15x multiple over an overhead line is the whole economic story, and most of it is civil work rather than cable: trenching, duct banks, tunnels, and working in streets that have to stay open. The multiple is therefore worst exactly where undergrounding gets requested most, which is dense city. Because the cost is so lopsided, the useful question is who pays. Undergrounding driven by a local objection is often funded by the party asking for it, while a substation getaway is ordinary network cost and goes into rate base. Two items get left out of the comparison and should not be: reactive compensation at both ends once an AC circuit passes roughly 50–80 km, and repair, which takes weeks against the hours an overhead line needs, so a utility with cable in the ground has to hold spare lengths and keep jointers available. If a route is long enough that compensation is being priced, price a DC option in the same study.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=xR252k7SdmY — HV XLPE Underground Cable Construction Explained | Layers, Function & Design (Circuit Masterclass, 3 minutes, 1k+ views)

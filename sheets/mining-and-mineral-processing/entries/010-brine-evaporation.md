@@ -25,6 +25,9 @@ Evaporation cycle of 12–24 months from pumping to product · lithium recovery 
 ## Examples
 The Salar de Atacama in Chile, worked by SQM and Albemarle; Argentine salares in Jujuy and Catamarca; Chinese brine operations in Qinghai and Tibet, which have high magnesium ratios; the water-use disputes with indigenous communities that shape permitting across the region.
 
+## Economic profile
+Solar evaporation costs almost nothing to run, so brine producers sit at the bottom of the lithium cost curve and set the price everyone else has to beat. The 12–24 month lag between pumping and product is the commercial weakness, because output cannot follow price: a decision to expand during a shortage delivers into whatever market exists two years later, and lithium prices can move a long way in two years. Recovery of 40–60% looks poor next to the 70–90% direct lithium extraction claims, and it usually matters less than it looks, since the lost lithium sits in salts that were cheap to make and the ponds cost almost nothing to run. The number that does move the economics is the magnesium to lithium ratio, because a high-magnesium brine raises treatment cost sharply, which is what makes the Qinghai operations more expensive than Atacama. The binding constraint on new capacity is usually water permitting rather than cost, since evaporating brine in the driest deserts on earth puts a producer in a direct argument with the communities drawing on the same basin.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=xkHuJe5i1rg — Lithium Brine Extraction: The Race to Power Tomorrow's World (The Deep Dive, 10 minutes, 10k+ views)
@@ -33,4 +36,4 @@ The Salar de Atacama in Chile, worked by SQM and Albemarle; Argentine salares in
 
 ## Further reading
 
-[Mineral Commodity Summaries (USGS)](https://www.usgs.gov/centers/national-minerals-information-center/mineral-commodity-summaries)
+[Mineral Commodity Summaries (USGS)](https://www.usgs.gov/centers/national-minerals-information-center/mineral-commodity-summaries) · [Critical Mineral Resources of the United States, Chapter K: Lithium (USGS)](https://pubs.usgs.gov/pp/1802/k/pp1802k.pdf)

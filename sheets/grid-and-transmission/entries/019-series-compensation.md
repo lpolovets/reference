@@ -25,6 +25,9 @@ Compensation typically 25–70% of line reactance · raises stable transfer capa
 ## Examples
 The Kayenta thyristor-controlled series capacitor in Arizona, the first of its type; extensive series compensation on Brazil's north-south interconnection and on Sweden's 400 kV network; the New York Power Authority's Marcy South project; India's 765 kV corridors, most of which are series-compensated.
 
+## Economic profile
+Almost nothing on this sheet has a better ratio of capacity gained to money spent: a few percent of the cost of a parallel circuit, inside an existing substation, in one to two years instead of seven to twelve. At 40% compensation the stable transfer capability of a long line goes up 40–70%, and no land changes hands. Two things spend that advantage. The first is diagnosis, since series capacitors do nothing for a thermally limited line, so a project that misreads the constraint gets nothing for the money. The second is subsynchronous resonance: if a steam turbine with a long shaft sits within electrical reach, the study can require filters and protection or rule the scheme out entirely, and the Mohave shaft failures are why nobody skips it. Because the capital is small, the study and the schedule risk around it usually decide the project rather than the price of the capacitors.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=B7s9ms6BPNE — Series Compensation - Part 1 (Dr Nimal Madhu, 15 minutes, 5k+ views)
@@ -33,4 +36,4 @@ The Kayenta thyristor-controlled series capacitor in Arizona, the first of its t
 
 ## Further reading
 
-[Technical brochures (CIGRE)](https://www.cigre.org/GB/publications/technical-brochures)
+[Technical brochures (CIGRE)](https://www.cigre.org/GB/publications/technical-brochures) · [Lesson Learned: Sub-Synchronous Interaction between Series-Compensated Transmission Lines and Generation (NERC)](https://www.nerc.com/globalassets/programs/event-analysis/lessons-learned/ll20110705_sub-synchronous_interaction.pdf)

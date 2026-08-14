@@ -24,6 +24,9 @@ Tier III is concurrently maintainable; Tier IV is fault tolerant against any sin
 ## Examples
 Uptime Institute Tier certifications held by colocation providers as a sales credential; hyperscale designs that deliberately reduce facility redundancy because the application fails over between sites; integrated systems testing catching control-sequence errors that no component test would have found.
 
+## Economic profile
+Redundancy multiplies the most expensive part of the building, so the tier choice moves total capital more than almost anything else here: Tier IV typically costs 30–50% more than Tier III for the same IT capacity. Whether that is money well spent depends on where resilience already lives, and for a workload that fails over between sites in software the operator is paying for it twice. That is why several hyperscale designs sit deliberately below Tier III at the facility level, and why an enterprise application with no failover still buys Tier III concurrent maintainability. A colocation tenant should ask what a tier claim actually covers, since certification of the design, the constructed facility, and the operations are three separate things, and "Tier III design" gets claimed where nothing was certified. Commissioning is the opposite kind of spend: it lands at the end when the schedule is already late, it costs far less than the redundancy it is checking, and level 5 integrated systems testing under load is the cheapest place in the program to find a design or construction error. If it gets cut, a tenant finds the error instead.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=8DzqbL0HKG0 — Uptime Data Center Tier Levels - The Gold Standard (Data Center News, 6 minutes, 1k+ views)
@@ -32,4 +35,4 @@ Uptime Institute Tier certifications held by colocation providers as a sales cre
 
 ## Further reading
 
-[Uptime Institute Global Data Center Survey 2025 (Uptime Institute)](https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2025.Annual.Survey.Report.pdf?version=0)
+[Uptime Institute Global Data Center Survey 2025 (Uptime Institute)](https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2025.Annual.Survey.Report.pdf?version=0) · [Uptime Institute Tier Classification System (Uptime Institute)](https://uptimeinstitute.com/tiers)

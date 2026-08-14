@@ -25,6 +25,9 @@ Rates from 10G through 400G and 800G, with 1.6T emerging · an 800G module dissi
 ## Examples
 QSFP-DD and OSFP 800G modules in current AI cluster fabrics; coherent pluggables at 400G ZR carrying metro traffic without a separate transport box; the Multi-Source Agreements that define each form factor and keep the market multi-vendor.
 
+## Economic profile
+Standardization sets the margins here. The Multi-Source Agreements fix the mechanics, the electrical interface, and the power envelope so that any compliant module works in any compliant port, which is exactly what operators want and exactly what keeps prices falling; a vendor makes its margin in the window between shipping a new rate and having competitors qualified into the same sockets, and that window is short. Cost per gigabit has fallen consistently, but power per bit has fallen more slowly, and that gap is the story at 800G. A module dissipating 15–25 W, times dozens per switch, turns optics into a power and cooling line item rather than only a capital one, which is the pressure behind co-packaged optics. The buying rule follows from the same arithmetic: take the shortest-reach module that closes the link, because reach costs money once and then costs power for as long as the link is up.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=M9GmHvt2EI4 — Why do AI Data Centers Need 400G/800G Optical Transceivers? (QSFPTEK, 3 minutes, 1k+ views)
@@ -33,4 +36,4 @@ QSFP-DD and OSFP 800G modules in current AI cluster fabrics; coherent pluggables
 
 ## Further reading
 
-[Fiber-optic Links (RP Photonics Encyclopedia)](https://www.rp-photonics.com/fiber_optic_links.html)
+[Fiber-optic Links (RP Photonics Encyclopedia)](https://www.rp-photonics.com/fiber_optic_links.html) · [400ZR Implementation Agreement (Optical Internetworking Forum)](https://www.oiforum.com/wp-content/uploads/OIF-400ZR-03.0.1.pdf)

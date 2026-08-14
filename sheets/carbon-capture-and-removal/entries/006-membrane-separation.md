@@ -24,6 +24,9 @@ Electricity 200–350 kWh/t CO2 on dilute flue gas · CO2/N2 selectivity of abou
 ## Examples
 Membrane Technology and Research's Polaris membrane, tested at 20 t/day at the National Carbon Capture Center and designed into a 140 t/day large pilot; UOP Separex and Air Liquide Medal in gas sweetening; hundreds of membrane skids upgrading biogas to pipeline methane.
 
+## Economic profile
+Membranes trade a steam bill for an electricity bill, and which one is cheaper is a site question with an arithmetic answer. At 200–350 kWh/t and $0.05/kWh the energy line is $10–18/t; at $0.10/kWh it is $20–35/t and most of the advantage over a solvent plant is gone. Capital behaves differently too, because modules are replicated rather than scaled up: a small source avoids the fixed cost of an absorber and a stripper, and a large one gets less benefit from size than a solvent plant would. Membrane replacement is the operating cost that decides the case, and particulates, SOx, and water in real flue gas all shorten life, so a quoted cost per ton is only as good as the module life assumed behind it. The strongest commercial markets are gas sweetening and biogas upgrading because the feed there already carries the pressure ratio, so the largest energy cost is never paid at all.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=axdQRdyDdmg — CO2 Separation - How It Works (V-ROC Studios, 1 minute, 50k+ views)

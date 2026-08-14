@@ -24,10 +24,13 @@ Distribution at 380–400 V DC, and plus or minus 400 V DC in recent AI rack des
 ## Examples
 Open Compute Project rack power designs, which moved from 12 V to 48 V bus bars and then toward higher DC distribution; NVIDIA's 800 V DC reference architecture for high-density AI racks; long-standing 48 V DC practice in telecom central offices, which is the same idea at lower voltage.
 
+## Economic profile
+The energy saving alone does not pay for this. Removing two conversion stages saves roughly 2–5% of facility power, which is real money at campus scale but not enough to cover specialized DC protection, a thin supply chain, and equipment that has to be bought for the architecture rather than adapted to it. The argument that does pay is copper: at 130 kW a rack fed at 415 V AC needs an impractical number of large conductors, so above about 100 kW the AC alternative stops having an acceptable cost at all. That is why this shows up in new AI halls and almost never as a retrofit, since running two distribution architectures in one building doubles the spares and the training for whatever the second one saves. Volume is what would change the picture. If Open Compute rack power designs and NVIDIA's 800 V DC reference architecture pull enough equipment into the market, the ecosystem premium shrinks and the 2–5% starts to matter on its own. Below about 50 kW per rack, a buyer should stay on AC until that happens.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=uAHNLsKiE9k — Power Distribution for AI Data Centers | Schneider Electric (Schneider Electric, 3 minutes, 1k+ views)
 
 ## Further reading
 
-[Electrical Efficiency Measurement for Data Centers, White Paper 154 (Schneider Electric)](https://download.schneider-electric.com/files?p_File_Name=NRAN-72754V_R2_EN.pdf&p_Doc_Ref=SPD_NRAN-72754V_EN)
+[Electrical Efficiency Measurement for Data Centers, White Paper 154 (Schneider Electric)](https://download.schneider-electric.com/files?p_File_Name=NRAN-72754V_R2_EN.pdf&p_Doc_Ref=SPD_NRAN-72754V_EN) · [NVIDIA 800 VDC Architecture Will Power the Next Generation of AI Factories (NVIDIA)](https://developer.nvidia.com/blog/nvidia-800-v-hvdc-architecture-will-power-the-next-generation-of-ai-factories/)

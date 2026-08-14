@@ -25,6 +25,9 @@ Current limit typically 1.1–1.5 times rating, against 5–6 times for a synchr
 ## Examples
 Australia's Hornsdale and Riverina batteries running in grid-forming mode; the Dalrymple North battery, which has islanded and restarted part of the South Australian network; Kauai's high-solar island system in Hawaii; the DOE and industry specification effort that produced a common definition of the required behavior.
 
+## Economic profile
+The cost is small and it lands in the wrong place. Grid-forming control is mostly a change in what the inverter's software does with hardware the project was buying anyway, so the increment at procurement is minor, while a retrofit means going back into a plant that is already in service and costs much more. The benefit is a more stable system, and that goes to everyone on the network rather than to the plant owner, which is why few developers specify it voluntarily and why Australia's National Electricity Market and Great Britain's grid code require it instead. If your market has no requirement and no product that pays for fast frequency response, expect the capability to be left off the order. Do not count on it to avoid synchronous condensers either: at 1.1–1.5 times rated current against a machine's 5–6 times, it does not fix short-circuit strength, so on a weak network the system operator still pays for both.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=2SOqdEX1-gA — How GRID FORMING INVERTERS are paving the way for 100% renewable energy. (Just Have a Think, 11 minutes, 100k+ views)
@@ -33,4 +36,4 @@ Australia's Hornsdale and Riverina batteries running in grid-forming mode; the D
 
 ## Further reading
 
-[Specifications for Grid-forming Inverter-based Resources Version 1 (US Department of Energy)](https://www.energy.gov/sites/default/files/2023-09/Specs%20for%20GFM%20IBRs%20Version%201.pdf)
+[Specifications for Grid-forming Inverter-based Resources Version 1 (US Department of Energy)](https://www.energy.gov/sites/default/files/2023-09/Specs%20for%20GFM%20IBRs%20Version%201.pdf) · [Research Roadmap on Grid-Forming Inverters (National Renewable Energy Laboratory)](https://docs.nlr.gov/docs/fy21osti/73476.pdf)

@@ -25,6 +25,9 @@ Frame rates typically 60–500 Hz for liquid crystal devices, kilohertz for digi
 ## Examples
 Holographic optical tweezers manipulating many particles at once; adaptive optics correcting sample-induced aberrations in deep-tissue microscopy; multi-beam laser processing splitting one source into dozens of spots; digital micromirror devices in projectors and in maskless lithography.
 
+## Economic profile
+The panel inside a scientific SLM is close to the panel inside a projector, and most of the price difference is volume and calibration. Consumer LCOS and micromirror engines are made by the million for projectors and headsets, while a phase-only SLM sold to a laboratory is a low-volume variant with a thicker liquid crystal layer, a per-device wavefront calibration, and support from the vendor, which is what puts it in the thousands rather than the tens of dollars. If an application can live with an off-the-shelf projector engine, that substitution is the largest saving available. Two costs beyond the purchase price are worth budgeting. Diffraction efficiency of 60–80% means the rest of the laser power is thrown away, so at high power the buyer pays again in source cost, and the 60–500 Hz update rate caps throughput, so in laser processing an SLM is competing against simply buying more galvo scanners and makes sense only when the job needs many spots at once rather than one spot moved quickly.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=lXELRlx28ok — LCOS Spatial Light Modulator working principle (HOLOEYE Photonics AG, 3 minutes, 10k+ views)
@@ -33,4 +36,4 @@ Holographic optical tweezers manipulating many particles at once; adaptive optic
 
 ## Further reading
 
-[Optipedia, free optics information (SPIE Publications)](https://spie.org/publications/spie-publication-resources/optipedia-free-optics-information)
+[Optipedia, free optics information (SPIE Publications)](https://spie.org/publications/spie-publication-resources/optipedia-free-optics-information) · [Liquid Crystal Modulators (RP Photonics Encyclopedia)](https://www.rp-photonics.com/liquid_crystal_modulators.html)
