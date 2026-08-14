@@ -31,7 +31,7 @@ In space, cost didn't matter. On the ground, the whole bet (EnerVenue) is that s
 ## Videos
 
 - https://www.youtube.com/watch?v=2zG-ZrC4BO0 — Why This NASA Battery May Be The Future of Energy Storage (Undecided with Matt Ferrell, 14 minutes, 1m+ views)
-- https://www.youtube.com/watch?v=so8Ki5hrYWc — Will this nickel-hydrogen battery replace lithium? Used in SPACE for Decades. (Solartime with Martyna , 9 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=so8Ki5hrYWc — Will this nickel-hydrogen battery replace lithium? Used in SPACE for Decades. (Solartime with Martyna, 9 minutes, 10k+ views)
 
 ## Further reading
 

@@ -29,7 +29,7 @@ North Sea Link, 720 km between Norway and the UK; NordLink; Viking Link between 
 
 - https://www.youtube.com/watch?v=sHJQsSK7M_0 — The Insane Engineering of a Global HVDC Grid (Engineering with Rosie, 21 minutes, 50k+ views)
 - https://www.youtube.com/watch?v=zEvDB00zN-o — Why Is Ireland Spending €1.6 Billion on a Single Undersea Cable? (DesignZip, 11 minutes, 1k+ views)
-- https://www.youtube.com/watch?v=HtgrPItCg2k — NeuConnect Interconnector Project: Manufacturing Phases (Prysmian , 2 minutes, 1k+ views)
+- https://www.youtube.com/watch?v=HtgrPItCg2k — NeuConnect Interconnector Project: Manufacturing Phases (Prysmian, 2 minutes, 1k+ views)
 
 ## Further reading
 

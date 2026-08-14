@@ -33,7 +33,7 @@ The market is close to a duopoly (Heidenhain, Renishaw), with instrument margins
 ## Videos
 
 - https://www.youtube.com/watch?v=YdkyzwTYzOo — Linear Encoders for Machine Tools | HEIDENHAIN (HEIDENHAIN, 4 minutes, 100k+ views)
-- https://www.youtube.com/watch?v=nnk0DV5kgMk — What is an ENCODER - Linear and Rotary encoder - Incremental and Absolute encoder (JAES Company , 8 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=nnk0DV5kgMk — What is an ENCODER - Linear and Rotary encoder - Incremental and Absolute encoder (JAES Company, 8 minutes, 100k+ views)
 - https://www.youtube.com/watch?v=7rg40Ba-WMc — M-DRO Guide to the Operation of Optical Linear Encoders, also known as Glass Scale Digital Readouts (MachineDRO, 2 minutes, 10k+ views)
 
 ## Further reading

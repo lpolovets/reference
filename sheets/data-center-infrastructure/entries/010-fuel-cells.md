@@ -28,7 +28,7 @@ Bloom Energy servers at Equinix, Apple, and several colocation campuses; Microso
 ## Videos
 
 - https://www.youtube.com/watch?v=wN4Z0iFifxc — How A Bloom Energy Server Works (Bloom Energy, 3 minutes, 100k+ views)
-- https://www.youtube.com/watch?v=nOFNfEFCB_c — Bloom Energy Explained | Can It Power the AI Boom? (Leo Cui, Ph.D., CFA , 8 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=nOFNfEFCB_c — Bloom Energy Explained | Can It Power the AI Boom? (Leo Cui, Ph.D., CFA, 8 minutes, 10k+ views)
 - https://www.youtube.com/watch?v=zPogn191djw — From Fuel Cell to Energy Server Farm | Bloom Energy (Bloom Energy, 1 minute, 1k+ views)
 
 ## Further reading

@@ -27,7 +27,7 @@ Air Liquide's Cryocap, capturing CO2 from steam methane reformer offgas at Port-
 ## Videos
 
 - https://www.youtube.com/watch?v=XYtdseE_O8w — Cryocap Carbon Capture Technology (Air Liquide Engineering & Technologies, 3 minutes, 10k+ views)
-- https://www.youtube.com/watch?v=Al_WtOd2PQk — Cryogenic Carbon Capture Explained (KAUST Clean Energy Research , 1 minute, 1k+ views)
+- https://www.youtube.com/watch?v=Al_WtOd2PQk — Cryogenic Carbon Capture Explained (KAUST Clean Energy Research, 1 minute, 1k+ views)
 
 ## Further reading
 

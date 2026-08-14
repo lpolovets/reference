@@ -31,7 +31,7 @@ LCO has the highest $/kWh of the mainstream cathodes because cobalt is ~100% of 
 ## Videos
 
 - https://www.youtube.com/watch?v=FxCcC82UAwA — Lithium cobalt oxide battery (LCO battery) working (Owl WiS, 3 minutes, 1k+ views)
-- https://www.youtube.com/watch?v=Te7JqKjz3B0 — How do lithium ion batteries work? cobalt oxide - manganese - anode - cathode (JAES Company , 6 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=Te7JqKjz3B0 — How do lithium ion batteries work? cobalt oxide - manganese - anode - cathode (JAES Company, 6 minutes, 10k+ views)
 - https://www.youtube.com/watch?v=G5McJw4KkG8 — How do Lithium-ion Batteries Work? (Branch Education, 10 minutes, 1m+ views)
 
 ## Further reading

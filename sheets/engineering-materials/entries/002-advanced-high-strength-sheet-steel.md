@@ -34,7 +34,7 @@ AHSS is the steel industry's answer to losing body-in-white volume to aluminum, 
 ## Videos
 
 - https://www.youtube.com/watch?v=5rLDOClgm7U — The mad metallurgy of advanced high strength steel in modern cars | Auto Expert John cadogan (Auto Expert John Cadogan, 26 minutes, 50k+ views)
-- https://www.youtube.com/watch?v=qVPpaA3ONTY — Hot Stamping in eight seconds (ANDRITZ Schuler , 1 minute, 50k+ views)
+- https://www.youtube.com/watch?v=qVPpaA3ONTY — Hot Stamping in eight seconds (ANDRITZ Schuler, 1 minute, 50k+ views)
 - https://www.youtube.com/watch?v=EtRZDlB7Wjk — Dual Phase Steel (Metallurgical Engineering, 7 minutes, 1k+ views)
 
 ## Further reading

@@ -35,7 +35,7 @@ Electrical steel is a commodity steel product with a specialty tail: ordinary no
 
 - https://www.youtube.com/watch?v=0NRSC_lfi2c — What is Eddy Current Loss & Hysteresis Loss | Simple Tutorial (Electrical lectures, 4 minutes, 50k+ views)
 - https://www.youtube.com/watch?v=hW1ew73Dnoo — Stator laminations = more power! (but why?) (Stephan_RC, 2 minutes, 10k+ views)
-- https://www.youtube.com/watch?v=Q95Vwk3kZok — How to Identify an Unknown Ferrite Core (Fair-Rite® , 15 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=Q95Vwk3kZok — How to Identify an Unknown Ferrite Core (Fair-Rite®, 15 minutes, 50k+ views)
 
 ## Further reading
 

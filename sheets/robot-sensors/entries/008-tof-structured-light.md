@@ -34,7 +34,7 @@ Phone and automotive in-cabin volume made ToF chips a commodity. Industrial-grad
 ## Videos
 
 - https://www.youtube.com/watch?v=uq9SEJxZiUg — How the Kinect Depth Sensor Works in 2 Minutes (CuriousInventor, 2 minutes, 100k+ views)
-- https://www.youtube.com/watch?v=VrM5_EO-bK8 — WHAT IS ToF? All About Time-of-Flight and the FRAMOS ToF Devkit (FRAMOS , 4 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=VrM5_EO-bK8 — WHAT IS ToF? All About Time-of-Flight and the FRAMOS ToF Devkit (FRAMOS, 4 minutes, 10k+ views)
 - https://www.youtube.com/watch?v=F1eWql_sVHE — What is Structured-Light 3D Scanning? (Holocreators GmbH, 4 minutes, 10k+ views)
 
 ## Further reading

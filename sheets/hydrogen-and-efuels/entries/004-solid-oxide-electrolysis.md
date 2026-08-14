@@ -33,7 +33,7 @@ Capital cost per kW is higher than alkaline and the stack lasts a third to a hal
 
 ## Videos
 
-- https://www.youtube.com/watch?v=XAsfHjj3oeQ — SOEC - THE green hydrogen solution (Topsoe , 3 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=XAsfHjj3oeQ — SOEC - THE green hydrogen solution (Topsoe, 3 minutes, 10k+ views)
 - https://www.youtube.com/watch?v=YU4XcQj42bQ — Lecture 5: Green Hydrogen Production Process, What is Solid Oxide (SOEC) Electrolysis? (allaboutsustainability, 3 minutes, 10k+ views)
 - https://www.youtube.com/watch?v=st0G8OWmjr8 — GrInHy2.0 - The World's Largest High-Temperature Electrolyzer (Sunfire, 5 minutes, 5k+ views)
 

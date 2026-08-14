@@ -35,7 +35,7 @@ The cost structure is simple enough to do in your head. Gas is 60–70% of the t
 
 - https://www.youtube.com/watch?v=UBNVuCL-gxo — H2 academy: hydrogen plant flowsheet overview (Johnson Matthey, 2 minutes, 10k+ views)
 - https://www.youtube.com/watch?v=xAjHJ49VOUM — Hydrogen generation by steam reforming (Mahler AGS GmbH) (Mahler AGS GmbH, 2 minutes, 100k+ views)
-- https://www.youtube.com/watch?v=v8wEaV0lbqU — How to produce hydrogen efficiently? (PART 1) Discovering the fuel of the future - steam reforming (JAES Company , 10 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=v8wEaV0lbqU — How to produce hydrogen efficiently? (PART 1) Discovering the fuel of the future - steam reforming (JAES Company, 10 minutes, 100k+ views)
 
 ## Further reading
 

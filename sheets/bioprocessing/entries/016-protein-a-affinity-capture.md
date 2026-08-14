@@ -33,7 +33,7 @@ Capture is usually 10–20% of an antibody batch's cost, and most of that is res
 
 ## Videos
 
-- https://www.youtube.com/watch?v=KOTNXKo2O7o — Affinity Chromatography Explained (Cube Biotech , 3 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=KOTNXKo2O7o — Affinity Chromatography Explained (Cube Biotech, 3 minutes, 50k+ views)
 - https://www.youtube.com/watch?v=aKZMk6LQ7So — Recombinant Antibody Affinity Purification with Protein A or Protein G Protocol (Addgene, 11 minutes, 5k+ views)
 - https://www.youtube.com/watch?v=e3-Hkxpj0GU — Case study - downstream processing of monoclonal antibodies produced in bioreactors (Marloes Peeters, 13 minutes, 10k+ views)
 

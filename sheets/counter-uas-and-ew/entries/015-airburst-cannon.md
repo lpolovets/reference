@@ -34,7 +34,7 @@ The Gepard's performance in Ukraine — a 1970s gun system destroying modern att
 ## Videos
 
 - https://www.youtube.com/watch?v=s_lH2l857-o — Ahead (ABM) Programmable Fuze System (Rheinmetall) (Special Engineer, 2 minutes, 100k+ views)
-- https://www.youtube.com/watch?v=bdwjcayPuag — Rheinmetall Air Defence: Ahead - Highly effective, programmable ammunition (Rheinmetall – Der integrierte Technologiekonzern , 1 minute, 5m+ views)
+- https://www.youtube.com/watch?v=bdwjcayPuag — Rheinmetall Air Defence: Ahead - Highly effective, programmable ammunition (Rheinmetall – Der integrierte Technologiekonzern, 1 minute, 5m+ views)
 - https://www.youtube.com/watch?v=SH-FehlT3_4 — Oerlikon Ahead Air Burst Munition (Dark Tech, 9 minutes, 500k+ views)
 
 ## Further reading
