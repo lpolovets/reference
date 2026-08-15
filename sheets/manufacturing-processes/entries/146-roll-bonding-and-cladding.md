@@ -28,6 +28,10 @@ Single-pass reduction of 50–70% needed to break the surface oxide and bond · 
 
 Stainless-clad steel, copper-aluminum strip, cookware, battery materials.
 
+## Economic profile
+
+Mill capex in the tens of millions and an economic floor of thousands of tonnes a year put this at the opposite end of the cladding market from explosion welding. It is a commodity strip business, and the economics are the mill's: utilization, yield, and the price spread between the clad layer and the backing steel. Nobody buys roll bonding for one job, and a buyer who needs a single clad plate buys it explosion-welded instead.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=C-P6uxdyGA4 — How Clad becomes Clad - by Wickeder Group (Wickeder Group, 2 minutes, 10k+ views)

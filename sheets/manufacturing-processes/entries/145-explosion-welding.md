@@ -28,6 +28,10 @@ Plates up to roughly 30 m² per shot · cladding layer 0.5–25 mm on backer pla
 
 Titanium-clad steel, aluminum-steel transitions, corrosion-resistant plate.
 
+## Economic profile
+
+This is one of the few processes here that is economical at a lot size of one, since there is no tooling and the per-shot costs are explosive and range time. Plates up to roughly 30 m² per shot also give it a scale no other cladding method reaches. The constraint is siting rather than cost: it needs a licensed range with distance from everything else, so suppliers are few and freight to and from them is part of the price.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=u9_bqafUJfA — Explosion Welding Process (NobelClad, 4 minutes, 100k+ views)

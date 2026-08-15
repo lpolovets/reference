@@ -28,6 +28,10 @@ Sheet thickness 0.5–12 mm, bend lengths to 3–4 m on a standard machine · be
 
 Enclosures, brackets, cabinets, channels, structural panels.
 
+## Economic profile
+
+Standard tooling means near-zero tooling cost and same-day turnaround, which makes press braking the default for prototypes, low volume, and anything a job shop quotes quickly. The cost is per bend, at 5–20 seconds of skilled machine time each, so a part with twelve bends costs roughly twelve times a part with one. That linear relationship is what eventually pushes a growing product toward stamping or roll forming.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=OKUT9rwhlnw — The press brake bending you might have never seen before (Artizono, 8 minutes, 1m+ views)

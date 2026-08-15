@@ -28,6 +28,10 @@ Sulfur cures run 140–180 °C, with cure time roughly halving per 10 °C rise �
 
 Tires, seals, hoses, bushings, belts.
 
+## Economic profile
+
+Cure time is press time, and press time is the cost: 2–20 minutes for typical parts against seconds for a thermoplastic cycle, so a rubber plant's output is set by how many press cavities it has. Cure time roughly halving per 10 °C rise is the main lever, and it is bounded by what the compound tolerates. That is why cure system selection is an economic decision as much as a property one.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=nmaIvXm-cws — Vulcanisation of Rubber | Polymer (myhometuition, 6 minutes, 50k+ views)

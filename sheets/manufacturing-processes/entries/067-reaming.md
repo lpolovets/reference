@@ -28,6 +28,10 @@ Holds H7, about 0.015 mm of tolerance on a 10 mm hole · stock allowance 0.1–0
 
 Dowel holes, precision bushings, valve guides, bearing bores.
 
+## Economic profile
+
+A reamer at tens to a few hundred dollars turns a drilled hole into an H7 fit in a few seconds, which is why it survives as the cheapest route to a precision hole in volume. The economics only work with the right stock allowance of 0.1–0.4 mm on diameter: too little and the reamer rubs and wears quickly, too much and it cuts oversize, and either way tool cost per hole rises sharply.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=5XtL5Nk3GIY — How Reamers Work - Haas Automation Tip of the Day (Haas Automation, Inc., 10 minutes, 100k+ views)

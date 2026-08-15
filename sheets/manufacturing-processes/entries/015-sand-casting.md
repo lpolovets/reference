@@ -30,7 +30,7 @@ Engine blocks, pump housings, machine bases, valves, manifolds.
 
 ## Economic profile
 
-Tooling costs are low to moderate, which makes it a good fit from prototypes through medium volume.
+Patterns and coreboxes at $500–20,000 on a 2–6 week lead time are the lowest entry cost of any casting route, which makes sand casting the default for one-offs and for parts too big for anything else. Above a few thousand parts a year the arithmetic changes: an automatic green-sand line running 100–400 molds per hour needs volume to justify itself, and at that point permanent-mold or die casting gives a better surface and tolerance for the same money.
 
 ## Videos
 

@@ -28,6 +28,10 @@ Frequencies from about 1 kHz for 3–6 mm cases up to 200–400 kHz for cases un
 
 Gear teeth, shafts, rails, bearing surfaces.
 
+## Economic profile
+
+Cycles of 1–10 seconds per feature put this in the production line rather than in a batch furnace, which is the economic difference from the rest of this class: no transport to a heat treater, no batch wait, and hardening can sit between two machining operations. The cost is the coil, which is specific to the feature, plus a machine rated from 10 kW to several hundred kW. It pays back on volume and is hard to justify below it.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=wOv3i0eoo0Q — Induction hardening. What makes it so effective? (ENRX, 3 minutes, 100k+ views)

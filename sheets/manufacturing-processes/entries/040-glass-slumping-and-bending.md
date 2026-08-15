@@ -28,6 +28,10 @@ Slumping at roughly 620–700 °C for soda-lime float, below the 780–820 °C f
 
 Architectural panels, automotive glazing, lighting components.
 
+## Economic profile
+
+Molds at $500–10k in steel, ceramic fiber, or refractory board are cheap and a kiln is ordinary equipment, so entry cost is low. The 6–24 hour cycle including the anneal is what sets the price, because a kiln makes one load a day and capacity is added by buying kilns and floor space rather than by running faster. That fixes the process in architectural and decorative work from one panel to a few thousand.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=xJDd-NytBf0 — Slumping Basics (Bullseye Glass Co., 13 minutes, 50k+ views)

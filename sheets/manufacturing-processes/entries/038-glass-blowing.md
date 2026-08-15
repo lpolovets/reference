@@ -28,6 +28,10 @@ Gob delivered at 1,050–1,150 °C, annealing lehr around 500–560 °C · IS ma
 
 Bottles, laboratory glassware, lighting globes, vessels.
 
+## Economic profile
+
+An IS machine running 200–700 containers a minute makes glass containers among the cheapest manufactured objects there are, and cast-iron mold sets at a few thousand dollars per cavity are trivial against that output. The economics are freight and furnace: a container plant sells within a radius set by the cost of shipping empty glass, and the furnace runs continuously whatever the order book says. Hand blowing at minutes to hours per piece is a different business, priced as craft labor.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=EkDhkDMck7o — How Glass is Made in Factories | HOW IT'S MADE (How It's Made, 9 minutes, 100k+ views)

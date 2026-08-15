@@ -28,6 +28,10 @@ Carrier count 16–144 on most machines and several hundred on large ones · bra
 
 Ropes, hose reinforcement, vascular stents, composite tubes.
 
+## Economic profile
+
+Machines from about $50k for rope work to several hundred thousand for radial composite braiders, with mandrels and fixtures at $5–50k, make this modest capital for a composite process. Line speed of 0.5–5 m/min is slow next to winding but the braid goes over shapes winding cannot follow, including concave sections. Medical catheters and aerospace ducting are where the geometry justifies the rate.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=uD8U698yYRU — How Do They Braid Rope? (NFB, 4 minutes, 500k+ views)

@@ -28,6 +28,10 @@ Capacitor bank 5–100 kJ at 3–25 kV · discharge in 10–100 µs · workpiece
 
 Tube crimping, aluminum forming, connector joining.
 
+## Economic profile
+
+The coil is the tooling and the process consumes it, since every discharge stresses it, so coil life and replacement are the recurring cost rather than a die. A cycle under one second makes the operation itself cheap, and the capacitor bank at 5–100 kJ is the capital. It is used mostly for joining and for forming aluminum and copper, where conductivity makes it work and where a mechanical press would leave the part to spring back.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=NrDe48_pxpY — MPS - Electromagnetic (magnetic pulse) Forming and welding (SFGCO, 3 minutes, 10k+ views)

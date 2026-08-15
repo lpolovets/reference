@@ -28,6 +28,10 @@ Layer thickness 30–100 µm for metal and 200–400 µm for sand · sintering s
 
 Sand molds and cores, metal components, ceramic parts.
 
+## Economic profile
+
+This is the additive process with a real production band, economical from hundreds to tens of thousands of parts, because printing is fast and unattended and the cost sits in the furnace afterwards. Sand printing is a different business again: build boxes to about 4 × 2 × 1 m make casting molds with no pattern at all, which removes the $500–20,000 pattern and its 2–6 week lead time from the foundry's cost entirely.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=VhxSrWuzIdA — What is Binder Jet 3D Printing? (AM Media | The Cool Parts Show, 6 minutes, 50k+ views)

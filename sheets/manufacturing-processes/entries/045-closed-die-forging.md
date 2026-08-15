@@ -28,6 +28,10 @@ Part weight typically 0.1–50 kg · dimensional tolerance ±0.25–1.5 mm depen
 
 Connecting rods, crankshafts, landing-gear components, hand tools.
 
+## Economic profile
+
+Die sets at $10–100k last only 10,000–50,000 parts before resink, which is short next to a stamping die and makes tooling a recurring cost rather than a one-off. Flash and scale take 10–30% of the input material, and on titanium or nickel alloys that loss is the largest single line in the part cost. The 5–30 second cycle is what makes the economics work above roughly 10,000 pieces.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=4EkgeO9utDY — Forging Process | Open Die Forging | Closed Die Forging | Hot Forging | Cold… (Engineering Explained Wing, 5 minutes, 5k+ views)

@@ -28,6 +28,10 @@ Transfer molding at 170–180 °C with 60–120 seconds in the mold, then 4–6 
 
 IC packages, controllers, MEMS, power electronics.
 
+## Economic profile
+
+Transfer molding at 60–120 seconds in the mold is cheap per package, and the 4–6 hour post-mold cure runs in an oven off the line, so it does not gate throughput. The order-of-magnitude number is the package type, since hermetic ceramic or metal costs roughly ten times molded plastic. That is why hermetic packages appear only in space, defense, and medical work where the environment justifies it. Mold tooling is the fixed cost that sets minimum volume.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=ilWnFWhcS7Q — Semiconductor Packaging - Introduction to Molding Process (WATCH LEARN  'N PLAY, 11 minutes, 5k+ views)

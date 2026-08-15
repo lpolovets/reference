@@ -28,6 +28,10 @@ Glass content 25–50% by weight · molded at 5–15 MPa and 140–160 °C, curi
 
 Automotive panels, battery enclosures, electrical housings.
 
+## Economic profile
+
+Matched steel dies at $100–500k on 12–20 weeks and presses of 500–3,000 tons are a serious commitment, and a 1–3 minute cure is what pays it back over 10,000 to more than 100,000 parts a year. That cycle is what separates SMC from every other composite process here: it is the only one running at something close to a metal-stamping rate, which is why body panels and electrical housings use it.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=h2w8ChVLq9w — SMC Heisspressen / SMC Compression Molding (WAG Wernli AG, 2 minutes, 10k+ views)

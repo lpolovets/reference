@@ -28,6 +28,10 @@ Part mass from a few hundred kilograms to several hundred tons · forged at 1,10
 
 Turbine shafts, pressure-vessel rings, generator rotors, large gears.
 
+## Economic profile
+
+This is one of the few metal-forming processes with effectively no tooling cost, since flat, V, and swage dies run a few thousand dollars and are usually already on the floor. That makes it economical at a lot size of one, which is why large shafts and pressure-vessel sections are forged this way. The cost moves downstream instead: ±1–2% tolerance leaves 6–25 mm of machining stock per surface, so a large forging carries a large machining bill.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=YobXFODkp50 — Die forging process(open and closed die) (Mechanics Mix, 5 minutes, 100k+ views)

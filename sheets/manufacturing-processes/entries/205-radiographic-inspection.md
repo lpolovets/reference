@@ -28,6 +28,10 @@ X-ray tubes 50–450 kV and linacs 1–15 MeV, with Ir-192 suiting roughly 20–
 
 Castings, welds, batteries, electronics, aerospace assemblies.
 
+## Economic profile
+
+Equipment is $15–60k for a portable X-ray set or $100–500k for a digital inline system, but the real cost is the exclusion boundary: tens of meters for field gamma work means stopping other trades while the shot is taken. On a shipyard or construction schedule that lost time usually exceeds the inspection fee. Digital detectors cost more than film and pay back in exposures of seconds rather than tens of minutes, with no darkroom and no film to archive.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=7oR_l8nXdmo — Radiographic Testing (NDT) (NDT Channel, 7 minutes, 100k+ views)

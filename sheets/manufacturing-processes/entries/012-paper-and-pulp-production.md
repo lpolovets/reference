@@ -28,6 +28,10 @@ Machine speed 300–2,000 m/min at 2–11 m width · basis weight 15–500 g/m²
 
 Paper, paperboard, tissue, packaging stock.
 
+## Economic profile
+
+A paper machine is a several-hundred-million-dollar asset running 200–2,000 tons a day, and like float glass it is built to run continuously rather than to order. Fiber, energy, and water are the variable costs, and water at 10–50 m³ per ton is what ties a mill to its site: the permit and the river decide where the machine can go, and often what it can make. Machines are rebuilt and re-purposed rather than replaced, so grade changes follow demand slowly.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=E4C3X26dxbM — The Paper Making Process (Sappi Tube, 13 minutes, 1m+ views)

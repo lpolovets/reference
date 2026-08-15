@@ -28,6 +28,10 @@ Formulation roughly 90–97% active material, 1–5% binder, 1–3% conductive c
 
 Anode and cathode slurries for lithium-ion cells.
 
+## Economic profile
+
+Batch planetary mixing takes 1–4 hours in 500–2,000 L vessels, so a large cell plant needs many mixers running in parallel. Continuous twin-screw mixing cuts residence time to seconds or minutes and the equipment count with it, which is why it keeps being pursued. Material cost dominates either way: at 90–97% active material, the slurry is mostly the most expensive input in the cell, so mixing yield matters more than mixing capital.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=C63ER1YnkEI — [Battery Report] the First Step of Electrode Manufacturing, Mixing Active… (LG에너지솔루션 [LG Energy Solution], 2 minutes, 10k+ views)

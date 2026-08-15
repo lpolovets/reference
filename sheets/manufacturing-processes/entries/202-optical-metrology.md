@@ -28,6 +28,10 @@ Structured-light and laser scanners hold 10–50 µm accuracy and capture 12–1
 
 Electronics, molded plastic, additive parts, stamped components, optics.
 
+## Economic profile
+
+Seconds per part is what changes the economics. At that rate optical metrology can inspect everything rather than a sample, which moves the spending from a quality budget into the production line. The capital range is wide, $10k for a handheld scanner against $300k for a metrology-grade interferometer, and it buys accuracy rather than speed. The usual justification is scrap avoided downstream, since a defect caught inline costs one part and the same defect caught at assembly costs everything already added to it.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=F1eWql_sVHE — What is Structured-Light 3D Scanning? (Holocreators GmbH, 4 minutes, 10k+ views)

@@ -28,6 +28,10 @@ Sampling rates from 1 kHz for spindle load and cavity pressure up to 100 kHz for
 
 CNC tool-wear monitoring, additive melt-pool monitoring, molding cavity pressure, weld monitoring, coating inspection.
 
+## Economic profile
+
+Hardware is cheap relative to what it protects: $5–20k per spindle for tool monitoring against a machine worth far more and a crash that stops the line. The expensive part is validation, which typically takes dozens of correlated builds or coupons before the system is allowed to accept or reject anything. Until then it is an alarm a person has to adjudicate, which is a labor cost rather than a saving. Storage at 1–10 GB per build hour is a standing bill.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=ItJT5AhdlSQ — Adaptive CNC Tool Monitoring System: Detect Wear and Breakage in Real-time (Caron Engineering, 3 minutes, 1k+ views)

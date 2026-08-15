@@ -28,6 +28,10 @@ Sheet thickness 0.5–3 mm · maximum wall angle 60–70° from the sheet plane,
 
 Custom medical implants, prototype body panels, low-volume enclosures.
 
+## Economic profile
+
+Tooling is a forming tool and a backing plate at a few hundred dollars, the lowest of any sheet process, and that is the entire reason to use it. The cost is a cycle of minutes to hours per part, so it makes sense only from one to about a hundred pieces: prototypes, custom medical parts, and legacy panels where the die no longer exists and replacing it would cost more than the whole order.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=0xOANlj_O88 — Incremental Sheet Forming (ISF) Machine (Eurecat, 3 minutes, 100k+ views)

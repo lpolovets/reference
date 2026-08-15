@@ -28,6 +28,10 @@ Etch depth control roughly ±0.05–0.1 mm · undercut roughly 1:1 with etch dep
 
 Aircraft skins, etched panels, lightweight aerospace structures.
 
+## Economic profile
+
+Maskant and scribe tooling in the low thousands of dollars, ready in days, is cheap and fast to start, and cost per part barely changes with how much area is etched because the tank processes whole panels at once. That is the economic case: thinning a large aerospace skin costs about what thinning a small one does, where machining would charge by the square meter. Etch rates of 0.02–0.03 mm per minute make deep pockets slow.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=OFYAUAOwrzY — The Art of Chemical Milling (Beagle Technology Group, 3 minutes, 50k+ views)

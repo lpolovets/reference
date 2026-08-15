@@ -28,6 +28,10 @@ Tolerances ±0.01–0.025 mm · surface finish 0.8–1.6 µm Ra · rise per toot
 
 Keyways, splines, turbine-disc slots, polygonal holes.
 
+## Economic profile
+
+Broaches at $2–20k on 6–16 weeks are real tooling, and they buy a full profile finished in one stroke of a few seconds. That is why broaching owns internal splines and keyways above a few thousand parts a year, since the alternative is several operations on a machining center at shop rates. The tooling is specific to one profile, so a design change scraps the broach, and that risk is what the tooling cost is really pricing.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=eit-EPDf8dg — BROACHING: Innovative Way To Cut Complex Metal Shapes (TITANS of CNC MACHINING, 8 minutes, 100k+ views)

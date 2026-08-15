@@ -28,6 +28,10 @@ Linear tolerance roughly ±0.25 mm per 25 mm, better than green sand · as-cast 
 
 Engine blocks, cylinder heads, manifolds, pump housings.
 
+## Economic profile
+
+Tooling at $50–250k puts the economic floor near 10,000 parts a year, well above sand casting and below die casting. What the money buys is complexity: cores and draft become unnecessary because the pattern is vaporized, so a part that would need several sand cores becomes one piece and one operation. The saving shows up in the coreroom and in the machining that follows rather than in the casting cell itself.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=KRW_DniO68M — FATA Aluminum: Lost Foam Casting System (FATA Aluminum, 16 minutes, 100k+ views)

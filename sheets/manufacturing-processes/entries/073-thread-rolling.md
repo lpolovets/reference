@@ -28,6 +28,10 @@ Works on ductile material below roughly 40 HRC · blank diameter held to ±0.02�
 
 Bolts, studs, screws, threaded rods.
 
+## Economic profile
+
+Die sets at $500–3k running 100,000 parts and up between regrinds, at tens to a few hundred parts a minute, put cost per thread far below cutting. No chips means material use drops roughly 15–20% against cutting the same thread, and fatigue life comes out 2–5 times better, so the rolled thread is both cheaper and stronger. The constraint is material below roughly 40 HRC, which is why hardened parts still get cut or ground threads.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=Q9DlNs01N_A — How to Form Threads In Less Than 1 Second (TITANS of CNC MACHINING, 11 minutes, 500k+ views)

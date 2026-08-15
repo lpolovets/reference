@@ -28,6 +28,10 @@ Furnace temperature 900–1,200 °C · dry oxidation grows 1–100 nm films at t
 
 Gate oxides, isolation layers, masks, passivation.
 
+## Economic profile
+
+Batch furnaces hold 50–200 wafers, so despite hours at 900–1,200 °C the cost per wafer is among the lowest of any growth or deposition step. It is both cheap per wafer and unmatched on interface quality, which is why thermal oxide stayed the gate dielectric until physics rather than economics forced the change. The operating cost is energy and furnace time rather than materials, and a furnace is one of the longest-lived tools in a fab.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=8aBDsLOMWDY — Thermal Oxide Growth on Silicon Wafer - 500nm (Sam Zeloof, 3 minutes, 10k+ views)

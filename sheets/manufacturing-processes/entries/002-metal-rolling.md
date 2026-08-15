@@ -30,7 +30,7 @@ Steel sheet, aluminum foil, rails, I-beams, plate, automotive body stock.
 
 ## Economic profile
 
-Capex is very high and utilization needs to stay high to justify it. Output is typically measured in tons rather than parts.
+A hot strip mill is a several-hundred-million-dollar asset making millions of tons a year, and like the caster upstream it belongs to the mill rather than being rented by the job. Rolls are the consumable: they wear, get redressed, and are recharged to the work, which is why roll cost per ton is tracked separately from energy and metal. Cold rolling and foil add passes, annealing, and tighter tolerance, and each of those steps is priced separately down the chain.
 
 ## Videos
 

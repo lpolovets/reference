@@ -28,6 +28,10 @@ Coating thickness of 50–100 µm and above, or 610 g/m² for ASTM A123 grade 10
 
 Guardrails, structural steel, utility hardware.
 
+## Economic profile
+
+This is sold by the ton and priced against a lifetime: 30 to 70 or more years to first maintenance in normal atmospheres, against repainting a structure every 10–15 years. That whole-life arithmetic is the sales argument, and it is why galvanizing dominates on structural steel, where a life-cycle cost actually gets calculated. Kettle length of roughly 15–20 m caps single-dip part size, so anything longer needs double-dipping and costs more.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=kwCyq06aatA — Hot-Dip Galvanizing: Protecting Steel For Generations (American Galvanizers Association, 6 minutes, 100k+ views)

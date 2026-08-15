@@ -28,6 +28,10 @@ Cure at 80–130 °C under vacuum alone, roughly 1 bar of consolidation · void 
 
 Drone structures, automotive panels, aerospace secondary structures.
 
+## Economic profile
+
+Ovens at $10–100k against $1M and up for an autoclave is the comparison that defines this process, and it removes the single largest capital item in composite manufacturing. Part size then stops being limited by the pressure vessel, so parts several meters across are routine. What is paid for it is void content of 1–2% against under 1%, plus intermediate debulks every 3–5 plies, which is labor added back.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=ajJ-HyM1aaM — Full Tutorial (20min) On How To Make Prepreg Carbonfiber Parts - OUT OF… (Matthieu Libeert (Mat's Prototyping), 20 minutes, 100k+ views)

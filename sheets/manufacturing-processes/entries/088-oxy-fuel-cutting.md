@@ -28,6 +28,10 @@ Carbon and low-alloy steel only, and above roughly 0.3% carbon the plate needs p
 
 Structural fabrication, demolition, shipbuilding, heavy plate.
 
+## Economic profile
+
+A complete torch set costs a few hundred dollars, the lowest entry cost of any cutting process here, and the crossover is stated plainly: it is economical against plasma above about 25 mm. Below that it is slower and rougher, and above it the gas is cheap while a plasma system large enough to compete is not. Steel only, and ±1–3 mm tolerance, mean everything cut this way is a blank for another operation.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=FiiPGL0TTPg — Oxy-fuel cutting | Gas Cutting process working principle (Mechanical 20hz, 6 minutes, 5k+ views)

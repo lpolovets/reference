@@ -28,6 +28,10 @@ Pulse energy of roughly 3–10 J in 8–30 ns, giving power densities of 5–10 
 
 Turbine blades, aircraft structures, nuclear components.
 
+## Economic profile
+
+Cost per treated area runs one to two orders of magnitude above shot peening, so it is used only where the 1–2 mm compressive depth is genuinely needed and the part is valuable enough to justify it. In practice that means turbine blades, aircraft structure, and repairs on components that cost more than the treatment. It is sold as a service by a handful of suppliers rather than bought as equipment, since few users have the volume to keep a system busy.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=___hCW_EPPg — How Laser Peening Works (LSP Technologies, 3 minutes, 10k+ views)

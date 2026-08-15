@@ -28,6 +28,10 @@ Carbon black 30–80 phr, sulfur 0.5–3 phr, accelerators 0.5–2 phr · hardne
 
 Tire compounds, seals, hoses, belts, vibration isolators.
 
+## Economic profile
+
+Custom mixed compound at roughly $2–6/kg is what most rubber processors buy, and the crossover is explicit: in-house mixing pays off above a few hundred tonnes a year. Below that, an internal mixer and the technical staff to run it cost more than the margin a custom mixer charges. Formulation is also where product cost is set, since carbon black at 30–80 phr is both a reinforcing filler and a cheap extender.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=BSlkC9SNtfE — Rubber Compound Mixing on a Rubber Mixing Mill (Inspiredge India, 7 minutes, 50k+ views)

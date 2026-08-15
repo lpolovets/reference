@@ -28,6 +28,10 @@ Web width typically 0.3–3 m · line speed 10–300 m/min for coating, higher f
 
 Battery electrodes, flexible electronics, packaging films, solar films, adhesive tape.
 
+## Economic profile
+
+Line capex spans a wide range in this class, about $1M for a narrow coater against $20M and up for a wide multi-station line, and that range is most of the decision. A narrow line is cheap enough to buy for a single product, which is where new coated products usually start. A wide line only pays back on volume the product may not have yet, which is why roll-to-roll development often stays for years at a width that will never be economic in production.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=EBNyjJFB8Zc — Introduction to Roll Coating and Roll Coater Basics (Stanza Machinery, Inc, 4 minutes, 100k+ views)

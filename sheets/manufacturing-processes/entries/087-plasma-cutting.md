@@ -28,6 +28,10 @@ Torch current 30–800 A, with 100–400 A covering most plate work · kerf 1.5�
 
 Heavy-equipment parts, structural plate, ship components.
 
+## Economic profile
+
+Consumables define the running cost, because electrodes and nozzles last only a few hours of arc-on time, so a plasma table carries a real hourly cost that a laser does not. Against that, the machine is far cheaper than a laser and cuts 6–50 mm plate at production speed. Tolerance of ±0.5–1 mm with a 1–5 degree bevel means parts usually need a secondary operation, and that machining belongs in the true cost of the process.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=aQ7pfjtlVUk — How does Plasma Cutting Work (Hypertherm Asia Pacific, 4 minutes, 100k+ views)

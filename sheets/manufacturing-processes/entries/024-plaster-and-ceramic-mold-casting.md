@@ -28,6 +28,10 @@ Linear tolerance roughly ±0.13 mm on the first 25 mm · surface Ra 1.6–3.2 µ
 
 Prototype aluminum parts, aerospace castings, tooling components.
 
+## Economic profile
+
+A silicone master at $2–15k yields dozens to a hundred molds, so tooling cost per part is low, but each plaster mold is used once and needs 12–24 hours of drying, which caps throughput hard. That combination fits runs of one to a few hundred parts where a die-cast surface is wanted without die-cast tooling. The 2–4 week lead time is the practical selling point against investment casting's 8–16 weeks.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=QlPqsukn6Bc — RPM-Rubber Plaster Mold Casting Process for Aluminum (ArmstrongMold, 2 minutes, 100k+ views)

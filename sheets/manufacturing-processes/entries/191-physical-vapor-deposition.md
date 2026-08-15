@@ -28,6 +28,10 @@ Film thickness 10 nm to about 5 µm, with anything past 10 µm uneconomical · d
 
 Semiconductor metallization, tool coatings, mirrors.
 
+## Economic profile
+
+The stated limit is economic rather than physical: films past about 10 µm are uneconomical because at 0.1–1 µm/min the machine hours grow in step with thickness. That is why PVD is used for functional thin films and for tool coatings at 1–5 µm rather than for anything structural. Cutting-tool coating is the high-volume application and is sold as a service by the batch, since a coating shop can fill a chamber with hundreds of inserts at once.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=8mVK5dwyoEY — Coating - How the PVD sputtering process works (Plansee, 4 minutes, 100k+ views)

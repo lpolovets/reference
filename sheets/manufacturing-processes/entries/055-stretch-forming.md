@@ -28,6 +28,10 @@ Sheet stretched 2–5% past yield, thinning it 3–10% · contour tolerance ±0.
 
 Aircraft skins, railcar panels, architectural surfaces.
 
+## Economic profile
+
+Dies at $5–50k can be kirksite or epoxy rather than tool steel, because the sheet is pulled over a single form instead of pressed into a matched set, so tooling is cheap for the size of panel produced. The recurring cost is material: 50–150 mm of gripped edge per side is trimmed off and scrapped, which on an aerospace aluminum skin is a significant fraction of an expensive sheet.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=SMXnAFD8EvQ — Stretch Press Forming at MILTON Manufacturing (miltonmfg, 2 minutes, 10k+ views)

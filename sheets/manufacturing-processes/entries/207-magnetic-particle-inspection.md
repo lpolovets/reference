@@ -28,6 +28,10 @@ Detects surface cracks and subsurface flaws to roughly 1–3 mm depth · tolerat
 
 Gears, steel forgings, rails, landing gear.
 
+## Economic profile
+
+A portable yoke costs $500–2,000 and inspects in seconds to a minute per part, so on ferromagnetic work this is usually the cheapest inspection per part of anything here. Wet fluorescent benches at $15–100k buy throughput and repeatability rather than sensitivity. The limitation is what the economics turn on: it works only on ferromagnetic material, so a shop that moves to aluminum or austenitic stainless has to buy a different method and retrain for it.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=qpgcD5k1494 — Magnetic Particle Inspection (MaterialsScience2000, 4 minutes, 500k+ views)

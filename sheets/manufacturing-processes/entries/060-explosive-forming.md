@@ -28,6 +28,10 @@ Strain rates of 100 to 10,000 per second, against roughly 1 per second in a pres
 
 Large aerospace panels, vessel heads, ship structures.
 
+## Economic profile
+
+One female die at $10–100k replaces a matched set and a press that would have to be enormous, which is the economic case for parts several meters across in single digits to low tens. Everything else about it is expensive, since one shot per cycle means hours between parts and the site is a licensed range with a water tank. It is used where the alternative is not a cheaper process but no process at all.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=0jAxB_vT12k — Explosive forming process | High energy rate forming [HERF] process explained (ONE POINT ACADEMY, 6 minutes, 10k+ views)

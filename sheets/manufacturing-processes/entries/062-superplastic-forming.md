@@ -28,6 +28,10 @@ Grain size below about 10 µm · forming at roughly 900 °C for Ti-6Al-4V and 45
 
 Titanium aerospace panels, ducts, lightweight shells.
 
+## Economic profile
+
+Cycle times of 20 minutes to several hours make this the slowest forming process here, so cost per part is high and it is used only where nothing else reaches the shape. What the money buys is elongation of 200–1,000% in one operation, replacing an assembly of many parts and the fasteners between them. Wall thinning of 30–50% in the deepest sections has to be paid for in starting gauge, so the blank is heavier and dearer than the finished part suggests.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=Zi7Xqlp0M-0 — Hot Forming & Superplastic Forming Machines (Aries Alliance, 3 minutes, 10k+ views)

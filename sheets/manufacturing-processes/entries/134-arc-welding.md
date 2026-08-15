@@ -50,6 +50,10 @@ A wire welds beneath granular flux. Very high deposition rates but mainly suits 
 
 Structures, vehicles, pipelines, pressure vessels, heavy equipment.
 
+## Economic profile
+
+Deposition rate is the cost: 1–3 kg/hr for stick against 10–45 kg/hr for submerged arc is an order of magnitude in labor per meter of weld. Equipment is almost free by comparison at $500–5k for a power source, so welding cost is overwhelmingly the welder's time and the certification behind it. A robotic cell at $100k and up is bought to convert that labor into machine hours, and it pays back only where the same joint repeats.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=TeBX6cKKHWY — How Arc Welding Works (Edison Tech Center, 2 minutes, 1m+ views)

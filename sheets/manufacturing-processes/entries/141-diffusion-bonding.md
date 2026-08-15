@@ -28,6 +28,10 @@ Bonding temperature 50–80% of the material's absolute melting point, around 90
 
 Aerospace heat exchangers, titanium structures, nuclear components.
 
+## Economic profile
+
+Two costs dominate and neither is the equipment. Surfaces have to be prepared to about 0.4 µm Ra and kept clean, which is a machining and handling bill before bonding starts, and the hold is 1–4 hours at temperature, so throughput is very low. It is used where the product cannot be made another way, such as printed-circuit heat exchangers stacking hundreds of plates with 1–2 mm channels, and those sell at prices that carry the cycle time.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=IQYZHGSf_8E — Diffusion Bonding at TWI (TWI Ltd, 3 minutes, 50k+ views)

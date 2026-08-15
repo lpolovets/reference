@@ -28,6 +28,10 @@ Mold rotation 300–3,000 rpm, giving 60–150 g at the mold wall · outside dia
 
 Pipes, cylinder liners, bushings, bearing rings.
 
+## Economic profile
+
+Molds at $5–50k per size and good for thousands of pours give a low tooling cost per part, and because one mold covers a length range, a pipe or bushing shop can serve many sizes on modest capital. The recurring cost is the 3–6 mm bore machining allowance where the lighter inclusions collect: that metal is melted and cast, then cut away and returned as scrap, so its energy is paid for twice.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=113cm_U2EBk — Ductile Iron Pipe: Centrifugal Casting of Ductile Iron Pipe (McWane, Inc., 4 minutes, 50k+ views)

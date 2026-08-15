@@ -28,6 +28,10 @@ Media pressure roughly 7–20 MPa · abrasive from about 8 to 500 grit · remove
 
 Turbine passages, extrusion dies, fuel components, manifolds.
 
+## Economic profile
+
+Fixtures at $1–10k per part family are the tooling and the media does the rest, so one machine serves many similar parts. The economic argument is access: it finishes internal passages and cross-drilled intersections no tool can reach, and the alternative is usually redesigning the part or accepting the burr. Cycles of 1–10 minutes per load, with several parts per fixture, keep cost per part moderate.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=XCFKV_qRr54 — The Extrude Hone process explained (pdidiesel, 3 minutes, 50k+ views)

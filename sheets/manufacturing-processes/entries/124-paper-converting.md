@@ -28,6 +28,10 @@ Line speeds 200–400 m/min on corrugators and faster still on folder-gluers · 
 
 Cartons, corrugated boxes, labels, cups.
 
+## Economic profile
+
+Steel-rule dies at $500–5k and line speeds of 200–400 m/min give unit costs from fractions of a cent to a few cents, which is why almost everything ships in a converted-paper package. The economics are a volume business with thin margins on a commodity substrate, so board price and waste are what a converter competes on. Corrugated is also bulky, so like glass containers it sells within a freight radius.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=52xYFvncHCY — Amazing Manufacturing Process of Corrugated Carton Boxes with Paper Roll (Skills Unit, 10 minutes, 1m+ views)

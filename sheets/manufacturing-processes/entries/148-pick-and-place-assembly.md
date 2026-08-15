@@ -28,6 +28,10 @@ Placement rate 3,000–5,000 components per hour on desktop machines and 20,000�
 
 Computers, phones, industrial controllers, vehicle electronics.
 
+## Economic profile
+
+Placement rate is what is being bought: $30k for a desktop machine at 3,000–5,000 components per hour against $1M for a line doing 20,000–100,000. Changeover of 30 minutes to a few hours per board is the other economic term, and it is why contract manufacturers batch similar boards and why a small order pays a setup charge that can exceed the component cost. Feeder slots, 100–200 per machine, cap how complex a board can run in one pass.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=BepAMlrJwXI — SMT Pick and Place Process - 2015 (Z-AXIS, Inc., 5 minutes, 100k+ views)

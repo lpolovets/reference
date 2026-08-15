@@ -28,6 +28,10 @@ Particle velocities 500–1,200 m/s · gas preheat 300–1,100 °C, below the po
 
 Corrosion repair, copper deposition, dimensional restoration, aerospace repair.
 
+## Economic profile
+
+Deposition of 1–10 kg/hr is fast for a metal additive process, and the consumable that dominates is gas, since high-pressure systems run on helium or heated nitrogen in quantity and helium alone can cost more than the powder. The economic case is repair and dimensional restoration, because building a worn surface back up below the melting point avoids the distortion and re-heat-treatment that a welded repair would force.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=DnVny_pioJ8 — Cold Spray - Additive Manufacturing (Impact Innovations | Cold Spray Made In Germany, 6 minutes, 10k+ views)

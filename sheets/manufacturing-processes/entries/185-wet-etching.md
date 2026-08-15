@@ -28,6 +28,10 @@ Practical feature floor around 3 µm · isotropic undercut roughly equal to the 
 
 Printed circuit boards, silicon bulk micromachining, glass channels, metal patterning.
 
+## Economic profile
+
+Wet benches are the cheapest process equipment in the fab, and batch immersion runs 25–50 wafers at once, so cost per wafer is very low. Chemicals are the main cost, and their disposal is a growing part of it, since spent acids and solvents are regulated waste. Those economics keep wet etching in service for MEMS, cleaning, and non-critical layers long after dry etching took over the critical ones, because nothing else matches its cost per wafer above a few microns.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=UKf0offCyw0 — Etch Processes for Microsystems - Part I (Support Center for Microsystems Education, 16 minutes, 50k+ views)

@@ -28,6 +28,10 @@ Austenitizing at roughly 830–950 °C, about 30–60 °C above the Ac3 temperat
 
 Forgings, castings, structural components.
 
+## Economic profile
+
+Still-air cooling is what makes this cheaper than a full anneal: a cycle of a few hours against 8–24 hours means the same furnace turns several loads a day instead of one, and that difference shows up directly on a commercial heat treater's price list. It also needs no controlled-cooling equipment, so almost any furnace can run it, which keeps the service widely available and competitively priced.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=tSMG1i4Jb3Q — Heat treatment of the Steel : Annealing ,Normalizing,Quenching & Tempering (Welding Inspection, 7 minutes, 10k+ views)

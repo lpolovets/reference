@@ -28,6 +28,10 @@ Fiber lasers of 1–20 kW, with 3–6 kW covering most sheet work · kerf 0.1–
 
 Enclosures, brackets, signage, gaskets, sheet-metal components.
 
+## Economic profile
+
+Machines at roughly $200k to over $1M are the capital, and cost per part is machine hours plus assist gas and electricity, with no tooling at all. Speed collapses with thickness, from above 20 m/min in 1 mm mild steel to 1–2 m/min at 10 mm, so the economics are excellent on thin sheet and steadily worse as plate thickens, which is where plasma and oxy-fuel take over. Nesting efficiency is the other lever, since sheet is bought whole.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=SIjUVCho_xU — How does laser cutting work? Basics explained (Trotec Laser, 2 minutes, 500k+ views)

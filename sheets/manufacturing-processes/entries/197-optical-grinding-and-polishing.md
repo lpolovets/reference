@@ -28,6 +28,10 @@ Figure accuracy lambda/4 commercial, lambda/10 precision, lambda/20 or better on
 
 Lenses, telescope mirrors, prisms, windows.
 
+## Economic profile
+
+The capital is modest for what it produces, but the labor is not: hours to days per surface, with the skill sitting in the operator rather than the machine. That fixes the industry as job shops quoting per surface, and price rises steeply against specification, since commercial lambda/4 is routine work and lambda/20 is a different quote entirely. Lot sizes of one to a few thousand mean there is no volume at which this gets cheap, which is what created the market for diamond turning and molded optics.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=3KGRSevErXo — Lens Grinding and Polishing (Avantier Inc., 3 minutes, 10k+ views)

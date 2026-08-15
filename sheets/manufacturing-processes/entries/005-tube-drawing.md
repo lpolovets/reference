@@ -28,6 +28,10 @@ OD from about 0.2 mm on hypodermic sizes up to roughly 150 mm · wall down to ab
 
 Hypodermic tubing, hydraulic lines, heat-exchanger tubes, precision mechanical tubing.
 
+## Economic profile
+
+A size family's dies, plugs, and mandrels come in under $50,000, so a drawer can carry many sizes without much capital tied up in any one of them. The cost driver is passes: 20–40% reduction per pass with an anneal every few passes means a thin-wall precision tube may take several cycles of draw, clean, anneal, and draw again, each with its own handling and yield loss. Precision tube sells at a premium over standard stock for that reason.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=MtkgKwD-lGQ — Tube drawing process and different method explained 3D animaiton (Engineer Know, 2 minutes, 50k+ views)

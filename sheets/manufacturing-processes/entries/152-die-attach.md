@@ -28,6 +28,10 @@ Bondline thickness roughly 20–75 µm · thermal conductivity about 1–3 W/mK 
 
 Power modules, LEDs, processors, sensors.
 
+## Economic profile
+
+Throughput of 5,000–20,000 dies per hour keeps cost per die low, and material choice is where the money is decided: conductive epoxy at 1–3 W/mK is cheap, solder is middling, and sintered silver at 150–250 W/mK costs substantially more in material and needs 10–30 MPa at about 250 °C. Power devices pay for silver because the alternative is a larger die or a bigger heatsink, and both cost more than the paste.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=ekolKMigeQo — DIE ATTACH PROCESS (WATCH LEARN  'N PLAY, 9 minutes, 10k+ views)

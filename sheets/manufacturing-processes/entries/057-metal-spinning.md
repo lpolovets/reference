@@ -28,6 +28,10 @@ Blank diameters from about 50 mm to 5 m · thickness 0.5–6 mm on manual work, 
 
 Nose cones, cookware, reflectors, pressure-vessel ends.
 
+## Economic profile
+
+Mandrels at $500–5k, often in wood, make this the cheapest way to produce a large axisymmetric part, and it works at a lot size of one. A CNC spinner at 20–60 seconds per part extends the range up to roughly 5,000–10,000 pieces a year, past which deep drawing usually wins on cycle time. Blank diameters to 5 m also mean it makes parts larger than any press a shop is likely to own.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=DGszBVy3cgU — the art of metal spinning (metal-spinning-workshop, 5 minutes, 500k+ views)

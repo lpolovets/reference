@@ -28,6 +28,10 @@ Electrolyte charge of roughly 1.5–3 g per Ah of cell capacity · dosing accura
 
 Lithium-ion cells of all formats.
 
+## Economic profile
+
+Wetting is the hidden cost. A soak of several hours to more than a day on large cells means work in process sitting in a dry room held below about -40 °C dew point, which is among the most expensive floor area in the plant. Dosing accuracy of about ±1% matters because electrolyte is costly and because both too little and too much shorten cell life, so the tolerance is protecting the product as well as the material bill.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=ceUSPNzxwls — Electrolyte Filling of a Lithium-Ion Cell (iwb-Tube, 1 minute, 10k+ views)

@@ -28,6 +28,10 @@ Removal rate 100–500 nm/min on oxide and 300–1,000 nm/min on copper · post-
 
 Copper interconnects, dielectric planarization, shallow-trench isolation.
 
+## Economic profile
+
+CMP is unusual in a fab for carrying a real consumable bill: several dollars per wafer pass in slurry and pads, with pads lasting 300–1,000 wafers. On a flow with a dozen CMP steps that becomes a meaningful share of wafer cost, which is why slurry gets negotiated like a commodity. Tools at $2–5M are ordinary by comparison. Spent slurry carries abrasive and dissolved metal, so the waste stream is a cost as well.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=2z4lq-Ms_OU — Chemical Mechanical Planarization, CMP Process Fundamentals: Sec 2 - CMP… (CMC Materials, 8 minutes, 50k+ views)

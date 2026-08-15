@@ -28,6 +28,10 @@ Removes 5–50 µm of material · typically halves the starting Ra, so a 0.8 µm
 
 Semiconductor gas lines, stainless medical devices, pharmaceutical equipment, additive parts.
 
+## Economic profile
+
+This is tank work priced by the load, so cost per part falls with how many fit on a rack, and a 2–20 minute cycle means several loads an hour. It halves the starting Ra rather than transforming it, so it cannot rescue a rough surface and is specified as a final step after grinding or fine machining. In stainless and medical work it is often bought as much for the passive surface it leaves as for the finish.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=0XUS9bRSihM — What is Electropolishing? | How Does Electropolishing Work? (Able Electropolishing Co., 2 minutes, 50k+ views)

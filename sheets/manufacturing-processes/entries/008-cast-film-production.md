@@ -28,6 +28,10 @@ Film gauge roughly 10–250 µm · gauge uniformity about ±1–3%, tighter than
 
 Food packaging, stretch wrap, hygiene films, medical packaging.
 
+## Economic profile
+
+Tooling is four to ten times the blown-film equivalent at $250,000 to $1M, and the line runs at 300–600 m/min, the fastest of the film processes. Both point the same way: cast film is a volume business that needs a full order book to pay back the die. What the money buys is ±1–3% gauge against ±5–10% blown, which returns resin the converter would otherwise give away. That saving covers the tooling only at high running hours.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=jcLfQkkkf_g — CO-EXTRUSION CAST LINE FOR STRETCH FILM (AMUT, 5 minutes, 100k+ views)

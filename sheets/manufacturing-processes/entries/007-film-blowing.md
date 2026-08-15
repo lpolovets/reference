@@ -28,6 +28,10 @@ Film gauge roughly 8–250 µm · blow-up ratio 1.5:1–4:1 · gauge uniformity 
 
 Grocery bags, agricultural film, food packaging, liners, shrink film.
 
+## Economic profile
+
+A multilayer die and air ring at $50,000–250,000 is modest capital against 100–1,500 kg/h of output, so film blowing suits converters running many resins and widths on one line. Gauge uniformity of ±5–10% is an economic constraint rather than only a quality one: film is sold by weight and used by area, so a converter running loose gauge has to aim high and gives away resin on every roll.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=5aYonn_4XM0 — What is blown film extrusion process? How do you calculate blow up ratio?… (PLASTICS WORLD, 15 minutes, 50k+ views)

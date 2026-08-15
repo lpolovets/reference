@@ -28,6 +28,10 @@ Tool vibrates at 19–25 kHz with 10–50 µm amplitude · boron carbide or sili
 
 Glass, sapphire, ceramics, carbide dies.
 
+## Economic profile
+
+Removal of 1–10 mm³ per minute in glass is very slow, and the tool wears and has to be re-formed or replaced, so this is priced by the hour on parts that have no alternative. It is used on hard, brittle, nonconductive materials that EDM cannot touch and that grinding would crack. Cavity depth limited to about three tool diameters also caps what one setup can produce, which adds operations to anything deep.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=5w6szZtOg5w — ULTRASONIC MACHINING: How Ultrasonic Machining process work (Animation) (ADTW Study, 7 minutes, 100k+ views)

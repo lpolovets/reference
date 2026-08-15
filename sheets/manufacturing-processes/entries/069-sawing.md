@@ -28,6 +28,10 @@ Length tolerance roughly ±0.5–1 mm · kerf 1–3 mm depending on blade type �
 
 Billets, tube, structural steel, lumber, plastic stock.
 
+## Economic profile
+
+Blades at $30–300 make this the cheapest metal-cutting operation there is, and it usually does not appear as a separate line on a quote. The cost that is real but invisible is kerf: 1–3 mm turned into chips on every cut, which across a production run in expensive bar stock is worth more than the tooling. Length tolerance of ±0.5–1 mm also means a facing operation afterwards on anything that matters.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=rSqC3i8jjrU — How to Use a Horizontal Band Saw (ASC Process Systems, 8 minutes, 10k+ views)

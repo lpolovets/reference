@@ -28,6 +28,10 @@ Uniaxial compaction at 50–200 MPa, cold isostatic pressing at 100–400 MPa ·
 
 Tiles, cutting inserts, electronic substrates, insulators, wear parts.
 
+## Economic profile
+
+Carbide die sets at $5–30k pressing 10–100 small parts a minute give a very low cost per part, which is why tiles, spark-plug insulators, and cutting inserts are made this way. The cost that does not go away comes after pressing: 12–20% linear sintering shrinkage leaves as-fired tolerance of roughly ±1–2%, and anything tighter needs diamond grinding, which usually costs more than the pressing did.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=8AGvi9javMo — Isostatic press operation demonstration (KinTek Solution For Research, 4 minutes, 1k+ views)

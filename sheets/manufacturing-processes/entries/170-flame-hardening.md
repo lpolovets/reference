@@ -28,6 +28,10 @@ Case depth typically 1–6 mm · surface hardness roughly 50–60 HRC on 0.4–0
 
 Large gears, rollers, machine ways.
 
+## Economic profile
+
+Torch equipment at a few thousand dollars against six figures for an induction cell is the reason this survives. It is slower and less controlled, but there is no practical upper limit on part size, so it hardens gear teeth and slideways on parts too big for anything else to reach economically. The economics favor it for one-offs, repairs, and very large work, and favor induction for everything that repeats.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=qGKiXz1I1-8 — Principle Of Flame Hardening (LEARN AND GROW, 3 minutes, 10k+ views)

@@ -28,6 +28,10 @@ Layer thickness 20–60 µm · tolerance roughly ±0.1 mm or ±0.2% before finis
 
 Rocket injectors, implants, heat exchangers, turbine components, aerospace brackets.
 
+## Economic profile
+
+Build rates of 5–30 cm³ per hour per laser against machines at $500k to $2M are what make metal printing expensive, since the machine is amortized over very few cubic centimeters. That is why multi-laser machines exist and why orientation and support minimization are engineering work with a direct financial return. Ti-6Al-4V powder at $200–400 per kg matters less than machine hours, and ±0.1 mm tolerance means finish machining is a further cost.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=r8_M995cwAA — What Is Laser Powder Bed Fusion? (AM Media | The Cool Parts Show, 8 minutes, 50k+ views)

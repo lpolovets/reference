@@ -28,6 +28,10 @@ Winding roughly 1–3 seconds per jelly roll on cylindrical machines · electrod
 
 Cylindrical and wound prismatic cells.
 
+## Economic profile
+
+At 1–3 seconds per jelly roll, winding is rarely the bottleneck in a cylindrical line, and the machines are mature and widely available. That maturity is much of why cylindrical cells stayed cheap: the format standardized on 18650 and 21700, so equipment is a catalog purchase rather than a development program, and a new entrant can buy a production line instead of designing one.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=nhPjYpuFDoo — MSK-112A-EA Precision Automatic Winder for Electrode Assembly of Cylindrical… (MTI Corp, 2 minutes, 1k+ views)

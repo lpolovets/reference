@@ -28,6 +28,10 @@ Etch depth from tens of microns to through-wafer at 500–775 µm · aspect rati
 
 MEMS sensors, microphones, through-silicon vias.
 
+## Economic profile
+
+Tools are roughly $500k to $2M and the process is slow. At 2–10 µm/min, etching through a 500–775 µm wafer takes an hour or two, and longer in narrow trenches where the rate drops. Throughput is the whole economic problem, which is why DRIE stays a MEMS and advanced-packaging process rather than a mainstream one. It is used where the geometry is impossible any other way, and parts that need it carry prices that absorb the tool time.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=QrtyFrndPIA — Deep Reactive Ion Etching system - PlasmaPro 100 Estrelas - Oxford Instruments (Oxford Instruments, 2 minutes, 1k+ views)

@@ -28,6 +28,10 @@ Length measurement error typically 1.5–3.5 µm + L/300 on shop-floor machines 
 
 Aerospace parts, molds, precision machined components, medical implants.
 
+## Economic profile
+
+A machine costs $50k to well over $500k and takes minutes to an hour per part, which prices it out of 100% inspection on anything but slow, expensive work. Most shops therefore run one CMM against a sampling plan and buy lab capacity when a first-article report is due. The operating cost is the programmer and the fixture rather than the machine: a part with a hundred toleranced features can take longer to program once than to measure a hundred times.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=5F37vUEfxM0 — What is a CMM? || THORS Coordinate Measuring Machine (CMM) Basics Course… (THORS eLearning Solutions, 4 minutes, 100k+ views)

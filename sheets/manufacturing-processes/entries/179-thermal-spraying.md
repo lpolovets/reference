@@ -28,6 +28,10 @@ Coating thickness from 0.1 mm to several mm · particle velocities of roughly 50
 
 Turbine coatings, hydraulic rods, engine cylinders, repaired shafts.
 
+## Economic profile
+
+Deposition rate separates the variants economically. Arc spray at 10–50 kg/h is cheap enough to coat large structures, while HVOF at 2–6 kg/h costs several times more per kilogram and is reserved for wear surfaces that need 70 MPa bond strength and under 2% porosity. Because the substrate stays below about 150 °C, thermal spray can restore finished parts, and repair is where much of the industry's revenue comes from, since the alternative is buying a new component.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=-mcWhRg5w2A — Curtiss-Wright Surface Technologies: Thermal Spray Coatings Process (UPDATED) (Curtiss-Wright Surface Technologies, 6 minutes, 100k+ views)

@@ -28,6 +28,10 @@ Dimensional tolerance ±0.05–0.15 mm on molded features, insert position withi
 
 Threaded housings, electrical connectors, sensor bodies, surgical handles.
 
+## Economic profile
+
+The economics are a comparison against assembly. Molding the insert in adds 10–30 seconds to the cycle and needs insert-loading automation on top of $10–80k of tooling, and it removes a downstream assembly operation entirely. It pays when that assembly would need its own station, fixture, and inspection. The risk that turns into cost later is the 3–6x thermal expansion mismatch at the interface, which shows up as field failures rather than unit cost.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=z6J07KPoDDk — INSERT MOLDING vs OVERMOLDING | Two-Shot Injection Molding EXPLAINED -… (Star Rapid, 7 minutes, 100k+ views)

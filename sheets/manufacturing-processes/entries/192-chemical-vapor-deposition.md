@@ -28,6 +28,10 @@ Film thickness 10 nm to several microns · LPCVD deposits 5–20 nm/min at 600�
 
 Semiconductor films, diamond coatings, silicon carbide.
 
+## Economic profile
+
+Batch LPCVD furnaces hold 100–200 wafers, which keeps cost per wafer low despite tools at $500k to $3M, while PECVD trades that batch economics for a temperature low enough to deposit over completed metal. The choice between them is usually made on thermal budget rather than cost, and the fab absorbs the difference. Precursor gases are a real consumable here, unlike in oxidation, and several are hazardous enough to need their own handling infrastructure.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=j80jsWFm8Lc — Explained: Chemical Vapor Deposition (CVD) (Massachusetts Institute of Technology (MIT), 1 minute, 100k+ views)

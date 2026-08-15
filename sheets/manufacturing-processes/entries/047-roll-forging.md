@@ -28,6 +28,10 @@ Cross-sectional reduction 20–50% per pass, usually 2–4 passes · cycle 5–2
 
 Axles, spring blanks, connecting-rod preforms, tool blanks.
 
+## Economic profile
+
+This is bought as a preforming step rather than as a finished process, and the return is measured on the operation after it: distributing the metal before the finish forging cuts flash loss that would otherwise run 10–30% of input mass. On expensive alloys that saving pays for roll sets at $10–40k quickly. Where the material is cheap, the extra station rarely justifies itself.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=LuGNhEwZs0s — Roll forging process (ROLL PEDIA, 5 minutes, 10k+ views)

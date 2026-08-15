@@ -30,7 +30,7 @@ All lithium-ion cell production.
 
 ## Economic profile
 
-Often one of the largest capex and cycle-time bottlenecks in a battery factory.
+Formation and aging together take a quarter or more of a cell plant's floor space and capital, which makes this the largest fixed cost in cell manufacturing after the coating line. The reason is time: 12 hours to several days per cell at C/20 to C/10, with every cell occupying its own channel held to about 0.05% of full scale on current and voltage. Shortening formation is therefore one of the highest-value process improvements available to a cell maker.
 
 ## Videos
 

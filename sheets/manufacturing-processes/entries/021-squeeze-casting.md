@@ -28,6 +28,10 @@ Applied pressure 50–150 MPa held through solidification · porosity typically 
 
 Pistons, wheels, suspension components, aerospace aluminum parts.
 
+## Economic profile
+
+Tooling at $200–800k and a 1–3 minute cycle cost more per part than high-pressure die casting, and the return is a casting under 1% porosity that takes a full T6 heat treatment and reaches 5–15% elongation against 1–3%. That turns a casting into something usable in a safety-critical load path, which is a different product rather than a cheaper one. It is bought where the alternative is a forging.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=30FnDaNL_JM — Squeeze Casting | Animation | Working Process | Advantages | Dis-advantages | Applications (Engg Concepts, 8 minutes, 10k+ views)

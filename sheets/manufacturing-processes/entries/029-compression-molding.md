@@ -28,6 +28,10 @@ Molding pressure 2–20 MPa on presses of 100–3,000 tons · mold temperature 1
 
 Electrical housings, rubber seals, composite panels, melamine products.
 
+## Economic profile
+
+Tooling at $10–100k is well under an equivalent injection mold for the same part and the presses are simpler, so entry cost is low for large parts. The offset is the cycle, at a 1–5 minute cure against seconds for thermoplastic injection, so press time and labor per part are high. It holds its place because fiber length is preserved at 12–50 mm against under 1 mm after injection, and no cheaper process delivers that.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=pOGpXZ-UMfo — Compression Molding (Engineering Chemistry, 4 minutes, 100k+ views)

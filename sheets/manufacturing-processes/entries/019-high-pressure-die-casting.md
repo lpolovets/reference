@@ -28,6 +28,10 @@ Wall thickness 1–3 mm · linear tolerance about ±0.1–0.25 mm on the first 2
 
 Transmission housings, electronics enclosures, appliance components, structural aluminum castings.
 
+## Economic profile
+
+Dies run from tens of thousands of dollars on small zinc parts to several million on large structural castings, on a 12–20 week lead time, so this is the largest tooling commitment in casting and the decision is effectively a program decision. Against that, a 15–90 second cycle gives the lowest cost per part of any casting route at volume. Die life splits the metals sharply, at 100,000–200,000 shots in aluminum against up to a million in zinc.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=iSyBsdJkQu8 — What is the Die Casting Process? The High Pressure Die Casting Process (RCM Industries, Inc., 2 minutes, 100k+ views)

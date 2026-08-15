@@ -28,6 +28,10 @@ Diameter accuracy IT6-7, roughly 0.015–0.025 mm on a 50 mm bore · roundness a
 
 Engine cylinders, bearing seats, valve bodies, machine housings.
 
+## Economic profile
+
+Boring is bought when a drilled or cast hole is not accurate enough, so the cost is one more operation and one more tool rather than new tooling. Depth is what makes it expensive: bar overhang past 4–6 bore diameters needs damped bars and slower cutting, so a deep bore can take several times the cycle of a shallow one at the same diameter. On a horizontal boring mill making bores over 1 m, machine-hour rates rather than tooling set the price.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=b3-oWMKkeL4 — How To Lathe: #3 Drilling and Boring - Tutorial (Invent Box Tutorials, 13 minutes, 10k+ views)

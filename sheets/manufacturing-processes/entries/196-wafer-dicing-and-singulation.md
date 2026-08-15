@@ -28,6 +28,10 @@ Blade kerf 20–50 µm, needing streets of at least 50 µm, while stealth and pl
 
 Logic chips, sensors, MEMS, power devices.
 
+## Economic profile
+
+Blades are cheap and dicing looks like a minor step, but street width is a direct cost: 50 µm streets for a blade against 5–20 µm for stealth or plasma is die area given up on every die of the wafer, which on small dies is a real difference in dies per wafer. Plasma singulates a whole wafer in 10–30 minutes regardless of die count, inverting the economics for wafers carrying tens of thousands of small dies.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=Jh4uJZR_OYs — [Eng Sub] Wafer Sawing Process: Blade saw, Laser saw, Plasma saw (Semicon Talk, 4 minutes, 10k+ views)

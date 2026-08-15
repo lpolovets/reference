@@ -28,6 +28,10 @@ Fill pressure 0.2–1 bar · cycle time 3–10 minutes per mold · minimum wall 
 
 Wheels, suspension components, cylinder heads, pressure housings.
 
+## Economic profile
+
+Metal yield above 90%, against 50–60% for gravity pouring, is the economic argument: metal not put into risers and returns is a direct saving on every casting, and it compounds with alloy price. Tooling at $150–800k and a 3–10 minute cycle keep this in the medium-volume band, typically wheels and structural parts where soundness matters more than cycle time does.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=n4FUBQfLDW4 — Permanent Mold Low Pressure Die Casting Animation (ForceBeyond, 1 minute, 10k+ views)

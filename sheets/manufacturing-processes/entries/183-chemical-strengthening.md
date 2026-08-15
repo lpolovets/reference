@@ -28,6 +28,10 @@ Glass thickness 0.3–3 mm, below the 3 mm floor for tempering · molten potassi
 
 Smartphone glass, watches, avionics displays, medical devices.
 
+## Economic profile
+
+Cost per part runs several times thermal tempering at the same size, driven by 4–16 hours in a molten potassium nitrate bath against under a minute in a tempering furnace. Bath chemistry also degrades as sodium accumulates, so the salt is a managed consumable rather than a fixed cost. It is bought where thermal tempering cannot go, below the 3 mm thickness floor, which is why phone cover glass is chemically strengthened and architectural glazing is not.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=y02AXdec1sE — How to chemically strengthen glass (eg Gorilla Glass) (Applied Science, 8 minutes, 100k+ views)

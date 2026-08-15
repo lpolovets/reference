@@ -28,6 +28,10 @@ Feature sizes from about 10 nm to a few micrometers · gallium beams at 5–30 k
 
 Semiconductor repair, microscopy sample preparation, thin-film devices, nanoscale prototypes.
 
+## Economic profile
+
+Systems at roughly $500k to $2M with removal measured in cubic micrometers per second make this the most expensive material removal per unit volume anywhere in manufacturing. It is never production work: it is failure analysis, circuit edit, and sample preparation, bought as time on an instrument in a shared facility or a service lab. What is being paid for is an answer about one device rather than a part.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=pWYHVsu7Fhk — Focused Ion beam machining (MechanicalVerse, 18 minutes, 10k+ views)

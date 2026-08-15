@@ -28,6 +28,10 @@ Minimum wall about 3 mm · linear tolerance roughly ±0.25–0.5 mm · as-cast s
 
 Aluminum wheels, pistons, cookware, brackets, housings.
 
+## Economic profile
+
+Tooling at $40–200k amortized over 20,000–100,000 shots works out to roughly $1–5 of tooling per part at full mold life, which is what positions this between sand and die casting. Cycle time of 2–10 minutes per mold is the constraint at the top end: at high volume the same tooling money buys a die-casting cell running in 15–90 seconds, and labor per part falls with it.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=sf-MWmL9Z38 — Permanent Mold Aluminum Casting in 2 Minutes (Batesville Products, Inc., 2 minutes, 50k+ views)

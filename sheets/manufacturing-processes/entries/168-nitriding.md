@@ -28,6 +28,10 @@ Process temperature 500–550 °C with no quench · case depth typically 0.1–0
 
 Gears, crankshafts, molds, dies.
 
+## Economic profile
+
+Cycles of 10–100 hours make nitriding the slowest process in this class and the most expensive on furnace time alone. What justifies it is what does not happen afterwards: no quench, no distortion, and dimensional growth of only a few microns, so a finished part can be nitrided and shipped. On precision work the grinding operation avoided is usually worth more than the extra furnace hours cost.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=XAGsZetnupw — Nitriding Furnaces and Nitriding Process - Nitrex Metal (Nitrex, 5 minutes, 100k+ views)

@@ -28,6 +28,10 @@ Frequency 20–40 kHz at 20–60 µm horn amplitude · weld time 0.1–1 second,
 
 Plastic medical disposables, electronics housings, wire harnesses, battery tabs, foil stacks, semiconductor wire bonds.
 
+## Economic profile
+
+Horns and fixtures at $2–10k are specific to the part, so this is tooling in the same sense a mold is and prices in only where the part repeats. Against that, a cycle under 2 seconds with no consumable, no adhesive, and no cure time makes cost per joint negligible in volume. Plastic assembly is where the economics work, since metal joining is limited to foils, tabs, and wires and competes there against a much narrower set of alternatives.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=46YvT_9_YDM — What is Ultrasonic Welding Process ?? ||Engineer's Academy|| (Engineer's Academy, 6 minutes, 100k+ views)

@@ -38,6 +38,10 @@ Rotating wheel electrodes create overlapping welds along a seam. Useful for leak
 
 Automotive body assembly, sheet-metal containers, appliances.
 
+## Economic profile
+
+At 0.2–1 second per spot and 3,000–5,000 spots in a car body, this is the cheapest structural joint in volume manufacturing, and the automotive body shop is built around that number. Consumables are electrode tips, good for 2,000–10,000 welds between dressings, so tip dressing sets the maintenance rhythm of the line. Aluminum costs more on every count, since 20–40 kA against 5–15 kA on steel means larger equipment and shorter tip life.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=AwL1CAg43PU — Resistance Spot Welding - How It Works (Pro Spot International, 8 minutes, 500k+ views)

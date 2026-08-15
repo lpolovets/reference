@@ -28,6 +28,10 @@ Coating weights of roughly 1.5–4 g/m² for zinc phosphate, 0.3–0.8 g/m² for
 
 Automotive bodies, fasteners, appliance panels.
 
+## Economic profile
+
+Chemical cost per part is very low and there is no meaningful dimensional change, so conversion coating is usually the cheapest surface treatment on a drawing. Regulation rather than cost has reshaped the economics: hexavalent chromium restrictions moved work to trivalent and zirconium chemistries, and zirconium systems run at ambient temperature, which cuts the energy bill of a phosphate line substantially. Most of the remaining cost is the multi-stage washer and its wastewater treatment.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=DDHddQlC62M — Proto Tech Tip - Chemical Conversion Coating (See Note Below) (Protocase Inc, 3 minutes, 10k+ views)

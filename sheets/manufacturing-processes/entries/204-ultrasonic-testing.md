@@ -28,6 +28,10 @@ Frequency 0.5–25 MHz, with 2–10 MHz standard for weld inspection · measurab
 
 Welds, forgings, composites, pressure vessels, rails.
 
+## Economic profile
+
+Instruments are cheap for this class, $5k for a thickness gauge to $80k for a phased-array system, and the recurring cost is certified operators rather than equipment. That inverts the usual pattern here, since the capital is a rounding error against the labor over a machine's life. Phased array costs more up front and pays back by covering a weld in one pass instead of several, which matters most in field work where access and downtime cost more than the instrument.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=UM6XKvXWVFA — Ultrasonic Testing (MaterialsScience2000, 8 minutes, 1m+ views)

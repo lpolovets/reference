@@ -28,6 +28,10 @@ Compressive layer roughly 0.1–0.3 mm deep · peak compressive stress around 50
 
 Springs, gears, turbine blades, landing gear.
 
+## Economic profile
+
+At pennies to a few dollars per part in volume, this is one of the cheapest ways to buy fatigue life, which is why it appears so widely on springs, gears, and airframe parts. The cost sits in control rather than in the operation: Almen strips, coverage verification, and media size checks are the recurring expense, and they exist because the result cannot be seen on the part. Peening is a process bought on documentation.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=GFDD5dNvWOQ — Why Is Shot Peening So Important? (CamcraftInc, 3 minutes, 50k+ views)

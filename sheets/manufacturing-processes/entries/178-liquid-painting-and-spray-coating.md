@@ -28,6 +28,10 @@ Film builds of roughly 25–100 µm per coat, with multi-coat systems totaling 1
 
 Vehicles, aircraft, furniture, machinery.
 
+## Economic profile
+
+Transfer efficiency of 50–70% with conventional spray means a third to a half of the paint bought never reaches the part, and what misses becomes hazardous waste in the booth filters. Electrostatic assist at 70–95% is the standard answer and pays back quickly at volume. VOC limits of 250–420 g/L push solvent-borne systems toward waterborne and high-solids, which usually cost more per liter and need tighter control of humidity and film build.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=ViDAohrBEu4 — How is a new car painted at the factory ? // BMW Paint Shop (MotorLane, 5 minutes, 100k+ views)

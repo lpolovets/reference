@@ -28,6 +28,10 @@ Bump pitch typically 130–200 µm with solder bumps and down to about 40 µm wi
 
 CPUs, GPUs, RF devices, image sensors, chiplets.
 
+## Economic profile
+
+Throughput splits the economics. Mass reflow at 2,000–6,000 dies per hour is a production process, while thermocompression bonding at well under 1,000 is reserved for the finest pitches and the highest die values. Underfill cure of 30–60 minutes at about 150 °C adds a batch step to an otherwise continuous line. Flip chip costs more per die than wire bonding and is bought for interconnect count, which reaches over 10,000 on large processors.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=Yr_1vcYdbvI — [Eng Sub] Flipchip die attach process: Bump, MR(Mass Reflow), TCNCP,… (Semicon Talk, 5 minutes, 10k+ views)

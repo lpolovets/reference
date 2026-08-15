@@ -28,6 +28,10 @@ Ring diameters from about 200 mm to several meters, to 10 m on the largest mills
 
 Bearing races, jet-engine rings, wind-turbine rings, flanges.
 
+## Economic profile
+
+Material yield of 60–90%, against roughly 30–50% cutting a ring from plate, is the economic case, and on a bearing race or flange in alloy steel the metal saved is most of the value. A cycle of 1–5 minutes per ring is fast for the size of part, and one mill serves many diameters, so tooling is not the constraint. The machining allowance of 5–15 mm per surface is the remaining cost.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=jxVaycocsi8 — Dirostahl ring rolling (Karl Diederichs GmbH & Co. KG, 2 minutes, 10k+ views)

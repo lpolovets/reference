@@ -28,6 +28,10 @@ Tolerances ±0.01–0.05 mm · surface finish 0.8–3.2 µm Ra, down to 0.4 µm 
 
 Brackets, molds, aerospace structures, housings, engine parts.
 
+## Economic profile
+
+The rate difference between 3-axis at roughly $60–120 an hour and 5-axis at $100–200 is the main economic decision in milling, and it is usually settled on setups rather than on features. Five-axis costs more per hour and wins by machining in one setup what would otherwise take three, each with its own fixture and its own stack of tolerance. Removal rate is the other lever, since aluminum at several hundred cm³/min changes what is worth machining from solid.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=2jc3HkrHh9s — MILLING MACHINE OPERATIONS | Milling Processes (SOUMEN SIR, 7 minutes, 100k+ views)

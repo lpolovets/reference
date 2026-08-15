@@ -28,6 +28,10 @@ Dimensional tolerance roughly ±0.3% of the dimension, about ±0.25 mm minimum �
 
 Prototype housings, automotive mockups, medical-device enclosures.
 
+## Economic profile
+
+Silicone molds at $500–2,000, made in 3–7 days and good for 15–25 casts, make this the cheapest route to a small run of production-like plastic parts. The mold's short life is the economic boundary: a run of 100 needs several molds, and past that the cost curve crosses toward injection tooling. A 1–4 hour cycle per casting also means capacity is added by buying more molds rather than by running faster.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=gcrgXa0yYrw — Urethane Plastic Prototypes using Vacuum Casting (rapidprotovideo, 3 minutes, 50k+ views)

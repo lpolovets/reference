@@ -28,6 +28,10 @@ Layer thickness 100–120 µm · tolerance roughly ±0.3 mm or ±0.3% · surface
 
 Ducts, orthotics, clips, housings, aerospace polymer parts.
 
+## Economic profile
+
+Powder refresh is the cost that surprises people. PA12 at $50–100 per kg needs 30–50% virgin powder added to every build, so the un-melted powder in the bed is not simply reused and the material bill runs well above what the part weighs. Against that, no supports are needed, so the build volume can be packed densely, and packing efficiency is the main lever a service bureau has on price.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=FiMQ8kG7394 — SLS 3D Printing Explained (Formlabs, 6 minutes, 50k+ views)

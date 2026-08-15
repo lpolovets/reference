@@ -28,6 +28,10 @@ Peak temperature 245–250 °C for lead-free alloys, which melt around 217 °C �
 
 Printed circuit boards, LED assemblies, electronic modules.
 
+## Economic profile
+
+An oven at $30–150k processes whatever the placement machines feed it at 0.5–1.5 m/min, so its cost per board is small and falls toward nothing at volume. The expense is profiling, since every new board needs a thermal profile developed and verified before the first good unit. Lead-free peaks of 245–250 °C also narrowed the window between melting the solder and damaging the components, so profiles are less forgiving than they used to be.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=DYrucIWig24 — How to do SMD Reflow Soldering properly! || Hot Air VS Sand VS Reflow Oven (GreatScott!, 10 minutes, 500k+ views)

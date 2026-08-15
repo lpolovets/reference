@@ -28,6 +28,10 @@ Sheet 0.2–5 mm thick held to roughly ±2% of gauge · web width 1.5–2.5 m ·
 
 Tire plies, belts, roofing membranes, flooring.
 
+## Economic profile
+
+A four-roll calender line costs several million dollars and is economical only at thousands of tonnes a year, which makes this the most capital-intensive rubber process and one owned by tire and belting producers rather than by general processors. What it buys is 0.2–5 mm sheet held to about ±2% of gauge across a 1.5–2.5 m web, which is the feedstock the downstream building operations require.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=uPqBpjGPXKo — Passaic Rubber Company - Calendering Rubber (Passaic Rubber, 3 minutes, 10k+ views)

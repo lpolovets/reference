@@ -28,6 +28,10 @@ Layer thickness set by the sheet: 0.1–0.2 mm for paper and about 150 µm for m
 
 Laminated models, embedded-sensor structures, tooling.
 
+## Economic profile
+
+Ultrasonic metal machines at several hundred thousand dollars are the capital, and the feedstock is standard foil, far cheaper per kilogram than atomized powder. The economic case is what the low temperature allows: bonding below about 150 °C lets sensors and fibers be embedded inside a solid metal part, which nothing else here does. Outside that niche, the cost of milling each layer keeps it from competing on general parts.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=m0b3WIS2nqw — Laminated Object Manufacturing(LOM) (LEARN AND GROW, 4 minutes, 100k+ views)

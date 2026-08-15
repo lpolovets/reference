@@ -28,6 +28,10 @@ Aluminum solution treated at roughly 465–540 °C, quenched within seconds, the
 
 Aluminum aircraft structures, nickel-superalloy turbine components, titanium aerospace parts, copper-alloy springs.
 
+## Economic profile
+
+Aging cycles of 8–24 hours are furnace time nobody can shorten, so on aluminum and superalloy parts this sets lead time more than the machining does. The requirement to quench within seconds means furnace and quench tank have to sit together and the load has to move fast, which makes the service harder to buy than a simple anneal and is why aerospace suppliers often bring it in house. Natural aging to T4 over 4–5 days is free but occupies floor space.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=_jAdcz3VjBQ — Heat Treatment Precipitation Hardening of Aluminum Alloys (Imdadul Islam, 16 minutes, 10k+ views)

@@ -28,6 +28,10 @@ Detects surface cracks around 1 µm wide and 10 µm deep with high-sensitivity f
 
 Turbine blades, castings, forgings, welds.
 
+## Economic profile
+
+Consumables cost well under a dollar per part and an aerosol kit is $50–150, which makes penetrant the cheapest crack detection available. The cost is time and floor space: 30–60 minutes of dwell per batch is work in process sitting still, and a production fluorescent line at $50–300k exists mainly to run those dwells in parallel. Used penetrant, remover, and rinse water are chargeable waste, which adds an operating cost the aerosol price does not show.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=4GkynMLqq0Q — 🔥 NDT Dye Penetrant Demo (Weld.com, 17 minutes, 100k+ views)

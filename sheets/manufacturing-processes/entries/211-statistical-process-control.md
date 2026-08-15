@@ -28,6 +28,10 @@ Cpk 1.33 the usual threshold for replacing 100% inspection with sampling, 1.67 f
 
 Machining dimensions, molding pressure, coating thickness, battery loading, semiconductor critical dimensions.
 
+## Economic profile
+
+This is the one entry here with no equipment cost, bought with engineering time instead. The payoff is explicit: Cpk of 1.33 is the usual threshold for replacing 100% inspection with sampling, so establishing capability converts a per-part inspection cost into a per-lot one. Getting there takes 20–25 subgroups, or 100–125 measurements, before that trade is available. A gauge R&R above 30% of tolerance makes the whole exercise worthless, so measurement capability has to be paid for first.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=RYMIcEOh5M8 — SPC Simplified - Control Charts (SixSigmaSPCExcel, 7 minutes, 100k+ views)

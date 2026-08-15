@@ -28,6 +28,10 @@ Feature sizes from a few microns with contact printing down to about 13 nm half-
 
 Integrated circuits, MEMS, sensors, microfluidics.
 
+## Economic profile
+
+This is the most capital-intensive step in the industry, from a few hundred thousand dollars for a contact aligner to $150–350M for an EUV scanner. Mask sets scale the same way, from a few thousand dollars for MEMS work to well over $10M at advanced nodes, and that mask cost is what sets the minimum economic volume for a design. Throughput of 150–300 wafers per hour is what amortizes the scanner, so lithography capacity is scheduled harder than any other tool in the fab.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=oBKhN4n-EGI — Photolithography: Step by step (Jae-Hwang Lee, 5 minutes, 500k+ views)

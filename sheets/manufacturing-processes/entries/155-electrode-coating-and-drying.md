@@ -28,6 +28,10 @@ Line speeds of roughly 30–80 m/min on production coaters · web widths 300–1
 
 Lithium-ion anode and cathode webs.
 
+## Economic profile
+
+Dryers 30–100 m long are the largest single piece of equipment in a cell plant, and their energy and floor space are a standing cost. NMP recovery above 90% is an economic requirement rather than an environmental nicety, since virgin solvent at plant scale would swamp the margin. Water-based anode slurries avoid the problem entirely, which is part of why the industry keeps trying to move cathodes to water as well.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=f1sIlDsMdcA — [Battery Report] How Batteries are Made: Electrode Manufacturing – Coating (LG Energy Solution Global, 2 minutes, 50k+ views)

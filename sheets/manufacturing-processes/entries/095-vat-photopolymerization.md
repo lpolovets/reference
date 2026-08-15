@@ -28,6 +28,10 @@ Layer thickness 25–100 µm · tolerance roughly ±0.1 mm or ±0.2% · surface 
 
 Dental models, jewelry patterns, hearing-aid shells, microfluidic parts.
 
+## Economic profile
+
+Resin at $50–200 per liter costs several times filament by volume, and it has a shelf life and a disposal route, so consumables matter more here than in extrusion. What the money buys is a 0.5–2 µm Ra surface straight off the machine, which takes hand finishing out of the cost of a presentable part. Industrial SLA at $50k and up is justified by build envelope and repeatability rather than by better parts.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=hQ21gbeYFYQ — How a Resin DLP 3D Printer / SLA 3D Printer Works | See How It Works (Garage Science, 4 minutes, 100k+ views)

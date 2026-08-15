@@ -28,6 +28,10 @@ Heating rates 100–1,000 °C per minute · sintering to about 2,000 °C at 20�
 
 Advanced ceramics, thermoelectrics, hard metals, research alloys.
 
+## Economic profile
+
+Machines at $200k to over $1M produce discs typically 20–100 mm across, so cost per part is very high and the process is a laboratory and small-series tool rather than a production one. What justifies it is time: full density in cycles under an hour, with grain size near the starting powder, which is a material property conventional sintering cannot deliver at any price. Graphite dies are consumed as part of the running cost.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=mq1zn44oP2s — Spark Plasma Sintering (Prof. Neha Gupta, 8 minutes, 10k+ views)

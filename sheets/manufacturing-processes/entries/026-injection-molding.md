@@ -30,7 +30,7 @@ Electronics housings, bottle caps, medical disposables, toys, clips, appliance p
 
 ## Economic profile
 
-Tooling costs are high, so the process usually makes sense for thousands to millions of parts.
+The whole decision is the mold: $20–200k on a 6–12 week lead time, against a 10–60 second cycle and 500,000 to over a million shots of life. That puts breakeven against machining or printing at roughly 5,000–10,000 parts, and above it the marginal cost of a part falls to little more than the resin in it. At low volume a quote is mostly mold amortization rather than material.
 
 ## Videos
 

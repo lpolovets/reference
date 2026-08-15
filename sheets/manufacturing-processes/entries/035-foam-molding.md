@@ -28,6 +28,10 @@ Molded density 15–100 kg/m³ for EPS and 20–120 kg/m³ for EPP · dimensiona
 
 Helmets, protective packaging, insulation, automotive energy absorbers.
 
+## Economic profile
+
+Aluminum tooling at $5–40k is modest, and the economic argument is what the part is made of: at 15–100 kg/m³ an EPS part is mostly air, so material cost per unit volume is very low. For structural foam the argument is different, since cutting part weight 10–30% at well under half the clamp tonnage of solid injection lets a smaller and cheaper press make a larger part than it otherwise could.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=QD_sqb9EhGg — How Expanded Polystyrene (EPS) Products Are Made: Inside AMC Foam's… (AMC Foam Technologies, 3 minutes, 10k+ views)

@@ -28,6 +28,10 @@ Pump pressure 400–600 MPa (60,000–90,000 psi) · orifice 0.25–0.4 mm, givi
 
 Titanium plate, composites, stone, armor, glass, gaskets.
 
+## Economic profile
+
+Garnet at 0.2–0.7 kg per minute is the defining operating cost, and it makes waterjet expensive by the hour next to laser or plasma. What that buys is a single machine cutting almost anything up to 150–200 mm with no heat-affected zone and no tooling, so a job shop can quote titanium, glass, stone, and composite off the same table. It wins on flexibility and on thick or heat-sensitive material rather than on cost per meter.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=1IvGyGlcJn0 — How a Waterjet Actually Works | Waterjet Channel (Waterjet Channel - Daniel Adair, 15 minutes, 100k+ views)

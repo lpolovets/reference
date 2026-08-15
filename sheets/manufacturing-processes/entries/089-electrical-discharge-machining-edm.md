@@ -46,6 +46,10 @@ Creates precise starter and high-aspect-ratio holes.
 
 Molds, dies, turbine cooling holes, punches, medical tools.
 
+## Economic profile
+
+Removal at 5–400 mm³ per minute is far below milling, so EDM is always slow and always priced by the hour. It is bought where the alternative is not a faster process but no process at all: hardened tool steel, internal corners near 0.15 mm radius, and fast-hole drilling past 100:1 aspect ratio. Electrode fabrication is the hidden cost in sinker work, since the electrode has to be machined first and is then consumed in use.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=kh4DSOtef4k — ELECTRIC DISCHARGE MACHINING PROCESS (Animation): How electric discharge… (ADTW Study, 6 minutes, 100k+ views)

@@ -28,6 +28,10 @@ Nozzle bores 0.2–1 mm, cutting features down to about 0.1 mm · abrasive grit 
 
 Glass etching, ceramic trimming, micro-holes, deburring.
 
+## Economic profile
+
+Removal of around 15 mg per minute makes this among the slowest material-removal processes here, so it is never used to make a part, only to finish or trim one. Nozzles are the consumable and the choice is economic, since carbide lasts tens of hours against a few hundred for sapphire. It survives in deburring small precision parts, cutting brittle material, and stripping coatings, where its very low forces avoid damage that would scrap the work.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=VrlCH1FZSJM — ABRASIVE JET MACHINING (AJM): Working of an abrasive jet machining process… (ADTW Study, 5 minutes, 100k+ views)

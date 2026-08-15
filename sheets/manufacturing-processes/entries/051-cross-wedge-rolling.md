@@ -28,6 +28,10 @@ Cycle 3–15 s per shaft · billet 20–100 mm diameter, lengths to roughly 800 
 
 Axles, transmission shafts, stepped pins, connecting-rod preforms.
 
+## Economic profile
+
+Material utilization of 90–95%, against 50–70% turning the same shaft from bar, is the argument, and it compounds with alloy price and with the machining time saved on chips not cut. Wedge die sets at $30–100k on 10–20 weeks are a serious commitment, which puts the economic floor at 100,000 pieces a year. Below that, turning from bar stays cheaper despite throwing half the metal away.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=SxjbL6TW6GY — LASCO Umformtechnik – Preforming with a cross-wedge roll - EN (LASCO Umformtechnik GmbH, 6 minutes, 5k+ views)

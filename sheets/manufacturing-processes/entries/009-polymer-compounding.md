@@ -28,6 +28,10 @@ Twin-screw extruders at 32:1–52:1 L/D and 200–1,200 rpm · throughput 20–5
 
 Glass-filled nylon pellets, flame-retardant plastics, conductive polymers, colored resin.
 
+## Economic profile
+
+Compounding is one of the few processes here sold openly as a service: toll compounders charge roughly $0.20–1.00 per kg over the base resin, so a product team can buy a filled or reinforced grade without owning an extruder. The minimum economic run of 500 kg to several tons decides whether that works. Below it, changeover and cleaning dominate the bill, and an off-the-shelf compound is usually cheaper than having one made.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=bCqDfxiuSs8 — Twin Screw Extrusion -- Parts and Operation Twin Screw Extruder (PaulsonTraining, 2 minutes, 100k+ views)

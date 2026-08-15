@@ -28,6 +28,10 @@ Beam energy 0.2 keV for shallow extensions up to about 3 MeV for deep wells · d
 
 Source/drain regions, wells, threshold adjustment, power devices.
 
+## Economic profile
+
+Implanters cost roughly $3–8M each and a fab needs several, because the range from 0.2 keV to 3 MeV is not covered by one machine. Consumable cost is negligible, since dopant gas is measured in grams, so this is almost pure capital and uptime. Dose uniformity within 1% across the wafer is the specification that matters commercially, because implant variation shows up as threshold-voltage spread and therefore as binning loss at final test.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=tfDTgQJRkzc — Coherent | Ion Implantation For Semiconductor Devices (Coherent Corp., 4 minutes, 5k+ views)

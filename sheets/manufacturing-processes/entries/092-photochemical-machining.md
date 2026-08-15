@@ -28,6 +28,10 @@ Sheet thickness 0.01–1.5 mm · tolerance typically ±10% of thickness, around 
 
 Shims, filters, encoder discs, lead frames, flexures.
 
+## Economic profile
+
+Phototooling at a few hundred dollars, ready in days, is the cheapest tooling of any process on this sheet, and it does not wear, so cost per part stays nearly flat from a single prototype to hundreds of thousands. That flat curve is unusual and it is the whole argument, since there is no die amortization to recover and no lead time to wait out when a design changes. Sheet thickness under 1.5 mm is the limit.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=NDp3OPI6dgo — Photo Chemical Machining Process - Northwest Etch (NW Etch, 3 minutes, 50k+ views)

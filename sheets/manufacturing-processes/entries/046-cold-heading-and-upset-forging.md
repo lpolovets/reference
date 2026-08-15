@@ -28,6 +28,10 @@ Rate 100–400 pieces per minute · wire and rod stock 2–25 mm diameter · uns
 
 Bolts, screws, rivets, valve heads, pins.
 
+## Economic profile
+
+Material utilization above 95%, against 40–60% for screw machining, is the whole argument, and at 100–400 pieces a minute the labor per part is close to nothing. Tool sets at $2–20k good for 100,000 to 1,000,000 hits are cheap against that output. This is why a standard fastener costs cents: the process wastes almost no metal and almost no time, and volumes in the hundreds of thousands are the normal case rather than the exception.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=WoN2KKfbzLA — Cold Heading - Cold forming - Screw Manufacturing - How Screws are Made -… (Corey @ SmithReps, 7 minutes, 100k+ views)

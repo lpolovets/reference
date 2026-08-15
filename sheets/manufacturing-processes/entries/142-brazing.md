@@ -28,6 +28,10 @@ Filler melts above 450 °C: 590–620 °C for aluminum brazing, 620–800 °C fo
 
 Heat exchangers, carbide tools, HVAC tubing, honeycomb structures.
 
+## Economic profile
+
+Furnace brazing is priced by the load rather than the joint: hundreds of joints in one heat over a 1–4 hour cycle makes cost per joint very low on assemblies with many connections, which is why heat exchangers are brazed. What does scale is fixtures at $5–50k and the filler metal, and silver fillers are expensive enough that the 0.02–0.10 mm joint gap is a cost control as much as a metallurgical requirement.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=nBwRpI_0d50 — Fundamentals of Brazing #5: Brazing the Assembly (Lucas-Milhaupt, 3 minutes, 50k+ views)

@@ -54,6 +54,10 @@ Material is compressed into fine die details or surface patterns. Creates textur
 
 Automotive panels, brackets, appliances, electrical contacts, washers.
 
+## Economic profile
+
+Progressive dies at $20–300k on 8–20 weeks are the largest tooling commitment in sheet metal, and 1–10 million hits of die life spread that over enough parts to bring piece prices down to cents. The economics are therefore about volume and about how many operations the die combines: every station added costs tooling money once and removes a handling operation forever.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=5CuJjSk4U38 — Sheet Metal Stamping Dies & Processes (Tooling U-SME, 3 minutes, 500k+ views)

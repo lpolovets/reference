@@ -30,7 +30,7 @@ Aluminum window frames, heat sinks, tubing, rails, channels, structural profiles
 
 ## Economic profile
 
-Tooling and press costs are moderate to high, and the process is attractive at medium to very high length volumes.
+Dies at $1,000–10,000 on a two-to-four-week lead time are cheap enough to support a long tail of custom profiles, which is why the industry is full of merchant extruders selling shapes rather than captive presses. The press is the expensive part, and it is sold by the hour and by the pound. Economics turn on press utilization and on scrap: a profile that runs slowly or needs heavy trim gives back the margin the cheap die won.
 
 ## Videos
 

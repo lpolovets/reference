@@ -28,6 +28,10 @@ Austenitizing at roughly 800–900 °C, then quenching in water, oil, polymer, o
 
 Gears, tools, shafts, armor, fasteners.
 
+## Economic profile
+
+The furnace cost is ordinary and the expensive part is distortion. Leaving 0.2–0.5 mm of grinding stock for quench movement means a hardened part usually needs a finishing operation it would otherwise not need, and that grinding often costs more than the heat treatment. Alloy choice is partly an economic decision for the same reason: alloy grades through-harden to 50–100 mm in oil where plain carbon manages 15–25 mm, so paying for alloy can beat redesigning the section.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=ulfCxDsVTWo — Intro to heat treatment of steel (hardening and tempering) (Applied Science, 18 minutes, 100k+ views)

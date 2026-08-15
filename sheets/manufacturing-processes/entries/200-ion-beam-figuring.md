@@ -28,6 +28,10 @@ Residual figure error 0.5–2 nm RMS after correction · removal of tens to hund
 
 Space telescope mirrors, EUV optics, high-energy laser optics.
 
+## Economic profile
+
+Machines run to several million dollars and a run takes hours to tens of hours in vacuum, so throughput is very low and cost per part is high. It is used at the end of the chain on parts where nothing else will meet the figure, which in practice means space telescopes, lithography optics, and large astronomical mirrors. Removing 80–90% of the remaining error per iteration is what makes the schedule predictable, and on programs of that size schedule certainty is worth more than the machine time.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=5CRa1c_Ac1E — Automatic Ion Beam Figuring Process (Bühler Alzenau GmbH, 3 minutes, 10k+ views)

@@ -28,6 +28,10 @@ Deposition rates 0.5–2 kg/hr for laser powder DED and 1–10 kg/hr for wire-ar
 
 Turbine repair, large aerospace structures, mold repair, added bosses and flanges.
 
+## Economic profile
+
+Wire-arc deposition at 1–10 kg/hr with near 100% material capture is an order of magnitude cheaper per kilogram than blown-powder DED at 0.5–2 kg/hr and 40–90% capture, which is why wire-arc gets used on large structures. The 1–3 mm of machining stock per surface means DED is always a near-net process feeding a machine tool, so an honest cost includes the milling that follows. Repair is the strongest economic case for it.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=oL7bMhPTtDI — Welcome to Directed Energy Deposition - Metal Additive Manufacturing (AddUp - DED Machines, 2 minutes, 100k+ views)

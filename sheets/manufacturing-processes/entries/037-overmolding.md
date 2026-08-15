@@ -28,6 +28,10 @@ Overmold layer 1–3 mm thick, 0.5 mm minimum · TPE grades from Shore A 20 to S
 
 Tool grips, toothbrushes, sealed electronics, cable connectors.
 
+## Economic profile
+
+The tooling comparison is explicit: $30–150k for a two-shot mold against $15–60k for a pair of single-shot molds, both on 8–14 weeks. Two-shot costs more up front and removes a handling step and its scrap, so it wins above roughly 100,000 parts while the transfer process wins in the tens of thousands. It also needs a two-shot machine, which is a capital constraint rather than a tooling one and pushes the work to whichever molder already owns the press.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=3AuVVB63CgQ — Two-Shot Molding vs. Overmolding: Understanding Their Differences (RAPID DIRECT, 5 minutes, 10k+ views)

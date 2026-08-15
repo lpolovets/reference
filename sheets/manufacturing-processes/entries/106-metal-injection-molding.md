@@ -28,6 +28,10 @@ Parts typically under 100 g with walls of 0.3–6 mm · sintering shrinkage 15�
 
 Surgical tools, watch parts, small gears, electronics hardware.
 
+## Economic profile
+
+Tooling in the tens of thousands of dollars with months of qualification makes this an expensive process to start, and the economic floor sits at tens of thousands of parts a year. The case for it is that a small, complex steel part comes out at 96–99% of wrought density with a 0.8–1.6 µm Ra finish and no machining, so it competes against a multi-operation machined part rather than against pressing.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=MmLYj3GZsx8 — An Overview of Metal Injection Molding (MIM) (MPIF Videos, 5 minutes, 100k+ views)

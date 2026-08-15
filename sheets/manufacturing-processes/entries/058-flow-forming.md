@@ -28,6 +28,10 @@ Wall reduction 50–90%, stretching the preform 3–8 times its starting length 
 
 Rocket motor cases, pressure cylinders, wheels, drive shafts.
 
+## Economic profile
+
+Cycle times of 2–15 minutes per part are long, so this is never the cheap option on labor, and the case is made on material and properties instead. A 50–90% wall reduction from a short preform means far less metal is bought and cut away, and the cold work raises yield strength 20–50%, so a thinner wall does the same job. Pressure vessels and rocket cases are where that arithmetic pays.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=5WtM12r969I — What is Flow Forming Technology? - Konig Wheels (KONIG WHEELS USA, 2 minutes, 50k+ views)

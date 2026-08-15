@@ -28,6 +28,10 @@ Wall thickness 0.2–2 mm at length-to-diameter ratios up to about 10:1 · 50–
 
 Aerosol cans, battery cases, collapsible tubes, aluminum housings.
 
+## Economic profile
+
+Tool sets at $5–30k running 30–150 pieces a minute give very low cost per part, and 50–95% area reduction in a single blow makes a can or tube in one operation from a slug. That is why aerosol cans and battery cases are impact extruded. The limit is material, since only soft metals work, so the process cannot follow a designer who switches to steel, and the economic floor of 100,000 pieces rules out anything smaller.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=WPKtk-x6xUg — Impact Extrusion Process (Sampurna Engineering, 3 minutes, 10k+ views)

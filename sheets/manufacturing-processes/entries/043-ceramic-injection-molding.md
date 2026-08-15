@@ -28,6 +28,10 @@ Parts usually under 100 g with sections below about 10 mm · binder 40–50% of 
 
 Dental brackets, watch parts, medical instruments, electronic insulators.
 
+## Economic profile
+
+Tooling at $20–100k on 8–16 weeks needs tens of thousands of parts to amortize, and unlike polymer molding the cycle does not end at ejection: debinding and sintering add one to three days of furnace time per batch. Binder at 40–50% of feedstock volume is also material bought and then burned off. The process is chosen where a small, complex ceramic part would otherwise have to be ground from a solid blank.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=0hI7wVDa9Ww — Ceramic Injection Moulding Process - Morgan Advanced Materials (MorganAdvancedMaterials, 2 minutes, 50k+ views)

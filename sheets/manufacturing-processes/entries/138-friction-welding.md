@@ -28,6 +28,10 @@ Cycle time 1–30 seconds, with most joints under 15 · 1,000–3,000 rpm on dir
 
 Drill pipe, axles, cutting tools, valves.
 
+## Economic profile
+
+Cycle times of 1–30 seconds with no filler, gas, or flux keep the running cost very low, so the economics are about utilization against $150k–$1.5M of capital, and it suits high-volume repeat parts such as axles and valves. The 3–10 mm of length consumed as upset has to be added to both components, and the flash machined off afterwards, so the process carries a material and a secondary-operation cost that a fusion weld does not.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=zhfjev_2c5I — FRICTION WELDING | How friction welding process works | Types of friction… (ADTW Study, 5 minutes, 50k+ views)

@@ -28,6 +28,10 @@ Thickness 3–19 mm, with about 3 mm the practical minimum · surface compressio
 
 Architectural glazing, side windows, shower doors, oven doors.
 
+## Economic profile
+
+A tempering line is a continuous furnace and quench that runs whatever is fed to it at roughly 40 seconds per mm of thickness, so cost per square meter is low and falls with utilization. The constraint that costs money is that glass cannot be cut, drilled, or edged after tempering. Every hole and notch has to be right before the furnace, and a late change scraps the panel rather than reworking it.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=GCnQVVfjabk — Glass Tempering Process Explained - Technical Glass Products - Kopp Glass,… (Kopp Glass, 2 minutes, 50k+ views)

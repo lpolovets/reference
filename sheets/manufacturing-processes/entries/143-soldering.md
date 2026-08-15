@@ -28,6 +28,10 @@ Eutectic tin-lead melts at 183 °C and SAC305 lead-free at 217–220 °C · iron
 
 Printed circuit boards, plumbing fittings, electrical terminals.
 
+## Economic profile
+
+This is the cheapest joining process here to set up, at $20 for an iron, and among the most expensive per joint in volume, at 2–5 seconds of skilled hand time each. That combination confines hand soldering to prototypes, repair, and low-volume work, and everything that repeats moves to reflow or wave. The lead-free transition raised operating temperature to 217–220 °C, which shortened tip life and raised consumable cost across the industry.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=Qps9woUGkvI — Soldering Tutorial for Beginners: Five Easy Steps (oneTesla, 4 minutes, 1m+ views)

@@ -28,6 +28,10 @@ Tows 3.2–12.7 mm wide, 8–32 per head · lay-down rates 10–50 kg/hr · gap 
 
 Fuselages, wings, rocket tanks, large aerospace structures.
 
+## Economic profile
+
+Machines at $2M to over $10M are the largest capital in composites, and the return is stated directly: scrap under 5% against 30–50% for hand prepreg layup. On material at $40–150/kg that saving alone can justify the machine on a large program. Lay-down of 10–50 kg/hr also converts skilled hand labor into machine hours, which is what makes a multi-year aerospace rate achievable at all.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=clwbf945Oxw — Building Automated Fiber Placement (AFP) Systems with FANUC - Electroimpact (FANUC America Corporation, 4 minutes, 10k+ views)

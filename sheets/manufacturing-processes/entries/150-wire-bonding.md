@@ -28,6 +28,10 @@ Wire 15–50 µm gold or copper for ball bonding, 100–500 µm aluminum in powe
 
 Analog ICs, sensors, LEDs, MEMS, power devices.
 
+## Economic profile
+
+Bonders at $100–300k placing 10–20 wires per second make cost per wire very low, which is why wire bonding stays the default interconnect for most packages despite being the oldest method available. The economics turn on the wire itself: gold prices pushed the industry to copper, which bonds harder and needs tighter process control, so part of the material saving came back as yield and equipment cost. Bond count per package is the real driver.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=tp_Yv0cyvFw — Wirebonding Overview Animation (Semitracks Inc., 4 minutes, 50k+ views)

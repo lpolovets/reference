@@ -28,6 +28,10 @@ Gauge 3–18 needles per inch on flat-bed machines and 18–40 on circular · ci
 
 Apparel, shoe uppers, medical textiles, filters.
 
+## Economic profile
+
+Knitting to shape avoids the 15–20% fabric waste that cut-and-sew throws away, which is the clearest economic argument in garment manufacture. Circular machines at $30–80k producing 20–30 kg of fabric an hour are the volume route, while whole-garment flat-bed machines at $100k and up take 20–60 minutes per piece and trade throughput for eliminating both the waste and the sewing labor.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=4ECabZiSslU — Working Principle of Circular Knitting Machine (Textile Vlog, 4 minutes, 100k+ views)

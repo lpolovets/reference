@@ -28,6 +28,10 @@ Blast pressure 0.3–0.7 MPa (about 40–100 psi) · anchor profile 25–100 µm
 
 Castings, structural steel, automotive bodies, refurbished machinery.
 
+## Economic profile
+
+Hand blasting covers roughly 10–50 m² an hour, so on large structures this is a labor line rather than an equipment one. Media is the other recurring cost, and choosing it is an economic decision as much as a technical one, since steel grit is recycled many times while glass bead breaks down and is consumed. Containment, dust collection, and spent-media disposal usually add up to more than the blasting itself.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=o_JgatQW3oE — Shot Blasting Animation (blastracvideos, 2 minutes, 100k+ views)

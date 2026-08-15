@@ -28,6 +28,10 @@ Flatness roughly 0.02–0.05 mm per meter · surface finish 1.6–6.3 µm Ra · 
 
 Machine beds, guideways, large plates, keyways.
 
+## Economic profile
+
+Tooling is a single bit costing tens of dollars, the cheapest in the machining group, and that is the only economic argument the process has left. The return stroke cuts nothing, so half the machine time is wasted by design, and one part per setup rules out volume. It survives on very large surfaces, on repair work, and in shops that already own the machine and would otherwise have to buy a large mill.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=JVX70JRihhY — Shaper Machine working principle, mechanism, Surface machining operation (Grasp Engineering, 13 minutes, 10k+ views)

@@ -30,7 +30,7 @@ Pipe, medical tubing, window profiles, wire insulation, plastic sheet, packaging
 
 ## Economic profile
 
-Capex is moderate to high and the economics are excellent at scale. Startup scrap and line utilization matter a lot.
+Dies at $2,000–20,000 make short runs viable, and the real cost of a changeover is not the die but the scrap: tens to hundreds of kilograms of off-spec product before the line settles. That fixed loss per changeover is what pushes extruders toward long runs and few color changes. Past it the economics are commodity — resin price, line speed, and uptime — and resin is usually the largest share of the cost of what comes off the end.
 
 ## Videos
 

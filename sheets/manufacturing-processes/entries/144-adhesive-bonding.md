@@ -28,6 +28,10 @@ Lap shear strength 20–40 MPa for structural epoxies and 5–15 MPa for polyure
 
 Aircraft panels, automotive structures, composites, electronics.
 
+## Economic profile
+
+Adhesive at $20–200 per kg with fixtures usually under $5k makes this the cheapest way to join large areas or dissimilar materials. Cure time is the cost that gets underestimated: 24 hours at room temperature is work in process and floor space, and the aerospace answer of about an hour at 120–180 °C means an oven or autoclave instead. Surface preparation is the other hidden bill, and it is the step that decides whether the joint holds.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=VFn83lMJ7Cg — SAMPE Explains: Adhesive Bonding (SAMPE, 7 minutes, 10k+ views)

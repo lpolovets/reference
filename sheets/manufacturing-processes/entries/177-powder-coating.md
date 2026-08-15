@@ -28,6 +28,10 @@ Film thickness typically 60–120 µm, against a practical floor near 25 µm · 
 
 Appliances, outdoor furniture, wheels, enclosures.
 
+## Economic profile
+
+Material utilization above 95% with reclaim is the number that beats liquid paint: at $4–10 per kg covering 8–12 m² per kg, nearly everything sprayed ends up on a part. Effectively zero VOC also removes the permitting and abatement cost a liquid line carries. The offsets are the oven, which is capital and energy, and the 150–200 °C cure, which rules out assembled products and heat-sensitive substrates.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=l3VF6C1_RGg — What is Powder Coating and How Does it Work? (Protolabs, 6 minutes, 100k+ views)

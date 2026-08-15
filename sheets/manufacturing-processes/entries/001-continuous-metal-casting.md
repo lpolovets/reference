@@ -30,7 +30,7 @@ Steel slabs, aluminum billets, copper rod, steel blooms.
 
 ## Economic profile
 
-Capex is extremely high and throughput is commodity-scale. The economics are dominated by utilization, energy, raw-material spread, and yield.
+Capex runs to hundreds of millions of dollars for a line making one to four million tons a year, so cost per ton depends almost entirely on how full the caster stays. Nobody buys casting as a service: the caster belongs to the steelworks that feeds it, and its output is priced as commodity metal against a raw-material spread the operator does not control. The 95–98% liquid-to-solid yield, against 85–90% on the ingot route, is the largest single saving the route offers.
 
 ## Videos
 

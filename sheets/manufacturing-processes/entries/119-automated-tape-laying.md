@@ -28,6 +28,10 @@ Tape 150–300 mm wide against 3–13 mm tows on AFP · plies about 0.13–0.25 
 
 Wing skins, tail structures, large panels.
 
+## Economic profile
+
+Machines in the millions of dollars lay 150–300 mm tape at rates several times AFP's, so cost per square meter is the lowest of the automated processes. The tape width is also the limitation, since wide tape cannot follow curvature, which confines this to large flat or gently contoured surfaces such as wing skins. Those parts are measured in square meters over multi-year programs, which is the volume the capital needs.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=k7QRVWJ56nM — Automated Tape Laying (dmaass99, 2 minutes, 10k+ views)

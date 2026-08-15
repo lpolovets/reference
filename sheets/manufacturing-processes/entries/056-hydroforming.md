@@ -28,6 +28,10 @@ Forming pressure 30–100 MPa for sheet and 100–400 MPa for tube · press capa
 
 Automotive subframes, exhaust components, bicycle frames, aerospace ducts.
 
+## Economic profile
+
+Tooling at $50–500k on 12–24 weeks and presses of 1,000–10,000 tons make this capital-heavy, and the return is part consolidation. A hydroformed tube replaces several stampings and the welding between them, so the comparison is against a whole subassembly rather than one part. That is how the automotive industry justifies it, and it is why the economic floor sits in the tens of thousands a year.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=XUMs3cWBlks — Hydroforming - The Hydroforming Process - How Hydroforming Works (Jones Metal Products, 3 minutes, 100k+ views)

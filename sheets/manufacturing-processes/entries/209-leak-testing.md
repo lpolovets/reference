@@ -28,6 +28,10 @@ Pressure decay resolves to about 10^-3 mbar·l/s, tracer-gas sniffing 10^-5 to 1
 
 Vacuum systems, batteries, fuel systems, refrigeration, medical devices.
 
+## Economic profile
+
+Cycle time is the economic variable. At 10–120 seconds per part including fill and stabilization, leak testing often sets the takt time of an assembly line, so choosing an instrument is really choosing a line rate. Pressure decay at $5–20k is cheap and slow; helium mass spectrometry at $25–80k is faster to a much tighter limit but adds tracer gas as a consumable, and helium price and supply have made that consumable a planning item rather than an afterthought.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=T7c7pzhafxU — Intro to Pressure Decay Leak Testing (CapEx Sales, LLC, 13 minutes, 10k+ views)

@@ -28,6 +28,10 @@ Surface roughness under 0.5 nm RMS and bow within a few tens of microns for fusi
 
 MEMS sensors, microfluidics, image sensors, 3D integration.
 
+## Economic profile
+
+Bonders cost $1–3M, but the number that decides the economics is that a single micron-scale particle voids square millimeters of bond area. Bonding therefore has to run in a cleanliness regime stricter than the steps before it, and the real cost is the cleanroom and the handling rather than the tool. It is also a late step, so a failed bond scraps two finished wafers at once, which makes yield here far more expensive than yield earlier in the flow.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=ky0-JlfuuM8 — Discover: die-to-wafer hybrid bonding | CEA-Leti (CEA, 3 minutes, 50k+ views)

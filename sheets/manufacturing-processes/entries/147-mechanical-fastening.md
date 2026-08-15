@@ -54,6 +54,10 @@ Heating or cooling temporarily changes dimensions before assembly. Strong concen
 
 Aircraft structures, machinery, consumer products, electronics.
 
+## Economic profile
+
+Fasteners look cheap at $0.05–5 each, and installed cost is several times that once drilling, hole preparation, and torque control are counted. Preload scatter of ±25% or worse under plain torque control is an economic fact as much as an engineering one, because buying repeatable preload means angle control, ultrasonic measurement, or tension-indicating hardware, all of which cost more per joint. Aerospace fasteners at $1–20 each carry that instrumentation cost in the price.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=XLzTB4KLCxU — The Incredible Strength of Bolted Joints (The Efficient Engineer, 18 minutes, 1m+ views)

@@ -28,6 +28,10 @@ Fiber volume fraction 30–40% · void content typically 2–5% · thickness tol
 
 Boat hulls, covers, tanks, prototype panels.
 
+## Economic profile
+
+Single-sided tooling from a few hundred to a few thousand dollars is the lowest entry cost in composites, and parts up to tens of meters can be made with no press and no autoclave. The cost is labor, since every ply is placed by hand, so the price scales with part area and ply count rather than falling with volume. That fixes it at one-offs to a few hundred parts a year, above which almost anything else is cheaper.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=Evz9QUwNtn4 — Fiberglass Layup Demonstration (R. Dean Odell, 10 minutes, 10k+ views)

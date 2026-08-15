@@ -28,6 +28,10 @@ Prime wafer diameters 100–300 mm at 525–775 µm thick · total thickness var
 
 Silicon wafers, silicon-carbide wafers, gallium-arsenide substrates.
 
+## Economic profile
+
+Prime 300 mm silicon sells for roughly $60–150 a wafer, a small fraction of the value of the die built on it, so wafer makers compete on specification and consistency rather than price. The unusual cost is what gets thrown away: wire-saw kerf and polishing remove 30–50% of a 250–450 kg ingot, and that loss is designed in rather than a defect. Silicon carbide costs an order of magnitude more per wafer, which is why sawing and reclaim get far more engineering attention there.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=AMgQ1-HdElM — Silicon Wafer Production (MicroChemicals, 4 minutes, 500k+ views)

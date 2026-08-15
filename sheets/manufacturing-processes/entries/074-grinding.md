@@ -28,6 +28,10 @@ Tolerances ±0.002–0.005 mm · surface finish 0.1–0.4 µm Ra, down to 0.05 �
 
 Bearing races, shafts, cutting tools, dies, engine components.
 
+## Economic profile
+
+Grinding is what makes hardening affordable, since above 45–50 HRC it is the only economical way to hold tolerance once cutting tools stop working. That places it after heat treatment in the routing, and the 0.05–0.5 mm of stock left for it has to be carried through every earlier operation. Centerless machines running hundreds of small parts an hour bring cost per part down to cents, while single-part cylindrical and surface grinding is priced at machine-hour rates.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=OH_gLodSObE — SURFACE GRINDING part 1, basic principals, wheel dressing, prepping for first… (THATLAZYMACHINIST, 18 minutes, 50k+ views)

@@ -28,6 +28,10 @@ Current density 20–300 A/cm² at 5–25 V · working gap 0.05–0.5 mm · feed
 
 Turbine blades, blisks, fuel-system parts, aerospace passages.
 
+## Economic profile
+
+The tooling is a shaped cathode specific to the feature, which puts entry cost high and fixes this as a volume process. What it returns is no tool wear, no recast layer, and no heat, so a nickel-alloy turbine feature comes out finished rather than needing the stress-relief and inspection cycle that follows EDM. Electrolyte handling and sludge disposal are the standing operating costs, and neither is trivial at production scale.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=b1nX7WVIN7U — ELECTROCHEMICAL MACHINE (ECM): Construction and working of electrochemical… (ADTW Study, 6 minutes, 100k+ views)

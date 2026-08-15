@@ -28,6 +28,10 @@ Cycle times from about 15 minutes for deburring to 24 hours for a polish · edge
 
 Fasteners, jewelry, cast fittings, stamped brackets.
 
+## Economic profile
+
+Cost per part is in cents once the batch is loaded, because a 30–1,000 L bowl holds hundreds to thousands of parts and runs unattended. That makes it the cheapest deburring available by a wide margin, and it is why almost every machined part passes through it. The costs easy to miss are cycle length, at 15 minutes to 24 hours, and separation, since parts have to be sorted from the media and small ones nest into each other.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=hAPwra05uUM — Tumbler Finishing Parts at Home! | bit-tech Modding (bit-tech, 20 minutes, 10k+ views)

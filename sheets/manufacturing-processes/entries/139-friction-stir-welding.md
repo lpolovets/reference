@@ -28,6 +28,10 @@ Single-pass thickness 1–25 mm in aluminum, more when welded from both sides ·
 
 Aircraft panels, rocket tanks, railcars, ship panels, battery trays.
 
+## Economic profile
+
+Entry cost comes at two levels: $250k–$2M for a dedicated machine, or roughly $100k for a head on a machining center a shop already owns, and the second is what put the process into general industry. Tool life is the operating variable and it separates materials sharply, running hundreds to thousands of meters in aluminum and far less in steel, which is most of why this is an aluminum process commercially even though it works on steel.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=0hKqSPoQtMA — Friction Stir Welding (FSW) Demonstration: How It Works (Manufacturing Technology, Inc. (MTI), 1 minute, 100k+ views)

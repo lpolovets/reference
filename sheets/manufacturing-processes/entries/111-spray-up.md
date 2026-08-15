@@ -28,6 +28,10 @@ Fiber volume fraction 15–25% from 25–50 mm chopped strands · deposition rat
 
 Bathtubs, boat hulls, shower stalls, RV panels.
 
+## Economic profile
+
+Deposition of 10–30 kg/hr is several times hand layup, which is the entire economic argument: the same cheap single-sided tooling produces parts far faster because a chopper gun replaces ply-by-ply placement. What is given up is properties, at 60–100 MPa against woven laminates, and fiber volume of only 15–25%. It suits hundreds to a few thousand parts a year where stiffness comes from geometry rather than from the laminate.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=TAwlVN1iG0k — Spraying Fiberglass- Setting Up Chopper Motor & Fan Pattern (Magnum Venus Products, 4 minutes, 10k+ views)

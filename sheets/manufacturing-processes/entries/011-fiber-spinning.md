@@ -46,6 +46,10 @@ An electric field draws very fine fibers from a polymer solution or melt. The fi
 
 Polyester, nylon, rayon, spandex, filtration media, battery separators.
 
+## Economic profile
+
+Spinneret packs cost thousands to tens of thousands of dollars, which is modest, but they are precision consumables that clog and go out for refurbishment on a cycle. The economics split by route. Melt spinning at 500–6,000 m/min is a commodity business where cost per kilogram tracks polymer price and line speed. Wet spinning at 50–150 m/min carries solvent recovery and much lower throughput, so it is used only where the fiber cannot be made any other way.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=fNdsOraykNI — Polyester Yarn Manufacturing Process (Textile Vlog, 4 minutes, 500k+ views)

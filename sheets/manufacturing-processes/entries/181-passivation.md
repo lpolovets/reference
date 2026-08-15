@@ -28,6 +28,10 @@ Citric acid 4–10% by weight or nitric acid 20–50% by volume · bath 20–70 
 
 Medical tools, food equipment, pharmaceutical vessels.
 
+## Economic profile
+
+Batch tanks hold dozens to hundreds of parts and the treatment takes 4–30 minutes, so cost per part is very low, often the cheapest line on a stainless part's routing. Citric acid has been displacing nitric mostly on handling and waste cost rather than on performance. The real expense is verification, because the passive film is 1–3 nm thick and invisible, so what the customer buys is a certificate and a salt-spray or copper-sulfate result.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=FF5rr2p5-1k — The Passivation of Stainless Steel (New England Electropolishing, 4 minutes, 10k+ views)

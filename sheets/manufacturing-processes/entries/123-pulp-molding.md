@@ -28,6 +28,10 @@ Wall thickness 1–5 mm, down to about 1 mm on hot-pressed thermoformed grades �
 
 Egg cartons, food trays, electronics packaging.
 
+## Economic profile
+
+Tooling at $5–50k per tool with lead times of a few weeks and a 20–60 second cycle put the economic floor above roughly 100,000 units. The feedstock is recovered fiber, which is close to the cheapest raw material in manufacturing, so cost per part is dominated by the tool and the water and energy used to form and dry the part. Packaging regulation rather than cost is what has been growing the market.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=CA9xBSb9NZI — How It's Made Moulded Pulp Containers (Ian Collier, 5 minutes, 100k+ views)

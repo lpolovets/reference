@@ -28,6 +28,10 @@ Fiber volume fraction 60–70% · winding angles from about 10° to 90° off the
 
 Pressure vessels, rocket cases, hydrogen tanks, pipes, shafts.
 
+## Economic profile
+
+Large-tow carbon at $15–30/kg is the cheapest form of the fiber, and winding places it at 60–70% fiber volume with almost no scrap, so this is the lowest cost per unit of strength in composites. The constraint is geometry rather than money, since only convex bodies of revolution can be wound. Pressure vessels are where the economics land hardest, because a 700 bar hydrogen tank is mostly fiber cost and winding is the cheapest way to buy it.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=ign6W5ENJAA — How it works: Filament Winding (Farixltd, 2 minutes, 100k+ views)

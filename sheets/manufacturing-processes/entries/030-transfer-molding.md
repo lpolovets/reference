@@ -28,6 +28,10 @@ Transfer pressure 20–70 MPa, between compression and injection molding · mold
 
 Encapsulated electronics, semiconductor packages, connectors, rubber parts.
 
+## Economic profile
+
+Cull and runner scrap of 10–30%, none of it reusable, is the standing cost, and on filled epoxy compounds that material is not cheap. Tooling at $15–150k and cures of one to five minutes place the process between compression and injection molding on both counts. Semiconductor encapsulation is the volume application because 60–120 second cycles there make the scrap acceptable against the value of what is being packaged.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=gK_Ebyhdgb4 — How Transfer moulding works: A quick Overview. (James Sword Engineering, 4 minutes, 5k+ views)

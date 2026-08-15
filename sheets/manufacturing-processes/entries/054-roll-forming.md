@@ -28,6 +28,10 @@ Line speed 10–100 m/min through 6–20 forming stands · strip thickness 0.3�
 
 Roofing, door tracks, automotive rails, shelving uprights, gutters.
 
+## Economic profile
+
+Roll sets at $15–100k per profile on 8–16 weeks are bought per shape, so this suits products that will be made in the same section for years. Against that, a line at 10–100 m/min produces continuous length at a labor cost per meter close to zero. The economics are measured in linear meters rather than pieces, and cut length is nearly free, so product families that vary only by length are the ideal fit.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=hejopAGM1MY — Roll Forming (Tooling U-SME, 2 minutes, 100k+ views)

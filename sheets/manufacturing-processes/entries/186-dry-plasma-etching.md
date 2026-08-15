@@ -28,6 +28,10 @@ Features from sub-10 nm at leading-edge nodes up to tens of microns · etch rate
 
 Transistor gates, MEMS structures, microfluidics, optical gratings.
 
+## Economic profile
+
+Single-wafer tools at $300k to several million dollars process one wafer at a time, which is a structural cost disadvantage against a wet bench doing 50. Fabs accept it because the alternative does not produce 88–90 degree sidewalls at these dimensions. Cost per wafer is therefore tool depreciation divided by throughput, and recipes get tuned as much for time as for result: a step a minute faster across a high-volume fab is worth real money.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=RoQgnC0Oz2k — Etching Silicon with Plasma - Reactive Ion Etching (RIE) (Sam Zeloof, 12 minutes, 50k+ views)

@@ -28,6 +28,10 @@ Gob pressing at 1,000–1,150 °C; precision glass molding at 500–700 °C with
 
 Lenses, dishes, insulators, headlamp optics, tiles.
 
+## Economic profile
+
+Mold sets at $5–30k and a 5–15 second cycle put pressed ware in the tens of thousands and up, competing on the same terms as blowing. Precision glass molding is a separate economic case: tungsten-carbide molds cost considerably more, but holding center thickness near ±0.02 mm produces a finished aspheric lens with no grinding or polishing, which removes the most expensive step in optics manufacture.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=ZI_ulwcPyms — How It's Made-Pressed Glass (bighoov1, 5 minutes, 100k+ views)

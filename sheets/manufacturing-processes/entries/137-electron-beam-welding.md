@@ -28,6 +28,10 @@ Accelerating voltage 60–150 kV at 3–100 kW · single-pass penetration 25–5
 
 Turbine parts, aerospace gears, nuclear components.
 
+## Economic profile
+
+Pump-down of 1–15 minutes per cycle is the economic problem: the beam is fast and the chamber is not, so cycle time is dominated by a step that does no welding. Machines at $500k to several million make this a process bought for capability rather than cost, used where 25–50 mm of single-pass penetration at 20:1 to 50:1 depth-to-width has no alternative. Parts also have to be sized to the chamber, which constrains the design as much as the budget.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=grzbTs69wuw — Electron beam welding (Ústav přístrojové techniky v.v.i. ISI Brno, 3 minutes, 50k+ views)

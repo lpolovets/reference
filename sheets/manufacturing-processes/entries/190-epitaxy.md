@@ -28,6 +28,10 @@ Layer thickness 0.1–100 µm · silicon CVD epitaxy grows 0.1–5 µm/min at 90
 
 LEDs, lasers, RF devices, power semiconductors, advanced logic.
 
+## Economic profile
+
+Reactors run roughly $2–5M, and growth rate decides what is affordable per wafer. Silicon CVD epitaxy at 0.1–5 µm/min is fast enough to be routine, while MOCVD and MBE at about 1 µm/hr are slow enough that the layer becomes a significant part of the device cost, which is part of why compound-semiconductor devices carry the prices they do. Defect density is the other economic term, since 10^8–10^9 threading dislocations per cm2 in GaN on silicon costs yield.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=vpvMeP8Cs_g — ASM tech explainer: All about Epi (ASM, 2 minutes, 10k+ views)

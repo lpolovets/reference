@@ -28,6 +28,10 @@ Tolerances ±0.01 mm routine and ±0.005 mm with a good machine and a finishing 
 
 Shafts, bushings, fittings, pistons, rollers.
 
+## Economic profile
+
+With no dedicated tooling, a lot size of one is economic, and the cost is machine time at roughly $60–120 an hour plus a setup of 15 minutes to a few hours. That makes setup dominant at low volume: a part with a two-hour setup and a 30-second cycle costs nearly the same for one piece as for a hundred. Above a few thousand parts a year the comparison shifts to cold heading or screw machining, where both material use and cycle improve.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=8EsAxOnzEms — Turning & the Lathe (Tooling U-SME, 2 minutes, 500k+ views)

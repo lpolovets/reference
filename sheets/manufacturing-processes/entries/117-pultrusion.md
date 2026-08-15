@@ -28,6 +28,10 @@ Line speeds 0.3–3 m/min · fiber volume fraction 60–70% · longitudinal tens
 
 Beams, ladder rails, rods, cable trays, window frames.
 
+## Economic profile
+
+Dies at $10–50k on 4–12 weeks are modest, and a line running 0.3–3 m/min produces profile by the kilometer with almost no labor per meter, so cost per meter is very low. The economics are those of an extrusion business: one die makes one section, and the section has to sell for years. Transverse strength of 30–70 MPa against 400–1,000 MPa longitudinal is the design constraint that decides where the profile can be used.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=4MoHNZB5b_Y — The Pultrusion Process (Strongwell MC, 2 minutes, 100k+ views)

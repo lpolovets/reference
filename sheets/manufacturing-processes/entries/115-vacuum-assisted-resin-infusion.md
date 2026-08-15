@@ -28,6 +28,10 @@ Fiber volume fraction 50–60% with void content 1–2% · consolidation capped 
 
 Wind-turbine blades, boat hulls, large aerospace panels.
 
+## Economic profile
+
+Single-sided tooling roughly an order of magnitude cheaper than matched molds, with consolidation from a vacuum pump rather than a press, is why the largest composite structures made are infused: a 100 m wind blade has no press that could close on it. Resin and consumables are the recurring cost, since bagging film, flow media, and tubing are thrown away every part, and that consumable bill is a real share of unit cost.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=VodfQcrXpxc — How To Do Perfect Vacuum Resin Infusion of a Carbon Fibre Part - Basic… (Easy Composites Ltd, 15 minutes, 1m+ views)

@@ -28,6 +28,10 @@ Figure convergence to lambda/20 or better, often under 10 nm peak to valley, in 
 
 Aspheric lenses, lithography optics, telescope mirrors.
 
+## Economic profile
+
+A machine is roughly $1–2M and the fluid is a consumable, so this is bought by shops with a steady stream of high-specification work rather than by general opticians. It pays because it converges to lambda/20 or better in one or two runs where hand correction is iterative and uncertain: the saving is in the iterations avoided rather than in the run time. On a part with days of grinding already in it, a deterministic finishing step also protects the value already spent.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=ueawb_uGSKU — Janos Technology Magneto Rheological Finishing (MRF) Services (Janos Technology, 1 minute, 10k+ views)

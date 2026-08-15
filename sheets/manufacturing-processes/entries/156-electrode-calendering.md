@@ -28,6 +28,10 @@ Target porosity roughly 25–30% for energy cells and 35% or more for power and 
 
 Densified anode and cathode webs.
 
+## Economic profile
+
+The equipment is comparatively cheap and the leverage is large, because the porosity set here decides energy density and fast-charge capability, which are what the cell sells on. Holding thickness to ±1–2 µm across a web at 80–100 m/min is the demanding part, and roll grinding and replacement are the recurring cost. A calender that drifts turns good electrode into scrap after all the expensive material has already been applied.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=Stjcse7Bcqk — Battery cell production at Volkswagen Salzgitter, production steps “slitting… (AutoMotoTV, 1 minute, 10k+ views)

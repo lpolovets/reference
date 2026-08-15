@@ -28,6 +28,10 @@ Surface finish 0.01–0.1 µm Ra · removes 2–10 µm, just the peaks left by g
 
 Crankshafts, camshafts, gears, bearing races.
 
+## Economic profile
+
+A cycle of 10–60 seconds per part is short enough to sit in a production line rather than in a finishing department, which is what makes it economical from thousands of parts a year. It removes only 2–10 µm, just the peaks left by grinding, so it adds a station rather than replacing one. Bearing and cam surfaces justify it because those peaks are what would otherwise wear, and the operation is cheap against the warranty it protects.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=eKB3wNiJwjQ — Supfina Superfinishing of Bearings and Bearing Rollers (Cutting Tool Engineering, 2 minutes, 1k+ views)

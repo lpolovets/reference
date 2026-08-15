@@ -28,6 +28,10 @@ Full annealing of carbon steel at roughly 760–900 °C, subcritical and process
 
 Sheet before forming, wire between draws, castings, glass.
 
+## Economic profile
+
+Furnace time is the product. An 8–24 hour cycle including furnace cooling means a batch occupies the asset for most of a day, so commercial heat treaters price by the pound and by the load, and a part that does not fill the basket carries the cost of the space it wastes. Most manufacturers buy this rather than owning a furnace, because utilization is what makes it cheap and few shops generate enough work to keep one full.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=9kWWKgiBh-Q — Detailed Explanation Of Annealing Heat Treatment | Process, Furnace, Stages,… (James Sword Engineering, 8 minutes, 50k+ views)

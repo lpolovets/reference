@@ -28,6 +28,10 @@ Pressures 100–400 MPa · green density 55–70% of theoretical and uniform thr
 
 Ceramic tubes, refractory parts, powder billets, grinding wheels.
 
+## Economic profile
+
+Elastomer tooling in the hundreds to low thousands of dollars, ready in days, makes this the cheapest way to press a large or thick powder part, and the pressure is uniform, so thick sections come out at even green density. The cost is throughput: wet-bag cycles of 5–30 minutes mean a vessel produces few parts an hour, and dry-bag tooling is what a producer buys when volume finally justifies faster cycles.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=77fu_aiEJkM — Cold Isostatic Pressing.mpg (Mark Thomason, 7 minutes, 50k+ views)

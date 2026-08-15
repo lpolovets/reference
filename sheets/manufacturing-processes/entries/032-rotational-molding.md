@@ -28,6 +28,10 @@ Dimensional tolerance roughly ±1% of the dimension, wall thickness ±10–20% �
 
 Water tanks, kayaks, playground equipment, coolers, barriers.
 
+## Economic profile
+
+Molds at $3–25k are the cheapest way to make a large hollow part, since the tooling sees no pressure and can be sheet metal or cast aluminum. The cost is the cycle: 30–60 minutes per part means a machine makes very few parts a day, so labor and machine time dominate and there is no volume at which the part becomes cheap. That fixes the economic lot at dozens to a few thousand a year.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=Qr5qIMvJSnw — Rotational Moulding - The Process (Ecosure, 4 minutes, 100k+ views)

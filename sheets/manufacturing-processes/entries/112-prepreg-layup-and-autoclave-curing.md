@@ -28,6 +28,10 @@ Fiber volume fraction 55–65% with void content under 1% · autoclave cure at 1
 
 Aircraft wings, fuselage sections, satellites, racing structures.
 
+## Economic profile
+
+Every cost here is high. Prepreg at $40–150/kg has to be kept at -18 °C with 10–30 days of out-life, so material is thrown away on schedule slips; invar or steel tooling runs $50k to several hundred thousand; and an autoclave is $1M and up before the 2–8 hour cure cycle it meters out. That is bought for void content under 1% at 55–65% fiber volume, which is what certification on a primary aircraft structure requires.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=OmxGyALQQF4 — Carbon fibre pre-preg lay-up demonstration (vacuum bag and autoclave) (Materials Science & Engineering at The University of Sheffield, 2 minutes, 10k+ views)

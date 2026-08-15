@@ -28,6 +28,10 @@ Aging hold of roughly one to three weeks, often a 1–3 day stage at 45–60 °C
 
 Cell binning and pack matching.
 
+## Economic profile
+
+One to three weeks of aging means weeks of finished cells held as working capital, which at plant scale is a large amount of money sitting on shelves. That is why direct leakage-current measurement, resolving to roughly 1 uA in hours rather than weeks, is pursued so hard. Grading also sets the cell's price: capacity bins ±1–2% wide and impedance bins around ±5% decide which pack a cell can go into and what it sells for.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=72NSY4IDuqU — Efficient Battery Cell Grading Machine for 32-60mm Diameter Cells | Semco… (Semco Infratech Pvt. Ltd., 8 minutes, 1k+ views)

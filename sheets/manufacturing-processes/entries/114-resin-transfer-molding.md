@@ -28,6 +28,10 @@ Fiber volume fraction 50–55% with void content 1–2% · injection at 1–10 b
 
 Automotive structures, aircraft parts, bicycle frames, housings.
 
+## Economic profile
+
+Matched tooling at $50–500k and cycles of 20–60 minutes, or 2–5 minutes with HP-RTM, place this in the 1,000 to 30,000 parts a year band that hand processes cannot reach and stamping-rate processes do not want. Both faces come out molded to ±0.2–0.5 mm, which removes finishing work from the comparison. HP-RTM buys cycle time with injection pressure, and the press and tooling to match are what it costs.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=1u-2GvhghQA — Resin Transfer Moulding (EastCoastFibreglass, 4 minutes, 100k+ views)

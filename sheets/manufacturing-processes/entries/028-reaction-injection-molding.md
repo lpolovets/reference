@@ -28,6 +28,10 @@ Cavity pressure 0.3–1 MPa, against 50–150 MPa for thermoplastic injection mo
 
 Automotive fascias, machine covers, medical-device housings, polyurethane panels.
 
+## Economic profile
+
+Cavity pressure of 0.3–1 MPa against 50–150 MPa for thermoplastic injection is what makes the tooling cheap: aluminum or composite molds at $5–50k rather than hardened steel, on a 4–8 week lead time. That is why RIM occupies the few-hundred to 10,000 parts a year band for large panels and housings, where an injection mold of the same size would cost several times more than the whole program is worth.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=TWEfbGH-Ewc — Reaction Injection Molding (RIM) - Process Overview Video by RIM Manufacturing (RIM MANUFACTURING, 5 minutes, 100k+ views)

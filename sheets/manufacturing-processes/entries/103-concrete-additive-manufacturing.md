@@ -28,6 +28,10 @@ Bead widths 25–60 mm laid in 10–30 mm layers · nozzle travel roughly 50–2
 
 Walls, small buildings, landscaping structures, bridge elements.
 
+## Economic profile
+
+Printers at roughly $200k to over $1M and a wall shell in 24–48 hours of printing are the headline numbers, and the honest picture is narrower than they suggest: printing replaces the wall structure only, while foundations, roof, services, and finishes are unchanged and account for most of the cost of a house. The saving that is real is formwork and the labor to build it, and that is where the process competes.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=vL2KoMNzGTo — How Concrete Homes Are Built With A 3D Printer | Insider Art (Insider Art, 6 minutes, 5m+ views)

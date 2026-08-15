@@ -28,6 +28,10 @@ Pouring range roughly 180–420 °C for the pewter, tin, and zinc alloys it suit
 
 Figurines, lamp bases, hollow decorative shells.
 
+## Economic profile
+
+Bronze or steel molds good for thousands of pours make tooling cheap per part, and a cycle under a minute is fast, so the process is inexpensive to run. What limits it commercially is that wall thickness is controlled to no better than about ±30%, which rules out anything structural. It survives in decorative and hollow-ornament work, where making a hollow part any other way costs considerably more.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=vKd7_oAjQXY — slush casting | slush casting process | slush casting explained | metal casting process (Modi Mechanical Engineering Tutorials, 4 minutes, 10k+ views)

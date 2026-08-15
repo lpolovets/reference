@@ -28,6 +28,10 @@ Barrel held at 60–100 °C with the mold at 150–200 °C · cure time 20–120
 
 Electrical connectors, circuit breakers, appliance handles, high-temperature housings.
 
+## Economic profile
+
+Two costs separate this from thermoplastic molding. Runner and reject scrap of 5–20% cannot be reground and reused, so it is thrown away rather than recycled, and abrasive-filled compounds cut mold life to a few hundred thousand shots against a million or more, which raises tooling cost per part. Cure of 20–120 seconds lengthens the cycle as well. It is used where 150–250 °C continuous service is required and a thermoplastic will not hold.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=zPkhdQL2Eos — Understanding Thermoset Plastics (Woodland Plastics, 3 minutes, 10k+ views)

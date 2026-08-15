@@ -28,6 +28,10 @@ Bore roundness and straightness within 1–5 µm · surface finish 0.1–0.8 µm
 
 Engine cylinders, hydraulic cylinders, valve bores, barrels.
 
+## Economic profile
+
+Cycle times of 20 seconds to a few minutes make honing cheap enough to put on every engine bore in a plant, which is where most of the world's honing capacity sits. It removes only 0.02–0.1 mm, so it cannot correct a bore that is in the wrong place and the boring operation before it still has to be right. The crosshatch it leaves is a functional requirement rather than a finish, and that is what is actually being bought.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=-l-T08cZqb4 — What is honing and how does it work? (KADIA Honing & Deburring, 2 minutes, 100k+ views)

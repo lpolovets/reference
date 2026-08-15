@@ -28,6 +28,10 @@ ASTM E8 tensile coupons use a 12.5 mm diameter gauge section, run 1–5 minutes 
 
 Tensile testing, fatigue testing, burst testing, metallography, peel testing.
 
+## Economic profile
+
+Commercial labs price this by the coupon, $50–300 for a tensile test and $150–500 for a metallographic mount, so most manufacturers buy it rather than owning a $20–150k test machine. Fatigue is the exception that breaks the budget: 10^6–10^7 cycles at 10–100 Hz is hours to weeks per specimen, and 10–30 specimens go into one S-N curve. That is why fatigue data is treated as an asset and reused across programs rather than regenerated.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=9NbpW7HwEys — What is Destructive Testing (DT) | Methods of Destructive Testing (Engineering the Engergy World, 11 minutes, 10k+ views)

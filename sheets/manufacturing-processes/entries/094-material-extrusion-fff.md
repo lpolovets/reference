@@ -28,6 +28,10 @@ Tolerance roughly ±0.2 mm or ±0.5% · layer heights 0.1–0.3 mm through a 0.4
 
 Jigs, fixtures, prototypes, housings, tooling aids.
 
+## Economic profile
+
+The crossover is explicit: injection molding is cheaper past roughly 500–1,000 units, and below that FFF wins because there is no tooling and no lead time. Machines from a few hundred dollars and filament at $20–50 per kg make the marginal part almost free, so the real cost is build time and the person who post-processes it. Z-direction strength at 30–70% of in-plane is the constraint that keeps most output in prototypes and fixtures.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=C7RowQYwADU — How Does FDM 3D Printing Work? (Xometry EMEA & APAC, 3 minutes, 10k+ views)

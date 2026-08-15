@@ -30,7 +30,7 @@ Windows, mirrors, architectural glazing, automotive glass feedstock.
 
 ## Economic profile
 
-Capex for a continuous line is enormous, and the economics depend heavily on keeping furnace utilization high.
+A float line costs $150–400M and cannot be turned down: the furnace runs continuously through a 12–15 year campaign, and stopping it early means an unplanned rebuild. That makes float glass a capacity business rather than an order business, since output is 500–1,000 tons a day whether or not it is sold. The operator's real decision is when and where to build a line, not how much to run this month. Freight then sets the market radius, because glass is heavy and fragile relative to its value.
 
 ## Videos
 

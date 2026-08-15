@@ -42,6 +42,10 @@ A continuously rotating cutter and workpiece interact at crossed axes to generat
 
 Transmission gears, ring gears, splines, sprockets.
 
+## Economic profile
+
+Hobs at $500–5k and cycles of 1–10 minutes per gear make hobbing economical from a few hundred gears a year, well below what most dedicated processes need. The cost cliff is quality: as-cut AGMA 8-10 is adequate for industrial drives, and anything better needs grinding or honing afterwards, which usually adds more cost than the hobbing did. Specifying gear quality is one of the more expensive decisions on a drawing.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=J1UOjBLo-2M — Gear Shaping and Hobbing (SOUMEN SIR, 3 minutes, 100k+ views)

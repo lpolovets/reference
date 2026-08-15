@@ -28,6 +28,10 @@ Wall thickness down to about 1.5 mm · linear tolerance roughly ±0.13 mm on the
 
 Turbine blades, aerospace brackets, surgical implants, impellers, jewelry.
 
+## Economic profile
+
+Wax dies at $5–50k on an 8–16 week lead time sit between sand and die casting on entry cost, but per-part cost stays high because the shell is built in 5–10 dip-and-dry coats over one to two days and then used once. That fixed per-part labor is why investment casting does not get much cheaper with volume, and why it is chosen for what it can make, such as near-net turbine and orthopedic shapes, rather than for cost.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=GWVli5iY8BI — How It's Made - Lost Wax Casting (Got All Your Marbles? Interchangeable Jewelry, 3 minutes, 100k+ views)

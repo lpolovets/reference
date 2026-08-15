@@ -28,6 +28,10 @@ Pressures 100–200 MPa in argon · temperatures 900–1,250 °C for steel, nick
 
 Turbine disks, aerospace castings, powder-superalloy billets, additive parts.
 
+## Economic profile
+
+Vessels are expensive and cycles are long, at 2–4 hour holds inside 8–12 hour furnace cycles, so HIP is bought as a service by the load and priced by the volume of the working zone. Filling that zone is the whole economics, which is why parts from different customers are batched together. It is specified where closing porosity to above 99.9% density converts a casting or a printed part into something a fatigue-critical application will accept.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=xPqvquxw9BE — Hot Isostatic Pressing by Quintus Technologies (Quintus Technologies, 3 minutes, 1m+ views)

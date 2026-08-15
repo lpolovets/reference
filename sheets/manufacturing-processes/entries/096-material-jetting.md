@@ -28,6 +28,10 @@ Layer thickness 14–32 µm · tolerance roughly ±0.1 mm or ±0.1% · surface f
 
 Anatomical models, realistic prototypes, casting patterns.
 
+## Economic profile
+
+Resins at $300–600 per kilogram are among the highest material costs in additive, and support material is consumed as well, so cost per part is high and stays high. What justifies it is multi-material and full-color printing in a single build with sub-micron finish on glossy faces. It is bought where the part is a communication tool, such as a design model or a surgical planning guide, rather than where it is a functional component.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=U7X817JESWY — Exploring Material Jetting: A Category of Additive Manufacturing (LynxE - Your New Learning Experience, 5 minutes, 10k+ views)

@@ -28,6 +28,10 @@ Tolerance about ±0.25 mm on CNC-routed parts, with seasonal moisture movement o
 
 Furniture, cabinetry, framing, musical instruments, flooring.
 
+## Economic profile
+
+Tooling under $5k, mostly bits and fixtures, makes wood the cheapest material here to start cutting, and a lot size of one is economic. The cost that is specific to wood is the material itself: boards are graded, defects are cut around, and yield from a rough board to finished parts is a real loss. Seasonal moisture movement often exceeds the ±0.25 mm machining tolerance, so tight tolerances are usually not worth paying for.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=t3-1C_aksJQ — The US Sawmill: How Hardwood Lumber is Made (Banks Hardwoods, 9 minutes, 500k+ views)

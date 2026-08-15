@@ -28,6 +28,10 @@ Voxel size from about 1 µm on small samples to 200 µm on large ones, roughly t
 
 Additive parts, castings, batteries, turbine blades, composites.
 
+## Economic profile
+
+Systems run roughly $200k to well over $1M and take five minutes to several hours per scan, so CT is bought as a laboratory capability and sold by the hour. Service bureaus are the normal route for anyone who does not need it daily. The hidden operating cost is data: 2–50 GB per scan means storage, network, and an analyst, and the analyst is usually the bottleneck rather than the machine. It is used where the flaw is internal and the part is already expensive.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=-eesZBRW4u0 — CT 101: Introduction to Industrial CT (Lumafield, 7 minutes, 10k+ views)

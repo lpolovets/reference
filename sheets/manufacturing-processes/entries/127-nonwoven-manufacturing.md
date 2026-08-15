@@ -28,6 +28,10 @@ Basis weight 10–100 g/m² for hygiene webs, up to 800 g/m² for geotextiles ·
 
 Masks, diapers, wipes, insulation, filters, geotextiles.
 
+## Economic profile
+
+Line capex of $10–40M for 5,000–20,000 tonnes a year makes this a commodity plant rather than a process a manufacturer adopts, and spunbond polypropylene at roughly $2–3/kg leaves very little margin per kilogram. The economics are utilization and resin price, and a line runs continuously because stopping and restarting a 3.2–5 m web at 200–800 m/min wastes material and hours.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=5r0BM78Itog — Nonwovens: All you need to know in 6 minutes (Textile with Alberto, 7 minutes, 10k+ views)

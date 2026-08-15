@@ -28,6 +28,10 @@ Slitting line speeds roughly 50–150 m/min · laser notching at roughly 60–12
 
 Cell-width electrode strips, tabbed electrodes.
 
+## Economic profile
+
+Laser notching costs more per meter than mechanical dies but changes format with no tooling, which matters in an industry that revises cell dimensions often: a die set is stranded capital when the format changes and a laser is not. Burr height under 10 µm against a separator only 12–25 µm thick is the quality requirement that justifies the spend, since a burr through the separator is a field failure rather than a scrapped cell.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=0ze70MotdsQ — [Battery Report] How Batteries are Made: Electrode Manufacturing – Slitting… (LG Energy Solution Global, 2 minutes, 1k+ views)

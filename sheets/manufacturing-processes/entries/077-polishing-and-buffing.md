@@ -28,6 +28,10 @@ Mirror finishes of SPI A-1 to A-3, roughly 0.012–0.1 µm Ra · abrasive progre
 
 Medical tools, cookware, molds, automotive trim.
 
+## Economic profile
+
+This is the most labor-intensive operation on the sheet, at minutes to tens of minutes of hand work per part, and the crossover is explicit: hand polishing stays cheaper below roughly a few thousand parts a year and robotic cells win above that. An SPI A-1 mold finish is expensive for the same reason, since it is hand work on tool steel by someone skilled, and it is one of the larger line items in a mold quote.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=rz7HRhiDXFw — Polishing 101: How to Buff and Polish Metal (Christ Centered Ironworks, 16 minutes, 50k+ views)

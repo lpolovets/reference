@@ -30,7 +30,7 @@ Electrical wire, steel cable, welding wire, springs, piano wire.
 
 ## Economic profile
 
-The process is capital-intensive and continuous, so lines run at high utilization. Cost per unit length is low.
+Tooling is the cheapest in this class, since dies are consumables rather than an investment, so the capital sits in the line and the money follows line speed. At up to 30 m/s on fine wire a drawing line converts rod to product faster than almost anything else here, and cost per ton is mostly rod price plus the electricity to pull it. Die wear and wire breaks are the operating variable, because a break stops the line and costs far more than the die.
 
 ## Videos
 

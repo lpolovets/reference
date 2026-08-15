@@ -28,6 +28,10 @@ Air-jet looms run 1,000–1,500 picks per minute and rapier looms 500–700 · l
 
 Clothing, upholstery, industrial belts, composite reinforcement.
 
+## Economic profile
+
+Looms at $50–150k produce roughly 30–60 m per loom-hour, so capital per meter is low, but warp changeover takes hours and that fixed setup is what makes short runs uneconomic. Economical runs therefore start in the hundreds of meters. Air-jet at 1,000–1,500 picks per minute against 500–700 for rapier is the standard trade of speed against the range of yarns a mill can run.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=fIwEb-DpuRg — How does a loom work (RNR Woven Treasures, 10 minutes, 100k+ views)

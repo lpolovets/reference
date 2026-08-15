@@ -28,6 +28,10 @@ Type II coatings 5–25 µm thick, Type III hardcoat 25–75 µm · dimensional 
 
 Aerospace parts, enclosures, bicycles, architectural aluminum.
 
+## Economic profile
+
+This is tank work sold by the square foot, and racking is a large share of the labor: every part needs electrical contact, and the contact mark has to fall somewhere the drawing allows. Hardcoat costs more than Type II because the bath runs at 0–5 °C and needs refrigeration and longer time. The fatigue penalty of roughly 10–60% on thick hardcoat is an engineering cost rather than a price, and it is the one usually discovered late.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=0yl35W0o9S0 — What is Aluminium Anodizing and How Does It Work | Anodizing Process Overview (Hydro, 5 minutes, 100k+ views)

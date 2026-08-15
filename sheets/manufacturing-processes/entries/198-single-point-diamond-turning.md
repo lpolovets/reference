@@ -28,6 +28,10 @@ Surface roughness 2–5 nm Ra, good enough for infrared use without polishing ·
 
 Infrared optics, mirror substrates, laser components, optical molds.
 
+## Economic profile
+
+Machines at $400k–$1.5M and diamond tools at $500–5,000 each make this capital-heavy against the polishing shop it competes with. What the money buys is that infrared optics come off the lathe finished, with no polishing step at all, removing the most labor-intensive operation in an optics shop. The economics therefore favor it wherever the surface can be turned rather than polished, which is why infrared and off-axis aspheric parts moved to diamond turning first.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=YYcBKW-MMbI — Single Point Diamond Turning: EO Build-to-Print Manufacturing (Edmund Optics, 3 minutes, 10k+ views)

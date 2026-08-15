@@ -28,6 +28,10 @@ Deposition rate of roughly 10–25 µm per hour in baths held at 85–95 °C · 
 
 Nickel-coated plastic, circuit boards, internal passages.
 
+## Economic profile
+
+Cost per micron is several times electrolytic nickel, and bath life is the reason: the chemistry works itself out after roughly 4–8 metal turnovers and is then dumped, so much of the price is chemistry consumed and disposed of rather than metal deposited. What the money buys is uniformity to within a few microns over threads, bores, and recesses, which no electrolytic process holds. On complex parts that is often cheaper than the machining needed to make plating uniform.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=CVzMNzI6mV8 — Electroless Nickel Technology (Arlington Plating Company, 3 minutes, 10k+ views)

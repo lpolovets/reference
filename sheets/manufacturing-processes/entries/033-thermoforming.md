@@ -28,6 +28,10 @@ Sheet thickness 0.2–1.5 mm thin gauge, 1.5–12 mm heavy gauge · dimensional 
 
 Packaging trays, refrigerator liners, aircraft interior panels, signs, shower enclosures.
 
+## Economic profile
+
+Tooling from a few hundred dollars in wood or epoxy to $20k in cast aluminum is the widest and cheapest tooling range in this group, because the mold sees vacuum rather than injection pressure. That is why thermoforming covers everything from single prototypes to millions of parts, with the same process serving both ends on different tooling. Material is the offset, since corners thin to 30–50% of starting gauge and the sheet has to be specified for the thinnest point.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=HWX_XxS4zY8 — Vacuum/Thermal Forming Explained (AEB, 6 minutes, 100k+ views)

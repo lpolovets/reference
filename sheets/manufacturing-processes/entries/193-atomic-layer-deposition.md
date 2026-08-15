@@ -28,6 +28,10 @@ Film thickness typically 1–50 nm · growth about 0.1 nm per cycle with cycles 
 
 Gate dielectrics, battery coatings, nanoscale barriers.
 
+## Economic profile
+
+Growth of roughly 30–300 nm per hour makes ALD the slowest deposition method in the fab, so it is used only where nothing else gives conformality above 95% at aspect ratios past 100:1. Precursors are the unusual cost: hafnium and zirconium compounds run to thousands of dollars per kilogram, high enough that precursor utilization gets engineered rather than accepted. Tools at $300k to $2M are modest by fab standards, and throughput is what constrains the process.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=CvkF-trrWvA — Atomic Layer Deposition Principle - an Introduction to ALD (Captain Corrosion, 5 minutes, 100k+ views)

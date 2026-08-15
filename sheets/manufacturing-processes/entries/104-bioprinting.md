@@ -28,6 +28,10 @@ Extrusion nozzles 100–800 µm, giving features around 100–500 µm · inkjet 
 
 Tissue models, drug-screening platforms, experimental skin and cartilage.
 
+## Economic profile
+
+Research bioprinters at $10–200k are inexpensive next to the rest of a tissue-engineering program, and the printer is not what limits the field. Cells, media, and the qualified facility around them dominate the budget, and the 200 µm diffusion limit without vasculature caps what can be made regardless of spending. This is a research tool funded on future clinical value rather than a manufacturing process with a cost per part.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=NOGoUYVP2PY — What 3D Bioprinting Is and How It Works (Hello World HD, 17 minutes, 50k+ views)

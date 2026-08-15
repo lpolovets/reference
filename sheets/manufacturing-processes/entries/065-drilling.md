@@ -28,6 +28,10 @@ Position roughly ±0.1 mm and diameter IT11-12, about 0.09–0.15 mm of spread o
 
 Fastener holes, fluid ports, oil passages, mounting holes.
 
+## Economic profile
+
+Tooling costs a few dollars to a few tens of dollars and a hole takes seconds, so drilling is close to free per feature and rarely appears in a cost estimate at all. Where it does show up is in aggregate, because a part with 200 holes has a real cycle time, and that is what drives multi-spindle heads and dedicated drilling stations on transfer lines. Gun drilling past 100:1 depth-to-diameter is the exception, priced as a specialty operation.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=f5HfRpeT7Fg — Drilling Processes Overview (Mike Braddock, 3 minutes, 50k+ views)

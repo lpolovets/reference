@@ -28,6 +28,10 @@ Cut threads typically hold class 2A/2B or metric 6H/6g, with 3A/3B possible at e
 
 Lead screws, pipe fittings, custom fasteners, threaded shafts.
 
+## Economic profile
+
+Taps at $10–100 and a few seconds per hole make tapping nearly free, while thread milling at $50–300 per tool and 10–60 seconds per thread costs more and leaves no broken tap in a finished part. That risk is the real comparison: a snapped tap in an aluminum housing after two hours of machining can scrap the whole part, which is why high-value parts get milled threads even though the cycle is longer.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=nCZFmuYnotQ — Single Point Threading on the Lathe I (Clickspring Clips, 4 minutes, 1m+ views)

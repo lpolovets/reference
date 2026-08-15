@@ -28,6 +28,10 @@ Typical thicknesses of 5–25 µm for zinc, 0.05–2.5 µm for gold contacts, an
 
 Zinc fasteners, copper interconnects, nickel coatings, chrome hardware.
 
+## Economic profile
+
+Two numbers drive the cost. Cathode efficiency of 10–25% on hard chrome means most of the energy goes into gas rather than coating, and thickness on edges running 2–5 times that in recesses means plating to a minimum in a recess overplates everywhere else and wastes metal. The embrittlement bake at 190–220 °C for 4–24 hours, started within four hours of plating, adds a scheduling constraint the shop has to build its whole flow around.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=OxhCU_jBiOA — How Does Electroplating Work | Reactions | Chemistry | FuseSchool (FuseSchool - Global Education, 6 minutes, 1m+ views)

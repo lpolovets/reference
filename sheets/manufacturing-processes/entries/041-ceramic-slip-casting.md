@@ -28,6 +28,10 @@ Cast wall builds a few millimeters per hour, thickness rising with the square ro
 
 Sanitary ware, pottery, ceramic tubes, shell forms.
 
+## Economic profile
+
+Plaster molds at $100–1,000 and good for 50–150 casts make tooling almost free per part, which is why this is the entry route into ceramics for studio and industrial work alike. The cost is time and floor space: the wall builds a few millimeters an hour, molds have to dry between casts, and 10–15% linear shrinkage through drying and firing means scrap is found at the end, after all the energy has been spent.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=bad5hq9lQAE — Ceramic Pottery Slip Casting Process | Glazed Ceramics Teapot Making Factory (Skill Spotter, 10 minutes, 100k+ views)

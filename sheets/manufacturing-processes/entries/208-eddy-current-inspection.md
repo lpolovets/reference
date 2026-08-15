@@ -28,6 +28,10 @@ Frequency 100 Hz to 10 MHz, with 100 kHz to 1 MHz usual for surface cracks · st
 
 Aircraft skins, tubing, wheels, fastener holes.
 
+## Economic profile
+
+Handhelds at $5–25k and array systems at $30–100k are modest capital, and the distinguishing economic fact is speed: inline tube and bar inspection at 1–3 m/s keeps up with the production line rather than sampling off it. That makes eddy current the usual choice for 100% inspection of long products, where the alternative is not a cheaper method but accepting unknown quality. Calibration standards for each product family are the recurring cost.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=89xtM0yeq6A — Testing with eddy current - explained simply (FOERSTER Group, 5 minutes, 100k+ views)

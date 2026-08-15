@@ -28,6 +28,10 @@ Dimensional tolerance roughly ±0.5 mm on small blown features and looser as par
 
 Beverage bottles, fuel tanks, detergent containers, drums, ducts.
 
+## Economic profile
+
+An extrusion blow mold at $5–50k is cheap for the size of part it makes, since it is a cavity with no core, and that is much of why plastic containers cost what they do. The economics are volume economics: an economic lot starts around 100,000 units, and PET stretch blow at about 2 seconds per cavity produces bottles faster than they can be filled. Wall variation of ±10–25% is resin given away on every part.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=pJW6IKRLSyk — How It's Made — PET Plastic Bottle | Blow Moulding Manufacturing Process… (PAT - Manufacturing Solutions, 4 minutes, 10k+ views)

@@ -28,6 +28,10 @@ Face veneer 0.5–0.9 mm thick, rotary-peeled plywood plies 1.5–3 mm · hot-pr
 
 Plywood, furniture surfaces, laminated beams, curved chairs.
 
+## Economic profile
+
+Forms and cauls at $5–50k are modest, and the economic driver is material use: a 0.5–0.9 mm face veneer puts an expensive species over a cheap substrate, so one log of figured hardwood covers an area that solid lumber never could. Hot pressing at 3–10 minutes against 1–4 hours cold is what makes panel production continuous, and glulam extends the same logic to structural beams spanning 30 m and more.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=EhzyhkLmLoo — How It's Made: Laminated Veneer Lumber (LVL) (WoodSolutions, 6 minutes, 100k+ views)

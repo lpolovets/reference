@@ -28,6 +28,10 @@ Stacking rates of roughly 0.1–0.3 seconds per layer on current machines · 20�
 
 Pouch, prismatic, solid-state, and lithium-metal cells.
 
+## Economic profile
+
+At 5–15 seconds per cell against 1–3 seconds for winding, stacking is slower and needs more machines for the same output, which is a real capital difference between pouch and cylindrical plants. What it buys is better volumetric use and lower internal resistance in large formats. Stacking speed has been the focus of equipment competition for that reason, since a tenth of a second per layer compounds across 60 layers and across a plant.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=ESvVLEwXYwM — Cell stacking processes for lithium-ion cells (iwb-Tube, 2 minutes, 10k+ views)

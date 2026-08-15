@@ -28,6 +28,10 @@ Fit-up gap around 0.1 mm, or under 10% of sheet thickness · laser power 1–10 
 
 Batteries, automotive bodies, medical devices, aerospace assemblies.
 
+## Economic profile
+
+A cell at $150k–$1M buys 1–10 m/min and a heat-affected zone under 1 mm, but the fit-up requirement decides whether it is affordable in practice. A gap of about 0.1 mm means the parts and fixtures upstream have to hold tolerances arc welding would forgive, so the real cost of laser welding is usually paid in fixturing and stamping tolerance rather than in the laser.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=72OwSKEa0UQ — What Is Laser Beam Welding and How Does It Work? (Welding Experts, 6 minutes, 10k+ views)

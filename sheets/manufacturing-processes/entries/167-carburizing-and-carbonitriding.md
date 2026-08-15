@@ -28,6 +28,10 @@ Gas carburizing at 900–950 °C, low-pressure vacuum carburizing up to about 1,
 
 Gears, pins, camshafts, transmission components.
 
+## Economic profile
+
+Case depth is bought by the hour: roughly 4 hours per 0.5 mm at 925 °C, growing with the square root of time, so a 2 mm case costs far more than four times a 0.5 mm one. That relationship is the main design lever on cost, and specifying more case than the application needs is a common way to overpay for heat treatment. Cycles of 4–30 hours also make this a batch business with real scheduling lead time.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=pYQuqNFG2ro — Vacuum Carburizing and Heat treating (Mtvac, 5 minutes, 100k+ views)

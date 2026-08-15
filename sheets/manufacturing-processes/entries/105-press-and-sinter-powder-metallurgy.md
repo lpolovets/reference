@@ -28,6 +28,10 @@ Compaction pressures 400–800 MPa · ferrous sintered density 6.6–7.2 g/cm³,
 
 Gears, bushings, filters, magnets, automotive components.
 
+## Economic profile
+
+Die sets at $10–100k on 8–16 weeks, pressing 5–30 parts a minute, put the economic floor near 10,000 parts a year. What that money buys is a finished part with no machining: the shape comes out of the die, so the comparison is not against another forming process but against the whole turning or milling routing it replaces. The offset is density at 85–93% of wrought, so the part has to be one where that is enough.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=I39m28NZ7_s — Conventional Press-and-Sinter Powder Metallurgy (MPIF Videos, 12 minutes, 100k+ views)

@@ -28,6 +28,10 @@ Dies cost a few hundred to a couple of thousand dollars · tolerance about ±0.2
 
 Weather seals, hose, tubing, tire tread, gaskets.
 
+## Economic profile
+
+Dies at a few hundred to a couple of thousand dollars are among the cheapest tooling anywhere on this sheet, so a new profile is inexpensive to try and economical from a few hundred meters per run. Line speeds of 5–60 m/min at 100–1,000 kg/hr keep labor per meter low. Die swell of 10–40% is the practical cost, since it usually takes trial runs to get a section right and that development time is charged to the first order.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=3iU2MfWRLR8 — Rubber Extrusion Process Video (Inspiredge India, 4 minutes, 50k+ views)

@@ -28,6 +28,10 @@ Tire building is product-specific: every pneumatic tire, from passenger to aircr
 
 Passenger, truck, aircraft, and industrial tires.
 
+## Economic profile
+
+Segmented molds at roughly $30–100k each, one per size and tread pattern with lead times of a few months, are what make tire economics work the way they do: every SKU carries its own tooling, so a plant needs hundreds of thousands of units per SKU per year to justify the mold. Greenfield capex in the hundreds of millions for a few million tires a year makes this a scale business where SKU proliferation is the main cost risk.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=2WCAJR4_YYM — How Tires are Made (Factora, 8 minutes, 100k+ views)

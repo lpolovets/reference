@@ -28,6 +28,10 @@ Solid fraction 30–60% at forming · wall thickness down to 0.5–1 mm in thixo
 
 Magnesium electronics housings, automotive structural components, precision aluminum enclosures.
 
+## Economic profile
+
+Tooling at $200k to $1M is close to high-pressure die casting and the 30–90 second cycle is somewhat slower, so on cost alone it does not win. It is bought for porosity under 1% in parts that have to be welded or heat treated, and for 0.5–1 mm walls in thixomolded magnesium. The process also needs feedstock prepared to a controlled solid fraction, which adds a material cost the comparison often leaves out.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=8X8v-aisiXI — Thixocasting and Rheocasting (chandra mohan, 10 minutes, 5k+ views)

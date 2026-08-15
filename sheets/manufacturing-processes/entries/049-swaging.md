@@ -28,6 +28,10 @@ Bar and tube diameters from about 1 mm to 50 mm · area reduction 20–50% per p
 
 Cable fittings, tapered shafts, medical tubing, tool handles.
 
+## Economic profile
+
+Die sets at $1–5k are among the cheapest tooling in the deformation group, and a cycle of a few seconds that leaves a burnished Ra 0.2–0.8 µm finish often removes a grinding operation. That combination is why swaging survives for tube ends, cable fittings, and tapered shafts. It is not a general-purpose process, but where it fits, both the tooling and the operation it displaces are cheap.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=IGppF3Pivu0 — two hammer swaging machine operation (mekanizmalar, 3 minutes, 10k+ views)

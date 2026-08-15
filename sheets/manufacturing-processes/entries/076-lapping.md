@@ -28,6 +28,10 @@ Flatness to one helium light band, about 0.3 µm, and below 0.1 µm on optical w
 
 Mechanical seals, gauge blocks, optical surfaces, wafers.
 
+## Economic profile
+
+Removal at 1–10 µm per minute makes lapping slow but cheap per part in a batch, since a plate holds many pieces at once and the operation is largely unattended. The cost is upstream: only a few micrometers to a few hundredths of a millimeter come off, so everything before lapping has to arrive nearly finished and nearly flat. It is bought where flatness to one light band matters, and that specification has no cheaper route.
+
 ## Videos
 
 - https://www.youtube.com/watch?v=Z6togIVqC4M — Lapping Machine (SHArPEdgeGlobal, 3 minutes, 100k+ views)
