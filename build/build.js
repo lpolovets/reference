@@ -446,6 +446,25 @@ const COMBINE_NOTE = {
 };
 const APP = fs.readFileSync(path.join(SHARED, 'app.js'), 'utf8');
 const RENDER = fs.readFileSync(path.join(SHARED, 'render.js'), 'utf8');
+
+// ---- shared static assets ----
+// theme.css and the client JS are byte-identical on all 37 sheet pages, so the
+// website flavor links them instead of inlining them and a reader moving between
+// sheets fetches them once. The filename carries a content hash, which is what
+// makes that safe: a changed file is a different URL, so a cached copy can never
+// be stale, and an unchanged one revalidates to a 304 rather than a refetch.
+//
+// The artifact flavor still inlines everything. It ships as a single fragment to
+// a host that serves no other files, so there is nothing for it to link to.
+//
+// RENDER before APP in the bundle: app.js calls makeRenderer at the top level.
+const hash8 = buf => require('crypto').createHash('sha256').update(buf).digest('hex').slice(0, 8);
+const CLIENT_JS = RENDER + '\n' + APP;
+const ASSET_CSS = 'theme.' + hash8(THEME) + '.css';
+const ASSET_JS = 'app.' + hash8(CLIENT_JS) + '.js';
+// up is the prefix back to the site root ('../' for sheet and about pages, './'
+// for the landing), the same value head() already takes for the icon links.
+const cssLink = up => '<link rel="stylesheet" href="' + up + 'assets/' + ASSET_CSS + '">\n';
 const { makeRenderer } = require(path.join(SHARED, 'render.js'));
 const PAGE = fs.readFileSync(path.join(SHARED, 'page.html'), 'utf8');
 const YEAR = String(new Date().getFullYear());
@@ -496,6 +515,7 @@ function head({ title, description, path: p, up, ld }) {
     '<link rel="icon" href="' + up + 'favicon.ico" sizes="32x32">\n' +
     '<link rel="icon" href="' + up + 'favicon.svg" type="image/svg+xml">\n' +
     '<link rel="apple-touch-icon" href="' + up + 'apple-touch-icon.png">\n' +
+    cssLink(up) +
     '<meta property="og:type" content="website">\n' +
     '<meta property="og:site_name" content="' + SITE_NAME + '">\n' +
     '<meta property="og:title" content="' + t + '">\n' +
@@ -648,7 +668,7 @@ function composeBody(sheetData, artifact, siblings) {
   // today; {{LIST}} alone now injects ~900KB of entry text, so it is a matter of
   // time rather than a hypothetical.
   const page = PAGE
-    .replace('{{STYLE}}', () => THEME)
+    .replace('{{STYLE}}', () => artifact ? THEME : '')
     .replace('{{LIST}}', () => listHTML)
     .replace('{{LOGO}}', () => logoFor(artifact ? 'artifact' : 'sheet'))
     .replace('{{SWITCHER}}', () => artifact ? '' : switcherHTML(siblings, sheet.slug))
@@ -684,8 +704,13 @@ function composeBody(sheetData, artifact, siblings) {
     'const P = ' + JSON.stringify(cardEntries) + ';',
   ].join('\n');
 
-  // RENDER before APP: app.js calls makeRenderer at the top level.
-  return page + '<script>\n' + dataJs + '\n' + RENDER + '\n' + APP + '</script>\n';
+  // The per-page data has to stay inline whatever happens, since SHEET and P are
+  // different on every sheet. Only the static half is linked, and it has to come
+  // after the data script: both are classic scripts, so they run in document
+  // order and app.js sees the consts the inline block declared.
+  return page + '<script>\n' + dataJs + '</script>\n' +
+    (artifact ? '<script>\n' + CLIENT_JS + '</script>\n'
+              : '<script src="../assets/' + ASSET_JS + '"></script>\n');
 }
 
 // ---- load all sheets ----
@@ -759,6 +784,12 @@ if (ARTIFACT_SLUG) {
   // The repo is named "reference", so Pages mounts at /reference/; each sheet
   // builds into its own subdirectory and the root page indexes them all.
   writeIcons(path.join(ROOT, 'site'));
+  const assetDir = path.join(ROOT, 'site', 'assets');
+  fs.mkdirSync(assetDir, { recursive: true });
+  fs.writeFileSync(path.join(assetDir, ASSET_CSS), THEME);
+  fs.writeFileSync(path.join(assetDir, ASSET_JS), CLIENT_JS);
+  console.log('site/assets/' + ASSET_CSS + ' + ' + ASSET_JS + ':',
+    Math.round((THEME.length + CLIENT_JS.length) / 1024) + 'KB shared across all sheets');
   for (const sheetData of all) {
     const { sheet, entries } = sheetData;
     const html = '<!doctype html>\n<html lang="en">\n<head>\n' +
@@ -869,7 +900,7 @@ if (ARTIFACT_SLUG) {
         },
       ],
     }) +
-    '<style>\n' + THEME + '</style>\n</head>\n<body>\n' +
+    '</head>\n<body>\n' +
     '<div class="wrap">\n<header class="site">\n<div class="hdr-top">\n' + logoFor('landing') + '</div>\n' +
     '<h1>Reference Sheets</h1>\n' +
     '<p class="lede">' + LANDING_LEDE + '</p>\n' +
@@ -904,7 +935,7 @@ if (ARTIFACT_SLUG) {
           { name: 'How these sheets are made', url: SITE + 'about/' }]),
       ],
     }) +
-    '<style>\n' + THEME + '</style>\n</head>\n<body>\n' +
+    '</head>\n<body>\n' +
     '<div class="wrap">\n<header class="site">\n<div class="hdr-top">\n' + logoFor('sheet') + '</div>\n' +
     '<h1>How these sheets are made</h1>\n' +
     '<p class="lede">' + ABOUT_LEDE + '</p>\n' +
