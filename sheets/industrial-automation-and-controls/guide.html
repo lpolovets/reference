@@ -1,0 +1,70 @@
+    <h2>How to choose an automation architecture</h2>
+    <p class="muted">Two questions settle most of it. <b>What deadline does the control loop actually have</b> decides the network and the controller before anything else does, and specifying a faster one than the process needs is the most common way to overspend. Then <b>how much of the plant is willing to be tied to one supplier</b> decides the rest, because a control system installed today will be maintained for fifteen to twenty-five years, and the spares and the engineering for it have to come from somewhere for all of them.</p>
+
+    <h3>The deadline decides the architecture</h3>
+    <p>Control loops have wildly different response requirements, and the cost of meeting them is not linear. A temperature loop in a tank has thermal inertia measured in minutes, so a controller scanning every 100 ms is already far faster than the process, and nothing is gained by making it faster. A servo axis interpolating a contour needs a new position command every millisecond or two, and the network has to deliver it with jitter small enough that the axis does not chatter. Between those two lies most of manufacturing. Establishing the real deadline first is what keeps a project from buying a deterministic network for a process that would have been happy with a standard one.</p>
+    <div class="bands">
+      <div class="band"><div class="bt">Under 1 ms</div><div class="bv">Coordinated motion, electronic gearing, high-speed packaging. Needs a deterministic industrial Ethernet protocol and a controller with a matching scan. The expensive band.</div></div>
+      <div class="band"><div class="bt">1–10 ms</div><div class="bv">Most machine control: sequencing, interlocks, single-axis moves. Standard industrial Ethernet handles it comfortably, and this is where the bulk of discrete automation sits.</div></div>
+      <div class="band"><div class="bt">10–100 ms</div><div class="bv">Process loops, conveyors, material handling. Almost any network and controller will do, so choose on maintenance and supplier terms instead of on speed.</div></div>
+      <div class="band"><div class="bt">Over 100 ms</div><div class="bv">Temperature, level, most batch supervision, and everything reporting to operations software. Latency is not the constraint; reliability and data quality are.</div></div>
+    </div>
+
+    <h3>Lock-in is a twenty-year decision</h3>
+    <p>Control hardware outlives almost everything else in a plant. A programmable controller installed with a new line is expected to run for fifteen to twenty-five years, and over that period the original vendor will end production, the engineers who wrote the program will leave, and the software needed to open the project file will stop running on current operating systems. Those are the costs a lock-in decision is really about, and none of them appear in the purchase price. A proprietary protocol or a closed programming environment is often the right choice anyway, because integrated systems are genuinely easier to commission, but the choice should be made with the replacement cost in view rather than only the installation cost.</p>
+    <p>Open standards reduce that exposure without eliminating it. A plant using an open fieldbus can buy field devices from many suppliers, which holds prices down over the life of the installation, but the controller and its programming environment usually remain single-vendor even so. The practical position most operators reach is to insist on openness where the device count is high and the parts are commodities, and to accept single-vendor integration where the engineering value is real.</p>
+
+    <h3>Technical factors</h3>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Factor</th><th>Why it matters</th></tr></thead>
+      <tbody>
+        <tr><td>Scan time and jitter</td><td>Average response is rarely the requirement. What matters is the worst case, since a loop that meets its deadline 99% of the time is a loop that fails predictably.</td></tr>
+        <tr><td>Network topology</td><td>Line, ring, and star topologies differ in how a single cable fault behaves. A ring keeps running through one break; a line stops everything downstream of it.</td></tr>
+        <tr><td>I/O count and distribution</td><td>Whether I/O is centralized or distributed decides the wiring bill, and wiring is a large share of installation cost on any plant of size.</td></tr>
+        <tr><td>Safety integrity level</td><td>The required level follows from a risk assessment, not from preference, and it constrains which components may be used and how they must be arranged.</td></tr>
+        <tr><td>Environmental rating</td><td>Enclosure rating, temperature range, vibration, and hazardous-area classification eliminate candidates before any functional comparison starts.</td></tr>
+        <tr><td>Diagnostics</td><td>Whether a device reports its own health decides mean time to repair. On a line where an hour of downtime costs more than the device, this outranks the device's own reliability.</td></tr>
+        <tr><td>Programming model</td><td>Ladder, structured text, and function block suit different problems and different maintenance staff. The plant's electricians have to be able to read it at three in the morning.</td></tr>
+        <tr><td>Time synchronization</td><td>Coordinated motion and sequence-of-events recording both depend on a shared clock, and the accuracy needed differs between them by orders of magnitude.</td></tr>
+        <tr><td>Network segmentation</td><td>Control traffic and business traffic on one flat network is the condition most incident reports describe. Segmentation is a design decision, not an add-on.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h3>Commercial and strategic factors</h3>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Factor</th><th>What to look for</th></tr></thead>
+      <tbody>
+        <tr><td>Integrator dependence</td><td>Most controls work is done by system integrators rather than by the vendor or the plant. Who holds the source code and the documentation is a commercial question with a long tail.</td></tr>
+        <tr><td>Installed base</td><td>An installed base is an annuity in this industry, because spares, upgrades and engineering all flow to whoever supplied the original system. It is also the main barrier to a new entrant.</td></tr>
+        <tr><td>Lifecycle position</td><td>Vendors publish lifecycle status for product lines, and buying something already in the mature phase shortens the supported life of a plant investment.</td></tr>
+        <tr><td>Spares strategy</td><td>Obsolete controllers trade on a substantial secondary market, and the price of a discontinued module is set by scarcity rather than by cost.</td></tr>
+        <tr><td>Standardization</td><td>A plant with one controller family and one programming standard maintains far more cheaply than one with six, which is why corporate standards exist even where they force a worse local choice.</td></tr>
+        <tr><td>Regulatory exposure</td><td>Machine safety, hazardous areas, and increasingly cybersecurity carry legal obligations, so compliance is a cost of doing business rather than a feature.</td></tr>
+        <tr><td>Skills availability</td><td>Controls engineers are scarce in most markets, and a technology nobody local can maintain has a hidden cost that appears at the first breakdown.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2>Where the money in a controls project goes</h2>
+    <p>Hardware is usually the minority of the bill. Controls engineering, panel building, field wiring, commissioning, and documentation together typically exceed the cost of the controllers, drives and devices they connect, and on a retrofit the ratio is worse because the existing plant has to be surveyed, interfaced, and shut down. That is why the useful comparison between two proposals is rarely the bill of materials: a system that commissions in half the time is worth more than a cheaper one that does not, and a system whose diagnostics let a plant electrician find a fault without calling an integrator keeps paying for twenty years.</p>
+    <p>The second thing worth understanding is that the installed base, not the sale, is the business. Vendors price hardware competitively and earn over the life of the plant through spares, software licenses, upgrades, and the engineering ecosystem trained on their platform. Read a controls quotation with that in mind and the incentives make sense.</p>
+
+    <h2>Core takeaway</h2>
+    <p>Establish the real control deadline before choosing anything, because it separates the expensive architectures from the ordinary ones and most processes need the ordinary one. Then decide deliberately where the plant will accept single-vendor dependence and where it will insist on interoperability, since that choice sets the maintenance cost for two decades. Budget for engineering and commissioning rather than for hardware, and treat diagnostics and documentation as cost reductions rather than as features.</p>
+
+    <h3>Key questions for technical decisions</h3>
+    <ul>
+      <li>What is the actual worst-case deadline for each loop, and what evidence supports it?</li>
+      <li>What happens to production when one cable, one module, or one controller fails?</li>
+      <li>What safety integrity level does the risk assessment require, and what does that rule out?</li>
+      <li>Can the plant's own staff diagnose a fault without the integrator, and what would it take to make that true?</li>
+      <li>Is control traffic separated from business traffic, and who can reach the control network today?</li>
+    </ul>
+
+    <h3>Key questions for investment and business analysis</h3>
+    <ul>
+      <li>How much of the revenue is hardware and how much is the installed base behind it?</li>
+      <li>What would a customer have to replace to switch suppliers, and what would that cost them?</li>
+      <li>Who owns the application code and documentation after commissioning, the plant or the integrator?</li>
+      <li>What is the lifecycle position of the product lines being sold, and how long will they be supported?</li>
+      <li>Does this product need scarce controls engineers to deploy, and does that limit how fast it can grow?</li>
+    </ul>

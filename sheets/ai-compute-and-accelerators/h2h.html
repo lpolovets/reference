@@ -1,0 +1,65 @@
+    <h2>Head-to-head: which accelerator</h2>
+    <p class="muted">Workload shape narrows this to two or three candidates before any specification does. The last column is the condition under which each one is the right answer rather than a list of strengths, since almost everything here is good at something.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Class</th><th>Best at</th><th>Memory</th><th>Software risk</th><th>Pick it when</th></tr></thead>
+      <tbody>
+        <tr><td>GPU</td><td>Anything, well enough</td><td>HBM, tens to hundreds of GB</td><td>None</td><td>The workload is still changing, or the same hardware has to serve training and inference. The default, and the only safe answer for training today.</td></tr>
+        <tr><td>Systolic array</td><td>Large dense matrix work</td><td>HBM, large coherent pods</td><td>Low within the vendor's framework</td><td>Training or serving at scale on well-shaped models, and the organization is willing to work inside one vendor's stack. Mostly captive rather than sold.</td></tr>
+        <tr><td>Dataflow and wafer-scale</td><td>Low latency at small batch</td><td>On-chip SRAM, gigabytes</td><td>High</td><td>Latency is the product and the model fits on-chip. Falls apart when it does not fit, which is the question to settle first.</td></tr>
+        <tr><td>Inference ASIC</td><td>One stable workload</td><td>Sized for weights only</td><td>High</td><td>Volume is high, the operator set is settled, and tokens per watt is genuinely the constraint. Two to three years from design to volume, so the bet is on the workload holding still.</td></tr>
+        <tr><td>FPGA</td><td>Bounded latency in a pipeline</td><td>Tens of MB on-chip</td><td>High, and hardware-shaped</td><td>Inference is one stage of a real-time system that also does filtering or protocol work. Rarely the answer for language model serving.</td></tr>
+        <tr><td>CPU</td><td>Low duty cycle</td><td>System DRAM, terabytes</td><td>None</td><td>Volume is low or unproven and the sockets are already idle. Loses on operating cost the moment the workload runs continuously.</td></tr>
+        <tr><td>Edge NPU</td><td>Small models at a few watts</td><td>Shared LPDDR, a few GB</td><td>Medium, and fragmented per vendor</td><td>Latency, privacy, or per-call server cost is the point, and a small quantized model is genuinely sufficient.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2>Head-to-head: memory tiers</h2>
+    <p class="muted">Bandwidth sets the decode rate and capacity sets whether the model runs at all. These are different constraints and a fleet can be short of either, so the two columns should be read separately rather than as one axis.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Tier</th><th>Bandwidth</th><th>Capacity</th><th>Relative cost per GB</th><th>Use it for</th></tr></thead>
+      <tbody>
+        <tr><td>On-chip SRAM</td><td>Highest by one to two orders</td><td>Tens to hundreds of MB</td><td>Very high, paid in die area</td><td>The working tile of every kernel. Whether a kernel fits here decides whether the hardware reaches its specification.</td></tr>
+        <tr><td>HBM</td><td>Low single-digit TB/s</td><td>Tens to low hundreds of GB</td><td>Several times commodity DRAM</td><td>Weights and KV cache on any serious accelerator. Supply-limited by packaging rather than by DRAM capacity.</td></tr>
+        <tr><td>GDDR</td><td>Hundreds of GB/s</td><td>Comparable or higher per board</td><td>A fraction of HBM</td><td>Cost-sensitive inference and batch work, where capacity per dollar beats peak bandwidth and availability is not queued.</td></tr>
+        <tr><td>LPDDR</td><td>Lower again, and shared</td><td>A few GB to an application</td><td>Lowest</td><td>Every phone and laptop NPU. Bandwidth is shared with the rest of the system, so it varies with what else is running.</td></tr>
+        <tr><td>CXL-attached</td><td>Below system DRAM</td><td>Large, and poolable</td><td>Commodity DRAM plus controllers</td><td>Cold state that would otherwise be evicted, such as paused conversations. Never the critical path of token generation.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2>Head-to-head: precision</h2>
+    <p class="muted">Each row roughly halves the bytes of the row above, which roughly doubles decode rate on a bandwidth-bound workload. The rightmost column is the part that has to be measured rather than assumed, and it is measured on the task rather than on a benchmark average.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Format</th><th>70B model size</th><th>Training</th><th>Inference</th><th>What to watch</th></tr></thead>
+      <tbody>
+        <tr><td>FP32</td><td>~280 GB</td><td>Reference, now rare</td><td>Wasteful</td><td>Kept only for numerically sensitive operations such as accumulation and optimizer state.</td></tr>
+        <tr><td>BF16</td><td>~140 GB</td><td>The default</td><td>The quality reference</td><td>Nothing much. This is the baseline everything else is compared against.</td></tr>
+        <tr><td>FP8</td><td>~70 GB</td><td>Usable with per-tensor scaling</td><td>Close to free on most models</td><td>Scale factor management. A mis-scaled tensor loses information quietly rather than failing.</td></tr>
+        <tr><td>FP4 and microscaling</td><td>~35 GB</td><td>Not suitable</td><td>Weight-only is usually fine</td><td>Activations are materially harder and the KV cache harder again. Degradation appears first on long context.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2>Head-to-head: how to split a model</h2>
+    <p class="muted">These combine rather than compete, and the usual arrangement is tensor parallelism innermost, pipeline across slower boundaries, data parallelism outermost. What decides the layout is how often each strategy has to communicate.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Strategy</th><th>Communicates</th><th>Needs</th><th>Costs</th><th>Use it</th></tr></thead>
+      <tbody>
+        <tr><td>Tensor parallel</td><td>Every layer</td><td>Scale-up fabric</td><td>Fabric on the critical path of every token</td><td>Inside a node or rack, to fit a model that will not fit on one chip.</td></tr>
+        <tr><td>Pipeline parallel</td><td>Per microbatch, at stage boundaries</td><td>Little bandwidth</td><td>An idle bubble at each end of the batch</td><td>Across slower links, where tensor parallelism would stall.</td></tr>
+        <tr><td>Data parallel</td><td>Once per step</td><td>Cluster networking</td><td>Full model replicated per rank</td><td>Outermost, to use more chips on the same model.</td></tr>
+        <tr><td>Sharded optimizer state</td><td>Once per step, in pieces</td><td>Framework support</td><td>Some extra communication</td><td>Whenever memory rather than bandwidth is the constraint. Removes several times the model's own size.</td></tr>
+        <tr><td>Expert parallel</td><td>All-to-all, per mixture layer</td><td>Fast interconnect and aggregate memory</td><td>Load imbalance leaves chips idle</td><td>Mixture-of-experts models, where experts must live somewhere and tokens route to them.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2>Head-to-head: where serving cost actually goes</h2>
+    <p class="muted">Ranked by how much each moves cost per token in practice, which is not the order they usually get discussed in. The first three are operational and cost engineering time; only the last is a purchase.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Lever</th><th>Typical effect</th><th>Costs</th><th>Catch</th></tr></thead>
+      <tbody>
+        <tr><td>Utilization</td><td>40% to 80% roughly halves cost per token</td><td>Scheduling and product-mix work</td><td>Some idleness is deliberate headroom for spikes and failures.</td></tr>
+        <tr><td>Batching and scheduling</td><td>Multiples of throughput on unchanged hardware</td><td>Engineering, and workload knowledge</td><td>Raising throughput usually widens the latency tail.</td></tr>
+        <tr><td>Quantization</td><td>16 to 8 bits roughly doubles decode rate</td><td>An evaluation run</td><td>Quality loss is quiet and concentrated in cases an average hides.</td></tr>
+        <tr><td>Depreciation assumption</td><td>Three against six years, roughly a factor of two</td><td>Nothing technical</td><td>Only defensible if a second life serving inference actually exists.</td></tr>
+        <tr><td>Accelerator choice</td><td>Real, but one term among four</td><td>Capital, and possibly a software port</td><td>Compared at peak FLOPS it frequently points the wrong way for bandwidth-bound work.</td></tr>
+      </tbody>
+    </table></div>

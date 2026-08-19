@@ -1,0 +1,52 @@
+    <h2>Head-to-head: which controller</h2>
+    <p class="muted">Deadline and maintenance staff settle this more often than features do. The last column is the condition under which each is the right answer, since all of them work and the question is which one the plant can live with for twenty years.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Controller</th><th>Typical cycle</th><th>Programmed in</th><th>Lifecycle</th><th>Pick it when</th></tr></thead>
+      <tbody>
+        <tr><td>PLC</td><td>1–10 ms</td><td>Ladder, structured text</td><td>15–25 years in place</td><td>Discrete sequencing and interlocking, maintained by plant electricians. The default, and the burden of proof is on anything else.</td></tr>
+        <tr><td>Safety PLC</td><td>1–10 ms</td><td>Certified restricted subset</td><td>As above, plus revalidation on change</td><td>The risk assessment calls for safety functions of any complexity, or several zones interact. Not needed for one or two simple functions.</td></tr>
+        <tr><td>PAC or industrial PC</td><td>1–10 ms with a real-time layer</td><td>Anything, including general languages</td><td>Hardware a few years, patching ongoing</td><td>The application needs computation, vision, or database access alongside control, and someone will own the patching.</td></tr>
+        <tr><td>Motion controller</td><td>Under 1 ms</td><td>Vendor motion language</td><td>Tied to the drive family</td><td>Axes must be coordinated with each other or with a line master. Overkill for independent point-to-point moves.</td></tr>
+        <tr><td>Edge controller</td><td>10–100 ms for its own tasks</td><td>Containers, general software</td><td>Software cadence in a plant cadence</td><td>Data has to be processed or buffered locally, and the governance question of who patches it has an answer.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2>Head-to-head: which network</h2>
+    <p class="muted">Establish the real deadline first, because the fast options cost more to install and more to maintain, and most of manufacturing does not need them. Determinism here means a bounded worst case rather than a fast average.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Network</th><th>Deadline</th><th>Lock-in</th><th>Diagnostics</th><th>Use it for</th></tr></thead>
+      <tbody>
+        <tr><td>Legacy fieldbus</td><td>1–10 ms</td><td>Open, multi-vendor</td><td>Limited</td><td>Existing installations, and new process instrumentation where two-wire power and intrinsic safety matter.</td></tr>
+        <tr><td>Industrial Ethernet</td><td>1–10 ms</td><td>Protocol tied to a vendor camp</td><td>Good, device-level</td><td>The default for new discrete and hybrid work, and for anything that must reach the supervisory layer.</td></tr>
+        <tr><td>EtherCAT</td><td>Under 1 ms</td><td>Open group, specific devices</td><td>Good</td><td>Coordinated motion with many axes. Needs no managed switches, which keeps the cost down.</td></tr>
+        <tr><td>TSN</td><td>Under 1 ms</td><td>IEEE standard</td><td>Good</td><td>One converged network carrying control and other traffic. Requires support in every switch along the path.</td></tr>
+        <tr><td>IO-Link</td><td>10–100 ms</td><td>Open standard</td><td>Excellent, per device</td><td>Sensor configuration and diagnostics over existing three-wire cable. Point to point, so masters are the cost.</td></tr>
+        <tr><td>Wireless</td><td>Over 100 ms, variable</td><td>Multi-vendor</td><td>Varies</td><td>Monitoring, mobile equipment, and locations where cable costs more than the instrument. Never a hard-deadline loop.</td></tr>
+        <tr><td>OPC UA</td><td>Not real-time</td><td>Open standard</td><td>Rich information model</td><td>Everything above the control layer. Not for controller-to-I/O traffic.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2>Head-to-head: safety implementation</h2>
+    <p class="muted">The required integrity level comes from the risk assessment and is not a choice. What is a choice is how to implement it, and the deciding factor is usually how often the machine will change rather than how many functions it has today.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Approach</th><th>Suits</th><th>Cost of change</th><th>Diagnostics</th><th>Watch for</th></tr></thead>
+      <tbody>
+        <tr><td>Hardwired safety relays</td><td>One or two fixed functions</td><td>Rewiring</td><td>Which relay dropped out</td><td>Panel complexity growing past a handful of relays, at which point it becomes unmaintainable.</td></tr>
+        <tr><td>Safety PLC</td><td>Multiple interacting zones, muting</td><td>Reprogramming plus revalidation</td><td>Which device caused the trip</td><td>Validation and documentation cost on every change, which is real but usually beats rewiring.</td></tr>
+        <tr><td>Integrated safety in the standard controller</td><td>Machines already on that platform</td><td>As above, within one environment</td><td>Unified with the machine's own</td><td>Confirming that a standard-side change cannot alter safety behavior.</td></tr>
+        <tr><td>Fixed guarding</td><td>Access is rare</td><td>Mechanical work</td><td>None needed</td><td>Being defeated when access turns out to be more frequent than the design assumed.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2>Head-to-head: where a controls budget goes</h2>
+    <p class="muted">Ranked by share of a typical project rather than by how much attention each gets in a specification. The pattern that matters is that hardware is the minority and the engineering around it is not.</p>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Line</th><th>Share</th><th>Driven by</th><th>How to reduce it</th></tr></thead>
+      <tbody>
+        <tr><td>Controls engineering</td><td>The largest single line on most projects</td><td>Application complexity and reuse</td><td>Standardize on one platform and reuse tested application code across machines.</td></tr>
+        <tr><td>Field wiring and panels</td><td>Large, and larger on retrofits</td><td>Distance and device count</td><td>Distribute I/O so long runs become one network cable and many short ones.</td></tr>
+        <tr><td>Commissioning</td><td>Absorbs every upstream delay</td><td>How much was tested beforehand</td><td>Complete factory acceptance testing and virtual commissioning, which move faults off the critical path.</td></tr>
+        <tr><td>Hardware</td><td>The minority it is usually mistaken for the whole of</td><td>Device count and ratings</td><td>Specify environmental ratings from where devices actually sit, neither over nor under.</td></tr>
+        <tr><td>Twenty-year maintenance</td><td>Invisible at purchase, dominant over the life</td><td>Lock-in, documentation, diagnostics</td><td>Contract for source code and documentation, and check lifecycle status before buying.</td></tr>
+      </tbody>
+    </table></div>

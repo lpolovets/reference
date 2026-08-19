@@ -1,0 +1,152 @@
+{
+  "slug": "ai-compute-and-accelerators",
+  "docTitle": "AI Compute and Accelerators Reference",
+  "shortTitle": "AI Compute",
+  "blurb": "The chips that run machine learning and the systems built from them — architectures, memory bandwidth, cluster fabric, numeric formats, and the software stack — compared on what each one suits, what it draws, and where the cost per token actually goes.",
+  "category": "Semiconductors",
+  "question": "Which chip runs this workload, and what does a token cost?",
+  "title": "AI Compute and Accelerators: A Practical Reference",
+  "lede": "An accelerator is rarely limited by the arithmetic it can do. It is limited by the memory bandwidth feeding it, the fabric connecting it to its neighbors, and the software able to reach it at all. This guide catalogs {{N_ENTRIES}} architectures, memory and interconnect technologies, numeric formats, and deployment patterns across seven classes, with the workloads each one suits and where the money in a cluster actually goes. Prices, part numbers and precision formats in this field move within a quarter, so the entries describe architecture classes rather than current products, and every figure should be treated as a directional band rather than a quote.",
+  "unit": ["technology", "technologies"],
+  "groupLabel": "Class",
+  "explorerTab": "Compute explorer",
+  "guideTab": "Selection guide",
+  "h2hTab": "Head-to-head",
+  "searchPlaceholder": "Search accelerators, memory, fabric, formats…",
+  "stats": [
+    { "count": "entries", "label": "technologies" },
+    { "count": "parts", "label": "classes" },
+    { "count": "groups", "label": "families" }
+  ],
+  "parts": [
+    { "id": 1, "roman": "I", "name": "Accelerator Architectures", "blurb": "the silicon that does the arithmetic", "color": "var(--p1)" },
+    { "id": 2, "roman": "II", "name": "Memory and Bandwidth", "blurb": "what actually feeds the math units", "color": "var(--p2)" },
+    { "id": 3, "roman": "III", "name": "Interconnect and Scale", "blurb": "turning many chips into one machine", "color": "var(--p3)" },
+    { "id": 4, "roman": "IV", "name": "Numerics and Execution", "blurb": "how few bits the model tolerates", "color": "var(--p4)" },
+    { "id": 5, "roman": "V", "name": "Software Stack", "blurb": "what decides whether silicon is usable", "color": "var(--p5)" },
+    { "id": 6, "roman": "VI", "name": "Deployment Shapes", "blurb": "how the hardware is actually run", "color": "var(--p6)" },
+    { "id": 7, "roman": "VII", "name": "Economics and Supply", "blurb": "where the money and the lead times go", "color": "var(--p7)" }
+  ],
+  "groupBlurbs": {
+    "Programmable accelerators": "general-purpose engines that run whatever the compiler emits",
+    "Fixed-function and specialized": "silicon that trades flexibility for efficiency",
+    "Memory technologies": "the storage tiers that sit next to the compute",
+    "Bandwidth and capacity limits": "why a chip idles with work waiting",
+    "Scale-up fabric": "tight coupling inside a node or rack",
+    "Scale-out networking": "loose coupling across a cluster",
+    "Numeric formats": "the precision the arithmetic runs at",
+    "Model-level techniques": "changing the work rather than the hardware",
+    "Programming models": "how code reaches the accelerator",
+    "Serving and runtime": "what turns a model into a service",
+    "Training deployments": "clusters built to fit a model",
+    "Inference deployments": "fleets built to answer requests",
+    "Unit economics": "what a unit of useful work costs",
+    "Supply and constraints": "what limits who can buy and run this"
+  },
+  "presets": [
+    { "label": "Inference, shipping today", "f": { "work": ["inf"], "mtr": ["ship"] } },
+    { "label": "Bandwidth-bound", "parts": [2] },
+    { "label": "Under 400 W", "f": { "pwr": ["low", "mid"] } },
+    { "label": "Rack scale and up", "f": { "scale": ["rack", "cluster", "multi"] } }
+  ],
+  "facets": [
+    {
+      "id": "work",
+      "key": "workloads",
+      "label": "Workload",
+      "type": "multi",
+      "color": "--fa",
+      "required": true,
+      "tagRow": 2,
+      "tip": "Which jobs this technology is mainly used for today. Directional tags, not an exhaustive claim — most accelerators can run most workloads badly.",
+      "order": ["train", "inf", "tune", "edge", "hpc"],
+      "options": {
+        "train": "Training",
+        "inf": "Inference",
+        "tune": "Fine-tuning",
+        "edge": "Edge & on-device",
+        "hpc": "Scientific & HPC"
+      }
+    },
+    {
+      "id": "prec",
+      "key": "precision",
+      "label": "Precision",
+      "type": "range",
+      "color": "--fb",
+      "tagPrefix": "Precision",
+      "tip": "The numeric formats this technology works at or supports. Lower precision buys throughput and memory, and costs accuracy that has to be measured rather than assumed.",
+      "order": ["fp32", "bf16", "fp8", "fp4"],
+      "options": {
+        "fp32": "FP32",
+        "bf16": "BF16/FP16",
+        "fp8": "FP8",
+        "fp4": "FP4/INT4"
+      }
+    },
+    {
+      "id": "scale",
+      "key": "scale",
+      "label": "Scale",
+      "type": "range",
+      "color": "--fc",
+      "required": true,
+      "tagPrefix": "Scale",
+      "tip": "The size of system this technology operates at, from a single package up to several datacenters cooperating on one job.",
+      "order": ["chip", "node", "rack", "cluster", "multi"],
+      "options": {
+        "chip": "Single chip",
+        "node": "Node",
+        "rack": "Rack",
+        "cluster": "Cluster",
+        "multi": "Multi-site"
+      }
+    },
+    {
+      "id": "pwr",
+      "key": "power",
+      "label": "Power",
+      "type": "single",
+      "color": "--fd",
+      "tagPrefix": "Power",
+      "tip": "Directional power draw per device or per unit, where the concept applies. Software and economics entries carry no tag.",
+      "order": ["vlow", "low", "mid", "high"],
+      "options": {
+        "vlow": "<100 W",
+        "low": "100–400 W",
+        "mid": "400–1000 W",
+        "high": "1 kW+"
+      },
+      "chipLabels": {
+        "vlow": "<100 W",
+        "low": "100–400 W",
+        "mid": "400 W–1 kW",
+        "high": "Over 1 kW"
+      }
+    },
+    {
+      "id": "mtr",
+      "key": "maturity",
+      "label": "Maturity",
+      "type": "single",
+      "color": "--fe",
+      "required": true,
+      "tip": "Shipping = bought and deployed in volume today · Scaling = real deployments, still growing fast · Early = first products or limited availability · Research = papers and prototypes.",
+      "order": ["ship", "scale", "early", "res"],
+      "options": {
+        "ship": "Shipping",
+        "scale": "Scaling",
+        "early": "Early",
+        "res": "Research"
+      }
+    }
+  ],
+  "videosAfter": "Economic profile",
+  "extraSections": [
+    ["when to use", "When to use"],
+    ["key numbers", "Key numbers"],
+    ["examples", "Examples"],
+    ["economic profile", "Economic profile"],
+    ["further reading", "Further reading"]
+  ]
+}

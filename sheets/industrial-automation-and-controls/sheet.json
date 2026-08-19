@@ -1,0 +1,145 @@
+{
+  "slug": "industrial-automation-and-controls",
+  "docTitle": "Industrial Automation and Controls Reference",
+  "shortTitle": "Industrial Automation",
+  "blurb": "The controllers, networks, field devices, safety systems and software that run a factory or a process plant — compared on which layer they sit at, how deterministic they have to be, how locked to one vendor they are, and what the integration actually costs.",
+  "category": "Robotics and Manufacturing",
+  "question": "What runs this line, and what does it cost to build and keep running?",
+  "title": "Industrial Automation and Controls: A Practical Reference",
+  "lede": "A machine that moves is only the visible part of an automation project. Underneath it sits a controller, a network with a deadline, a layer of field devices, a safety system that has to be certified, and a software stack that reports to the business — and the engineering to connect them typically costs more than the hardware does. This guide catalogs {{N_ENTRIES}} technologies across seven classes, with the layer each one belongs to, how tightly it ties a plant to one supplier, and where the money in a controls project actually goes.",
+  "unit": ["technology", "technologies"],
+  "groupLabel": "Class",
+  "explorerTab": "Controls explorer",
+  "guideTab": "Selection guide",
+  "h2hTab": "Head-to-head",
+  "searchPlaceholder": "Search controllers, networks, I/O, safety, software…",
+  "stats": [
+    { "count": "entries", "label": "technologies" },
+    { "count": "parts", "label": "classes" },
+    { "count": "groups", "label": "families" }
+  ],
+  "parts": [
+    { "id": 1, "roman": "I", "name": "Controllers", "blurb": "the box that decides what happens", "color": "var(--p1)" },
+    { "id": 2, "roman": "II", "name": "Networks", "blurb": "how the parts talk, and by when", "color": "var(--p2)" },
+    { "id": 3, "roman": "III", "name": "Field Devices and I/O", "blurb": "where the plant meets the control system", "color": "var(--p3)" },
+    { "id": 4, "roman": "IV", "name": "Motion and Machine Control", "blurb": "coordinating axes and cells", "color": "var(--p4)" },
+    { "id": 5, "roman": "V", "name": "Safety and Compliance", "blurb": "the part that is not optional", "color": "var(--p5)" },
+    { "id": 6, "roman": "VI", "name": "Software and Data", "blurb": "what the plant reports to the business", "color": "var(--p6)" },
+    { "id": 7, "roman": "VII", "name": "Integration and Lifecycle", "blurb": "who builds it and who keeps it running", "color": "var(--p7)" }
+  ],
+  "groupBlurbs": {
+    "Programmable controllers": "the general-purpose control platforms",
+    "Specialized controllers": "boxes built for one job",
+    "Fieldbus and Ethernet": "the wired networks that carry control traffic",
+    "Wireless and interoperability": "getting data out without new cable",
+    "I/O and sensing": "reading what the process is doing",
+    "Actuation and vision": "acting on it, and looking at it",
+    "Motion control": "coordinating axes to a trajectory",
+    "Process and cell control": "loops, recipes and robot cells",
+    "Machine safety": "stopping the machine before it hurts someone",
+    "Certification and hazardous areas": "proving it, and surviving the environment",
+    "Operations software": "running and recording production",
+    "Analytics and security": "making the data useful and keeping it safe",
+    "Delivery": "how a controls project actually gets built",
+    "Lifecycle": "the twenty years after commissioning"
+  },
+  "presets": [
+    { "label": "Open standards only", "f": { "lock": ["open"] } },
+    { "label": "Hard real time", "f": { "det": ["sub1", "ms10"] } },
+    { "label": "Process plants", "f": { "ind": ["proc"] } },
+    { "label": "Above the control layer", "f": { "layer": ["super", "ent"] } }
+  ],
+  "facets": [
+    {
+      "id": "layer",
+      "key": "layer",
+      "label": "Layer",
+      "type": "single",
+      "color": "--fa",
+      "required": true,
+      "tip": "Roughly where this sits in the classic plant hierarchy: field devices at the bottom, controllers above them, supervisory systems above that, and business systems at the top. The boundaries blur in modern architectures, so read this as a center of gravity.",
+      "order": ["field", "control", "super", "ent"],
+      "options": {
+        "field": "Field",
+        "control": "Control",
+        "super": "Supervisory",
+        "ent": "Enterprise"
+      }
+    },
+    {
+      "id": "ind",
+      "key": "industries",
+      "label": "Industry",
+      "type": "multi",
+      "color": "--fb",
+      "required": true,
+      "tagRow": 2,
+      "tip": "Where this technology is mainly used. Discrete means parts and assembly, process means continuous fluids and chemistry, hybrid means batch production that has some of both.",
+      "order": ["disc", "proc", "hybrid", "log", "bldg"],
+      "options": {
+        "disc": "Discrete",
+        "proc": "Process",
+        "hybrid": "Hybrid & batch",
+        "log": "Logistics",
+        "bldg": "Building & utility"
+      }
+    },
+    {
+      "id": "det",
+      "key": "determinism",
+      "label": "Determinism",
+      "type": "single",
+      "color": "--fc",
+      "tagPrefix": "Cycle",
+      "tip": "The response deadline this technology is normally built to meet. Faster is not better here, it is more expensive: a loop that only needs 100 ms costs less to build and less to maintain than one specified at a millisecond.",
+      "order": ["sub1", "ms10", "ms100", "slow", "nrt"],
+      "options": {
+        "sub1": "Under 1 ms",
+        "ms10": "1–10 ms",
+        "ms100": "10–100 ms",
+        "slow": "Over 100 ms",
+        "nrt": "Not real-time"
+      }
+    },
+    {
+      "id": "lock",
+      "key": "lockin",
+      "label": "Lock-in",
+      "type": "single",
+      "color": "--fd",
+      "required": true,
+      "tip": "How tied a plant becomes to one supplier by adopting this. Open standard means several vendors implement it interoperably; proprietary means the replacement has to come from the same company, at whatever it costs in fifteen years.",
+      "order": ["open", "multi", "single", "prop"],
+      "options": {
+        "open": "Open standard",
+        "multi": "Multi-vendor",
+        "single": "Single vendor",
+        "prop": "Proprietary"
+      }
+    },
+    {
+      "id": "mtr",
+      "key": "maturity",
+      "label": "Maturity",
+      "type": "single",
+      "color": "--fe",
+      "required": true,
+      "tip": "Standard = specified by default on new projects · Growing = proven and gaining share · Early = real installations but not yet routine · Research = demonstrated rather than deployed.",
+      "order": ["std", "grow", "early", "res"],
+      "options": {
+        "std": "Standard",
+        "grow": "Growing",
+        "early": "Early",
+        "res": "Research"
+      }
+    }
+  ],
+  "videosAfter": "Economic profile",
+  "extraSections": [
+    ["when to use", "When to use"],
+    ["key numbers", "Key numbers"],
+    ["examples", "Examples"],
+    ["economic profile", "Economic profile"],
+    ["further reading", "Further reading"]
+  ]
+}

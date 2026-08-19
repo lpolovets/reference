@@ -1,0 +1,71 @@
+    <h2>How to choose AI compute</h2>
+    <p class="muted">Two questions settle most of it. <b>Whether the job is limited by arithmetic or by memory bandwidth</b> decides which half of the machine matters, and for most inference the answer is bandwidth, which is why comparing chips on peak FLOPS misleads so consistently. Then <b>how few bits the model tolerates</b> sets both throughput and how much fits in memory at all. Almost every other argument about accelerators reduces to one of those two, or to the software question underneath them: whether anyone can reach the silicon.</p>
+
+    <h3>Arithmetic intensity decides what to buy</h3>
+    <p>Every kernel has a ratio of arithmetic performed to bytes moved, and comparing it against the machine's own ratio of peak FLOPS to peak bandwidth tells you which resource runs out first. Training with a large batch, and the prefill pass that reads a prompt, both do a great deal of math per byte fetched, so they are limited by the math units and peak FLOPS is the number that matters. Generating tokens one at a time is the opposite. Each token requires reading essentially the whole weight set from memory to produce a single output, so the arithmetic is trivial and the memory system sets the rate.</p>
+    <p>That leads to a piece of arithmetic worth doing before any purchase, derived here rather than looked up: a 70-billion-parameter model stored at BF16 occupies roughly 140 GB, so an accelerator with 3 TB/s of memory bandwidth can read the weights about 21 times a second, and a single unbatched stream therefore produces on the order of 21 tokens a second no matter how fast the math units are. Doubling peak FLOPS changes nothing. Halving the bytes per parameter roughly doubles the rate. This is why quantization gets the attention it does, why memory bandwidth per dollar is the honest metric for inference silicon, and why serving systems work so hard to batch requests together — a batch reads the weights once and amortizes them across every sequence in it.</p>
+    <div class="bands">
+      <div class="band"><div class="bt">Compute-bound</div><div class="bv">Training, fine-tuning, and the prefill pass over a long prompt. Peak FLOPS at the working precision is the right comparison, and utilization is the thing to protect.</div></div>
+      <div class="band"><div class="bt">Bandwidth-bound</div><div class="bv">Token-by-token decoding at small batch. Memory bandwidth sets the ceiling; more FLOPS buys nothing. Batching and quantization are the levers.</div></div>
+      <div class="band"><div class="bt">Capacity-bound</div><div class="bv">The model or its KV cache does not fit. Everything else is academic until it does, which is what drives quantization, offload, and multi-chip partitioning.</div></div>
+      <div class="band"><div class="bt">Fabric-bound</div><div class="bv">Large training runs where gradient exchange between chips takes longer than the math. Interconnect bandwidth and collective algorithms decide the scaling efficiency.</div></div>
+    </div>
+
+    <h3>Precision is the cheapest lever available</h3>
+    <p>Halving the bits per value roughly halves the memory footprint and roughly doubles the effective bandwidth, and on hardware with native support it also raises peak throughput. Nothing else in this field offers that ratio of benefit to effort. BF16 is the default for training because it keeps FP32's exponent range and drops mantissa bits that gradients do not need. FP8 has become ordinary for inference and is used in training with per-tensor scaling to keep values inside the format's narrow range. FP4 and the microscaling formats push further by attaching a shared scale to small blocks of values, which is what makes four bits usable at all.</p>
+    <p>The cost is accuracy, and the honest position is that it has to be measured on the actual task rather than assumed from a benchmark average. Degradation is not uniform: it usually appears first on long-context behavior, on rare tokens, and on chains of reasoning, none of which move a typical aggregate score much. A useful rule of thumb is that weight-only quantization to 4 bits is close to free for most models, quantizing the KV cache is where quality problems start, and quantizing activations is where they become obvious.</p>
+
+    <h3>Technical factors</h3>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Factor</th><th>Why it matters</th></tr></thead>
+      <tbody>
+        <tr><td>Memory bandwidth</td><td>Sets the decode rate directly. For a bandwidth-bound workload it is the specification that decides throughput, and it is the reason HBM exists.</td></tr>
+        <tr><td>Memory capacity</td><td>Decides whether the model runs on one chip at all. Splitting a model across chips converts a memory problem into a fabric problem, which is usually worse.</td></tr>
+        <tr><td>KV cache growth</td><td>Grows with batch size and context length and competes with weights for the same memory. At long context it can exceed the model itself and becomes the binding constraint.</td></tr>
+        <tr><td>Scale-up bandwidth</td><td>Bandwidth between chips inside a node or rack. Tensor parallelism is only viable where this is high, which is what a proprietary fabric is really selling.</td></tr>
+        <tr><td>Scale-out topology</td><td>Cluster networking decides how gradient exchange scales. Rail-optimized designs and good collective algorithms often matter more than raw link speed.</td></tr>
+        <tr><td>Model FLOPs utilization</td><td>The fraction of peak actually achieved on a real run. Getting from 30% to 50% is worth more than most hardware upgrades and costs engineering rather than capital.</td></tr>
+        <tr><td>Power density</td><td>Accelerators past roughly 700 W per package need liquid cooling, which changes what buildings can host them and how quickly capacity can be added.</td></tr>
+        <tr><td>Software maturity</td><td>Peak specifications assume kernels exist. On a new architecture the gap between theoretical and achievable throughput is usually a compiler and kernel-library gap.</td></tr>
+        <tr><td>Failure rate at scale</td><td>Large training runs are interrupted often enough that checkpointing frequency and restart cost become a real part of the schedule rather than an operational detail.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h3>Commercial and strategic factors</h3>
+    <div class="tblwrap"><table>
+      <thead><tr><th>Factor</th><th>What to look for</th></tr></thead>
+      <tbody>
+        <tr><td>Switching cost</td><td>The software moat is the durable asset in this market. Ask how much of a customer's stack is written against vendor-specific primitives rather than a portable framework.</td></tr>
+        <tr><td>Allocation and lead time</td><td>Supply has been the binding constraint on revenue more often than demand. Who gets capacity, and on what terms, is frequently the whole story.</td></tr>
+        <tr><td>Depreciation schedule</td><td>Assumed useful life swings cost per token more than chip choice does. A three-year and a six-year assumption produce very different economics from identical hardware.</td></tr>
+        <tr><td>Power availability</td><td>Grid interconnection queues now gate deployment more often than chip supply. A site with power is worth more than a site without one.</td></tr>
+        <tr><td>Utilization</td><td>Idle accelerators are the largest avoidable cost in the industry. A fleet at 40% utilization has roughly double the cost per token of the same fleet at 80%.</td></tr>
+        <tr><td>Export controls</td><td>Performance thresholds decide which parts ship where, and they have been revised repeatedly. A design near a threshold carries regulatory risk that is not visible in its specifications.</td></tr>
+        <tr><td>Residual value</td><td>Older accelerators keep serving inference long after they stop being competitive for training, and that second life supports the depreciation assumptions above it.</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2>Where the money in a cluster goes</h2>
+    <p>Accelerator capital dominates, and everything else is a fraction of it. Network is a meaningful minority of system cost on a large training cluster and much less on an inference fleet. Power and cooling are an operating cost that scales with utilization, and the building is amortized over a longer life than the chips inside it. The result is that cost per unit of useful work is set mostly by two numbers a specification sheet does not carry: how much of the hardware's peak a real workload achieves, and how many hours a day the fleet is busy. Both are operational rather than architectural, which is why two operators running identical hardware can report costs that differ by a factor of two.</p>
+    <p>The cheapest capacity is usually the capacity already bought. An accelerator that is fully depreciated and still serving requests has a cost per token limited by power alone, and that is the standard any new purchase is competing against rather than the list price of the previous generation.</p>
+
+    <h2>Core takeaway</h2>
+    <p>Decide whether the workload is limited by arithmetic, bandwidth, capacity, or the fabric, because that decides which specification to compare and which upgrades are wasted money. Then choose the lowest precision the task tolerates, measured rather than assumed. Treat the software stack as part of the hardware decision, since an accelerator nobody can program is not cheap at any price, and treat utilization as the number that actually sets cost.</p>
+
+    <h3>Key questions for technical decisions</h3>
+    <ul>
+      <li>Is this job compute-bound, bandwidth-bound, capacity-bound, or fabric-bound? Which specification does that make the deciding one?</li>
+      <li>Does the model plus its KV cache fit in one chip's memory at the working precision, and what happens to the answer at full context length?</li>
+      <li>What precision has been validated on this specific task, and what was measured to decide that?</li>
+      <li>What model FLOPs utilization does the current implementation reach, and what is the plausible ceiling?</li>
+      <li>Do the kernels this workload needs exist on this hardware today, or is the plan to write them?</li>
+    </ul>
+
+    <h3>Key questions for investment and business analysis</h3>
+    <ul>
+      <li>What fraction of the customer's stack would have to be rewritten to move to different silicon?</li>
+      <li>What depreciation life is assumed, and does the cost per token still work at a shorter one?</li>
+      <li>What is fleet utilization, and what would it take to raise it?</li>
+      <li>Is the constraint on growth chips, power, capital, or customers, and has that changed in the last year?</li>
+      <li>Where does this product sit against export-control thresholds, and what happens if they move again?</li>
+    </ul>

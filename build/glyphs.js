@@ -85,6 +85,16 @@ const GLYPHS = {
     '<path d="M7.6 13.4a6.2 6.2 0 0 1 8.8 0"/>' +
     '<path d="M4.6 10.2a10.5 10.5 0 0 1 14.8 0"/>',
 
+  // A ladder-logic rung: two power rails, a normally-open contact, a coil. The
+  // other glyphs in this category are a robot arm, a gripper and a sensor cone,
+  // so this one cannot be a machine at all; the rung is the notation every
+  // controls engineer reads first, and nothing else in the set is a ladder.
+  'industrial-automation-and-controls':
+    '<path d="M3.5 3.5v17M20.5 3.5v17"/>' +
+    '<path d="M3.5 12h4M10 12h2M17 12h3.5"/>' +
+    '<path d="M7.5 9.5v5M10 9.5v5"/>' +
+    '<circle cx="14.5" cy="12" r="2.5"/>',
+
   // ---- Materials ----
   'critical-minerals':
     '<path d="M12 3 4.5 9.5 12 21l7.5-11.5z"/>' +
@@ -157,6 +167,16 @@ const GLYPHS = {
     '<path d="M2.5 12.5h19l-3 6H5.5z"/>' +
     '<path d="M9 12.5V8h4.5v4.5"/>' +
     '<path d="M3 21c2-1.5 4-1.5 6 0s4 1.5 6 0 4-1.5 6 0"/>',
+
+  // A wide die flanked by two memory stacks on a substrate. The semiconductor
+  // glyph next door is already a pinned square, so this one cannot also be a
+  // chip outline: what separates an accelerator package visually is the HBM
+  // either side of it, and no other glyph in the set is a three-block cluster.
+  'ai-compute-and-accelerators':
+    '<rect x="9" y="6.5" width="6" height="11" rx="1.2"/>' +
+    '<rect x="3.5" y="8.5" width="4" height="7" rx="1"/>' +
+    '<rect x="16.5" y="8.5" width="4" height="7" rx="1"/>' +
+    '<path d="M3.5 12h4M16.5 12h4"/>',
 
   // ---- Defense and Aerospace ----
   'counter-uas-and-ew':
