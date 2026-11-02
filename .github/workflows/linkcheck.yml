@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write   # the keep-alive commit at the end; see that step
   issues: write
 
 jobs:
@@ -60,21 +60,35 @@ jobs:
             exit 0
           fi
 
+          # Report the part that needs action. links.js prints DEAD, then
+          # SUSPECT, then BLOCKED, then its summary, and BLOCKED is by far the
+          # longest section while being the one nobody has to do anything about
+          # — it is hosts that refuse automated clients and work in a browser.
+          # `tail -c 20000` therefore kept the noise and truncated the DEAD list
+          # off the top, which is how the September, October and November issues
+          # came to open mid-sentence with their findings missing.
+          dead() { awk '/^DEAD \(/{f=1} /^(SUSPECT|BLOCKED) \(/{f=0} f' "$1"; }
+          summary() { grep -E '^[0-9]+ OK,' "$1" | tail -1; }
           {
             echo "The monthly check found links or videos that no longer resolve."
             echo
-            echo "[Full run]($RUN_URL)"
+            echo "[Full run]($RUN_URL) — the full output, including the SUSPECT and"
+            echo "BLOCKED sections left out below, is in the run log."
             echo
             echo '## Further reading'
             echo '```'
-            tail -c 20000 links.txt
+            summary links.txt
+            echo
+            dead links.txt
             echo '```'
             echo
             echo '## Videos'
             echo '```'
-            tail -c 20000 videos.txt
+            summary videos.txt
+            echo
+            grep -E '^(GONE|RETITLED)' videos.txt || echo '(none)'
             echo '```'
-          } > body.md
+          } | head -c 60000 > body.md
 
           TITLE="Link rot check: $(date -u +'%B %Y')"
           # One issue per month, reopened and updated rather than a new one each
@@ -90,3 +104,29 @@ jobs:
               || gh issue create --title "$TITLE" --body-file body.md
           fi
           exit 1
+
+      # GitHub disables a scheduled workflow after 60 days without a COMMIT to
+      # the repository. Workflow runs do not count: this one ran on 1 September,
+      # 1 October and 1 November and was switched off anyway, because the last
+      # commit was 19 August. A check that only matters when nobody is touching
+      # the repo cannot depend on someone touching the repo, so the run makes its
+      # own commit and resets the clock every month.
+      #
+      # if: always() because the step above exits 1 whenever it finds rot, which
+      # is exactly when the schedule most needs to survive.
+      #
+      # This does not trigger the Pages deploy: a push authenticated with
+      # GITHUB_TOKEN does not start another workflow run.
+      - name: Keep the schedule alive
+        if: always()
+        run: |
+          set -euo pipefail
+          date -u +'%Y-%m-%dT%H:%M:%SZ' > .github/last-linkcheck
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add .github/last-linkcheck
+          # --quiet exit 0 when nothing changed, so a re-run in the same second
+          # does not fail the job on an empty commit.
+          git diff --cached --quiet && exit 0
+          git commit -m "Link rot check ran $(date -u +'%Y-%m-%d')"
+          git push

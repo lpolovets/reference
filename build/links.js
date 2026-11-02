@@ -230,11 +230,27 @@ async function checkPMC(jobs) {
       const r = await fetch(u, { headers: { 'user-agent': UA }, signal: AbortSignal.timeout(TIMEOUT) });
       j = await r.json();
     } catch (e) { /* leave unresolved below */ }
-    const uids = (j && j.result && j.result.uids) || null;
+    // Grade on the per-record error field, not on membership of result.uids.
+    // Two reasons, both found on 2026-11-01 when a monthly run reported all 398
+    // PMC citations dead at once:
+    //   - E-utilities echoes an unknown id straight back in uids, so a genuinely
+    //     dead id is present in that list and the old membership test graded it
+    //     OK. The check could not detect the thing it exists to detect.
+    //   - An empty uids array is truthy, so `(...) || null` left it in place, the
+    //     BLOCKED branch was skipped, and every id in the batch fell through to
+    //     DEAD. One bad response condemned the entire corpus.
+    // The record itself is unambiguous: a real article has a title and no error,
+    // a bogus id comes back as {"uid":"999999999","error":"cannot get document
+    // summary"}. Anything else about the response shape is treated as BLOCKED,
+    // because not knowing is not the same as rot.
+    const res = (j && j.result) || null;
+    const uids = res && Array.isArray(res.uids) ? res.uids.map(String) : null;
     for (let k = 0; k < slice.length; k++) {
       const id = slice[k];
-      if (!uids) results.set(id, { grade: 'BLOCKED', why: 'E-utilities did not answer' });
-      else if (!uids.includes(id)) results.set(id, { grade: 'DEAD', why: 'no such PMC id' });
+      const rec = res && res[id];
+      if (!uids || !uids.length) results.set(id, { grade: 'BLOCKED', why: 'E-utilities returned no records' });
+      else if (!rec) results.set(id, { grade: 'BLOCKED', why: 'E-utilities did not return this id' });
+      else if (rec.error) results.set(id, { grade: 'DEAD', why: 'no such PMC id (' + rec.error + ')' });
       else results.set(id, { grade: 'OK' });
     }
     await new Promise(r => setTimeout(r, 400));   // NCBI asks for <3 req/sec
