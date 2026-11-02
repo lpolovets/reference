@@ -36,7 +36,7 @@ At pennies to a few dollars per part in volume, this is one of the cheapest ways
 
 - https://www.youtube.com/watch?v=GFDD5dNvWOQ — Why Is Shot Peening So Important? (CamcraftInc, 3 minutes, 50k+ views)
 - https://www.youtube.com/watch?v=c_PcTzUWmgw — What Is Shot Peening and What Is It Used For? (Vapor Honing Technologies, 5 minutes, 10k+ views)
-- https://www.youtube.com/watch?v=hlQxsGWDEhE — Curtiss-Wright Surface Technologies: Controlled Shot Peening Animation (Curtiss-Wright Surface Technologies, 2 minutes, 1k+ views)
+- https://www.youtube.com/watch?v=c_PcTzUWmgw — What Is Shot Peening and What Is It Used For? (Vapor Honing Technologies, 5 minutes, 10k+ views)
 
 ## Further reading
 

@@ -31,7 +31,7 @@ Scrap is the whole cost story. US purchases of iron and steel scrap were worth $
 ## Videos
 
 - https://www.youtube.com/watch?v=o9QrqAYAFwE — A Detailed Explanation of the Electric Arc Furnace - What It is and How It Works (James Sword Engineering, 6 minutes, 100k+ views)
-- https://www.youtube.com/watch?v=8sz-7-pv92E — How Millions Of Old Cars Are Recycled Into New Steel | Massive Car Recycling Line (The Factoran, 16 minutes, 1m+ views)
+- https://www.youtube.com/watch?v=o9QrqAYAFwE — A Detailed Explanation of the Electric Arc Furnace - What It is and How It Works (James Sword Engineering, 6 minutes, 100k+ views)
 
 ## Further reading
 

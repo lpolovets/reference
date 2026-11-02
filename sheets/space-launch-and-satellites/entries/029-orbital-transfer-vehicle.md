@@ -34,7 +34,7 @@ This is the only part of in-space logistics with meaningful revenue today, and i
 
 ## Videos
 
-- https://www.youtube.com/watch?v=Oe1Wrbz07ls — Space Tug, an autonomous spacecraft (Airbus Defence and Space, 2 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=Oe1Wrbz07ls — Can We Keep Space Clearn and Safe? Discover the Role of Space Tug 🛰️ | Airbus DS (Airbus Defence and Space, 2 minutes, 10k+ views)
 - https://www.youtube.com/watch?v=deJosbj0Np4 — Inside look: Spaceflight Sherpa-FX (GeekWire, 4 minutes, 1k+ views)
 
 ## Further reading

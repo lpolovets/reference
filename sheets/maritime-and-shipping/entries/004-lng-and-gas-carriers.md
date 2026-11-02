@@ -30,7 +30,7 @@ A 174,000 m³ LNG carrier costs $250–260M, a VLGC about $120–125M, and a mid
 
 ## Videos
 
-- https://www.youtube.com/watch?v=hl2LDTyTcSk — How LNG Carriers (Gas Tankers) Work - Design Types, Loading & Discharge (3D Living Studio, 8 minutes, 500k+ views)
+- https://www.youtube.com/watch?v=hl2LDTyTcSk — How Gas Carriers Work - LNG Carriers (3D Living Studio, 8 minutes, 500k+ views)
 - https://www.youtube.com/watch?v=XANWQO88BoE — Inside an LNG Cargo Ship: Carrying Gas at -162°C (marineinsight, 8 minutes, 500k+ views)
 
 ## Further reading

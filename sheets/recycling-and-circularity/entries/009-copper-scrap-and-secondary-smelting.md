@@ -31,7 +31,6 @@ Copper scrap is priced as a discount to the exchange, and that discount is the e
 ## Videos
 
 - https://www.youtube.com/watch?v=pz4dEgx1G_g — Mini copper scrap melting smelting refining furnace and eletro refining process (Metalcess, 5 minutes, 100k+ views)
-- https://www.youtube.com/watch?v=wrhrnky4cS4 — How Millions of Feet of Copper Wire Are Recycled In Factory – Massive Copper Recycling Line (The Factoran, 16 minutes, 100k+ views)
 
 ## Further reading
 

@@ -32,7 +32,7 @@ Converters trade on assay against a platinum-group basket, so the collector's ma
 
 ## Videos
 
-- https://www.youtube.com/watch?v=-YVXwqi0y-g — Smelting Catalytic Converters, Platinum, Palladium, & Rhodium (mbmmllc, 13 minutes, 500k+ views)
+- https://www.youtube.com/watch?v=-YVXwqi0y-g — Why Isn't Everyone Doing This?! Easy Smelting Method for Recovering PGMs from Catalytic Converters!! (mbmmllc, 13 minutes, 500k+ views)
 - https://www.youtube.com/watch?v=8F1aQjfxWDQ — Recycling Factories – Precious Metals Extraction of Catalytic Converters (Factories, 5 minutes, 10k+ views)
 
 ## Further reading

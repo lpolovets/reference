@@ -39,4 +39,4 @@ Transmit-receive module cost dominates the radar. Gallium nitride replaced galli
 
 ## Further reading
 
-[Phased Array Antenna (Radar Tutorial)](https://www.radartutorial.eu/06.antennas/Phased%20Array%20Antenna.en.html) · [Radar Principle (Radar Tutorial)](https://www.radartutorial.eu/01.basics/Radar%20Principle.en.html)
+[Phased Array Antenna (Radar Tutorial)](https://www.radartutorial.eu/06.antennas/en/an29.en.html) · [Radar Principle (Radar Tutorial)](https://www.radartutorial.eu/01.basics/en/rb06.en.html)

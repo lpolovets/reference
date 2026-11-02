@@ -30,7 +30,7 @@ Everything here is paid for by civil and defense agencies, and there is no comme
 
 ## Videos
 
-- https://www.youtube.com/watch?v=jvhdNuiyNOI — Building the Space Station Truss (and the Solar Panel Tear) (Jared Owen, 19 minutes, 1m+ views)
+- https://www.youtube.com/watch?v=jvhdNuiyNOI — Building the Space Station Truss Structure (Jared Owen, 19 minutes, 1m+ views)
 - https://www.youtube.com/watch?v=xP4_Q7iIlb0 — Building in Space! On-orbit Servicing, Assembly, and Manufacturing (OSAM) (NASA Langley Research Center, 4 minutes, 10k+ views)
 
 ## Further reading

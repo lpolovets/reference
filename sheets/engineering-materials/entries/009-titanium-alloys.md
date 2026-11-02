@@ -34,7 +34,7 @@ Titanium's price is a process problem, not a scarcity problem. The element is th
 ## Videos
 
 - https://www.youtube.com/watch?v=2Sc1DknXD0Y — How Is Titanium Made? (History of Simple Things, 9 minutes, 1m+ views)
-- https://www.youtube.com/watch?v=oWyrzZh3We0 — Titanium: Kroll Method (Innovations in Manufacturing at ORNL - Archived, 5 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=2Sc1DknXD0Y — How Is Titanium Made? (History of Simple Things, 9 minutes, 1m+ views)
 - https://www.youtube.com/watch?v=6lbg6JEnugs — The Problem With Titanium (Simple Things - Surprising Histories, 5 minutes, 50k+ views)
 
 ## Further reading

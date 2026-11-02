@@ -32,7 +32,7 @@ It sells today into aerospace and defense niches where Wh/kg is priced in thousa
 
 - https://www.youtube.com/watch?v=mSK7MIp3mxI — Lithium Dendrity (CATL, 3 minutes, 100k+ views)
 - https://www.youtube.com/watch?v=XP9w6mGo-mE — Scientists tackle the lithium dendrite problem in batteries (Chemical & Engineering News, 5 minutes, 10k+ views)
-- https://www.youtube.com/watch?v=Emv4I-IlTns — Solid Lithium Metal anode breakthrough. 750% LONGER life! (Just Have a Think, 11 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=Emv4I-IlTns — Batteries: Solid Lithium Metal anode breakthrough. 750% LONGER life! (Just Have a Think, 11 minutes, 100k+ views)
 
 ## Further reading
 

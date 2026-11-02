@@ -39,4 +39,4 @@ Hydraulics dominate where forces are enormous and the mass budget is generous: c
 
 ## Further reading
 
-[Electro-Hydraulic Valves: A Technical Look (Moog)](https://www.moog.com/content/dam/moog/literature/products/servovalves/industrial/Moog-ServoValves-Techn_Look-Overview-en.pdf) · [Understanding Electrohydraulic Valve Types (Power & Motion)](https://www.powermotiontech.com/hydraulics/hydraulic-valves/article/21883861/understanding-electrohydraulic-valve-types)
+[Electrohydraulic Valves: A Technical Look (Moog)](https://www.moog.com/content/dam/moog/literature/products/servovalves/Moog-ServoValves-Techn_Look-Overview-en.pdf) · [Understanding Electrohydraulic Valve Types (Power & Motion)](https://www.powermotiontech.com/hydraulics/hydraulic-valves/article/21883861/understanding-electrohydraulic-valve-types)

@@ -33,7 +33,7 @@ The commercial GEO order book collapsed when LEO broadband arrived and has partl
 
 ## Videos
 
-- https://www.youtube.com/watch?v=CCh3b2al7Dg — Assembly, Integration and Test (AIT) for Communication Satellite in Airbus Defence and Space (Airbus Defence and Space, 4 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=CCh3b2al7Dg — How Is a Communication Satellite Built and Tested for Space? | Airbus DS (Airbus Defence and Space, 4 minutes, 10k+ views)
 - https://www.youtube.com/watch?v=m5dXWJi4pIA — Inside A Satellite Clean Room (Tom Scott, 4 minutes, 500k+ views)
 - https://www.youtube.com/watch?v=RMfiMDCITRE — Spacebus NEO: 100% electric ! (Thales, 3 minutes, 5k+ views)
 

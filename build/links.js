@@ -49,6 +49,15 @@ const BLOCKS = [
   'thefabricator.com', 'nickelinstitute.org', 'intlmag.org', 'tms.org', 'icao.int',
   'sigmaaldrich.com', 'merckmillipore.com', 'uspnf.com', 'cytiva.com', 'apps.dtic.mil',
   'inst.eecs.berkeley.edu', 'scis.scichina.com',
+  // fda.gov is the worst member of this list and the reason to read it carefully.
+  // Every other host here refuses a fetcher with a 403, a challenge page or a
+  // timeout, all of which grade BLOCKED on their own. fda.gov returns a plain
+  // 404 instead, which is indistinguishable from a deleted page, so the 1 Nov
+  // 2026 run reported all 18 of its URLs as DEAD. Every one of them returns 200
+  // to a browser and to curl from a home connection; only the datacenter range
+  // gets the 404. Nothing in a response can tell those two apart, so the host
+  // has to be listed here by hand.
+  'fda.gov',
 ];
 const isBlockedHost = h => BLOCKS.some(b => h === b || h.endsWith('.' + b));
 

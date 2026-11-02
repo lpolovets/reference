@@ -30,7 +30,7 @@ Grinding is where the electricity bill lives, so a percentage point of energy ef
 
 ## Videos
 
-- https://www.youtube.com/watch?v=aVQ9B3LtCPk — How Ball Mills Work (Engineering and Mining) (saVRee, 7 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=aVQ9B3LtCPk — How Ball Mills Work | Engineering & Mining Explained (saVRee, 7 minutes, 100k+ views)
 - https://www.youtube.com/watch?v=QE9ur8b8FJs — PAI SAG Mill Training (Performance Associates International, 1 minute, 10k+ views)
 - https://www.youtube.com/watch?v=384nNgYXe1Q — Ball Mill Workflow 3D Animation-Zoneding Machine (Zoneding Machine, 3 minutes, 50k+ views)
 

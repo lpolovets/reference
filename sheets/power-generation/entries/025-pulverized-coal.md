@@ -37,7 +37,7 @@ The fleet runs on sunk capital. A paid-off unit's marginal cost is $31–114/MWh
 
 ## Videos
 
-- https://www.youtube.com/watch?v=eqn0VBVWS50 — How Coal Fired Thermal Power Stations Work (saVRee, 7 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=eqn0VBVWS50 — Coal-Fired Power Plants Explained | How They Work (saVRee, 7 minutes, 100k+ views)
 - https://www.youtube.com/watch?v=LnTU8BfpZ0g — How a Coal Power Plant Works | Step-by-Step Explanation (WebMaxi ENG, 5 minutes, 10k+ views)
 - https://www.youtube.com/watch?v=suCEKLCCgzw — The Epochal Ultra-Supercritical Steam Turbine (Asianometry, 23 minutes, 100k+ views)
 

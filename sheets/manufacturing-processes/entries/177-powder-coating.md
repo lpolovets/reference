@@ -40,4 +40,4 @@ Material utilization above 95% with reclaim is the number that beats liquid pain
 
 ## Further reading
 
-[Powder Coated Tough magazine (Powder Coating Institute)](https://www.powdercoatedtough.com/) · [User's Guide to Powder Coating (SME, via P2 InfoHouse)](https://p2infohouse.org/ref/33/32994.pdf)
+[Powder Coated Tough magazine (Powder Coating Institute)](https://www.powdercoatedtough.com/)

@@ -30,7 +30,6 @@ There is no revenue from shredding itself, only a lower cost for everything afte
 
 ## Videos
 
-- https://www.youtube.com/watch?v=8sz-7-pv92E — How Millions Of Old Cars Are Recycled Into New Steel | Massive Car Recycling Line (The Factoran, 16 minutes, 1m+ views)
 - https://www.youtube.com/watch?v=fH4WANyTffI — Inside an Industrial Scrap Metal Shredder | Full Process Tour & Metal Separation (Metro Group, 2 minutes, 10k+ views)
 
 ## Further reading

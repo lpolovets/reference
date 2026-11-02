@@ -30,7 +30,7 @@ Transport and placement at $5,000 to $10,000 a module is $800,000 to $1.6 millio
 
 ## Videos
 
-- https://www.youtube.com/watch?v=bxPEA8Pa-Xw — Two Story Modular Home Crane Set (Sunrise Housing Inc, 5 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=rvLV_0HeYuQ — Complete Delivery and Crane set of our 2025 Modular Home..The Grange (The Grange on Main, 17 minutes, 10k+ views)
 - https://www.youtube.com/watch?v=KdIvnIUw0tE — Prefab Apartment Buildings Stack Together Like Legos (KPIX | CBS NEWS BAY AREA, 2 minutes, 50k+ views)
 
 ## Further reading

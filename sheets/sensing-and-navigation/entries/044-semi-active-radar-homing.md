@@ -38,4 +38,4 @@ This is a legacy architecture in slow decline, sustained by large fielded invent
 
 ## Further reading
 
-[Radar Principle (Radar Tutorial)](https://www.radartutorial.eu/01.basics/Radar%20Principle.en.html) · [Defense Primer: U.S. Precision-Guided Munitions (Congressional Research Service)](https://www.everycrsreport.com/reports/IF11353.html)
+[Radar Principle (Radar Tutorial)](https://www.radartutorial.eu/01.basics/en/rb06.en.html) · [Defense Primer: U.S. Precision-Guided Munitions (Congressional Research Service)](https://www.everycrsreport.com/reports/IF11353.html)

@@ -35,7 +35,7 @@ Roughly a third of the cost is turbines and the rest is foundations, installatio
 
 - https://www.youtube.com/watch?v=mDvS7tizetg — How it all comes together at sea: installing an offshore wind farm (Siemens Gamesa, 4 minutes, 100k+ views)
 - https://www.youtube.com/watch?v=D5Dbt6ZX_uY — Monopile installation - Sandbank Offshore Wind Farm (TWD, 2 minutes, 50k+ views)
-- https://www.youtube.com/watch?v=xbuLc_nWfog — How Offshore Wind Farms Work (Ørsted, 2 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=mDvS7tizetg — How it all comes together at sea: installing an offshore wind farm (Siemens Gamesa, 4 minutes, 100k+ views)
 
 ## Further reading
 

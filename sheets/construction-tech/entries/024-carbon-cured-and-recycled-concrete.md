@@ -30,7 +30,7 @@ The unit economics of ready-mix injection are thin but they land on the right pa
 
 ## Videos
 
-- https://www.youtube.com/watch?v=6uFo_AKAJJA — CarbonCure's Concrete Technology: How it Works (CarbonCure Technologies, 2 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=DeKUlEOJ0p0 — This concrete traps CO2 emissions forever | Mission Ahead (CNN, 6 minutes, 100k+ views)
 - https://www.youtube.com/watch?v=hkhOVB1XFT4 — Startups capture CO2 and store it in concrete (Reuters, 4 minutes, 5k+ views)
 
 ## Further reading

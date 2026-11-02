@@ -33,9 +33,8 @@ Titanium sponge is sold on multi-year contracts rather than an exchange, so ther
 
 ## Videos
 
-- https://www.youtube.com/watch?v=oWyrzZh3We0 — Titanium: Kroll Method (Innovations in Manufacturing at ORNL - Archived, 5 minutes, 100k+ views)
 - https://www.youtube.com/watch?v=2Sc1DknXD0Y — How Is Titanium Made? (History of Simple Things, 9 minutes, 1m+ views)
-- https://www.youtube.com/watch?v=m9LyOK2G7gc — How Millions Of Tons Of Titanium Are Made - From Ore To The Strongest Metal (The Factoran, 16 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=2Sc1DknXD0Y — How Is Titanium Made? (History of Simple Things, 9 minutes, 1m+ views)
 
 ## Further reading
 

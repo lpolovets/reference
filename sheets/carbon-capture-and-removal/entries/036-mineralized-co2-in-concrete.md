@@ -30,7 +30,7 @@ The money comes from the cement saved, not from the CO2 stored. At 1–5 kg CO2 
 
 ## Videos
 
-- https://www.youtube.com/watch?v=6uFo_AKAJJA — CarbonCure's Concrete Technology: How it Works (CarbonCure Technologies, 2 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=DeKUlEOJ0p0 — This concrete traps CO2 emissions forever | Mission Ahead (CNN, 6 minutes, 100k+ views)
 - https://www.youtube.com/watch?v=hkhOVB1XFT4 — Startups capture CO2 and store it in concrete (Reuters, 4 minutes, 5k+ views)
 - https://www.youtube.com/watch?v=G5s9S8LvOAM — Capturing and Recycling CO2 in Ready-Mixed Concrete (BLOOM Centre, 3 minutes, 1k+ views)
 

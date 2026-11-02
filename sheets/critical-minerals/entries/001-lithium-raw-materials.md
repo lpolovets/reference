@@ -48,7 +48,7 @@ Spodumene is priced off the lithium chemical price with a lag, usually a formula
 
 - https://www.youtube.com/watch?v=nl0E-UhKB5E — The True Cost of Lithium Mining | True Cost | Business Insider (Business Insider, 16 minutes, 1m+ views)
 - https://www.youtube.com/watch?v=xkHuJe5i1rg — Lithium Brine Extraction: The Race to Power Tomorrow's World (The Deep Dive, 10 minutes, 10k+ views)
-- https://www.youtube.com/watch?v=NLUutKTsO2k — Revolutionising lithium production. From 18 months to 6 HOURS!! (Just Have a Think, 14 minutes, 50k+ views)
+- https://www.youtube.com/watch?v=NLUutKTsO2k — Batteries: Revolutionising lithium production. From 18 months to 6 HOURS!! (Just Have a Think, 14 minutes, 50k+ views)
 
 ## Further reading
 

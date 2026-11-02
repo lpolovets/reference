@@ -35,4 +35,4 @@ The cavern is why hydrogen wins seasonal storage on paper: it is the only reserv
 
 ## Further reading
 
-[Subsurface Hydrogen Storage: State of Knowledge and Research Recommendations (SHASTA, NETL/PNNL/LLNL)](https://www.netl.doe.gov/projects/files/SubsurfaceHydrogenandNaturalGasStorageStateofKnowledgeandResearchRecommendationsReport_041122.pdf) · [SHASTA Subsurface Hydrogen Storage Project (DOE/NETL)](https://edx.netl.doe.gov/sites/shasta/)
+[Subsurface Hydrogen Storage: State of Knowledge and Research Recommendations (SHASTA, NETL/PNNL/LLNL)](https://www.netl.doe.gov/projects/files/SubsurfaceHydrogenandNaturalGasStorageStateofKnowledgeandResearchRecommendationsReport_041122.pdf)

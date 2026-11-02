@@ -31,7 +31,7 @@ The money in a retrofit is spent on labor and disruption rather than on structur
 ## Videos
 
 - https://www.youtube.com/watch?v=2BOdJadZflw — How Empty Offices Become Apartments In The U.S. (CNBC, 12 minutes, 1m+ views)
-- https://www.youtube.com/watch?v=wN34zF7e4J8 — Retrofitting to Passive House standards (Just Have a Think, 14 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=wN34zF7e4J8 — Energy Efficiency: Retrofitting to Passive House standards (Just Have a Think, 14 minutes, 100k+ views)
 
 ## Further reading
 

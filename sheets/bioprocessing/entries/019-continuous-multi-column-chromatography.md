@@ -34,7 +34,6 @@ The skid costs more, the automation costs more, and the development and validati
 ## Videos
 
 - https://www.youtube.com/watch?v=Cj26kWxKNbo — Traditional Batch vs Multi-Column Chromatography (Sartorius, 3 minutes, 1m+ views)
-- https://www.youtube.com/watch?v=1pxFQDTuRvU — Tech Talk: Continuous Multi-Column Chromatography (Merck Life Science, 2 minutes, 1k+ views)
 
 ## Further reading
 

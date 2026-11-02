@@ -35,7 +35,7 @@ The economics are product economics rather than program economics: a vendor's ma
 
 - https://www.youtube.com/watch?v=BJHzMImd17A — Inside the Astranis Satellite Factory — How to Connect Millions (S3 | Science, Startups, & Stories, 14 minutes, 10k+ views)
 - https://www.youtube.com/watch?v=wuB3NeIp6CM — How to Build a Satellite (Astranis Space Technologies, 7 minutes, 10k+ views)
-- https://www.youtube.com/watch?v=fft0IWOwx9s — How a satellite is built. (Airbus Defence and Space, 2 minutes, 10k+ views)
+- https://www.youtube.com/watch?v=fft0IWOwx9s — How to Build a Satellite? A Deep Dive into Spacecraft Engineering | Airbus DS (Airbus Defence and Space, 2 minutes, 10k+ views)
 
 ## Further reading
 

@@ -34,7 +34,7 @@ Roughly two-thirds of project capex is the turbine and tower; the rest is founda
 ## Videos
 
 - https://www.youtube.com/watch?v=omMCobLZKhg — Inside a Wind Turbine: How It Really Works (First Gear Animations, 12 minutes, 100k+ views)
-- https://www.youtube.com/watch?v=qSWm_nprfqE — How do Wind Turbines work? (Sabin Civil Engineering, 5 minutes, 5m+ views)
+- https://www.youtube.com/watch?v=xy9nj94xvKA — How do wind turbines work? - Rebecca J. Barthelmie and Sara C. Pryor (TED-Ed, 5 minutes, 1m+ views)
 - https://www.youtube.com/watch?v=JJr4PIuQp2w — Wind turbine generators, HOW DO THEY WORK? (DOB-Academy, 4 minutes, 100k+ views)
 
 ## Further reading

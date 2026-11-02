@@ -34,7 +34,7 @@ Segmented molds at roughly $30–100k each, one per size and tread pattern with 
 
 ## Videos
 
-- https://www.youtube.com/watch?v=2WCAJR4_YYM — How Tires are Made (Factora, 8 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=0VM74BHb_s4 — How It's Made: Car Tires (Science Channel, 5 minutes, 1m+ views)
 - https://www.youtube.com/watch?v=UU_UUrn1TX8 — How Millions of TYRES Made in Factories? What Material is Used to Make TYRES? (Xprocess, 8 minutes, 10k+ views)
 - https://www.youtube.com/watch?v=l8QuSGI9fsU — How TIRES are MADE 🚗 | MANUFACTURING PROCESS 🏭 (Zona Fábricas BR, 10 minutes, 1k+ views)
 

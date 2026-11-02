@@ -40,7 +40,7 @@ Capex runs $1,500–4,000/kW but often only $20–80/kWh at 10+ hour durations, 
 
 ## Videos
 
-- https://www.youtube.com/watch?v=E-m7Psbuup0 — How Pumped Storage Power Plants Work (Hydropower) (saVRee, 5 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=E-m7Psbuup0 — Pumped Storage Hydropower Explained (saVRee, 5 minutes, 100k+ views)
 - https://www.youtube.com/watch?v=66YRCjkxIcg — World's Largest Batteries - (Pumped Storage) (Practical Engineering, 9 minutes, 1m+ views)
 - https://www.youtube.com/watch?v=ehskGrg8hEA — What is Pumped-Storage Hydropower (U.S. Department of Energy, 2 minutes, 50k+ views)
 

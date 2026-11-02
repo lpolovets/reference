@@ -31,7 +31,7 @@ The die inside an APD is not much more expensive to make than a photodiode's, an
 ## Videos
 
 - https://www.youtube.com/watch?v=jFV9yJnPBIw — What is Avalanche Photodiode? (Fiber Optics For Sale Co., 4 minutes, 50k+ views)
-- https://www.youtube.com/watch?v=anypWhEN0bo — Avalanche Photo Diode Explained | Basics, Structure, Working, Gain, Noise, Pros, Cons & Applications (Engineering Funda, 14 minutes, 1k+ views)
+- https://www.youtube.com/watch?v=anypWhEN0bo — Avalanche Photodiode (APD) | Structure, Working, Gain & Noise (Engineering Funda, 14 minutes, 5k+ views)
 
 ## Further reading
 

@@ -30,7 +30,7 @@ The process costs more and the die costs less, and the second effect wins. Five 
 
 ## Videos
 
-- https://www.youtube.com/watch?v=FQT47mx9Kf4 — Module 27 Super Junction MOSFETs (CUSP, 20 minutes, 5k+ views)
+- https://www.youtube.com/watch?v=FQT47mx9Kf4 — Super Junction MOSFETs (CUSP, 20 minutes, 5k+ views)
 - https://www.youtube.com/watch?v=xAak8v5IYHI — 600V Super Junction MOSFETs Tech Explainer | ROHM Semiconductor (ROHM Semiconductor, 2 minutes, 10k+ views)
 
 ## Further reading

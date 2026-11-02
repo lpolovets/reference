@@ -35,7 +35,6 @@ Medium dominates. Perfusion trades facility depreciation for consumable spend, s
 
 - https://www.youtube.com/watch?v=IWe1b-WyXv4 — How it Works: ATF (Alternating Tangential Flow) Filtration (Repligen, 1 minute, 10k+ views)
 - https://www.youtube.com/watch?v=vNo8-ndMpFw — Insights on Fed-batch vs Perfusion Processing and Upstream vs Downstream Process Improvements (PatheonChannel, 5 minutes, 5k+ views)
-- https://www.youtube.com/watch?v=qJ9du7nhEto — Perfusion and Intensified Fed-Batch (MilliporeSigma, 2 minutes, 1k+ views)
 
 ## Further reading
 

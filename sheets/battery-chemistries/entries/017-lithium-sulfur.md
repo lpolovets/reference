@@ -32,7 +32,7 @@ Bill-of-materials cost could undercut LFP while doubling its energy density, whi
 
 - https://www.youtube.com/watch?v=C0Uyf1SrWsY — Schematical principle of a lithium-sulfur battery (Fraunhofer IWS, 2 minutes, 10k+ views)
 - https://www.youtube.com/watch?v=L6T_J0Grh1o — Lithium sulfur battery | Working principle, Challenges of Li-S Battery (Owl WiS, 2 minutes, 5k+ views)
-- https://www.youtube.com/watch?v=mqH5yB9RB_Y — Lithium Sulfur batteries: SOLVED! Two new tech breakthroughs in the same week! (Just Have a Think, 12 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=mqH5yB9RB_Y — Batteries: Lithium Sulfur batteries: SOLVED! Two new tech breakthroughs in the same week! (Just Have a Think, 12 minutes, 100k+ views)
 
 ## Further reading
 

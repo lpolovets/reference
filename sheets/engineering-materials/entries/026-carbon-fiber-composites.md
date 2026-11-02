@@ -34,7 +34,7 @@ About half the cost of carbon fiber is the polyacrylonitrile precursor and the e
 ## Videos
 
 - https://www.youtube.com/watch?v=VNLWSu41Xts — How Carbon Fiber is Made in Factories | HOW IT'S MADE (How It's Made, 8 minutes, 100k+ views)
-- https://www.youtube.com/watch?v=4t1pBvTDNXE — Carbon Fiber: PAN Precursor Carbon Fiber (Innovations in Manufacturing at ORNL - Archived, 3 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=VNLWSu41Xts — How Carbon Fiber is Made in Factories | HOW IT'S MADE (How It's Made, 8 minutes, 100k+ views)
 - https://www.youtube.com/watch?v=9w6vVhRcM4U — BGA how to inspect a dent for delamination on a composite wing with a tap test (gordon macdonald, 1 minute, 10k+ views)
 
 ## Further reading

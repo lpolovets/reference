@@ -30,7 +30,7 @@ Fuel-cell stacks have fallen sharply in cost on the back of automotive programs,
 ## Videos
 
 - https://www.youtube.com/watch?v=_MsG9REFN3s — PEM Fuel Cell: How it works (Pragma Industries, 2 minutes, 100k+ views)
-- https://www.youtube.com/watch?v=gW4cNAs2z3M — ZeroAvia Technology Deep Dive - ZA600 Fuel Cell Power Generation (ZeroAvia, 8 minutes, 5k+ views)
+- https://www.youtube.com/watch?v=JhWG2qlNlCE — How Hydrogen Can Generate Electricity To Power Aircraft – FutureFlight (Aviation International News, 6 minutes, 1k+ views)
 - https://www.youtube.com/watch?v=egR5buArDO4 — Flying 523 Miles, Emissions-Free: Joby's Hydrogen-Electric Demonstrator (Joby Aviation, 3 minutes, 50k+ views)
 
 ## Further reading

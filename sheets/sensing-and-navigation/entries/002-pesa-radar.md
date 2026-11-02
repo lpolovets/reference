@@ -39,4 +39,4 @@ PESA is a mature and largely sunset architecture in the West, sustained by upgra
 
 ## Further reading
 
-[Phased Array Antenna (Radar Tutorial)](https://www.radartutorial.eu/06.antennas/Phased%20Array%20Antenna.en.html) · [Navy Aegis Ballistic Missile Defense (BMD) Program (Congressional Research Service)](https://www.everycrsreport.com/reports/RL33745.html)
+[Phased Array Antenna (Radar Tutorial)](https://www.radartutorial.eu/06.antennas/en/an29.en.html) · [Navy Aegis Ballistic Missile Defense (BMD) Program (Congressional Research Service)](https://www.everycrsreport.com/reports/RL33745.html)

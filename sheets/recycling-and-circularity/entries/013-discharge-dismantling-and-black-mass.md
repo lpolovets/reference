@@ -30,7 +30,6 @@ Black mass trades as a payable percentage of contained metal, not at a headline 
 
 ## Videos
 
-- https://www.youtube.com/watch?v=XW_lkttv-g4 — How Millions Of Batteries Are Recycled Every Day - Inside Battery Recycling Mega Factory (The Factoran, 16 minutes, 100k+ views)
 - https://www.youtube.com/watch?v=AB1cia0zCf8 — Recycling of Lithium ion Battery: Shredding and Separating Line (Henan Recycle Env Protection Equipment Co., Ltd, 7 minutes, 50k+ views)
 
 ## Further reading

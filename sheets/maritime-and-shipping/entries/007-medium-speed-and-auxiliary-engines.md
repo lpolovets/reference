@@ -30,7 +30,7 @@ Installed cost runs roughly $300–600/kW, above a two-stroke per kilowatt, and 
 
 ## Videos
 
-- https://www.youtube.com/watch?v=S68cqWVgIPw — How a Ship Engine Works - 4 Stroke Marine Diesel Engine (3D Living Studio, 8 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=S68cqWVgIPw — How a Ship Engine Works - 4-Stroke Marine Diesel Engine (3D Living Studio, 8 minutes, 100k+ views)
 - https://www.youtube.com/watch?v=eRRChImarPw — How Electricity is Generated on Ships? (marineinsight, 3 minutes, 50k+ views)
 
 ## Further reading

@@ -32,7 +32,7 @@ Purely a research option. Its role in analysis is as a ceiling reference: any pi
 
 - https://www.youtube.com/watch?v=XHpXsft3y00 — Lithium-Air Battery: Promise and Challenges (American Chemical Society, 6 minutes, 10k+ views)
 - https://www.youtube.com/watch?v=8pMFLpiqPAc — IBM Battery 500: A look inside a lithium-air battery (IBM Research, 1 minute, 100k+ views)
-- https://www.youtube.com/watch?v=AGy3BddUvC8 — Batteries of the Future - Lithium-Air (Evans Electric, 5 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=Y1AfP4IXMeE — Why The Biggest Battery Company Is Betting On Lithium Air (Undecided with Matt Ferrell, 13 minutes, 500k+ views)
 
 ## Further reading
 

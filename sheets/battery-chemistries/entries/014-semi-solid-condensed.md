@@ -30,7 +30,7 @@ The value proposition is mostly on the cost side: 24M-style processes remove dry
 
 ## Videos
 
-- https://www.youtube.com/watch?v=Ama2vifZnS4 — Would you be OK with a Semi Solid State? (Just Have a Think, 13 minutes, 100k+ views)
+- https://www.youtube.com/watch?v=Ama2vifZnS4 — Batteries: Would you be OK with a Semi Solid State? (Just Have a Think, 13 minutes, 100k+ views)
 - https://www.youtube.com/watch?v=_ajUhglWpOo — 1000km or 1500km? Go Inside CATL Qilin III & Condensed Battery (CATL, 4 minutes, 100k+ views)
 - https://www.youtube.com/watch?v=81rTs8ZKEO4 — WeLion Semi-Solid State Batteries (Roar into Detroit) (Mike the Car Geek, 4 minutes, 1k+ views)
 

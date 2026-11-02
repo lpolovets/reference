@@ -38,4 +38,4 @@ Two things dominate the outlook. Upstream, everything starts from fluorspar, whi
 
 ## Further reading
 
-[Guide for the Safe Handling of Fluoropolymer Resins (Plastics Europe)](https://fluoropolymers.eu/wp-content/uploads/2025/09/FPG-Safe-Handling-Guide-for-Fluoropolymer-Resins-.pdf)
+[Guide for the Safe Handling of Fluoropolymer Resins (Plastics Europe)](https://www.fluoropolymers.eu/wp-content/uploads/2026/06/FPG-Safe-Handling-Guide-for-Fluoropolymer-Resins-.pdf)
